@@ -89,10 +89,10 @@ export function CanvasComp(props:{
 
 
   return(
-    <div className='overflow-y-scroll' 
-   onScroll={onSideScroll}>
+    // <div className='overflow-y-scroll' 
+    <div className="w-2/3"
+      onScroll={onSideScroll} >
       <canvas ref={canvas_ref} onClick={onCanvasPress} 
-      
           width={props.width} height={props.height}
           style={{border:"3px dotted #000000"}}/>
     </div>

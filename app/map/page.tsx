@@ -10,7 +10,7 @@ export default function SendPage()
   //Add theme here and that will be different between pages 
 
   return (
-  <GotPage length={900} width={1500} startIcon={"village"} title={"TenTowns"} 
+  <GotPage length={900} width={1400} startIcon={"village"} title={"TenTowns"} 
   background={undefined} pageRepList={iconList} clickRadius={28/2}/>
   )
 }
