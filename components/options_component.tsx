@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function CardSelect(props: {mode:string, setMode:(selected: string) => void, 
+export function CardSelect(props: {
     setCurrentItem:React.Dispatch<React.SetStateAction<string>>, 
     currentItem:string, pageRepList:string[],
     inputButt: () => void, exportButt:() => void ,
@@ -12,8 +12,8 @@ export function CardSelect(props: {mode:string, setMode:(selected: string) => vo
                         left: "5px",
                         backgroundColor: "rgba(156, 153, 153, 0.75)"}}>
         {/* <DemoCard demo={props.demoButt}/> */}
-        <label>Pick an Action</label>
-        <ModeSelectCard mode={props.mode} setMode={props.setMode} setCurrentItem={props.setCurrentItem} 
+        {/* <label>Pick an Action</label> */}
+        <ModeSelectCard setCurrentItem={props.setCurrentItem} 
             currentItem={props.currentItem} pageRepList ={props.pageRepList}/>
         <label>Changing the Background</label>
         <BackgroundCard backgroundButt={props.backgroundButt}/>
@@ -36,21 +36,14 @@ function BackgroundCard(props:{backgroundButt:()=>void}){
     </div>
 }
 
-function ModeSelectCard(props:{mode:string,setMode:(selected: string) => void,
+function ModeSelectCard(props:{
         setCurrentItem:React.Dispatch<React.SetStateAction<string>>, 
         currentItem:string, pageRepList:string[],})
     {
         return (
         <div>
-            <select id={"action_select"} value={props.mode} onChange={(event)=> props.setMode(event.target.value)}>
-                <option value="select">Journal</option> 
-                <option value="place">Place</option>
-                <option  value="remove" >Remove</option>
-            </select>
-            {props.mode === "place" &&
                 <IconDropdown setCurrentItem={props.setCurrentItem} 
                     currentItem={props.currentItem} pageRepList ={props.pageRepList}/>
-            }
         </div>
         )
 }

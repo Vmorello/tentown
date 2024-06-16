@@ -2,41 +2,53 @@ import React from "react"
 
 import {representation} from "./representation_page"
 
-export function Diary(props:{diaryInfo:{x:number,y:number,info_on_location:Array<representation>}, 
-                            addLink:(id:string)=>()=>void, 
-                            goToNestedLink:(childID:string, parentID:string) => () => void ,
-                            currentRepInfo:Array<representation>,
-                            setCurrentRepInfo:React.Dispatch<React.SetStateAction<representation[]>>, 
-                            currentPageID:string})   
+interface dairyType{
+  diaryInfo:{x:number,y:number,info_on_location:Array<representation>}, 
+  addLink:(id:string)=>()=>void, 
+  goToNestedLink:(childID:string, parentID:string) => () => void ,
+  currentRepInfo:Array<representation>,
+  setCurrentRepInfo:React.Dispatch<React.SetStateAction<representation[]>>, 
+  currentPageID:string,
+  deleteFunc: (id:string)=>()=>void
+}
+
+export function Diary({diaryInfo, 
+                        addLink, 
+                        goToNestedLink,
+                        currentRepInfo,
+                        setCurrentRepInfo, 
+                        currentPageID,
+                        deleteFunc
+                      }:dairyType)   
   {
 
   const newTextBoxAdded = (item:representation)=> ()=>{
     // console.log(item)
-    const info_copy = props.currentRepInfo.slice()
+    const info_copy = currentRepInfo.slice()
     const listIndex = info_copy.findIndex(indexOf => item.id === indexOf.id)
     info_copy[listIndex]["data"].push("write here")
 
-    props.setCurrentRepInfo(info_copy)
+    setCurrentRepInfo(info_copy)
   }  
 
   const titleOnChange = (item:representation)=>((event:React.ChangeEvent<HTMLInputElement>) => {
-    const info_copy = props.currentRepInfo.slice()
+    const info_copy = currentRepInfo.slice()
     const listIndex = info_copy.findIndex(indexOf => item.id === indexOf.id)
     info_copy[listIndex]["visibleName"] = event.target.value
-    props.setCurrentRepInfo(info_copy)
+    setCurrentRepInfo(info_copy)
   })
 
   const CatagoryOnChange = (repID:string, indexOfPara:number)=>((event:React.ChangeEvent<HTMLTextAreaElement>) => {
-    const info_copy = props.currentRepInfo.slice()
+    const info_copy = currentRepInfo.slice()
     const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
     info_copy[listIndex]["data"][indexOfPara] = event.target.value
-    props.setCurrentRepInfo(info_copy)
+    setCurrentRepInfo(info_copy)
   })
 
-  const info_list =  props.diaryInfo.info_on_location.map((item:representation) => {
+  const info_list =  diaryInfo.info_on_location.map((item:representation) => {
     // console.log(item)
       return (
-      <div key={`journalRep${item.id}`}>
+          <div key={`journalRep${item.id}`}>
           <input value={item.visibleName}
           onChange={titleOnChange(item)}
           id={`journalRepTitle${item.id}`}
@@ -48,16 +60,18 @@ export function Diary(props:{diaryInfo:{x:number,y:number,info_on_location:Array
           <div>
               <button onClick={newTextBoxAdded(item)} >New Entry</button>
           </div>
-          <DairyLink link={item.link} goToNestedLink={props.goToNestedLink(item.id, props.currentPageID)} 
-          addLink={props.addLink(item.id)} repID={item.id} currentPageID={props.currentPageID}/>
+          <DairyLink link={item.link} goToNestedLink={goToNestedLink(item.id, currentPageID)} 
+              addLink={addLink(item.id)} repID={item.id} currentPageID={currentPageID}/>
+          <hr style={{height:`20px`,backgroundColor:`grey`}}/>
+          <button onClick={deleteFunc(item.id)} >❌Delete❌</button>
       </div>
       )
   })
 
   return (<div  style={{
               position: "absolute",
-              left: `${props.diaryInfo.x}px`,
-              top: `${props.diaryInfo.y}px`,
+              left: `${diaryInfo.x}px`,
+              top: `${diaryInfo.y}px`,
               backgroundColor: 'violet'
             }}>{info_list}</div>
     )

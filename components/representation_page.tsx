@@ -3,7 +3,7 @@
 import React, { useState, useEffect, ChangeEvent } from 'react';
 import Head from "next/head";
 
-// import {saveAs} from 'file-saver';
+import {saveAs} from 'file-saver';
 import JSZip from 'jszip';
 
 import {CanvasComp} from './canvas_component'
@@ -18,8 +18,6 @@ interface repPage {
   title: string
   background?: string|Blob
   pageRepList: Array<string>
-  clickRadius: number
-  // demoPath:string
 }
 
 export type representation = {icon: string, 
@@ -74,79 +72,76 @@ export function GotPage(props:repPage) {
 
   //================= Main Interaction with canvas with control card ==============
   
-  const addRep = (x:number, y:number,offsetX:number,offsetY:number) =>{
-    x = x + offsetX 
-    y = y + offsetY 
-    // console.log(`x:${x} & y:${y} adding ${currentItem}`)
-    // console.log(`x:${x} & y:${y} adding ${currentItem} \n Offsets are x:${offsetX} & y:${offsetY}`)
+  const addRep = (x:number, y:number) =>{
+
+    const radius = getRadius(currentItem)
+
     const info_copy = currentRepInfo.slice()
     info_copy.push({
         icon: currentItem,
-        x: x,
-        y: y,
+        x: x -radius,
+        y: y -radius,
         data: [],
         id:idNumeration,
         visibleName : currentItem,
-        radius:props.clickRadius,
-        link:false
-
+        radius:radius,
+        link:false,
     })
-    // console.log(idNumeration+1)
     setidNumeration(String(Number(idNumeration)+1))
     setCurrentRepInfo(info_copy)
   }
 
-
-  const removeRep = (x:number,y:number,offsetX:number,offsetY:number) => {
-
-    x = x + offsetX
-    y = y + offsetY
-
-    let info_copy = currentRepInfo.slice()
-
-    // see if you test this vs select 
-    const notInRange = (listOut:Array<representation>,item:representation)=> {
-      if ( ! (item["x"]+ item["radius"] > x && 
-        item["x"]- item["radius"] < x && 
-        item["y"]+ item["radius"] > y && 
-        item["y"]- item["radius"] < y)){
-          listOut.push(item)
-        }
-      return listOut
+  // this will be replaced in time, just not soon 
+  const getRadius = (selectedItem:string) => {
+    if (selectedItem === "cover"){
+      return 127
     }
-    info_copy = info_copy.reduce(notInRange,[])
-
-    setCurrentRepInfo(info_copy)
+    return 14
   }
 
-
-  const selection = (x:number,y:number,offsetX:number,offsetY:number) => {
+  const canvasOnclickSwitch = (x:number,y:number,offsetX:number,offsetY:number) =>{
     const selectX=x +offsetX
     const selectY=y +offsetY
 
       const info_on_location = currentRepInfo.filter((item) => 
-        {return item["x"]+ item["radius"] > selectX && 
-            item["x"]- item["radius"] < selectX && 
-            item["y"]+ item["radius"] > selectY && 
-            item["y"]- item["radius"] < selectY})
-
-      // console.log(`${x} & ${y} ${info_on_location.entries}`)
-      setDiary({
+        {console.log(`${item.icon} is checking with x:${item.x}+-${item.radius}  y:${item.y}+-${item.radius} vs the click x:${selectX} y:${selectY} `);
+        return item["x"]+ (2*item["radius"]) > selectX && 
+            item["x"] < selectX && 
+            item["y"]+ (2*item["radius"]) > selectY && 
+            item["y"] < selectY})
+      
+        if (info_on_location.length > 0){
+          console.log("i see something")
+          setDiary({
             x:x, 
             y:y,
             info_on_location: info_on_location
           })
+        }
+        else{
+          console.log("i see nothing")
+          addRep(selectX,selectY)
+        }
+
+        console.log(`clicked at x:${x} y:${y}. offset set at x:${offsetX} y:${offsetY}. The info at this location found is ${info_on_location}`)
+  } 
+
+  const removeRep = (id:string) =>  () => {
+
+    let info_copy = currentRepInfo.slice()
+
+    // see if you test this vs select 
+    const notThisId = (listOut:Array<representation>,item:representation)=> {
+      if ( ! (item["id"]=== id)){
+          listOut.push(item)
+        }
+      return listOut
+    }
+    info_copy = info_copy.reduce(notThisId,[])
+    resetDiary()
+    setCurrentRepInfo(info_copy)
   }
 
-  const canvasOnclickSwitch = (x:number,y:number,offsetX:number,offsetY:number) =>{
-    //console.log(event)
-    return modeEvents[mode](x, y, offsetX- props.clickRadius , offsetY- props.clickRadius )
-  } 
-  const modeEvents:{ [key: string]: (x:number,y:number,offsetX:number,offsetY:number) =>void }  = {
-    "place": addRep,
-    "select":selection,
-    "remove":removeRep
-  }
 
   //================ Sub-map tranfers =====================
 
@@ -154,8 +149,6 @@ export function GotPage(props:repPage) {
   const goToNestedLink = (childID:string, parentID:string) => () => {
 
     // console.log(allBGsPlusRepInfo)
-
-    //const allBG_RepCopy = JSON.parse(JSON.stringify(allBGsPlusRepInfo))
     allBGsPlusRepInfo[parentID] = {width:width, length:length, background: background, 
       repInfo: currentRepInfo, repNumeration: idNumeration,}
 
@@ -173,8 +166,6 @@ export function GotPage(props:repPage) {
     resetDiary()
   } 
 
-
-
   const addNestedRep = (id:string) => () => {
 
     const info_copy = currentRepInfo.slice()
@@ -182,7 +173,6 @@ export function GotPage(props:repPage) {
     info_copy[listIndex]["link"] = true
     setCurrentRepInfo(info_copy)
 
-    //const allBG_RepCopy = JSON.parse(JSON.stringify(allBGsPlusRepInfo))
     allBGsPlusRepInfo[id] = {width:1000, length:920, background: undefined,repNumeration: "1",
       repInfo:[{icon:"back_button",x:20,y:20,data:[], id:"index", visibleName:"Go Back", link:true, radius:64}]
     }
@@ -200,12 +190,6 @@ export function GotPage(props:repPage) {
     });
   }
   
-  const setModeDReset =(selected:string) => {
-    //console.log(event)
-    if(selected!=="select"){resetDiary()}
-    setMode(selected)
-  }
-
   //==================Card button Actions =======================
 
   const  importButt = () => {
@@ -217,15 +201,6 @@ export function GotPage(props:repPage) {
       zipFile = inputFileObject.files[0]
       buildFromZip(zipFile)
     }
-
-
-  // const demoButt = () => {
-  //     console.log(props.demoPath)
-  //     fetch(props.demoPath)
-  //       .then((rep:Response)=>{return(rep.blob())})
-  //       .then((blob:Blob)=> {buildFromZip(blob)})
-  //     //zipFile = new File(fileName,)
-  // }
     
 
   const buildFromZip = async(zipFile:Blob) =>{
@@ -237,37 +212,37 @@ export function GotPage(props:repPage) {
 
     const zip = await JSZip.loadAsync(zipFile)
 
-    await zip.forEach( async (relativePath, file)=>{
-      if (file.dir) {return}
+    zip.forEach(async (relativePath, file) => {
+      if (file.dir) { return; }
 
       //console.log("iterating on", file);
-      const path = relativePath.split("/")
+      const path = relativePath.split("/");
 
-      const filename = path[1]
-      const saveIndex = path[0]
+      const filename = path[1];
+      const saveIndex = path[0];
 
-      const loadFunction = getLoadFunction(filename)
-      if (loadFunction===undefined) {return}
+      const loadFunction = getLoadFunction(filename);
+      if (loadFunction === undefined) { return; }
 
-      await loadFunction(file, newBGsPlusRepInfo, saveIndex)
+      await loadFunction(file, newBGsPlusRepInfo, saveIndex);
 
       // console.log("saveIndex" , saveIndex )
-      if (saveIndex==="index"){
-        setCurrentRepInfo(newBGsPlusRepInfo.index.repInfo) 
-        setLength(newBGsPlusRepInfo.index.length)
-        setWidth(newBGsPlusRepInfo.index.width)
-        setidNumeration(newBGsPlusRepInfo.index.repNumeration)
+      if (saveIndex === "index") {
+        console.log(`placing ${(newBGsPlusRepInfo.index.repInfo[0].icon)} at x:${newBGsPlusRepInfo.index.repInfo[0].x} and y:${newBGsPlusRepInfo.index.repInfo[0].y} on load`);
+        setCurrentRepInfo(newBGsPlusRepInfo.index.repInfo);
+        setLength(newBGsPlusRepInfo.index.length);
+        setWidth(newBGsPlusRepInfo.index.width);
+        setidNumeration(newBGsPlusRepInfo.index.repNumeration);
 
-        setCurrentPageID("index")
-        
-        setBackground(newBGsPlusRepInfo.index.background)
+        setCurrentPageID("index");
+
+        setBackground(newBGsPlusRepInfo.index.background);
 
       }
 
     })
     // console.log("newAllInfo" , newBGsPlusRepInfo)
     setAllBGsPlusRepInfo(newBGsPlusRepInfo) 
-    setMode("select")
   }
 
   const importJsonRep = async (jsonFile:JSZip.JSZipObject, newBGsPlusRepInfo:dict_fullPageRepresentation, saveIndex:string)=> {
@@ -299,7 +274,6 @@ export function GotPage(props:repPage) {
 
   const exportButt = ()=> {
 
-      //const allBG_RepCopy = JSON.parse(JSON.stringify(allBGsPlusRepInfo))
       allBGsPlusRepInfo[currentPageID] = {width:width, length:length, background: background, 
         repInfo: currentRepInfo, repNumeration: idNumeration,}
       setAllBGsPlusRepInfo(allBGsPlusRepInfo)
@@ -318,22 +292,22 @@ export function GotPage(props:repPage) {
         folder!.file("rep.json", valueString)
         
         try{
-          //console.log()
+          console.log("file is coming together")
           folder!.file("map.png", valueObject.background as Blob)
         }catch (error) {
           console.log("Catching Error:" + error)
         }
         console.log("in the end I did nothing ;)")
       })
-      //saveZip(zip)
+      saveZip(zip)
   }
 
-  // const saveZip = (zip:JSZip) => {
-  //   zip.generateAsync({type:"blob"})
-  //   .then((blob:Blob)=> {
-  //       saveAs(blob, `${props.title}.zip`);
-  //   });
-  // }
+  const saveZip = (zip:JSZip) => {
+    zip.generateAsync({type:"blob"})
+    .then((blob:Blob)=> {
+        saveAs(blob, `${props.title}.zip`);
+    });
+  }
 
   const backgroundButt = ()=> {
       const inputFileObject = document.getElementById(`backgroundLoadInsert`) as HTMLInputElement;
@@ -352,10 +326,15 @@ export function GotPage(props:repPage) {
         setWidth(tempImage.naturalWidth)
       })
       tempImage.src = imageURL
-
-      //resetRep()
-      
   }
+
+
+
+
+
+
+
+
 
   return(
     <>
@@ -368,12 +347,12 @@ export function GotPage(props:repPage) {
               width={width} height={length} currentItem={currentItem} mode={mode}
               background={background}/>
         
-        <CardSelect mode={mode} setMode={setModeDReset} setCurrentItem={setCurrentItem} 
+        <CardSelect setCurrentItem={setCurrentItem} 
                     currentItem={currentItem} pageRepList ={props.pageRepList}
                     inputButt={importButt} exportButt={exportButt} 
                     backgroundButt={backgroundButt}   />
 
-      <Diary diaryInfo={diary} addLink={addNestedRep} goToNestedLink={goToNestedLink}
+      <Diary diaryInfo={diary} addLink={addNestedRep} goToNestedLink={goToNestedLink} deleteFunc ={removeRep}
             currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} currentPageID={currentPageID}/>
 
       <Debug pageID={currentPageID}  />

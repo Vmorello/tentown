@@ -1,8 +1,18 @@
-import {CanvasUtilBase} from "../components/canvas_component"
-
 import { get_image } from "./image_lookup";
 import { getVisibleItemBy, VisibleItem} from "./visibleRep";
 
+
+export interface CanvasUtilBase {
+  canvas:HTMLCanvasElement
+  ctx:CanvasRenderingContext2D
+  setup(props:any): void
+  startAnimation(props:any): (()=> void)
+  updateOffset:(offset:{x:number,y:number})=>void
+  offset:{
+    x: number,
+    y: number
+  }
+}
 
 interface setupInit {
   background?: string|Blob

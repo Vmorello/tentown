@@ -2,19 +2,9 @@
 
 import React, { useState, useEffect, UIEventHandler } from 'react';
 
-import {CanvasControl} from '../classes/canvas_utils';
+import {CanvasControl,CanvasUtilBase} from '../classes/canvas_utils';
 
-export interface CanvasUtilBase {
-  canvas:HTMLCanvasElement
-  ctx:CanvasRenderingContext2D
-  setup(props:any): void
-  startAnimation(props:any): (()=> void)
-  updateOffset:(offset:{x:number,y:number})=>void
-  offset:{
-    x: number,
-    y: number
-  }
-}
+
 
 
 type canvasStateType = {
