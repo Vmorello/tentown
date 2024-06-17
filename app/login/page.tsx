@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Messages from './messages'
+// import Messages from './messages'
 
 export default function Login() {
   return (
@@ -58,7 +58,7 @@ export default function Login() {
         >
           Sign Up
         </button>
-        <Messages />
+        {/* <Messages /> */}
       </form>
     </div>
   )
