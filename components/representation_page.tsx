@@ -12,7 +12,7 @@ import {CardSelect} from './options_component'
 import {Debug} from './debug_'
 
 interface repPage {
-  length: number 
+  height: number 
   width: number 
   startIcon: string
   title: string
@@ -33,7 +33,7 @@ type fullPageRepresentation = {
   background?: string|Blob 
   repInfo: Array<representation>
   width:number 
-  length:number
+  height:number
   repNumeration:string
   parentID?:string
 }
@@ -49,7 +49,7 @@ export function GotPage(props:repPage) {
       { background: props.background, 
         repInfo:[] as Array<representation>, 
         width:props.width, 
-        length:props.length,
+        height:props.height,
         repNumeration:"index",
       }
     } as dict_fullPageRepresentation)
@@ -58,7 +58,7 @@ export function GotPage(props:repPage) {
 
   const [mode,setMode] = useState("place");
   //const [user,setUser] = useState(props.user);
-  const [length,setLength] = useState(props.length);
+  const [height,setHeight] = useState(props.height);
   const [width,setWidth] = useState(props.width);
   const [currentItem, setCurrentItem] = useState(props.startIcon);
   const [diary,setDiary] = useState({
@@ -103,15 +103,15 @@ export function GotPage(props:repPage) {
     const selectX=x +offsetX
     const selectY=y +offsetY
 
-      const info_on_location = currentRepInfo.filter((item) => 
-        {console.log(`${item.icon} is checking with x:${item.x}+-${item.radius}  y:${item.y}+-${item.radius} vs the click x:${selectX} y:${selectY} `);
+      const info_on_location = currentRepInfo.filter((item) => {
+        // console.log(`${item.icon} is checking with x:${item.x}+-${item.radius}  y:${item.y}+-${item.radius} vs the click x:${selectX} y:${selectY} `);
         return item["x"]+ (2*item["radius"]) > selectX && 
             item["x"] < selectX && 
             item["y"]+ (2*item["radius"]) > selectY && 
             item["y"] < selectY})
       
         if (info_on_location.length > 0){
-          console.log("i see something")
+          // console.log("i see something")
           setDiary({
             x:x, 
             y:y,
@@ -119,7 +119,7 @@ export function GotPage(props:repPage) {
           })
         }
         else{
-          console.log("i see nothing")
+          // console.log("i see nothing")
           addRep(selectX,selectY)
         }
 
@@ -149,14 +149,14 @@ export function GotPage(props:repPage) {
   const goToNestedLink = (childID:string, parentID:string) => () => {
 
     // console.log(allBGsPlusRepInfo)
-    allBGsPlusRepInfo[parentID] = {width:width, length:length, background: background, 
+    allBGsPlusRepInfo[parentID] = {width:width, height:height, background: background, 
       repInfo: currentRepInfo, repNumeration: idNumeration,}
 
     // console.log(allBGsPlusRepInfo)
     
     setCurrentRepInfo(allBGsPlusRepInfo[childID].repInfo) 
     setBackground(allBGsPlusRepInfo[childID].background)
-    setLength(allBGsPlusRepInfo[childID].length)
+    setHeight(allBGsPlusRepInfo[childID].height)
     setWidth(allBGsPlusRepInfo[childID].width)
     setidNumeration(allBGsPlusRepInfo[childID].repNumeration)
 
@@ -173,7 +173,7 @@ export function GotPage(props:repPage) {
     info_copy[listIndex]["link"] = true
     setCurrentRepInfo(info_copy)
 
-    allBGsPlusRepInfo[id] = {width:1000, length:920, background: undefined,repNumeration: "1",
+    allBGsPlusRepInfo[id] = {width:1000, height:920, background: undefined,repNumeration: "1",
       repInfo:[{icon:"back_button",x:20,y:20,data:[], id:"index", visibleName:"Go Back", link:true, radius:64}]
     }
     setAllBGsPlusRepInfo(allBGsPlusRepInfo)
@@ -230,7 +230,7 @@ export function GotPage(props:repPage) {
       if (saveIndex === "index") {
         console.log(`placing ${(newBGsPlusRepInfo.index.repInfo[0].icon)} at x:${newBGsPlusRepInfo.index.repInfo[0].x} and y:${newBGsPlusRepInfo.index.repInfo[0].y} on load`);
         setCurrentRepInfo(newBGsPlusRepInfo.index.repInfo);
-        setLength(newBGsPlusRepInfo.index.length);
+        setHeight(newBGsPlusRepInfo.index.height);
         setWidth(newBGsPlusRepInfo.index.width);
         setidNumeration(newBGsPlusRepInfo.index.repNumeration);
 
@@ -274,7 +274,7 @@ export function GotPage(props:repPage) {
 
   const exportButt = ()=> {
 
-      allBGsPlusRepInfo[currentPageID] = {width:width, length:length, background: background, 
+      allBGsPlusRepInfo[currentPageID] = {width:width, height:height, background: background, 
         repInfo: currentRepInfo, repNumeration: idNumeration,}
       setAllBGsPlusRepInfo(allBGsPlusRepInfo)
 
@@ -322,7 +322,7 @@ export function GotPage(props:repPage) {
       const imageURL = URL.createObjectURL(inputFile)
       const tempImage = new Image();
       tempImage.addEventListener("load", ()=>{
-        setLength(tempImage.naturalHeight)
+        setHeight(tempImage.naturalHeight)
         setWidth(tempImage.naturalWidth)
       })
       tempImage.src = imageURL
@@ -344,7 +344,7 @@ export function GotPage(props:repPage) {
       </Head>
       <div>
         <CanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch} 
-              width={width} height={length} currentItem={currentItem} mode={mode}
+              width={width} height={height} currentItem={currentItem} mode={mode}
               background={background}/>
         
         <CardSelect setCurrentItem={setCurrentItem} 
