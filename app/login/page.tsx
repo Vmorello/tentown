@@ -1,5 +1,6 @@
 import Link from 'next/link'
-// import Messages from './messages'
+import Messages from './messages'
+import { Suspense } from 'react'
 
 export default function Login() {
   return (
@@ -58,7 +59,9 @@ export default function Login() {
         >
           Sign Up
         </button>
-        {/* <Messages /> */}
+        <Suspense>
+          <Messages />
+        </Suspense>
       </form>
     </div>
   )
