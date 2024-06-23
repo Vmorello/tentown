@@ -34,7 +34,7 @@ export function Diary({diaryInfo,
   const titleOnChange = (item:representation)=>((event:React.ChangeEvent<HTMLInputElement>) => {
     const info_copy = currentRepInfo.slice()
     const listIndex = info_copy.findIndex(indexOf => item.id === indexOf.id)
-    info_copy[listIndex]["visibleName"] = event.target.value
+    info_copy[listIndex].visible_name = event.target.value
     setCurrentRepInfo(info_copy)
   })
 
@@ -49,7 +49,7 @@ export function Diary({diaryInfo,
     // console.log(item)
       return (
           <div key={`journalRep${item.id}`}>
-          <input value={item.visibleName}
+          <input value={item.visible_name}
           onChange={titleOnChange(item)}
           id={`journalRepTitle${item.id}`}
           style={{
@@ -62,7 +62,7 @@ export function Diary({diaryInfo,
           </div>
           <DairyLink link={item.link} goToNestedLink={goToNestedLink(item.id, currentPageID)} 
               addLink={addLink(item.id)} repID={item.id} currentPageID={currentPageID}/>
-          <hr style={{height:`20px`,backgroundColor:`grey`}}/>
+          <hr style={{height:`15px`,backgroundColor:`grey`}}/>
           <button onClick={deleteFunc(item.id)} >❌Delete❌</button>
       </div>
       )

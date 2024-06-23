@@ -1,78 +1,78 @@
 import React from 'react';
 
-export function CardSelect(props: {
-    setCurrentItem:React.Dispatch<React.SetStateAction<string>>, 
-    currentItem:string, pageRepList:string[],
-    inputButt: () => void, exportButt:() => void ,
-    backgroundButt:() => void,  }
+interface card_type extends background_function, select_class  {
+    importButt: () => void, exportButt:() => void ,
+    supaImportButt: () => void, supaExportButt:() => void ,
+  }
+
+  interface select_class{
+    setCurrentItem:React.Dispatch<React.SetStateAction<string>>
+    currentItem:string
+    pageRepList:string[]
+  }
+  
+  interface background_function{
+    backgroundButt:()=>void
+  }
+
+export function CardSelect({
+    setCurrentItem, 
+    currentItem, pageRepList,
+    importButt, exportButt ,
+    supaImportButt , supaExportButt ,
+    backgroundButt }:card_type
     ){
 
     return ( <div style={{ position: "fixed",
                         bottom: "10px",
                         left: "5px",
                         backgroundColor: "rgba(156, 153, 153, 0.75)"}}>
-        {/* <DemoCard demo={props.demoButt}/> */}
-        {/* <label>Pick an Action</label> */}
-        <ModeSelectCard setCurrentItem={props.setCurrentItem} 
-            currentItem={props.currentItem} pageRepList ={props.pageRepList}/>
+        <IconSelectDropdown setCurrentItem={setCurrentItem} 
+            currentItem={currentItem} pageRepList ={pageRepList}/>
+                        <hr style={{height:`5px`,backgroundColor:`black`}}/>
         <label>Changing the Background</label>
-        <BackgroundCard backgroundButt={props.backgroundButt}/>
-        <label>Save/load</label>
-        <SaveCard inputButt={props.inputButt} exportButt={props.exportButt}/>
+        <BackgroundCard backgroundButt={backgroundButt}/>
+                        <hr style={{height:`5px`,backgroundColor:`black`}}/>
+        <label>Save/load - File System</label>
+        <SaveCard importButt={importButt} exportButt={exportButt}/>
+                        <hr style={{height:`5px`,backgroundColor:`black`}}/>
+        <button onClick={supaImportButt}>Import</button>
+        <button onClick={supaExportButt}>Export</button>
+        
     </div>
     )
 }
 
-function DemoCard(props:{demo:()=>void}){
-    return <div>
-        <button onClick={props.demo}>Try a Demo</button>
-    </div>
+function BackgroundCard({backgroundButt}:background_function){
+    return <>
+            <div>
+                <input type={"file"} id={`backgroundLoadInsert`} accept={"image/*"}></input>
+            </div>
+            <button onClick={backgroundButt}>Change BG</button>
+    </>
+    
 }
 
-function BackgroundCard(props:{backgroundButt:()=>void}){
-    return <div>
-            <input type={"file"} id={`backgroundLoadInsert`} accept={"image/*"}></input>
-            <button onClick={props.backgroundButt}>Change BG</button>
-    </div>
-}
-
-function ModeSelectCard(props:{
-        setCurrentItem:React.Dispatch<React.SetStateAction<string>>, 
-        currentItem:string, pageRepList:string[],})
-    {
-        return (
-        <div>
-                <IconDropdown setCurrentItem={props.setCurrentItem} 
-                    currentItem={props.currentItem} pageRepList ={props.pageRepList}/>
-        </div>
-        )
-}
-
-function SaveCard(props:{inputButt: () => void, exportButt:() => void ,}){
+function SaveCard(props:{importButt: () => void, exportButt:() => void ,}){
 
     return <div>
         <input type={"file"} id={`jsonLoadInsert`} accept={".zip"}></input>
         <div>
-            <button onClick={props.inputButt}>Import</button>
+            <button onClick={props.importButt}>Import</button>
             <button onClick={props.exportButt}>Export</button>
         </div>
 </div>
 }
 
-function IconDropdown(props:{ setCurrentItem:React.Dispatch<React.SetStateAction<string>>, 
-                            currentItem:string, pageRepList:string[],})
+function IconSelectDropdown({ setCurrentItem, 
+                            currentItem, pageRepList,}:select_class)
     {  
-    
-    // const setCurrentItem = (event:React.ChangeEvent<HTMLSelectElement>) => {
-    //     props.setCurrentItem(event.target.value)
-    // }
-
-    const listItems = props.pageRepList.map((element:string) => {
+    const listItems = pageRepList.map((element:string) => {
         return <option value= {element} key={element}>{element}</option>
     });
     
     return (
-        <select onChange={(event)=> props.setCurrentItem(event.target.value)} defaultValue={props.currentItem}>
+        <select onChange={(event)=> setCurrentItem(event.target.value)} defaultValue={currentItem}>
             {listItems}
         </select>
     )

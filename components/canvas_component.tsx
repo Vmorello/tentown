@@ -5,8 +5,6 @@ import React, { useState, useEffect, UIEventHandler } from 'react';
 import {CanvasControl,CanvasUtilBase} from '../classes/canvas_utils';
 
 
-
-
 type canvasStateType = {
   ref:React.RefObject<HTMLCanvasElement>
   util?:CanvasUtilBase
@@ -19,7 +17,6 @@ export function CanvasComp(props:{
   offtsetY?:number
   onPress: (x:number,y:number,offsetX:number,offsetY:number) => void 
   currentItem:string
-  mode:string
   repList:Array<{icon:string,x:number,y:number}>
   background?:string|Blob
 }){
@@ -35,8 +32,7 @@ export function CanvasComp(props:{
     
   // This function happen once the component is mounted the first time
   useEffect(()=>{
-    const canvas_current = canvas_ref.current
-    const canvas_util = new CanvasControl(canvas_current!)
+    const canvas_util = new CanvasControl(canvas_ref.current!)
 
     // console.log("setting up canvas util")
     setCanvas({
@@ -51,7 +47,7 @@ export function CanvasComp(props:{
     if (canvas.util === undefined) 
       {return} // Makes this safe to do canvas-util operations
 
-    canvas.util.setup(props)
+    canvas.util.setup(props) //sets up hover and 
     
     setTimeout(()=> {
       canvas.util!.startAnimation(props.repList)()

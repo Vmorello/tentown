@@ -10,6 +10,7 @@ import {CanvasComp} from './canvas_component'
 import {Diary} from './diary_component'
 import {CardSelect} from './options_component'
 import {Debug} from './debug_'
+import {createClientComponentClient} from '@supabase/auth-helpers-nextjs';
 
 interface repPage {
   height: number 
@@ -24,7 +25,7 @@ export type representation = {icon: string,
   x: number, y: number
   data : Array<string>
   id :string
-  visibleName  : string
+  visible_name  : string
   link: boolean
   radius: number
 }
@@ -56,8 +57,6 @@ export function GotPage(props:repPage) {
     
   const [currentPageID, setCurrentPageID] = useState("index")
 
-  const [mode,setMode] = useState("place");
-  //const [user,setUser] = useState(props.user);
   const [height,setHeight] = useState(props.height);
   const [width,setWidth] = useState(props.width);
   const [currentItem, setCurrentItem] = useState(props.startIcon);
@@ -83,7 +82,7 @@ export function GotPage(props:repPage) {
         y: y -radius,
         data: [],
         id:idNumeration,
-        visibleName : currentItem,
+        visible_name : currentItem,
         radius:radius,
         link:false,
     })
@@ -100,6 +99,7 @@ export function GotPage(props:repPage) {
   }
 
   const canvasOnclickSwitch = (x:number,y:number,offsetX:number,offsetY:number) =>{
+    resetDiary()
     const selectX=x +offsetX
     const selectY=y +offsetY
 
@@ -174,7 +174,7 @@ export function GotPage(props:repPage) {
     setCurrentRepInfo(info_copy)
 
     allBGsPlusRepInfo[id] = {width:1000, height:920, background: undefined,repNumeration: "1",
-      repInfo:[{icon:"back_button",x:20,y:20,data:[], id:"index", visibleName:"Go Back", link:true, radius:64}]
+      repInfo:[{icon:"back_button",x:20,y:20,data:[], id:"index", visible_name:"Go Back", link:true, radius:64}]
     }
     setAllBGsPlusRepInfo(allBGsPlusRepInfo)
   }
@@ -190,8 +190,9 @@ export function GotPage(props:repPage) {
     });
   }
   
-  //==================Card button Actions =======================
+  //===================================Card button Actions ========================================
 
+  //================ file save and load =======================
   const  importButt = () => {
     let zipFile
       const inputFileObject = document.getElementById("jsonLoadInsert") as HTMLInputElement;
@@ -309,6 +310,53 @@ export function GotPage(props:repPage) {
     });
   }
 
+
+  //================ supabase save and load =======================
+  const  supaImportButt = () => {
+    console.log("starting supabase import")
+    const supabase = createClientComponentClient()
+
+    const getMapdata = async () => {
+      const { data, error } = await supabase.from('maps').select()
+      if (data) {
+        console.log(data)
+      }
+    }
+
+    const getIcons = async () => {
+      const { data, error } = await supabase.from('icons').select()
+      if (data) {
+        
+        // for (let i = 0; i < data.length; i++) {
+
+          
+
+        // }
+        console.log(data)
+      }
+    }
+
+    const getMapFile = async () => {  
+      const { data, error } = await supabase
+            .storage
+            .from('public/MapCollection')
+            .download('sigil')
+      console.log(error)
+      if (data) {
+        updateBackgroundAndsSize(data)
+      }
+    }
+
+    getMapdata()
+    console.log("timing")
+    getIcons()
+    getMapFile()
+  }
+
+  const  supaExportButt = () => {console.log("supabase export")}
+
+   //================ background =======================
+
   const backgroundButt = ()=> {
       const inputFileObject = document.getElementById(`backgroundLoadInsert`) as HTMLInputElement;
       if (inputFileObject.files === null) {
@@ -317,19 +365,23 @@ export function GotPage(props:repPage) {
 
       const inputFile = inputFileObject.files[0]
       
-      setBackground(inputFile)
+      updateBackgroundAndsSize(inputFile)
+     
+  }
 
-      const imageURL = URL.createObjectURL(inputFile)
+
+const updateBackgroundAndsSize = (backgroundImage:Blob) => {
+      setBackground(backgroundImage)
+
+      const imageURL = URL.createObjectURL(backgroundImage)
       const tempImage = new Image();
       tempImage.addEventListener("load", ()=>{
         setHeight(tempImage.naturalHeight)
         setWidth(tempImage.naturalWidth)
       })
       tempImage.src = imageURL
-  }
-
-
-
+  
+}
 
 
 
@@ -344,12 +396,13 @@ export function GotPage(props:repPage) {
       </Head>
       <div>
         <CanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch} 
-              width={width} height={height} currentItem={currentItem} mode={mode}
+              width={width} height={height} currentItem={currentItem} 
               background={background}/>
         
         <CardSelect setCurrentItem={setCurrentItem} 
                     currentItem={currentItem} pageRepList ={props.pageRepList}
-                    inputButt={importButt} exportButt={exportButt} 
+                    importButt={importButt} exportButt={exportButt} 
+                    supaImportButt={supaImportButt} supaExportButt={supaExportButt} 
                     backgroundButt={backgroundButt}   />
 
       <Diary diaryInfo={diary} addLink={addNestedRep} goToNestedLink={goToNestedLink} deleteFunc ={removeRep}

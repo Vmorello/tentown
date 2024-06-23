@@ -16,7 +16,6 @@ export interface CanvasUtilBase {
 
 interface setupInit {
   background?: string|Blob
-  mode:string
   currentItem:string
   onPress:(offset: { x: number; y: number; }) => (event: {pageX:number,pageY:number}) => void 
 }
@@ -47,18 +46,12 @@ export class CanvasControl implements CanvasUtilBase {
       // console.log("set-up bg & hover")
       this.setBackground(props.background);
       this.offset.x = - this.canvas.offsetLeft
-      if (props.mode === "place") {
+      // if (props.mode === "place") {
         this.setHover(props.currentItem);
-      } else {
-        this.removeHover();
-      }
+      // } else {
+      //   this.removeHover();
+      // }
 
-      //this.setOnClick(props.onPress)
-    }
-
-    setOnClick(action:(offset:{x:number,y:number}) => (event: {pageX:number,pageY:number}) => void ){
-      //console.log("adding event listner to onclick")
-      this.canvas.addEventListener("pointerup",action(this.offset))
     }
 
     setBackground(background?:string|Blob) {
@@ -99,10 +92,6 @@ export class CanvasControl implements CanvasUtilBase {
       this.hover = null;
       this.hoverVisable = false;
     }
-
-    // updateHover(currentIcon:string) {
-    //   this.hover.changeType(currentIcon);
-    // }
 
     updateOffset(offset:{x:number,y:number}){
       this.offset = offset
