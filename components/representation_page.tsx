@@ -53,6 +53,8 @@ export function GotPage(props:repPage) {
 
   const [supabase,_] = useState(createClientComponentClient())
 
+  const [deletedIcons,setDeletedIcons] = useState([] as string[]);
+
   useEffect(() => {
     getMapFileFromStorage(props.storage_name)
     
@@ -136,6 +138,9 @@ export function GotPage(props:repPage) {
     info_copy = info_copy.reduce(notThisId,[])
     resetDiary()
     setCurrentRepInfo(info_copy)
+    const deletedIcons_copy = deletedIcons.slice()
+    deletedIcons_copy.push(id)
+    setDeletedIcons(deletedIcons_copy)
   }
 
   //================ Diary functions =======================
@@ -204,10 +209,7 @@ const newSaveButt = () => {
       .insert({id:props.map_id, owner: user!.id, name: backgroundName, storage_name: backgroundName })
       .select("id")
     
-    const {data:iconSave, error:iconError } = await supabase
-      .from('icons')
-      .upsert(currentRepInfo)
-      
+      updateButt()  
     
     
     router.push(`/${mapSave![0].id}/map`)
@@ -219,9 +221,16 @@ const newSaveButt = () => {
 const updateButt = () =>{
   const updateIcons = async() => {
     
-    const {data:iconSave, error:iconError } = await supabase
+    const {data:iconSaved, error:iconError } = await supabase
       .from('icons')
       .upsert(currentRepInfo)
+    
+    const {data:iconDeleted, error:iconDeleteError } = await supabase
+      .from('icons')
+      .delete()
+      .in("id",deletedIcons)
+    
+    setDeletedIcons([])
     console.log("I am done updating the DB")
   }
   updateIcons()
