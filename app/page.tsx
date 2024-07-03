@@ -34,8 +34,10 @@ const resources = [
 ]
 
 const examples = [
-  { type: 'Tentown', url: '~~~ Future demo page ~~~' },
-  // { type: 'Server Components', src: 'app/_examples/server-component/page.tsx' },
+  { type: 'Sigil', map_id: '538ba993-1561-4bf0-b214-03b26a1cc317' },
+  { type: 'Icewind Dale 🇮🇪', map_id: '906b4b63-0cbb-4c6b-a600-94610f179ba0' },
+  { type: 'Icewind Dale 🇨🇦', map_id: '--' },
+
   // { type: 'Server Actions', src: 'app/_examples/server-action/page.tsx' },
   // { type: 'Route Handlers', src: 'app/_examples/route-handler.ts' },
 ]
@@ -72,20 +74,45 @@ export default async function Index() {
 
       <div className="animate-in flex flex-col gap-14 opacity-0 max-w-4xl px-3 py-16 lg:py-24 text-foreground">
 
+      <div className="flex flex-col gap-8 text-foreground">
+          <div className="grid gap-2 justify-center mx-auto text-center">
+            <h2 className="text-lg font-bold text-center">Examples</h2>
+            <p className="text-sm">
+              Follow one of the below links to have a base maps
+            </p>
+          </div>
+          <div className="w-full justify-center border rounded-lg overflow-hidden">
+            {examples.map(({ type, map_id }) => (
+              <Link
+                href={`/${map_id}/map/`}
+                key={type}
+                className="w-full grid grid-cols-3 border-b last:border-b-0 text-sm"
+              >
+                <div className="flex items-center font-bold p-4 min-h-12 w-full" >
+                  {type}
+                </div>
+                <div className="col-span-2 border-l p-4 flex items-center">
+                  <code className="text-sm whitespace-pre-wrap">{map_id}</code>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <div className="flex flex-col gap-8 text-foreground">
           <h2 className="text-lg font-bold text-center">
               Let's get you Map-Making 
           </h2>
-          <form className='flex border items-center ' >
+          {/* <form className='flex border items-center ' >
             <input type='input' placeholder="Map ID" className="border flex-auto p-2 "/>
             <input type="submit"  className='border flex-auto p-2  '/>
-          </form>
+          </form> */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
             <Link className="relative flex flex-col group rounded-lg border p-6 hover:border-foreground gap-2"
-                  href="/map">
+                  href="/player/map">
               <h3 className="font-bold font- mb-2  min-h-[40px] lg:min-h-[60px]">
-                    I'm playing! 🧝🧌
+                    New Map 🧝🧌
               </h3>
             </Link>
 
@@ -97,9 +124,9 @@ export default async function Index() {
               {user ? (
                 <Link
                 className="flex py-2 px-4 rounded-md  bg-btn-background hover:bg-btn-background-hover"
-                href="/map"
+                href="/dm/map"
               >
-                Build & Create 🧙‍♂️ 
+                A new Map 🧙‍♂️ 
               </Link>
 
                 ) : (
@@ -107,7 +134,7 @@ export default async function Index() {
                     href="/login"
                     className="flex py-2 px-4 rounded-md  bg-btn-background hover:bg-btn-background-hover"
                   >
-                    Login to Build ⚒️
+                    Login to Save ⚒️
                   </Link>
               )}
             </div>
@@ -115,29 +142,7 @@ export default async function Index() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-8 text-foreground">
-          <div className="grid gap-2 justify-center mx-auto text-center">
-            <h2 className="text-lg font-bold text-center">Examples</h2>
-            <p className="text-sm">
-              Follow one of the below links to have a base maps
-            </p>
-          </div>
-          <div className="w-full justify-center border rounded-lg overflow-hidden">
-            {examples.map(({ type, url }) => (
-              <div
-                key={type}
-                className="w-full grid grid-cols-3 border-b last:border-b-0 text-sm"
-              >
-                <div className="flex items-center font-bold p-4 min-h-12 w-full">
-                  {type}
-                </div>
-                <div className="col-span-2 border-l p-4 flex items-center">
-                  <code className="text-sm whitespace-pre-wrap">{url}</code>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        
 
         <div className="flex justify-center text-center text-xs">
           <p>

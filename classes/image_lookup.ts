@@ -1,6 +1,7 @@
 // import Image from "next/future/image";
 import back_button from "/public/common/back_button.png";
 import cover from "/public/common/black_cover.png";
+import cover_s from "/public/common/black_cover_s.png";
 // icons
 import alter from "/public/icons/alter.png";
 import camp from "/public/icons/camp.png";
@@ -26,6 +27,7 @@ type StaticImageData = { src: string; height: number; width: number; blurDataURL
 const dict:{ [key: string]: StaticImageData } = {
   "back_button":back_button,
   "cover":cover,
+  "cover_s":cover_s,
   //icons
   "alter": alter,
   "camp": camp,
@@ -48,6 +50,8 @@ const dict:{ [key: string]: StaticImageData } = {
 };
 
 export function get_image(input_value:string) {
+  if (input_value == "-none-")
+    return undefined
   const image = dict[input_value];
 
   return image.src;

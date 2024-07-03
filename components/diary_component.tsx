@@ -1,26 +1,40 @@
+'use client'
+
 import React from "react"
 
 import {representation} from "./representation_page"
 
+import {  useRouter } from 'next/navigation'
+import { revalidatePath } from 'next/cache'
+
 interface dairyType{
   diaryInfo:{x:number,y:number,info_on_location:Array<representation>}, 
-  addLink:(id:string)=>()=>void, 
-  goToNestedLink:(childID:string, parentID:string) => () => void ,
+  updateButt:()=>void, 
   currentRepInfo:Array<representation>,
   setCurrentRepInfo:React.Dispatch<React.SetStateAction<representation[]>>, 
-  currentPageID:string,
   deleteFunc: (id:string)=>()=>void
+  full_map_list:{ id: any; name: any; }[]
+  resetDiary:()=> void
 }
 
 export function Diary({diaryInfo, 
-                        addLink, 
-                        goToNestedLink,
                         currentRepInfo,
                         setCurrentRepInfo, 
-                        currentPageID,
-                        deleteFunc
+                        deleteFunc,
+                        full_map_list,
+                        updateButt,
+                        resetDiary,
                       }:dairyType)   
   {
+
+  const router = useRouter()
+
+  const mapTranfer = (link:string) => () => {
+
+    updateButt()
+    
+    router.push(`/${link}/map`)
+  }
 
   const newTextBoxAdded = (item:representation)=> ()=>{
     // console.log(item)
@@ -45,35 +59,53 @@ export function Diary({diaryInfo,
     setCurrentRepInfo(info_copy)
   })
 
+  const LinkedAdded = (item:representation)=> ()=>{
+    // console.log(item)
+    const info_copy = currentRepInfo.slice()
+    const listIndex = info_copy.findIndex(indexOf => item.id === indexOf.id)
+    info_copy[listIndex].link= (document.getElementById(`dairyLinkSelect`) as HTMLInputElement).value ;
+
+    setCurrentRepInfo(info_copy)
+  }  
+
+  if (diaryInfo.info_on_location.length == 0){
+    return <></>
+  }
+
   const info_list =  diaryInfo.info_on_location.map((item:representation) => {
     // console.log(item)
       return (
           <div key={`journalRep${item.id}`}>
           <input value={item.visible_name}
-          onChange={titleOnChange(item)}
-          id={`journalRepTitle${item.id}`}
-          style={{
-              background: "transparent",
-              border: "none"
-          }}/>
+                  onChange={titleOnChange(item)}
+                  id={`journalRepTitle${item.id}`}
+                  style={{
+                      background: "transparent",
+                      border: "none"
+                  }}/>
           <DataListofItem entries={item.data} repID={item.id} CatagoryOnChange={CatagoryOnChange}/>
           <div>
               <button onClick={newTextBoxAdded(item)} >New Entry</button>
           </div>
-          <DairyLink link={item.link} goToNestedLink={goToNestedLink(item.id, currentPageID)} 
-              addLink={addLink(item.id)} repID={item.id} currentPageID={currentPageID}/>
+          <DairyLink  link={item.link} mapTranfer={mapTranfer(item.link!)} full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)}/>
+          {/* <DairyLink goToNestedLink={goToNestedLink(item.id, currentPageID)} 
+              addLink={addLink(item.id)} repID={item.id} currentPageID={currentPageID}/> */}
           <hr style={{height:`15px`,backgroundColor:`grey`}}/>
           <button onClick={deleteFunc(item.id)} >❌Delete❌</button>
       </div>
       )
   })
 
+
   return (<div  style={{
               position: "absolute",
               left: `${diaryInfo.x}px`,
               top: `${diaryInfo.y}px`,
               backgroundColor: 'violet'
-            }}>{info_list}</div>
+            }}>
+              <div style={{textAlign: "right"}}><button onClick={resetDiary}>Close - X</button></div>
+              {info_list}
+            </div>
     )
   }
   
@@ -92,18 +124,30 @@ export function Diary({diaryInfo,
   
   }
 
-  function DairyLink(props:{link:boolean,goToNestedLink:()=>void, addLink:()=>void, repID:string, currentPageID:string}) {
-    
+  function DairyLink(props:{
+              link:string|null, 
+              full_map_list:{ id: any; name: any; }[],
+              LinkedAdded:() => void,
+              mapTranfer:()=> void
+            }) {
+
     if (props.link) {
-      return (<div>
-          <button id={`link_btn_${props.repID}`} onClick={props.goToNestedLink} >Jump In</button>
-      </div>)
+      return (<button onClick={props.mapTranfer}>
+          Jump Into Icon 🌐 
+      </button>)
     }
-    else if (props.currentPageID === "index") {
-      return (<div>
-                <button id={`link_btn_${props.repID}`} onClick={props.addLink} >Add Link</button>
-            </div>)
-    }
-    return <></>
+    
+
+    const linkOptions = props.full_map_list.map((json:{ id: any; name: any; }) => {
+      return <option value= {json.id} key={json.id}>{json.name}</option>
+  });
+
+    return <>
+          <select id="dairyLinkSelect">
+                {linkOptions}
+            </select>
+          <button onClick={props.LinkedAdded}>♻️Add link♻️</button>
+
+      </>
   }
 

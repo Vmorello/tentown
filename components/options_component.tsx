@@ -1,28 +1,34 @@
 import React from 'react';
 
-interface card_type extends background_function, select_class  {
-    importButt: () => void, exportButt:() => void ,
-    supaImportButt: () => void, supaExportButt:() => void ,
+interface card_type extends select_class, new_save_function {
+    loadedSaveButt:()=>void
+    loaded:boolean
   }
 
   interface select_class{
     setCurrentItem:React.Dispatch<React.SetStateAction<string>>
     currentItem:string
     pageRepList:string[]
+    
+  }
+
+  interface new_save_function extends background_function{
+    newSaveButt:()=>void
   }
   
   interface background_function{
     backgroundButt:()=>void
+    bgList:string[]
   }
+
+  
 
 export function CardSelect({
     setCurrentItem, 
-    currentItem, pageRepList,
-    importButt, exportButt ,
-    supaImportButt , supaExportButt ,
-    backgroundButt }:card_type
+    currentItem, pageRepList, bgList,
+    backgroundButt,loaded,newSaveButt, loadedSaveButt}:card_type
     ){
-
+        // console.log(`loaded is ${loaded}`)
     return ( <div style={{ position: "fixed",
                         bottom: "10px",
                         left: "5px",
@@ -30,38 +36,42 @@ export function CardSelect({
         <IconSelectDropdown setCurrentItem={setCurrentItem} 
             currentItem={currentItem} pageRepList ={pageRepList}/>
                         <hr style={{height:`5px`,backgroundColor:`black`}}/>
-        <label>Changing the Background</label>
-        <BackgroundCard backgroundButt={backgroundButt}/>
-                        <hr style={{height:`5px`,backgroundColor:`black`}}/>
-        <label>Save/load - File System</label>
-        <SaveCard importButt={importButt} exportButt={exportButt}/>
-                        <hr style={{height:`5px`,backgroundColor:`black`}}/>
-        <button onClick={supaImportButt}>Import</button>
-        <button onClick={supaExportButt}>Export</button>
         
+        {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt}/> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} /> }
+
     </div>
     )
 }
 
-function BackgroundCard({backgroundButt}:background_function){
+function NewSaveOptions({newSaveButt,backgroundButt,bgList}:new_save_function) {
+        return <>
+            <BackgroundCard backgroundButt={backgroundButt} bgList={bgList}/>
+            <button onClick={newSaveButt}> Save This Map </button>
+        </>
+    }
+
+function LoadedOptions({loadedSaveButt}:{loadedSaveButt:()=>void}) {
+        return <button onClick={loadedSaveButt}>  Update</button>
+    }
+
+function BackgroundCard({backgroundButt, bgList}:background_function){
+    
+    const bgLines = bgList.map((element:string) => {
+        return <option value= {element} key={element}>{element}</option>
+    });
+    
     return <>
-            <div>
-                <input type={"file"} id={`backgroundLoadInsert`} accept={"image/*"}></input>
-            </div>
+    <label>Changing the Background</label>
+        <div>
+            <select id="bgStorageSelect">
+                {bgLines}
+            </select>
+        </div>
+        <div>
             <button onClick={backgroundButt}>Change BG</button>
+        </div>
     </>
     
-}
-
-function SaveCard(props:{importButt: () => void, exportButt:() => void ,}){
-
-    return <div>
-        <input type={"file"} id={`jsonLoadInsert`} accept={".zip"}></input>
-        <div>
-            <button onClick={props.importButt}>Import</button>
-            <button onClick={props.exportButt}>Export</button>
-        </div>
-</div>
 }
 
 function IconSelectDropdown({ setCurrentItem, 

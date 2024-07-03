@@ -46,11 +46,12 @@ export class CanvasControl implements CanvasUtilBase {
       // console.log("set-up bg & hover")
       this.setBackground(props.background);
       this.offset.x = - this.canvas.offsetLeft
-      // if (props.mode === "place") {
-        this.setHover(props.currentItem);
-      // } else {
-      //   this.removeHover();
-      // }
+    if (props.currentItem === "-none-") {
+      this.removeHover();
+    } else {
+      this.setHover(props.currentItem);
+    }
+
 
     }
 

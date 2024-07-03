@@ -3,22 +3,23 @@
 import React, { useState, useEffect, ChangeEvent } from 'react';
 import Head from "next/head";
 
-import {saveAs} from 'file-saver';
-import JSZip from 'jszip';
+import {v4 as uuidv4} from 'uuid';
 
 import {CanvasComp} from './canvas_component'
 import {Diary} from './diary_component'
 import {CardSelect} from './options_component'
 import {Debug} from './debug_'
 import {createClientComponentClient} from '@supabase/auth-helpers-nextjs';
+import { useRouter } from 'next/navigation';
+
 
 interface repPage {
-  height: number 
-  width: number 
-  startIcon: string
+  icons:Array<representation>
   title: string
-  background?: string|Blob
-  pageRepList: Array<string>
+  storage_name: string
+  loaded : boolean
+  map_id:string
+  full_map_list:{ id: any; name: any; }[]
 }
 
 export type representation = {icon: string, 
@@ -26,48 +27,38 @@ export type representation = {icon: string,
   data : Array<string>
   id :string
   visible_name  : string
-  link: boolean
-  radius: number
+  radius: number,
+  link: string|null
+  map_id: string
 }
 
-type fullPageRepresentation = {
-  background?: string|Blob 
-  repInfo: Array<representation>
-  width:number 
-  height:number
-  repNumeration:string
-  parentID?:string
-}
+const iconList = ["-none-","alter", "camp", "cave", "dock","dungeon","forge","fort","graveyard",
+  "house","mine","ruines","sheild","stable","tavern","temple","town1","town2","village","cover","cover_s"]
 
-type dict_fullPageRepresentation = {[key: string]: fullPageRepresentation}
-
+const bgList =["bremen","bryn-shander","dougans-hole","caer-dineval","caer-konig","easthaven","fortunes-wheel",
+   "good-mead","icewind-dale","lonelywood","mortuary-basement","sigil","targos","termalaine"]
 
 export function GotPage(props:repPage) {
 
-  const [currentRepInfo,setCurrentRepInfo] = useState([] as Array<representation>);
-  const [allBGsPlusRepInfo, setAllBGsPlusRepInfo] = useState(
-    {index:  
-      { background: props.background, 
-        repInfo:[] as Array<representation>, 
-        width:props.width, 
-        height:props.height,
-        repNumeration:"index",
-      }
-    } as dict_fullPageRepresentation)
-    
-  const [currentPageID, setCurrentPageID] = useState("index")
-
-  const [height,setHeight] = useState(props.height);
-  const [width,setWidth] = useState(props.width);
-  const [currentItem, setCurrentItem] = useState(props.startIcon);
+  const [currentRepInfo,setCurrentRepInfo] = useState(props.icons);
+  const [height,setHeight] = useState(900);
+  const [width,setWidth] = useState(1400);
+  const [currentItem, setCurrentItem] = useState("-none-");
   const [diary,setDiary] = useState({
     x: 0,
     y: 0,
     info_on_location: [] as Array<representation>,
   });
-  const [background,setBackground] = useState(props.background)
-  const [idNumeration,setidNumeration] = useState("0");
+  const [background,setBackground] = useState(undefined as Blob|undefined)
 
+  const [supabase,_] = useState(createClientComponentClient())
+
+  useEffect(() => {
+    getMapFileFromStorage(props.storage_name)
+    
+  }, []);
+
+  const router = useRouter()
 
   //================= Main Interaction with canvas with control card ==============
   
@@ -81,12 +72,14 @@ export function GotPage(props:repPage) {
         x: x -radius,
         y: y -radius,
         data: [],
-        id:idNumeration,
+        id:uuidv4(),
         visible_name : currentItem,
         radius:radius,
-        link:false,
+        map_id:props.map_id,
+        link:null
     })
-    setidNumeration(String(Number(idNumeration)+1))
+        
+    // setidNumeration(String(Number(idNumeration)+1))
     setCurrentRepInfo(info_copy)
   }
 
@@ -94,6 +87,9 @@ export function GotPage(props:repPage) {
   const getRadius = (selectedItem:string) => {
     if (selectedItem === "cover"){
       return 127
+    }
+    else if (selectedItem === "cover_s"){
+      return 64
     }
     return 14
   }
@@ -118,7 +114,7 @@ export function GotPage(props:repPage) {
             info_on_location: info_on_location
           })
         }
-        else{
+        else if (currentItem != "-none-"){
           // console.log("i see nothing")
           addRep(selectX,selectY)
         }
@@ -142,44 +138,6 @@ export function GotPage(props:repPage) {
     setCurrentRepInfo(info_copy)
   }
 
-
-  //================ Sub-map tranfers =====================
-
-
-  const goToNestedLink = (childID:string, parentID:string) => () => {
-
-    // console.log(allBGsPlusRepInfo)
-    allBGsPlusRepInfo[parentID] = {width:width, height:height, background: background, 
-      repInfo: currentRepInfo, repNumeration: idNumeration,}
-
-    // console.log(allBGsPlusRepInfo)
-    
-    setCurrentRepInfo(allBGsPlusRepInfo[childID].repInfo) 
-    setBackground(allBGsPlusRepInfo[childID].background)
-    setHeight(allBGsPlusRepInfo[childID].height)
-    setWidth(allBGsPlusRepInfo[childID].width)
-    setidNumeration(allBGsPlusRepInfo[childID].repNumeration)
-
-    setAllBGsPlusRepInfo(allBGsPlusRepInfo)
-    setCurrentPageID(childID)
-
-    resetDiary()
-  } 
-
-  const addNestedRep = (id:string) => () => {
-
-    const info_copy = currentRepInfo.slice()
-    const listIndex = info_copy.findIndex(indexOf => id === indexOf.id)
-    info_copy[listIndex]["link"] = true
-    setCurrentRepInfo(info_copy)
-
-    allBGsPlusRepInfo[id] = {width:1000, height:920, background: undefined,repNumeration: "1",
-      repInfo:[{icon:"back_button",x:20,y:20,data:[], id:"index", visible_name:"Go Back", link:true, radius:64}]
-    }
-    setAllBGsPlusRepInfo(allBGsPlusRepInfo)
-  }
-
-
   //================ Diary functions =======================
 
   const resetDiary = () =>{
@@ -192,185 +150,35 @@ export function GotPage(props:repPage) {
   
   //===================================Card button Actions ========================================
 
-  //================ file save and load =======================
-  const  importButt = () => {
-    let zipFile
-      const inputFileObject = document.getElementById("jsonLoadInsert") as HTMLInputElement;
-      if (inputFileObject.files === null) {
-        return
-      }
-      zipFile = inputFileObject.files[0]
-      buildFromZip(zipFile)
-    }
-    
-
-  const buildFromZip = async(zipFile:Blob) =>{
-
-    resetDiary()
-
-    // console.log(zipFile)
-    const newBGsPlusRepInfo = {} as dict_fullPageRepresentation
-
-    const zip = await JSZip.loadAsync(zipFile)
-
-    zip.forEach(async (relativePath, file) => {
-      if (file.dir) { return; }
-
-      //console.log("iterating on", file);
-      const path = relativePath.split("/");
-
-      const filename = path[1];
-      const saveIndex = path[0];
-
-      const loadFunction = getLoadFunction(filename);
-      if (loadFunction === undefined) { return; }
-
-      await loadFunction(file, newBGsPlusRepInfo, saveIndex);
-
-      // console.log("saveIndex" , saveIndex )
-      if (saveIndex === "index") {
-        console.log(`placing ${(newBGsPlusRepInfo.index.repInfo[0].icon)} at x:${newBGsPlusRepInfo.index.repInfo[0].x} and y:${newBGsPlusRepInfo.index.repInfo[0].y} on load`);
-        setCurrentRepInfo(newBGsPlusRepInfo.index.repInfo);
-        setHeight(newBGsPlusRepInfo.index.height);
-        setWidth(newBGsPlusRepInfo.index.width);
-        setidNumeration(newBGsPlusRepInfo.index.repNumeration);
-
-        setCurrentPageID("index");
-
-        setBackground(newBGsPlusRepInfo.index.background);
-
-      }
-
-    })
-    // console.log("newAllInfo" , newBGsPlusRepInfo)
-    setAllBGsPlusRepInfo(newBGsPlusRepInfo) 
-  }
-
-  const importJsonRep = async (jsonFile:JSZip.JSZipObject, newBGsPlusRepInfo:dict_fullPageRepresentation, saveIndex:string)=> {
-    // console.log('reading the JSON')
-    const allRepInfoString = await jsonFile.async("string")
-    const json:fullPageRepresentation =  await JSON.parse(allRepInfoString)
-    newBGsPlusRepInfo[saveIndex] = json
-  }
-
-  const importMap = async (imageFile:JSZip.JSZipObject, newBGsPlusRepInfo:dict_fullPageRepresentation, saveIndex:string)=> {
-    // console.log('reading the background')
-    try {
-      const mapblob:Blob = await imageFile.async("blob")
-      newBGsPlusRepInfo[saveIndex].background = mapblob
-    } catch (error) {
-      alert(error)
-      //console.log("Catching Error:" + error)
-    }
-  }
-
-  const getLoadFunction = (fileString:string) =>{
-    return importFileEvent[fileString]
-  } 
-
-  const importFileEvent:{[fileType:string]:(jsonFile: JSZip.JSZipObject, newBGsPlusRepInfo: dict_fullPageRepresentation, saveIndex: string) => void} = {
-    "rep.json": importJsonRep,
-    "map.png": importMap,
-  }
-
-  const exportButt = ()=> {
-
-      allBGsPlusRepInfo[currentPageID] = {width:width, height:height, background: background, 
-        repInfo: currentRepInfo, repNumeration: idNumeration,}
-      setAllBGsPlusRepInfo(allBGsPlusRepInfo)
-
-      let zip = new JSZip();
-      let folder 
-
-      Object.entries(allBGsPlusRepInfo).map((key_value)=> {
-        const key= key_value[0]
-
-        const valueObject = key_value[1]
-        // console.log(key_value)
-        folder = zip.folder(key)
-
-        const valueString = JSON.stringify(valueObject)
-        folder!.file("rep.json", valueString)
-        
-        try{
-          console.log("file is coming together")
-          folder!.file("map.png", valueObject.background as Blob)
-        }catch (error) {
-          console.log("Catching Error:" + error)
-        }
-        console.log("in the end I did nothing ;)")
-      })
-      saveZip(zip)
-  }
-
-  const saveZip = (zip:JSZip) => {
-    zip.generateAsync({type:"blob"})
-    .then((blob:Blob)=> {
-        saveAs(blob, `${props.title}.zip`);
-    });
-  }
-
-
-  //================ supabase save and load =======================
-  const  supaImportButt = () => {
-    console.log("starting supabase import")
-    const supabase = createClientComponentClient()
-
-    const getMapdata = async () => {
-      const { data, error } = await supabase.from('maps').select()
-      if (data) {
-        console.log(data)
-      }
-    }
-
-    const getIcons = async () => {
-      const { data, error } = await supabase.from('icons').select()
-      if (data) {
-        
-        // for (let i = 0; i < data.length; i++) {
-
-          
-
-        // }
-        console.log(data)
-      }
-    }
-
-    const getMapFile = async () => {  
-      const { data, error } = await supabase
-            .storage
-            .from('public/MapCollection')
-            .download('sigil')
-      console.log(error)
-      if (data) {
-        updateBackgroundAndsSize(data)
-      }
-    }
-
-    getMapdata()
-    console.log("timing")
-    getIcons()
-    getMapFile()
-  }
-
-  const  supaExportButt = () => {console.log("supabase export")}
 
    //================ background =======================
 
   const backgroundButt = ()=> {
-      const inputFileObject = document.getElementById(`backgroundLoadInsert`) as HTMLInputElement;
-      if (inputFileObject.files === null) {
+      const inputFileObject = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
+      if (inputFileObject.value === null) {
         return
       }
 
-      const inputFile = inputFileObject.files[0]
-      
-      updateBackgroundAndsSize(inputFile)
+      const inputFile = inputFileObject.value
+
+      getMapFileFromStorage(inputFile)
      
   }
 
+  const getMapFileFromStorage = async (storageName:string) => {  
+      const { data, error } = await supabase
+            .storage
+            .from('public/MapCollection')
+            .download(storageName)
+      if (data) {
+        updateBackgroundAndsSize(data)
 
-const updateBackgroundAndsSize = (backgroundImage:Blob) => {
+      }
+    }
+
+
+
+  const updateBackgroundAndsSize = (backgroundImage:Blob) => {
       setBackground(backgroundImage)
 
       const imageURL = URL.createObjectURL(backgroundImage)
@@ -380,11 +188,44 @@ const updateBackgroundAndsSize = (backgroundImage:Blob) => {
         setWidth(tempImage.naturalWidth)
       })
       tempImage.src = imageURL
+}
+
+const newSaveButt = () => {
+  const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
+  console.log("Starting saving ")
+  const backgroundName = bgStorageSelect.value
+
+  const pushData = async() => {
+
+    const { data:{user} } = await supabase.auth.getUser()
+    console.log(user)
+    const {data:mapSave, error:mapError } = await supabase
+      .from('maps')
+      .insert({id:props.map_id, owner: user!.id, name: backgroundName, storage_name: backgroundName })
+      .select("id")
+    
+    const {data:iconSave, error:iconError } = await supabase
+      .from('icons')
+      .upsert(currentRepInfo)
+      
+    
+    
+    router.push(`/${mapSave![0].id}/map`)
+  }
+  pushData()
   
 }
 
-
-
+const updateButt = () =>{
+  const updateIcons = async() => {
+    
+    const {data:iconSave, error:iconError } = await supabase
+      .from('icons')
+      .upsert(currentRepInfo)
+    console.log("I am done updating the DB")
+  }
+  updateIcons()
+}
 
 
 
@@ -400,15 +241,14 @@ const updateBackgroundAndsSize = (backgroundImage:Blob) => {
               background={background}/>
         
         <CardSelect setCurrentItem={setCurrentItem} 
-                    currentItem={currentItem} pageRepList ={props.pageRepList}
-                    importButt={importButt} exportButt={exportButt} 
-                    supaImportButt={supaImportButt} supaExportButt={supaExportButt} 
-                    backgroundButt={backgroundButt}   />
+                    currentItem={currentItem} pageRepList ={iconList} 
+                    backgroundButt={backgroundButt}  bgList={bgList} 
+                    loaded={props.loaded} newSaveButt={newSaveButt} loadedSaveButt={updateButt}/>
 
-      <Diary diaryInfo={diary} addLink={addNestedRep} goToNestedLink={goToNestedLink} deleteFunc ={removeRep}
-            currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} currentPageID={currentPageID}/>
+      <Diary diaryInfo={diary} deleteFunc ={removeRep} full_map_list={props.full_map_list} resetDiary={resetDiary}
+            currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} updateButt={updateButt}/>
 
-      <Debug pageID={currentPageID}  />
+      {/* <Debug pageID={props.map_id}  /> */}
     </div>
   </>
   )
