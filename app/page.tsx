@@ -77,8 +77,9 @@ export default async function Index() {
       <div className="flex flex-col gap-8 text-foreground">
           <div className="grid gap-2 justify-center mx-auto text-center">
             <h2 className="text-lg font-bold text-center">Examples</h2>
+            <h2 className="text-lg  text-center">Logging in above helps here</h2>
             <p className="text-sm">
-              Follow one of the below links to have a base maps
+              Click one of the below links to have a map
             </p>
           </div>
           <div className="w-full justify-center border rounded-lg overflow-hidden">
@@ -103,10 +104,7 @@ export default async function Index() {
           <h2 className="text-lg font-bold text-center">
               Let's get you Map-Making 
           </h2>
-          {/* <form className='flex border items-center ' >
-            <input type='input' placeholder="Map ID" className="border flex-auto p-2 "/>
-            <input type="submit"  className='border flex-auto p-2  '/>
-          </form> */}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
             <Link className="relative flex flex-col group rounded-lg border p-6 hover:border-foreground gap-2"
@@ -119,7 +117,7 @@ export default async function Index() {
                   
             <div className=" relative flex flex-col group rounded-lg border p-6 hover:border-foreground gap-2">
               <h3 className="font-bold mb-2  min-h-[40px] lg:min-h-[60px]">
-                    I'm building 🪄
+                    Work in progress 🪄
               </h3>
               {user ? (
                 <Link
