@@ -210,6 +210,8 @@ const newSaveButt = () => {
       .select("id")
     
       updateButt()  
+
+      console.log(mapError)
     
     
     router.push(`/${mapSave![0].id}/map`)
