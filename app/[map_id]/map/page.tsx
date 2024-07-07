@@ -26,16 +26,37 @@ export default async function MapPage({ params }: {params:{map_id:string}})
                         .select()
                         .eq("map_id", params.map_id)
 
-  if(mapData && icons){
-    console.log(mapData)
+  const { data: storageListRaw } = await supabase
+                        .schema('storage')
+                        .from('objects')
+                        .select("name")
+                        .eq("bucket_id", "MapCollection");
+  storageListRaw?.shift()
+  const storageList = storageListRaw?.map((json:{ name: string; }) => json.name)
+
+  if(mapData && icons){// && mapData.length > 0 
+    console.log(storageList)
 
     return (
-      <GotPage map_id={params.map_id} title={mapData[0].name} storage_name={mapData[0].storage_name} icons={icons} loaded={true} full_map_list={mapList!}/>
+      <GotPage map_id={params.map_id} title={mapData[0].name} storage_name={mapData[0].storage_name} icons={icons} loaded={true} full_map_list={mapList!} storage_list={storageList!}/>
     )
   }
 
+  const bgList =[
+    'bremen',              'bryn-shander',
+    'caer-dineval',        'caer-konig',
+    'caer_dineval_keep',   'cauldron_caves',
+    'dark_duchess',        'dougans-hole',
+    'duergar_outpost.jpg', 'dwarven-valley-icewind',
+    'easthaven',           'fortunes-wheel',
+    'good-mead',           'icewind-dale',
+    'lonelywood',          'mortuary-basement',
+    'reghed-camp',         'sigil',
+    'targos',              'termalaine',
+    'verbeeg_lair'
+  ]
   return (
-    <GotPage map_id={uuidv4()} title={"Unsaved"} storage_name={""} icons={[]} loaded={false} full_map_list={[]}/>
+    <GotPage map_id={uuidv4()} title={"Unsaved"} storage_name={""} icons={[]} loaded={false} full_map_list={[]} storage_list={bgList}/>
   )
 
   

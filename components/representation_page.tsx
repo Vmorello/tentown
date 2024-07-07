@@ -20,6 +20,7 @@ interface repPage {
   loaded : boolean
   map_id:string
   full_map_list:{ id: any; name: any; }[]
+  storage_list: string[]
 }
 
 export type representation = {icon: string, 
@@ -35,8 +36,7 @@ export type representation = {icon: string,
 const iconList = ["-none-","alter", "camp", "cave", "dock","dungeon","forge","fort","graveyard",
   "house","mine","ruines","sheild","stable","tavern","temple","town1","town2","village","cover","cover_s"]
 
-const bgList =["bremen","bryn-shander","dougans-hole","caer-dineval","caer-konig","easthaven","fortunes-wheel",
-   "good-mead","icewind-dale","lonelywood","mortuary-basement","sigil","targos","termalaine"]
+
 
 export function GotPage(props:repPage) {
 
@@ -253,7 +253,7 @@ const updateButt = () =>{
         
         <CardSelect setCurrentItem={setCurrentItem} 
                     currentItem={currentItem} pageRepList ={iconList} 
-                    backgroundButt={backgroundButt}  bgList={bgList} 
+                    backgroundButt={backgroundButt}  bgList={props.storage_list} 
                     loaded={props.loaded} newSaveButt={newSaveButt} loadedSaveButt={updateButt}/>
 
       <Diary diaryInfo={diary} deleteFunc ={removeRep} full_map_list={props.full_map_list} resetDiary={resetDiary}
