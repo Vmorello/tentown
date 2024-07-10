@@ -45,15 +45,15 @@ export default async function MapPage({ params }: {params:{map_id:string}})
   const bgList =[
     'bremen',              'bryn-shander',
     'caer-dineval',        'caer-konig',
-    'caer_dineval_keep',   'cauldron_caves',
-    'dark_duchess',        'dougans-hole',
-    'duergar_outpost.jpg', 'dwarven-valley-icewind',
+    'caer-dineval-keep',   'cauldron-caves',
+    'dark-duchess',        'dougans-hole',
+    'duergar-outpost',     'dwarven-valley-icewind',
     'easthaven',           'fortunes-wheel',
     'good-mead',           'icewind-dale',
     'lonelywood',          'mortuary-basement',
     'reghed-camp',         'sigil',
     'targos',              'termalaine',
-    'verbeeg_lair'
+    'verbeeg-lair'
   ]
   return (
     <GotPage map_id={uuidv4()} title={"Unsaved"} storage_name={""} icons={[]} loaded={false} full_map_list={[]} storage_list={bgList}/>
