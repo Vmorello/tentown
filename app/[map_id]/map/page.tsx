@@ -11,9 +11,9 @@ export default async function MapPage({ params }: {params:{map_id:string}})
 {
 
   const supabase = createServerComponentClient({ cookies })
-  const { data: mapData } = await supabase
+  const { data: currentMapData } = await supabase
                         .from('maps')
-                        .select("name, storage_name")
+                        .select("name, storage_name, owner")
                         .eq("id", params.map_id)
 
   const { data: mapList } = await supabase
@@ -34,11 +34,13 @@ export default async function MapPage({ params }: {params:{map_id:string}})
   storageListRaw?.shift()
   const storageList = storageListRaw?.map((json:{ name: string; }) => json.name)
 
-  if(mapData && icons){// && mapData.length > 0 
-    console.log(storageList)
+  const { data:{user} } = await supabase.auth.getUser()
+
+
+  if(currentMapData && icons){// && currentMapData.length > 0 
 
     return (
-      <GotPage map_id={params.map_id} title={mapData[0].name} storage_name={mapData[0].storage_name} icons={icons} loaded={true} full_map_list={mapList!} storage_list={storageList!}/>
+      <GotPage map_id={params.map_id} showCreative={user?.id===currentMapData![0].owner} storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} full_map_list={mapList!} storage_list={storageList!}/>
     )
   }
 
@@ -56,7 +58,7 @@ export default async function MapPage({ params }: {params:{map_id:string}})
     'verbeeg-lair'
   ]
   return (
-    <GotPage map_id={uuidv4()} title={"Unsaved"} storage_name={""} icons={[]} loaded={false} full_map_list={[]} storage_list={bgList}/>
+    <GotPage map_id={uuidv4()} showCreative={true} storage_name={""} icons={[]} loaded={false} full_map_list={[]} storage_list={bgList}/>
   )
 
   

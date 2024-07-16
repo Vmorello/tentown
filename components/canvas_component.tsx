@@ -54,10 +54,12 @@ export function CanvasComp(props:{
     }, refreshRate);
   })
 
+
+
   const onSideScroll = (event: React.MouseEvent<HTMLInputElement>)=>{
     // if (canvas.util === undefined) {return}
     if (event.target instanceof Element){
-      console.log(event)
+      // console.log(event)
       canvas.util!.updateOffset({x:event.target.scrollLeft,y:event.target.scrollTop})
     }
   } 
@@ -76,11 +78,26 @@ export function CanvasComp(props:{
 
   return(
     // <div className='overflow-y-scroll' 
-    <div className="w-2/3"
+    <div 
       onScroll={onSideScroll} >
       <canvas ref={canvas_ref} onClick={onCanvasPress} 
           width={props.width} height={props.height}
           style={{border:"3px dotted #000000"}}/>
+      
     </div>
   )
 }
+
+// function IconPlacement(props:{
+
+//           }) {
+
+//           const linkOptions = props.full_map_list.map((json:{ id: any; name: any; }) => {
+//           return <option value= {json.id} key={json.id}>{json.name}</option>
+//           });
+
+//           return <>
+
+//           </>
+// }
+

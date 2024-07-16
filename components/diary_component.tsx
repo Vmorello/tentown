@@ -15,6 +15,7 @@ interface dairyType{
   deleteFunc: (id:string)=>()=>void
   full_map_list:{ id: any; name: any; }[]
   resetDiary:()=> void
+  showCreative:boolean
 }
 
 export function Diary({diaryInfo, 
@@ -24,6 +25,7 @@ export function Diary({diaryInfo,
                         full_map_list,
                         updateButt,
                         resetDiary,
+                        showCreative,
                       }:dairyType)   
   {
 
@@ -84,14 +86,17 @@ export function Diary({diaryInfo,
                       border: "none"
                   }}/>
           <DataListofItem entries={item.data} repID={item.id} CatagoryOnChange={CatagoryOnChange}/>
-          <div>
-              <button onClick={newTextBoxAdded(item)} >New Entry</button>
-          </div>
-          <DairyLink  link={item.link} mapTranfer={mapTranfer(item.link!)} full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)}/>
-          {/* <DairyLink goToNestedLink={goToNestedLink(item.id, currentPageID)} 
-              addLink={addLink(item.id)} repID={item.id} currentPageID={currentPageID}/> */}
-          <hr style={{height:`15px`,backgroundColor:`grey`}}/>
-          <button onClick={deleteFunc(item.id)} >❌Delete❌</button>
+          {item.link ? <div>
+            <TranferWithLink mapTranfer={mapTranfer(item.link!)}/>
+          </div>:<></> }
+          {showCreative ? <>
+              <div>
+                  <button onClick={newTextBoxAdded(item)} >New Entry</button>
+              </div>
+              <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)}/>
+              <hr style={{height:`15px`,backgroundColor:`grey`}}/>
+              <button onClick={deleteFunc(item.id)}>❌Delete❌</button>
+            </>:<></> }
       </div>
       )
   })
@@ -124,18 +129,17 @@ export function Diary({diaryInfo,
   
   }
 
-  function DairyLink(props:{
-              link:string|null, 
+  function TranferWithLink(props:{ mapTranfer:()=> void}){
+    return (<button onClick={props.mapTranfer}>
+      Jump Into Icon 🌐 
+  </button>) 
+  }
+
+  function AddLink(props:{
               full_map_list:{ id: any; name: any; }[],
               LinkedAdded:() => void,
-              mapTranfer:()=> void
             }) {
 
-    if (props.link) {
-      return (<button onClick={props.mapTranfer}>
-          Jump Into Icon 🌐 
-      </button>)
-    }
     
 
     const linkOptions = props.full_map_list.map((json:{ id: any; name: any; }) => {

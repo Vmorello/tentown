@@ -1,4 +1,4 @@
-import { get_image } from "./image_lookup";
+import { get_image } from "./icons_utils";
 import { getVisibleItemBy, VisibleItem} from "./visibleRep";
 
 
@@ -98,7 +98,7 @@ export class CanvasControl implements CanvasUtilBase {
       this.offset = offset
     }
   
-    visual_load(rep_list:Array<{icon:string,x:number,y:number}>) {
+    loadIcons(rep_list:Array<{icon:string,x:number,y:number}>) {
       let rep;
       let visualReps = [];
       for (let i = 0; i < rep_list.length; i++) {
@@ -134,7 +134,7 @@ export class CanvasControl implements CanvasUtilBase {
   
     startAnimation(repList:Array<{icon:string,x:number,y:number}>) {
       this.killPreviousAnimation();
-      let visualReps = this.visual_load(repList);
+      let visualReps = this.loadIcons(repList);
       return () => {
         this.animationFrame = requestAnimationFrame(this.animate(visualReps));
         this.paintBackground!();

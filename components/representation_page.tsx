@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect, ChangeEvent } from 'react';
-import Head from "next/head";
 
 import {v4 as uuidv4} from 'uuid';
 
@@ -12,10 +11,12 @@ import {Debug} from './debug_'
 import {createClientComponentClient} from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
+import { get_icon_list, getImageSize } from '../classes/icons_utils'
+
 
 interface repPage {
   icons:Array<representation>
-  title: string
+  showCreative:boolean
   storage_name: string
   loaded : boolean
   map_id:string
@@ -33,10 +34,7 @@ export type representation = {icon: string,
   map_id: string
 }
 
-const iconList = ["-none-","alter", "camp", "cave", "dock","dungeon","forge","fort","graveyard",
-  "house","mine","ruines","sheild","stable","tavern","temple","town1","town2","village","cover","cover_s"]
-
-
+const iconList = get_icon_list()!
 
 export function GotPage(props:repPage) {
 
@@ -51,22 +49,32 @@ export function GotPage(props:repPage) {
   });
   const [background,setBackground] = useState(undefined as Blob|undefined)
 
-  const [supabase,_] = useState(createClientComponentClient())
+  const [supabase] = useState(createClientComponentClient())
 
   const [deletedIcons,setDeletedIcons] = useState([] as string[]);
 
+
+
   useEffect(() => {
     getMapFileFromStorage(props.storage_name)
-    
+    //   if (typeof window !== 'undefined') {
+    //     setWidth(window.innerWidth-10)
+    //     setLength(window.innerHeight-100)
   }, []);
 
   const router = useRouter()
+
+
+
+  console.log(`are you gonna see all the controls: ${props.showCreative}`)
 
   //================= Main Interaction with canvas with control card ==============
   
   const addRep = (x:number, y:number) =>{
 
-    const radius = getRadius(currentItem)
+    
+
+    const radius = getImageSize(currentItem)
 
     const info_copy = currentRepInfo.slice()
     info_copy.push({
@@ -85,16 +93,16 @@ export function GotPage(props:repPage) {
     setCurrentRepInfo(info_copy)
   }
 
-  // this will be replaced in time, just not soon 
-  const getRadius = (selectedItem:string) => {
-    if (selectedItem === "cover"){
-      return 127
-    }
-    else if (selectedItem === "cover_s"){
-      return 64
-    }
-    return 14
-  }
+  // // this will be replaced in time, just not soon 
+  // const getRadius = (selectedItem:string) => {
+  //   if (selectedItem === "cover"){
+  //     return 127
+  //   }
+  //   else if (selectedItem === "cover_s"){
+  //     return 64
+  //   }
+  //   return 14
+  // }
 
   const canvasOnclickSwitch = (x:number,y:number,offsetX:number,offsetY:number) =>{
     resetDiary()
@@ -191,11 +199,13 @@ export function GotPage(props:repPage) {
       tempImage.addEventListener("load", ()=>{
         setHeight(tempImage.naturalHeight)
         setWidth(tempImage.naturalWidth)
+        URL.revokeObjectURL(imageURL)
       })
       tempImage.src = imageURL
 }
 
-const newSaveButt = () => {
+//================ Saving =======================
+const saveButt = () => {
   const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
   console.log("Starting saving ")
   const backgroundName = bgStorageSelect.value
@@ -203,7 +213,7 @@ const newSaveButt = () => {
   const pushData = async() => {
 
     const { data:{user} } = await supabase.auth.getUser()
-    console.log(user)
+    // console.log(user)
     const {data:mapSave, error:mapError } = await supabase
       .from('maps')
       .insert({id:props.map_id, owner: user!.id, name: backgroundName, storage_name: backgroundName })
@@ -211,7 +221,7 @@ const newSaveButt = () => {
     
       updateButt()  
 
-      console.log(mapError)
+      // console.log(mapError)
     
     
     router.push(`/${mapSave![0].id}/map`)
@@ -239,25 +249,22 @@ const updateButt = () =>{
 }
 
 
+//==================================================================
 
   return(
     <>
-      <Head>
-        <title>{props.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-      </Head>
       <div>
         <CanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch} 
               width={width} height={height} currentItem={currentItem} 
               background={background}/>
-        
-        <CardSelect setCurrentItem={setCurrentItem} 
-                    currentItem={currentItem} pageRepList ={iconList} 
-                    backgroundButt={backgroundButt}  bgList={props.storage_list} 
-                    loaded={props.loaded} newSaveButt={newSaveButt} loadedSaveButt={updateButt}/>
-
+        {props.showCreative ? 
+          <CardSelect setCurrentItem={setCurrentItem} 
+                      currentItem={currentItem} pageRepList ={iconList} 
+                      backgroundButt={backgroundButt}  bgList={props.storage_list} 
+                      loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt}/>
+        :<></>}
       <Diary diaryInfo={diary} deleteFunc ={removeRep} full_map_list={props.full_map_list} resetDiary={resetDiary}
-            currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} updateButt={updateButt}/>
+            currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} updateButt={updateButt} showCreative={props.showCreative}/>
 
       {/* <Debug pageID={props.map_id}  /> */}
     </div>
