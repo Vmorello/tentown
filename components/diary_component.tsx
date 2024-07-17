@@ -5,7 +5,6 @@ import React from "react"
 import {representation} from "./representation_page"
 
 import {  useRouter } from 'next/navigation'
-import { revalidatePath } from 'next/cache'
 
 interface dairyType{
   diaryInfo:{x:number,y:number,info_on_location:Array<representation>}, 
@@ -93,7 +92,8 @@ export function Diary({diaryInfo,
               <div>
                   <button onClick={newTextBoxAdded(item)} >New Entry</button>
               </div>
-              <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)}/>
+              {item.link ? <></>:
+              <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)}/>}
               <hr style={{height:`15px`,backgroundColor:`grey`}}/>
               <button onClick={deleteFunc(item.id)}>❌Delete❌</button>
             </>:<></> }

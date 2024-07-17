@@ -1,9 +1,19 @@
 'use client';
 
-import React, { useState, useEffect, UIEventHandler } from 'react';
+import React, { useState, useEffect, UIEventHandler, MouseEventHandler } from 'react';
 
 import {CanvasControl,CanvasUtilBase} from '../classes/canvas_utils';
+// import { getVisibleItemBy } from '@/classes/visibleRep';
+import { get_image, } from '@/classes/icons_utils';
 
+import Image from 'next/image';
+
+type repType = {
+  icon:string
+  x:number
+  y:number
+  radius:number
+}
 
 type canvasStateType = {
   ref:React.RefObject<HTMLCanvasElement>
@@ -13,12 +23,10 @@ type canvasStateType = {
 export function CanvasComp(props:{
   width:number
   height:number
-  offsetX?:number
-  offtsetY?:number
-  onPress: (x:number,y:number,offsetX:number,offsetY:number) => void 
+  onPress: (x_canvas:number,y_canvas:number,x_page:number,y_page:number) => void 
   currentItem:string
-  repList:Array<{icon:string,x:number,y:number}>
-  background?:string|Blob
+  repList:Array<repType>
+  background?:Blob
 }){
 
   const refreshRate = 100 
@@ -29,6 +37,8 @@ export function CanvasComp(props:{
     util: undefined 
     }
   const [canvas,setCanvas] = useState(canvasState);
+  const [hover, setHover]= useState(undefined as repType | undefined)
+
     
   // This function happen once the component is mounted the first time
   useEffect(()=>{
@@ -50,7 +60,7 @@ export function CanvasComp(props:{
     canvas.util.setup(props) //sets up hover and 
     
     setTimeout(()=> {
-      canvas.util!.startAnimation(props.repList)()
+      canvas.util!.startAnimation([])() //props.repList
     }, refreshRate);
   })
 
@@ -64,14 +74,12 @@ export function CanvasComp(props:{
     }
   } 
 
-  const onCanvasPress = (event:{pageX:number,pageY:number})=>{
+  const onCanvasPress = (event:React.MouseEvent<HTMLCanvasElement>)=>{
       if (canvas.util === undefined) {return}
 
       // console.log(event)
 
-      props.onPress(event.pageX, event.pageY,
-                    canvas.util.offset.x , 
-                    canvas.util.offset.y )
+      props.onPress(event.nativeEvent.layerX, event.nativeEvent.layerY,event.pageX, event.pageY, )
       //action(event)
   }
 
@@ -79,25 +87,54 @@ export function CanvasComp(props:{
   return(
     // <div className='overflow-y-scroll' 
     <div 
-      onScroll={onSideScroll} >
-      <canvas ref={canvas_ref} onClick={onCanvasPress} 
-          width={props.width} height={props.height}
+      onScroll={onSideScroll} 
+      style={{ position: "relative"}}>
+      <canvas ref={canvas_ref} onClick={onCanvasPress} //onPointerMove={onCanvasMove}
+          width={props.width} height={props.height} //onPointerOut={onCanvasPointerOut}
           style={{border:"3px dotted #000000"}}/>
-      
+        <IconPlacement repList={props.repList}/>
+        {/* <Hover rep={hover}/> */}
     </div>
   )
 }
 
-// function IconPlacement(props:{
+function IconPlacement(props:{
+  repList:Array<repType>
+          }) {
+            const linkOptions = props.repList.map((rep:{ x: any; y: any;  icon:string; radius:number }) => {
+            // console.log(image)
+            return <Image src={get_image(rep.icon)!} alt={"broke"} height={rep.radius*2} width={rep.radius*2} style={{ 
+              pointerEvents: "none",
+              position: "absolute",
+              top: `${rep.y}px`,
+              left: `${rep.x}px`}}/>
+          });
 
-//           }) {
+          return <>
+            {linkOptions}
+          </>
+}
 
-//           const linkOptions = props.full_map_list.map((json:{ id: any; name: any; }) => {
-//           return <option value= {json.id} key={json.id}>{json.name}</option>
-//           });
+function Hover(props:{rep:repType|undefined}) {
+    //in above class 
+      // const onCanvasMove = (event:React.MouseEvent<HTMLCanvasElement>) => {
+      //   setHover({icon: props.currentItem,
+      //     x: event.pageX,
+      //     y: event.pageY,
+      //     radius: getImageSize(props.currentItem)
+      //   })
+      // };
 
-//           return <>
+      // const onCanvasPointerOut = (event:React.MouseEvent<HTMLCanvasElement>)=>{
+      //     setHover(undefined)
+      // }
 
-//           </>
-// }
+      return <>{(props.rep==undefined) ? <></>:
+      <Image src={get_image(props.rep.icon)} alt={"broke"} height={props.rep.radius*2} width={props.rep.radius*2} style={{ 
+        pointerEvents: "none",
+        position: "absolute",
+        top: `${props.rep.y }px`,
+        left: `${props.rep.x }px`}}/>}
+        </>
+}
 

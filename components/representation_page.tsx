@@ -11,7 +11,7 @@ import {Debug} from './debug_'
 import {createClientComponentClient} from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
-import { get_icon_list, getImageSize } from '../classes/icons_utils'
+import { get_icon_list, getRadius } from '../classes/icons_utils'
 
 
 interface repPage {
@@ -24,7 +24,8 @@ interface repPage {
   storage_list: string[]
 }
 
-export type representation = {icon: string, 
+export type representation = {
+  icon: string, 
   x: number, y: number
   data : Array<string>
   id :string
@@ -74,7 +75,7 @@ export function GotPage(props:repPage) {
 
     
 
-    const radius = getImageSize(currentItem)
+    const radius = getRadius(currentItem)
 
     const info_copy = currentRepInfo.slice()
     info_copy.push({
@@ -104,32 +105,29 @@ export function GotPage(props:repPage) {
   //   return 14
   // }
 
-  const canvasOnclickSwitch = (x:number,y:number,offsetX:number,offsetY:number) =>{
+  const canvasOnclickSwitch = (x_canvas:number,y_canvas:number,x_page:number,y_page:number,) =>{
     resetDiary()
-    const selectX=x +offsetX
-    const selectY=y +offsetY
+
 
       const info_on_location = currentRepInfo.filter((item) => {
         // console.log(`${item.icon} is checking with x:${item.x}+-${item.radius}  y:${item.y}+-${item.radius} vs the click x:${selectX} y:${selectY} `);
-        return item["x"]+ (2*item["radius"]) > selectX && 
-            item["x"] < selectX && 
-            item["y"]+ (2*item["radius"]) > selectY && 
-            item["y"] < selectY})
+        return item["x"]+ (2*item["radius"]) > x_canvas && 
+            item["x"] < x_canvas && 
+            item["y"]+ (2*item["radius"]) > y_canvas && 
+            item["y"] < y_canvas})
       
         if (info_on_location.length > 0){
-          // console.log("i see something")
           setDiary({
-            x:x, 
-            y:y,
+            x:x_page, 
+            y:y_page,
             info_on_location: info_on_location
           })
         }
         else if (currentItem != "-none-"){
-          // console.log("i see nothing")
-          addRep(selectX,selectY)
+          addRep(x_canvas,y_canvas)
         }
 
-        console.log(`clicked at x:${x} y:${y}. offset set at x:${offsetX} y:${offsetY}. The info at this location found is ${info_on_location}`)
+        console.log(`clicked at x:${x_canvas} y:${y_canvas} in the canvas. clicked at x:${x_page} y:${y_page} in the page. The info at this location found is ${info_on_location}`)//offset set at x:${offsetX} y:${offsetY}.
   } 
 
   const removeRep = (id:string) =>  () => {
