@@ -31,8 +31,8 @@ export default async function MapPage({ params }: {params:{map_id:string}})
                         .from('objects')
                         .select("name")
                         .eq("bucket_id", "MapCollection");
-  storageListRaw?.shift()
-  const storageList = storageListRaw?.map((json:{ name: string; }) => json.name)
+  // storageListRaw?.shift()
+  let storageList = storageListRaw?.map((json:{ name: string; }) => json.name)
 
   const { data:{user} } = await supabase.auth.getUser()
 
@@ -44,7 +44,8 @@ export default async function MapPage({ params }: {params:{map_id:string}})
     )
   }
 
-  const bgList =[
+  if(!user||!storageList){
+    storageList =[
     'bremen',              'bryn-shander',
     'caer-dineval',        'caer-konig',
     'caer-dineval-keep',   'cauldron-caves',
@@ -57,8 +58,9 @@ export default async function MapPage({ params }: {params:{map_id:string}})
     'targos',              'termalaine',
     'verbeeg-lair'
   ]
+}
   return (
-    <GotPage map_id={uuidv4()} showCreative={true} storage_name={""} icons={[]} loaded={false} full_map_list={[]} storage_list={bgList}/>
+    <GotPage map_id={uuidv4()} showCreative={true} storage_name={""} icons={[]} loaded={false} full_map_list={[]} storage_list={storageList}/>
   )
 
   
