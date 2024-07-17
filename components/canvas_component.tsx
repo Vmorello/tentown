@@ -79,7 +79,7 @@ export function CanvasComp(props:{
 
       // console.log(event)
 
-      props.onPress(event.nativeEvent.layerX, event.nativeEvent.layerY,event.pageX, event.pageY, )
+      props.onPress(event.nativeEvent.offsetX, event.nativeEvent.offsetY,event.pageX, event.pageY, )
       //action(event)
   }
 
