@@ -62,6 +62,7 @@ const iconStore: { [key: string]: any } = {
    troll :troll,
  tiger :tiger,
  dragon :dragon,
+ dragon_ice:dragon_ice,
  elephant :elephant,
  bird_black :bird_black,
  ogre  :ogre,
@@ -190,6 +191,7 @@ import dancing_f_2 from "/public/love/dancing/1F483-1F3FC.svg";
 import troll from "/public/DnD/1F9CC.svg";
 import tiger from "/public/DnD/1F42F.svg";
 import dragon from "/public/DnD/1F409.svg";
+import dragon_ice from "/public/DnD/1F409-ice.svg";
 import elephant from "/public/DnD/1F418.svg";
 import bird_black from "/public/DnD/1F426-200D-2B1B.svg";
 import ogre from "/public/DnD/1F479.svg";
