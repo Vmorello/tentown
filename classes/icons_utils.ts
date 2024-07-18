@@ -209,7 +209,7 @@ import mage_3 from  "/public/DnD/mage/1F9D9-1F3FD.svg";
 import mage_f_4 from  "/public/DnD/mage/1F9D9-1F3FE-200D-2642-FE0F.svg";
 import mage_m_5 from  "/public/DnD/mage/1F9D9-1F3FF-200D-2642-FE0F.svg";
 
-import vampire_m_1 from "/public/DnD/vampire/1F9DB-1F3FB-200D-2642-FE0F.svg";
+import vampire_m_1 from "/public/DnD/Vampire/1F9DB-1F3FB-200D-2642-FE0F.svg";
 
 import elf_0 from  "/public/DnD/elf/1F9DD.svg";
 import elf_f_0 from  "/public/DnD/elf/1F9DD-200D-2640-FE0F.svg";
