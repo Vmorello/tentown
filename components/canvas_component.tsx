@@ -89,11 +89,10 @@ export function CanvasComp(props:{
     <div 
       onScroll={onSideScroll} 
       style={{ position: "relative"}}>
-      <canvas ref={canvas_ref} onClick={onCanvasPress} //onPointerMove={onCanvasMove}
-          width={props.width} height={props.height} //onPointerOut={onCanvasPointerOut}
+      <canvas ref={canvas_ref} onClick={onCanvasPress} 
+          width={props.width} height={props.height} 
           style={{border:"3px dotted #000000"}}/>
         <IconPlacement repList={props.repList}/>
-        {/* <Hover rep={hover}/> */}
     </div>
   )
 }
@@ -115,26 +114,27 @@ function IconPlacement(props:{
           </>
 }
 
-function Hover(props:{rep:repType|undefined}) {
-    //in above class 
-      // const onCanvasMove = (event:React.MouseEvent<HTMLCanvasElement>) => {
-      //   setHover({icon: props.currentItem,
-      //     x: event.pageX,
-      //     y: event.pageY,
-      //     radius: getImageSize(props.currentItem)
-      //   })
-      // };
+// function Hover(props:{rep:repType|undefined}) {
+//     //in above class 
+//       // const onCanvasMove = (event:React.MouseEvent<HTMLCanvasElement>) => {
+//       //   setHover({icon: props.currentItem,
+//       //     x: event.pageX,
+//       //     y: event.pageY,
+//       //     radius: getImageSize(props.currentItem)
+//       //   })
+//       // };
 
-      // const onCanvasPointerOut = (event:React.MouseEvent<HTMLCanvasElement>)=>{
-      //     setHover(undefined)
-      // }
+//       // const onCanvasPointerOut = (event:React.MouseEvent<HTMLCanvasElement>)=>{
+//       //     setHover(undefined)
+//       // }
+//      // in Canvas tag: //onPointerMove={onCanvasMove} //onPointerOut={onCanvasPointerOut}
 
-      return <>{(props.rep==undefined) ? <></>:
-      <Image src={get_image(props.rep.icon)} alt={"broke"} height={props.rep.radius*2} width={props.rep.radius*2} style={{ 
-        pointerEvents: "none",
-        position: "absolute",
-        top: `${props.rep.y }px`,
-        left: `${props.rep.x }px`}}/>}
-        </>
-}
+//       return <>{(props.rep==undefined) ? <></>:
+//       <Image src={get_image(props.rep.icon)} alt={"broke"} height={props.rep.radius*2} width={props.rep.radius*2} style={{ 
+//         pointerEvents: "none",
+//         position: "absolute",
+//         top: `${props.rep.y }px`,
+//         left: `${props.rep.x }px`}}/>}
+//         </>
+// }
 
