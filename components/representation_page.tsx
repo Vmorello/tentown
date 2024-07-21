@@ -33,6 +33,7 @@ export type representation = {
   radius: number,
   link: string|null
   map_id: string
+  hidden:boolean
 }
 
 const iconList = get_icon_list()!
@@ -67,7 +68,7 @@ export function GotPage(props:repPage) {
 
 
 
-  console.log(`are you gonna see all the controls: ${props.showCreative}`)
+  // console.log(`are you gonna see all the controls: ${props.showCreative}`)
 
   //================= Main Interaction with canvas with control card ==============
   
@@ -87,7 +88,8 @@ export function GotPage(props:repPage) {
         visible_name : currentItem,
         radius:radius,
         map_id:props.map_id,
-        link:null
+        link:null,
+        hidden:false
     })
         
     // setidNumeration(String(Number(idNumeration)+1))
@@ -230,7 +232,6 @@ const saveButt = () => {
 
 const updateButt = () =>{
   const updateIcons = async() => {
-    
     const {data:iconSaved, error:iconError } = await supabase
       .from('icons')
       .upsert(currentRepInfo)
@@ -243,6 +244,8 @@ const updateButt = () =>{
     setDeletedIcons([])
     console.log("I am done updating the DB")
   }
+
+  console.log("I am about to update the DB")
   updateIcons()
 }
 

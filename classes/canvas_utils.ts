@@ -76,7 +76,7 @@ export class CanvasControl implements CanvasUtilBase {
       this.hoverOnPointerMove = (event:MouseEvent) => {
         
         if (!(this.hover === null||this.hover === undefined)) {
-          console.log(event)
+          // console.log(event)
           // console.log(getRadius(currentIcon))
           this.hover.move(
             event.offsetX  - getRadius(currentIcon),

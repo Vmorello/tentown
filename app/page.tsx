@@ -37,6 +37,7 @@ const examples = [
   { type: 'Sigil', map_id: '538ba993-1561-4bf0-b214-03b26a1cc317' },
   { type: 'Icewind Dale 🇮🇪', map_id: '906b4b63-0cbb-4c6b-a600-94610f179ba0' },
   { type: 'Icewind Dale 🇨🇦', map_id: 'ab6d99d8-bee9-47f4-9367-a2cdb1a9deca' },
+  { type: "WIP 💝", map_id: '5a68afaf-0c81-4d55-8792-ab52392e3e78' },
 
   // { type: 'Server Actions', src: 'app/_examples/server-action/page.tsx' },
   // { type: 'Route Handlers', src: 'app/_examples/route-handler.ts' },

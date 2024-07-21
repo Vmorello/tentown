@@ -17,7 +17,7 @@ export class SrcImageVisibleItem  {
 
     let temp_dimentions = getRadius(icon)*2
 
-    console.log(`i will put ${icon} with dimensions: ${temp_dimentions} at x:${x} y:${y} `)
+    // console.log(`i will put ${icon} with dimensions: ${temp_dimentions} at x:${x} y:${y} `)
 
     this.height=temp_dimentions
     this.width = temp_dimentions
