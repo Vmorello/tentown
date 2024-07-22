@@ -91,10 +91,17 @@ class CanvasWheelControl {
 
     speed: number = 0
 
+    draw: ()=> void
+
     constructor(canvas: HTMLCanvasElement, image: StaticImageData) {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext("2d")!
-        this.ctx.translate(canvas.width / 2, canvas.height / 2);
+        //for LOCAL
+            this.ctx.translate(canvas.width / 4, canvas.height / 4);
+            this.draw = ()=> this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
+        //for PROD
+            // this.ctx.translate(canvas.width / 2, canvas.height / 2);
+            // this.draw = ()=> this.ctx.drawImage(this.image,0,0);
         this.image = new Image();
         this.image.src = image.src
         this.image.addEventListener("load", () => {
@@ -107,14 +114,6 @@ class CanvasWheelControl {
     clear() {
         this.ctx.clearRect(-this.image.width / 2, -this.image.width / 2, this.canvas.width, this.canvas.height);
     }
-
-    draw() {
-        //for LOCAL
-        //this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
-        //for PROD
-        this.ctx.drawImage(this.image,0,0);
-    }
-
 
     animate() {
         return () => {
