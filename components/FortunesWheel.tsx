@@ -69,7 +69,7 @@ function SingleWheelRing(props:{tag:string, image: StaticImageData, icon:StaticI
 
     return <>
     <canvas ref={canvas.ref} //onClick={onCanvasPress} 
-                width={700} height={700} 
+                width={686} height={702} 
                 style={{border:"3px dotted #000000", position: "fixed", top: "5px",}}/>
     <button style={{ position: "fixed", top: "725px", left:props.position}} onClick={toggleRotate}>
             <NextImage src={props.icon} width={100} height={100} alt={"broke"}/>
@@ -94,7 +94,7 @@ class CanvasWheelControl {
     constructor(canvas:HTMLCanvasElement, image: StaticImageData) {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext("2d")!
-            this.ctx.translate(canvas.width/4,canvas.height/4);
+            this.ctx.translate(canvas.width/2,canvas.height/2);
         this.image = new Image();
         this.image.src = image.src
         this.image.addEventListener("load",()=>{
