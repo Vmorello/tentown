@@ -5,28 +5,18 @@ import { SrcImageVisibleItem ,FileVisibleItem} from "./drawableRep";
 export interface CanvasUtilBase {
   canvas:HTMLCanvasElement
   ctx:CanvasRenderingContext2D
-  setup(props:any): void
-  startAnimation(props:any): (()=> void)
-  updateOffset:(offset:{x:number,y:number})=>void
-  offset:{
-    x: number,
-    y: number
-  }
+  setup(input:setupInit): void
+  startAnimation(): (()=> void)
 }
 
 interface setupInit {
   background?: Blob
   currentItem:string
-  onPress:(offset: { x: number; y: number; }) => (event: {pageX:number,pageY:number}) => void 
 }
 
 export class CanvasControl implements CanvasUtilBase {
   canvas:HTMLCanvasElement
   ctx:CanvasRenderingContext2D
-  offset:{
-    x: number,
-    y: number
-  }
   hover:SrcImageVisibleItem|null
   hoverVisable:boolean
   animationFrame?:number
@@ -34,22 +24,20 @@ export class CanvasControl implements CanvasUtilBase {
   paintBackground?:()=>void
 
 
-    constructor(canvas:HTMLCanvasElement, offset = { x: 0, y: 0 }) {
+    constructor(canvas:HTMLCanvasElement) {
       this.canvas = canvas;
       this.ctx = this.canvas.getContext("2d")!
-      this.offset = offset;
       this.hover = null
       this.hoverVisable =false
     }
 
-    setup(props:setupInit){
+    setup(input:setupInit){
       // console.log("set-up bg & hover")
-      this.setBackground(props.background);
-      this.offset.x = - this.canvas.offsetLeft
-    if (props.currentItem === "-none-") {
+      this.setBackground(input.background);
+    if (input.currentItem === "-none-") {
       this.removeHover();
     } else {
-      this.setHover(props.currentItem);
+      this.setHover(input.currentItem);
     }
 
 
@@ -97,9 +85,7 @@ export class CanvasControl implements CanvasUtilBase {
       this.hoverVisable = false;
     }
 
-    updateOffset(offset:{x:number,y:number}){
-      this.offset = offset
-    }
+
   
     // loadIcons(rep_list:Array<{icon:string,x:number,y:number}>) {
     //   let rep;
@@ -115,9 +101,9 @@ export class CanvasControl implements CanvasUtilBase {
     // }
 
 
-    killPreviousAnimation() {
-      cancelAnimationFrame(this.animationFrame!);
-    }
+    // killPreviousAnimation() {
+    //   cancelAnimationFrame(this.animationFrame!);
+    // }
   
     animate() {
       return () => {
@@ -136,7 +122,7 @@ export class CanvasControl implements CanvasUtilBase {
     }
   
     startAnimation() { //repList:Array<{icon:string,x:number,y:number}>
-      this.killPreviousAnimation();
+      cancelAnimationFrame(this.animationFrame!);
       // let visualReps = this.loadIcons(repList);
       return () => {
         this.animationFrame = requestAnimationFrame(this.animate());//visualReps

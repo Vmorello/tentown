@@ -129,7 +129,7 @@ const iconStore: { [key: string]: any } = {
   left_arrow: left_arrow,
   right_arrow: right_arrow,
 
-
+  DnD_temple_dog:DnD_temple_dog,
   //common
   //   back_button: back_button,
   cover: cover,
@@ -247,6 +247,8 @@ import cat_grey from "/public/openmoji/custom/1F431-grey.svg";
 import dragon from "/public/openmoji/1F409.svg";
 import bird_black from "/public/openmoji/1F426-200D-2B1B.svg";
 // //DnD
+import DnD_temple_dog from "/public/DnD/Temple Dog.webp";
+
 // import troll from "/public/DnD/1F9CC.svg";
 // import tiger from "/public/DnD/1F42F.svg";
 

@@ -31,48 +31,40 @@ export function CanvasComp(props:{
 
   const refreshRate = 100 
 
-  const canvas_ref = React.createRef<HTMLCanvasElement>()
-  const canvasState: canvasStateType = {
-    ref: canvas_ref,
+  const [canvas,setCanvas] = useState({
+    ref: React.createRef<HTMLCanvasElement>(),
     util: undefined 
-    }
-  const [canvas,setCanvas] = useState(canvasState);
-  const [hover, setHover]= useState(undefined as repType | undefined)
+    } as canvasStateType);
 
-    
   // This function happen once the component is mounted the first time
   useEffect(()=>{
-    const canvas_util = new CanvasControl(canvas_ref.current!)
-
     // console.log("setting up canvas util")
     setCanvas({
-      ref: canvas_ref,
-      util: canvas_util
+      ref: canvas.ref,
+      util: new CanvasControl(canvas.ref.current!)
     })
-    // canvas_util.setup(props)
   }, [])
 
   // This function happen every time the component is updated
   useEffect(()=>{
-    if (canvas.util === undefined) 
-      {return} // Makes this safe to do canvas-util operations
-
+    if (canvas.util === undefined) {return} // Makes this safe to do canvas-util operations
+      
     canvas.util.setup(props) //sets up hover and 
     
     setTimeout(()=> {
-      canvas.util!.startAnimation([])() //props.repList
+      canvas.util!.startAnimation()() //props.repList
     }, refreshRate);
   })
 
 
 
-  const onSideScroll = (event: React.MouseEvent<HTMLInputElement>)=>{
-    // if (canvas.util === undefined) {return}
-    if (event.target instanceof Element){
-      // console.log(event)
-      canvas.util!.updateOffset({x:event.target.scrollLeft,y:event.target.scrollTop})
-    }
-  } 
+  // const onSideScroll = (event: React.MouseEvent<HTMLInputElement>)=>{
+  //   // if (canvas.util === undefined) {return}
+  //   if (event.target instanceof Element){
+  //     // console.log(event)
+  //     canvas.util!.updateOffset({x:event.target.scrollLeft,y:event.target.scrollTop})
+  //   }
+  // } 
 
   const onCanvasPress = (event:React.MouseEvent<HTMLCanvasElement>)=>{
       if (canvas.util === undefined) {return}
@@ -87,9 +79,9 @@ export function CanvasComp(props:{
   return(
     // <div className='overflow-y-scroll' 
     <div 
-      onScroll={onSideScroll} 
+      // onScroll={onSideScroll} 
       style={{ position: "relative"}}>
-      <canvas ref={canvas_ref} onClick={onCanvasPress} 
+      <canvas ref={canvas.ref} onClick={onCanvasPress} 
           width={props.width} height={props.height} 
           style={{border:"3px dotted #000000"}}/>
         <IconPlacement repList={props.repList}/>
