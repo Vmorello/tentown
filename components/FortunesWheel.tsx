@@ -109,7 +109,7 @@ class CanvasWheelControl {
       }
 
       draw(){
-        this.ctx.drawImage(this.image,-this.image.width/2,-this.image.width/2);
+        this.ctx.drawImage(this.image,0,0);
       }
     
     //   toggleAnimation() {
