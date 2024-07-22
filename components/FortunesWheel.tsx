@@ -18,7 +18,7 @@ import gsap from 'gsap';
 
 type canvasStateType = {
     ref: React.RefObject<HTMLCanvasElement>
-    util?: { canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, toggleSpin: () => void }
+    util?: { canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, toggleSpin: (speed:number, timing:number) => void }
 
 }
 const store = {
@@ -33,12 +33,12 @@ export function FortunesWheel(props: {}) {
 
     return (<>
         <NextImage src={frame_bottom} alt={"broke"} style={{ position: "fixed", top: "400px"}}/>
-        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} />
+        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} speed={.2} timing={3}/>
         
 
-        <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} />
+        <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} speed={-.4} timing={Math.random()*3}/>
         
-        <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} />
+        <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} speed={.3} timing={Math.random()*6}/>
 
         <NextImage src={frame_top} alt={"broke"} style={{ position: "fixed"}}/>
         
@@ -48,7 +48,7 @@ export function FortunesWheel(props: {}) {
 
 
 
-function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: StaticImageData, position: string }) {
+function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: StaticImageData, position: string, speed:number, timing:number }) {
     const [canvas, setCanvas] = useState({
         ref: React.createRef<HTMLCanvasElement>(),
         util: undefined
@@ -67,7 +67,7 @@ function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: Sta
 
     const toggleRotate = () => {
         console.log(props.tag)
-        canvas.util!.toggleSpin()
+        canvas.util!.toggleSpin(props.speed,props.timing)
     }
 
 
@@ -145,13 +145,13 @@ class CanvasWheelControl {
         this.draw()
     }
 
-    toggleSpin() {
+    toggleSpin(speed:number, duration:number) {
 
         if (this.speed == 0) {
-            gsap.to(this, { speed: .2, duration: 3 })
+            gsap.to(this, { speed: speed, duration: duration })
             // this.speed=.1;
         } else {
-            gsap.to(this, { speed: 0, duration: 3 })
+            gsap.to(this, { speed: 0, duration: duration })
             // this.speed=0;
         }
     }
