@@ -33,7 +33,7 @@ export function FortunesWheel(props: {}) {
 
     return (<>
         <NextImage src={frame_bottom} alt={"broke"} style={{ position: "fixed", top: "400px"}}/>
-        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} speed={.2} timing={3}/>
+        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} speed={.05} timing={3}/>
         
 
         <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} speed={-.4} timing={Math.random()*3}/>
