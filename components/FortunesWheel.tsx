@@ -98,10 +98,10 @@ class CanvasWheelControl {
         this.ctx = this.canvas.getContext("2d")!
         //for LOCAL
             this.ctx.translate(canvas.width / 4, canvas.height / 4);
-            this.draw = ()=> this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
+            // this.draw = ()=> this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
         //for PROD
             // this.ctx.translate(canvas.width / 2, canvas.height / 2);
-            // this.draw = ()=> this.ctx.drawImage(this.image,0,0);
+            this.draw = ()=> this.ctx.drawImage(this.image,0,0);
         this.image = new Image();
         this.image.src = image.src
         this.image.addEventListener("load", () => {
