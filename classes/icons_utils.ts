@@ -129,7 +129,7 @@ const iconStore: { [key: string]: any } = {
   left_arrow: left_arrow,
   right_arrow: right_arrow,
 
-  DnD_temple_dog:DnD_temple_dog,
+  DnD_temple_dog: DnD_temple_dog,
   //common
   //   back_button: back_button,
   cover: cover,

@@ -18,7 +18,7 @@ import gsap from 'gsap';
 
 type canvasStateType = {
     ref: React.RefObject<HTMLCanvasElement>
-    util?: { canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, toggleSpin: (speed:number, timing:number) => void }
+    util?: { canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, toggleSpin: (speed: number, timing: number) => void }
 
 }
 const store = {
@@ -32,23 +32,23 @@ export function FortunesWheel(props: {}) {
 
 
     return (<>
-        <NextImage src={frame_bottom} alt={"broke"} style={{ position: "fixed", top: "400px"}}/>
-        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} speed={.1} timing={3}/>
-        
+        <NextImage src={frame_bottom} height={frame_bottom.height} width={frame_bottom.width} alt={"broke"} style={{ position: "fixed", top: "400px" }} />
+        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} speed={.1} timing={3} />
 
-        <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} speed={-.4} timing={Math.random()*3}/>
-        
-        <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} speed={.3} timing={Math.random()*6}/>
 
-        <NextImage src={frame_top} alt={"broke"} style={{ position: "fixed"}}/>
-        
+        <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} speed={-.4} timing={Math.random() * 3} />
+
+        <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} speed={.3} timing={Math.random() * 6} />
+
+        <NextImage src={frame_top} alt={"broke"} height={frame_top.height} width={frame_top.width} style={{ position: "fixed" }} />
+
 
     </>)
 }
 
 
 
-function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: StaticImageData, position: string, speed:number, timing:number }) {
+function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: StaticImageData, position: string, speed: number, timing: number }) {
     const [canvas, setCanvas] = useState({
         ref: React.createRef<HTMLCanvasElement>(),
         util: undefined
@@ -67,7 +67,7 @@ function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: Sta
 
     const toggleRotate = () => {
         console.log(props.tag)
-        canvas.util!.toggleSpin(props.speed,props.timing)
+        canvas.util!.toggleSpin(props.speed, props.timing)
     }
 
 
@@ -99,10 +99,10 @@ class CanvasWheelControl {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext("2d")!
         //for LOCAL
-            // this.ctx.translate(canvas.width / 4, canvas.height / 4);
+        // this.ctx.translate(canvas.width / 4, canvas.height / 4);
         //for PROD
-            this.ctx.translate(canvas.width / 2, canvas.height / 2);
-        
+        this.ctx.translate(canvas.width / 2, canvas.height / 2);
+
         this.image = new Image();
         this.image.src = image.src
         this.image.addEventListener("load", () => {
@@ -145,7 +145,7 @@ class CanvasWheelControl {
         this.draw()
     }
 
-    toggleSpin(speed:number, duration:number) {
+    toggleSpin(speed: number, duration: number) {
 
         if (this.speed == 0) {
             gsap.to(this, { speed: speed, duration: duration })

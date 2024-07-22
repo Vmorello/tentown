@@ -1,4 +1,4 @@
-export function Debug(props:{pageID:string}){
+export function Debug(props:{info:string}){
     return(
 
         <div style={{ position: "fixed",
@@ -6,7 +6,7 @@ export function Debug(props:{pageID:string}){
                     right: "10px",
                     backgroundColor: "rgba(156, 153, 153, 0.75)"}}>
                         <label>current page ID: </label>
-                        <label id={"pageID"}>{props.pageID}</label>
+                        <label id={"info"}>{props.info}</label>
         </div>
     )
 }
