@@ -11,7 +11,8 @@ import outer from "/public/DnD/outer_wheel.png";
 import inner_icon from "/public/DnD/inner_icon.png";
 import middle_icon from "/public/DnD/mid_icon.png";
 import outer_icon from "/public/DnD/outer_icon.png";
-import frame from "/public/DnD/big_frame.png";
+import frame_bottom from "/public/DnD/big_frame_bottom.png";
+import frame_top from "/public/DnD/big_frame_top.png";
 import gsap from 'gsap';
 
 
@@ -31,13 +32,16 @@ export function FortunesWheel(props: {}) {
 
 
     return (<>
+        <NextImage src={frame_bottom} alt={"broke"} style={{ position: "fixed", top: "400px"}}/>
+        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} />
+        
 
         <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} />
-        <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} />
+        
         <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} />
 
-
-        {/* <NextImage src={frame} alt={"broke"}/> */}
+        <NextImage src={frame_top} alt={"broke"} style={{ position: "fixed"}}/>
+        
 
     </>)
 }
@@ -91,17 +95,14 @@ class CanvasWheelControl {
 
     speed: number = 0
 
-    draw: ()=> void
-
     constructor(canvas: HTMLCanvasElement, image: StaticImageData) {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext("2d")!
         //for LOCAL
-            // this.ctx.translate(canvas.width / 4, canvas.height / 4);
-            // this.draw = ()=> this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
+            this.ctx.translate(canvas.width / 4, canvas.height / 4);
         //for PROD
             this.ctx.translate(canvas.width / 2, canvas.height / 2);
-            this.draw = ()=> this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
+        
         this.image = new Image();
         this.image.src = image.src
         this.image.addEventListener("load", () => {
@@ -113,6 +114,11 @@ class CanvasWheelControl {
 
     clear() {
         this.ctx.clearRect(-this.image.width / 2, -this.image.width / 2, this.canvas.width, this.canvas.height);
+    }
+
+    // this.draw = ()=> this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
+    draw() {
+        this.ctx.drawImage(this.image, -this.image.width / 2, -this.image.width / 2);
     }
 
     animate() {
