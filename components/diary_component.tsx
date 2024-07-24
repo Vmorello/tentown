@@ -79,10 +79,7 @@ export function Diary({ diaryInfo,
         <input value={item.visible_name}
           onChange={titleOnChange(item)}
           id={`journalRepTitle${item.id}`}
-          style={{
-            background: "transparent",
-            border: "none"
-          }} />
+          className={"bg-transparent"} />
         <DataListofItem entries={item.data} repID={item.id} CatagoryOnChange={CatagoryOnChange} />
         {item.link ? <div>
           <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
@@ -93,7 +90,7 @@ export function Diary({ diaryInfo,
           </div>
           {item.link ? <></> :
             <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)} />}
-          <hr style={{ height: `15px`, backgroundColor: `grey` }} />
+          <hr className={"h-4 bg-gray-500"} />
           <button onClick={deleteFunc(item.id)}>❌Delete❌</button>
         </> : <></>}
       </div>
@@ -104,11 +101,11 @@ export function Diary({ diaryInfo,
   return (<div style={{
     position: "absolute",
     left: `${diaryInfo.x}px`,
-    top: `${diaryInfo.y}px`,
-    backgroundColor: 'violet'
-  }}>
-    <div style={{ textAlign: "right" }}><button onClick={resetDiary}>Close - X</button></div>
-    {info_list}
+    top: `${diaryInfo.y}px`,}}>
+      <div className="bg-fuchsia-400">
+        <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
+        {info_list}
+    </div>
   </div>
   )
 }

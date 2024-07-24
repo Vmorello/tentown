@@ -3,12 +3,12 @@
 import React, { useState, useEffect, UIEventHandler, MouseEventHandler } from 'react';
 
 import { CanvasControl, CanvasUtilBase } from '../classes/canvas_utils';
-// import { getVisibleItemBy } from '@/classes/visibleRep';
 import { get_image, } from '@/classes/icons_utils';
 
 import Image from 'next/image';
 
 type repType = {
+  id:string
   icon: string
   x: number
   y: number
@@ -56,34 +56,19 @@ export function CanvasComp(props: {
     }, refreshRate);
   })
 
-
-
-  // const onSideScroll = (event: React.MouseEvent<HTMLInputElement>)=>{
-  //   // if (canvas.util === undefined) {return}
-  //   if (event.target instanceof Element){
-  //     // console.log(event)
-  //     canvas.util!.updateOffset({x:event.target.scrollLeft,y:event.target.scrollTop})
-  //   }
-  // } 
-
   const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
     if (canvas.util === undefined) { return }
-
     // console.log(event)
-
     props.onPress(event.nativeEvent.offsetX, event.nativeEvent.offsetY, event.pageX, event.pageY,)
-    //action(event)
   }
 
 
   return (
-    // <div className='overflow-y-scroll' 
-    <div
-      // onScroll={onSideScroll} 
-      style={{ position: "relative" }}>
+
+    <div className={'overflow-x-scroll relative'}>
+     
       <canvas ref={canvas.ref} onClick={onCanvasPress}
-        width={props.width} height={props.height}
-        style={{ border: "3px dotted #000000" }} />
+        width={props.width} height={props.height}/>
       <IconPlacement repList={props.repList} />
     </div>
   )
@@ -92,9 +77,12 @@ export function CanvasComp(props: {
 function IconPlacement(props: {
   repList: Array<repType>
 }) {
-  const linkOptions = props.repList.map((rep: { x: any; y: any; icon: string; radius: number }) => {
+  const linkOptions = props.repList.map((rep: repType) => {
     // console.log(image)
-    return <Image src={get_image(rep.icon)!} alt={"broke"} height={rep.radius * 2} width={rep.radius * 2} style={{
+    return <Image src={get_image(rep.icon)!} alt={"broke"} 
+    height={rep.radius * 2} width={rep.radius * 2} 
+    key={`Rep${rep.id}`}
+    style={{
       pointerEvents: "none",
       position: "absolute",
       top: `${rep.y}px`,
@@ -106,28 +94,4 @@ function IconPlacement(props: {
     {linkOptions}
   </>
 }
-
-// function Hover(props:{rep:repType|undefined}) {
-//     //in above class
-//       // const onCanvasMove = (event:React.MouseEvent<HTMLCanvasElement>) => {
-//       //   setHover({icon: props.currentItem,
-//       //     x: event.pageX,
-//       //     y: event.pageY,
-//       //     radius: getImageSize(props.currentItem)
-//       //   })
-//       // };
-
-//       // const onCanvasPointerOut = (event:React.MouseEvent<HTMLCanvasElement>)=>{
-//       //     setHover(undefined)
-//       // }
-//      // in Canvas tag: //onPointerMove={onCanvasMove} //onPointerOut={onCanvasPointerOut}
-
-//       return <>{(props.rep==undefined) ? <></>:
-//       <Image src={get_image(props.rep.icon)} alt={"broke"} height={props.rep.radius*2} width={props.rep.radius*2} style={{
-//         pointerEvents: "none",
-//         position: "absolute",
-//         top: `${props.rep.y }px`,
-//         left: `${props.rep.x }px`}}/>}
-//         </>
-// }
 

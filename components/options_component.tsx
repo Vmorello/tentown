@@ -29,15 +29,10 @@ export function CardSelect({
     backgroundButt, loaded, newSaveButt, loadedSaveButt }: card_type
 ) {
     // console.log(`loaded is ${loaded}`)
-    return (<div style={{
-        position: "fixed",
-        bottom: "10px",
-        left: "5px",
-        backgroundColor: "rgba(156, 153, 153, 0.75)"
-    }}>
+    return (<div className={'bg-gray-400 opacity-75 fixed bottom-2 left-1'}>
         <IconSelectDropdown setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={pageRepList} />
-        <hr style={{ height: `5px`, backgroundColor: `black` }} />
+        <hr className={"h-1 bg-black"} />
 
         {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} />}
 
