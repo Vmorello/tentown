@@ -41,7 +41,7 @@ const iconList = get_icon_list()!
 export function GotPage(props: repPage) {
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [height, setHeight] = useState(900);
+  const [height, setHeight] = useState(300);
   const [width, setWidth] = useState(1400);
   const [currentItem, setCurrentItem] = useState("-none-");
   const [diary, setDiary] = useState({
