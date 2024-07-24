@@ -74,7 +74,7 @@ function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: Sta
     return <>
         <canvas ref={canvas.ref}
             width={686} height={702}
-            style={{ border: "3px dotted #000000", position: "fixed", top: "5px", }} />
+            style={{ position: "fixed", top: "5px", }} />
         <button style={{ position: "fixed", top: "725px", left: props.position }} onClick={toggleRotate}>
             <NextImage src={props.icon} width={100} height={100} alt={"broke"} />
         </button>
