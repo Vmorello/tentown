@@ -66,8 +66,8 @@ export function CanvasComp(props: {
   })
 
   const updateSizes = () => {
-    console.log(`comparing window ${window.outerWidth} to prop ${props.width}`)
-    setIsWindowSmall4Image( window.outerWidth< props.width )
+    //console.log(`comparing window ${window.innerWidth} to prop ${props.width}`)
+    setIsWindowSmall4Image( window.innerWidth< props.width )
   }
 
   const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
