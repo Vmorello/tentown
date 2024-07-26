@@ -63,8 +63,13 @@ export function Diary({ diaryInfo,
     const info_copy = currentRepInfo.slice()
     const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
     info_copy[listIndex][size_param] = Number(event.target.value)
+    //______________________REMOVE______________________
+    if(size_param =="width") info_copy[listIndex]["height"] = Number(event.target.value)
+    //____________________________________________________
     setCurrentRepInfo(info_copy)
   })
+
+
 
   const VisibilityOnChange = (repID: string) => ((event: React.ChangeEvent<HTMLInputElement>) => {
     const info_copy = currentRepInfo.slice()

@@ -43,8 +43,8 @@ const iconList = get_icon_list()!
 export function GotPage(props: repPage) {
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [height, setHeight] = useState(window.innerHeight);
-  const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(0);
+  const [width, setWidth] = useState(0);
   const [currentItem, setCurrentItem] = useState("-none-");
   const [diary, setDiary] = useState({
     x: 0,
@@ -58,6 +58,8 @@ export function GotPage(props: repPage) {
 
 
   useEffect(() => {
+    setHeight(window.innerHeight)
+    setWidth(window.innerWidth)
     getMapFileFromStorage(props.storage_name)
   }, []);
 
