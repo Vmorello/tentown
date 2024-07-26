@@ -60,48 +60,12 @@ const iconStore: { [key: string]: any } = {
   cat_grey_face_kissing: cat_grey_face_kissing,
   cat_grey: cat_grey,
 
-  //DndS
-  //    troll :troll,
-  //  tiger :tiger,
+  //DnD
+
   dragon: dragon,
-  //  dragon_ice:dragon_ice,
-  //  elephant :elephant,
+
   bird_black: bird_black,
-  //  ogre  :ogre,
-  //  fire  :fire,
-  //  robot  :robot,
-  //  genie_blue  :genie_blue, 
-  //  genie_green :genie_green,
-  //  genie_rose :genie_rose,
 
-  //  mage_f_0 :mage_f_0,
-  //  mage_m_0 :mage_m_0,
-  //  mage_f_2 :mage_f_2,
-  //  mage_m_2 :mage_m_2,
-  //  mage_3 :mage_3,
-  //  mage_f_4 :mage_f_4,
-  //  mage_m_5 :mage_m_5,
-
-  //  vampire_m_1 :vampire_m_1,
-
-  //  elf_0 :elf_0,
-  //  elf_f_0 :elf_f_0,
-  //  elf_m_0 :elf_m_0,
-  //  elf_1 :elf_1,
-  //  elf_f_1 :elf_f_1,
-  //  elf_m_1 :elf_m_1,
-  //  elf_2 :elf_2,
-  //  elf_f_2 :elf_f_2,
-  //  elf_m_2 :elf_m_2,
-  //  elf_3 :elf_3,
-  //  elf_f_3 :elf_f_3,
-  //  elf_m_3 :elf_m_3,
-  //  elf_4 :elf_4,
-  //  elf_f_4 :elf_f_4,
-  //  elf_m_4 :elf_m_4,
-  //  elf_5 :elf_5,
-  //  elf_f_5 :elf_f_5,
-  //  elf_m_5 :elf_m_5,
   rat: rat,
   music_note: music_note,
   music_notes: music_notes,
@@ -148,10 +112,10 @@ const iconStore: { [key: string]: any } = {
   oni: oni,
   shemeshka:shemeshka,
   vecna_impersonator:vecna_impersonator,
+  gnome_ceremorph:gnome_ceremorph,
   //common
   //   back_button: back_button,
   cover: cover,
-  // cover_s: cover_s,
 }
 
 export function get_image(input_value: string) {
@@ -181,10 +145,9 @@ export function getSize(input_value: string) {
 
 }
 
-// import Image from "next/future/image";
-// import back_button from "/public/common/back_button.png";
+
 import cover from "/public/common/black_cover.png";
-// import cover_s from "/public/common/black_cover_s.png";
+
 // icons
 import alter from "/public/icons/alter.png";
 import camp from "/public/icons/camp.png";
@@ -294,6 +257,7 @@ import githyanki from "/public/DnD/githyanki.webp";
 import grung_yellow from "/public/DnD/grung_yellow.webp";
 import oni from "/public/DnD/oni.webp";
 
+import gnome_ceremorph from "/public/DnD/gnome_ceremorph.webp";
 import vecna_impersonator from "/public/DnD/vecna_impersonator.webp";
 import shemeshka from "/public/DnD/shemeshka.webp";
 
