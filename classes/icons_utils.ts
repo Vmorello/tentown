@@ -146,6 +146,8 @@ const iconStore: { [key: string]: any } = {
   githyanki: githyanki,
   grung_yellow: grung_yellow,
   oni: oni,
+  shemeshka:shemeshka,
+  vecna_impersonator:vecna_impersonator,
   //common
   //   back_button: back_button,
   cover: cover,
@@ -291,6 +293,9 @@ import vampire from "/public/DnD/vampire.webp";
 import githyanki from "/public/DnD/githyanki.webp";
 import grung_yellow from "/public/DnD/grung_yellow.webp";
 import oni from "/public/DnD/oni.webp";
+
+import vecna_impersonator from "/public/DnD/vecna_impersonator.webp";
+import shemeshka from "/public/DnD/shemeshka.webp";
 
 // import troll from "/public/DnD/1F9CC.svg";
 // import tiger from "/public/DnD/1F42F.svg";
