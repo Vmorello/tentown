@@ -6,14 +6,7 @@ import { CanvasControl, CanvasUtilBase } from '../classes/canvas_utils';
 import { get_image, } from '@/classes/icons_utils';
 
 import Image from 'next/image';
-
-type repType = {
-  id: string
-  icon: string
-  x: number
-  y: number
-  radius: number
-}
+import { representation } from './representation_page';
 
 type canvasStateType = {
   ref: React.RefObject<HTMLCanvasElement>
@@ -25,8 +18,9 @@ export function CanvasComp(props: {
   height: number
   onPress: (x_canvas: number, y_canvas: number, x_page: number, y_page: number) => void
   currentItem: string
-  repList: Array<repType>
+  repList: Array<representation>
   background?: Blob
+  showCreative: boolean
 }) {
 
   const refreshRate = 100
@@ -82,7 +76,7 @@ export function CanvasComp(props: {
 
       <canvas ref={canvas.ref} onClick={onCanvasPress}
         width={props.width} height={props.height} />
-      <IconPlacement repList={props.repList} />
+      <IconPlacement repList={props.repList} showCreative={props.showCreative}/>
     </div>
   )
 }
@@ -93,12 +87,14 @@ export function CanvasComp(props: {
 
 
 function IconPlacement(props: {
-  repList: Array<repType>
+  repList: Array<representation>
+  showCreative:boolean
 }) {
-  const linkOptions = props.repList.map((rep: repType) => {
+  const linkOptions = props.repList.map((rep: representation) => {
     // console.log(image)
+    if (!rep.hidden || props.showCreative){
     return <Image src={get_image(rep.icon)!} alt={"broke"}
-      height={rep.radius * 2} width={rep.radius * 2}
+      height={rep.height} width={rep.width}
       key={`Rep${rep.id}`}
       style={{
         pointerEvents: "none",
@@ -106,7 +102,7 @@ function IconPlacement(props: {
         top: `${rep.y}px`,
         left: `${rep.x}px`
       }} />
-  });
+  }})
 
   return <>
     {linkOptions}

@@ -59,6 +59,23 @@ export function Diary({ diaryInfo,
     setCurrentRepInfo(info_copy)
   })
 
+  const SizeOnChange = (repID: string, size_param: "height"|"width") => ((event: React.ChangeEvent<HTMLInputElement>) => {
+    const info_copy = currentRepInfo.slice()
+    const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
+    info_copy[listIndex][size_param] = Number(event.target.value)
+    setCurrentRepInfo(info_copy)
+  })
+
+  const VisibilityOnChange = (repID: string) => ((event: React.ChangeEvent<HTMLInputElement>) => {
+    const info_copy = currentRepInfo.slice()
+    const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
+    info_copy[listIndex].hidden = !(info_copy[listIndex].hidden)
+
+    setCurrentRepInfo(info_copy)
+  })
+
+
+
   const LinkedAdded = (item: representation) => () => {
     // console.log(item)
     const info_copy = currentRepInfo.slice()
@@ -85,13 +102,29 @@ export function Diary({ diaryInfo,
           <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
         </div> : <></>}
         {showCreative ? <>
-          <div>
-            <button onClick={newTextBoxAdded(item)} >New Entry</button>
-          </div>
-          {item.link ? <></> :
-            <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)} />}
-          <hr className={"h-4 bg-gray-500"} />
-          <button onClick={deleteFunc(item.id)}>❌Delete❌</button>
+              <div>
+                <button onClick={newTextBoxAdded(item)} >New Entry</button>
+              </div>
+              {item.link ? <></> :
+                <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)} />}
+              <hr className={"h-3 bg-gray-500"} />
+              <>
+                <label>
+                  Size - ~WIP~:
+                  <input type="number" value={item.width} className={"w-12"} onChange={SizeOnChange(item.id,"width")}/>
+                </label>
+                {/* <label className="px-4">
+                  Height:
+                  <input type="number" value={item.height} className={"w-12"} onChange={SizeOnChange(item.id,"height")}/>
+                </label> */}
+              </>
+              <hr className={"h-3 bg-gray-500"} />
+              <label>
+                <input type="checkbox" checked={item.hidden} onChange={VisibilityOnChange(item.id)}/>
+                Hidden?
+              </label>
+              <hr className={"h-3 bg-gray-500"} />
+              <button onClick={deleteFunc(item.id)}>❌Delete❌</button>
         </> : <></>}
       </div>
     )
@@ -135,19 +168,18 @@ function AddLink(props: {
   full_map_list: { id: any; name: any; }[],
   LinkedAdded: () => void,
 }) {
-
-
-
   const linkOptions = props.full_map_list.map((json: { id: any; name: any; }) => {
     return <option value={json.id} key={json.id}>{json.name}</option>
   });
 
   return <>
-    <select id="dairyLinkSelect">
-      {linkOptions}
-    </select>
-    <button onClick={props.LinkedAdded}>♻️Add link♻️</button>
-
+        <button onClick={props.LinkedAdded}>♻️Add link♻️</button>
+        <div>
+          {"to: "}
+          <select id="dairyLinkSelect">
+            {linkOptions}
+          </select>
+        </div>
   </>
 }
 

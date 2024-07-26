@@ -1,6 +1,6 @@
 // import Image from 'next/image' ;
 
-import { get_image, getRadius } from "./icons_utils";
+import { get_image, getSize } from "./icons_utils";
 
 
 export class SrcImageVisibleItem {
@@ -15,12 +15,12 @@ export class SrcImageVisibleItem {
     this.x = x;
     this.y = y;
 
-    let temp_dimentions = getRadius(icon) * 2
+    let size = getSize(icon) 
 
     // console.log(`i will put ${icon} with dimensions: ${temp_dimentions} at x:${x} y:${y} `)
 
-    this.height = temp_dimentions
-    this.width = temp_dimentions
+    this.height = size.h
+    this.width = size.w
 
     this.load(get_image(icon));
   }

@@ -1,5 +1,3 @@
-type StaticImageData = { src: string; height: number; width: number; blurDataURL?: string; }
-
 const iconStore: { [key: string]: any } = {
   "-none-": undefined,
   //icons
@@ -133,7 +131,7 @@ const iconStore: { [key: string]: any } = {
   //common
   //   back_button: back_button,
   cover: cover,
-  cover_s: cover_s,
+  // cover_s: cover_s,
 }
 
 export function get_image(input_value: string) {
@@ -156,10 +154,17 @@ export function getRadius(input_value: string) {
   return image!.width / 2
 }
 
+export function getSize(input_value: string){
+  const image = iconStore[input_value]!
+
+  return {w:image.width, h:image.height}
+
+}
+
 // import Image from "next/future/image";
 // import back_button from "/public/common/back_button.png";
 import cover from "/public/common/black_cover.png";
-import cover_s from "/public/common/black_cover_s.png";
+// import cover_s from "/public/common/black_cover_s.png";
 // icons
 import alter from "/public/icons/alter.png";
 import camp from "/public/icons/camp.png";

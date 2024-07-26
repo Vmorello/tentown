@@ -1,4 +1,4 @@
-import { getRadius } from "./icons_utils";
+import { getSize } from "./icons_utils";
 import { SrcImageVisibleItem, FileVisibleItem } from "./drawableRep";
 
 
@@ -66,9 +66,11 @@ export class CanvasControl implements CanvasUtilBase {
       if (!(this.hover === null || this.hover === undefined)) {
         // console.log(event)
         // console.log(getRadius(currentIcon))
+        const size = getSize(currentIcon)
         this.hover.move(
-          event.offsetX - getRadius(currentIcon),
-          event.offsetY - getRadius(currentIcon)
+          
+          event.offsetX - size.w/2,
+          event.offsetY - size.h/2
         );
         this.hoverVisable = true;
       }

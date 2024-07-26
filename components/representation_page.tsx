@@ -11,7 +11,7 @@ import { Debug } from './debug_'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
-import { get_icon_list, getRadius } from '../classes/icons_utils'
+import { get_icon_list, getRadius, getSize } from '../classes/icons_utils'
 
 
 interface repPage {
@@ -34,6 +34,8 @@ export type representation = {
   link: string | null
   map_id: string
   hidden: boolean
+  width:number
+  height:number
 }
 
 const iconList = get_icon_list()!
@@ -50,18 +52,13 @@ export function GotPage(props: repPage) {
     info_on_location: [] as Array<representation>,
   });
   const [background, setBackground] = useState(undefined as Blob | undefined)
-
   const [supabase] = useState(createClientComponentClient())
-
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
 
 
   useEffect(() => {
     getMapFileFromStorage(props.storage_name)
-    //   if (typeof window !== 'undefined') {
-    //     setWidth(window.innerWidth-10)
-    //     setLength(window.innerHeight-100)
   }, []);
 
   const router = useRouter()
@@ -76,18 +73,22 @@ export function GotPage(props: repPage) {
     //next to be replaced
     const radius = getRadius(currentItem)
 
+    const size = getSize(currentItem)
+
     const info_copy = currentRepInfo.slice()
     info_copy.push({
       icon: currentItem,
-      x: x - radius,
-      y: y - radius,
+      x: x - size.w/2,
+      y: y - size.h/2,
       data: [],
       id: uuidv4(),
       visible_name: currentItem,
       radius: radius,
       map_id: props.map_id,
       link: null,
-      hidden: false
+      hidden: false,
+      height: size.h,
+      width: size.w
     })
     setCurrentRepInfo(info_copy)
   }
@@ -98,10 +99,11 @@ export function GotPage(props: repPage) {
 
 
     const info_on_location = currentRepInfo.filter((item) => {
-      // console.log(`${item.icon} is checking with x:${item.x}+-${item.radius}  y:${item.y}+-${item.radius} vs the click x:${selectX} y:${selectY} `);
-      return item["x"] + (2 * item["radius"]) > x_canvas &&
+      if(item.hidden && !props.showCreative) return
+      // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
+      return item["x"] + (item.width) > x_canvas &&
         item["x"] < x_canvas &&
-        item["y"] + (2 * item["radius"]) > y_canvas &&
+        item["y"] + (item.height) > y_canvas &&
         item["y"] < y_canvas
     })
 
@@ -237,7 +239,7 @@ export function GotPage(props: repPage) {
       <div>
         <CanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch}
           width={width} height={height} currentItem={currentItem}
-          background={background} />
+          background={background} showCreative={props.showCreative}/>
         {props.showCreative ?
           <CardSelect setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={iconList}
