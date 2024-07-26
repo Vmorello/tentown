@@ -127,7 +127,25 @@ const iconStore: { [key: string]: any } = {
   left_arrow: left_arrow,
   right_arrow: right_arrow,
 
-  DnD_temple_dog: DnD_temple_dog,
+  blue_drake: blue_drake,
+  firemane_angel: firemane_angel,
+  gremorly_ghost: gremorly_ghost,
+  kenna: kenna,
+  snow_queen: snow_queen,
+  captain_xendros: captain_xendros,
+  gertrube: gertrube,
+  grung_green: grung_green,
+  mezzoloth: mezzoloth,
+  temple_dog: temple_dog,
+  dandelion: dandelion,
+  giff: giff,
+  grung_red: grung_red,
+  mind_eye: mind_eye,
+  vampire: vampire,
+  duodrone: duodrone,
+  githyanki: githyanki,
+  grung_yellow: grung_yellow,
+  oni: oni,
   //common
   //   back_button: back_button,
   cover: cover,
@@ -154,10 +172,10 @@ export function getRadius(input_value: string) {
   return image!.width / 2
 }
 
-export function getSize(input_value: string){
+export function getSize(input_value: string) {
   const image = iconStore[input_value]!
 
-  return {w:image.width, h:image.height}
+  return { w: image.width, h: image.height }
 
 }
 
@@ -252,7 +270,27 @@ import cat_grey from "/public/openmoji/custom/1F431-grey.svg";
 import dragon from "/public/openmoji/1F409.svg";
 import bird_black from "/public/openmoji/1F426-200D-2B1B.svg";
 // //DnD
-import DnD_temple_dog from "/public/DnD/Temple Dog.webp";
+
+import blue_drake from "/public/DnD/blue_drake.webp";
+import firemane_angel from "/public/DnD/firemane_angel.webp";
+import gremorly_ghost from "/public/DnD/gremorly_ghost.webp";
+import kenna from "/public/DnD/kenna.webp";
+import snow_queen from "/public/DnD/snow_queen.webp";
+import captain_xendros from "/public/DnD/captain_xendros.webp";
+import gertrube from "/public/DnD/gertrube.webp";
+import grung_green from "/public/DnD/grung_green.webp";
+import mezzoloth from "/public/DnD/mezzoloth.webp";
+import temple_dog from "/public/DnD/temple_dog.webp";
+
+import dandelion from "/public/DnD/dandelion.webp";
+import giff from "/public/DnD/giff.webp";
+import grung_red from "/public/DnD/grung_red.webp";
+import mind_eye from "/public/DnD/mind_eye.webp";
+import duodrone from "/public/DnD/duodrone.webp";
+import vampire from "/public/DnD/vampire.webp";
+import githyanki from "/public/DnD/githyanki.webp";
+import grung_yellow from "/public/DnD/grung_yellow.webp";
+import oni from "/public/DnD/oni.webp";
 
 // import troll from "/public/DnD/1F9CC.svg";
 // import tiger from "/public/DnD/1F42F.svg";

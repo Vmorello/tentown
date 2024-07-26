@@ -59,7 +59,7 @@ export function Diary({ diaryInfo,
     setCurrentRepInfo(info_copy)
   })
 
-  const SizeOnChange = (repID: string, size_param: "height"|"width") => ((event: React.ChangeEvent<HTMLInputElement>) => {
+  const NumberOnChange = (repID: string, size_param: "height"|"width"|"x"|"y") => ((event: React.ChangeEvent<HTMLInputElement>) => {
     const info_copy = currentRepInfo.slice()
     const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
     info_copy[listIndex][size_param] = Number(event.target.value)
@@ -102,6 +102,7 @@ export function Diary({ diaryInfo,
           <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
         </div> : <></>}
         {showCreative ? <>
+          <hr className={"h-3 bg-gray-500"} />
               <div>
                 <button onClick={newTextBoxAdded(item)} >New Entry</button>
               </div>
@@ -110,12 +111,23 @@ export function Diary({ diaryInfo,
               <hr className={"h-3 bg-gray-500"} />
               <>
                 <label>
+                  x:
+                  <input type="number" value={item.x} className={"w-12"} onChange={NumberOnChange(item.id,"x")}/>
+                </label>
+                <label className="px-4">
+                  y:
+                  <input type="number" value={item.y} className={"w-12"} onChange={NumberOnChange(item.id,"y")}/>
+                </label>
+              </>
+              <hr className={"h-3 bg-gray-500"} />
+              <>
+                <label>
                   Size - ~WIP~:
-                  <input type="number" value={item.width} className={"w-12"} onChange={SizeOnChange(item.id,"width")}/>
+                  <input type="number" value={item.width} className={"w-12"} onChange={NumberOnChange(item.id,"width")}/>
                 </label>
                 {/* <label className="px-4">
                   Height:
-                  <input type="number" value={item.height} className={"w-12"} onChange={SizeOnChange(item.id,"height")}/>
+                  <input type="number" value={item.height} className={"w-12"} onChange={NumberOnChange(item.id,"height")}/>
                 </label> */}
               </>
               <hr className={"h-3 bg-gray-500"} />
