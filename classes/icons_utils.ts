@@ -119,12 +119,11 @@ const iconStore: { [key: string]: any } = {
 }
 
 export function get_image(input_value: string) {
-  const pngImage = iconStore[input_value]
-  if (pngImage == undefined) {
+  const image = iconStore[input_value]
+  if (image == undefined) {
     return undefined
   }
-  //  console.log(pngImage)
-  return pngImage.src
+  return image.src
 }
 
 export function get_icon_list() {
@@ -146,27 +145,27 @@ export function getSize(input_value: string) {
 }
 
 
-import cover from "/public/common/black_cover.png";
+import cover from "/public/common/black_cover.webp";
 
 // icons
-import alter from "/public/icons/alter.png";
-import camp from "/public/icons/camp.png";
-import cave from "/public/icons/cave.png";
-import dock from "/public/icons/dock.png";
-import dungeon from "/public/icons/dungeon.png";
-import forge from "/public/icons/forge.png";
-import fort from "/public/icons/fort.png";
-import graveyard from "/public/icons/graveyard.png";
-import house from "/public/icons/house.png";
-import mine from "/public/icons/mine.png";
-import ruines from "/public/icons/ruines.png";
-import sheild from "/public/icons/sheild.png";
-import stable from "/public/icons/stable.png";
-import tavern from "/public/icons/tavern.png";
-import temple from "/public/icons/temple.png";
-import town1 from "/public/icons/town1.png";
-import town2 from "/public/icons/town2.png";
-import village from "/public/icons/village.png";
+import alter from "/public/icons/alter.webp";
+import camp from "/public/icons/camp.webp";
+import cave from "/public/icons/cave.webp";
+import dock from "/public/icons/dock.webp";
+import dungeon from "/public/icons/dungeon.webp";
+import forge from "/public/icons/forge.webp";
+import fort from "/public/icons/fort.webp";
+import graveyard from "/public/icons/graveyard.webp";
+import house from "/public/icons/house.webp";
+import mine from "/public/icons/mine.webp";
+import ruines from "/public/icons/ruines.webp";
+import sheild from "/public/icons/sheild.webp";
+import stable from "/public/icons/stable.webp";
+import tavern from "/public/icons/tavern.webp";
+import temple from "/public/icons/temple.webp";
+import town1 from "/public/icons/town1.webp";
+import town2 from "/public/icons/town2.webp";
+import village from "/public/icons/village.webp";
 // openmoji
 // love
 

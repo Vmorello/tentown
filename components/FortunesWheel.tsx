@@ -5,15 +5,15 @@ import React, { useState, useEffect } from 'react';
 
 import NextImage, { StaticImageData } from 'next/image';
 
-import inner from "/public/DnD/inner_wheel.png";
-import middle from "/public/DnD/mid_wheel.png";
-import outer from "/public/DnD/outer_wheel.png";
-import inner_icon from "/public/DnD/inner_icon.png";
-import middle_icon from "/public/DnD/mid_icon.png";
-import outer_icon from "/public/DnD/outer_icon.png";
-import frame_bottom from "/public/DnD/big_frame_bottom.png";
-import frame_top from "/public/DnD/big_frame_top.png";
-import frame_mid from "/public/DnD/mid_frame.png";
+import inner from "/public/wheel/inner_wheel.webp";
+import middle from "/public/wheel/mid_wheel.webp";
+import outer from "/public/wheel/outer_wheel.webp";
+import inner_icon from "/public/wheel/inner_icon.webp";
+import middle_icon from "/public/wheel/mid_icon.webp";
+import outer_icon from "/public/wheel/outer_icon.webp";
+import frame_bottom from "/public/wheel/big_frame_bottom.webp";
+import frame_top from "/public/wheel/big_frame_top.webp";
+import frame_mid from "/public/wheel/mid_frame.webp";
 import gsap from 'gsap';
 
 
