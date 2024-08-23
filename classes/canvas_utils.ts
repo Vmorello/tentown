@@ -39,8 +39,6 @@ export class CanvasControl implements CanvasUtilBase {
     } else {
       this.setHover(input.currentItem);
     }
-
-
   }
 
   setBackground(background?: Blob) {
@@ -48,7 +46,7 @@ export class CanvasControl implements CanvasUtilBase {
       this.paintBackground = this.clear;
     } else {
       this.paintBackground = this.setPaintBackground(
-        new FileVisibleItem(background, 0, 0)
+        new FileVisibleItem(background)
       );
     }
   }
@@ -104,7 +102,6 @@ export class CanvasControl implements CanvasUtilBase {
       this.animationFrame = requestAnimationFrame(this.animate())
     };
   }
-
 
 
   clear(clearColor = "#FFFFFF") {

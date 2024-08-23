@@ -11,7 +11,7 @@ import { Debug } from './debug_'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
-import { get_icon_list, getRadius, getSize } from '../classes/icons_utils'
+import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
 
 
 interface repPage {

@@ -1,5 +1,5 @@
 import React from 'react';
-import {GotPage} from '../../../components/representation_page'
+import {GotPage} from '@/components/representation_page'
 
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
