@@ -7,6 +7,7 @@ import { useState } from 'react';
 export default  function Index() {
 
     const [image, setImage] = useState(undefined as FileVisibleItem |undefined)
+    const [dimentions, setDimentions] = useState({"height":0,"width":0})
 
     const onChange = (event:React.ChangeEvent<HTMLInputElement>) => {
         console.log("changing the input file")
@@ -38,8 +39,6 @@ export default  function Index() {
             <Image
             src={image.pic.src}
             alt="I see that image, but you broke me!"
-
-            
 
             height={300} // Set the desired height
             width={500} // Set the desired width

@@ -96,31 +96,31 @@ export function GotPage(props: repPage) {
   }
 
 
-  const canvasOnclickSwitch = (x_canvas: number, y_canvas: number, x_page: number, y_page: number,) => {
+  const canvasOnclickSwitch = (xCanvas: number, yCanvas: number, xPage: number, yPage: number,) => {
     resetDiary()
 
 
     const info_on_location = currentRepInfo.filter((item) => {
       if(item.hidden && !props.showCreative) return
       // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
-      return item["x"] + (item.width) > x_canvas &&
-        item["x"] < x_canvas &&
-        item["y"] + (item.height) > y_canvas &&
-        item["y"] < y_canvas
+      return item["x"] + (item.width) > xCanvas &&
+        item["x"] < xCanvas &&
+        item["y"] + (item.height) > yCanvas &&
+        item["y"] < yCanvas
     })
 
     if (info_on_location.length > 0) {
       setDiary({
-        x: x_page,
-        y: y_page,
+        x: xPage,
+        y: yPage,
         info_on_location: info_on_location
       })
     }
     else if (currentItem != "-none-") {
-      addRep(x_canvas, y_canvas)
+      addRep(xCanvas, yCanvas)
     }
 
-    console.log(`clicked at x:${x_canvas} y:${y_canvas} in the canvas. clicked at x:${x_page} y:${y_page} in the page. The info at this location found is ${info_on_location}`)//offset set at x:${offsetX} y:${offsetY}.
+    console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. clicked at x:${xPage} y:${yPage} in the page. The info at this location found is ${info_on_location}`)//offset set at x:${offsetX} y:${offsetY}.
   }
 
   const removeRep = (id: string) => () => {

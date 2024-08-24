@@ -16,10 +16,12 @@ type canvasStateType = {
 export function CanvasComp(props: {
   width: number
   height: number
-  onPress: (x_canvas: number, y_canvas: number, x_page: number, y_page: number) => void
+  onPress: (xCanvas: number, yCanvas: number, xPage: number, yPage: number) => void
+  
+  
+  background?: Blob
   currentItem: string
   repList: Array<representation>
-  background?: Blob
   showCreative: boolean
 }) {
 
@@ -30,7 +32,7 @@ export function CanvasComp(props: {
     util: undefined
   } as canvasStateType);
 
-  const [isWindowSmall4Image, setIsWindowSmall4Image] = useState(true)
+  const [isWindowSmall4Image, setIsWindowSmall4Image] = useState(false)
 
 
   // This function happen once the component is mounted the first time
@@ -43,14 +45,14 @@ export function CanvasComp(props: {
 
     window.addEventListener('resize', updateSizes)
 
+    updateSizes()
+
     return () => window.removeEventListener('resize', updateSizes);
   }, [])
 
   // This function happen every time the component is updated
   useEffect(() => {
     if (canvas.util === undefined) { return } // Makes this safe to do canvas-util operations
-
-    updateSizes()
 
     canvas.util.setup(props) //sets up hover and 
 
