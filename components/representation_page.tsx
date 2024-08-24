@@ -4,7 +4,7 @@ import React, { useState, useEffect, ChangeEvent } from 'react';
 
 import { v4 as uuidv4 } from 'uuid';
 
-import { CanvasComp } from './canvas_component'
+import { MMapCanvasComp } from './MemoryMapCanvasComponent'
 import { Diary } from './diary_component'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
@@ -34,8 +34,8 @@ export type representation = {
   link: string | null
   map_id: string
   hidden: boolean
-  width:number
-  height:number
+  width: number
+  height: number
 }
 
 const iconList = get_icon_list()!
@@ -43,15 +43,15 @@ const iconList = get_icon_list()!
 export function GotPage(props: repPage) {
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [height, setHeight] = useState(0);
-  const [width, setWidth] = useState(0);
+  const [height, setHeight] = useState(300);
+  const [width, setWidth] = useState(300);
   const [currentItem, setCurrentItem] = useState("-none-");
   const [diary, setDiary] = useState({
     x: 0,
     y: 0,
     info_on_location: [] as Array<representation>,
   });
-  const [background, setBackground] = useState(undefined as Blob | undefined)
+  const [background, setBackground] = useState(undefined as  HTMLImageElement | undefined)
   const [supabase] = useState(createClientComponentClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
@@ -80,8 +80,8 @@ export function GotPage(props: repPage) {
     const info_copy = currentRepInfo.slice()
     info_copy.push({
       icon: currentItem,
-      x: x - size.w/2,
-      y: y - size.h/2,
+      x: x - size.w / 2,
+      y: y - size.h / 2,
       data: [],
       id: uuidv4(),
       visible_name: currentItem,
@@ -101,7 +101,7 @@ export function GotPage(props: repPage) {
 
 
     const info_on_location = currentRepInfo.filter((item) => {
-      if(item.hidden && !props.showCreative) return
+      if (item.hidden && !props.showCreative) return
       // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
       return item["x"] + (item.width) > xCanvas &&
         item["x"] < xCanvas &&
@@ -180,11 +180,10 @@ export function GotPage(props: repPage) {
   }
 
   const updateBackgroundAndsSize = (backgroundImage: Blob) => {
-    setBackground(backgroundImage)
-
     const imageURL = URL.createObjectURL(backgroundImage)
     const tempImage = new Image();
     tempImage.addEventListener("load", () => {
+      setBackground(tempImage)
       setHeight(tempImage.naturalHeight)
       setWidth(tempImage.naturalWidth)
       URL.revokeObjectURL(imageURL)
@@ -239,9 +238,9 @@ export function GotPage(props: repPage) {
   return (
     <>
       <div>
-        <CanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch}
+        <MMapCanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch}
           width={width} height={height} currentItem={currentItem}
-          background={background} showCreative={props.showCreative}/>
+          background={background} showCreative={props.showCreative} />
         {props.showCreative ?
           <CardSelect setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={iconList}

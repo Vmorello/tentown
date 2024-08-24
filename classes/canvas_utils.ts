@@ -1,5 +1,5 @@
 import { getSize } from "./icons_utils";
-import { SrcImageVisibleItem, FileVisibleItem } from "./drawableRep";
+import { SrcImageVisibleItem, LoadedFileVisibleItem } from "./drawableRep";
 
 
 export interface CanvasUtilBase {
@@ -10,7 +10,7 @@ export interface CanvasUtilBase {
 }
 
 interface setupInit {
-  background?: Blob
+  background?: HTMLImageElement
   currentItem: string
 }
 
@@ -41,17 +41,17 @@ export class CanvasControl implements CanvasUtilBase {
     }
   }
 
-  setBackground(background?: Blob) {
+  setBackground(background?: HTMLImageElement) {
     if (background === undefined) {
       this.paintBackground = this.clear;
     } else {
       this.paintBackground = this.setPaintBackground(
-        new FileVisibleItem(background)
+        new LoadedFileVisibleItem(background)
       );
     }
   }
 
-  setPaintBackground(background: FileVisibleItem) {
+  setPaintBackground(background: LoadedFileVisibleItem) {
     return () => background.draw(this.ctx);
   }
 

@@ -44,30 +44,54 @@ export class SrcImageVisibleItem {
 
 
 
-export class FileVisibleItem {
+// export class FileVisibleItem {
+//   x: number
+//   y: number
+//   pic?: HTMLImageElement
+//   dataSize: number
+//   height: number
+//   width:number 
+
+
+//   constructor(file: Blob, x: number = 0, y: number = 0) {
+//     this.x = x;
+//     this.y = y;
+//     this.dataSize = file.size
+
+//     this.height=0
+//     this.width=0
+
+//     this.pic = new Image();
+//     this.pic.addEventListener("load", () => {
+//       this.height=this.pic!.naturalHeight
+//       this.width=this.pic!.naturalWidth
+//       URL.revokeObjectURL(this.pic!.src)
+//     })
+//     this.pic.src = URL.createObjectURL(file);
+//   }
+
+
+//   draw(ctx: CanvasRenderingContext2D) {
+//     ctx.drawImage(this.pic!, this.x, this.y,);
+//   }
+// }
+
+
+export class LoadedFileVisibleItem {
   x: number
   y: number
   pic?: HTMLImageElement
-  dataSize: number
   height: number
   width:number 
 
-  constructor(file: Blob, x: number = 0, y: number = 0) {
+
+  constructor(image: HTMLImageElement, x: number = 0, y: number = 0) {
+    this.pic = image;
+    this.height=image.naturalHeight
+    this.width=image.naturalWidth
+
     this.x = x;
     this.y = y;
-    this.dataSize = file.size
-
-    this.height=0
-    this.width=0
-
-    this.pic = new Image();
-    this.pic.addEventListener("load", () => {
-
-      this.height=this.pic!.naturalHeight
-      this.width=this.pic!.naturalWidth
-      URL.revokeObjectURL(this.pic!.src)
-    })
-    this.pic.src = URL.createObjectURL(file);
   }
 
 
