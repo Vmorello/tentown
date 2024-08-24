@@ -45,8 +45,6 @@ export function MMapCanvasComp(props: {
 
     window.addEventListener('resize', updateSizes)
 
-    updateSizes()
-
     return () => window.removeEventListener('resize', updateSizes);
   }, [])
 
@@ -55,6 +53,8 @@ export function MMapCanvasComp(props: {
     if (canvas.util === undefined) { return } // Makes this safe to do canvas-util operations
 
     canvas.util.setup(props) 
+
+    updateSizes()
 
     setTimeout(() => {
       canvas.util!.startAnimation()() 
