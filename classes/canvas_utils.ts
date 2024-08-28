@@ -1,18 +1,16 @@
 import { getSize } from "./icons_utils";
 import { SrcImageVisibleItem, LoadedFileVisibleItem } from "./drawableRep";
 
+import { noSelectionString } from "./constants"
+
 
 export interface CanvasUtilBase {
   canvas: HTMLCanvasElement
   ctx: CanvasRenderingContext2D
-  setup(input: setupInit): void
+  setup(background: HTMLImageElement, currentItem?: string ): void
   startAnimation(): (() => void)
 }
 
-interface setupInit {
-  background?: HTMLImageElement
-  currentItem: string
-}
 
 export class CanvasControl implements CanvasUtilBase {
   canvas: HTMLCanvasElement
@@ -31,15 +29,17 @@ export class CanvasControl implements CanvasUtilBase {
     this.hoverVisable = false
   }
 
-  setup(input: setupInit) {
+  setup(background: HTMLImageElement, currentItem=noSelectionString) {
     // console.log("set-up bg & hover")
-    this.setBackground(input.background);
-    if (input.currentItem === "-none-") {
+    this.setBackground(background);
+    if (currentItem === noSelectionString) {
       this.removeHover();
     } else {
-      this.setHover(input.currentItem);
+      this.setHover(currentItem);
     }
   }
+
+
 
   setBackground(background?: HTMLImageElement) {
     if (background === undefined) {

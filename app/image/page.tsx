@@ -1,13 +1,15 @@
 "use client"
 
-import { FileVisibleItem } from '@/classes/drawableRep';
-import Image from 'next/image';
+import { LoadedFileVisibleItem } from '@/classes/drawableRep';
 import { useState } from 'react';
+
+import {BaseCanvas} from "@/components/canvas/base"
 
 export default  function Index() {
 
-    const [image, setImage] = useState(undefined as FileVisibleItem |undefined)
-    const [dimentions, setDimentions] = useState({"height":0,"width":0})
+    const [image, setImage] = useState(undefined as HTMLImageElement |undefined)
+    const [dimention, setDimention] = useState({"height":0,"width":0})
+    const [dataSize,setDataSize] = useState(0)
 
     const onChange = (event:React.ChangeEvent<HTMLInputElement>) => {
         console.log("changing the input file")
@@ -17,15 +19,24 @@ export default  function Index() {
           return
         }
 
-        const inputFile = new FileVisibleItem(inputFileObject.files[0])
-  
-        setImage(inputFile)
-        console.log(inputFile)
+        setDataSize(inputFileObject.files[0].size)
+        
+        const imageURL = URL.createObjectURL(inputFileObject.files[0])
+        const tempImage = new Image();
+        tempImage.addEventListener("load", () => {
+            setImage(tempImage)
+            setDimention({"height":tempImage.naturalHeight,"width":tempImage.naturalWidth})
+            URL.revokeObjectURL(imageURL)
+        })
+        tempImage.src = imageURL
+          
+        // console.log(inputFile)
 
         console.log("changed...")    
   
     }
-    
+
+    const canvasOnclickSwitch = (xCanvas: number, yCanvas: number, xPage: number, yPage: number,) => {}
 
     // if (!image) return null 
 
@@ -35,23 +46,18 @@ export default  function Index() {
         <input type="file" id={`image_input`} accept="image/*" onChange={onChange}/>
 
 
-        {image && image.pic ? <div>
-            <Image
-            src={image.pic.src}
-            alt="I see that image, but you broke me!"
-
-            height={300} // Set the desired height
-            width={500} // Set the desired width
-        />
-        <div>Original File Info</div>
-        {/* <div> w: {image.pic.width} h: {image.pic.height}  </div> */}
-        <div> size: {image.dataSize/1000} kilobytes</div>
+        {image ? <>
+        <div>
+            <div>Original File Info -  w: {dimention.width} - h: {dimention.height} - size: {dataSize/1000} kilobytes</div>
+        </div>
+           
+        <BaseCanvas background={image} height={dimention.height} width={dimention.width} 
+        onPress={canvasOnclickSwitch} />
         
-        </div> 
+        </> 
             : <div>Add an image using the Imput above!</div>}
         
         
-
         </div>
     )
 }

@@ -22,27 +22,27 @@ type canvasStateType = {
     util?: { canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, toggleSpin: (speed: number, timing: number) => void }
 
 }
-const store = {
-    outer: { image: outer, icon: outer_icon, position: "30%" },
-    middle: { image: middle, icon: middle_icon, position: "45%" },
-    inner: { image: inner, icon: inner_icon, position: "60%" },
-}
+// const store = {
+//     outer: { image: outer, icon: outer_icon, position: "30%" },
+//     middle: { image: middle, icon: middle_icon, position: "45%" },
+//     inner: { image: inner, icon: inner_icon, position: "60%" },
+// }
 
 export function FortunesWheel(props: {}) {
 
 
 
     return (<>
-        <NextImage src={frame_bottom} height={frame_bottom.height} width={frame_bottom.width} alt={"broke"} style={{ position: "fixed", top: "400px" }} />
+        <NextImage src={frame_bottom} height={frame_bottom.height} width={frame_bottom.width} alt={"broke"} style={{ position: "absolute", top: "400px" }} />
         <SingleWheelRing tag={"outer"} image={outer} icon={outer_icon} position={"30%"} speed={.1} timing={3} />
 
         <SingleWheelRing tag={"middle"} image={middle} icon={middle_icon} position={"45%"} speed={-.4} timing={Math.random() * 3} />
 
         <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} speed={.3} timing={Math.random() * 6} />
 
-        <NextImage src={frame_top} alt={"broke"} height={frame_top.height} width={frame_top.width} style={{ position: "fixed" }} />
+        <NextImage src={frame_top} alt={"broke"} height={frame_top.height} width={frame_top.width} style={{ position: "absolute" }} />
 
-        <NextImage src={frame_mid} alt={"broke"} height={frame_mid.height} width={frame_mid.width} style={{ position: "fixed", top: "5px", }} />
+        <NextImage src={frame_mid} alt={"broke"} height={frame_mid.height} width={frame_mid.width} style={{ position: "absolute", top: "5px", }} />
 
     </>)
 }
@@ -74,8 +74,8 @@ function SingleWheelRing(props: { tag: string, image: StaticImageData, icon: Sta
     return <>
         <canvas ref={canvas.ref}
             width={686} height={702}
-            style={{ position: "fixed", top: "5px", }} />
-        <button style={{ position: "fixed", top: "725px", left: props.position }} onClick={toggleRotate}>
+            style={{ position: "absolute", top: "5px", }} />
+        <button style={{ position: "absolute", top:  props.position , left:"25px"  }} onClick={toggleRotate}>
             <NextImage src={props.icon} width={100} height={100} alt={"broke"} />
         </button>
     </>
@@ -98,9 +98,9 @@ class CanvasWheelControl {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext("2d")!
         //for LOCAL
-        // this.ctx.translate(canvas.width / 4, canvas.height / 4);
+        this.ctx.translate(canvas.width / 4, canvas.height / 4);
         //for PROD
-        this.ctx.translate(canvas.width / 2, canvas.height / 2);
+        //this.ctx.translate(canvas.width / 2, canvas.height / 2);
 
         this.image = new Image();
         this.image.src = image.src

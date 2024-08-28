@@ -1,10 +1,10 @@
 'use client';
 
-import React, { useState, useEffect, ChangeEvent } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { v4 as uuidv4 } from 'uuid';
 
-import { MMapCanvasComp } from './MemoryMapCanvasComponent'
+import { MMapCanvasComp } from '@/components/canvas/memory_map'
 import { Diary } from './diary_component'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
@@ -13,6 +13,7 @@ import { useRouter } from 'next/navigation';
 
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
 
+import { noSelectionString } from "@/classes/constants"
 
 interface repPage {
   icons: Array<representation>
@@ -43,9 +44,10 @@ const iconList = get_icon_list()!
 export function GotPage(props: repPage) {
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [height, setHeight] = useState(300);
-  const [width, setWidth] = useState(300);
-  const [currentItem, setCurrentItem] = useState("-none-");
+  const [dimention, setDimention] = useState({"height":0,"width":0})
+  // const [height, setHeight] = useState(300);
+  // const [width, setWidth] = useState(300);
+  const [currentItem, setCurrentItem] = useState(noSelectionString);
   const [diary, setDiary] = useState({
     x: 0,
     y: 0,
@@ -58,8 +60,7 @@ export function GotPage(props: repPage) {
 
 
   useEffect(() => {
-    setHeight(window.innerHeight)
-    setWidth(window.innerWidth)
+    setDimention({"height":window.innerHeight,"width":window.innerWidth})
     getMapFileFromStorage(props.storage_name)
   }, []);
 
@@ -116,7 +117,7 @@ export function GotPage(props: repPage) {
         info_on_location: info_on_location
       })
     }
-    else if (currentItem != "-none-") {
+    else if (currentItem != noSelectionString) {
       addRep(xCanvas, yCanvas)
     }
 
@@ -182,10 +183,10 @@ export function GotPage(props: repPage) {
   const updateBackgroundAndsSize = (backgroundImage: Blob) => {
     const imageURL = URL.createObjectURL(backgroundImage)
     const tempImage = new Image();
+    
     tempImage.addEventListener("load", () => {
       setBackground(tempImage)
-      setHeight(tempImage.naturalHeight)
-      setWidth(tempImage.naturalWidth)
+      setDimention({"height":tempImage.naturalHeight,"width":tempImage.naturalWidth})
       URL.revokeObjectURL(imageURL)
     })
     tempImage.src = imageURL
@@ -239,7 +240,7 @@ export function GotPage(props: repPage) {
     <>
       <div>
         <MMapCanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch}
-          width={width} height={height} currentItem={currentItem}
+          width={dimention.width} height={dimention.height} currentItem={currentItem}
           background={background} showCreative={props.showCreative} />
         {props.showCreative ?
           <CardSelect setCurrentItem={setCurrentItem}

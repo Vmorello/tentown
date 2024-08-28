@@ -1,3 +1,6 @@
+import { noSelectionString } from "./constants"
+
+
 const iconStore: { [key: string]: any } = {
   "-none-": undefined,
   //icons

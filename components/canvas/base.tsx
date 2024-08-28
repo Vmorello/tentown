@@ -3,26 +3,19 @@
 import React, { useState, useEffect} from 'react';
 
 import { CanvasControl } from '@/classes/canvas_utils';
-import { get_image, } from '@/classes/icons_utils';
-
-import Image from 'next/image';
-import { representation } from './representation_page';
 
 type canvasStateType = {
   ref: React.RefObject<HTMLCanvasElement>
   util?: CanvasControl
 }
 
-export function MMapCanvasComp(props: {
+export function BaseCanvas(props: {
   width: number
   height: number
   onPress: (xCanvas: number, yCanvas: number, xPage: number, yPage: number) => void
   
-  
   background?: HTMLImageElement
-  currentItem: string
-  repList: Array<representation>
-  showCreative: boolean
+  hoverIcon?: string
 }) {
 
   const refreshRate = 100
@@ -52,7 +45,7 @@ export function MMapCanvasComp(props: {
   useEffect(() => {
     if (canvas.util === undefined) { return } // Makes this safe to do canvas-util operations
 
-    canvas.util.setup(props) 
+    canvas.util.setup(props.background!, props.hoverIcon) 
 
     updateSizes()
 
@@ -74,41 +67,9 @@ export function MMapCanvasComp(props: {
 
 
   return (
-    <div className={isWindowSmall4Image ? "absolute left-0" : 'relative'} >
-
       <canvas ref={canvas.ref} onClick={onCanvasPress}
         width={props.width} height={props.height} />
-      <IconPlacement repList={props.repList} showCreative={props.showCreative} />
-    </div>
   )
 }
 
-
-
-
-
-
-function IconPlacement(props: {
-  repList: Array<representation>
-  showCreative: boolean
-}) {
-  const linkOptions = props.repList.map((rep: representation) => {
-    // console.log(image)
-    if (!rep.hidden || props.showCreative) {
-      return <Image src={get_image(rep.icon)!} alt={"broke"}
-        height={rep.height} width={rep.width}
-        key={`Rep${rep.id}`}
-        style={{
-          pointerEvents: "none",
-          position: "absolute",
-          top: `${rep.y}px`,
-          left: `${rep.x}px`
-        }} />
-    }
-  })
-
-  return <>
-    {linkOptions}
-  </>
-}
 

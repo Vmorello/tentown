@@ -1,0 +1,1 @@
+export const noSelectionString = "-none-" // Only place that needs to change as well is "icons_util.ts"
