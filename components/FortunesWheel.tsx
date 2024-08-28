@@ -98,9 +98,9 @@ class CanvasWheelControl {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext("2d")!
         //for LOCAL
-        this.ctx.translate(canvas.width / 4, canvas.height / 4);
+        // this.ctx.translate(canvas.width / 4, canvas.height / 4);
         //for PROD
-        //this.ctx.translate(canvas.width / 2, canvas.height / 2);
+        this.ctx.translate(canvas.width / 2, canvas.height / 2);
 
         this.image = new Image();
         this.image.src = image.src
