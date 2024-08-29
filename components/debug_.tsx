@@ -11,7 +11,7 @@ export function Debug(props:{info:string}){
             </div>
             <div> 
                 <label>window width: </label>
-                <label id={"info"}>{window.outerWidth}</label>
+                <label id={"info"}>{window.innerWidth}</label>
             </div>
                        
                        

@@ -37,7 +37,7 @@ export function BaseCanvas(props: {
     })
   }, [])
 
-  
+
   // This function happen every time the component is updated
   useEffect(() => {
     if (canvas.util === undefined) { return } // Makes this safe to do canvas-util operations
@@ -60,7 +60,7 @@ export function BaseCanvas(props: {
 
   return (
       <canvas ref={canvas.ref} onClick={onCanvasPress}
-        width={props.width} height={props.height} />
+        width={props.width} height={props.height} className="border-dotted border-2 border-stone-400" />
   )
 }
 

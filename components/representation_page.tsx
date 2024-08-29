@@ -248,7 +248,7 @@ export function GotPage(props: repPage) {
         <Diary diaryInfo={diary} deleteFunc={removeRep} full_map_list={props.full_map_list} resetDiary={resetDiary}
           currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} updateButt={updateButt} showCreative={props.showCreative} />
 
-        <Debug info={String(dimention.width)}  />
+        {/* <Debug info={String(dimention.width)}  /> */}
       </div>
     </>
   )
