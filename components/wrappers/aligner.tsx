@@ -7,9 +7,9 @@ export default function Aligner({children, canvasWidth}: {children: React.ReactN
     const [isWindowSmall4Image, setIsWindowSmall4Image] = useState("relative")
 
     useEffect(() => {
-        console.log(`comparing window ${window.innerWidth} to prop ${canvasWidth}`)
+        console.log(`comparing window ${window.outerWidth} to prop ${canvasWidth}`)
         setIsWindowSmall4Image(
-            window.innerWidth < canvasWidth  ? "absolute left-0" : "relative"
+            window.outerWidth < canvasWidth  ? "absolute left-0" : "relative"
         )  
       })
 
