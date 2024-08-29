@@ -31,6 +31,7 @@ export class CanvasControl implements CanvasUtilBase {
 
   setup(background: HTMLImageElement, currentItem=noSelectionString) {
     // console.log("set-up bg & hover")
+
     this.setBackground(background);
     if (currentItem === noSelectionString) {
       this.removeHover();
@@ -42,12 +43,13 @@ export class CanvasControl implements CanvasUtilBase {
 
 
   setBackground(background?: HTMLImageElement) {
+    this.clear()
     if (background === undefined) {
-      this.paintBackground = this.clear;
+      this.paintBackground = this.clear
     } else {
       this.paintBackground = this.setPaintBackground(
         new LoadedFileVisibleItem(background)
-      );
+      )
     }
   }
 
@@ -104,9 +106,7 @@ export class CanvasControl implements CanvasUtilBase {
   }
 
 
-  clear(clearColor = "#FFFFFF") {
-    //console.log(`trying to clear the background with ${clearColor}`);
-    this.ctx.fillStyle = clearColor
-    this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height)
+  clear() {
+    this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height)
   }
 }

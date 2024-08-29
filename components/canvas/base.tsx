@@ -25,7 +25,7 @@ export function BaseCanvas(props: {
     util: undefined
   } as canvasStateType);
 
-  const [isWindowSmall4Image, setIsWindowSmall4Image] = useState(false)
+
 
 
   // This function happen once the component is mounted the first time
@@ -35,29 +35,21 @@ export function BaseCanvas(props: {
       ref: canvas.ref,
       util: new CanvasControl(canvas.ref.current!)
     })
-
-    window.addEventListener('resize', updateSizes)
-
-    return () => window.removeEventListener('resize', updateSizes);
   }, [])
 
+  
   // This function happen every time the component is updated
   useEffect(() => {
     if (canvas.util === undefined) { return } // Makes this safe to do canvas-util operations
 
     canvas.util.setup(props.background!, props.hoverIcon) 
 
-    updateSizes()
-
     setTimeout(() => {
       canvas.util!.startAnimation()() 
     }, refreshRate);
   })
 
-  const updateSizes = () => {
-    //console.log(`comparing window ${window.innerWidth} to prop ${props.width}`)
-    setIsWindowSmall4Image(window.innerWidth < props.width)
-  }
+
 
   const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
     if (canvas.util === undefined) { return }

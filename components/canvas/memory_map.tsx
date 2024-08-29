@@ -8,6 +8,8 @@ import { get_image, } from '@/classes/icons_utils';
 import { representation } from '@/components/representation_page';
 import { BaseCanvas } from './base'
 
+import Aligner from '../wrappers/aligner';
+
 
 
 function IconPlacement(props: {
@@ -29,7 +31,7 @@ function IconPlacement(props: {
     }
   })
 
-  return <div >
+  return <div>
     {linkOptions}
   </div>
 }
@@ -69,11 +71,13 @@ export function MMapCanvasComp (props: {
 
 
   return (
-    <div className='relative'>
+    <div>
     {/* <div className={isWindowSmall4Image ? "absolute left-0" : 'relative'} >  to be replaced with wrapper*/}
-      <BaseCanvas  onPress={props.onPress} hoverIcon={props.currentItem}
-        width={props.width} height={props.height} background={props.background}/>
-      <IconPlacement repList={props.repList} showCreative={props.showCreative} />
+      <Aligner canvasWidth={props.width}>
+        <BaseCanvas  onPress={props.onPress} hoverIcon={props.currentItem}
+          width={props.width} height={props.height} background={props.background}/>
+        <IconPlacement  repList={props.repList} showCreative={props.showCreative} />
+      </Aligner>
     </div>
   )
 }
