@@ -24,13 +24,11 @@ export function MMapCanvasComp (props: {
 }) {
 
   return (
-    <div>
       <Aligner canvasWidth={props.width}>
         <BaseCanvas  onPress={props.onPress} hoverIcon={props.currentItem}
           width={props.width} height={props.height} background={props.background}/>
         <IconPlacement  repList={props.repList} showCreative={props.showCreative} />
       </Aligner>
-    </div>
   )
 }
 
