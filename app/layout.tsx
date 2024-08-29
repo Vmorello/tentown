@@ -19,7 +19,7 @@ export default async function RootLayout({children,}: {children: React.ReactNode
 
   return (
     <html lang="en">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content"></meta>
+      {/* <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content"></meta> */}
       <body>
         <main className="min-h-screen bg-background flex flex-col items-center">
           <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
