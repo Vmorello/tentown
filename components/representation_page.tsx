@@ -44,7 +44,7 @@ const iconList = get_icon_list()!
 export function GotPage(props: repPage) {
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [dimention, setDimention] = useState({"height":500,"width":500})
+  const [dimention, setDimention] = useState({"height":1000,"width":1000})
   const [currentItem, setCurrentItem] = useState(noSelectionString);
   const [diary, setDiary] = useState({
     x: 0,
