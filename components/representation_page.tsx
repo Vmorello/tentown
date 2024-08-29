@@ -44,9 +44,7 @@ const iconList = get_icon_list()!
 export function GotPage(props: repPage) {
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [dimention, setDimention] = useState({"height":0,"width":0})
-  // const [height, setHeight] = useState(300);
-  // const [width, setWidth] = useState(300);
+  const [dimention, setDimention] = useState({"height":500,"width":500})
   const [currentItem, setCurrentItem] = useState(noSelectionString);
   const [diary, setDiary] = useState({
     x: 0,
@@ -60,7 +58,6 @@ export function GotPage(props: repPage) {
 
 
   useEffect(() => {
-    setDimention({"height":window.innerHeight,"width":window.innerWidth})
     getMapFileFromStorage(props.storage_name)
   }, []);
 
