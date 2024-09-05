@@ -2,33 +2,47 @@
 
 import Image from 'next/image';
 
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { get_image, } from '@/classes/icons_utils';
 import { representation } from '@/components/representation_page';
-import { BaseCanvas } from './base'
+import useCanvas from './hook';
+
 
 import Aligner from '../wrappers/aligner';
 
-
-export function MMapCanvasComp (props: {
+interface MMapType {
   width: number
   height: number
   onPress: (xCanvas: number, yCanvas: number, xPage: number, yPage: number) => void
   background?: HTMLImageElement
-
-
   currentItem: string
   repList: Array<representation>
   showCreative: boolean
-}) {
+}
+
+
+export function MMapCanvasComp({ width, height, onPress, background, currentItem, repList, showCreative, }: MMapType) {
+
+  const { ref, canvasUtil } = useCanvas();
+
+  useEffect(() => {
+    if (canvasUtil === undefined) { return } // Makes this safe to do canvas-util operations
+
+    canvasUtil.setup(background!, currentItem)
+
+  })
+
+  const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    onPress(event.nativeEvent.offsetX, event.nativeEvent.offsetY, event.pageX, event.pageY,)
+  }
 
   return (
-      <Aligner canvasWidth={props.width}>
-        <BaseCanvas  onPress={props.onPress} hoverIcon={props.currentItem}
-          width={props.width} height={props.height} background={props.background}/>
-        <IconPlacement  repList={props.repList} showCreative={props.showCreative} />
-      </Aligner>
+    <Aligner canvasWidth={width}>
+      <canvas ref={ref} onClick={onCanvasPress}
+        width={width} height={height} className="border-dotted border-2 border-stone-400" />
+      <IconPlacement repList={repList} showCreative={showCreative} />
+    </Aligner>
   )
 }
 

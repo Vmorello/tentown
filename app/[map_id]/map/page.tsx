@@ -43,7 +43,7 @@ export default async function MapPage({ params }: {params:{map_id:string}})
       <GotPage map_id={params.map_id} showCreative={user?.id===currentMapData![0].owner} storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} full_map_list={mapList!} storage_list={storageList!}/>
     )
   }
-
+// this is map select issues 
   if(!user||!storageList){
     storageList =[
     'bremen',              'bryn-shander',

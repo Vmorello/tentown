@@ -27,10 +27,12 @@ export class CanvasControl implements CanvasUtilBase {
     this.ctx = this.canvas.getContext("2d")!
     this.hover = null
     this.hoverVisable = false
+    this.setBackground(undefined);
   }
 
   setup(background: HTMLImageElement, currentItem=noSelectionString) {
-    // console.log("set-up bg & hover")
+    console.log("setting-up bg / hover")
+    console.log(background)
 
     this.setBackground(background);
     if (currentItem === noSelectionString) {
@@ -109,4 +111,9 @@ export class CanvasControl implements CanvasUtilBase {
   clear() {
     this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height)
   }
+
+  saveAsBlob() {
+    return this.canvas.toDataURL()
+  }
+
 }
