@@ -112,8 +112,5 @@ export class CanvasControl implements CanvasUtilBase {
     this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height)
   }
 
-  saveAsBlob() {
-    return this.canvas.toDataURL()
-  }
 
 }

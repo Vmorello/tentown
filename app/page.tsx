@@ -1,7 +1,4 @@
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
 import Link from 'next/link'
-import LogoutButton from '@/components/LogoutButton'
 
 
 const examples = [

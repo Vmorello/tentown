@@ -1,6 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
 
@@ -8,11 +10,7 @@ import { MMapCanvasComp } from '@/components/canvas/memory_map'
 import { Diary } from './diary_component'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
-import { useRouter } from 'next/navigation';
-
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
-
 import { noSelectionString } from "@/classes/constants"
 
 interface repPage {
