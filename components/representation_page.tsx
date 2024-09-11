@@ -5,6 +5,7 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
+import { decode } from 'base64-arraybuffer'
 
 import { MMapCanvasComp } from '@/components/canvas/memory_map'
 import { Diary } from './diary_component'
@@ -20,7 +21,7 @@ interface repPage {
   loaded: boolean
   map_id: string
   full_map_list: { id: any; name: any; }[]
-  storage_list: string[]
+  storage_list?: string[]
 }
 
 export type representation = {
@@ -170,16 +171,39 @@ export function GotPage(props: repPage) {
       .storage
       .from('public/MapCollection')
       .download(storageName)
-    if (data) {
-      updateBackgroundAndsSize(data)
-    }
+
+    console.log( data, error)
+
+    const reader = new FileReader();
+    reader.readAsText(data!);
+    reader.onloadend = () => {
+      console.log(reader.result)
+      updateBackgroundAndsSizeWithBase64(reader.result as string)
+    };
+
   }
 
-  const updateBackgroundAndsSize = (backgroundImage: Blob) => {
+  const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
+
+    var image = new Image();
+    image.src = base64image;
+
+    image.addEventListener("load", () => {
+      console.log(`loaded image${image}` )
+      setBackground(image)
+      setDimention({"height":image.naturalHeight,"width":image.naturalWidth})
+    })
+    image.src = base64image;
+
+  }
+
+  const updateBackgroundAndSize = (backgroundImage: Blob) => {
     const imageURL = URL.createObjectURL(backgroundImage)
+    console.log( imageURL)
     const tempImage = new Image();
     
     tempImage.addEventListener("load", () => {
+      console.log(`loading image${tempImage}` )
       setBackground(tempImage)
       setDimention({"height":tempImage.naturalHeight,"width":tempImage.naturalWidth})
       URL.revokeObjectURL(imageURL)

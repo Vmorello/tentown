@@ -1,19 +1,42 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
+import { FileObject } from '@supabase/storage-js'
 import { cookies } from 'next/headers'
 
-type map_type = {}
+interface map_type { }
+
+interface map_db {
+    id: any;
+    name: any;
+}
 
 export default async function MapSelect({ }: map_type) {
 
     const supabase = createServerComponentClient({ cookies })
 
-    const { data: storageListRaw } = await supabase
-        .storage
-        .from('MapCollection')
-        .list("share/")
+    const { data: { user } } = await supabase.auth.getUser()
 
-    console.log(storageListRaw)
+    let userMaplist = [] as map_db[]
+    if (user) {
+        const { data: mapList } = await supabase
+            .from('maps')
+            .select("id, name, favorite")
+            .eq("owner", user.id)
+            .order("favorite", { ascending: false })
 
-    return <></>
+        userMaplist = mapList ? mapList : []
+    }
+
+
+
+
+    return (<div>
+
+        {userMaplist.map(({ id, name }) => (
+            <div>
+                {name}
+
+
+            </div>))}
+    </div>)
 
 }

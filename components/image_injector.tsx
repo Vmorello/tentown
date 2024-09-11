@@ -6,7 +6,7 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import Aligner from '@/components/wrappers/aligner'
 import useCanvas from './canvas/hook'
 
-
+import { decode } from 'base64-arraybuffer'
 
 
 type image_type = {}
@@ -17,6 +17,8 @@ export default function ImageImporter({ }: image_type) {
 
     const [supabase] = useState(createClientComponentClient())
 
+
+    const [imageUrl, setImageUrl] = useState(undefined as string | undefined)
     const [image, setImage] = useState(undefined as HTMLImageElement | undefined)
     // const [webp, setWebp] = useState(undefined as File | undefined)
 
@@ -34,7 +36,7 @@ export default function ImageImporter({ }: image_type) {
 
 
     const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        console.log("changing the input file")
+        // console.log("changing the input file")
 
         const inputFileObject = document.getElementById(`image_input`) as HTMLInputElement;
         if (inputFileObject.files === null) {
@@ -44,6 +46,7 @@ export default function ImageImporter({ }: image_type) {
         setDataSize(inputFileObject.files[0].size)
 
         const imageURL = URL.createObjectURL(inputFileObject.files[0])
+        setImageUrl(imageURL)
         const tempImage = new Image();
         tempImage.addEventListener("load", () => {
             // saveAsWebp(tempImage)
@@ -57,28 +60,24 @@ export default function ImageImporter({ }: image_type) {
 
         // console.log(inputFile)
 
-        console.log("changed...")
+        // console.log("changed...")
 
     }
 
     const saveButt = async () => {
-        console.log("will try to save it")
 
-        // if(webp === undefined){
-        //     console.log("issues with the webp image")
-        //     return
-        // }
         const { data: { user } } = await supabase.auth.getUser()
-        console.log(ref.current!.toDataURL())
-        console.log(image)
+        // console.log(ref.current!.toDataURL())
+        // console.log(image)
         console.log("will try to save it")
         const { data, error } = await supabase
             .storage
             .from('MapCollection')
-            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL(), {
+            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL("image/png"), {
                 upsert: true,
+                contentType:"image/png"
             })
-        console.log({ data, error })
+         console.log({ data, error })
 
     }
 

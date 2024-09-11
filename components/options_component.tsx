@@ -18,7 +18,7 @@ interface new_save_function extends background_function {
 
 interface background_function {
     backgroundButt: () => void
-    bgList: string[]
+    bgList?: string[]
 }
 
 
@@ -52,6 +52,11 @@ function LoadedOptions({ loadedSaveButt }: { loadedSaveButt: () => void }) {
 }
 
 function BackgroundCard({ backgroundButt, bgList }: background_function) {
+    console.log(bgList)
+    if (bgList === undefined){
+        return <></>
+    }
+
 
     const bgLines = bgList.map((element: string) => {
         return <option value={element} key={element}>{element}</option>
