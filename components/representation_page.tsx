@@ -5,7 +5,6 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
-import { decode } from 'base64-arraybuffer'
 
 import { MMapCanvasComp } from '@/components/canvas/memory_map'
 import { Diary } from './diary_component'
