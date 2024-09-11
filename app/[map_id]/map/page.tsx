@@ -2,7 +2,7 @@ import React from 'react';
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { FileObject } from '@supabase/storage-js'
 import { cookies } from 'next/headers'
-import Image from 'next/image'
+
 
 import { GotPage } from '@/components/representation_page'
 

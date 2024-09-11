@@ -2,7 +2,7 @@ import { noSelectionString } from "./constants"
 
 
 const iconStore: { [key: string]: any } = {
-  "-none-": undefined,
+  "-none-": undefined,// tryed to put noSelectionString here 
   //icons
   alter: alter,
   camp: camp,
@@ -24,6 +24,9 @@ const iconStore: { [key: string]: any } = {
   village: village,
 
   // openmoji
+  star: star,
+  star_empty:star_empty,
+
   //love 
   red_heart: red_heart,
   cactus: cactus,
@@ -47,7 +50,7 @@ const iconStore: { [key: string]: any } = {
   kissing_face_heart: kissing_face_heart,
   smiling_face_hearts: smiling_face_hearts,
   lavender: lavender,
-  star: star,
+
   shamrock: shamrock,
   sparkles: sparkles,
   heart_exclamation: heart_exclamation,
@@ -195,6 +198,7 @@ import kissing_face_heart from "/public/openmoji/1F618.svg";
 import smiling_face_hearts from "/public/openmoji/1F970.svg";
 import lavender from "/public/openmoji/1FABB.svg";
 import star from "/public/openmoji/2B50.svg";
+import star_empty from "/public/openmoji/custom/2B50-empty-star.svg";
 import shamrock from "/public/openmoji/2618.svg";
 import sparkles from "/public/openmoji/2728.svg";
 import heart_exclamation from "/public/openmoji/2763.svg";
