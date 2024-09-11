@@ -6,9 +6,6 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import Aligner from '@/components/wrappers/aligner'
 import useCanvas from './canvas/hook'
 
-import { decode } from 'base64-arraybuffer'
-
-
 type image_type = {}
 
 export default function ImageImporter({ }: image_type) {
