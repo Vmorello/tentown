@@ -14,11 +14,7 @@ export default function ImageImporter({ }: image_type) {
 
     const [supabase] = useState(createClientComponentClient())
 
-
-    const [imageUrl, setImageUrl] = useState(undefined as string | undefined)
     const [image, setImage] = useState(undefined as HTMLImageElement | undefined)
-    // const [webp, setWebp] = useState(undefined as File | undefined)
-
 
     const [dimention, setDimention] = useState({ "height": 0, "width": 0 })
     const [dataSize, setDataSize] = useState(0)
@@ -28,7 +24,7 @@ export default function ImageImporter({ }: image_type) {
 
     useEffect(() => {
         if (image === undefined) { return }
-        canvasUtil!.setup(image)
+        canvasUtil!.setup(image, "icon_frame")
     }, [image])
 
 
@@ -43,10 +39,9 @@ export default function ImageImporter({ }: image_type) {
         setDataSize(inputFileObject.files[0].size)
 
         const imageURL = URL.createObjectURL(inputFileObject.files[0])
-        setImageUrl(imageURL)
+
         const tempImage = new Image();
         tempImage.addEventListener("load", () => {
-            // saveAsWebp(tempImage)
             setImage(tempImage)
             setFileName(inputFileObject.files![0].name.split(".")[0])
             setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
@@ -60,6 +55,12 @@ export default function ImageImporter({ }: image_type) {
         // console.log("changed...")
 
     }
+
+    const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
+        console.log(`clicked image at ${event.nativeEvent.offsetX}, ${event.nativeEvent.offsetY} & on page ${event.pageX}, ${event.pageY}`)
+      }
+    
+
 
     const saveButt = async () => {
 
@@ -88,7 +89,7 @@ export default function ImageImporter({ }: image_type) {
                     <div>Original File Info -  w: {dimention.width} - h: {dimention.height} - size: {dataSize / 1000} kilobytes</div>
                 </div>
                 : <div>Add an image using the Imput above!</div>}
-            <canvas ref={ref}
+            <canvas ref={ref} onClick={onCanvasPress}
                 width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
         </Aligner>
     </div>

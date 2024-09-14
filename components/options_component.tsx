@@ -65,12 +65,9 @@ function BackgroundCard({ backgroundButt, bgList }: background_function) {
     return <>
         <label>Changing the Background</label>
         <div>
-            <select id="bgStorageSelect">
+            <select id="bgStorageSelect" onChange={backgroundButt}>
                 {bgLines}
             </select>
-        </div>
-        <div>
-            <button onClick={backgroundButt}>Change BG</button>
         </div>
     </>
 

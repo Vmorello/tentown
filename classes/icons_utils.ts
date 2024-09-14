@@ -122,7 +122,9 @@ const iconStore: { [key: string]: any } = {
   //common
   //   back_button: back_button,
   cover: cover,
+  icon_frame :icon_frame
 }
+
 
 export function get_image(input_value: string) {
   const image = iconStore[input_value]
@@ -152,6 +154,7 @@ export function getSize(input_value: string) {
 
 
 import cover from "/public/common/black_cover.webp";
+import icon_frame from "/public/common/icon_frame.webp";
 
 // icons
 import alter from "/public/icons/alter.webp";

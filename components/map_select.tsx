@@ -59,7 +59,7 @@ export default async function MapSelect({ }: map_type) {
           <div className=" font-bold p-4 min-h-12 w-full" >
             {name}
           </div>
-          <FavStar isFav={favorite} clickAction={favOnPress(id, favorite)} />
+          {/* <FavStar isFav={favorite} clickAction={favOnPress(id, favorite)} /> */}
 
       </Link>
     ))}
