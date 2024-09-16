@@ -11,8 +11,8 @@ interface dairyType {
   updateButt: () => void,
   currentRepInfo: Array<representation>,
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>,
-  deleteFunc: (id: string) => () => void
-  full_map_list: { id: any; name: any; }[]
+  removeRep: (id: string) => () => void
+  userMaps: { id: any; name: any; }[]
   resetDiary: () => void
   showCreative: boolean
 }
@@ -20,8 +20,8 @@ interface dairyType {
 export function Diary({ diaryInfo,
   currentRepInfo,
   setCurrentRepInfo,
-  deleteFunc,
-  full_map_list,
+  removeRep,
+  userMaps,
   updateButt,
   resetDiary,
   showCreative,
@@ -112,7 +112,7 @@ export function Diary({ diaryInfo,
                 <button onClick={newTextBoxAdded(item)} >New Entry</button>
               </div>
               {item.link ? <></> :
-                <AddLink full_map_list={full_map_list} LinkedAdded={LinkedAdded(item)} />}
+                <AddLink userMaps={userMaps} LinkedAdded={LinkedAdded(item)} />}
               <hr className={"h-3 bg-gray-500"} />
               <>
                 <label>
@@ -141,7 +141,7 @@ export function Diary({ diaryInfo,
                 Hidden?
               </label>
               <hr className={"h-3 bg-gray-500"} />
-              <button onClick={deleteFunc(item.id)}>❌Delete❌</button>
+              <button onClick={removeRep(item.id)}>❌Delete❌</button>
         </> : <></>}
       </div>
     )
@@ -182,10 +182,10 @@ function TranferWithLink(props: { mapTranfer: () => void }) {
 }
 
 function AddLink(props: {
-  full_map_list: { id: any; name: any; }[],
+  userMaps: { id: any; name: any; }[],
   LinkedAdded: () => void,
 }) {
-  const linkOptions = props.full_map_list.map((json: { id: any; name: any; }) => {
+  const linkOptions = props.userMaps.map((json: { id: any; name: any; }) => {
     return <option value={json.id} key={json.id}>{json.name}</option>
   });
 

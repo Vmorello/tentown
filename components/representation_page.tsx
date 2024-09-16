@@ -19,7 +19,7 @@ interface repPage {
   storage_name: string
   loaded: boolean
   map_id: string
-  full_map_list: { id: any; name: any; }[]
+  userMaps: { id: any; name: any; }[]
   storage_list?: string[]
 }
 
@@ -266,8 +266,10 @@ export function GotPage(props: repPage) {
             backgroundButt={backgroundButt} bgList={props.storage_list}
             loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
           : <></>}
-        <Diary diaryInfo={diary} deleteFunc={removeRep} full_map_list={props.full_map_list} resetDiary={resetDiary}
-          currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} updateButt={updateButt} showCreative={props.showCreative} />
+        <Diary diaryInfo={diary} removeRep={removeRep} 
+          userMaps={props.userMaps} resetDiary={resetDiary}
+          currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} 
+          updateButt={updateButt} showCreative={props.showCreative} />
 
         {/* <Debug info={String(dimention.width)}  /> */}
       </div>
