@@ -64,9 +64,10 @@ export default async function MapSelect({ }: map_type) {
           </div>
           {/* <FavStar isFav={favorite} clickAction={favOnPress(id, favorite)} /> */}
           
-        <div className='absolute right-0'>
+        <Link 
+        href={`/${id}/settings/`} className='absolute right-0'>
           <Image src={get_image("gear")} alt='settings' height={settingIconSize} width={settingIconSize} />
-        </div>
+        </Link>
 
       </Link>
     ))}

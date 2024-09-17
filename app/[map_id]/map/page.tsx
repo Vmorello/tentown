@@ -8,6 +8,12 @@ import { GotPage } from '@/components/representation_page'
 
 import { v4 as uuidv4 } from 'uuid';
 
+interface map_db{
+  id: any;
+  name: any;
+  favorite: any;
+}
+
 export default async function MapPage({ params }: { params: { map_id: string } }) {
 
   const supabase = createServerComponentClient({ cookies })
@@ -20,12 +26,15 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     .eq("id", params.map_id)
 
 
-
-  const { data: mapList } = await supabase
-      .from('maps')
-      .select("id, name, favorite")
-      .eq("owner", user!.id)
-      .order("favorite", { ascending: false })
+  let mapList = [] as map_db[]
+  if (user) {
+    const { data: userMapList } = await supabase
+        .from('maps')
+        .select("id, name, favorite")
+        .eq("owner", user!.id)
+        .order("favorite", { ascending: false })
+      mapList =  (userMapList) ? userMapList : []
+  }
 
 
 
@@ -41,7 +50,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
     return (
       <GotPage map_id={params.map_id} showCreative={user?.id === currentMapData![0].owner} 
-              storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList!}  />
+              storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList}  />
     )
   }
 
@@ -83,7 +92,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     const fullListNames = fullList.map(map=> {return map.name})
 
   return (
-    <GotPage map_id={uuidv4()} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={[]} storage_list={fullListNames} />
+    <GotPage map_id={uuidv4()} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storage_list={fullListNames} />
   )
 
 
