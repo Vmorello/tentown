@@ -6,15 +6,17 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import Aligner from '@/components/wrappers/aligner'
 import useCanvas from './canvas/hook'
 
-type image_type = {}
+interface image_type  {
+    preloadedImage?: HTMLImageElement
+}
 
-export default function ImageImporter({ }: image_type) {
+export default function ImageImporter({preloadedImage}: image_type) {
 
     const { ref, canvasUtil } = useCanvas()
 
     const [supabase] = useState(createClientComponentClient())
 
-    const [image, setImage] = useState(undefined as HTMLImageElement | undefined)
+    const [image, setImage] = useState(preloadedImage)
 
     const [dimention, setDimention] = useState({ "height": 0, "width": 0 })
     const [dataSize, setDataSize] = useState(0)

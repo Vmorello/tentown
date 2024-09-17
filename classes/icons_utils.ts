@@ -26,6 +26,7 @@ const iconStore: { [key: string]: any } = {
   // openmoji
   star: star,
   star_empty:star_empty,
+  gear:gear,
 
   //love 
   red_heart: red_heart,
@@ -200,8 +201,7 @@ import heart_arrow from "/public/openmoji/1F498.svg";
 import kissing_face_heart from "/public/openmoji/1F618.svg";
 import smiling_face_hearts from "/public/openmoji/1F970.svg";
 import lavender from "/public/openmoji/1FABB.svg";
-import star from "/public/openmoji/2B50.svg";
-import star_empty from "/public/openmoji/custom/2B50-empty-star.svg";
+
 import shamrock from "/public/openmoji/2618.svg";
 import sparkles from "/public/openmoji/2728.svg";
 import heart_exclamation from "/public/openmoji/2763.svg";
@@ -243,6 +243,14 @@ import cat_grey from "/public/openmoji/custom/1F431-grey.svg";
 
 import dragon from "/public/openmoji/1F409.svg";
 import bird_black from "/public/openmoji/1F426-200D-2B1B.svg";
+
+import star from "/public/openmoji/2B50.svg";
+import star_empty from "/public/openmoji/custom/2B50-empty-star.svg";
+import gear from "/public/openmoji/2699.svg";
+
+
+
+
 // //DnD
 
 import blue_drake from "/public/DnD/blue_drake.webp";

@@ -1,10 +1,12 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 // import { FileObject } from '@supabase/storage-js'
 import { cookies } from 'next/headers'
+import Image from 'next/image'
 
 import Link from 'next/link'
 
 import FavStar from './favorite_star'
+import { get_image } from '@/classes/icons_utils';
 
 interface map_type { }
 
@@ -48,6 +50,7 @@ export default async function MapSelect({ }: map_type) {
 
   }
 
+  const settingIconSize = 50
 
   return (<div>
 
@@ -60,6 +63,10 @@ export default async function MapSelect({ }: map_type) {
             {name}
           </div>
           {/* <FavStar isFav={favorite} clickAction={favOnPress(id, favorite)} /> */}
+          
+        <div className='absolute right-0'>
+          <Image src={get_image("gear")} alt='settings' height={settingIconSize} width={settingIconSize} />
+        </div>
 
       </Link>
     ))}

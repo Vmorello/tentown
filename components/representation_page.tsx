@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
 
-import { MMapCanvasComp } from '@/components/canvas/memory_map'
+import { MMapCanvasComp } from '@/components/canvas/MMapCanvasComp'
 import { Diary } from './diary_component'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
