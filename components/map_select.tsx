@@ -55,21 +55,21 @@ export default async function MapSelect({ }: map_type) {
   return (<div>
 
     {userMaplist.map(({ id, name, favorite }) => (
-      <Link
-        href={`/${id}/map/`}
-        key={name}
-        className="w-full grid grid-cols-2 border-b last:border-b-0 text-sm">
+      <div className="w-full grid grid-cols-2 border-b last:border-b-0 text-sm">
+        <Link
+          href={`/${id}/map/`}
+          key={name}
+        >
           <div className=" font-bold p-4 min-h-12 w-full" >
             {name}
           </div>
-          {/* <FavStar isFav={favorite} clickAction={favOnPress(id, favorite)} /> */}
-          
-        <Link 
-        href={`/${id}/settings/`} className='absolute right-0'>
-          <Image src={get_image("gear")} alt='settings' height={settingIconSize} width={settingIconSize} />
-        </Link>
 
-      </Link>
+        </Link>
+        <Link
+            href={`/${id}/settings/`} className='absolute right-0'>
+            <Image src={get_image("gear")} alt='settings' height={settingIconSize} width={settingIconSize} />
+          </Link>
+      </div>
     ))}
 
   </div>)

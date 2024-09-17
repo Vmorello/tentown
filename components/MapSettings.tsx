@@ -26,7 +26,6 @@ export default function MapSettings({ id }: mapSetting_type) {
 
 
     useEffect(() => {
-
         getMapInfo(id)
     }, []);
 
@@ -68,8 +67,6 @@ export default function MapSettings({ id }: mapSetting_type) {
         };
 
     }
-
-
     const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
 
         var image = new Image();
@@ -81,6 +78,14 @@ export default function MapSettings({ id }: mapSetting_type) {
             setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
         })
         image.src = base64image;
+    }
+
+    const updateMapSetting = async () => {
+
+        const { data, error } = await supabase
+            .from('maps')
+            .update({ name:name, favorite:fav})
+            .eq("id", id)
 
     }
 
@@ -89,13 +94,15 @@ export default function MapSettings({ id }: mapSetting_type) {
             <Aligner canvasWidth={dimention.width}>
                 <label>
                     Name:
-                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+                    <input className='bg-transparent px-4'  type="text" value={name} onChange={(e) => setName(e.target.value)} />
                 </label>
-
-                <label>
+                <div></div>
+                <label >
                     Favorite:
-                    <input type="checkbox" checked={fav} onChange={(e) => setFav(e.target.checked)} />
+                    <input className='px-4'  type="checkbox"  checked={fav} onChange={(e) => setFav(e.target.checked)} />
                 </label>
+                <div></div>
+                <button onClick={updateMapSetting}>Save Changes</button>
 
                 <canvas ref={ref} width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
             </Aligner>
