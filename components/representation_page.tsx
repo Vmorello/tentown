@@ -20,7 +20,7 @@ interface repPage {
   loaded: boolean
   map_id: string
   userMaps: { id: any; name: any; }[]
-  storage_list?: string[]
+  storageList: string[]
 }
 
 export type representation = {
@@ -35,6 +35,7 @@ export type representation = {
   hidden: boolean
   width: number
   height: number
+  image_storage?: string
 }
 
 const iconList = get_icon_list()!
@@ -86,7 +87,7 @@ export function GotPage(props: repPage) {
       link: null,
       hidden: false,
       height: size.h,
-      width: size.w
+      width: size.w,
     })
     setCurrentRepInfo(info_copy)
   }
@@ -263,11 +264,11 @@ export function GotPage(props: repPage) {
         {props.showCreative ?
           <CardSelect setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={iconList}
-            backgroundButt={backgroundButt} bgList={props.storage_list}
+            backgroundButt={backgroundButt} bgList={props.storageList}
             loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
           : <></>}
         <Diary diaryInfo={diary} removeRep={removeRep} 
-          userMaps={props.userMaps} resetDiary={resetDiary}
+          userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
           currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} 
           updateButt={updateButt} showCreative={props.showCreative} />
 

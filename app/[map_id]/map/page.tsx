@@ -8,7 +8,7 @@ import { GotPage } from '@/components/representation_page'
 
 import { v4 as uuidv4 } from 'uuid';
 
-interface map_db{
+interface map_db {
   id: any;
   name: any;
   favorite: any;
@@ -29,11 +29,11 @@ export default async function MapPage({ params }: { params: { map_id: string } }
   let mapList = [] as map_db[]
   if (user) {
     const { data: userMapList } = await supabase
-        .from('maps')
-        .select("id, name, favorite")
-        .eq("owner", user!.id)
-        .order("favorite", { ascending: false })
-      mapList =  (userMapList) ? userMapList : []
+      .from('maps')
+      .select("id, name, favorite")
+      .eq("owner", user!.id)
+      .order("favorite", { ascending: false })
+    mapList = (userMapList) ? userMapList : []
   }
 
 
@@ -46,15 +46,8 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     .eq("map_id", params.map_id)
 
 
-  if (currentMapData && icons) {
 
-    return (
-      <GotPage map_id={params.map_id} showCreative={user?.id === currentMapData![0].owner} 
-              storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList}  />
-    )
-  }
 
-      
   const { data: sharedStorageListRaw } = await supabase
     .storage
     .from('MapCollection')
@@ -63,36 +56,37 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
 
   let userStorageList = [] as FileObject[]
-    if (user) {
-        const { data: userStorageListRaw } = await supabase
-            .storage
-            .from('MapCollection')
-            .list(user?.id)
+  if (user) {
+    const { data: userStorageListRaw } = await supabase
+      .storage
+      .from('MapCollection')
+      .list(user?.id)
 
-        userStorageListRaw?.forEach(map => { map.name = `${user?.id}/${map.name}` })
+    userStorageListRaw?.forEach(map => { map.name = `${user?.id}/${map.name}` })
 
-        userStorageList = userStorageListRaw!
+    userStorageList = userStorageListRaw!
 
-    }
+  }
 
-    // let demoStorageList = [] as FileObject[]
-    // if (user) {
-    //     const { data: demoStorageListRaw } = await supabase
-    //         .storage
-    //         .from('MapCollection')
-    //         .list()
-    //     demoStorageList = demoStorageListRaw!
-    // }
+  const fullList = userStorageList
+    .concat(sharedStorageListRaw!)
+    // .concat(demoStorageList)
+    .filter(map => { return (!map.name.endsWith('.emptyFolderPlaceholder')) })
 
-    const fullList = userStorageList
-      .concat(sharedStorageListRaw!)
-      // .concat(demoStorageList)
-      .filter(map => { return (!map.name.endsWith('.emptyFolderPlaceholder')) })
+  const fullListNames = fullList.map(map => { return map.name })
 
-    const fullListNames = fullList.map(map=> {return map.name})
+
+
+  if (currentMapData && icons) {
+    return (
+      <GotPage map_id={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames}
+        storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList} />
+    )
+  }
+
 
   return (
-    <GotPage map_id={uuidv4()} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storage_list={fullListNames} />
+    <GotPage map_id={uuidv4()} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} />
   )
 
 

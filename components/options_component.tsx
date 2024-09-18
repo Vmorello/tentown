@@ -53,23 +53,23 @@ function LoadedOptions({ loadedSaveButt }: { loadedSaveButt: () => void }) {
 
 function BackgroundCard({ backgroundButt, bgList }: background_function) {
     console.log(bgList)
-    if (bgList === undefined){
+    if (bgList === undefined) {
         return <></>
     }
 
 
     const bgLines = bgList.map((element: string) => {
-        return <option value={element} key={element}>{element}</option>
+        return <option value={element} key={element}>{element.split('/')[1]}</option>
     });
 
-    return <>
-        <label>Changing the Background</label>
+    return <label>
+        Changing the Background
         <div>
             <select id="bgStorageSelect" onChange={backgroundButt}>
                 {bgLines}
             </select>
         </div>
-    </>
+    </label>
 
 }
 

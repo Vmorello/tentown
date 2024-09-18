@@ -59,6 +59,7 @@ export default async function MapSelect({ }: map_type) {
         <Link
           href={`/${id}/map/`}
           key={name}
+          className='border-dotted border-x-2'
         >
           <div className=" font-bold p-4 min-h-12 w-full" >
             {name}
