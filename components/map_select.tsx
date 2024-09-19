@@ -38,6 +38,7 @@ export default async function MapSelect({ }: map_type) {
       .select("id, name, favorite")
       .eq("owner", user.id)
       .order("favorite", { ascending: false })
+      .order("name", { ascending: true })
 
     userMaplist = (mapList && mapList.length > 0) ? mapList : examples
   }
