@@ -2,6 +2,7 @@
 
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
@@ -12,6 +13,8 @@ interface mapSetting_type {
 
 
 export default function MapSettings({ id }: mapSetting_type) {
+
+    const router = useRouter()
 
     const [supabase] = useState(createClientComponentClient())
 
@@ -86,6 +89,8 @@ export default function MapSettings({ id }: mapSetting_type) {
             .from('maps')
             .update({ name:name, favorite:fav})
             .eq("id", id)
+
+            router.push('/')
 
     }
 

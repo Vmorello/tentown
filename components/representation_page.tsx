@@ -225,7 +225,7 @@ export function GotPage(props: repPage) {
       // console.log(user)
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
-        .insert({ id: mapId, owner: user!.id, name: backgroundName, storage_name: backgroundName })
+        .insert({ id: mapId, owner: user!.id, name: backgroundName.split("/")[1], storage_name: backgroundName })
         .select("id")
 
       updateButt()
