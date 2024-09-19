@@ -6,8 +6,6 @@ import { cookies } from 'next/headers'
 
 import { GotPage } from '@/components/representation_page'
 
-import { v4 as uuidv4 } from 'uuid';
-
 interface map_db {
   id: any;
   name: any;
@@ -79,14 +77,14 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
   if (currentMapData && icons) {
     return (
-      <GotPage map_id={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames}
+      <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames}
         storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList} />
     )
   }
 
 
   return (
-    <GotPage map_id={uuidv4()} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} />
+    <GotPage mapId={undefined} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} />
   )
 
 

@@ -18,7 +18,7 @@ interface repPage {
   showCreative: boolean
   storage_name: string
   loaded: boolean
-  map_id: string
+  mapId?: string
   userMaps: { id: any; name: any; }[]
   storageList: string[]
 }
@@ -41,6 +41,8 @@ export type representation = {
 const iconList = get_icon_list()!
 
 export function GotPage(props: repPage) {
+
+  const [mapId] =useState(props.mapId ? props.mapId : uuidv4())
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
   const [dimention, setDimention] = useState({"height":1000,"width":1000})
@@ -83,7 +85,7 @@ export function GotPage(props: repPage) {
       id: uuidv4(),
       visible_name: currentItem,
       radius: radius,
-      map_id: props.map_id,
+      map_id: mapId,
       link: null,
       hidden: false,
       height: size.h,
@@ -223,7 +225,7 @@ export function GotPage(props: repPage) {
       // console.log(user)
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
-        .insert({ id: props.map_id, owner: user!.id, name: backgroundName, storage_name: backgroundName })
+        .insert({ id: mapId, owner: user!.id, name: backgroundName, storage_name: backgroundName })
         .select("id")
 
       updateButt()
