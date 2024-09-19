@@ -22,6 +22,8 @@ export default function ImageImporter({preloadedImage}: image_type) {
     const [dataSize, setDataSize] = useState(0)
     const [fileName, setFileName] = useState("")
 
+    const [saveStatus, setSaveStatus] = useState(false)
+
 
 
     useEffect(() => {
@@ -38,6 +40,7 @@ export default function ImageImporter({preloadedImage}: image_type) {
             return
         }
 
+        setSaveStatus(false)
         setDataSize(inputFileObject.files[0].size)
 
         const imageURL = URL.createObjectURL(inputFileObject.files[0])
@@ -79,6 +82,10 @@ export default function ImageImporter({preloadedImage}: image_type) {
             })
          console.log({ data, error })
 
+         if(data){setSaveStatus(true)}
+
+
+
     }
 
 
@@ -88,6 +95,7 @@ export default function ImageImporter({preloadedImage}: image_type) {
             {image ?
                 <div>
                     <button onClick={saveButt}>Save Image </button>
+                    {saveStatus ? "✅":"❌"}
                     <div>Original File Info -  w: {dimention.width} - h: {dimention.height} - size: {dataSize / 1000} kilobytes</div>
                 </div>
                 : <div>Add an image using the Imput above!</div>}
