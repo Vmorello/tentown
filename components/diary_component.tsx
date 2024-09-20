@@ -24,6 +24,7 @@ interface repChangeType {
   height: (infoCopy: representation[], listIndex: number, value: any,) => void,
   width: (infoCopy: representation[], listIndex: number, value: any,) => void,
   title: (infoCopy: representation[], listIndex: number, value: any) => void,
+  size: (infoCopy: representation[], listIndex: number, value: any) => void,
   visibility: (infoCopy: representation[], listIndex: number, value: any) => void,
 }
 interface repButtChangeType {
@@ -49,6 +50,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
     title: (infoCopy, listIndex, value) => { infoCopy[listIndex].visible_name = value },
     height: (infoCopy, listIndex, value) => { infoCopy[listIndex].height = Number(value) },
     width: (infoCopy, listIndex, value) => { infoCopy[listIndex].width = Number(value) },
+    size: (infoCopy, listIndex, value) => { infoCopy[listIndex].width = Number(value);  infoCopy[listIndex].height = Number(value) },
     visibility: (infoCopy, listIndex) => { infoCopy[listIndex].hidden = !(infoCopy[listIndex].hidden) },
   }
 
@@ -137,7 +139,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
 
           <hr className={"h-3 bg-gray-500"} />
           <label>
-            Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange(setRepInfo.width, item.id)} />
+            Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange(setRepInfo.size, item.id)} />
           </label>
 
           {item.link ? <></> : <>
