@@ -1,5 +1,7 @@
 import React from 'react';
 
+import EmojiPicker, { EmojiClickData } from 'emoji-picker-react';
+
 interface card_type extends select_class, new_save_function {
     loadedSaveButt: () => void
     loaded: boolean
@@ -28,10 +30,21 @@ export function CardSelect({
     currentItem, pageRepList, bgList,
     backgroundButt, loaded, newSaveButt, loadedSaveButt }: card_type
 ) {
+
+    const onEmojiChange =  (emojiData: EmojiClickData, event: MouseEvent) => {
+        console.log(emojiData)
+        console.log(emojiData.unified)
+        console.log(emojiData.unified == currentItem)
+    //   setCurrentItem(emojiData.unified)
+
+    }
+
+
     // console.log(`loaded is ${loaded}`)
     return (<div className={'bg-gray-400 opacity-75 fixed bottom-2 left-1'}>
         <IconSelectDropdown setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={pageRepList} />
+        {/* <EmojiPicker onEmojiClick={onEmojiChange} /> */}
         <hr className={"h-1 bg-black"} />
 
         {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} />}
@@ -73,15 +86,15 @@ function BackgroundCard({ backgroundButt, bgList }: background_function) {
 
 }
 
-function IconSelectDropdown({ setCurrentItem,
-    currentItem, pageRepList, }: select_class) {
+function IconSelectDropdown({ setCurrentItem, currentItem, pageRepList, }: select_class) {
     const listItems = pageRepList.map((element: string) => {
-        return <option value={element} key={element}>{element}</option>
+        return <option className={"text-2xl"} value={element} key={element}>{element}</option>
     });
 
     return (
         <select onChange={(event) => setCurrentItem(event.target.value)} defaultValue={currentItem}>
             {listItems}
         </select>
+
     )
 }

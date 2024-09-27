@@ -117,18 +117,18 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
         {/* for the creator: */}
         {showCreative ? <>
           <div>
-            <hr className={"h-3 bg-gray-500"} />
+            <hr className={"h-2 bg-gray-500"} />
             <button onClick={buttEleRepChange(buttActions.newText, item.id)} >New Box to Write In</button>
           </div>
 
           {item.image_storage ? <></> : <>
-            <hr className={"h-3 bg-gray-500"} />
+            <hr className={"h-2 bg-gray-500"} />
             <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
           </>}
 
 
 
-          <hr className={"h-3 bg-gray-500"} />
+          <hr className={"h-2 bg-gray-500"} />
           <label>
             x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange(setRepInfo.x, item.id)} />
           </label>
@@ -137,24 +137,24 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
           </label>
 
 
-          <hr className={"h-3 bg-gray-500"} />
+          <hr className={"h-2 bg-gray-500"} />
           <label>
             Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange(setRepInfo.size, item.id)} />
           </label>
 
           {item.link ? <></> : <>
-            <hr className={"h-3 bg-gray-500"} />
+            <hr className={"h-2 bg-gray-500"} />
             <AddLink userMaps={userMaps} linkedAdded={buttEleRepChange(buttActions.linkAdded, item.id)} />
           </>}
 
 
-          <hr className={"h-3 bg-gray-500"} />
+          <hr className={"h-2 bg-gray-500"} />
           <label>
             Hidden? <input type="checkbox" checked={item.hidden} onChange={inputEleRepChange(setRepInfo.visibility, item.id)} />
           </label>
 
 
-          <hr className={"h-3 bg-gray-500"} />
+          <hr className={"h-2 bg-gray-500"} />
           <button onClick={removeRep(item.id)}>❌Delete❌</button>
         </> : <></>}
       </div>
