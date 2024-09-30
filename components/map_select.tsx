@@ -69,7 +69,7 @@ export default async function MapSelect({ }: map_type) {
         </Link>
         <Link
             href={`/${id}/settings/`} className='absolute right-0'>
-            <Image src={get_image("gear")} alt='settings' height={settingIconSize} width={settingIconSize} />
+            <Image src={get_image("⚙")} alt='settings' height={settingIconSize} width={settingIconSize} />
           </Link>
       </div>
     ))}
