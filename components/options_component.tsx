@@ -31,19 +31,21 @@ export function CardSelect({
     backgroundButt, loaded, newSaveButt, loadedSaveButt }: card_type
 ) {
 
-    // const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
-    //     console.log(emojiData)
-    //     console.log(emojiData.unified)
-    //     console.log(emojiData.unified == currentItem)
+    const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
+        // console.log(emojiData)
+        console.log(emojiData.emoji)
+        setCurrentItem(emojiData.emoji)
 
-    // }
+        // console.log(emojiData.unified == currentItem)
+
+    }
 
 
     // console.log(`loaded is ${loaded}`)
     return (<div className={'bg-gray-400 opacity-75 fixed bottom-2 left-1'}>
         <IconSelectDropdown setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={pageRepList} />
-        {/* <EmojiPicker onEmojiClick={onEmojiChange} /> */}
+        <EmojiPicker onEmojiClick={onEmojiChange} />
         <hr className={"h-1 bg-black"} />
 
         {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} />}
