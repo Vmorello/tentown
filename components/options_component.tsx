@@ -31,13 +31,12 @@ export function CardSelect({
     backgroundButt, loaded, newSaveButt, loadedSaveButt }: card_type
 ) {
 
-    const onEmojiChange =  (emojiData: EmojiClickData, event: MouseEvent) => {
-        console.log(emojiData)
-        console.log(emojiData.unified)
-        console.log(emojiData.unified == currentItem)
-    //   setCurrentItem(emojiData.unified)
+    // const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
+    //     console.log(emojiData)
+    //     console.log(emojiData.unified)
+    //     console.log(emojiData.unified == currentItem)
 
-    }
+    // }
 
 
     // console.log(`loaded is ${loaded}`)

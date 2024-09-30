@@ -42,17 +42,17 @@ const iconList = get_icon_list()!
 
 export function GotPage(props: repPage) {
 
-  const [mapId] =useState(props.mapId ? props.mapId : uuidv4())
+  const [mapId] = useState(props.mapId ? props.mapId : uuidv4())
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [dimention, setDimention] = useState({"height":1000,"width":1000})
+  const [dimention, setDimention] = useState({ "height": 1000, "width": 1000 })
   const [currentItem, setCurrentItem] = useState(noSelectionString);
   const [diary, setDiary] = useState({
     x: 0,
     y: 0,
     info_on_location: [] as Array<representation>,
   });
-  const [background, setBackground] = useState(undefined as  HTMLImageElement | undefined)
+  const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
   const [supabase] = useState(createClientComponentClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
@@ -174,7 +174,7 @@ export function GotPage(props: repPage) {
       .from('public/MapCollection')
       .download(storageName)
 
-    console.log( data, error)
+    console.log(data, error)
 
     const reader = new FileReader();
     reader.readAsText(data!);
@@ -191,9 +191,9 @@ export function GotPage(props: repPage) {
     image.src = base64image;
 
     image.addEventListener("load", () => {
-      console.log(`loaded image${image}` )
+      console.log(`loaded image${image}`)
       setBackground(image)
-      setDimention({"height":image.naturalHeight,"width":image.naturalWidth})
+      setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
     })
     image.src = base64image;
 
@@ -201,13 +201,13 @@ export function GotPage(props: repPage) {
 
   const updateBackgroundAndSize = (backgroundImage: Blob) => {
     const imageURL = URL.createObjectURL(backgroundImage)
-    console.log( imageURL)
+    console.log(imageURL)
     const tempImage = new Image();
-    
+
     tempImage.addEventListener("load", () => {
-      console.log(`loading image${tempImage}` )
+      console.log(`loading image${tempImage}`)
       setBackground(tempImage)
-      setDimention({"height":tempImage.naturalHeight,"width":tempImage.naturalWidth})
+      setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
       URL.revokeObjectURL(imageURL)
     })
     tempImage.src = imageURL
@@ -269,9 +269,9 @@ export function GotPage(props: repPage) {
             backgroundButt={backgroundButt} bgList={props.storageList}
             loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
           : <></>}
-        <Diary diaryInfo={diary} removeRep={removeRep} 
+        <Diary diaryInfo={diary} removeRep={removeRep}
           userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
-          currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} 
+          currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
           updateButt={updateButt} showCreative={props.showCreative} />
 
         {/* <Debug info={String(dimention.width)}  /> */}

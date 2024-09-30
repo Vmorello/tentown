@@ -50,7 +50,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
     title: (infoCopy, listIndex, value) => { infoCopy[listIndex].visible_name = value },
     height: (infoCopy, listIndex, value) => { infoCopy[listIndex].height = Number(value) },
     width: (infoCopy, listIndex, value) => { infoCopy[listIndex].width = Number(value) },
-    size: (infoCopy, listIndex, value) => { infoCopy[listIndex].width = Number(value);  infoCopy[listIndex].height = Number(value) },
+    size: (infoCopy, listIndex, value) => { infoCopy[listIndex].width = Number(value); infoCopy[listIndex].height = Number(value) },
     visibility: (infoCopy, listIndex) => { infoCopy[listIndex].hidden = !(infoCopy[listIndex].hidden) },
   }
 
@@ -105,7 +105,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
           className={"bg-transparent"} />
 
         {item.image_storage ? <div>
-          <DiaryImage storagePath={item.image_storage}/>
+          <DiaryImage storagePath={item.image_storage} />
         </div> : <></>}
 
         <DataListofItem entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
