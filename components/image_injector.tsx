@@ -76,9 +76,9 @@ export default function ImageImporter({preloadedImage}: image_type) {
         const { data, error } = await supabase
             .storage
             .from('MapCollection')
-            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL("image/png"), {
+            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL("image/jpeg",.7), {
                 upsert: true,
-                contentType:"image/png"
+                contentType:"image/jpeg"
             })
          console.log({ data, error })
 
