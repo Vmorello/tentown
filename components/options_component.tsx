@@ -32,8 +32,8 @@ export function CardSelect({
 ) {
 
     const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
-        // console.log(emojiData)
-        console.log(emojiData.emoji)
+        console.log(emojiData)
+        // console.log(emojiData.emoji)
         setCurrentItem(emojiData.emoji)
 
         // console.log(emojiData.unified == currentItem)
