@@ -3851,7 +3851,7 @@ const iconStore: { [key: string]: any } = {
   "❔": sLtYJqoYyP,
   "❕": WilhajqVkp,
   "❗": hTYFOEVaSi,
-  "❣": kNxyxOLCwH,
+  "❣️": kNxyxOLCwH,
   "❤️‍🔥": ypPYsKOuOE,
   "❤️‍🩹": QaibyTaVnB,
   "❤": UaFylpeWpB,
@@ -4265,80 +4265,6 @@ import temple from "/public/icons/temple.webp";
 import town1 from "/public/icons/town1.webp";
 import town2 from "/public/icons/town2.webp";
 import village from "/public/icons/village.webp";
-// openmoji
-// love
-
-import red_heart from "/public/openmoji/2764.svg";
-import cactus from "/public/openmoji/1F335.svg";
-import plant_branch from "/public/openmoji/1F33F.svg";
-import kissy_lips from "/public/openmoji/1F48B.svg";
-import love_letter from "/public/openmoji/1F48C.svg";
-import wedding_ring from "/public/openmoji/1F48D.svg";
-import heart_ribbon from "/public/openmoji/1F49D.svg";
-import deco_heart from "/public/openmoji/1F49F.svg";
-import smiling_face_heart_eyed from "/public/openmoji/1F60D.svg";
-import cat_face_heart_eyed from "/public/openmoji/1F63B.svg";
-import cat_face_kissing from "/public/openmoji/1F63D.svg";
-import sapling from "/public/openmoji/1F331.svg";
-import ribbon from "/public/openmoji/1F380.svg";
-import present from "/public/openmoji/1F381.svg";
-import cat from "/public/openmoji/1F431.svg";
-import bouquet from "/public/openmoji/1F490.svg";
-import sparkling_heart from "/public/openmoji/1F496.svg";
-import growing_heart from "/public/openmoji/1F497.svg";
-import heart_arrow from "/public/openmoji/1F498.svg";
-import kissing_face_heart from "/public/openmoji/1F618.svg";
-import smiling_face_hearts from "/public/openmoji/1F970.svg";
-import lavender from "/public/openmoji/1FABB.svg";
-
-import shamrock from "/public/openmoji/2618.svg";
-import sparkles from "/public/openmoji/2728.svg";
-import heart_exclamation from "/public/openmoji/2763.svg";
-import wounded_heart from "/public/openmoji/2764-FE0F-200D-1FA79.svg";
-import flaming_heart from "/public/openmoji/2764-FE0F-200D-1F525.svg";
-// import heart_hands_2 from "/public/openmoji/heart_hands/1FAF6-1F3FC.svg";
-// import dancing_m_1 from "/public/openmoji/dancing/1F57A-1F3FB.svg";
-import dancing_m_2 from "/public/openmoji/dancing/1F57A-1F3FC.svg";
-import dancing_f_1 from "/public/openmoji/dancing/1F483-1F3FB.svg";
-// import dancing_f_2 from "/public/openmoji/dancing/1F483-1F3FC.svg";
-
-import music_note from "/public/openmoji/1F3B5.svg";
-import music_notes from "/public/openmoji/1F3B5.svg";
-import sleeping_note from "/public/openmoji/1F4A4.svg";
-import water_drop from "/public/openmoji/1F4A7.svg";
-import cheese from "/public/openmoji/1F9C0.svg";
-import garlic from "/public/openmoji/1F9C4.svg";
-import cookie from "/public/openmoji/1F36A.svg";
-import lady_bug from "/public/openmoji/1F41E.svg";
-import pancake from "/public/openmoji/1F95E.svg";
-import dumpling from "/public/openmoji/1F95F.svg";
-import leafy_green from "/public/openmoji/1F96C.svg";
-import eggplant from "/public/openmoji/1F346.svg";
-import pizza from "/public/openmoji/1F355.svg";
-import egg_pan from "/public/openmoji/1F373.svg";
-import tea_cup from "/public/openmoji/1F375.svg";
-import cake from "/public/openmoji/1F382.svg";
-import rat from "/public/openmoji/1F400.svg";
-import avocado from "/public/openmoji/1F951.svg";
-import broccoli from "/public/openmoji/1F966.svg";
-import tea_pot from "/public/openmoji/1FAD6.svg";
-import left_arrow from "/public/openmoji/2B05.svg";
-import right_arrow from "/public/openmoji/27A1.svg";
-import hot_mug from "/public/openmoji/2615.svg";
-
-import cat_grey_face_heart_eyed from "/public/openmoji/custom/1F63B-grey.svg";
-import cat_grey_face_kissing from "/public/openmoji/custom/1F63D-grey.svg";
-import cat_grey from "/public/openmoji/custom/1F431-grey.svg";
-
-import dragon from "/public/openmoji/1F409.svg";
-import bird_black from "/public/openmoji/1F426-200D-2B1B.svg";
-
-import star from "/public/openmoji/2B50.svg";
-import star_empty from "/public/openmoji/custom/2B50-empty-star.svg";
-import gear from "/public/openmoji/2699.svg";
-
-
-
 
 // //DnD
 
@@ -4366,6 +4292,22 @@ import oni from "/public/DnD/oni.webp";
 import gnome_ceremorph from "/public/DnD/gnome_ceremorph.webp";
 import vecna_impersonator from "/public/DnD/vecna_impersonator.webp";
 import shemeshka from "/public/DnD/shemeshka.webp";
+
+
+
+// openmoji
+
+
+import cat_grey_face_heart_eyed from "/public/openmoji/custom/1F63B-grey.svg";
+import cat_grey_face_kissing from "/public/openmoji/custom/1F63D-grey.svg";
+import cat_grey from "/public/openmoji/custom/1F431-grey.svg";
+
+import star_empty from "/public/openmoji/custom/2B50-empty-star.svg";
+
+
+
+
+
 
 
 import JfpCaPDAen from "/public/openmoji/0023-FE0F-20E3.svg";
