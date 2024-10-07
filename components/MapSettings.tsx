@@ -53,6 +53,17 @@ export default function MapSettings({ id }: mapSetting_type) {
 
     }
 
+    const deleteMap = async () => {
+
+        const { data, error } = await supabase
+            .from('maps')
+            .delete()
+            .eq("id", id)
+
+            router.push('/')
+
+    }
+
     return (
         <div className="text-foreground" >
                 <label>
@@ -68,5 +79,7 @@ export default function MapSettings({ id }: mapSetting_type) {
                 <button onClick={updateMapSetting}>Save Changes</button>
 
                 <DisplayImageCanvas storagePath={storagePath} />
+
+                <button onClick={deleteMap}>Delete Map</button>
         </div>)
 }
