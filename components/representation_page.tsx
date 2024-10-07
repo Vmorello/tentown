@@ -21,6 +21,8 @@ interface repPage {
   mapId?: string
   userMaps: { id: any; name: any; }[]
   storageList: string[]
+  height:number
+  width:number
 }
 
 export type representation = {
@@ -45,7 +47,7 @@ export function GotPage(props: repPage) {
   const [mapId] = useState(props.mapId ? props.mapId : uuidv4())
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
-  const [dimention, setDimention] = useState({ "height": 1000, "width": 1000 })
+  const [dimention, setDimention] = useState({ "height": props.height, "width": props.width })
   const [currentItem, setCurrentItem] = useState(noSelectionString);
   const [diary, setDiary] = useState({
     x: 0,
@@ -225,13 +227,16 @@ export function GotPage(props: repPage) {
       // console.log(user)
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
-        .insert({ id: mapId, owner: user!.id, name: backgroundName.split("/")[1], storage_name: backgroundName })
+        .insert({ id: mapId, owner: user!.id, name: backgroundName.split("/")[1], 
+                  storage_name: backgroundName,width:dimention.width, height:dimention.height })
         .select("id")
 
       updateButt()
       router.push(`/${mapSave![0].id}/map`)
     }
     pushData()
+
+
 
   }
 

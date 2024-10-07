@@ -7,9 +7,9 @@ import { cookies } from 'next/headers'
 import { GotPage } from '@/components/representation_page'
 
 interface map_db {
-  id: any;
-  name: any;
-  favorite: any;
+  id: any
+  name: any
+  favorite: any
 }
 
 export default async function MapPage({ params }: { params: { map_id: string } }) {
@@ -20,7 +20,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
   const { data: currentMapData } = await supabase
     .from('maps')
-    .select("name, storage_name, owner")
+    .select("name, storage_name, owner, width, height")
     .eq("id", params.map_id)
 
 
@@ -78,13 +78,13 @@ export default async function MapPage({ params }: { params: { map_id: string } }
   if (currentMapData && icons) {
     return (
       <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames}
-        storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList} />
+        storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList} width={currentMapData[0].width} height={currentMapData[0].height}/>
     )
   }
 
 
   return (
-    <GotPage mapId={undefined} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} />
+    <GotPage mapId={undefined} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} width={750} height={750} />
   )
 
 

@@ -18,6 +18,7 @@ export default function MapSettings({ id }: mapSetting_type) {
 
     const [supabase] = useState(createClientComponentClient())
     const [storagePath, setStoragePath] = useState("")
+    const [width, setWidth] =useState(0)
 
     const [name, setName] = useState("Loading...")
     const [fav, setFav] = useState(false)
@@ -29,7 +30,7 @@ export default function MapSettings({ id }: mapSetting_type) {
     const getMapInfo = async (id: string) => {
         const { data: currentMapData } = await supabase
             .from('maps')
-            .select("name, storage_name, favorite")
+            .select("name, storage_name, favorite, width")
             .eq("id", id)
 
         if (!currentMapData) {
@@ -40,6 +41,7 @@ export default function MapSettings({ id }: mapSetting_type) {
         setName(currentMapData[0].name)
         setFav(currentMapData[0].favorite)
         setStoragePath(currentMapData[0].storage_name)
+        setWidth(currentMapData[0].width)
     }
 
 
@@ -78,9 +80,9 @@ export default function MapSettings({ id }: mapSetting_type) {
                 </label>
                 <div></div>
                 <button onClick={updateMapSetting}>Save Changes</button>
-                {/* <Aligner canvasWidth={dimention.width}> */}
+                <Aligner canvasWidth={width}>
                     <DisplayImageCanvas storagePath={storagePath} />
-                {/* </Aligner> */}
+                </Aligner>
 
                 <button onClick={deleteMap}>Delete Map</button>
         </div>)
