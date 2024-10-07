@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import Image from 'next/image';
 
 import { representation } from "./representation_page"
-import { DiaryImage } from "./canvas/DiaryImage";
+import { DisplayImageCanvas } from "./canvas/DisplayImage";
 
 interface dairyType {
   diaryInfo: { x: number, y: number, info_on_location: Array<representation> },
@@ -105,7 +105,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
           className={"bg-transparent"} />
 
         {item.image_storage ? <div>
-          <DiaryImage storagePath={item.image_storage} />
+          <DisplayImageCanvas storagePath={item.image_storage} />
         </div> : <></>}
 
         <DataListofItem entries={item.data} repID={item.id} CatagoryOnChange={textChange} />

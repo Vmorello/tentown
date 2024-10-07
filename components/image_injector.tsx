@@ -61,9 +61,9 @@ export default function ImageImporter({preloadedImage}: image_type) {
 
     }
 
-    const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
-        console.log(`clicked image at ${event.nativeEvent.offsetX}, ${event.nativeEvent.offsetY} & on page ${event.pageX}, ${event.pageY}`)
-      }
+    // const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    //     console.log(`clicked image at ${event.nativeEvent.offsetX}, ${event.nativeEvent.offsetY} & on page ${event.pageX}, ${event.pageY}`)
+    //   }
     
 
 
@@ -99,7 +99,7 @@ export default function ImageImporter({preloadedImage}: image_type) {
                     <div>Original File Info -  w: {dimention.width} - h: {dimention.height} - size: {dataSize / 1000} kilobytes</div>
                 </div>
                 : <div>Add an image using the Imput above!</div>}
-            <canvas ref={ref} onClick={onCanvasPress}
+            <canvas ref={ref} //onClick={onCanvasPress}
                 width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
         </Aligner>
     </div>

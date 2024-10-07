@@ -1,28 +1,34 @@
 import { useEffect, useState } from "react";
 import useCanvas from "./hook";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
+import Aligner from "../wrappers/aligner";
 
 interface DiaryImageType {
     storagePath: string
 }
 
 
-export function DiaryImage({storagePath}:DiaryImageType) {
+export function DisplayImageCanvas({storagePath}:DiaryImageType) {
     
     const [supabase] = useState(createClientComponentClient())
 
     const { ref, canvasUtil } = useCanvas();
 
     const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
-    const [dimention, setDimention] = useState({ "height": 1000, "width": 1000 })
+    const [dimention, setDimention] = useState({ "height": 200, "width": 200 })
 
     const getMapFileFromStorage = async (storageName: string) => {
+        console.log(`trying to get ${storageName}`)
+        if (!storageName) {
+            return
+        }
+
         const { data, error } = await supabase
             .storage
             .from('public/MapCollection')
             .download(storageName)
 
-        console.log(data, error)
+        // console.log(data, error)
 
         const reader = new FileReader();
         reader.readAsText(data!);
@@ -49,7 +55,7 @@ export function DiaryImage({storagePath}:DiaryImageType) {
     
     useEffect(() => {
         getMapFileFromStorage(storagePath)
-    }, []);
+    }, [storagePath]);
 
 
     useEffect(() => {
@@ -60,9 +66,9 @@ export function DiaryImage({storagePath}:DiaryImageType) {
 
 
 
-    return <>
-        <canvas ref={ref} width={dimention.width} height={dimention.height}/>
-    </>
+    return <Aligner canvasWidth={dimention.width}>
+                <canvas ref={ref} width={dimention.width} height={dimention.height}/>
+        </Aligner>
 }
 
 
