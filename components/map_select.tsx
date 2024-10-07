@@ -19,7 +19,7 @@ interface map_db {
 
 const examples = [
   { name: 'Sigil', id: '538ba993-1561-4bf0-b214-03b26a1cc317', favorite: true },
-  { name: 'Icewind Dale 🇮🇪', id: '906b4b63-0cbb-4c6b-a600-94610f179ba0', favorite: false },
+  // { name: 'Icewind Dale 🇮🇪', id: '906b4b63-0cbb-4c6b-a600-94610f179ba0', favorite: false },
   { name: 'Icewind Dale 🇨🇦', id: 'ab6d99d8-bee9-47f4-9367-a2cdb1a9deca', favorite: false },
   // { type: "WIP 💝", map_id: '0fb9f15a-ef64-4df4-9ff1-8d0c85849e4e' },
 ]
