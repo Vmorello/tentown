@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { DisplayImageCanvas } from './canvas/DisplayImage';
+import Aligner from './wrappers/aligner';
 
 interface mapSetting_type {
     id: string,
@@ -77,8 +78,9 @@ export default function MapSettings({ id }: mapSetting_type) {
                 </label>
                 <div></div>
                 <button onClick={updateMapSetting}>Save Changes</button>
-
-                <DisplayImageCanvas storagePath={storagePath} />
+                {/* <Aligner canvasWidth={dimention.width}> */}
+                    <DisplayImageCanvas storagePath={storagePath} />
+                {/* </Aligner> */}
 
                 <button onClick={deleteMap}>Delete Map</button>
         </div>)

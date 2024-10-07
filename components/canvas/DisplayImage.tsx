@@ -66,9 +66,8 @@ export function DisplayImageCanvas({storagePath}:DiaryImageType) {
 
 
 
-    return <Aligner canvasWidth={dimention.width}>
-                <canvas ref={ref} width={dimention.width} height={dimention.height}/>
-        </Aligner>
+    return <canvas ref={ref} width={dimention.width} height={dimention.height}/>
+
 }
 
 

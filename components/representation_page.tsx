@@ -179,7 +179,7 @@ export function GotPage(props: repPage) {
     const reader = new FileReader();
     reader.readAsText(data!);
     reader.onloadend = () => {
-      console.log(reader.result)
+      // console.log(reader.result)
       updateBackgroundAndsSizeWithBase64(reader.result as string)
     };
 
