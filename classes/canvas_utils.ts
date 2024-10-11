@@ -30,7 +30,7 @@ export class CanvasControl implements CanvasUtilBase {
     this.setBackground(undefined);
   }
 
-  setup(background: HTMLImageElement, currentItem=noSelectionString) {
+  setup(background?: HTMLImageElement , currentItem=noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
 

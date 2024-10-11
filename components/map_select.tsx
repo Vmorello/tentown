@@ -5,7 +5,6 @@ import Image from 'next/image'
 
 import Link from 'next/link'
 
-import FavStar from './favorite_star'
 import { get_image } from '@/classes/icons_utils';
 
 interface map_type { }

@@ -1,4 +1,4 @@
-import ImageImporter from "@/components/image_injector";
+import ImageImporter from "@/components/ImageImporter";
 
 export default  function Index() {
 
