@@ -9,9 +9,10 @@ import useCanvas from './canvas/hook'
 interface imageFile {
     fileName: string
     image?: HTMLImageElement
-    height?: number
-    width?: number
-    saved?: boolean
+    height: number
+    width: number
+    saved?: true
+    sizeRatio: number
 }
 
 export default function ImageImporter() {
@@ -20,10 +21,8 @@ export default function ImageImporter() {
 
     const [supabase] = useState(createClientComponentClient())
 
-    const [dimention, setDimention] = useState({ "height": 0, "width": 0 })
     const [imageFiles, setImageFiles] = useState([] as imageFile[])
-
-    const[currentIndexShown, setIndexShown] = useState(0)
+    const [currentIndexShown, setIndexShown] = useState(0)
 
 
     const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -37,18 +36,17 @@ export default function ImageImporter() {
         let uploadedImages = [] as imageFile[]
         console.log(inputFileObject.files)
         for (let counter = 0; counter < inputFileObject.files.length; counter++) {
-            uploadedImages.push({ fileName: inputFileObject.files[counter].name.split(".")[0] })
+            uploadedImages.push({ fileName: inputFileObject.files[counter].name.split(".")[0], height: 0, width: 0, sizeRatio: 1 })
 
             const imageURL = URL.createObjectURL(inputFileObject.files[counter])
             const tempImage = new Image();
             tempImage.addEventListener("load", () => {
                 setImageFiles(files => {
                     const fileCopy = files.slice()
-                    fileCopy[counter] = { fileName: files[counter].fileName, image: tempImage, height: tempImage.naturalHeight, width: tempImage.naturalWidth }
-                    if(counter==0){
+                    fileCopy[counter] = { fileName: files[counter].fileName, image: tempImage, height: tempImage.naturalHeight, width: tempImage.naturalWidth, sizeRatio: 1 }
+                    if (counter == 0) {
                         setIndexShown(0)
                         canvasUtil?.setBackground(tempImage)
-                        setDimention({ width: tempImage.naturalWidth, height: tempImage.naturalHeight})
                     }
                     return fileCopy
                 })
@@ -58,7 +56,7 @@ export default function ImageImporter() {
 
         }
         setImageFiles(uploadedImages)
-    
+
 
         // console.log(inputFile)
 
@@ -98,8 +96,20 @@ export default function ImageImporter() {
 
     const changeView = (index: number) => () => {
         setIndexShown(index)
-        canvasUtil?.setBackground(imageFiles[index].image)
-        setDimention({ width: imageFiles[index].width!, height: imageFiles[index].height! })
+        canvasUtil?.setBackground(imageFiles[index].image, imageFiles[index].sizeRatio)
+    }
+
+    const changeSize = (changeInRatio: number) => () => {
+
+        const newSizeRatio = imageFiles[currentIndexShown].sizeRatio * changeInRatio
+
+        setImageFiles(files => {
+            const fileCopy = files.slice()
+            fileCopy[currentIndexShown].sizeRatio = newSizeRatio
+            return fileCopy
+        })
+        canvasUtil?.setBackground(imageFiles[currentIndexShown].image, newSizeRatio)
+
     }
 
     const linkOptions = imageFiles.map((image: imageFile, index) => {
@@ -108,19 +118,27 @@ export default function ImageImporter() {
         </div>
     })
 
+    const widthConditoned = imageFiles[currentIndexShown] ? imageFiles[currentIndexShown].width * imageFiles[currentIndexShown].sizeRatio : 0
+    const heightConditoned = imageFiles[currentIndexShown] ? imageFiles[currentIndexShown].height * imageFiles[currentIndexShown].sizeRatio : 0
 
 
     return (<div className="text-foreground">
-        <Aligner canvasWidth={dimention.width}>
-            <input type="file" id={`image_input`} accept="image/*" onChange={onChange} multiple={true} />
-            {imageFiles.length > 0 ? <div>
-                {linkOptions}
+        <input type="file" id={`image_input`} accept="image/*" onChange={onChange} multiple={true} />
+        {imageFiles.length > 0 ? <div>
+            {linkOptions}
+            <div>
+                <button className='p-3' onClick={changeSize(.80)}> make it smaller </button>
+            </div>
+            <div>
                 <button className='p-3' onClick={saveButt(currentIndexShown)}>Save Image </button>
-            {imageFiles[currentIndexShown].saved ? "✅" : "❌"}</div>
-                : <div>Add images using the Imput above!</div>}
+                {imageFiles[currentIndexShown].saved ? "✅" : "❌"}
+            </div>
+        </div>
+            : <div>Add images using the Input above! </div>}
 
+        <Aligner canvasWidth={widthConditoned}>
             <canvas ref={ref} //onClick={onCanvasPress}
-                width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
+                width={widthConditoned} height={heightConditoned} className="border-dotted border-2 border-stone-400" />
         </Aligner>
     </div>
     )

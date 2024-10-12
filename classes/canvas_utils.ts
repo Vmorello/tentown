@@ -49,13 +49,13 @@ export class CanvasControl implements CanvasUtilBase {
 
 
 
-  setBackground(background?: HTMLImageElement) {
+  setBackground(background?: HTMLImageElement, sizeRatio=1) {
     this.clear()
     if (background === undefined) {
       this.paintBackground = this.clear
     } else {
       this.paintBackground = this.setPaintBackground(
-        new LoadedFileVisibleItem(background)
+        new LoadedFileVisibleItem(background,sizeRatio)
       )
     }
   }
@@ -65,7 +65,7 @@ export class CanvasControl implements CanvasUtilBase {
   }
 
   setHover(currentIcon: string) {
-    this.hover = new SrcImageVisibleItem(currentIcon, -100, -100)
+    this.hover = new SrcImageVisibleItem(currentIcon, -100,-100) //hover shouldnt show up till on mouse on map
     this.hoverVisable = false
 
     this.hoverOnPointerMove = (event: MouseEvent) => {

@@ -51,10 +51,10 @@ export class LoadedFileVisibleItem {
   width:number 
 
 
-  constructor(image: HTMLImageElement, x: number = 0, y: number = 0) {
+  constructor(image: HTMLImageElement, sizeRatio:number, x: number = 0, y: number = 0) {
     this.pic = image;
-    this.height=image.naturalHeight
-    this.width=image.naturalWidth
+    this.height=image.naturalHeight * sizeRatio
+    this.width=image.naturalWidth * sizeRatio
 
     this.x = x;
     this.y = y;
@@ -62,6 +62,6 @@ export class LoadedFileVisibleItem {
 
 
   draw(ctx: CanvasRenderingContext2D) {
-    ctx.drawImage(this.pic!, this.x, this.y,);
+    ctx.drawImage(this.pic!, this.x, this.y,this.width,this.height);
   }
 }
