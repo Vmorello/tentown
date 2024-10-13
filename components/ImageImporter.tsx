@@ -69,31 +69,6 @@ export default function ImageImporter() {
     //   }
 
 
-
-    const saveButt = (counter: number) => async () => {
-
-        const { data: { user } } = await supabase.auth.getUser()
-        // console.log(ref.current!.toDataURL())
-        // console.log(image)
-        console.log("will try to save it")
-        const { data, error } = await supabase
-            .storage
-            .from('MapCollection')
-            .upload(`${user!.id}/${imageFiles[counter].fileName}`, ref.current!.toDataURL("image/jpeg", .7), {
-                upsert: true,
-                contentType: "image/jpeg"
-            })
-        console.log({ data, error })
-
-        if (data) {
-            setImageFiles(files => {
-                const fileCopy = files.slice()
-                fileCopy[counter].saved = true
-                return fileCopy
-            })
-        }
-    }
-
     const changeView = (index: number) => () => {
         setIndexShown(index)
         canvasUtil?.setBackground(imageFiles[index].image, imageFiles[index].sizeRatio)
@@ -109,8 +84,40 @@ export default function ImageImporter() {
             return fileCopy
         })
         canvasUtil?.setBackground(imageFiles[currentIndexShown].image, newSizeRatio)
-
     }
+
+
+    const saveButt = (counter: number) => async () => {
+
+        const { data: { user } } = await supabase.auth.getUser()
+        // console.log(ref.current!.toDataURL())
+        // console.log(image)
+        const fileName = document.getElementById(`newFileName`) as HTMLInputElement;
+        if (!fileName.value){
+            console.log(`filename input seems empty ${fileName.value}`)
+            return
+        }
+
+        console.log(`will try to save it as ${fileName.value}`)
+
+        const { data, error } = await supabase
+            .storage
+            .from('MapCollection')
+            .upload(`${user!.id}/${fileName.value}`, ref.current!.toDataURL("image/jpeg", .7), {
+                upsert: true,
+                contentType: "image/jpeg"
+            })
+        console.log({ data, error })
+
+        if (data) {
+            setImageFiles(files => {
+                const fileCopy = files.slice()
+                fileCopy[counter].saved = true
+                return fileCopy
+            })
+        }
+    }
+
 
     const linkOptions = imageFiles.map((image: imageFile, index) => {
         return <div className='p-3' onClick={changeView(index)}>
@@ -131,7 +138,8 @@ export default function ImageImporter() {
             </div>
             <div>
                 <button className='p-3' onClick={saveButt(currentIndexShown)}>Save Image </button>
-                {imageFiles[currentIndexShown].saved ? "✅" : "❌"}
+                {imageFiles[currentIndexShown].saved ? "✅" : "❌"} 
+                as <input defaultValue={imageFiles[currentIndexShown].fileName} className="text-background" id='newFileName'/>
             </div>
         </div>
             : <div>Add images using the Input above! </div>}
