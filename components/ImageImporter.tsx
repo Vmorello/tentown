@@ -32,6 +32,7 @@ export default function ImageImporter() {
         if (inputFileObject.files === null) {
             return
         }
+        setIndexShown(0)
 
         let uploadedImages = [] as imageFile[]
         console.log(inputFileObject.files)
