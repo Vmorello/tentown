@@ -86,24 +86,34 @@ export default function ImageImporter() {
         canvasUtil?.setBackground(imageFiles[currentIndexShown].image, newSizeRatio)
     }
 
+    const fileNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setImageFiles(files => {
+            const fileCopy = files.slice()
+            fileCopy[currentIndexShown].fileName = event.target.value
+            return fileCopy
+        })
+
+       
+    }
+
 
     const saveButt = (counter: number) => async () => {
 
         const { data: { user } } = await supabase.auth.getUser()
         // console.log(ref.current!.toDataURL())
         // console.log(image)
-        const fileName = document.getElementById(`newFileName`) as HTMLInputElement;
-        if (!fileName.value){
-            console.log(`filename input seems empty ${fileName.value}`)
+        const fileName = imageFiles[currentIndexShown].fileName
+        if (!fileName){
+            console.log(`filename input seems empty ${fileName}`)
             return
         }
 
-        console.log(`will try to save it as ${fileName.value}`)
+        console.log(`will try to save it as ${fileName}`)
 
         const { data, error } = await supabase
             .storage
             .from('MapCollection')
-            .upload(`${user!.id}/${fileName.value}`, ref.current!.toDataURL("image/jpeg", .7), {
+            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL("image/jpeg", .7), {
                 upsert: true,
                 contentType: "image/jpeg"
             })
@@ -117,6 +127,8 @@ export default function ImageImporter() {
             })
         }
     }
+
+  
 
 
     const linkOptions = imageFiles.map((image: imageFile, index) => {
@@ -139,7 +151,7 @@ export default function ImageImporter() {
             <div>
                 <button className='p-3' onClick={saveButt(currentIndexShown)}>Save Image </button>
                 {imageFiles[currentIndexShown].saved ? "✅" : "❌"} 
-                as <input defaultValue={imageFiles[currentIndexShown].fileName} className="text-background" id='newFileName'/>
+                as <input value={imageFiles[currentIndexShown].fileName} className="text-background" onChange={fileNameChange}/> 
             </div>
         </div>
             : <div>Add images using the Input above! </div>}
