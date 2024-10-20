@@ -2090,7 +2090,7 @@ const iconStore: { [key: string]: any } = {
   "🗨": KrcIxYhrXi,
   "🗯": TRQMsMLztp,
   "🗳": BVaXNVGcgY,
-  "🗺": wnwgcJPYJN,
+  "🗺️": wnwgcJPYJN,
   "🗻": MefyGaLaGT,
   "🗼": pcJLYcNtEl,
   "🗽": fallXZUzIC,
