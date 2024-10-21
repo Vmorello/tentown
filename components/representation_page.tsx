@@ -119,6 +119,7 @@ export function GotPage(props: repPage) {
     }
     else if (currentItem != noSelectionString) {
       addRep(xCanvas, yCanvas)
+      setCurrentItem(noSelectionString)
     }
 
     console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. clicked at x:${xPage} y:${yPage} in the page. The info at this location found is ${info_on_location}`)//offset set at x:${offsetX} y:${offsetY}.
