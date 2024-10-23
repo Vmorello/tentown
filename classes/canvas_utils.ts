@@ -7,7 +7,7 @@ import { noSelectionString } from "./constants"
 export interface CanvasUtilBase {
   canvas: HTMLCanvasElement
   ctx: CanvasRenderingContext2D
-  setup(background: HTMLImageElement, currentItem?: string ): void
+  setup(background: HTMLImageElement, currentItem?: string): void
   startAnimation(): (() => void)
 }
 
@@ -18,8 +18,12 @@ export class CanvasControl implements CanvasUtilBase {
   hover: SrcImageVisibleItem | null
   hoverVisable: boolean
   animationFrame?: number
-  hoverOnPointerMove?: (event: MouseEvent) => void
+  hoverOnPointerMove: (event: MouseEvent) => void
   paintBackground?: () => void
+
+  visualReps = []
+  effects = []
+
 
 
   constructor(canvas: HTMLCanvasElement) {
@@ -28,9 +32,26 @@ export class CanvasControl implements CanvasUtilBase {
     this.hover = null
     this.hoverVisable = false
     this.setBackground(undefined);
+
+    this.hoverOnPointerMove = (event: MouseEvent) => {
+      if (this.hover) {
+        // console.log(event)
+        // console.log(getRadius(currentIcon))
+        const size = getSize(this.hover.getIcon())
+        this.hover.move(
+          event.offsetX - size.w / 2,
+          event.offsetY - size.h / 2
+        );
+        this.hoverVisable = true;
+      }
+    }
+    this.canvas.addEventListener("pointermove", this.hoverOnPointerMove);
+    this.canvas.addEventListener("pointerout", (event) => {
+      this.hoverVisable = false;
+    });
   }
 
-  setup(background?: HTMLImageElement , currentItem=noSelectionString) {
+  setup(background?: HTMLImageElement, currentItem = noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
 
@@ -38,24 +59,23 @@ export class CanvasControl implements CanvasUtilBase {
     if (currentItem === noSelectionString) {
       this.removeHover();
     } else {
-      try{
+      try {
         this.setHover(currentItem);
-      }catch(err) {
+      } catch (err) {
         console.error(currentItem)
       }
-      
     }
   }
 
 
 
-  setBackground(background?: HTMLImageElement, sizeRatio=1) {
+  setBackground(background?: HTMLImageElement, sizeRatio = 1) {
     this.clear()
     if (background === undefined) {
       this.paintBackground = this.clear
     } else {
       this.paintBackground = this.setPaintBackground(
-        new LoadedFileVisibleItem(background,sizeRatio)
+        new LoadedFileVisibleItem(background, sizeRatio)
       )
     }
   }
@@ -65,28 +85,7 @@ export class CanvasControl implements CanvasUtilBase {
   }
 
   setHover(currentIcon: string) {
-    this.hover = new SrcImageVisibleItem(currentIcon, -100,-100) //hover shouldnt show up till on mouse on map
-    this.hoverVisable = false
-
-    this.hoverOnPointerMove = (event: MouseEvent) => {
-
-      if (!(this.hover === null || this.hover === undefined)) {
-        // console.log(event)
-        // console.log(getRadius(currentIcon))
-        const size = getSize(currentIcon)
-        this.hover.move(
-          
-          event.offsetX - size.w/2,
-          event.offsetY - size.h/2
-        );
-        this.hoverVisable = true;
-      }
-    };
-    this.canvas.addEventListener("pointermove", this.hoverOnPointerMove);
-
-    this.canvas.addEventListener("pointerout", (event) => {
-      this.hoverVisable = false;
-    });
+    this.hover = new SrcImageVisibleItem(currentIcon, -100, -100) //hover shouldnt show up till on mouse on map
   }
 
   removeHover() {
@@ -98,6 +97,12 @@ export class CanvasControl implements CanvasUtilBase {
     return () => {
       this.animationFrame = requestAnimationFrame(this.animate())
       this.paintBackground!()
+
+      // for (let i = 0; i < visualReps.length; i++) {
+      //     visualReps[i].draw(this.ctx);
+      //   }
+
+
       if (this.hoverVisable) {
         // console.log("drawing hover");
         this.hover!.draw(this.ctx)
@@ -105,8 +110,9 @@ export class CanvasControl implements CanvasUtilBase {
     };
   }
 
-  startAnimation() { 
+  startAnimation() { //repList:Array<{icon:string,x:number,y:number}>
     cancelAnimationFrame(this.animationFrame!)
+    // let visualReps = this.loadIcons(repList);
     return () => {
       this.animationFrame = requestAnimationFrame(this.animate())
     };
@@ -114,8 +120,17 @@ export class CanvasControl implements CanvasUtilBase {
 
 
   clear() {
-    this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height)
+    this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
   }
+
+
+  set_ttl(array: any[], item: string, time: number) {
+    setTimeout(() => {
+      array.splice(array.indexOf(item), 1)
+      console.log("removed")
+    }, time);
+  }
+
 
 
 }

@@ -60,7 +60,7 @@ export function DisplayImageCanvas({storagePath}:DiaryImageType) {
 
     useEffect(() => {
         if (background === undefined) { return }
-        canvasUtil!.setup(background)
+        canvasUtil!.setBackground(background)
     }, [background])
 
 

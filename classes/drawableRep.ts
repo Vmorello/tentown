@@ -6,6 +6,7 @@ import { get_image, getSize } from "./icons_utils";
 export class SrcImageVisibleItem {
   x: number
   y: number
+  icon:string
   pic?: HTMLImageElement
   width: number
   height: number
@@ -15,6 +16,7 @@ export class SrcImageVisibleItem {
     this.x = x;
     this.y = y;
 
+    this.icon=icon
     let size = getSize(icon)
 
     // console.log(`i will put ${icon} with dimensions: ${temp_dimentions} at x:${x} y:${y} `)
@@ -39,6 +41,10 @@ export class SrcImageVisibleItem {
 
   draw(ctx: CanvasRenderingContext2D) {
     ctx.drawImage(this.pic!, this.x, this.y, this.width, this.height);
+  }
+
+  getIcon(){
+    return this.icon
   }
 }
 
