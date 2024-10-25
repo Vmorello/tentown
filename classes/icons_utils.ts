@@ -21,10 +21,10 @@ export function getRadius(input_value: string) {
 }
 
 export function getSize(input_value: string) {
-  console.log(input_value)
+  // console.log(input_value)
   const image = iconStore[input_value]!
 
-  console.log(image)
+  // console.log(image)
 
   return { w: image.width, h: image.height }
 

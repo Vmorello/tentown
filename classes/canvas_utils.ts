@@ -2,13 +2,18 @@ import { getSize } from "./icons_utils";
 import { SrcImageVisibleItem, LoadedFileVisibleItem } from "./drawableRep";
 
 import { noSelectionString } from "./constants"
+import { ClickedEffect } from "./Effects";
 
 
 export interface CanvasUtilBase {
   canvas: HTMLCanvasElement
   ctx: CanvasRenderingContext2D
-  setup(background: HTMLImageElement, currentItem?: string): void
+  // setup(background: HTMLImageElement, currentItem?: string): void
   startAnimation(): (() => void)
+}
+
+export interface DrawableItem {
+  draw: (ctx:CanvasRenderingContext2D) => void
 }
 
 
@@ -21,12 +26,12 @@ export class CanvasControl implements CanvasUtilBase {
   hoverOnPointerMove: (event: MouseEvent) => void
   paintBackground?: () => void
 
-  visualReps = []
-  effects = []
+  effects = [] as DrawableItem[]
 
 
 
   constructor(canvas: HTMLCanvasElement) {
+    console.log("New Canvas util being created ")
     this.canvas = canvas;
     this.ctx = this.canvas.getContext("2d")!
     this.hover = null
@@ -54,8 +59,8 @@ export class CanvasControl implements CanvasUtilBase {
   setup(background?: HTMLImageElement, currentItem = noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
-
     this.setBackground(background);
+
     if (currentItem === noSelectionString) {
       this.removeHover();
     } else {
@@ -98,9 +103,10 @@ export class CanvasControl implements CanvasUtilBase {
       this.animationFrame = requestAnimationFrame(this.animate())
       this.paintBackground!()
 
-      // for (let i = 0; i < visualReps.length; i++) {
-      //     visualReps[i].draw(this.ctx);
-      //   }
+
+      for (let i = 0; i < this.effects.length; i++) {
+        this.effects[i].draw(this.ctx);
+        }
 
 
       if (this.hoverVisable) {
@@ -123,14 +129,19 @@ export class CanvasControl implements CanvasUtilBase {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
   }
 
+  addClickEffect(x:number,y:number){
+    const newEffect = new ClickedEffect(x,y)
+    this.effects.push(newEffect)
 
-  set_ttl(array: any[], item: string, time: number) {
+    this.set_ttl(this.effects,newEffect,1000)
+  }
+
+
+  set_ttl(array: any[], item: any, time: number) {
     setTimeout(() => {
       array.splice(array.indexOf(item), 1)
       console.log("removed")
     }, time);
   }
-
-
 
 }

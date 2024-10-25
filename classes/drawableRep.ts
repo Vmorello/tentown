@@ -1,9 +1,10 @@
 // import Image from 'next/image' ;
 
 import { get_image, getSize } from "./icons_utils";
+import {DrawableItem} from "./canvas_utils"
 
 
-export class SrcImageVisibleItem {
+export class SrcImageVisibleItem implements DrawableItem {
   x: number
   y: number
   icon:string
@@ -32,6 +33,7 @@ export class SrcImageVisibleItem {
     // console.log(imageSrc);
     this.pic.src = imageSrc;
   }
+  
 
   move(x: number, y: number) {
     this.x = x;

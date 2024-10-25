@@ -35,6 +35,7 @@ export function MMapCanvasComp({ width, height, onPress, background, currentItem
 
   const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
     onPress(event.nativeEvent.offsetX, event.nativeEvent.offsetY, event.pageX, event.pageY,)
+    canvasUtil?.addClickEffect(event.nativeEvent.offsetX, event.nativeEvent.offsetY)
   }
 
   return (

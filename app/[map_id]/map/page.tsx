@@ -52,6 +52,8 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     .list('shared')
   sharedStorageListRaw?.forEach(map => { map.name = `shared/${map.name}` })
 
+  console.log(sharedStorageListRaw)
+
 
   let userStorageList = [] as FileObject[]
   if (user) {
@@ -65,26 +67,36 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     userStorageList = userStorageListRaw!
 
   }
+  
+  let fullListNames
+  let mapLocationToLoad
+  if (sharedStorageListRaw === null){
+     fullListNames =["no data /offline?"]
+     mapLocationToLoad =null
+  } else{
 
   const fullList = userStorageList
     .concat(sharedStorageListRaw!)
     // .concat(demoStorageList)
     .filter(map => { return (!map.name.endsWith('.emptyFolderPlaceholder')) })
 
-  const fullListNames = fullList.map(map => { return map.name })
+   fullListNames = fullList.map(map => { return map.name })
+
+   mapLocationToLoad = currentMapData ? currentMapData[0].storage_name : fullListNames[0]
+  }
 
 
 
   if (currentMapData && icons) {
     return (
       <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames}
-        storage_name={currentMapData[0].storage_name} icons={icons} loaded={true} userMaps={mapList} width={currentMapData[0].width} height={currentMapData[0].height}/>
+      mapLocationToLoad={mapLocationToLoad} icons={icons} loaded={true} userMaps={mapList} width={currentMapData[0].width} height={currentMapData[0].height}/>
     )
   }
 
 
   return (
-    <GotPage mapId={undefined} showCreative={true} storage_name={fullListNames[0]} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} width={750} height={750} />
+    <GotPage mapId={undefined} showCreative={true} mapLocationToLoad={mapLocationToLoad} icons={[]} loaded={false} userMaps={mapList} storageList={fullListNames} width={750} height={750} />
   )
 
 

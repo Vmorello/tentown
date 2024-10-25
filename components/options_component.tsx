@@ -20,7 +20,7 @@ interface new_save_function extends background_function {
 
 interface background_function {
     backgroundButt: () => void
-    bgList?: string[]
+    bgList: string[]
 }
 
 
@@ -45,7 +45,8 @@ export function CardSelect({
     return (<div className={'bg-gray-400 opacity-75 fixed bottom-2 left-1'}>
         <IconSelectDropdown setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={pageRepList} />
-        <EmojiPicker onEmojiClick={onEmojiChange} />
+         {bgList.length > 1 ?  <EmojiPicker onEmojiClick={onEmojiChange} /> : <></>}
+        
         <hr className={"h-1 bg-black"} />
 
         {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} />}

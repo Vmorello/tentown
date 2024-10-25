@@ -16,7 +16,7 @@ import { noSelectionString } from "@/classes/constants"
 interface repPage {
   icons: Array<representation>
   showCreative: boolean
-  storage_name: string
+  mapLocationToLoad?: string
   loaded: boolean
   mapId?: string
   userMaps: { id: any; name: any; }[]
@@ -61,7 +61,7 @@ export function GotPage(props: repPage) {
 
 
   useEffect(() => {
-    getMapFileFromStorage(props.storage_name)
+    getMapFileFromStorage(props.mapLocationToLoad)
   }, []);
 
   const router = useRouter()
@@ -171,7 +171,11 @@ export function GotPage(props: repPage) {
 
   }
 
-  const getMapFileFromStorage = async (storageName: string) => {
+  const getMapFileFromStorage = async (storageName?: string) => {
+    if(!storageName) {
+      return
+    }
+    
     const { data, error } = await supabase
       .storage
       .from('public/MapCollection')
