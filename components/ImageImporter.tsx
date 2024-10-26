@@ -12,7 +12,6 @@ interface imageFile {
     height: number
     width: number
     saved?: true
-    sizeRatio: number
 }
 
 export default function ImageImporter() {
@@ -37,17 +36,17 @@ export default function ImageImporter() {
         let uploadedImages = [] as imageFile[]
         console.log(inputFileObject.files)
         for (let counter = 0; counter < inputFileObject.files.length; counter++) {
-            uploadedImages.push({ fileName: inputFileObject.files[counter].name.split(".")[0], height: 0, width: 0, sizeRatio: 1 })
+            uploadedImages.push({ fileName: inputFileObject.files[counter].name.split(".")[0], height: 0, width: 0 })
 
             const imageURL = URL.createObjectURL(inputFileObject.files[counter])
             const tempImage = new Image();
             tempImage.addEventListener("load", () => {
                 setImageFiles(files => {
                     const fileCopy = files.slice()
-                    fileCopy[counter] = { fileName: files[counter].fileName, image: tempImage, height: tempImage.naturalHeight, width: tempImage.naturalWidth, sizeRatio: 1 }
+                    fileCopy[counter] = { fileName: files[counter].fileName, image: tempImage, height: tempImage.naturalHeight, width: tempImage.naturalWidth}
                     if (counter == 0) {
                         setIndexShown(0)
-                        canvasUtil?.setBackground(tempImage)
+                        canvasUtil?.setBackground(tempImage,tempImage.naturalWidth,tempImage.naturalHeight,)
                     }
                     return fileCopy
                 })
@@ -72,19 +71,22 @@ export default function ImageImporter() {
 
     const changeView = (index: number) => () => {
         setIndexShown(index)
-        canvasUtil?.setBackground(imageFiles[index].image, imageFiles[index].sizeRatio)
+        canvasUtil?.setBackground(imageFiles[index].image, imageFiles[index].width,imageFiles[index].height)
     }
 
     const changeSize = (changeInRatio: number) => () => {
 
-        const newSizeRatio = imageFiles[currentIndexShown].sizeRatio * changeInRatio
+
+        const newWidth= imageFiles[currentIndexShown].width * changeInRatio
+        const newHeight = imageFiles[currentIndexShown].height * changeInRatio
 
         setImageFiles(files => {
             const fileCopy = files.slice()
-            fileCopy[currentIndexShown].sizeRatio = newSizeRatio
+            fileCopy[currentIndexShown].width = newWidth
+            fileCopy[currentIndexShown].height = newHeight
             return fileCopy
         })
-        canvasUtil?.setBackground(imageFiles[currentIndexShown].image, newSizeRatio)
+        canvasUtil?.setBackground(imageFiles[currentIndexShown].image, newWidth, newHeight)
     }
 
     const fileNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -138,8 +140,8 @@ export default function ImageImporter() {
         </div>
     })
 
-    const widthConditoned = imageFiles[currentIndexShown] ? imageFiles[currentIndexShown].width * imageFiles[currentIndexShown].sizeRatio : 0
-    const heightConditoned = imageFiles[currentIndexShown] ? imageFiles[currentIndexShown].height * imageFiles[currentIndexShown].sizeRatio : 0
+    const widthConditoned = imageFiles[currentIndexShown] ? imageFiles[currentIndexShown].width  : 0
+    const heightConditoned = imageFiles[currentIndexShown] ? imageFiles[currentIndexShown].height : 0
 
 
     return (<div className="text-foreground">

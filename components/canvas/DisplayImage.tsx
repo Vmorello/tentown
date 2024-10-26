@@ -8,8 +8,8 @@ interface DiaryImageType {
 }
 
 
-export function DisplayImageCanvas({storagePath}:DiaryImageType) {
-    
+export function DisplayImageCanvas({ storagePath }: DiaryImageType) {
+
     const [supabase] = useState(createClientComponentClient())
 
     const { ref, canvasUtil } = useCanvas();
@@ -52,7 +52,6 @@ export function DisplayImageCanvas({storagePath}:DiaryImageType) {
     }
 
 
-    
     useEffect(() => {
         getMapFileFromStorage(storagePath)
     }, [storagePath]);
@@ -60,13 +59,13 @@ export function DisplayImageCanvas({storagePath}:DiaryImageType) {
 
     useEffect(() => {
         if (background === undefined) { return }
-        canvasUtil!.setBackground(background)
+        canvasUtil!.setBackground(background, background.naturalWidth, background.naturalHeight)
     }, [background])
 
 
 
 
-    return <canvas ref={ref} width={dimention.width} height={dimention.height}/>
+    return <canvas ref={ref} width={dimention.width} height={dimention.height} />
 
 }
 

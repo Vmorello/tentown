@@ -125,9 +125,6 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
             <hr className={"h-2 bg-gray-500"} />
             <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
           </>}
-
-
-
           <hr className={"h-2 bg-gray-500"} />
           <label>
             x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange(setRepInfo.x, item.id)} />
@@ -135,8 +132,6 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
           <label className="px-4">
             y: <input type="number" value={item.y} className={"w-12"} onChange={inputEleRepChange(setRepInfo.y, item.id)} />
           </label>
-
-
           <hr className={"h-2 bg-gray-500"} />
           <label>
             Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange(setRepInfo.size, item.id)} />

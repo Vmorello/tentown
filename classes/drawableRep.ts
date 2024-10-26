@@ -1,23 +1,23 @@
 // import Image from 'next/image' ;
 
 import { get_image, getSize } from "./icons_utils";
-import {DrawableItem} from "./canvas_utils"
+import { DrawableItem } from "./canvas_utils"
 
 
 export class SrcImageVisibleItem implements DrawableItem {
   x: number
   y: number
-  icon:string
+  icon: string
   pic?: HTMLImageElement
   width: number
   height: number
 
 
-  constructor(icon: string, x: number, y: number) {
-    this.x = x;
-    this.y = y;
+  constructor(icon: string, x: number, y: number, ) {
+    this.x = x
+    this.y = y
 
-    this.icon=icon
+    this.icon = icon
     let size = getSize(icon)
 
     // console.log(`i will put ${icon} with dimensions: ${temp_dimentions} at x:${x} y:${y} `)
@@ -25,19 +25,19 @@ export class SrcImageVisibleItem implements DrawableItem {
     this.height = size.h
     this.width = size.w
 
-    this.load(get_image(icon));
+    this.load(get_image(icon))
   }
 
   load(imageSrc: string) {
-    this.pic = new Image();
+    this.pic = new Image()
     // console.log(imageSrc);
-    this.pic.src = imageSrc;
+    this.pic.src = imageSrc
   }
-  
+
 
   move(x: number, y: number) {
-    this.x = x;
-    this.y = y;
+    this.x = x
+    this.y = y
     // console.log(this.x, this.y)
   }
 
@@ -45,7 +45,7 @@ export class SrcImageVisibleItem implements DrawableItem {
     ctx.drawImage(this.pic!, this.x, this.y, this.width, this.height);
   }
 
-  getIcon(){
+  getIcon() {
     return this.icon
   }
 }
@@ -56,20 +56,21 @@ export class LoadedFileVisibleItem {
   y: number
   pic?: HTMLImageElement
   height: number
-  width:number 
+  width: number
 
 
-  constructor(image: HTMLImageElement, sizeRatio:number, x: number = 0, y: number = 0) {
-    this.pic = image;
-    this.height=image.naturalHeight * sizeRatio
-    this.width=image.naturalWidth * sizeRatio
+  constructor(image: HTMLImageElement, width: number, height: number, x: number = 0, y: number = 0) {
+    this.pic = image
+    this.height = height
+    this.width = width
 
-    this.x = x;
-    this.y = y;
+    this.x = x
+    this.y = y
   }
 
 
+
   draw(ctx: CanvasRenderingContext2D) {
-    ctx.drawImage(this.pic!, this.x, this.y,this.width,this.height);
+    ctx.drawImage(this.pic!, this.x, this.y, this.width, this.height)
   }
 }

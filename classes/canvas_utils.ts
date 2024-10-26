@@ -13,7 +13,7 @@ export interface CanvasUtilBase {
 }
 
 export interface DrawableItem {
-  draw: (ctx:CanvasRenderingContext2D) => void
+  draw: (ctx: CanvasRenderingContext2D) => void
 }
 
 
@@ -59,7 +59,7 @@ export class CanvasControl implements CanvasUtilBase {
   setup(background?: HTMLImageElement, currentItem = noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
-    this.setBackground(background);
+    this.setBackground(background, background?.naturalWidth, background?.naturalHeight,);
 
     if (currentItem === noSelectionString) {
       this.removeHover();
@@ -74,13 +74,13 @@ export class CanvasControl implements CanvasUtilBase {
 
 
 
-  setBackground(background?: HTMLImageElement, sizeRatio = 1) {
+  setBackground(background?: HTMLImageElement, width?: number, height?: number) {
     this.clear()
     if (background === undefined) {
       this.paintBackground = this.clear
     } else {
       this.paintBackground = this.setPaintBackground(
-        new LoadedFileVisibleItem(background, sizeRatio)
+        new LoadedFileVisibleItem(background, width!, height!)
       )
     }
   }
@@ -106,7 +106,7 @@ export class CanvasControl implements CanvasUtilBase {
 
       for (let i = 0; i < this.effects.length; i++) {
         this.effects[i].draw(this.ctx);
-        }
+      }
 
 
       if (this.hoverVisable) {
@@ -129,11 +129,11 @@ export class CanvasControl implements CanvasUtilBase {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
   }
 
-  addClickEffect(x:number,y:number){
-    const newEffect = new ClickedEffect(x,y)
+  addClickEffect(x: number, y: number) {
+    const newEffect = new ClickedEffect(x, y)
     this.effects.push(newEffect)
 
-    this.set_ttl(this.effects,newEffect,1000)
+    this.set_ttl(this.effects, newEffect, 1000)
   }
 
 
