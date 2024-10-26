@@ -6,12 +6,15 @@ import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
 
-import { MMapCanvasComp } from '@/components/canvas/MMapCanvasComp'
+import { IconPlacement } from '@/components/canvas/IconPlacement'
 import { Diary } from './diary_component'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
 import { noSelectionString } from "@/classes/constants"
+import { MemoryListed } from './MemoryListed';
+import useCanvas from './canvas/hook';
+import Aligner from './wrappers/aligner';
 
 interface repPage {
   icons: Array<representation>
@@ -21,8 +24,8 @@ interface repPage {
   mapId?: string
   userMaps: { id: any; name: any; }[]
   storageList: string[]
-  height:number
-  width:number
+  height: number
+  width: number
 }
 
 export type representation = {
@@ -44,6 +47,8 @@ const iconList = get_icon_list()!
 
 export function GotPage(props: repPage) {
 
+  const { ref, canvasUtil } = useCanvas();
+
   const [mapId] = useState(props.mapId ? props.mapId : uuidv4())
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
@@ -52,7 +57,7 @@ export function GotPage(props: repPage) {
   const [diary, setDiary] = useState({
     x: 0,
     y: 0,
-    info_on_location: [] as Array<representation>,
+    info_on_location: [] as representation[],
   });
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
   const [supabase] = useState(createClientComponentClient())
@@ -63,6 +68,15 @@ export function GotPage(props: repPage) {
   useEffect(() => {
     getMapFileFromStorage(props.mapLocationToLoad)
   }, []);
+
+
+  useEffect(() => {
+    if (canvasUtil === undefined) { return } // Makes this safe to do canvas-util operations
+
+    canvasUtil.setup(background!, currentItem)
+
+  }, [background, currentItem])
+
 
   const router = useRouter()
 
@@ -94,6 +108,11 @@ export function GotPage(props: repPage) {
       width: size.w,
     })
     setCurrentRepInfo(info_copy)
+  }
+
+  const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    canvasOnclickSwitch(event.nativeEvent.offsetX, event.nativeEvent.offsetY, event.pageX, event.pageY,)
+    canvasUtil?.addClickEffect(event.nativeEvent.offsetX, event.nativeEvent.offsetY)
   }
 
 
@@ -172,10 +191,9 @@ export function GotPage(props: repPage) {
   }
 
   const getMapFileFromStorage = async (storageName?: string) => {
-    if(!storageName) {
+    if (!storageName) {
       return
     }
-    
     const { data, error } = await supabase
       .storage
       .from('public/MapCollection')
@@ -232,8 +250,10 @@ export function GotPage(props: repPage) {
       // console.log(user)
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
-        .insert({ id: mapId, owner: user!.id, name: backgroundName.split("/")[1], 
-                  storage_name: backgroundName,width:dimention.width, height:dimention.height })
+        .insert({
+          id: mapId, owner: user!.id, name: backgroundName.split("/")[1],
+          storage_name: backgroundName, width: dimention.width, height: dimention.height
+        })
         .select("id")
 
       updateButt()
@@ -270,9 +290,12 @@ export function GotPage(props: repPage) {
   return (
     <>
       <div>
-        <MMapCanvasComp repList={currentRepInfo} onPress={canvasOnclickSwitch}
-          width={dimention.width} height={dimention.height} currentItem={currentItem}
-          background={background} showCreative={props.showCreative} />
+        <Aligner canvasWidth={dimention.width}>
+          <canvas ref={ref} onClick={onCanvasPress}
+            width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
+          <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} />
+        </Aligner>
+        {/* <MemoryListed memoryList={currentRepInfo} /> */}
         {props.showCreative ?
           <CardSelect setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={iconList}

@@ -140,7 +140,7 @@ export class CanvasControl implements CanvasUtilBase {
   set_ttl(array: any[], item: any, time: number) {
     setTimeout(() => {
       array.splice(array.indexOf(item), 1)
-      console.log("removed")
+      // console.log("removed")
     }, time);
   }
 
