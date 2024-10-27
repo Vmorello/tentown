@@ -17,9 +17,10 @@ interface map_db {
 
 
 const examples = [
+  { name: "Nat+Vic's Wedding", id: '46423a01-ca0c-4b39-b25e-e320faa2fef3', favorite: true },
   { name: 'Sigil', id: '538ba993-1561-4bf0-b214-03b26a1cc317', favorite: true },
-  // { name: 'Icewind Dale 🇮🇪', id: '906b4b63-0cbb-4c6b-a600-94610f179ba0', favorite: false },
-  { name: 'Icewind Dale 🇨🇦', id: 'ab6d99d8-bee9-47f4-9367-a2cdb1a9deca', favorite: false },
+  { name: 'Icewind Dale 🇮🇪', id: 'b3eb5dfb-4323-455a-bcf4-2682ad426853', favorite: false },
+  // { name: 'Icewind Dale 🇨🇦', id: 'ab6d99d8-bee9-47f4-9367-a2cdb1a9deca', favorite: false },
   // { type: "WIP 💝", map_id: '0fb9f15a-ef64-4df4-9ff1-8d0c85849e4e' },
 ]
 

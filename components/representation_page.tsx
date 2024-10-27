@@ -57,7 +57,7 @@ export function GotPage(props: repPage) {
   const [diary, setDiary] = useState({
     x: 0,
     y: 0,
-    info_on_location: [] as representation[],
+    infoOnLocation: [] as representation[],
   });
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
   const [supabase] = useState(createClientComponentClient())
@@ -120,7 +120,7 @@ export function GotPage(props: repPage) {
     resetDiary()
 
 
-    const info_on_location = currentRepInfo.filter((item) => {
+    const infoOnLocation = currentRepInfo.filter((item) => {
       if (item.hidden && !props.showCreative) return
       // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
       return item["x"] + (item.width) > xCanvas &&
@@ -129,11 +129,11 @@ export function GotPage(props: repPage) {
         item["y"] < yCanvas
     })
 
-    if (info_on_location.length > 0) {
+    if (infoOnLocation.length > 0) {
       setDiary({
         x: xPage,
         y: yPage,
-        info_on_location: info_on_location
+        infoOnLocation: infoOnLocation
       })
     }
     else if (currentItem != noSelectionString) {
@@ -141,7 +141,7 @@ export function GotPage(props: repPage) {
       setCurrentItem(noSelectionString)
     }
 
-    console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. clicked at x:${xPage} y:${yPage} in the page. The info at this location found is ${info_on_location}`)//offset set at x:${offsetX} y:${offsetY}.
+    console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. clicked at x:${xPage} y:${yPage} in the page. The info at this location found is ${infoOnLocation}`)//offset set at x:${offsetX} y:${offsetY}.
   }
 
   const removeRep = (id: string) => () => {
@@ -169,7 +169,7 @@ export function GotPage(props: repPage) {
     setDiary({
       x: 0,
       y: 0,
-      info_on_location: [],
+      infoOnLocation: [],
     });
   }
 

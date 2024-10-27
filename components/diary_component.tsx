@@ -1,16 +1,16 @@
 'use client'
 
-import React from "react"
+import React, { useEffect } from "react"
 import { useRouter } from 'next/navigation'
-import Image from 'next/image';
+import gsap from 'gsap';
 
 import { representation } from "./representation_page"
 import { DisplayImageCanvas } from "./canvas/DisplayImage";
 
 interface dairyType {
-  diaryInfo: { x: number, y: number, info_on_location: Array<representation> },
+  diaryInfo: { x: number, y: number, infoOnLocation: representation[] },
   updateButt: () => void,
-  currentRepInfo: Array<representation>,
+  currentRepInfo: representation[],
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>,
   removeRep: (id: string) => () => void
   userMaps: { id: any; name: any; }[]
@@ -36,8 +36,17 @@ interface repButtChangeType {
 export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorageImages,
   removeRep, userMaps, updateButt, resetDiary, showCreative, }: dairyType) {
 
-
   const router = useRouter()
+
+  useEffect(() => {
+    // console.log("Use Effect for diary images")
+    if (diaryInfo.infoOnLocation[0] && diaryInfo.infoOnLocation[0].image_storage) {
+      // console.log("applying slide")
+      gsap.fromTo("#movingPhoto", { x: 1000, y: 1000, duration: 1 }, { x: -150, y: showCreative ? 220 : 20 })
+
+    }
+  }, [diaryInfo])
+
 
   const mapTranfer = (link: string) => () => {
     updateButt()
@@ -90,11 +99,11 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
   })
 
 
-  if (diaryInfo.info_on_location.length == 0) {
+  if (diaryInfo.infoOnLocation.length == 0) {
     return <></>
   }
 
-  const info_list = diaryInfo.info_on_location.map((item: representation) => {
+  const info_list = diaryInfo.infoOnLocation.map((item: representation) => {
     // console.log(item)
     return (
       <div key={`journalRep${item.id}`}>
@@ -104,7 +113,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
           id={`journalRepTitle${item.id}`}
           className={"bg-transparent"} />
 
-        {item.image_storage ? <div>
+        {item.image_storage ? <div id="movingPhoto" className="absolute bg-white p-4 pb-12 shadow-lg rounded-lg transform rotate-1">
           <DisplayImageCanvas storagePath={item.image_storage} />
         </div> : <></>}
 
