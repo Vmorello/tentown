@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
 
-import { IconPlacement } from '@/components/canvas/IconPlacement'
+import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './diary_component'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
@@ -293,7 +293,7 @@ export function GotPage(props: repPage) {
         <Aligner canvasWidth={dimention.width}>
           <canvas ref={ref} onClick={onCanvasPress}
             width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
-          <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} />
+          <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
         </Aligner>
         {/* <MemoryListed memoryList={currentRepInfo} /> */}
         {props.showCreative ?

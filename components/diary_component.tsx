@@ -1,11 +1,12 @@
 'use client'
 
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { useRouter } from 'next/navigation'
 import gsap from 'gsap';
 
 import { representation } from "./representation_page"
 import { DisplayImageCanvas } from "./canvas/DisplayImage";
+import { IconPlacement } from "./IconPlacement";
 
 interface dairyType {
   diaryInfo: { x: number, y: number, infoOnLocation: representation[] },
@@ -38,14 +39,16 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
 
   const router = useRouter()
 
+  //const [photoEnter] = useState(gsap.from("#movingPhoto", { x: 1000, y: 1000, rotate: -33, duration: .7 }))
+
   useEffect(() => {
     // console.log("Use Effect for diary images")
     if (diaryInfo.infoOnLocation[0] && diaryInfo.infoOnLocation[0].image_storage) {
       // console.log("applying slide")
-      gsap.fromTo("#movingPhoto", { x: 1000, y: 1000, duration: 1 }, { x: -150, y: showCreative ? 220 : 20 })
+      gsap.from("#movingPhoto", { x: 1000, y: 1000, rotate: -33, duration: .7 })
 
     }
-  }, [diaryInfo])
+  }, [diaryInfo.infoOnLocation])
 
 
   const mapTranfer = (link: string) => () => {
@@ -106,75 +109,86 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
   const info_list = diaryInfo.infoOnLocation.map((item: representation) => {
     // console.log(item)
     return (
-      <div key={`journalRep${item.id}`}>
+      <>
 
-        <input value={item.visible_name}
-          onChange={inputEleRepChange(setRepInfo.title, item.id)}
-          id={`journalRepTitle${item.id}`}
-          className={"bg-transparent"} />
-
-        {item.image_storage ? <div id="movingPhoto" className="absolute bg-white p-4 pb-12 shadow-lg rounded-lg transform rotate-1">
+        {/* this is the floating image(s) */}
+        {item.image_storage ? <div id={`movingPhoto`} className="absolute bg-white p-4 pb-16 -left-4 -top-24 shadow-lg rounded-lg rotate-3">
+          <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
           <DisplayImageCanvas storagePath={item.image_storage} />
-        </div> : <></>}
-
-        <DataListofItem entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
-
-        {item.link ? <div>
-          <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
-        </div> : <></>}
-
-        {/* for the creator: */}
-        {showCreative ? <>
-          <div>
-            <hr className={"h-2 bg-gray-500"} />
-            <button onClick={buttEleRepChange(buttActions.newText, item.id)} >New Box to Write In</button>
+          <div className="absolute py-4 left-0 right-0 text-center text-sm text-gray-600 font-semibold">
+            {item.data[0]}
           </div>
+        </div>
+          : <></>}
+        {/* had to seperate these 2 as the Not path would take some of the  */}
+        {!item.image_storage ? <div className="relative bg-fuchsia-400" id={`infoEntry`}>
+          {item.visible_name}
+          {item.data[0] ? <div className="py-1 left-0 right-0 text-center text-sm font-semibold">{item.data[0]}</div> : <></>}
+        </div> : <></>}
 
-          {item.image_storage ? <></> : <>
+
+
+        <div key={`journalRep${item.id}`} className="relative z-10  bg-fuchsia-400">
+          {item.link ? <div>
+            <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
+          </div> : <></>}
+
+          {/* for the creator: */}
+          {showCreative ? <>
+            <input value={item.visible_name}
+              onChange={inputEleRepChange(setRepInfo.title, item.id)}
+              id={`journalRepTitle${item.id}`} />
+
+            <div>
+              <hr className={"h-2 bg-gray-500"} />
+              <ListTextData entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
+              <button onClick={buttEleRepChange(buttActions.newText, item.id)}>New Box to Write In</button>
+            </div>
+
+            {item.image_storage ? <></> : <>
+              <hr className={"h-2 bg-gray-500"} />
+              <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
+            </>}
             <hr className={"h-2 bg-gray-500"} />
-            <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
-          </>}
-          <hr className={"h-2 bg-gray-500"} />
-          <label>
-            x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange(setRepInfo.x, item.id)} />
-          </label>
-          <label className="px-4">
-            y: <input type="number" value={item.y} className={"w-12"} onChange={inputEleRepChange(setRepInfo.y, item.id)} />
-          </label>
-          <hr className={"h-2 bg-gray-500"} />
-          <label>
-            Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange(setRepInfo.size, item.id)} />
-          </label>
-
-          {item.link ? <></> : <>
+            <label>
+              x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange(setRepInfo.x, item.id)} />
+            </label>
+            <label className="px-4">
+              y: <input type="number" value={item.y} className={"w-12"} onChange={inputEleRepChange(setRepInfo.y, item.id)} />
+            </label>
             <hr className={"h-2 bg-gray-500"} />
-            <AddLink userMaps={userMaps} linkedAdded={buttEleRepChange(buttActions.linkAdded, item.id)} />
-          </>}
+            <label>
+              Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange(setRepInfo.size, item.id)} />
+            </label>
+
+            {item.link ? <></> : <>
+              <hr className={"h-2 bg-gray-500"} />
+              <AddLink userMaps={userMaps} linkedAdded={buttEleRepChange(buttActions.linkAdded, item.id)} />
+            </>}
 
 
-          <hr className={"h-2 bg-gray-500"} />
-          <label>
-            Hidden? <input type="checkbox" checked={item.hidden} onChange={inputEleRepChange(setRepInfo.visibility, item.id)} />
-          </label>
+            <hr className={"h-2 bg-gray-500"} />
+            <label>
+              Hidden? <input type="checkbox" checked={item.hidden} onChange={inputEleRepChange(setRepInfo.visibility, item.id)} />
+            </label>
 
 
-          <hr className={"h-2 bg-gray-500"} />
-          <button onClick={removeRep(item.id)}>❌Delete❌</button>
-        </> : <></>}
-      </div>
+            <hr className={"h-2 bg-gray-500"} />
+            <button onClick={removeRep(item.id)}>❌Delete❌</button>
+          </> : <></>}
+        </div>
+      </>
     )
   })
 
 
-  return (<div style={{
-    position: "absolute",
-    left: `${diaryInfo.x}px`,
-    top: `${diaryInfo.y}px`,
-  }}>
-    <div className="bg-fuchsia-400">
-      <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
-      {info_list}
-    </div>
+  return (<div className="absolute"
+    style={{
+      left: `${diaryInfo.x}px`,
+      top: `${diaryInfo.y}px`,
+    }}>
+    {/* <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div> */}
+    {info_list}
   </div>
   )
 }
@@ -182,7 +196,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
 
 
 
-function DataListofItem(props: {
+function ListTextData(props: {
   entries: Array<string>, repID: string,
   CatagoryOnChange: (repID: string, indexOfPara: number) => (event: React.ChangeEvent<HTMLTextAreaElement>) => void
 }) {

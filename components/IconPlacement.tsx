@@ -5,18 +5,21 @@ import { representation } from '@/components/representation_page';
 
 
 export function IconPlacement(props: {
-  repList: Array<representation>
+  repList: representation[]
   showCreative: boolean
+  focusedReps: representation[]
 }) {
+
+
   const linkOptions = props.repList.map((rep: representation) => {
-    // console.log(image)
+    console.log(rep.icon)
     if (!rep.hidden || props.showCreative) {
       return <Image src={get_image(rep.icon)!} alt={"broke"}
         height={rep.height} width={rep.width}
         key={`Rep${rep.id}`}
+        className={`absolute pointer-events-none `}
         style={{
-          pointerEvents: "none",
-          position: "absolute",
+          zIndex: (props.focusedReps.includes(rep)) ? "20" : "0",
           top: `${rep.y}px`,
           left: `${rep.x}px`
         }} />
