@@ -17,7 +17,7 @@ import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
 
 interface repPage {
-  icons: Array<representation>
+  icons: representation[]
   showCreative: boolean
   mapLocationToLoad?: string
   loaded: boolean
@@ -31,7 +31,7 @@ interface repPage {
 export type representation = {
   icon: string,
   x: number, y: number
-  data: Array<string>
+  data: string[]
   id: string
   visible_name: string
   radius: number,
@@ -40,7 +40,7 @@ export type representation = {
   hidden: boolean
   width: number
   height: number
-  image_storage?: string
+  image_storage?: string[]
 }
 
 const iconList = get_icon_list()!
@@ -290,12 +290,12 @@ export function GotPage(props: repPage) {
   return (
     <>
       <div>
+        {/* <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} /> */}
         <Aligner canvasWidth={dimention.width}>
           <canvas ref={ref} onClick={onCanvasPress}
             width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
           <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
         </Aligner>
-        {/* <MemoryListed memoryList={currentRepInfo} /> */}
         {props.showCreative ?
           <CardSelect setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={iconList}

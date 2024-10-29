@@ -62,7 +62,7 @@ export default async function MapSelect({ }: map_type) {
           key={name}
           className='border-dotted border-x-2'
         >
-          <div className=" font-bold p-4 min-h-12 w-full" >
+          <div className="w-full font-bold p-4 min-h-12" >
             {name}
           </div>
 

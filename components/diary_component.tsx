@@ -80,7 +80,11 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
   const buttActions: repButtChangeType = {
     newText: (infoCopy, listIndex) => { infoCopy[listIndex].data.push("write here") },
     linkAdded: (infoCopy, listIndex) => { infoCopy[listIndex].link = (document.getElementById(`dairyLinkSelect`) as HTMLInputElement).value; },
-    photoAdded: (infoCopy, listIndex) => { infoCopy[listIndex].image_storage = (document.getElementById(`photoSelect`) as HTMLInputElement).value; },
+    photoAdded: (infoCopy, listIndex) => {
+      infoCopy[listIndex].image_storage ?
+      infoCopy[listIndex].image_storage.push((document.getElementById(`photoSelect`) as HTMLInputElement).value) 
+      :  infoCopy[listIndex].image_storage = [(document.getElementById(`photoSelect`) as HTMLInputElement).value]
+    },
   }
 
   const buttEleRepChange = (infofunc: (infoCopy: representation[], listIndex: number, value?: any,) => void,
@@ -107,14 +111,14 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
   }
 
   const info_list = diaryInfo.infoOnLocation.map((item: representation) => {
-    // console.log(item)
+    console.log(item)
     return (
       <>
 
         {/* this is the floating image(s) */}
         {item.image_storage ? <div id={`movingPhoto`} className="absolute bg-white p-4 pb-16 -left-4 -top-24 shadow-lg rounded-lg rotate-3">
           <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
-          <DisplayImageCanvas storagePath={item.image_storage} />
+          <DisplayImageCanvas storagePath={item.image_storage[0]} />
           <div className="absolute py-4 left-0 right-0 text-center text-sm text-gray-600 font-semibold">
             {item.data[0]}
           </div>
@@ -145,7 +149,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
               <button onClick={buttEleRepChange(buttActions.newText, item.id)}>New Box to Write In</button>
             </div>
 
-            {item.image_storage ? <></> : <>
+            {item.image_storage && item.image_storage.length >= 1 ? <></> : <>
               <hr className={"h-2 bg-gray-500"} />
               <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
             </>}
