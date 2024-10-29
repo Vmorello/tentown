@@ -82,7 +82,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
     linkAdded: (infoCopy, listIndex) => { infoCopy[listIndex].link = (document.getElementById(`dairyLinkSelect`) as HTMLInputElement).value; },
     photoAdded: (infoCopy, listIndex) => {
       infoCopy[listIndex].image_storage ?
-      infoCopy[listIndex].image_storage.push((document.getElementById(`photoSelect`) as HTMLInputElement).value) 
+      infoCopy[listIndex].image_storage!.push((document.getElementById(`photoSelect`) as HTMLInputElement).value) 
       :  infoCopy[listIndex].image_storage = [(document.getElementById(`photoSelect`) as HTMLInputElement).value]
     },
   }
