@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 import { v4 as uuidv4 } from 'uuid';
 
 import { IconPlacement } from '@/components/IconPlacement'
-import { Diary } from './diary_component'
+import { Diary } from './DiaryComponents'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'

@@ -1,5 +1,5 @@
 import { representation } from "./representation_page"
-import {actionableType} from "./diary_component"
+import { actionableType } from "./DiaryComponents"
 
 interface linkType { id: string, name: string }
 
@@ -21,7 +21,7 @@ interface repButtChangeType {
 }
 
 
-export function AdminOptions({ item, userStorageImages, userMaps,removeRep, currentRepInfo, setCurrentRepInfo }: {
+export function AdminOptions({ item, userStorageImages, userMaps, removeRep, currentRepInfo, setCurrentRepInfo }: {
   item: representation,
   userStorageImages: string[],
   userMaps: linkType[],
@@ -32,18 +32,18 @@ export function AdminOptions({ item, userStorageImages, userMaps,removeRep, curr
 
 
 
-  const inputEleRepChange = (actionable:actionableType) =>
-    ((event: React.ChangeEvent<HTMLInputElement>) => {
-      const infoCopy = currentRepInfo.slice()
-      const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
+  const inputEleRepChange = (actionable: actionableType) =>
+  ((event: React.ChangeEvent<HTMLInputElement>) => {
+    const infoCopy = currentRepInfo.slice()
+    const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
 
-      actionable.setRepInfo(infoCopy, listIndex, event.target.value)
+    actionable.setRepInfo(infoCopy, listIndex, event.target.value)
 
-      setCurrentRepInfo(infoCopy)
-    })
+    setCurrentRepInfo(infoCopy)
+  })
 
 
-  const buttEleRepChange = (actionable:actionableType) => 
+  const buttEleRepChange = (actionable: actionableType) =>
     () => {
       const infoCopy = currentRepInfo.slice()
       const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
@@ -61,43 +61,43 @@ export function AdminOptions({ item, userStorageImages, userMaps,removeRep, curr
     setCurrentRepInfo(info_copy)
   })
 
-  
+
   return <div key={`creatorRepOps${item.id}`} className="relative z-10 bg-fuchsia-600">
     <input value={item.visible_name}
-      onChange={inputEleRepChange({setRepInfo: setRepInfo.title, repId: item.id})}
+      onChange={inputEleRepChange({ setRepInfo: setRepInfo.title, repId: item.id })}
       id={`journalRepTitle${item.id}`} />
 
     <div>
       <hr className={"h-2 bg-gray-500"} />
       <ListTextData entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
-      <button onClick={buttEleRepChange({setRepInfo: buttActions.newText, repId:  item.id})}>New Box to Write In</button>
+      <button onClick={buttEleRepChange({ setRepInfo: buttActions.newText, repId: item.id })}>New Box to Write In</button>
     </div>
 
 
     <hr className={"h-2 bg-gray-500"} />
-    <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange({setRepInfo: buttActions.photoAdded, repId:  item.id})} />
+    <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange({ setRepInfo: buttActions.photoAdded, repId: item.id })} />
 
     <hr className={"h-2 bg-gray-500"} />
     <label>
-      x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange({setRepInfo:setRepInfo.x, repId:  item.id})} />
+      x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.x, repId: item.id })} />
     </label>
     <label className="px-4">
-      y: <input type="number" value={item.y} className={"w-12"} onChange={inputEleRepChange({setRepInfo:setRepInfo.y, repId:  item.id})} />
+      y: <input type="number" value={item.y} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.y, repId: item.id })} />
     </label>
     <hr className={"h-2 bg-gray-500"} />
     <label>
-      Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange({setRepInfo:setRepInfo.size, repId:  item.id})} />
+      Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.size, repId: item.id })} />
     </label>
 
     {item.link ? <></> : <>
       <hr className={"h-2 bg-gray-500"} />
-      <AddLink userMaps={userMaps} linkedAdded={buttEleRepChange({setRepInfo: buttActions.linkAdded, repId:  item.id})} />
+      <AddLink userMaps={userMaps} linkedAdded={buttEleRepChange({ setRepInfo: buttActions.linkAdded, repId: item.id })} />
     </>}
 
 
     <hr className={"h-2 bg-gray-500"} />
     <label>
-      Hidden? <input type="checkbox" checked={item.hidden} onChange={inputEleRepChange({setRepInfo:setRepInfo.visibility, repId:  item.id})} />
+      Hidden? <input type="checkbox" checked={item.hidden} onChange={inputEleRepChange({ setRepInfo: setRepInfo.visibility, repId: item.id })} />
     </label>
 
 
