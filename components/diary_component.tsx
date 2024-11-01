@@ -46,7 +46,7 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
     if (diaryInfo.infoOnLocation[0] && diaryInfo.infoOnLocation[0].image_storage) {
       // console.log("applying slide")
       gsap.from("#movingPhoto", { x: 1000, y: 1000, rotate: -33, duration: .7 })
-
+      gsap.from("#infoEntry", { x: 0, y: 0, rotate: -33, duration: .7 })
     }
   }, [diaryInfo.infoOnLocation])
 
@@ -122,23 +122,25 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
           <div className="absolute py-4 left-0 right-0 text-center text-sm text-gray-600 font-semibold">
             {item.data[0]}
           </div>
-        </div>
-          : <></>}
+        </div> : <></>}
+
         {/* had to seperate these 2 as the Not path would take some of the  */}
-        {!item.image_storage ? <div className="relative bg-fuchsia-400" id={`infoEntry`}>
+        {!item.image_storage ? <div  className="relative max-w-56 bg-fuchsia-400 text-center py-1" id={`infoEntry`}>
           {item.visible_name}
-          {item.data[0] ? <div className="py-1 left-0 right-0 text-center text-sm font-semibold">{item.data[0]}</div> : <></>}
+          {item.data[0] ? <div className=" font-semibold">{item.data[0]}</div> : <></>}
         </div> : <></>}
 
 
-
-        <div key={`journalRep${item.id}`} className="relative z-10  bg-fuchsia-400">
+        <div key={`journalRep${item.id}`} className="relative z-10 bg-fuchsia-600">
           {item.link ? <div>
             <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
           </div> : <></>}
 
+
+
+
           {/* for the creator: */}
-          {showCreative ? <>
+          {false ? <>
             <input value={item.visible_name}
               onChange={inputEleRepChange(setRepInfo.title, item.id)}
               id={`journalRepTitle${item.id}`} />
@@ -149,10 +151,10 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
               <button onClick={buttEleRepChange(buttActions.newText, item.id)}>New Box to Write In</button>
             </div>
 
-            {item.image_storage && item.image_storage.length >= 1 ? <></> : <>
-              <hr className={"h-2 bg-gray-500"} />
-              <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
-            </>}
+            
+            <hr className={"h-2 bg-gray-500"} />
+            <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange(buttActions.photoAdded, item.id)} />
+            
             <hr className={"h-2 bg-gray-500"} />
             <label>
               x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange(setRepInfo.x, item.id)} />
@@ -191,7 +193,6 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
       left: `${diaryInfo.x}px`,
       top: `${diaryInfo.y}px`,
     }}>
-    {/* <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div> */}
     {info_list}
   </div>
   )
