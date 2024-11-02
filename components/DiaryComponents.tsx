@@ -96,9 +96,14 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
         style={{
           top: `${-96 - (10 * index)}px`,
           left: `${-16 + (150 * index)}px`,
-          zIndex: focusedIndex===index ? 9 : 8 - index
+          zIndex: focusedIndex === index ? 9 : 8 - index
         }}
-        onClick={()=> setFocusedIndex(index)}>
+        onClick={() => {
+          setFocusedIndex(currentIndex => {
+            if (currentIndex === index) { return currentIndex + 1 }
+            return index
+          })
+        }}>
 
         <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
         <DisplayImageCanvas storagePath={image} />
