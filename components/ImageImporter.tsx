@@ -13,6 +13,7 @@ interface imageFile {
     width: number
     saved?: true
 }
+const saveQuality = .7
 
 export default function ImageImporter() {
 
@@ -116,7 +117,7 @@ export default function ImageImporter() {
         const { data, error } = await supabase
             .storage
             .from('MapCollection')
-            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL("image/jpeg", .7), {
+            .upload(`${user!.id}/${fileName}`, ref.current!.toDataURL("image/jpeg", saveQuality), {
                 upsert: true,
                 contentType: "image/jpeg"
             })
