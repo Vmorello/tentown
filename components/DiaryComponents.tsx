@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { useRouter } from 'next/navigation'
 import gsap from 'gsap';
 
@@ -36,9 +36,9 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
   useEffect(() => {
     // console.log("Use Effect for diary images")
     if (diaryInfo.infoOnLocation[0] && diaryInfo.infoOnLocation[0].image_storage) {
-        // console.log("applying slide")
-      for(let i= 0; i < diaryInfo.infoOnLocation[0].image_storage.length;i++){
-        gsap.from(`#movingPhoto${i}`, { x: 1000, y: 1000, rotate: -33, duration: Math.random()+1 })
+      // console.log("applying slide")
+      for (let i = 0; i < diaryInfo.infoOnLocation[0].image_storage.length; i++) {
+        gsap.from(`#movingPhoto${i}`, { x: 1000, y: 1000, rotate: -33, duration: Math.random() + 1 })
       }
     }
   }, [diaryInfo.infoOnLocation[0]])
@@ -87,29 +87,31 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
   resetDiary: () => void
 }) {
 
-  return <>{item.image_storage ? <>
-    {item.image_storage.map( (image,index ) => {return <>
+  const [focusedIndex, setFocusedIndex] = useState(0)
 
-        <div id={`movingPhoto${index}`} className="absolute bg-white p-4 pb-16 -left-4 -top-24 shadow-lg rounded-lg rotate-3" 
-          style={{
-            top: `${-96-(10*index)}px`,
-            left: `${-16+(150*index)}px`
-          }}>
-      
+  return <>{item.image_storage ? <>
+    {item.image_storage.map((image, index) => {
+
+      return <div id={`movingPhoto${index}`} className="absolute bg-white p-4 pb-16 -left-4 -top-24 shadow-lg rounded-lg rotate-3"
+        style={{
+          top: `${-96 - (10 * index)}px`,
+          left: `${-16 + (150 * index)}px`,
+          zIndex: focusedIndex===index ? 9 : 8 - index
+        }}
+        onClick={()=> setFocusedIndex(index)}>
+
         <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
         <DisplayImageCanvas storagePath={image} />
         <div className="absolute py-4 left-0 right-0 text-center text-sm text-gray-600 font-semibold">
           {item.data[index]}
         </div>
       </div>
-      </>})} 
-    </> : <></>}
+    })}
+  </> : <></>}
 
     {/* had to seperate these 2 as the Not path would take some of the  */}
-    {!item.image_storage || item.image_storage.length ===0  ? <div className="relative max-w-56 bg-fuchsia-400 text-center py-1">
+    {!item.image_storage || item.image_storage.length === 0 ? <div className="relative max-w-56 bg-fuchsia-400 text-center py-1">
       {item.visible_name}
-
-
       {item.data[0] ? <div className=" font-semibold">{item.data[0]}</div> : <></>}
 
 

@@ -62,7 +62,7 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
   })
 
 
-  return <div key={`creatorRepOps${item.id}`} className="relative z-10 bg-fuchsia-600">
+  return <div key={`creatorRepOps${item.id}`} className="relative bg-fuchsia-600" style={{ zIndex: 10}}>
     <input value={item.visible_name}
       onChange={inputEleRepChange({ setRepInfo: setRepInfo.title, repId: item.id })}
       id={`journalRepTitle${item.id}`} />
