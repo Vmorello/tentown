@@ -20,7 +20,7 @@ export default async function RootLayout({children,}: {children: React.ReactNode
   return (
     <html lang="en">
       <body>
-        <main className="min-h-screen bg-background flex flex-col items-center">
+        <main className="min-h-screen bg-background">
           <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
             <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm text-foreground">
               <div>

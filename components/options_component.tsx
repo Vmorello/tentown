@@ -42,15 +42,14 @@ export function CardSelect({
 
 
     // console.log(`loaded is ${loaded}`)
-    return (<div className={'bg-gray-400 opacity-75 fixed bottom-2 left-1'}>
+    return (<div className={'bg-gray-400 opacity-75 '}>
         <IconSelectDropdown setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={pageRepList} />
-         {bgList.length > 1 ?  <EmojiPicker onEmojiClick={onEmojiChange} /> : <></>}
-        
+        {bgList.length > 1 ? <EmojiPicker onEmojiClick={onEmojiChange} /> : <></>}
+
         <hr className={"h-1 bg-black"} />
 
         {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} />}
-
     </div>
     )
 }
@@ -63,7 +62,7 @@ function NewSaveOptions({ newSaveButt, backgroundButt, bgList }: new_save_functi
 }
 
 function LoadedOptions({ loadedSaveButt }: { loadedSaveButt: () => void }) {
-    return <button onClick={loadedSaveButt}>  Update</button>
+    return <button  className="w-full min-h-36 text-5xl font-bold" onClick={loadedSaveButt}>  Update</button>
 }
 
 function BackgroundCard({ backgroundButt, bgList }: background_function) {

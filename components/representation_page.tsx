@@ -289,26 +289,34 @@ export function GotPage(props: repPage) {
 
   return (
     <>
-      <div>
-        {/* <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} /> */}
-        <Aligner canvasWidth={dimention.width}>
-          <canvas ref={ref} onClick={onCanvasPress}
-            width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
-          <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
-        </Aligner>
-        {props.showCreative ?
-          <CardSelect setCurrentItem={setCurrentItem}
-            currentItem={currentItem} pageRepList={iconList}
-            backgroundButt={backgroundButt} bgList={props.storageList}
-            loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
-          : <></>}
+      <Aligner canvasWidth={dimention.width + 355}>
+        <div className=" flex space-x-5">
+          {props.showCreative ?
+            <CardSelect setCurrentItem={setCurrentItem}
+              currentItem={currentItem} pageRepList={iconList}
+              backgroundButt={backgroundButt} bgList={props.storageList}
+              loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
+            : <></>}
+          {/* <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} /> */}
+
+          <div className='relative'>
+            <canvas ref={ref} onClick={onCanvasPress}
+              width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
+
+            <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
+          </div>
+
+
+
+        </div>
         <Diary diaryInfo={diary} removeRep={removeRep}
           userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
           currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
           updateButt={updateButt} showCreative={props.showCreative} />
 
         {/* <Debug info={String(dimention.width)}  /> */}
-      </div>
+
+      </Aligner>
     </>
   )
 }

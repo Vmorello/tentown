@@ -7,11 +7,11 @@ import Link from 'next/link'
 export default function Index() {
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
 
       <div className="animate-in flex flex-col gap-14 opacity-0 max-w-4xl px-3 py-16 lg:py-24 text-foreground">
 
-      <div className="flex flex-col gap-8 text-foreground">
+        <div className="flex flex-col gap-8 text-foreground">
           <h2 className="text-lg font-bold text-center">
             Let's get you Map-Making
           </h2>
@@ -43,7 +43,7 @@ export default function Index() {
           </h2>
           <MapSelect />
         </div>
-        
+
 
 
 
