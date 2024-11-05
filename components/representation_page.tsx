@@ -63,6 +63,8 @@ export function GotPage(props: repPage) {
   const [supabase] = useState(createClientComponentClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
+  const [activeTab, setActiveTab] = useState(0);
+
 
 
   useEffect(() => {
@@ -285,15 +287,27 @@ export function GotPage(props: repPage) {
     updateIcons()
   }
 
-
+  const tabs = props.showCreative ? ["See Memories", "Add a Pin",] : ["See Memories"]
   //==================================================================
 
   return (
     <div style={{ backgroundColor: bgBlueHex }}>
       <Aligner canvasWidth={dimention.width + 355}>
-        <div className="flex space-x-5 p-5 rounded-lg" style={{ backgroundColor: padBlueHex }}>
+        <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col bg-white rounded-xl">
+            <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
+              {tabs.map((tabLabel, index) => (
+                <button
+                  key={index}
+                  onClick={() => setActiveTab(index)}
+                  className={`px-4 py-2 -mb-px font-semibold text-gray-600 border-b-2
+                    ${activeTab === index ? 'border-fuchsia-500  text-fuchsia-500 ' : 'border-transparent'}`}>
+                  {tabLabel}
+                </button>
+              ))}
+            </div>
+
             {props.showCreative ?
               <CardSelect setCurrentItem={setCurrentItem}
                 currentItem={currentItem} pageRepList={iconList}
@@ -304,8 +318,8 @@ export function GotPage(props: repPage) {
           </div>
 
           <div className='relative'>
-            <canvas ref={ref} onClick={(event)=> {CanvasPressed(event.nativeEvent.offsetX,event.nativeEvent.offsetY)}}
-              width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400 rounded-lg " />
+            <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
+              width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400 rounded-xl " />
 
             <Diary diaryInfo={diary} removeRep={removeRep}
               userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}

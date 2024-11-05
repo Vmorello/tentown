@@ -91,7 +91,7 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
 
   return <>{item.image_storage ? <>
     {item.image_storage.map((image, index) => {
-
+      // the images that can slide in
       return <div id={`movingPhoto${index}`} className="absolute bg-white p-4 pb-16 -left-4 -top-24 shadow-lg rounded-lg rotate-3"
         style={{
           top: `${-96 - (10 * index)}px`,
@@ -114,17 +114,17 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
     })}
   </> : <></>}
 
-    {/* had to seperate these 2 as the Not path would take some of the  */}
-    {!item.image_storage || item.image_storage.length === 0 ? <div className="relative max-w-56 bg-fuchsia-400 text-center py-1">
-      {item.visible_name}
-      {item.data[0] ? <div className=" font-semibold">{item.data[0]}</div> : <></>}
+    <div className="relative" style={{ zIndex:21}}>
+      {/* had to seperate these 2 as the Not path would take some of the  */}
+      {!item.image_storage || item.image_storage.length === 0 ? <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
+        {item.visible_name}
+        {item.data[0] ? <div className=" font-semibold">{item.data[0]}</div> : <></>}
+      </div> : <></>}
 
-
-    </div> : <></>}
-
-    {item.link ? <div className="relative max-w-56 bg-fuchsia-400 text-center py-1">
-      <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
-    </div> : <></>}
+      {item.link ? <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
+        <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
+      </div> : <></>}
+    </div>
   </>
 
 }
