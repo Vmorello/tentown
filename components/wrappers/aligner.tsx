@@ -18,7 +18,3 @@ export default function Aligner({ children, canvasWidth }: { children: React.Rea
         {children}
     </div>
 }
-
-// .items-center {
-//     align-items: center;
-// }

@@ -11,7 +11,7 @@ import { Diary } from './DiaryComponents'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
-import { noSelectionString } from "@/classes/constants"
+import { bgBlueHex, noSelectionString, padBlueHex } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
@@ -110,13 +110,14 @@ export function GotPage(props: repPage) {
     setCurrentRepInfo(info_copy)
   }
 
-  const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
-    canvasOnclickSwitch(event.nativeEvent.offsetX, event.nativeEvent.offsetY, event.pageX, event.pageY,)
-    canvasUtil?.addClickEffect(event.nativeEvent.offsetX, event.nativeEvent.offsetY)
+  //This weird typing lets me use this function somewhere where I would use a click event as well
+  const CanvasPressed = (canvasX: number, canvasY: number) => {
+    canvasOnclickSwitch(canvasX, canvasY)
+    canvasUtil?.addClickEffect(canvasX, canvasY)
   }
 
 
-  const canvasOnclickSwitch = (xCanvas: number, yCanvas: number, xPage: number, yPage: number,) => {
+  const canvasOnclickSwitch = (xCanvas: number, yCanvas: number) => {
     resetDiary()
 
 
@@ -131,8 +132,8 @@ export function GotPage(props: repPage) {
 
     if (infoOnLocation.length > 0) {
       setDiary({
-        x: xPage,
-        y: yPage,
+        x: xCanvas,
+        y: yCanvas,
         infoOnLocation: infoOnLocation
       })
     }
@@ -141,7 +142,7 @@ export function GotPage(props: repPage) {
       setCurrentItem(noSelectionString)
     }
 
-    console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. clicked at x:${xPage} y:${yPage} in the page. The info at this location found is ${infoOnLocation}`)//offset set at x:${offsetX} y:${offsetY}.
+    console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. The info at this location found is ${infoOnLocation}`)//offset set at x:${offsetX} y:${offsetY}.
   }
 
   const removeRep = (id: string) => () => {
@@ -288,9 +289,9 @@ export function GotPage(props: repPage) {
   //==================================================================
 
   return (
-    <>
+    <div style={{ backgroundColor: bgBlueHex }}>
       <Aligner canvasWidth={dimention.width + 355}>
-        <div className="flex space-x-5 bg-blue-700 p-3 rounded-lg ">
+        <div className="flex space-x-5 p-5 rounded-lg" style={{ backgroundColor: padBlueHex }}>
 
           <div className="flex flex-col">
             {props.showCreative ?
@@ -299,12 +300,17 @@ export function GotPage(props: repPage) {
                 backgroundButt={backgroundButt} bgList={props.storageList}
                 loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
               : <></>}
-            <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} />
+            <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} />
           </div>
 
           <div className='relative'>
-            <canvas ref={ref} onClick={onCanvasPress}
+            <canvas ref={ref} onClick={(event)=> {CanvasPressed(event.nativeEvent.offsetX,event.nativeEvent.offsetY)}}
               width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400 rounded-lg " />
+
+            <Diary diaryInfo={diary} removeRep={removeRep}
+              userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
+              currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
+              updateButt={updateButt} showCreative={props.showCreative} />
 
             <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
           </div>
@@ -312,14 +318,11 @@ export function GotPage(props: repPage) {
 
 
         </div>
-        <Diary diaryInfo={diary} removeRep={removeRep}
-          userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
-          currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
-          updateButt={updateButt} showCreative={props.showCreative} />
+
 
         {/* <Debug info={String(dimention.width)}  /> */}
 
       </Aligner>
-    </>
+    </div>
   )
 }

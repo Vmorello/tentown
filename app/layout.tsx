@@ -3,6 +3,7 @@ import LogoutButton from '@/components/LogoutButton'
 import Link from 'next/link'
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
+import { bgBlueHex } from '@/classes/constants'
 
 export const metadata = {
   title: 'Memory Map 💚',
@@ -21,7 +22,7 @@ export default async function RootLayout({children,}: {children: React.ReactNode
     <html lang="en">
       <body>
         <main className="min-h-screen bg-background">
-          <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
+          <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16" style={{backgroundColor:bgBlueHex}}>
             <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm text-foreground">
               <div>
                 {user ? (
