@@ -1,5 +1,3 @@
-// import Image from 'next/image' ;
-
 import { get_image, getSize } from "./icons_utils";
 import { DrawableItem } from "./canvas_utils"
 

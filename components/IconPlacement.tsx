@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import { get_image, } from '@/classes/icons_utils';
 import { representation } from '@/components/representation_page';
 
@@ -14,7 +12,7 @@ export function IconPlacement(props: {
   const linkOptions = props.repList.map((rep: representation) => {
     console.log(rep.icon)
     if (!rep.hidden || props.showCreative) {
-      return <Image src={get_image(rep.icon)!} alt={"broke"}
+      return <img src={get_image(rep.icon)!} alt={"broke"}
         height={rep.height} width={rep.width}
         key={`Rep${rep.id}`}
         className={`absolute pointer-events-none `}

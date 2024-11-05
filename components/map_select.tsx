@@ -1,7 +1,5 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-// import { FileObject } from '@supabase/storage-js'
 import { cookies } from 'next/headers'
-import Image from 'next/image'
 
 import Link from 'next/link'
 
@@ -69,7 +67,7 @@ export default async function MapSelect({ }: map_type) {
         </Link>
         <Link
             href={`/${id}/settings/`} className='absolute right-0'>
-            <Image src={get_image("⚙")} alt='settings' height={settingIconSize} width={settingIconSize} />
+            <img src={get_image("⚙")} alt='settings' height={settingIconSize} width={settingIconSize} />
           </Link>
       </div>
     ))}

@@ -290,18 +290,21 @@ export function GotPage(props: repPage) {
   return (
     <>
       <Aligner canvasWidth={dimention.width + 355}>
-        <div className=" flex space-x-5">
-          {props.showCreative ?
-            <CardSelect setCurrentItem={setCurrentItem}
-              currentItem={currentItem} pageRepList={iconList}
-              backgroundButt={backgroundButt} bgList={props.storageList}
-              loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
-            : <></>}
-          {/* <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} /> */}
+        <div className="flex space-x-5 bg-blue-700 p-3 rounded-lg ">
+
+          <div className="flex flex-col">
+            {props.showCreative ?
+              <CardSelect setCurrentItem={setCurrentItem}
+                currentItem={currentItem} pageRepList={iconList}
+                backgroundButt={backgroundButt} bgList={props.storageList}
+                loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
+              : <></>}
+            <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} />
+          </div>
 
           <div className='relative'>
             <canvas ref={ref} onClick={onCanvasPress}
-              width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400" />
+              width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400 rounded-lg " />
 
             <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
           </div>
