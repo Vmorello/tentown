@@ -94,19 +94,21 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
       // the images that can slide in
       return <div id={`movingPhoto${index}`} className="absolute bg-white p-4 pb-16 -left-4 -top-24 shadow-lg rounded-lg rotate-3"
         style={{
-          top: `${-96 - (10 * index)}px`,
+          top: `${-136 - (10 * index)}px`,
           left: `${-16 + (150 * index)}px`,
           zIndex: focusedIndex === index ? 9 : 8 - index
         }}
         onClick={() => {
           setFocusedIndex(currentIndex => {
-            if (currentIndex === index) { return currentIndex + 1 }
+            if (currentIndex === index) {
+              return currentIndex + 1 == item.image_storage!.length ? 0 : currentIndex + 1
+            }
             return index
           })
         }}>
 
         <div className={"text-right"} ><button onClick={resetDiary}>Close - X</button></div>
-        <DisplayImageCanvas storagePath={image} />
+        <DisplayImageCanvas storagePath={image} size={"mid"} />
         <div className="absolute py-4 left-0 right-0 text-center text-sm text-gray-600 font-semibold">
           {item.data[index]}
         </div>
@@ -114,7 +116,7 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
     })}
   </> : <></>}
 
-    <div className="relative" style={{ zIndex:21}}>
+    <div className="relative" style={{ zIndex: 21 }}>
       {/* had to seperate these 2 as the Not path would take some of the  */}
       {!item.image_storage || item.image_storage.length === 0 ? <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
         {item.visible_name}

@@ -5,10 +5,16 @@ import Aligner from "../wrappers/aligner";
 
 interface DiaryImageType {
     storagePath: string
+    size?: "sm" | "mid"
 }
 
+const longSide = {
+    sm: 520,
+    mid: 690,
+};
 
-export function DisplayImageCanvas({ storagePath }: DiaryImageType) {
+
+export function DisplayImageCanvas({ storagePath, size }: DiaryImageType) {
 
     const [supabase] = useState(createClientComponentClient())
 
@@ -46,7 +52,15 @@ export function DisplayImageCanvas({ storagePath }: DiaryImageType) {
         image.addEventListener("load", () => {
             console.log(`loaded image${image}`)
             setBackground(image)
-            setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
+            if (size) {
+                if (image.naturalHeight > image.naturalWidth) {
+                    setDimention({ "height": longSide[size], "width": image.naturalWidth * longSide[size] / image.naturalHeight })
+                } else {
+                    setDimention({ "height": longSide[size] * image.naturalHeight / image.naturalWidth, "width": longSide[size] })
+                }
+            } else {
+                setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
+            }
         })
         image.src = base64image;
     }
@@ -59,7 +73,7 @@ export function DisplayImageCanvas({ storagePath }: DiaryImageType) {
 
     useEffect(() => {
         if (background === undefined) { return }
-        canvasUtil!.setBackground(background, background.naturalWidth, background.naturalHeight)
+        canvasUtil!.setBackground(background, dimention.width, dimention.height)
     }, [background])
 
 

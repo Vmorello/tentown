@@ -15,11 +15,11 @@ export function IconPlacement(props: {
       return <img src={get_image(rep.icon)!} alt={"Loading"}
         height={rep.height} width={rep.width}
         key={`Rep${rep.id}`}
-        className={`absolute pointer-events-none `}
+        className={`absolute pointer-events-none `}//transition-transform duration-300 ease-in-out hover:scale-110
         style={{
           zIndex: (props.focusedReps.includes(rep)) ? "20" : "0",
           top: `${rep.y}px`,
-          left: `${rep.x}px`
+          left: `${rep.x}px`,
         }} />
     }
   })
