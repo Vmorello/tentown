@@ -4,6 +4,8 @@ import gsap from 'gsap';
 
 
 export class ClickedEffect implements DrawableItem {
+  color: string
+
   centerX: number
   centerY: number
 
@@ -16,6 +18,8 @@ export class ClickedEffect implements DrawableItem {
   constructor(x: number, y: number) {
     this.centerX = x;
     this.centerY = y;
+
+    this.color = this.getRandomColor();
 
     this.lineStart=50 
     this.lineEnd=50 // -> 100
@@ -35,7 +39,7 @@ export class ClickedEffect implements DrawableItem {
   draw(ctx: CanvasRenderingContext2D) {
 
     ctx.lineWidth = 5;       // Set line thickness
-    ctx.strokeStyle = '#818589 ';
+    ctx.strokeStyle = this.color;
 
 
 
@@ -79,5 +83,14 @@ export class ClickedEffect implements DrawableItem {
     ctx.lineTo(this.centerX + this.lineEndDiangle, this.centerY - this.lineEndDiangle);
     ctx.stroke();
 
+  }
+
+  getRandomColor(): string {
+    const randomValue = () => Math.floor(Math.random() * 256); // Random number between 0-255
+    const red = randomValue().toString(16).padStart(2, '0');   // Convert to hex and pad if needed
+    const green = randomValue().toString(16).padStart(2, '0');
+    const blue = randomValue().toString(16).padStart(2, '0');
+    
+    return `#${red}${green}${blue}`;
   }
 }
