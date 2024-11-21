@@ -33,11 +33,7 @@ export function CardSelect({
 
     const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
         console.log(emojiData)
-        // console.log(emojiData.emoji)
         setCurrentItem(emojiData.emoji)
-
-        // console.log(emojiData.unified == currentItem)
-
     }
 
 
@@ -62,7 +58,7 @@ function NewSaveOptions({ newSaveButt, backgroundButt, bgList }: new_save_functi
 }
 
 function LoadedOptions({ loadedSaveButt }: { loadedSaveButt: () => void }) {
-    return <button  className="w-full min-h-36 text-5xl font-bold" onClick={loadedSaveButt}>  Update</button>
+    return <button  className="w-full min-h-36 text-5xl font-bold" onClick={loadedSaveButt}>Update</button>
 }
 
 function BackgroundCard({ backgroundButt, bgList }: background_function) {

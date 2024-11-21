@@ -33,6 +33,9 @@ export function getSize(input_value: string) {
 
 const iconStore: { [key: string]: any } = {
   "-none-": undefined,// tryed to put noSelectionString here 
+
+  logo:logo,
+  supabaselogo:supabaselogo,
   //icons
   alter: alter,
   camp: camp,
@@ -4242,6 +4245,8 @@ const iconStore: { [key: string]: any } = {
   "": pRGXJnkmzz,
 }
 
+import logo from "/public/logo.svg"
+import supabaselogo from "/public/common/supabaselogo.svg"
 
 import cover from "/public/common/black_cover.webp";
 import icon_frame from "/public/common/icon_frame.webp";
