@@ -2,18 +2,20 @@ import React, { useState, useEffect } from 'react';
 
 import { CanvasControl } from '@/classes/canvas_utils';
 
-export default function useCanvas(refreshRate = 100) {
-  const [ref] = useState(React.createRef<HTMLCanvasElement>())
-  const [canvasUtil, setUtil] = useState(undefined as CanvasControl | undefined)
+export default function useCanvas(upperRef?: React.RefObject<HTMLCanvasElement>, upperCanvaUtil?: CanvasControl) {
+  
+  const [ref] = useState(upperRef ? upperRef : React.createRef<HTMLCanvasElement>())
+  const [canvasUtil, setUtil] = useState(upperCanvaUtil ? upperCanvaUtil : undefined as CanvasControl | undefined)
 
   useEffect(() => {
+    if (canvasUtil!=undefined) { return }
     const CC = new CanvasControl(ref.current!)
     setUtil(CC)
 
     setTimeout(() => {
       CC.startAnimation()()
-    }, refreshRate);
-  }, [])
+    }, 100);
+  }, [ref])
 
 
 

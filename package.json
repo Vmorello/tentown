@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@supabase/auth-helpers-nextjs": "latest",
     "@supabase/supabase-js": "latest",
     "emoji-picker-react": "^4.12.0",

@@ -58,16 +58,7 @@ export default function ImageImporter() {
         }
         setImageFiles(uploadedImages)
 
-
-        // console.log(inputFile)
-
-        // console.log("changed...")
-
     }
-
-    // const onCanvasPress = (event: React.MouseEvent<HTMLCanvasElement>) => {
-    //     console.log(`clicked image at ${event.nativeEvent.offsetX}, ${event.nativeEvent.offsetY} & on page ${event.pageX}, ${event.pageY}`)
-    //   }
 
 
     const changeView = (index: number) => () => {

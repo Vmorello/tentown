@@ -319,7 +319,7 @@ export function GotPage(props: repPage) {
 
           <div className='relative'>
             <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
-              width={dimention.width} height={dimention.height} className="border-dotted border-2 border-stone-400 rounded-xl " />
+              width={dimention.width} height={dimention.height} className="rounded-xl" />
 
             <Diary diaryInfo={diary} removeRep={removeRep}
               userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}

@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
-import useCanvas from "./hook";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
-import Aligner from "../wrappers/aligner";
 
-interface DiaryImageType {
-    storagePath: string
+import useCanvas from "./hook";
+import { CanvasControl } from "@/classes/canvas_utils";
+
+interface ImageDisplayType {
+    storagePath?: string
     size?: "sm" | "mid"
+    tailwindClass?: string
+    onClickInput?: (canvasX: number, canvasY: number) => void
 }
 
 const longSide = {
@@ -14,7 +17,7 @@ const longSide = {
 };
 
 
-export function DisplayImageCanvas({ storagePath, size }: DiaryImageType) {
+export function DisplayImageCanvas({storagePath, size, tailwindClass, onClickInput }: ImageDisplayType) {
 
     const [supabase] = useState(createClientComponentClient())
 
@@ -50,7 +53,7 @@ export function DisplayImageCanvas({ storagePath, size }: DiaryImageType) {
         image.src = base64image;
 
         image.addEventListener("load", () => {
-            console.log(`loaded image${image}`)
+            // console.log(`loaded image${image}`)
             setBackground(image)
             if (size) {
                 if (image.naturalHeight > image.naturalWidth) {
@@ -65,21 +68,44 @@ export function DisplayImageCanvas({ storagePath, size }: DiaryImageType) {
         image.src = base64image;
     }
 
+    const updateBackgroundAndSize = (backgroundImage: Blob) => {
+        const imageURL = URL.createObjectURL(backgroundImage)
+        // console.log(imageURL)
+        const tempImage = new Image();
+
+        tempImage.addEventListener("load", () => {
+            console.log(`loading image${tempImage}`)
+            setBackground(tempImage)
+            setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
+            URL.revokeObjectURL(imageURL)
+        })
+        tempImage.src = imageURL
+    }
+
 
     useEffect(() => {
-        getMapFileFromStorage(storagePath)
+        if (storagePath) {
+            getMapFileFromStorage(storagePath)
+        }
     }, [storagePath]);
 
 
     useEffect(() => {
+        console.log("use effect on background")
+        console.log(background)
         if (background === undefined) { return }
         canvasUtil!.setBackground(background, dimention.width, dimention.height)
+        console.log("set background")
     }, [background])
 
 
+    const onClick = onClickInput ? (xCanvas: number, yCanvas: number) => {
+        canvasUtil?.addClickEffect(xCanvas, yCanvas)
+        onClickInput(xCanvas, yCanvas)
+    } : (xCanvas: number, yCanvas: number) => { }
 
 
-    return <canvas ref={ref} width={dimention.width} height={dimention.height} />
+    return <canvas ref={ref} width={dimention.width} height={dimention.height} className={tailwindClass} onClick={(event) => onClick(event.nativeEvent.offsetX, event.nativeEvent.offsetY)} />
 
 }
 

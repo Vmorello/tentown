@@ -59,7 +59,7 @@ export class CanvasControl implements CanvasUtilBase {
   setup(background?: HTMLImageElement, currentItem = noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
-    this.setBackground(background, background?.naturalWidth, background?.naturalHeight,);
+    this.setBackground(background, background?.naturalWidth, background?.naturalHeight);
 
     if (currentItem === noSelectionString) {
       this.removeHover();
@@ -75,6 +75,7 @@ export class CanvasControl implements CanvasUtilBase {
 
 
   setBackground(background?: HTMLImageElement, width?: number, height?: number) {
+    console.log("setting up background")
     this.clear()
     if (background === undefined) {
       this.paintBackground = this.clear
@@ -101,6 +102,9 @@ export class CanvasControl implements CanvasUtilBase {
   animate() {
     return () => {
       this.animationFrame = requestAnimationFrame(this.animate())
+      
+      // console.log(this)
+      // console.log(this.paintBackground)
       this.paintBackground!()
 
 
