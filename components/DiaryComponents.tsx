@@ -77,7 +77,7 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
   return <>{item.image_storage ? <>
     {item.image_storage.map((image, index) => {
       // the images that can slide in
-      return <PhotoOverlay item={item} index={index} focusedIndex={focusedIndex} setFocusedIndex={setFocusedIndex} resetDiary={resetDiary}/> 
+      return <PhotoOverlay item={item} zIndex={focusedIndex === index ? 9 : 8 - index} photoIndex={index} setFocusedIndex={setFocusedIndex} closeFunc={resetDiary}/> 
     })}
   </> : <></>}
 

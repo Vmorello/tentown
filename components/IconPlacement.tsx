@@ -17,7 +17,7 @@ export function IconPlacement(props: {
         key={`Rep${rep.id}`}
         className={`absolute pointer-events-none `}//transition-transform duration-300 ease-in-out hover:scale-110
         style={{
-          zIndex: (props.focusedReps.includes(rep)) ? "20" : "0",
+          zIndex: (props.focusedReps.includes(rep)) ? "30" : "0",
           top: `${rep.y}px`,
           left: `${rep.x}px`,
         }} />

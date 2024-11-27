@@ -6,8 +6,9 @@ import { CanvasControl } from "@/classes/canvas_utils";
 
 interface ImageDisplayType {
     storagePath?: string
+    previewfile?: File
     size?: "sm" | "mid"
-    tailwindClass?: string
+    className?: string
     onClickInput?: (canvasX: number, canvasY: number) => void
 }
 
@@ -17,7 +18,7 @@ const longSide = {
 };
 
 
-export function DisplayImageCanvas({storagePath, size, tailwindClass, onClickInput }: ImageDisplayType) {
+export function DisplayImageCanvas({ storagePath, previewfile, size, className, onClickInput }: ImageDisplayType) {
 
     const [supabase] = useState(createClientComponentClient())
 
@@ -55,15 +56,7 @@ export function DisplayImageCanvas({storagePath, size, tailwindClass, onClickInp
         image.addEventListener("load", () => {
             // console.log(`loaded image${image}`)
             setBackground(image)
-            if (size) {
-                if (image.naturalHeight > image.naturalWidth) {
-                    setDimention({ "height": longSide[size], "width": image.naturalWidth * longSide[size] / image.naturalHeight })
-                } else {
-                    setDimention({ "height": longSide[size] * image.naturalHeight / image.naturalWidth, "width": longSide[size] })
-                }
-            } else {
-                setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
-            }
+            setDimentionWithSize(image, size)
         })
         image.src = base64image;
     }
@@ -76,18 +69,37 @@ export function DisplayImageCanvas({storagePath, size, tailwindClass, onClickInp
         tempImage.addEventListener("load", () => {
             console.log(`loading image${tempImage}`)
             setBackground(tempImage)
-            setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
+            setDimentionWithSize(tempImage, size)
             URL.revokeObjectURL(imageURL)
         })
         tempImage.src = imageURL
     }
 
+    const setDimentionWithSize = (image: HTMLImageElement, size?: "sm" | "mid",) => {
+        if (size) {
+            if (image.naturalHeight > image.naturalWidth) {
+                setDimention({ "height": longSide[size], "width": image.naturalWidth * longSide[size] / image.naturalHeight })
+            } else {
+                setDimention({ "height": longSide[size] * image.naturalHeight / image.naturalWidth, "width": longSide[size] })
+            }
+        } else {
+            setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
+        }
+
+    }
 
     useEffect(() => {
         if (storagePath) {
             getMapFileFromStorage(storagePath)
         }
     }, [storagePath]);
+
+
+    useEffect(() => {
+        if (previewfile) {
+            updateBackgroundAndSize(previewfile)
+        }
+    }, [previewfile]);
 
 
     useEffect(() => {
@@ -102,10 +114,10 @@ export function DisplayImageCanvas({storagePath, size, tailwindClass, onClickInp
     const onClick = onClickInput ? (xCanvas: number, yCanvas: number) => {
         canvasUtil?.addClickEffect(xCanvas, yCanvas)
         onClickInput(xCanvas, yCanvas)
-    } : (xCanvas: number, yCanvas: number) => { }
+    } : (xCanvas: number, yCanvas: number) => {canvasUtil?.addClickEffect(xCanvas, yCanvas)}
 
 
-    return <canvas ref={ref} width={dimention.width} height={dimention.height} className={tailwindClass} onClick={(event) => onClick(event.nativeEvent.offsetX, event.nativeEvent.offsetY)} />
+    return <canvas ref={ref} width={dimention.width} height={dimention.height} className={className} onClick={(event) => onClick(event.nativeEvent.offsetX, event.nativeEvent.offsetY)} />
 
 }
 

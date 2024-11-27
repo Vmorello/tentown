@@ -11,10 +11,11 @@ import { Diary } from './DiaryComponents'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
-import { bgBlueHex, noSelectionString, padBlueHex } from "@/classes/constants"
+import { bgBlueHex, noSelectionString, padBlueHex, saveQuality } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
+import { PhotoOverlay } from './PhotoOverlay';
 
 interface repPage {
   icons: representation[]
@@ -65,6 +66,7 @@ export function GotPage(props: repPage) {
 
   const [activeTab, setActiveTab] = useState(0);
 
+  const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
 
 
   useEffect(() => {
@@ -122,6 +124,7 @@ export function GotPage(props: repPage) {
   const canvasOnclickSwitch = (xCanvas: number, yCanvas: number) => {
     resetDiary()
 
+    setPreview(undefined)
 
     const infoOnLocation = currentRepInfo.filter((item) => {
       if (item.hidden && !props.showCreative) return
@@ -263,10 +266,53 @@ export function GotPage(props: repPage) {
       router.push(`/${mapSave![0].id}/map`)
     }
     pushData()
-
-
-
   }
+
+
+  const savePreviewButt = (preview: { item: representation, file: File }) => () => {
+
+
+    const pushPreview = async () => {
+
+      const { data: { user } } = await supabase.auth.getUser()
+
+      const uuid = `${user!.id}/${uuidv4()}`
+
+      const { data, error } = await supabase
+        .storage
+        .from('MapCollection')
+        .upload(uuid, (document.getElementsByClassName("previewCanvas")[0] as HTMLCanvasElement).toDataURL("image/jpeg", saveQuality), {
+          upsert: true,
+          contentType: "image/jpeg",
+        })
+      console.log({ data, error })
+      if (error) {
+        console.error("Failed saving preview image")
+        return
+      }
+
+      const infoCopy = currentRepInfo.slice()
+      const listIndex = infoCopy.findIndex(indexOf => preview.item.id === indexOf.id)
+
+      infoCopy[listIndex].image_storage ?
+        infoCopy[listIndex].image_storage!.push(uuid)
+        : infoCopy[listIndex].image_storage = [uuid]
+      setCurrentRepInfo(infoCopy)
+
+
+      // console.log(user)
+      const { data: iconSave, error: iconError } = await supabase
+        .from('icons')
+        .upsert(infoCopy[listIndex])
+        .eq('id', preview.item.id)
+
+
+      setPreview(undefined)
+
+    }
+    pushPreview()
+  }
+
 
   const updateButt = () => {
     const updateIcons = async () => {
@@ -314,12 +360,16 @@ export function GotPage(props: repPage) {
                 backgroundButt={backgroundButt} bgList={props.storageList}
                 loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
               : <></>}
-            <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} />
+            <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview} />
           </div>
 
           <div className='relative'>
             <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
               width={dimention.width} height={dimention.height} className="rounded-xl" />
+
+            {preview ?
+              <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />
+              : <></>}
 
             <Diary diaryInfo={diary} removeRep={removeRep}
               userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
@@ -328,7 +378,6 @@ export function GotPage(props: repPage) {
 
             <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
           </div>
-
 
 
         </div>

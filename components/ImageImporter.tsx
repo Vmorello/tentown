@@ -5,6 +5,7 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 
 import Aligner from '@/components/wrappers/aligner'
 import useCanvas from './canvas/hook'
+import { saveQuality } from '@/classes/constants';
 
 interface imageFile {
     fileName: string
@@ -13,7 +14,7 @@ interface imageFile {
     width: number
     saved?: true
 }
-const saveQuality = .7
+
 
 export default function ImageImporter() {
 
