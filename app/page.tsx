@@ -1,3 +1,4 @@
+import { version } from '@/classes/constants'
 import MapSelect from '@/components/map_select'
 import Link from 'next/link'
 
@@ -47,10 +48,13 @@ export default function Index() {
 
 
 
-        <div className="flex justify-center text-center text-xs">
-          <p>
+        <div className="justify-center text-center text-xs">
+          <div>
             Created by VM Wulizzi.
-          </p>
+          </div>
+          <div>
+            {version}
+          </div>
         </div>
       </div>
     </div>

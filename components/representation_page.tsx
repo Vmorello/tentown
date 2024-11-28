@@ -27,6 +27,7 @@ interface repPage {
   storageList: string[]
   height: number
   width: number
+  savable: boolean
 }
 
 export type representation = {
@@ -338,6 +339,12 @@ export function GotPage(props: repPage) {
 
   return (
     <div style={{ backgroundColor: bgBlueHex }}>
+
+      {!props.savable ?
+        <div className="bg-purple-600 text-white text-center p-3 mb-2">
+          This will not be saved, it is only a demo. Please log-in/register above to save!
+        </div> : <></>}
+
       <Aligner canvasWidth={dimention.width + 355}>
         <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
@@ -357,8 +364,8 @@ export function GotPage(props: repPage) {
             {props.showCreative ?
               <CardSelect setCurrentItem={setCurrentItem}
                 currentItem={currentItem} pageRepList={iconList}
-                backgroundButt={backgroundButt} bgList={props.storageList}
-                loaded={props.loaded} newSaveButt={saveButt} loadedSaveButt={updateButt} />
+                backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
+                loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
               : <></>}
             <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview} />
           </div>

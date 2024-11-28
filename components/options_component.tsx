@@ -3,7 +3,7 @@ import React from 'react';
 import EmojiPicker, { EmojiClickData } from 'emoji-picker-react';
 
 interface card_type extends select_class, new_save_function {
-    loadedSaveButt: () => void
+    updateButt: () => void
     loaded: boolean
 }
 
@@ -16,6 +16,7 @@ interface select_class {
 
 interface new_save_function extends background_function {
     newSaveButt: () => void
+    savable:boolean
 }
 
 interface background_function {
@@ -27,8 +28,8 @@ interface background_function {
 
 export function CardSelect({
     setCurrentItem,
-    currentItem, pageRepList, bgList,
-    backgroundButt, loaded, newSaveButt, loadedSaveButt }: card_type
+    currentItem, pageRepList, bgList, savable,
+    backgroundButt, loaded, newSaveButt, updateButt }: card_type
 ) {
 
     const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
@@ -45,20 +46,20 @@ export function CardSelect({
 
         <hr className={"h-1 bg-black"} />
 
-        {loaded ? <LoadedOptions loadedSaveButt={loadedSaveButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} />}
+        {loaded ? <LoadedOptions updateButt={updateButt} /> : <NewSaveOptions newSaveButt={newSaveButt} bgList={bgList} backgroundButt={backgroundButt} savable={savable} />}
     </div>
     )
 }
 
-function NewSaveOptions({ newSaveButt, backgroundButt, bgList }: new_save_function) {
+function NewSaveOptions({ newSaveButt, backgroundButt, bgList, savable }: new_save_function) {
     return <>
         <BackgroundCard backgroundButt={backgroundButt} bgList={bgList} />
-        <button onClick={newSaveButt}> Save This Map </button>
+        {savable?  <button onClick={newSaveButt}> Save This Map </button>:<></>}
     </>
 }
 
-function LoadedOptions({ loadedSaveButt }: { loadedSaveButt: () => void }) {
-    return <button  className="w-full min-h-36 text-5xl font-bold" onClick={loadedSaveButt}>Update</button>
+function LoadedOptions({ updateButt: updateButt }: { updateButt: () => void }) {
+    return <button  className="w-full min-h-36 text-5xl font-bold" onClick={updateButt}>Update</button>
 }
 
 function BackgroundCard({ backgroundButt, bgList }: background_function) {
