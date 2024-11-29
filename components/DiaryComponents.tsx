@@ -1,6 +1,6 @@
 'use client'
 
-import React, {  useState } from "react"
+import React, { useState } from "react"
 import { useRouter } from 'next/navigation'
 
 
@@ -47,9 +47,11 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
       <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} />
 
       {/* creator: */}
-      {showCreative ? <AdminOptions item={item} userStorageImages={userStorageImages}
-        userMaps={userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
-        : <></>}
+      {/* {showCreative ? <div className="bg-fuchsia-600">
+        <AdminOptions item={item} userStorageImages={userStorageImages}
+          userMaps={userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
+      </div>
+        : <></>} */}
 
     </>)
   })
@@ -74,12 +76,13 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
 
   const [focusedIndex, setFocusedIndex] = useState(0)
 
-  return <>{item.image_storage ? <>
-    {item.image_storage.map((image, index) => {
-      // the images that can slide in
-      return <PhotoOverlay item={item} zIndex={focusedIndex === index ? 9 : 8 - index} photoIndex={index} setFocusedIndex={setFocusedIndex} closeFunc={resetDiary}/> 
-    })}
-  </> : <></>}
+  return <>
+    {item.image_storage ? <>
+      {item.image_storage.map((image, index) => {
+        // the images that can slide in
+        return <PhotoOverlay item={item} zIndex={focusedIndex === index ? 9 : 8 - index} photoIndex={index} setFocusedIndex={setFocusedIndex} closeFunc={resetDiary} />
+      })}
+    </> : <></>}
 
     <div className="relative" style={{ zIndex: 21 }}>
       {/* had to seperate these 2 as the Not path would take some of the  */}

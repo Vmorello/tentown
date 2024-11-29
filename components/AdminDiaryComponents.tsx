@@ -1,9 +1,6 @@
 import { representation } from "./representation_page"
 import { actionableType } from "./DiaryComponents"
 
-interface linkType { id: string, name: string }
-
-
 
 interface repChangeType {
   x: (infoCopy: representation[], listIndex: number, value: any,) => void,
@@ -24,7 +21,7 @@ interface repButtChangeType {
 export function AdminOptions({ item, userStorageImages, userMaps, removeRep, currentRepInfo, setCurrentRepInfo }: {
   item: representation,
   userStorageImages: string[],
-  userMaps: linkType[],
+  userMaps: { id: string, name: string }[],
   removeRep: (id: string) => () => void,
   currentRepInfo: representation[],
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
@@ -62,7 +59,7 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
   })
 
 
-  return <div key={`creatorRepOps${item.id}`} className="relative bg-fuchsia-600" style={{ zIndex: 10}}>
+  return <div key={`creatorRepOps${item.id}`} className="relative" style={{ zIndex: 10}}>
     <input value={item.visible_name}
       onChange={inputEleRepChange({ setRepInfo: setRepInfo.title, repId: item.id })}
       id={`journalRepTitle${item.id}`} />
@@ -73,9 +70,9 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
       <button onClick={buttEleRepChange({ setRepInfo: buttActions.newText, repId: item.id })}>New Box to Write In</button>
     </div>
 
-
+{/* 
     <hr className={"h-2 bg-gray-500"} />
-    <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange({ setRepInfo: buttActions.photoAdded, repId: item.id })} />
+    <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange({ setRepInfo: buttActions.photoAdded, repId: item.id })} /> */}
 
     <hr className={"h-2 bg-gray-500"} />
     <label>
@@ -153,10 +150,10 @@ export function TranferWithLink(props: { mapTranfer: () => void }) {
 }
 
 export function AddLink(props: {
-  userMaps: linkType[],
+  userMaps: { id: string, name: string }[],
   linkedAdded: () => void,
 }) {
-  const linkOptions = props.userMaps.map((json: linkType) => {
+  const linkOptions = props.userMaps.map((json: { id: string, name: string }) => {
     return <option value={json.id} key={json.id}>{json.name}</option>
   });
 
@@ -171,22 +168,22 @@ export function AddLink(props: {
   </>
 }
 
-export function AddPhoto(props: {
-  userImages: string[],
-  photoAdded: () => void,
-}) {
-  const linkOptions = props.userImages.map((storageNames: string) => {
-    return <option value={storageNames} key={storageNames}>{storageNames.split('/')[1]}</option>
-  });
+// export function AddPhoto(props: {
+//   userImages: string[],
+//   photoAdded: () => void,
+// }) {
+//   const linkOptions = props.userImages.map((storageNames: string) => {
+//     return <option value={storageNames} key={storageNames}>{storageNames.split('/')[1]}</option>
+//   });
 
-  return <>
-    <button onClick={props.photoAdded}>📷 Add Photo 📷</button>
-    <div>
-      <select id="photoSelect">
-        {linkOptions}
-      </select>
-    </div>
-  </>
-}
+//   return <>
+//     <button onClick={props.photoAdded}>📷 Add Photo 📷</button>
+//     <div>
+//       <select id="photoSelect">
+//         {linkOptions}
+//       </select>
+//     </div>
+//   </>
+// }
 
 

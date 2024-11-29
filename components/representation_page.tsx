@@ -187,13 +187,13 @@ export function GotPage(props: repPage) {
 
   const backgroundButt = (type: "Storage" | "File") => () => {
     const inputFileObject = document.getElementById(`bg${type}Select`) as HTMLInputElement;
-    
-    if(type==="Storage"){
+
+    if (type === "Storage") {
       if (inputFileObject.value === null) {
         return
       }
       getMapFileFromStorage(inputFileObject.value)
-    }else{
+    } else {
       if (inputFileObject.files === null) {
         return
       }
@@ -202,7 +202,7 @@ export function GotPage(props: repPage) {
 
     //event.target.files![0].name
 
-    
+
   }
 
   const getMapFileFromStorage = async (storageName?: string) => {
@@ -356,26 +356,30 @@ export function GotPage(props: repPage) {
       <Aligner canvasWidth={dimention.width + 355}>
         <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
-          <div className="flex flex-col bg-white rounded-xl">
-            <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
-              {tabs.map((tabLabel, index) => (
-                <button
-                  key={index}
-                  onClick={() => setActiveTab(index)}
-                  className={`px-4 py-2 -mb-px font-semibold text-gray-600 border-b-2
+          <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
+            <div className="flex flex-col bg-white rounded-xl">
+              <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
+                {tabs.map((tabLabel, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setActiveTab(index)}
+                    className={`px-4 py-2 -mb-px font-semibold text-gray-600 border-b-2
                     ${activeTab === index ? 'border-fuchsia-500  text-fuchsia-500 ' : 'border-transparent'}`}>
-                  {tabLabel}
-                </button>
-              ))}
-            </div>
+                    {tabLabel}
+                  </button>
+                ))}
+              </div>
 
-            {props.showCreative ?
-              <CardSelect setCurrentItem={setCurrentItem}
-                currentItem={currentItem} pageRepList={iconList}
-                backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
-                loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
-              : <></>}
-            <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview} />
+
+              {props.showCreative ?
+                <CardSelect setCurrentItem={setCurrentItem}
+                  currentItem={currentItem} pageRepList={iconList}
+                  backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
+                  loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
+                : <></>}
+              <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
+               setCurrentRepInfo={setCurrentRepInfo}  userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} />
+            </div>
           </div>
 
           <div className='relative'>

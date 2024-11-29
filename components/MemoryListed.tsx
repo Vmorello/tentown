@@ -1,17 +1,23 @@
 import { get_image } from "@/classes/icons_utils"
 import { representation } from "./representation_page"
 import { useState } from "react"
+import { AdminOptions } from "./AdminDiaryComponents"
 
 const settingIconSize = 40
 
-export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview }: {
-  memoryList: representation[],
-  showCreative: boolean,
-  actingCanvasClick: (x: number, y: number) => void,
+export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview,userStorageImages,userMaps,removeRep,setCurrentRepInfo }: {
+  memoryList: representation[]
+  showCreative: boolean
+  actingCanvasClick: (x: number, y: number) => void
   setPreview: React.Dispatch<React.SetStateAction<{
     item: representation;
     file: File;
   } | undefined>>
+
+  userStorageImages: string[],
+  userMaps: { id: string, name: string }[],
+  removeRep: (id: string) => () => void,
+  setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
 },
 ) {
 
@@ -40,14 +46,14 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
           <div className="text-center">{rep.visible_name}</div>
         </div>
         {showCreative && (index === openedIndex) ? <div>
-          <div> Snapshot</div>
+          <div> Snapshot:</div>
           <input type="file" accept="image/*" id={`image_input_${rep.id}`} className="w-full min-h-36 border-2 border-red-300"
             onChange={(event) => {
               // console.log(`changing preview file to ${event.target.files![0].name}for ${rep} to `)
               if (event.target.files === null) {return}
               setPreview({ item: rep, file: event.target.files[0] })
-            }}
-          />
+            }}/>
+          <AdminOptions item={rep}  userStorageImages={userStorageImages} userMaps={userMaps} removeRep={removeRep} currentRepInfo={memoryList} setCurrentRepInfo={setCurrentRepInfo} />
         </div>
           : <></>}
       </div>
