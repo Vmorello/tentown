@@ -20,7 +20,7 @@ interface new_save_function extends background_function {
 }
 
 interface background_function {
-    backgroundButt: () => void
+    backgroundButt:(type: "Storage" | "File")=> () => void
     bgList: string[]
 }
 
@@ -73,14 +73,20 @@ function BackgroundCard({ backgroundButt, bgList }: background_function) {
         return <option value={element} key={element}>{element.split('/')[1]}</option>
     });
 
-    return <label>
+    return <div>
         Changing the Background
         <div>
-            <select id="bgStorageSelect" onChange={backgroundButt}>
+            Select from shared selection:  
+            <select id="bgStorageSelect" onChange={backgroundButt("Storage")}>
                 {bgLines}
             </select>
         </div>
-    </label>
+        <div>
+            Select from file:  
+            <input  type="file" accept="image/*"  id="bgFileSelect" onChange={backgroundButt("File")}/>
+        </div>
+
+    </div>
 
 }
 

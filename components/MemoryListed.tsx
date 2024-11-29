@@ -43,8 +43,9 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
           <div> Snapshot</div>
           <input type="file" accept="image/*" id={`image_input_${rep.id}`} className="w-full min-h-36 border-2 border-red-300"
             onChange={(event) => {
-              console.log(`changing preview file to ${event.target.files![0].name}for ${rep} to `)
-              setPreview({ item: rep, file: event.target.files![0] })
+              // console.log(`changing preview file to ${event.target.files![0].name}for ${rep} to `)
+              if (event.target.files === null) {return}
+              setPreview({ item: rep, file: event.target.files[0] })
             }}
           />
         </div>

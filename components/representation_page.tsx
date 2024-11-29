@@ -185,16 +185,24 @@ export function GotPage(props: repPage) {
 
   //================ background =======================
 
-  const backgroundButt = () => {
-    const inputFileObject = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
-    if (inputFileObject.value === null) {
-      return
+  const backgroundButt = (type: "Storage" | "File") => () => {
+    const inputFileObject = document.getElementById(`bg${type}Select`) as HTMLInputElement;
+    
+    if(type==="Storage"){
+      if (inputFileObject.value === null) {
+        return
+      }
+      getMapFileFromStorage(inputFileObject.value)
+    }else{
+      if (inputFileObject.files === null) {
+        return
+      }
+      updateBackgroundAndSize(inputFileObject.files[0])
     }
 
-    const inputFile = inputFileObject.value
+    //event.target.files![0].name
 
-    getMapFileFromStorage(inputFile)
-
+    
   }
 
   const getMapFileFromStorage = async (storageName?: string) => {
@@ -340,7 +348,7 @@ export function GotPage(props: repPage) {
   return (
     <div style={{ backgroundColor: bgBlueHex }}>
 
-      {!props.savable ?
+      {!props.savable && props.showCreative ?
         <div className="bg-purple-600 text-white text-center p-3 mb-2">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
