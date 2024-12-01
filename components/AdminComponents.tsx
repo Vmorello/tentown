@@ -160,7 +160,7 @@ export function AddLink(props: {
   return <>
     <button onClick={props.linkedAdded}>♻️Add link♻️</button>
     <div>
-      {"to: "}
+      to:
       <select id="dairyLinkSelect">
         {linkOptions}
       </select>

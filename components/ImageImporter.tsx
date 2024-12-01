@@ -67,6 +67,8 @@ export default function ImageImporter() {
         canvasUtil?.setBackground(imageFiles[index].image, imageFiles[index].width,imageFiles[index].height)
     }
 
+
+
     const changeSize = (changeInRatio: number) => () => {
 
 
@@ -82,6 +84,9 @@ export default function ImageImporter() {
         canvasUtil?.setBackground(imageFiles[currentIndexShown].image, newWidth, newHeight)
     }
 
+
+
+    
     const fileNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setImageFiles(files => {
             const fileCopy = files.slice()

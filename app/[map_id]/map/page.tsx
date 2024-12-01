@@ -3,6 +3,8 @@ import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { FileObject } from '@supabase/storage-js'
 import { cookies } from 'next/headers'
 
+import { v4 as uuidv4 } from 'uuid';
+
 
 import { GotPage } from '@/components/representation_page'
 
@@ -20,7 +22,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
   const { data: currentMapData } = await supabase
     .from('maps')
-    .select("name, storage_name, owner, width, height")
+    .select("name, storage_name, owner, width, height, favorite")
     .eq("id", params.map_id)
 
 
@@ -89,14 +91,16 @@ export default async function MapPage({ params }: { params: { map_id: string } }
   if (currentMapData && icons) {
     return (
       <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames} savable={user ? true : false}
-        mapLocationToLoad={mapLocationToLoad} icons={icons} loaded={true} userMaps={mapList} width={currentMapData[0].width} height={currentMapData[0].height} />
+        mapLocationToLoad={mapLocationToLoad} icons={icons} loaded={true} userMaps={mapList} 
+        width={currentMapData[0].width} height={currentMapData[0].height} name={currentMapData[0].name} fav={currentMapData[0].favorite}/>
     )
   }
-
+  
+  const newMapName =  user ? `${user?.email?.split("@")[0]}-${uuidv4().split('-')[0]}` : "Demo Map 4 Fun"
 
   return (
     <GotPage mapId={undefined} showCreative={true} mapLocationToLoad={mapLocationToLoad} icons={[]} loaded={false} savable={user ? true : false}
-    userMaps={mapList} storageList={fullListNames} width={750} height={750} />
+    userMaps={mapList} storageList={fullListNames} width={750} height={750} name={newMapName} fav={false}/>
   )
 
 

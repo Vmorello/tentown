@@ -1,7 +1,7 @@
 import { get_image } from "@/classes/icons_utils"
 import { representation } from "./representation_page"
 import { useState } from "react"
-import { AdminOptions } from "./AdminDiaryComponents"
+import { AdminOptions } from "./AdminComponents"
 
 const settingIconSize = 40
 

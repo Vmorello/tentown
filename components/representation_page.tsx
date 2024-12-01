@@ -16,6 +16,7 @@ import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
 import { PhotoOverlay } from './PhotoOverlay';
+import MapBanner from './MapBanner';
 
 interface repPage {
   icons: representation[]
@@ -28,15 +29,17 @@ interface repPage {
   height: number
   width: number
   savable: boolean
+  name: string
+  fav: boolean
 }
 
 export type representation = {
-  icon: string,
+  icon: string
   x: number, y: number
   data: string[]
   id: string
   visible_name: string
-  radius: number,
+  radius: number
   link: string | null
   map_id: string
   hidden: boolean
@@ -45,13 +48,15 @@ export type representation = {
   image_storage?: string[]
 }
 
-const iconList = get_icon_list()!
+const iconList = get_icon_list()
 
 export function GotPage(props: repPage) {
 
   const { ref, canvasUtil } = useCanvas();
 
   const [mapId] = useState(props.mapId ? props.mapId : uuidv4())
+
+  const [mapName, setMapName] = useState(props.name);
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons);
   const [dimention, setDimention] = useState({ "height": props.height, "width": props.width })
@@ -62,6 +67,7 @@ export function GotPage(props: repPage) {
     infoOnLocation: [] as representation[],
   });
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
+  const [backgroundSource, setBackgroundSource] = useState("Storage" as "Storage" | "File")
   const [supabase] = useState(createClientComponentClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
@@ -78,7 +84,7 @@ export function GotPage(props: repPage) {
   useEffect(() => {
     if (canvasUtil === undefined) { return } // Makes this safe to do canvas-util operations
 
-    canvasUtil.setup(background!, currentItem)
+    canvasUtil.setup(background, currentItem)
 
   }, [background, currentItem])
 
@@ -199,10 +205,6 @@ export function GotPage(props: repPage) {
       }
       updateBackgroundAndSize(inputFileObject.files[0])
     }
-
-    //event.target.files![0].name
-
-
   }
 
   const getMapFileFromStorage = async (storageName?: string) => {
@@ -232,6 +234,7 @@ export function GotPage(props: repPage) {
 
     image.addEventListener("load", () => {
       console.log(`loaded image${image}`)
+      setBackgroundSource("Storage")
       setBackground(image)
       setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
     })
@@ -246,6 +249,7 @@ export function GotPage(props: repPage) {
 
     tempImage.addEventListener("load", () => {
       console.log(`loading image${tempImage}`)
+      setBackgroundSource("File")
       setBackground(tempImage)
       setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
       URL.revokeObjectURL(imageURL)
@@ -254,27 +258,62 @@ export function GotPage(props: repPage) {
   }
 
   //================ Saving =======================
-  const saveButt = () => {
+  const saveButt = async () => {
+
     const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
     console.log("Starting saving ")
-    const backgroundName = bgStorageSelect.value
 
-    const pushData = async () => {
+    let mapSaveresult
+
+    if (backgroundSource === "Storage") {
+
+      const backgroundName = bgStorageSelect.value // this is is with the user name, value has it 
 
       const { data: { user } } = await supabase.auth.getUser()
       // console.log(user)
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
         .insert({
-          id: mapId, owner: user!.id, name: backgroundName.split("/")[1],
+          id: mapId, owner: user!.id, name: mapName,
           storage_name: backgroundName, width: dimention.width, height: dimention.height
         })
         .select("id")
+        mapSaveresult=mapSave![0].id
 
-      updateButt()
-      router.push(`/${mapSave![0].id}/map`)
+
+    } else if (backgroundSource === "File") {
+      canvasUtil?.removeEffects()
+      canvasUtil?.removeHover()
+
+      const { data: { user } } = await supabase.auth.getUser()
+
+      const storagePath = `${user!.id}/${mapName}`
+
+      const { data: storageData, error: storageError } = await supabase
+        .storage
+        .from('MapCollection')
+        .upload(storagePath, ref.current!.toDataURL("image/jpeg", saveQuality), {
+          upsert: true,
+          contentType: "image/jpeg"
+        })
+      if (storageError) {
+        console.error("we couldnt save the file image")
+        return
+      }
+
+      const { data: mapSave, error: mapError } = await supabase
+        .from('maps')
+        .insert({
+          id: mapId, owner: user!.id, name: mapName,
+          storage_name: storagePath, width: dimention.width, height: dimention.height
+        })
+        .select("id")
+      
+      mapSaveresult=mapSave![0].id
     }
-    pushData()
+
+    updateButt()
+      router.push(`/${mapSaveresult}/map`)
   }
 
 
@@ -338,7 +377,7 @@ export function GotPage(props: repPage) {
       console.log("I am done updating the DB")
     }
 
-    console.log("I am about to update the DB")
+    console.log("I am about to update the DB icons")
     updateIcons()
   }
 
@@ -352,59 +391,61 @@ export function GotPage(props: repPage) {
         <div className="bg-purple-600 text-white text-center p-3 mb-2">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
+      <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
 
-      <Aligner canvasWidth={dimention.width + 355}>
-        <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
+        <Aligner canvasWidth={dimention.width + 355}>
+          <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
-          <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
-            <div className="flex flex-col bg-white rounded-xl">
-              <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
-                {tabs.map((tabLabel, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setActiveTab(index)}
-                    className={`px-4 py-2 -mb-px font-semibold text-gray-600 border-b-2
+            <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
+              <div className="flex flex-col bg-white rounded-xl">
+                <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
+                  {tabs.map((tabLabel, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setActiveTab(index)}
+                      className={`px-4 py-2 -mb-px font-semibold text-gray-600 border-b-2
                     ${activeTab === index ? 'border-fuchsia-500  text-fuchsia-500 ' : 'border-transparent'}`}>
-                    {tabLabel}
-                  </button>
-                ))}
+                      {tabLabel}
+                    </button>
+                  ))}
+                </div>
+
+
+                {props.showCreative ?
+                  <CardSelect setCurrentItem={setCurrentItem}
+                    currentItem={currentItem} pageRepList={iconList}
+                    backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
+                    loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
+                  : <></>}
+                <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
+                  setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} />
               </div>
-
-
-              {props.showCreative ?
-                <CardSelect setCurrentItem={setCurrentItem}
-                  currentItem={currentItem} pageRepList={iconList}
-                  backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
-                  loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
-                : <></>}
-              <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
-               setCurrentRepInfo={setCurrentRepInfo}  userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} />
             </div>
+
+            <div className='relative'>
+              <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
+                width={dimention.width} height={dimention.height} className="rounded-xl" />
+
+              {preview ?
+                <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />
+                : <></>}
+
+              <Diary diaryInfo={diary} removeRep={removeRep}
+                userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
+                currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
+                updateButt={updateButt} showCreative={props.showCreative} />
+
+              <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
+            </div>
+
+
           </div>
 
-          <div className='relative'>
-            <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
-              width={dimention.width} height={dimention.height} className="rounded-xl" />
 
-            {preview ?
-              <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />
-              : <></>}
+          {/* <Debug info={String(dimention.width)}  /> */}
 
-            <Diary diaryInfo={diary} removeRep={removeRep}
-              userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
-              currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
-              updateButt={updateButt} showCreative={props.showCreative} />
-
-            <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
-          </div>
-
-
-        </div>
-
-
-        {/* <Debug info={String(dimention.width)}  /> */}
-
-      </Aligner>
+        </Aligner>
+      </MapBanner>
     </div>
   )
 }
