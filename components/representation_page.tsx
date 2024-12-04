@@ -398,7 +398,7 @@ export function GotPage(props: repPage) {
 
             <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
               <div className="flex flex-col bg-white rounded-xl">
-                <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
+                {/* <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
                   {tabs.map((tabLabel, index) => (
                     <button
                       key={index}
@@ -408,7 +408,7 @@ export function GotPage(props: repPage) {
                       {tabLabel}
                     </button>
                   ))}
-                </div>
+                </div> */}
 
 
                 {props.showCreative ?
