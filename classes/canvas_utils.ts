@@ -17,6 +17,9 @@ export interface DrawableItem {
 }
 
 
+
+
+
 export class CanvasControl implements CanvasUtilBase {
   canvas: HTMLCanvasElement
   ctx: CanvasRenderingContext2D
@@ -56,10 +59,10 @@ export class CanvasControl implements CanvasUtilBase {
     })
   }
 
-  setup(background?: HTMLImageElement, currentItem = noSelectionString) {
+  setup(background: HTMLImageElement, height:number,width:number,  currentItem = noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
-    this.setBackground(background, background?.naturalWidth, background?.naturalHeight)
+    this.setBackground(background, width, height)
 
     if (currentItem === noSelectionString) {
       this.removeHover()
@@ -102,7 +105,7 @@ export class CanvasControl implements CanvasUtilBase {
   animate() {
     return () => {
       this.animationFrame = requestAnimationFrame(this.animate())
-      
+
       // console.log(this)
       // console.log(this.paintBackground)
       this.paintBackground!()
@@ -151,4 +154,18 @@ export class CanvasControl implements CanvasUtilBase {
   removeEffects() {
     this.effects = []
   }
+
+}
+
+export const setDimentionWithSize = (image: HTMLImageElement, setDimention:React.Dispatch<React.SetStateAction<any>>, size?:number,) => {
+  if (size) {
+      if (image.naturalHeight > image.naturalWidth) {
+          setDimention({ "height": size, "width": image.naturalWidth * size / image.naturalHeight })
+      } else {
+          setDimention({ "height": size * image.naturalHeight / image.naturalWidth, "width": size })
+      }
+  } else {
+      setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
+  }
+
 }

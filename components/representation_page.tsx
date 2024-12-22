@@ -11,12 +11,13 @@ import { Diary } from './DiaryComponents'
 import { CardSelect } from './options_component'
 import { Debug } from './debug_'
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
-import { bgBlueHex, noSelectionString, padBlueHex, saveQuality } from "@/classes/constants"
+import { bgBlueHex, noSelectionString, padBlueHex, saveQuality, maxWidth } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
 import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
+import { setDimentionWithSize } from '@/classes/canvas_utils'
 
 interface repPage {
   icons: representation[]
@@ -84,9 +85,9 @@ export function GotPage(props: repPage) {
   useEffect(() => {
     if (canvasUtil === undefined) { return } // Makes this safe to do canvas-util operations
 
-    canvasUtil.setup(background, currentItem)
+    canvasUtil.setup(background!, dimention.height, dimention.width, currentItem)
 
-  }, [background, currentItem])
+  }, [background, currentItem, dimention])
 
 
   const router = useRouter()
@@ -229,14 +230,15 @@ export function GotPage(props: repPage) {
 
   const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
 
-    var image = new Image();
-    image.src = base64image;
+    const image = new Image();
 
     image.addEventListener("load", () => {
       console.log(`loaded image${image}`)
       setBackgroundSource("Storage")
       setBackground(image)
+
       setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
+
     })
     image.src = base64image;
 
@@ -244,14 +246,18 @@ export function GotPage(props: repPage) {
 
   const updateBackgroundAndSize = (backgroundImage: Blob) => {
     const imageURL = URL.createObjectURL(backgroundImage)
-    console.log(imageURL)
+    // console.log(imageURL)
     const tempImage = new Image();
 
     tempImage.addEventListener("load", () => {
       console.log(`loading image${tempImage}`)
       setBackgroundSource("File")
       setBackground(tempImage)
-      setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
+      if (tempImage.naturalWidth > maxWidth) {
+        setDimentionWithSize(tempImage, setDimention, maxWidth)
+      } else {
+        setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
+      }
       URL.revokeObjectURL(imageURL)
     })
     tempImage.src = imageURL
@@ -278,7 +284,7 @@ export function GotPage(props: repPage) {
           storage_name: backgroundName, width: dimention.width, height: dimention.height
         })
         .select("id")
-        mapSaveresult=mapSave![0].id
+      mapSaveresult = mapSave![0].id
 
 
     } else if (backgroundSource === "File") {
@@ -308,12 +314,12 @@ export function GotPage(props: repPage) {
           storage_name: storagePath, width: dimention.width, height: dimention.height
         })
         .select("id")
-      
-      mapSaveresult=mapSave![0].id
+
+      mapSaveresult = mapSave![0].id
     }
 
     updateButt()
-      router.push(`/${mapSaveresult}/map`)
+    router.push(`/${mapSaveresult}/map`)
   }
 
 
