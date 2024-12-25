@@ -78,6 +78,7 @@ export function GotPage(props: repPage) {
 
 
   useEffect(() => {
+    console.log("trying to get map file from storage")
     getMapFileFromStorage(props.mapLocationToLoad)
   }, []);
 
@@ -317,8 +318,8 @@ export function GotPage(props: repPage) {
           storage_name: storagePath, width: dimention.width, height: dimention.height
         })
         .select("id")
-      
-        if (mapError) { console.log(mapError) }
+
+      if (mapError) { console.log(mapError) }
 
       mapSaveresult = mapSave![0].id
     }
@@ -408,25 +409,20 @@ export function GotPage(props: repPage) {
           <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
             <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
-              <div className="flex flex-col bg-white rounded-xl">
-                {/* <div className="flex space-x-2 border-b-2 border-gray-200 w-full">
-                  {tabs.map((tabLabel, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setActiveTab(index)}
-                      className={`px-4 py-2 -mb-px font-semibold text-gray-600 border-b-2
-                    ${activeTab === index ? 'border-fuchsia-500  text-fuchsia-500 ' : 'border-transparent'}`}>
-                      {tabLabel}
-                    </button>
-                  ))}
-                </div> */}
+              <div className="flex flex-col bg-indigo-400 rounded-xl">
 
 
-                {props.showCreative ?
+                {props.showCreative ? <>
+                  {/* <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-400 text-white 
+                        px-6 py-3 my-3 mx-5 rounded-lg  shadow-2xl hover:scale-105 transform transition-all duration-200 font-bold">
+                    + Add a Memory Pin
+                  </button> */}
+
                   <CardSelect setCurrentItem={setCurrentItem}
                     currentItem={currentItem} pageRepList={iconList}
                     backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
                     loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
+                </>
                   : <></>}
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
                   setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} />
