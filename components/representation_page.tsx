@@ -72,7 +72,7 @@ export function GotPage(props: repPage) {
   const [supabase] = useState(createClientComponentClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
-  const [activeTab, setActiveTab] = useState(0);
+  // const [activeTab, setActiveTab] = useState(0);
 
   const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
 
@@ -284,6 +284,9 @@ export function GotPage(props: repPage) {
           storage_name: backgroundName, width: dimention.width, height: dimention.height
         })
         .select("id")
+
+      if (mapError) { console.log(mapError) }
+
       mapSaveresult = mapSave![0].id
 
 
@@ -314,6 +317,8 @@ export function GotPage(props: repPage) {
           storage_name: storagePath, width: dimention.width, height: dimention.height
         })
         .select("id")
+      
+        if (mapError) { console.log(mapError) }
 
       mapSaveresult = mapSave![0].id
     }

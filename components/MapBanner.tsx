@@ -18,14 +18,23 @@ interface mapSetting_type {
 }
 
 
-export default function MapBanner({ id, name, children, fav, setMapName }: mapSetting_type) {
+export default function MapBanner({ id, name, children, fav, setMapName:setMapNameParent }: mapSetting_type) {
 
     const router = useRouter()
 
+    const [favorite, setFavorite] = useState(fav)
+    const [mapName, setMapName] = useState(name)
+
+
     const [supabase] = useState(createClientComponentClient())
 
-    const deleteMap = async () => {
+    useEffect(() =>{
+        console.log("test")
+        updateMap()
+        setMapNameParent(mapName)
+    }, [favorite, mapName])
 
+    const deleteMap = async () => {
         const { data, error } = await supabase
             .from('maps')
             .delete()
@@ -33,6 +42,14 @@ export default function MapBanner({ id, name, children, fav, setMapName }: mapSe
 
         router.push('/')
     }
+
+    const updateMap = async () =>  {
+        const { data, error } = await supabase
+            .from('maps')
+            .update({ name:mapName, favorite:favorite})
+            .eq("id", id)
+    }
+
 
     return (
         <>
@@ -42,8 +59,8 @@ export default function MapBanner({ id, name, children, fav, setMapName }: mapSe
                 {/*   */}
 
 
-                <input className='px-4' type="checkbox" checked={fav} />
-                {/*  onChange={(e) => setFav(e.target.checked)}  */}
+                <input className='px-4' type="checkbox" checked={favorite} onChange={(e) => setFavorite(e.target.checked)} />
+                 
             </div>
 
             {children}
