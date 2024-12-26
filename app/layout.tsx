@@ -23,8 +23,8 @@ export default async function RootLayout({ children, }: { children: React.ReactN
   return (
     <html lang="en">
       <body>
-        <main className="min-h-screen bg-background">
-          <nav className="w-full flex justify-center" style={{ backgroundColor: bgBlueHex }}>
+        <main className="min-h-screen bg-background " style={{ backgroundColor: bgBlueHex }}> 
+          <nav className="w-full flex justify-center" >
             <div className="relative w-full max-w-4xl flex justify-between p-3 text-sm text-foreground">
               <Link href="/">
                 <img src={logo.src} height={100} className='min-h-28' />
@@ -45,8 +45,8 @@ export default async function RootLayout({ children, }: { children: React.ReactN
             </div>
           </nav>
 
-
           {children}
+          
         </main>
       </body>
     </html>
