@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 import { GotPage } from '@/components/representation_page'
-import { maxWidth } from '@/classes/constants';
+import { startingWidth, startingHeight } from '@/classes/constants';
 
 interface map_db {
   id: any
@@ -101,7 +101,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
   return (
     <GotPage mapId={undefined} showCreative={true} mapLocationToLoad={mapLocationToLoad} icons={[]} loaded={false} savable={user ? true : false}
-    userMaps={mapList} storageList={fullListNames} width={maxWidth} height={750} name={newMapName} fav={false}/>
+    userMaps={mapList} storageList={fullListNames} width={startingWidth} height={startingHeight} name={newMapName} fav={false}/>
   )
 
 
