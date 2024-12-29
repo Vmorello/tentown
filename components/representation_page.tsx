@@ -453,7 +453,7 @@ export function GotPage(props: repPage) {
 
 
 
-              {pinStep == "place" && <div className='absolute top-4 left-5 opacity-65 text-6xl pointer-events-none'> Place the icon down here!</div>}
+              {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
               {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
