@@ -7,6 +7,8 @@ import Link from 'next/link'
 
 export default function Index() {
 
+  
+
   return (
     <div className="flex flex-col items-center">
 
@@ -21,7 +23,7 @@ export default function Index() {
             <Link href="/new/map"
               className="relative flex flex-col group rounded-lg border p-6 hover:border-foreground gap-2">
               <h3 className="font-bold font- mb-2  min-h-[40px] lg:min-h-[60px]">
-                Make New Map 🧝🧌
+                Make New Map
               </h3>
             </Link>
 

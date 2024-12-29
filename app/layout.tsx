@@ -25,22 +25,24 @@ export default async function RootLayout({ children, }: { children: React.ReactN
       <body>
         <main className="min-h-screen bg-background " style={{ backgroundColor: bgBlueHex }}> 
           <nav className="w-full flex justify-center" >
-            <div className="relative w-full max-w-4xl flex justify-between p-3 text-sm text-foreground">
+            <div className="relative w-full  flex justify-between p-3 text-sm text-foreground">
               <Link href="/">
                 <img src={logo.src} height={100} className='min-h-28' />
               </Link>
               {user ? (
-                <div className="absolute right-0 flex items-center gap-4">
+                <div className="justify-end mx-8 flex items-center gap-4">
                   Hey, {user.email}!
                   <LogoutButton />
                 </div>
               ) : (
+                <div className="py-2 px-4 justify-end mx-8 flex items-center gap-4">
                 <Link
                   href="/login"
-                  className="py-2 px-4 max-h-9 rounded-md  bg-btn-background hover:bg-btn-background-hover"
+                  className="font-bold py-8 px-32 justify-end flex items-center gap-4 max-h-9 rounded-md bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white "
                 >
                   Login
                 </Link>
+                </div>
               )}
             </div>
           </nav>

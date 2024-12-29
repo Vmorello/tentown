@@ -8,16 +8,17 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
-import { CardSelect } from './options_component'
+import { CardSelect } from './IconSelect'
 import { Debug } from './debug_'
 import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
-import { bgBlueHex, noSelectionString, padBlueHex, saveQuality, maxWidth } from "@/classes/constants"
+import { bgBlueHex, noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
 import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
+import { BackgroundCard, CenteredBackground, LoadedOptions } from './BackgroundSelect';
 
 interface repPage {
   icons: representation[]
@@ -72,6 +73,8 @@ export function GotPage(props: repPage) {
   const [supabase] = useState(createClientComponentClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
+  const [pinStep, setPinStep] = useState("button" as "button" | "place" | "describe")
+
   // const [activeTab, setActiveTab] = useState(0);
 
   const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
@@ -123,12 +126,13 @@ export function GotPage(props: repPage) {
     setCurrentRepInfo(info_copy)
   }
 
+
+
   //This weird typing lets me use this function somewhere where I would use a click event as well
   const CanvasPressed = (canvasX: number, canvasY: number) => {
     canvasOnclickSwitch(canvasX, canvasY)
     canvasUtil?.addClickEffect(canvasX, canvasY)
   }
-
 
   const canvasOnclickSwitch = (xCanvas: number, yCanvas: number) => {
     resetDiary()
@@ -196,12 +200,14 @@ export function GotPage(props: repPage) {
   const backgroundButt = (type: "Storage" | "File") => () => {
     const inputFileObject = document.getElementById(`bg${type}Select`) as HTMLInputElement;
 
+    console.log("setting the background")
     if (type === "Storage") {
       if (inputFileObject.value === null) {
         return
       }
       getMapFileFromStorage(inputFileObject.value)
     } else {
+      console.log("setting the background with a file")
       if (inputFileObject.files === null) {
         return
       }
@@ -397,7 +403,7 @@ export function GotPage(props: repPage) {
   //==================================================================
 
   return (
-    <div style={{ backgroundColor: bgBlueHex }}>
+    <div>
 
       {!props.savable && props.showCreative ?
         <div className="bg-purple-600 text-white text-center p-3 mb-2">
@@ -405,42 +411,55 @@ export function GotPage(props: repPage) {
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
 
-        <Aligner canvasWidth={dimention.width + 355}>
+        <Aligner canvasWidth={dimention.width + sideWidth}>
+          <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold text-white" style={{ backgroundColor: padBlueHex }}>
+            {props.savable ? <div className='bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white px-6 py-3 my-3 mx-5 rounded-lg'>{props.loaded? <LoadedOptions updateButt={updateButt} />:<button 
+              onClick={saveButt}> Save This Map / Lock Background</button>}
+             </div>: <></>}
+          </div>
           <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
             <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
-              <div className="flex flex-col bg-indigo-400 rounded-xl">
+              <div className="flex flex-col bg-indigo-400 rounded-xl" style={{ width: sideWidth, minHeight: startingHeight }}>
 
 
-                {props.showCreative ? <>
-                  {/* <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-400 text-white 
-                        px-6 py-3 my-3 mx-5 rounded-lg  shadow-2xl hover:scale-105 transform transition-all duration-200 font-bold">
-                    + Add a Memory Pin
-                  </button> */}
+                {props.showCreative ?
+                  <>
+                    {pinStep == "button" ? <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white 
+                        px-6 py-3 my-3 mx-5 rounded-lg  shadow-xl hover:scale-105 transform transition-all duration-200 font-bold"
+                      onClick={() => setPinStep("place")}>
+                      + Add a Memory Pin
+                    </button> : <></>}
 
-                  <CardSelect setCurrentItem={setCurrentItem}
-                    currentItem={currentItem} pageRepList={iconList}
-                    backgroundButt={backgroundButt} bgList={props.storageList} savable={props.savable}
-                    loaded={props.loaded} newSaveButt={saveButt} updateButt={updateButt} />
-                </>
+                    {pinStep == "place" ?
+                      <CardSelect setCurrentItem={setCurrentItem}
+                        currentItem={currentItem} pageRepList={iconList} />
+                      : <></>}
+
+                    {/* IMPORTANT TO REPLACE  {props.loaded ? <LoadedOptions updateButt={updateButt} /> : <NewSaveOptions newSaveButt={saveButt} bgList={props.storageList} backgroundButt={backgroundButt} savable={props.savable} />} */}
+                  </>
                   : <></>}
+
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
                   setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} />
+
+                {(!props.loaded && background!= undefined) ? <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt}  />
+                : <></>}  
               </div>
             </div>
 
-            <div className='relative'>
+            <div className='relative bg-indigo-400 rounded-xl'>
               <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
+
+              {(!props.loaded && background== undefined) ? <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />
+                : <></>}
 
               {preview ?
                 <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />
                 : <></>}
 
-              <Diary diaryInfo={diary} removeRep={removeRep}
-                userMaps={props.userMaps} userStorageImages={props.storageList} resetDiary={resetDiary}
-                currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo}
-                updateButt={updateButt} showCreative={props.showCreative} />
+              <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} />
 
               <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
             </div>

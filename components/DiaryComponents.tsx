@@ -11,13 +11,8 @@ import { PhotoOverlay } from "./PhotoOverlay";
 interface dairyType {
   diaryInfo: { x: number, y: number, infoOnLocation: representation[] },
   updateButt: () => void,
-  currentRepInfo: representation[],
-  setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>,
-  removeRep: (id: string) => () => void
-  userMaps: { id: any; name: any; }[]
-  userStorageImages: string[]
+
   resetDiary: () => void
-  showCreative: boolean
 }
 
 export interface actionableType {
@@ -26,8 +21,7 @@ export interface actionableType {
 }
 
 
-export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorageImages,
-  removeRep, userMaps, updateButt, resetDiary, showCreative, }: dairyType) {
+export function Diary({ diaryInfo,updateButt, resetDiary,}: dairyType) {
 
   const router = useRouter()
 
@@ -45,14 +39,6 @@ export function Diary({ diaryInfo, currentRepInfo, setCurrentRepInfo, userStorag
 
     return (<>
       <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} />
-
-      {/* creator: */}
-      {/* {showCreative ? <div className="bg-fuchsia-600">
-        <AdminOptions item={item} userStorageImages={userStorageImages}
-          userMaps={userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
-      </div>
-        : <></>} */}
-
     </>)
   })
 
