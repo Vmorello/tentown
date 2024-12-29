@@ -430,12 +430,12 @@ export function GotPage(props: repPage) {
                   <>
                     {pinStep == "button" && <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white 
                         px-6 py-3 my-3 mx-5 rounded-lg  shadow-xl hover:scale-105 transform transition-all duration-200 font-bold"
-                      onClick={() => setPinStep("place")}>
+                      onClick={() => setPinStep("selection")}>
                       + Add a Memory Pin
                     </button>}
 
-                    {pinStep == "place" || pinStep == "selection" &&
-                      <CardSelect setCurrentItem={setCurrentItem}
+                    {(pinStep == "place" || pinStep == "selection") &&
+                      <CardSelect setCurrentItem={setCurrentItem} setPinStep={setPinStep}
                         currentItem={currentItem} pageRepList={iconList} />}
 
                   </>}
@@ -453,7 +453,7 @@ export function GotPage(props: repPage) {
 
 
 
-              {pinStep == "place" && <div className='absolute opacity-65 '></div>}
+              {pinStep == "place" && <div className='absolute top-4 left-5 opacity-65 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
               {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
