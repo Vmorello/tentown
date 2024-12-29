@@ -4,8 +4,6 @@
 import React, { useState, useEffect, Children } from 'react';
 import { useRouter } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
-import { DisplayImageCanvas } from './canvas/DisplayImage';
-import Aligner from './wrappers/aligner';
 
 
 
@@ -53,13 +51,14 @@ export default function MapBanner({ id, name, children, fav, setMapName:setMapNa
 
     return (
         <>
-            <div className=" text-white text-center text-4xl p-3 mb-2">
+            <div className=" text-white text-center p-3 mb-2">
 
-                <input className='bg-transparent px-4' type="text" value={name} onChange={(e) => setMapName(e.target.value)} />
-                {/*   */}
+                <label htmlFor={`titleInput`} className="text-lg p-2"> Title: </label>
+                <input id="titleInput" className='bg-transparent  text-4xl  px-4' type="text" value={name} onChange={(e) => setMapName(e.target.value)} />
 
 
-                <input className='px-4' type="checkbox" checked={favorite} onChange={(e) => setFavorite(e.target.checked)} />
+                <label htmlFor={`favoriteCheck`} className="text-lg p-2"> Favorite: </label>
+                <input id="favoriteCheck" className='px-4' type="checkbox" checked={favorite} onChange={(e) => setFavorite(e.target.checked)} />
                  
             </div>
 
