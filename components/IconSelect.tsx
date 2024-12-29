@@ -21,12 +21,10 @@ export function CardSelect({
 
 
     // console.log(`loaded is ${loaded}`)
-    return (<div className={'bg-gray-400 opacity-75 '}>
+    return (<div>
         <IconSelectDropdown setCurrentItem={setCurrentItem}
             currentItem={currentItem} pageRepList={pageRepList} />
         <EmojiPicker onEmojiClick={onEmojiChange} />
-
-        <hr className={"h-1 bg-black"} />
 
     </div>
     )

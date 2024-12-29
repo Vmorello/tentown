@@ -41,14 +41,14 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
           actingCanvasClick(rep.x + rep.width / 2, rep.y + rep.height / 2)
         }}>
           <div className="w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
-          <div className="bg-gray-100 rounded-full p-2 flex items-center justify-center">
+          <div className="bg-gray-100  border-gray-400 shadow-md  rounded-full p-2 flex items-center justify-center">
             <img src={get_image(rep.icon)} alt='settings' height={settingIconSize} width={settingIconSize} className="rounded-full" />
           </div>
           <div className="text-center">{rep.visible_name}</div>
         </div>
         {showCreative && (index === openedIndex) ? <div>
           <div> Add new Photo:</div>
-          <div className="relative w-full max-w-md h-52 border-2 border-dotted border-gray-300 rounded-lg bg-gray-100 flex justify-center items-center cursor-pointer">
+          <div className="relative w-full max-w-md h-52 border-2 border-dotted border-gray-400 rounded-lg  bg-gray-100  flex justify-center items-center cursor-pointer">
             <input type="file" id={`image_input_${rep.id}`} className="absolute inset-0 w-full h-full opacity-0 cursor-pointer" 
             onChange={(event) => {
               if (event.target.files === null) { return }
@@ -66,7 +66,7 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
   })
 
   return (
-    <div className={" bg-slate-400 "}>
+    <div>
       {linkOptions}
     </div>
   )
