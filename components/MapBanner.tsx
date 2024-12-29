@@ -53,7 +53,7 @@ export default function MapBanner({ id, name, children, fav, setMapName:setMapNa
 
     return (
         <>
-            <div className="bg-purple-600 text-white text-center text-4xl p-3 mb-2">
+            <div className=" text-white text-center text-4xl p-3 mb-2">
 
                 <input className='bg-transparent px-4' type="text" value={name} onChange={(e) => setMapName(e.target.value)} />
                 {/*   */}
