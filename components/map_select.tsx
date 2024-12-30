@@ -28,6 +28,8 @@ export default async function MapSelect({ }: map_type) {
   const supabase = createServerComponentClient({ cookies })
 
   const { data: { user } } = await supabase.auth.getUser()
+ 
+  let header = "Here are some examples ☀"
 
   let userMaplist = examples as map_db[]
   if (user) {
@@ -39,6 +41,8 @@ export default async function MapSelect({ }: map_type) {
       .order("name", { ascending: true })
 
     userMaplist = (mapList && mapList.length > 0) ? mapList : examples
+
+    header ="Here are your Memory Maps 💖"
   }
 
   const favOnPress = (id: string, current: boolean) => async () => {
@@ -46,29 +50,25 @@ export default async function MapSelect({ }: map_type) {
       .from('maps')
       .update({ favorite: !current })
       .eq("id", id)
-
   }
 
   const settingIconSize = 50
 
-  return (<div>
-
+  return (<div className='text-center'>
+    <h2 className="text-lg font-bold m-4">
+      {header}
+    </h2>
     {userMaplist.map(({ id, name, favorite }) => (
-      <div className="w-full grid grid-cols-2 border-b last:border-b-0 text-sm">
+      <div className="w-full border-b last:border-b-0 text-sm">
         <Link
           href={`/${id}/map/`}
           key={name}
-          className='border-dotted border-x-2'
         >
-          <div className="w-full font-bold p-4 min-h-12" >
+          <div className="w-full font-bold p-6 min-h-12" >
             {name}
           </div>
 
         </Link>
-        <Link
-            href={`/${id}/settings/`} className='absolute right-0'>
-            <img src={get_image("⚙")} alt='settings' height={settingIconSize} width={settingIconSize} />
-          </Link>
       </div>
     ))}
 

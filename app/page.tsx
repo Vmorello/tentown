@@ -15,15 +15,15 @@ export default function Index() {
       <div className="animate-in flex flex-col gap-14 opacity-0 max-w-4xl px-3 py-16 lg:py-24">
 
         <div className="flex flex-col gap-8">
-          <h2 className="text-lg font-bold text-center">
-            Let's get you Map-Making
+          <h2 className="text-4xl font-bold text-center">
+            Create Something Amazing.
           </h2>
 
 
             <Link href="/new/map"
-              className="relative flex flex-col group rounded-lg border p-6 hover:border-foreground gap-2">
-              <h3 className="font-bold font- mb-2  min-h-[40px] lg:min-h-[60px]">
-                Make New Map
+              className="relative flex flex-col bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 rounded-lg p-6 hover:border-foreground gap-2">
+              <h3 className="font-bold text-3xl text-center mt-2  min-h-[40px] lg:min-h-[60px]">
+                Make New Memory Map
               </h3>
             </Link>
 
@@ -32,9 +32,6 @@ export default function Index() {
         </div>
 
         <div>
-          <h2 className="text-lg font-bold text-center">
-            Here are your Memory Maps 💖
-          </h2>
           <MapSelect />
         </div>
 
