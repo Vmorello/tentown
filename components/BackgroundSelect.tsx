@@ -31,7 +31,7 @@ export function BackgroundCard({ backgroundButt, bgList }: background_function) 
     //     return <option value={element} key={element}>{element.split('/')[1]}</option>
     // });
 
-    return <div className="text-center text-white  p-2 m-3" >
+    return <div className="text-center p-2 m-3" >
         <div className="text-2xl">Add a Map </div>
 
         <div className="relative bg-indigo-500  w-full min-w-md h-32 border-2 border-dotted border-gray-300 rounded-lg flex justify-center items-center cursor-pointer">

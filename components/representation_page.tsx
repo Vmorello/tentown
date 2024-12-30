@@ -406,15 +406,15 @@ export function GotPage(props: repPage) {
     <div>
 
       {!props.savable && props.showCreative ?
-        <div className="bg-purple-600 text-white text-center p-3 mb-2">
+        <div className="bg-purple-600text-center p-3 mb-2">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
 
         <Aligner canvasWidth={dimention.width + sideWidth}>
           {props.savable &&
-            <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold text-white" style={{ backgroundColor: padBlueHex }}>
-              <div className='bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white px-6 py-3 my-3 mx-5 rounded-lg'>
+            <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold"  style={{ backgroundColor: padBlueHex }}>
+              <div className='bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 px-6 py-3 my-3 mx-5 rounded-lg'>
                 {props.loaded ? <LoadedOptions updateButt={updateButt} />
                   : <button onClick={saveButt}> Save This Map / Lock Background</button>}
               </div>
@@ -428,7 +428,7 @@ export function GotPage(props: repPage) {
 
                 {props.showCreative &&
                   <>
-                    {pinStep == "button" && <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white 
+                    {pinStep == "button" && <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500
                         px-6 py-3 my-3 mx-5 rounded-lg  shadow-xl hover:scale-105 transform transition-all duration-200 font-bold"
                       onClick={() => setPinStep("selection")}>
                       + Add a Memory Pin

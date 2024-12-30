@@ -23,7 +23,7 @@ export default async function RootLayout({ children, }: { children: React.ReactN
   return (
     <html lang="en">
       <body>
-        <main className="min-h-screen bg-background " style={{ backgroundColor: bgBlueHex }}> 
+        <main className="min-h-screen bg-background text-white" style={{ backgroundColor: bgBlueHex }}> 
           <nav className="w-full flex justify-center" >
             <div className="relative w-full  flex justify-between p-3 text-sm text-foreground">
               <Link href="/">
@@ -38,7 +38,7 @@ export default async function RootLayout({ children, }: { children: React.ReactN
                 <div className="py-2 px-4 justify-end mx-8 flex items-center gap-4">
                 <Link
                   href="/login"
-                  className="font-bold py-8 px-32 justify-end flex items-center gap-4 max-h-9 rounded-md bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 text-white "
+                  className="font-bold py-8 px-32 justify-end flex items-center gap-4 max-h-9 rounded-md bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 "
                 >
                   Login
                 </Link>
