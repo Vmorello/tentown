@@ -18,7 +18,7 @@ export function CardSelect({
     
     const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
         console.log(emojiData)
-        setCurrentItem(emojiData.emoji)
+        setCurrentItem(emojiData.unified.toUpperCase())
         setPinStep(nextPinStep)
     }
 
