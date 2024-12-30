@@ -12,9 +12,9 @@ export default function Index() {
   return (
     <div className="flex flex-col items-center">
 
-      <div className="animate-in flex flex-col gap-14 opacity-0 max-w-4xl px-3 py-16 lg:py-24 text-foreground">
+      <div className="animate-in flex flex-col gap-14 opacity-0 max-w-4xl px-3 py-16 lg:py-24">
 
-        <div className="flex flex-col gap-8 text-foreground">
+        <div className="flex flex-col gap-8">
           <h2 className="text-lg font-bold text-center">
             Let's get you Map-Making
           </h2>

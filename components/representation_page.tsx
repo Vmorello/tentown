@@ -406,7 +406,7 @@ export function GotPage(props: repPage) {
     <div>
 
       {!props.savable && props.showCreative ?
-        <div className="bg-purple-600text-center p-3 mb-2">
+        <div className="bg-indigo-400 text-center p-3 mb-2">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
