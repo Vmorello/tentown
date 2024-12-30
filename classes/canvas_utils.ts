@@ -70,7 +70,12 @@ export class CanvasControl implements CanvasUtilBase {
       try {
         this.setHover(currentItem)
       } catch (err) {
-        console.error(currentItem)
+        try{
+          this.setHover(currentItem.split("-")[0])
+        }catch{
+          console.error(currentItem)
+        }
+        
       }
     }
   }
