@@ -96,4154 +96,8611 @@ const iconStore: { [key: string]: any } = {
 
 
 
-  "#️⃣": JfpCaPDAen,
-  "*️⃣": gUFIjABSyP,
-  "-": zbIdQLlQgM,
-  "0️⃣": KTVsiKUKWw,
-  "1️⃣": uCdERYopxN,
-  "2️⃣": WNPViHDkkg,
-  "3️⃣": kqGGaGCCEx,
-  "4️⃣": nNEDCmxQFY,
-  "5️⃣": EumrJqJDMd,
-  "6️⃣": eJgTvcANxM,
-  "7️⃣": TjGrxUpsLY,
-  "8️⃣": TtMMcIsmii,
-  "9️⃣": LXzUyokyXT,
-  "©": mrEDYdfuyf,
-  "®": EYJRybQIPB,
-  "🀄": VFYZJjXEvo,
-  "🃏": ZoBGlVnXgD,
-  "🄍": QeRCHxhSSN,
-  "🄎": DbrvvjyCqZ,
-  "🄏": iFakCxqCOe,
-  "🄯": QZmunxZmBb,
-  "🅭": sPNxZRovht,
-  "🅮": ZVulHlnIrr,
-  "🅯": iWStORXNbb,
-  "🅰": DoOavCYNpd,
-  "🅱": MFpkDaxvUk,
-  "🅾": yeLIHxCvbj,
-  "🅿": ddpLvAnnKl,
-  "🆎": UrDxtuDcQl,
-  "🆑": TinTfwkkuB,
-  "🆒": TcePrQNydI,
-  "🆓": ONRxuPYNXR,
-  "🆔": zLAphnOgLW,
-  "🆕": rEbbmlMSFE,
-  "🆖": cCHWRpLLmW,
-  "🆗": YaicEiuTrt,
-  "🆘": RYSJetADKy,
-  "🆙": yXQfjbjOzS,
-  "🆚": ECGZQTISta,
-  "🇦🇨": SnpPJsOCXs,
-  "🇦🇩": xmtoXMdHwS,
-  "🇦🇪": oAuXJKIRgP,
-  "🇦🇫": RekMFElQrB,
-  "🇦🇬": nzVOCzJJqB,
-  "🇦🇮": dKTiJlAeVF,
-  "🇦🇱": FTXzetyOGl,
-  "🇦🇲": UBRQFziODH,
-  "🇦🇴": SwnVmitGVt,
-  "🇦🇶💎": BwZPNorqkO,
-  "🇦🇶": OXyZnhBrrH,
-  "🇦🇷": PsaCVWCFPW,
-  "🇦🇸": bmwJyaBaDL,
-  "🇦🇹": ffnpJfqJaF,
-  "🇦🇺": VxGNugfhXK,
-  "🇦🇼": zYeqhfvPRq,
-  "🇦🇽": BbTBIyuePi,
-  "🇦🇿": UUZgDdHClt,
-  "🇦": DsebswDaLN,
-  "🇧🇦": weBDzjLWRw,
-  "🇧🇧": btpEmLYDjX,
-  "🇧🇩": jnBjssLsVo,
-  "🇧🇪": QpeGvYJSNG,
-  "🇧🇫": HhCUgSJTWx,
-  "🇧🇬": KQpYgKBMzD,
-  "🇧🇭": haJoKcXQfz,
-  "🇧🇮": USIqQYeCIH,
-  "🇧🇯": LAtiQVwTGi,
-  "🇧🇱": exCVttwDPL,
-  "🇧🇲": XivgRbEAKH,
-  "🇧🇳": HdacfxMlht,
-  "🇧🇴": GUvlFBnblK,
-  "🇧🇶": AscbjGxSwl,
-  "🇧🇷": VmQIeabeBQ,
-  "🇧🇸": kBxjxTkJIn,
-  "🇧🇹": whLHTUgyna,
-  "🇧🇻": aOgHMUasnX,
-  "🇧🇼": ipHJLenVvI,
-  "🇧🇾": sqcNHSeuqa,
-  "🇧🇿": oGtFERmciF,
-  "🇧": HEIIKLSNkq,
-  "🇨🇦": JjIBnGoYqT,
-  "🇨🇨": ETnVQBeEbT,
-  "🇨🇩": SzMmVemlAt,
-  "🇨🇫": DQgEDLINdN,
-  "🇨🇬": DNlSynzNwm,
-  "🇨🇭": ddELXexRoR,
-  "🇨🇮": VLofxbJDBW,
-  "🇨🇰": UTAFdRarbn,
-  "🇨🇱": tzMkfjjFOI,
-  "🇨🇲": CbBNcVKdPb,
-  "🇨🇳": QXFYndBFyr,
-  "🇨🇴": uxvvJHMSrD,
-  "🇨🇵": TLiWcZDCCZ,
-  "🇨🇷": OMfUmDeymu,
-  "🇨🇺": vHgdwQlSXR,
-  "🇨🇻": zSGnaRYdsm,
-  "🇨🇼": BwuHuVAPnp,
-  "🇨🇽": rwkQrsAzxr,
-  "🇨🇾": nEuiweBUxL,
-  "🇨🇿": nRvSfnOUbM,
-  "🇨": YsdAVlzjqE,
-  "🇩🇪": fPRLmlyYet,
-  "🇩🇬": lPcaocNBFY,
-  "🇩🇯": cZFehErPPw,
-  "🇩🇰": QzTFTPKkOT,
-  "🇩🇲": vtXItVvlFK,
-  "🇩🇴": LUymdvLprv,
-  "🇩🇿": viNcuiiAtU,
-  "🇩": YdDjImdDAn,
-  "🇪🇦": oEFKkIMCog,
-  "🇪🇨": XNttXWpiJu,
-  "🇪🇪": uLnHlTCHWA,
-  "🇪🇬": eNbXDOdOIF,
-  "🇪🇭": yuALPwwtDj,
-  "🇪🇷": hkNhRRPVfu,
-  "🇪🇸": RqkxCmYAOI,
-  "🇪🇹": ZcBBJCVlOJ,
-  "🇪🇺": uuaCddTGUI,
-  "🇪": fNaTZiNgmP,
-  "🇫🇮": sUbYFWtPDf,
-  "🇫🇯": TAgiWeoNEH,
-  "🇫🇰": UhHhuNqIMl,
-  "🇫🇲": cEeOSfgWsG,
-  "🇫🇴": thpMJdSbcJ,
-  "🇫🇷": YxeXEuBYQR,
-  "🇫": CzLRDqOfCM,
-  "🇬🇦": WwzpbunfAW,
-  "🇬🇧": jznQfNapeb,
-  "🇬🇩": wmmAodLJvy,
-  "🇬🇪": XjJvnNUgUr,
-  "🇬🇫": BZLBgwPNUA,
-  "🇬🇬": lIpIsBtvcQ,
-  "🇬🇭": TqoxxWEfGf,
-  "🇬🇮": uVzFzMrfVF,
-  "🇬🇱": mSKrgDKRWY,
-  "🇬🇲": jRKntdRxdx,
-  "🇬🇳": LKVIHJOWio,
-  "🇬🇵": NzZpgwXgSG,
-  "🇬🇶": utMwKfneVI,
-  "🇬🇷": tSLHVfncsJ,
-  "🇬🇸": ivgjZIhMFA,
-  "🇬🇹": MbvlIKbsDL,
-  "🇬🇺": xPFdTgpQuN,
-  "🇬🇼": hioAkOIBkI,
-  "🇬🇾": qZlfGlFzCb,
-  "🇬": ZhHChKzAJl,
-  "🇭🇰": iRyrAdWOel,
-  "🇭🇲": EGLKGvyjGy,
-  "🇭🇳": lQlOMOVBBb,
-  "🇭🇷": ZLEUrPWRik,
-  "🇭🇹": hVFscLTdpe,
-  "🇭🇺": JJxuWPTnJd,
-  "🇭": CyjRLVokbs,
-  "🇮🇨": DKHxOuSNIN,
-  "🇮🇩": nNpZQvepjX,
-  "🇮🇪": hqXvTAPOxi,
-  "🇮🇱": QHioztvbhO,
-  "🇮🇲": bBtnROwniH,
-  "🇮🇳": xMurKNtOLk,
-  "🇮🇴": RaLvsrKomC,
-  "🇮🇶": CHApLkQPlY,
-  "🇮🇷": wTgLoXMQvB,
-  "🇮🇸": jtVlcgJdnI,
-  "🇮🇹": QnvKzWqXKO,
-  "🇮": DrtdxBWXmN,
-  "🇯🇪": KmKGEtVswd,
-  "🇯🇲": JejSoZkaan,
-  "🇯🇴": SCWCBHwnux,
-  "🇯🇵": lonejGbhqE,
-  "🇯": uaSqbFyQWB,
-  "🇰🇪": wHYEHwJelJ,
-  "🇰🇬": mpeReMvaDf,
-  "🇰🇭": teEdxfdEjQ,
-  "🇰🇮": EvEwdLHMBM,
-  "🇰🇲": ylpjUvxkZg,
-  "🇰🇳": rDGgUhepYC,
-  "🇰🇵": GrdobCsceE,
-  "🇰🇷": dZYeCImaOZ,
-  "🇰🇼": nwObXlLRWD,
-  "🇰🇾": vNNCSqHeHs,
-  "🇰🇿": IjKzpzmeJc,
-  "🇰": YkibTLjkhd,
-  "🇱🇦": DxHFwyokoV,
-  "🇱🇧": WUQdBQOblk,
-  "🇱🇨": ajgqMmgXEU,
-  "🇱🇮": TOBkRcGJYo,
-  "🇱🇰": udZDHJVBDH,
-  "🇱🇷": sxAVlxnmBg,
-  "🇱🇸": IIZsbSYWtM,
-  "🇱🇹": DxquToHBaW,
-  "🇱🇺": nRRcztLYpv,
-  "🇱🇻": gBDvRWwpHX,
-  "🇱🇾": DVpCZVaAtW,
-  "🇱": lLqhBGelbU,
-  "🇲🇦": saezrUaYaA,
-  "🇲🇨": rfEtyfQVbh,
-  "🇲🇩": guspsalzQO,
-  "🇲🇪": dhKpMZBVuH,
-  "🇲🇫": GnbiJGPfcf,
-  "🇲🇬": MymMLNlwvI,
-  "🇲🇭": EPXpBXBxZJ,
-  "🇲🇰": BJLOpsmWMM,
-  "🇲🇱": bvnXALFvQp,
-  "🇲🇲": lvbFFKwfby,
-  "🇲🇳": boQIWGrmrB,
-  "🇲🇴": SjZbMYMBAD,
-  "🇲🇵": NGiicnKEfV,
-  "🇲🇶": UMkZoiYdHw,
-  "🇲🇷": WUmAvznisC,
-  "🇲🇸": tCocdrNoeh,
-  "🇲🇹": NNmbRaGVvS,
-  "🇲🇺": qnuDOqsWvC,
-  "🇲🇻": JKEcankARK,
-  "🇲🇼": cYKLBmpTgg,
-  "🇲🇽": lFRdXFCCoh,
-  "🇲🇾": yQzPgFjPuo,
-  "🇲🇿": QCFCqsnhyi,
-  "🇲": yepDuAgvdK,
-  "🇳🇦": KrHmleXPzF,
-  "🇳🇨": ZGvBDdDVDG,
-  "🇳🇪": lRqylvyXGd,
-  "🇳🇫": zWHeqGgwyo,
-  "🇳🇬": jukqNOcnAF,
-  "🇳🇮": UtQgFEHOrI,
-  "🇳🇱": SiWalMotzo,
-  "🇳🇴": qAcbtxkSuB,
-  "🇳🇵": IZbInPMCZQ,
-  "🇳🇷": oNKOdbjspg,
-  "🇳🇺": iBbMkXAtOr,
-  "🇳🇿": EPGFgtWvZn,
-  "🇳": rVbpShSynm,
-  "🇴🇲": JElWHZjiCZ,
-  "🇴": qeNPDaJuWQ,
-  "🇵🇦": IWGVWiIMTH,
-  "🇵🇪": BrjjOyyWyt,
-  "🇵🇫": uNfHyAaZGr,
-  "🇵🇬": TwSJJGeQyu,
-  "🇵🇭": PEeUasWKyn,
-  "🇵🇰": tdwoVqJwRP,
-  "🇵🇱": ZBpZgeWcfu,
-  "🇵🇲": JyUQYgpgEE,
-  "🇵🇳": rNncZPjxzC,
-  "🇵🇷": YBKYKqeBtZ,
-  "🇵🇸": wWPQGVdgmm,
-  "🇵🇹": HSaqsbVshX,
-  "🇵🇼": PwgdzARsBg,
-  "🇵🇾": kodkBuFWsX,
-  "🇵": KElVqAnpSq,
-  "🇶🇦": xhUWtuIHfX,
-  "🇶": VTCcrPjHQA,
-  "🇷🇪": evzltRyYhr,
-  "🇷🇴": yLbXbJrZGl,
-  "🇷🇸": cuxfVUIYLA,
-  "🇷🇺": mDcewsWzYe,
-  "🇷🇼": pvEKxyrZMX,
-  "🇷": tiGKLqwGZG,
-  "🇸🇦": CSPrPCfRgN,
-  "🇸🇧": CrJNmjvMmx,
-  "🇸🇨": RNyHVvAoKD,
-  "🇸🇩": tnUAIGSowE,
-  "🇸🇪": HnSbIdCupR,
-  "🇸🇬": BzHGSQXIcX,
-  "🇸🇭": ewUdVKAkGG,
-  "🇸🇮": eDnzqSyMds,
-  "🇸🇯": dZdJnJUILQ,
-  "🇸🇰": EbUznOcHsz,
-  "🇸🇱": sKXdquNrYN,
-  "🇸🇲": zrUrbXFrEV,
-  "🇸🇳": UfCJyVqpcb,
-  "🇸🇴": hKRewzPlrj,
-  "🇸🇷": NnvmugdpEN,
-  "🇸🇸": TVmCuNbcmH,
-  "🇸🇹": wAQRnnTmJm,
-  "🇸🇻": HhybBznqZd,
-  "🇸🇽": vsEKFhvOLg,
-  "🇸🇾": MEbIEYCAaA,
-  "🇸🇿": GTkaeqXUWV,
-  "🇸": mzXsWkkHHy,
-  "🇹🇦": shmFTyVKDe,
-  "🇹🇨": VXxdvMUivC,
-  "🇹🇩": FuMjNsdvnk,
-  "🇹🇫": QiBtDldgCD,
-  "🇹🇬": AkGBwvgyqD,
-  "🇹🇭": QVANPPjpUt,
-  "🇹🇯": UEpZkMdFYn,
-  "🇹🇰": EhkFuLoQyu,
-  "🇹🇱": cBQLEhhBWQ,
-  "🇹🇲": PmQXACHHKG,
-  "🇹🇳": rppwOPDbMF,
-  "🇹🇴": pWVEBEMkTE,
-  "🇹🇷": oLusaFLQzy,
-  "🇹🇹": SqmrosrOWl,
-  "🇹🇻": tPLtpzIwAG,
-  "🇹🇼": DoYlMGghvZ,
-  "🇹🇿": JYMiAQksxT,
-  "🇹": DvfhBLxLPw,
-  "🇺🇦": GUXjcVbEzy,
-  "🇺🇬": AcaqCgfgyO,
-  "🇺🇲": moQKjHaQbZ,
-  "🇺🇳": bHpowgsqBK,
-  "🇺🇸": AIFajpBMYS,
-  "🇺🇾": LczcrccOxR,
-  "🇺🇿": gvADmjLnYR,
-  "🇺": phfWscwQsL,
-  "🇻🇦": AqYpXjidBR,
-  "🇻🇨": PNHCFRRWlS,
-  "🇻🇪": QdiYVDpwcK,
-  "🇻🇬": xtaHgiUScU,
-  "🇻🇮": SsZSFFANkf,
-  "🇻🇳": WyEncurkcC,
-  "🇻🇺": zdMrvWgmpS,
-  "🇻": xldxPwxkKd,
-  "🇼🇫": ZeqjYNcada,
-  "🇼🇸": vUMzZQNcub,
-  "🇼": dPFFwgUtVd,
-  "🇽🇰": lXvLsuEnqx,
-  "🇽": ceXsdzgjpU,
-  "🇾🇪": SiCgXnZOtv,
-  "🇾🇹": eWWtHhYFMb,
-  "🇾": GCtOsKriTc,
-  "🇿🇦": MvzIJlmoui,
-  "🇿🇲": vcrrzyPmzf,
-  "🇿🇼": VnnRVWZbst,
-  "🇿": coEgdEjllA,
-  "🈁": sjjsOnCOyI,
-  "🈂": kbHcEbQFdY,
-  "🈚": YfxUIvgcpv,
-  "🈯": atfBfAEIYi,
-  "🈲": OeAyonxepd,
-  "🈳": cpNSurWJuA,
-  "🈴": kWvphWMwLd,
-  "🈵": pHHtTczodS,
-  "🈶": KVGOjrWLsY,
-  "🈷": ILREfdgsoS,
-  "🈸": CpblLKqRtM,
-  "🈹": KxixHCigGH,
-  "🈺": anDtzpJfTP,
-  "🉐": lxqDhHSJrh,
-  "🉑": aGyVnovcFZ,
-  "🉠": OqlwdkQiBk,
-  "🉡": ZlCBtmKwlc,
-  "🉢": HxrVXzbuvd,
-  "🉣": aLcMNKHXBi,
-  "🉤": XNdxdGNMrI,
-  "🉥": SLIjmxUcMF,
-  "🌀": IydgpUGjyQ,
-  "🌁": XnwBIWqnWC,
-  "🌂": AXVIcpNBDt,
-  "🌃": fKjSLUZTpu,
-  "🌄": SOlDrikDbp,
-  "🌅": DFoEdEOPSK,
-  "🌆": UNuIivNocG,
-  "🌇": btdgHyjTqj,
-  "🌈": TBJgQYajZZ,
-  "🌉": VGBuDpHJMP,
-  "🌊": uHHcXdCbzv,
-  "🌋": XdmvRlOAhM,
-  "🌌": uzKbSzoHyZ,
-  "🌍": NuRgAsOAHe,
-  "🌎": xxFIthELCU,
-  "🌏": XUnMRAOrFD,
-  "🌐": pIMqUZVVdP,
-  "🌑": faLmTuEUuZ,
-  "🌒": dcVAFpnLWw,
-  "🌓": jCfxBvBnMh,
-  "🌔": stcgPCYIMK,
-  "🌕": FIHLMrMXMo,
-  "🌖": prOGTdkDZc,
-  "🌗": MgOMDLnDRr,
-  "🌘": KmCYaBnBkv,
-  "🌙": zDyNVwtALe,
-  "🌚": LSMraCtWFR,
-  "🌛": YELjyMCUUB,
-  "🌜": MaKhdAbcBj,
-  "🌝": lfanXrNdBO,
-  "🌞": jTZWBFNrsi,
-  "🌟": bSoDOWdekt,
-  "🌠": iNwGNszmbZ,
-  "🌡": CqgZrZmnJN,
-  "🌤": uGafLPgZlP,
-  "🌥": aTpEjhEovu,
-  "🌦": fCJHlsxtrT,
-  "🌧": lRiTvDOulg,
-  "🌨": ayzMiMpujo,
-  "🌩": gMzSfqlqTu,
-  "🌪": DIlOsvtAuJ,
-  "🌫": BXuWFZbOxb,
-  "🌬": amslaaGQOG,
-  "🌭": lmFPTUzZnQ,
-  "🌮": sihZjaSDAL,
-  "🌯": anqJtTKgHX,
-  "🌰": jdpahgkRIZ,
-  "🌱": YZJZCsMLfd,
-  "🌲": AtYKGnkLDQ,
-  "🌳": pnhdsAqVfg,
-  "🌴": qkFQyLhRBR,
-  "🌵": ibfcrZVZDh,
-  "🌶": MoNEQjlpjU,
-  "🌷": wuOnzOwZCo,
-  "🌸": epBJArIeMp,
-  "🌹": JzyPQypUVy,
-  "🌺": xEXFJSGMfs,
-  "🌻": kmtSjVdTDW,
-  "🌼": HSBHzwhCNl,
-  "🌽": bWJNfWuNRl,
-  "🌾": AMKubXgtsJ,
-  "🌿": JiBpwviFXM,
-  "🍀": SjvtxWbveo,
-  "🍁": EXQtgfqXdI,
-  "🍂": kVvfyyeYRO,
-  "🍃": MThLMXzhkc,
-  "🍄": AQkgIGQGMg,
-  "🍅": SahYAsvjuU,
-  "🍆": KqqKNzTwLV,
-  "🍇": RwDJrUBrFP,
-  "🍈": zlPrHWbopK,
-  "🍉": BMzorOdCeN,
-  "🍊": iSRrfRTpBN,
-  "🍋": XkzxfGkqob,
-  "🍌": AwfZQoHnhB,
-  "🍍": sOkwxINyja,
-  "🍎": ZmxUjTypRz,
-  "🍏": FhSWyGbolv,
-  "🍐": dHUOPEuhbI,
-  "🍑": MelMJLcCUp,
-  "🍒": AQDTZEldBY,
-  "🍓": MtDiNjDCwP,
-  "🍔": ralZSGzoyd,
-  "🍕": ORBGKqPBFZ,
-  "🍖": epibjZpdgm,
-  "🍗": kNRFXZMQum,
-  "🍘": ghHeuNuYqH,
-  "🍙": EAZMSwEWfN,
-  "🍚": UrNtWQdVFh,
-  "🍛": oSHnugPUDw,
-  "🍜": SXcRETBVjk,
-  "🍝": eZeIZaNItY,
-  "🍞": jKQYVrbMPL,
-  "🍟": qQQvssOyBO,
-  "🍠": NmGaqLVFyP,
-  "🍡": ecnZXOUuya,
-  "🍢": zYHsXrCIBM,
-  "🍣": uaOaKmzfgX,
-  "🍤": SbSMWgIHiQ,
-  "🍥": HaytjybPgj,
-  "🍦": hasSkaqOZP,
-  "🍧": vVKbnfHMNL,
-  "🍨": UHupVtxSBv,
-  "🍩": aXJheHTRtx,
-  "🍪": uXlIgjKMwG,
-  "🍫": IXNJDUrObQ,
-  "🍬": uBLUCHUgzn,
-  "🍭": UIyayQyGwh,
-  "🍮": BJyeALzYYn,
-  "🍯": uCRRyBXluL,
-  "🍰": dwYdVDWLaK,
-  "🍱": zcvVDDPnnj,
-  "🍲": pfSAZFxKLX,
-  "🍳": VuNfagaAAb,
-  "🍴": RhDdlLlTRx,
-  "🍵": YMXhleRKam,
-  "🍶": gzeSrxjpNN,
-  "🍷": aWJuebKbMR,
-  "🍸": qeWioNSATF,
-  "🍹": qIgYlfLNQU,
-  "🍺": GbDREfOCKA,
-  "🍻": EjJXkNDlaQ,
-  "🍼": xIMMRsqwas,
-  "🍽": HqlxXgbjKS,
-  "🍾": DRCTQWjqlN,
-  "🍿": PPrXhmcQxG,
-  "🎀": kJlObnAZLP,
-  "🎁": IGpkudQePv,
-  "🎂": kmpVPaqxOP,
-  "🎃": efakwVJLvJ,
-  "🎄": PjKddDjvEj,
-  "🎅🏻": msBMdBSWgd,
-  "🎅🏼": ZTrtLlUVyn,
-  "🎅🏽": PXuTHajHnB,
-  "🎅🏾": LkWiwcITer,
-  "🎅🏿": qRxaHvDESJ,
-  "🎅": ArmjpGNFqf,
-  "🎆": UwIKGPgHXU,
-  "🎇": MFGVkIfpLN,
-  "🎈": HHqSURkFEJ,
-  "🎉": gfqnwoWjyY,
-  "🎊": QMDqrJnRDL,
-  "🎋": McgTFqETUU,
-  "🎌": AmxdIvlFYk,
-  "🎍": mVquBdloBD,
-  "🎎": RXQvkLuUlc,
-  "🎏": vjBHGYXBhy,
-  "🎐": UbJFGyHFkP,
-  "🎑": VJIbGaEwMs,
-  "🎒": HconeMtvdJ,
-  "🎓": ueVNbtzZFk,
-  "🎖": PTZMcOOnGu,
-  "🎗": EKQAWfPxiG,
-  "🎙": TzVdalYRMN,
-  "🎚": ajAajfdVoI,
-  "🎛": vXdMriauIM,
-  "🎞": sBVtGiQkZx,
-  "🎟": KeuWVOWMEE,
-  "🎠": SLoTHCqDGj,
-  "🎡": oENtnkWVTz,
-  "🎢": QZzIyRIldD,
-  "🎣": zfjNrbAwOO,
-  "🎤": JBCaiwNHrO,
-  "🎥": sYFRuJfZmW,
-  "🎦": mumgWUbOdK,
-  "🎧": DWLYWqXEvi,
-  "🎨": ekyUoWktOy,
-  "🎩": SrwdpnPfJy,
-  "🎪": rIcCUKcNuA,
-  "🎫": XBzBsjlXBV,
-  "🎬": goRJeiyoEc,
-  "🎭": bUYFZJLhdo,
-  "🎮": BrthppAiCy,
-  "🎯": zquPmUyNHG,
-  "🎰": XYPEuxAPXt,
-  "🎱": QzeuXrxoSM,
-  "🎲": WHEOLwgMtn,
-  "🎳": gFCdqzjMEr,
-  "🎴": arOxMKWZBv,
-  "🎵": qUIWhIaZmj,
-  "🎶": XNseNxWNxe,
-  "🎷": qCHgSVaOFg,
-  "🎸": JGybdmabJZ,
-  "🎹": aVxTBVvdPp,
-  "🎺": uhLtghblYb,
-  "🎻": zfPbUoOZPg,
-  "🎼": lzBreqVMiB,
-  "🎽": kOhZAMpoMz,
-  "🎾": xZGNsqVraz,
-  "🎿": hQWdcNaCwn,
-  "🏀": PSxByKHEwS,
-  "🏁": BibcJQbwQP,
-  "🏂🏻": UUeCqZUOkT,
-  "🏂🏼": XIMXkHrSYv,
-  "🏂🏽": mBEpWnqMLL,
-  "🏂🏾": DmmpjXMSwY,
-  "🏂🏿": qDMtRrRQhm,
-  "🏂": eUWWxJimgX,
-  "🏃🏻‍♀️": NpUwjjPWYn,
-  "🏃🏻‍♂️": ZhRraFPPyY,
-  "🏃🏻": tHaGlkQmzk,
-  "🏃🏼‍♀️": TSptoWCLSW,
-  "🏃🏼‍♂️": MzQPzTevqZ,
-  "🏃🏼": zqcheskpQR,
-  "🏃🏽‍♀️": sxVqAcGZan,
-  "🏃🏽‍♂️": MkOcrAbche,
-  "🏃🏽": FDdNvlyBLo,
-  "🏃🏾‍♀️": sdzDnHXyBG,
-  "🏃🏾‍♂️": zzvenLCdTT,
-  "🏃🏾": NxwBGRVlaB,
-  "🏃🏿‍♀️": uoyMQdcKrF,
-  "🏃🏿‍♂️": OqWHLjXEvs,
-  "🏃🏿": IviVbZdyps,
-  "🏃‍♀️": BumJjjFcKN,
-  "🏃‍♂️": ozOEYHBAjb,
-  "🏃": jJnnxwRPar,
-  "🏄🏻‍♀️": fLKKxkZlqk,
-  "🏄🏻‍♂️": xAlqaEUDPe,
-  "🏄🏻": ylWkqhOJXI,
-  "🏄🏼‍♀️": IsklGqThjF,
-  "🏄🏼‍♂️": pjvPxaFOyc,
-  "🏄🏼": tfJmACqiwq,
-  "🏄🏽‍♀️": UdqnMJgtCw,
-  "🏄🏽‍♂️": BxoVtOseUI,
-  "🏄🏽": ZgoOFYmrxh,
-  "🏄🏾‍♀️": glsjgweFID,
-  "🏄🏾‍♂️": fmgpRbeVxy,
-  "🏄🏾": BUJAyYNjJi,
-  "🏄🏿‍♀️": tRylnmvIGB,
-  "🏄🏿‍♂️": uhmQlavYll,
-  "🏄🏿": zdfxoYWudw,
-  "🏄‍♀️": lgnoltYslK,
-  "🏄‍♂️": tUIystosTt,
-  "🏄": eZfoOnrttA,
-  "🏅": ofYCgVfHRL,
-  "🏆": eCkiNLkQKh,
-  "🏇🏻": WXKVmmdDHJ,
-  "🏇🏼": jprGKeyrbo,
-  "🏇🏽": QEHDWVBjrA,
-  "🏇🏾": pdmXQMAszH,
-  "🏇🏿": yfwJuIsAUG,
-  "🏇": iYMwHWjdek,
-  "🏈": FSeNPoYMSe,
-  "🏉": BzSEIFYORY,
-  "🏊🏻‍♀️": wQgFmNKjbi,
-  "🏊🏻‍♂️": SYsmChxnve,
-  "🏊🏻": XHAgGudaqC,
-  "🏊🏼‍♀️": IMSovsMPJc,
-  "🏊🏼‍♂️": pLoHMjDsKY,
-  "🏊🏼": VqaJWAtYGT,
-  "🏊🏽‍♀️": DyOTWcxjBs,
-  "🏊🏽‍♂️": ZcoWCVDFND,
-  "🏊🏽": aAcPgBWwVi,
-  "🏊🏾‍♀️": SulahxAZhZ,
-  "🏊🏾‍♂️": poDxFeuYnT,
-  "🏊🏾": OYHuDByPSA,
-  "🏊🏿‍♀️": pYtTsOprIx,
-  "🏊🏿‍♂️": AJhsrQKJzx,
-  "🏊🏿": OcGqvZUTLS,
-  "🏊‍♀️": pebZqtnvNn,
-  "🏊‍♂️": CGcOOCIvSY,
-  "🏊": fYrROHtTeT,
-  "🏋🏻‍♀️": ITUzLrQPPP,
-  "🏋🏻‍♂️": mjcmFdsEHR,
-  "🏋🏻": HiRZpeJmXF,
-  "🏋🏼‍♀️": IOiFzOqAMz,
-  "🏋🏼‍♂️": yFWBPLnpLA,
-  "🏋🏼": CFiLxFuMFk,
-  "🏋🏽‍♀️": tjmAlSzTqY,
-  "🏋🏽‍♂️": hFntGDFBpO,
-  "🏋🏽": rDmfHGVFTu,
-  "🏋🏾‍♀️": qQjTVdTrgF,
-  "🏋🏾‍♂️": kyYFgDeGmi,
-  "🏋🏾": pCytkPxJqr,
-  "🏋🏿‍♀️": isszQuwSpF,
-  "🏋🏿‍♂️": ipUDAgaIlc,
-  "🏋🏿": fkWBOQOOvc,
-  "🏋️‍♀️": TBVDoYIdIx,
-  "🏋️‍♂️": nrbZdZVJvz,
-  "🏋": jldJvpgRHo,
-  "🏌🏻‍♀️": bSnksnBUxm,
-  "🏌🏻‍♂️": HGEqDVuSig,
-  "🏌🏻": SVsCBCFpTC,
-  "🏌🏼‍♀️": OAZJANBpZE,
-  "🏌🏼‍♂️": tPneMJdmtC,
-  "🏌🏼": bsCVyxRJUD,
-  "🏌🏽‍♀️": MxDGtyaevD,
-  "🏌🏽‍♂️": cQRHYlYSqR,
-  "🏌🏽": nsvIdbBLHB,
-  "🏌🏾‍♀️": MGRoslzevw,
-  "🏌🏾‍♂️": YxniMCphbC,
-  "🏌🏾": jZVekbEpWD,
-  "🏌🏿‍♀️": GUBHOuOogE,
-  "🏌🏿‍♂️": QspTNoFUjR,
-  "🏌🏿": GziaEdwrLT,
-  "🏌️‍♀️": ljkdyULYSz,
-  "🏌️‍♂️": nYUmUnalDt,
-  "🏌": HUxvNUOBSB,
-  "🏍": aumNTSstNL,
-  "🏎": qiSDyJRxVK,
-  "🏏": ibZpjAwMBI,
-  "🏐": QELodkwAGr,
-  "🏑": SNhuWGCyXP,
-  "🏒": IRGufXOqwD,
-  "🏓": xjZyhzvRrS,
-  "🏔": uNTdNJicxh,
-  "🏕": bJcKOfXKYl,
-  "🏖": rwLfIudWtf,
-  "🏗": FjlZYppBvI,
-  "🏘": dIxZCesaAl,
-  "🏙": JcctJXFiTZ,
-  "🏚": DoExJEVXvM,
-  "🏛": VIGhAJzPDH,
-  "🏜": HPfeQdLIar,
-  "🏝": loyrBKNbZG,
-  "🏞": bayRciipJK,
-  "🏟": VQZOJSoxnj,
-  "🏠": YrJIDKDaMA,
-  "🏡": RuyXvVjJfI,
-  "🏢": ladBecHmqn,
-  "🏣": JWRDRkSpki,
-  "🏤": fxQPrbywJR,
-  "🏥": FnUeqaWtwr,
-  "🏦": PPlHWqSuPN,
-  "🏧": oGPVuYZJdc,
-  "🏨": kfZatbyQoI,
-  "🏩": lHboNmyfze,
-  "🏪": oVwkAtzWkz,
-  "🏫": OeDnGGgEGg,
-  "🏬": ebhbfNRuRA,
-  "🏭": aSleiMDclz,
-  "🏮": FFgfPtUTCD,
-  "🏯": ipFQEkaJMu,
-  "🏰": zLjqpHpvTd,
-  "🏳🟦🟩🟨": eQrlRtOtDb,
-  "🏳️‍🌈": BYzRcjhLEX,
-  "🏳️‍📌‍⚙️": nhArlAUdMI,
-  "🏳️‍🟥": SqvpClFpQc,
-  "🏳️‍🟦‍🌌": CvXwxVQHdd,
-  "🏳️‍🟦": DXIwFMCXzT,
-  "🏳️‍🟧": JRKTelPhxi,
-  "🏳️‍🟨": NuYaTRPHcO,
-  "🏳️‍🟩‍⭐‍🟩": kcNzwkbtXv,
-  "🏳️‍🟩": RTiHzsuCLC,
-  "🏳️‍🟪": cdHtBKNPuz,
-  "🏳️‍🟫": GvsBCNvqmr,
-  "🏳️‍⚧️": IPyTvzHcjo,
-  "🏳️": yqlNJnHpUU,
-  "🏳": ngdTUjEPvU,
-  "🏴‍☠️": fzkjTKcPyG,
-  "🏴󠁣󠁡󠁱󠁣󠁿- Quebec": ndcSucuGoh,
-  "🏴󠁤󠁥󠁢󠁥󠁿": wGXCLDnQBV,
-  "🏴󠁤󠁥󠁢󠁹󠁿": jnDklflxIz,
-  "🏴󠁥󠁳󠁡󠁲󠁿": HPbumLdVEN,
-  "🏴󠁥󠁳󠁡󠁳󠁿": KDEBbkUZcr,
-  "🏴󠁥󠁳󠁣󠁴󠁿": NuSyisHWJK,
-  "🏴󠁥󠁳󠁩󠁢󠁿": bDiMPuZufQ,
-  "🏴󠁥󠁳󠁭󠁣󠁿": HLlRlcoLAk,
-  "🏴󠁥󠁳󠁰󠁶󠁿": iboeSTEUfx,
-  "🏴󠁥󠁳󠁶󠁣󠁿": dABMdVNdgM,
-  "🏴󠁦󠁲󠁢󠁲󠁥󠁿": HuEsDyVonG,
-  "🏴󠁧󠁢󠁥󠁮󠁧󠁿": qTGrXNvzuD,
-  "🏴󠁧󠁢󠁳󠁣󠁴󠁿": GMwiRryUzU,
-  "🏴󠁧󠁢󠁷󠁬󠁳󠁿": FwHJiGAhtN,
-  "🏴󠁵󠁳󠁣󠁡󠁿": akOBCyssXs,
-  "🏴󠁵󠁳󠁴󠁸󠁿": VwUpGfOFYH,
-  "🏴️‍🅰️": cVFLOxZCvT,
-  "🏴": TWVanPzRDF,
-  "🏵": IDNSiqrQfy,
-  "🏷": wLdplguJaq,
-  "🏸": biylnCnzsH,
-  "🏹": azEdtCTXXF,
-  "🏺": rthfEtoUqD,
-  "🏻": wfSFtFqjIX,
-  "🏼": djXxERjhYJ,
-  "🏽": IJBJWFpsty,
-  "🏾": hRokrpVyfn,
-  "🏿": tvOXrnOBop,
-  "🐀": snMxyinJtP,
-  "🐁": plDiJLFvAr,
-  "🐂": KIWZYxBYYG,
-  "🐃": uEUqtvULUd,
-  "🐄": wZSjVaWzDA,
-  "🐅": PMQdoptwmi,
-  "🐆": vPHJEDLCVf,
-  "🐇": uGUgIWpQug,
-  "🐈‍⬛": bcEsAdCuVm,
-  "🐈": uUsarYPwtm,
-  "🐉": OQgnFBQigb,
-  "🐊": IwucUsVINV,
-  "🐋": wfKVDrHJRr,
-  "🐌": GQKicWurwL,
-  "🐍": BPMUugxGff,
-  "🐎": nqsbMHkPuc,
-  "🐏": sWvApYFbrx,
-  "🐐": EuDflDwCdI,
-  "🐑": HpXcKcAGZk,
-  "🐒": xnrLRHVwra,
-  "🐓": kJPFczrEAm,
-  "🐔": kUgiJFNcXW,
-  "🐕‍🦺": mRJlxaHUba,
-  "🐕": LBYtUwamTA,
-  "🐖": GklGcCaOeY,
-  "🐗": cgxyKIZhtL,
-  "🐘": ELKxuUTTMF,
-  "🐙": dolkitJBDt,
-  "🐚": PlqTBCtMHX,
-  "🐛": jHZeGhvMpi,
-  "🐜": fTFXeGXKFw,
-  "🐝": efVNGDdItd,
-  "🐞": AbcindNphq,
-  "🐟": eaBjelSnjo,
-  "🐠": iURpUFNxgb,
-  "🐡": OqeTXOhawY,
-  "🐢": DeZMQeBVVf,
-  "🐣": ZvQICizLfY,
-  "🐤": YkWzjJdaBD,
-  "🐥": oraNchYLMI,
-  "🐦‍⬛": uDiwaAUopF,
-  "🐦": GzyCJMSMkN,
-  "🐧": wmAmuzhIKC,
-  "🐨": BBiEYOABem,
-  "🐩": rdvQnmhZOa,
-  "🐪": qbHeVhqtUc,
-  "🐫": OomgslbRpW,
-  "🐬": UGFjvQrjKb,
-  "🐭": JlGmTwkqMD,
-  "🐮": ScccFWVbMp,
-  "🐯": NlyDTPuENu,
-  "🐰": DGizwqUpRF,
-  "🐱‍💻": GFQBlrazcK,
-  "🐱": YavpBqBYKL,
-  "🐲": jlCDexdvvh,
-  "🐳": kDjOlECjQo,
-  "🐴": NTmhaWLtSX,
-  "🐵": rMyTTnFkVg,
-  "🐶": fPkMAWohKg,
-  "🐷": HavDMZWzrf,
-  "🐸": zMZbJxtxMx,
-  "🐹": KGLrJUoDSM,
-  "🐺": bqjyeySHKr,
-  "🐻‍❄️": OFhhBjxlnD,
-  "🐻": WXRUoWTWpZ,
-  "🐼": SdknuGVjZq,
-  "🐽": bDPaMkSixD,
-  "🐾": qWiSwqldsh,
-  "🐿": MBIxjuuySt,
-  "👀": PQgQKBYsUl,
-  "👁️‍🗨️": kTnCOwyQJc,
-  "👁": RJhiTYZISW,
-  "👂🏻": IGPDFtsPpI,
-  "👂🏼": VmpHeWpspx,
-  "👂🏽": YERTcOxXGm,
-  "👂🏾": WolKzNlZvB,
-  "👂🏿": LUyWJnNAQO,
-  "👂": geKzzmWEnV,
-  "👃🏻": nMRizDCdLv,
-  "👃🏼": CzicBidGdM,
-  "👃🏽": cgleRMxCmF,
-  "👃🏾": SyVDjxvPit,
-  "👃🏿": vpcQDmKFRH,
-  "👃": sYfNfgHviU,
-  "👄": mYkFshQYwn,
-  "👅": YrvAteDvIr,
-  "👆🏻": rycbnoYYRO,
-  "👆🏼": zhZZEiFXOR,
-  "👆🏽": vhqpiEZZZS,
-  "👆🏾": RQZbBAkRUR,
-  "👆🏿": OEwCNUDZPI,
-  "👆": WKqepDGERM,
-  "👇🏻": ymPvqftqwB,
-  "👇🏼": MYAGOPVSGO,
-  "👇🏽": qCGYzkgwVR,
-  "👇🏾": pDiJkZKwdi,
-  "👇🏿": GvjkruNcwr,
-  "👇": EOlDOXBbCT,
-  "👈🏻": vhdnddLeSC,
-  "👈🏼": TWlydoJCAA,
-  "👈🏽": dHsvhKwWVP,
-  "👈🏾": AXsDYLlrpN,
-  "👈🏿": SnpVLqUiOR,
-  "👈": XPTPaCbnvy,
-  "👉🏻": xVGpgXlxMh,
-  "👉🏼": HCiWtWSiiG,
-  "👉🏽": ffZGoOXssG,
-  "👉🏾": CvYfrxYiqi,
-  "👉🏿": YNKiBwdSvV,
-  "👉": AoIgzshifT,
-  "👊🏻": zgKjGfuaYV,
-  "👊🏼": lwktlmXNoe,
-  "👊🏽": BxhKURXquO,
-  "👊🏾": HFmzmNFzxx,
-  "👊🏿": OptYovChoR,
-  "👊": YcICZSKyPN,
-  "👋🏻": jnQDdreWWD,
-  "👋🏼": fVkFAIeXFC,
-  "👋🏽": NQrhbiguMC,
-  "👋🏾": AQbqDEHBbT,
-  "👋🏿": sagWcAVZrX,
-  "👋": nFgtGrCial,
-  "👌🏻": DEJNjbiEyC,
-  "👌🏼": qSnFSAFvKO,
-  "👌🏽": EOhpdZxdHA,
-  "👌🏾": fgCnDnmFqP,
-  "👌🏿": kOiNjihmjo,
-  "👌": kwAMnDizJF,
-  "👍🏻": JSzxhdDfFa,
-  "👍🏼": VkFARlpmLp,
-  "👍🏽": bMhcQIuiem,
-  "👍🏾": qNAZAlLXPd,
-  "👍🏿": ypVRXcXapK,
-  "👍": QNrvAaAjVm,
-  "👎🏻": oZFrCcEFct,
-  "👎🏼": HreHEuBvsu,
-  "👎🏽": GwdEbnDlLU,
-  "👎🏾": GcRPedqjbp,
-  "👎🏿": qJIvvTCaZf,
-  "👎": cRqUwlAARg,
-  "👏🏻": RijJdtPDrg,
-  "👏🏼": wXnyemXkjs,
-  "👏🏽": iWrIdhVUOt,
-  "👏🏾": ZCvPrpKrLs,
-  "👏🏿": AmUlDEPQbf,
-  "👏": frcKntktWR,
-  "👐🏻": MpeuybNIIp,
-  "👐🏼": uhKPkIXdaG,
-  "👐🏽": NdkWgjTYlT,
-  "👐🏾": NflCxdqQZR,
-  "👐🏿": lzAEFAvCgO,
-  "👐": mQsFuXwZpj,
-  "👑": cYDUfWSekE,
-  "👒": zyUeblOnFE,
-  "👓": hwWNvlgAhC,
-  "👔": ejCCbxvmXZ,
-  "👕": oqOzwuONAv,
-  "👖": UgsKmeWBBB,
-  "👗": WaCgdPbwLf,
-  "👘": iQsuIbJnuH,
-  "👙": dcauIuBSth,
-  "👚": UIGYmKMrrZ,
-  "👛": pKnUuvyobX,
-  "👜": cGShPAuVXw,
-  "👝": OqnlrVzYPf,
-  "👞": yihlRusFwS,
-  "👟": OcwdDLgPvO,
-  "👠": FlgESeGHKy,
-  "👡": pgsHmsvpcV,
-  "👢": IdJNzpFNdJ,
-  "👣": BjhmhtLema,
-  "👤": toRZqUUKfy,
-  "👥": yhHLbcriek,
-  "👦🏻": ESoHqRkOVx,
-  "👦🏼": yAgjgyDnFb,
-  "👦🏽": qZXywvoMkT,
-  "👦🏾": TDJjBgEfZS,
-  "👦🏿": HeNHxZiVCT,
-  "👦": IgXlziubYb,
-  "👧🏻": nEIdPHnmBo,
-  "👧🏼": CdANwVUigd,
-  "👧🏽": iFzCLLRrLB,
-  "👧🏾": mQgBRXfYur,
-  "👧🏿": EShpPCPDrH,
-  "👧": dWHmoqaYnu,
-  "👨🏻‍🌾": nSBMLupynT,
-  "👨🏻‍🍳": LAlgjlcDjH,
-  "👨🏻‍🍼": OoysKEESej,
-  "👨🏻‍🎓": ZaCBgvNBeF,
-  "👨🏻‍🎤": lcwkiDoIHc,
-  "👨🏻‍🎨": StBjJlCwLU,
-  "👨🏻‍🏫": LIlnDokHLX,
-  "👨🏻‍🏭": hcGmTdGgLF,
-  "👨🏻‍💻": uBsqADphNf,
-  "👨🏻‍💼": JqunZzKMuO,
-  "👨🏻‍🔧": TobwBurEtg,
-  "👨🏻‍🔬": QfexiukbCO,
-  "👨🏻‍🚀": uSqqLElVrk,
-  "👨🏻‍🚒": SdOMVWgGLS,
-  "👨🏻‍🤝‍👨🏼": dcFNpAqqHK,
-  "👨🏻‍🤝‍👨🏽": XnpBJjtJHl,
-  "👨🏻‍🤝‍👨🏾": FYSklOgqao,
-  "👨🏻‍🤝‍👨🏿": nEKbFRUoFc,
-  "👨🏻‍🦯": uZLiukROGz,
-  "👨🏻‍🦰": oiDkpiDQIj,
-  "👨🏻‍🦱": myzYFGpdfP,
-  "👨🏻‍🦲": TurkJRtKEm,
-  "👨🏻‍🦳": zIjVohvFbt,
-  "👨🏻‍🦼": WYsAcaztNP,
-  "👨🏻‍🦽": dNvCbZbxnu,
-  "👨🏻‍⚕️": hyhqUSFLoP,
-  "👨🏻‍⚖️": qemMwpyVmi,
-  "👨🏻‍✈️": gCvJExQAiK,
-  "👨🏻‍❤️‍👨🏻": lAXvLehqrD,
-  "👨🏻‍❤️‍👨🏼": lmVqmiePys,
-  "👨🏻‍❤️‍👨🏽": sSMjUvHURK,
-  "👨🏻‍❤️‍👨🏾": vZuPXDmblr,
-  "👨🏻‍❤️‍👨🏿": KDpqHtxTKA,
-  "👨🏻‍❤️‍💋‍👨🏻": fGEeRsUBkH,
-  "👨🏻‍❤️‍💋‍👨🏼": TTmgTHmKHS,
-  "👨🏻‍❤️‍💋‍👨🏽": FGsENNTSJw,
-  "👨🏻‍❤️‍💋‍👨🏾": VFaiDTCUuC,
-  "👨🏻‍❤️‍💋‍👨🏿": nMnhPUYXaj,
-  "👨🏻": QYUesmSHtL,
-  "👨🏼‍🌾": brKYPezzUr,
-  "👨🏼‍🍳": wPutXAqgqm,
-  "👨🏼‍🍼": MfQTcYwwdH,
-  "👨🏼‍🎓": JUDnQBaIbp,
-  "👨🏼‍🎤": usfznMOJGj,
-  "👨🏼‍🎨": lXePyLORPT,
-  "👨🏼‍🏫": FbyaXZRVSL,
-  "👨🏼‍🏭": zKYABaebCN,
-  "👨🏼‍💻": SEzIJqZbJF,
-  "👨🏼‍💼": YxPZATwjZC,
-  "👨🏼‍🔧": lmjHQJznde,
-  "👨🏼‍🔬": tXhomctRTb,
-  "👨🏼‍🚀": tAXszQJqgI,
-  "👨🏼‍🚒": ihqJhPNMxR,
-  "👨🏼‍🤝‍👨🏻": ovUPIHtYZp,
-  "👨🏼‍🤝‍👨🏽": PfnGJfcajo,
-  "👨🏼‍🤝‍👨🏾": drxWAvsVlu,
-  "👨🏼‍🤝‍👨🏿": GEIvLHKiOY,
-  "👨🏼‍🦯": ckDkkjgAAT,
-  "👨🏼‍🦰": TjEyJfWYtk,
-  "👨🏼‍🦱": uzRwKRskNV,
-  "👨🏼‍🦲": CEkzxkMzzE,
-  "👨🏼‍🦳": SRSXOiCzdP,
-  "👨🏼‍🦼": sFYWxFjmSm,
-  "👨🏼‍🦽": oEToLgMVBp,
-  "👨🏼‍⚕️": UHYdygeTFb,
-  "👨🏼‍⚖️": OoKEGEdilR,
-  "👨🏼‍✈️": tODwsLQIlR,
-  "👨🏼‍❤️‍👨🏻": hkpNicgZKl,
-  "👨🏼‍❤️‍👨🏼": NjEHmilqxt,
-  "👨🏼‍❤️‍👨🏽": UEmcmAvIQD,
-  "👨🏼‍❤️‍👨🏾": oqcRkwvJEI,
-  "👨🏼‍❤️‍👨🏿": NdrpurksyX,
-  "👨🏼‍❤️‍💋‍👨🏻": aLmBhdhKFC,
-  "👨🏼‍❤️‍💋‍👨🏼": vtKOfAAVZx,
-  "👨🏼‍❤️‍💋‍👨🏽": eYTHaoOohQ,
-  "👨🏼‍❤️‍💋‍👨🏾": vCjYtGMYVY,
-  "👨🏼‍❤️‍💋‍👨🏿": sVPLZDpMdj,
-  "👨🏼": KrLIpwwKQV,
-  "👨🏽‍🌾": vQqMmgvgsh,
-  "👨🏽‍🍳": zCqMfvwaCJ,
-  "👨🏽‍🍼": hghHYgEjXx,
-  "👨🏽‍🎓": sjfldqtLQS,
-  "👨🏽‍🎤": brMmWyFITQ,
-  "👨🏽‍🎨": McqjGBnlWP,
-  "👨🏽‍🏫": JqSRWXnZFK,
-  "👨🏽‍🏭": cSUdUGphZm,
-  "👨🏽‍💻": IDHiMEfgte,
-  "👨🏽‍💼": DFriyzNost,
-  "👨🏽‍🔧": SBeQLmhwKu,
-  "👨🏽‍🔬": wyUFkiDCWD,
-  "👨🏽‍🚀": vRVKdkvZSQ,
-  "👨🏽‍🚒": FlrOFHSJAC,
-  "👨🏽‍🤝‍👨🏻": FiiOXfIfsP,
-  "👨🏽‍🤝‍👨🏼": ZDaDCoIoHU,
-  "👨🏽‍🤝‍👨🏾": dxjilQxjAJ,
-  "👨🏽‍🤝‍👨🏿": nkIcyffNfT,
-  "👨🏽‍🦯": jmUGLdHNwc,
-  "👨🏽‍🦰": vUSMvYoeLf,
-  "👨🏽‍🦱": avpfWNIQPy,
-  "👨🏽‍🦲": eAAOnakmqB,
-  "👨🏽‍🦳": EuNHEXFBju,
-  "👨🏽‍🦼": HyCiWyWOGn,
-  "👨🏽‍🦽": gMwBebypPB,
-  "👨🏽‍⚕️": foMAYjHxLn,
-  "👨🏽‍⚖️": PuXrNewSWz,
-  "👨🏽‍✈️": lDbjCPqRRM,
-  "👨🏽‍❤️‍👨🏻": DwyviPqGwU,
-  "👨🏽‍❤️‍👨🏼": XLYDgrllMd,
-  "👨🏽‍❤️‍👨🏽": WVRtaMDOYB,
-  "👨🏽‍❤️‍👨🏾": qEVGIndNnA,
-  "👨🏽‍❤️‍👨🏿": JInKbyoQax,
-  "👨🏽‍❤️‍💋‍👨🏻": aLEgLhLyoK,
-  "👨🏽‍❤️‍💋‍👨🏼": JpvFOiUXBd,
-  "👨🏽‍❤️‍💋‍👨🏽": lPdvdxjhXk,
-  "👨🏽‍❤️‍💋‍👨🏾": vQeNzFjHgz,
-  "👨🏽‍❤️‍💋‍👨🏿": ARnxDwPikF,
-  "👨🏽": cZspNvvBvK,
-  "👨🏾‍🌾": rvafULcTDf,
-  "👨🏾‍🍳": cHhZVtBXEi,
-  "👨🏾‍🍼": VMQucqtmMm,
-  "👨🏾‍🎓": pcJcfVSaVT,
-  "👨🏾‍🎤": ymJIMmNxPH,
-  "👨🏾‍🎨": uenIHvtOzw,
-  "👨🏾‍🏫": StoLSpYTuH,
-  "👨🏾‍🏭": KIhXKFwPHe,
-  "👨🏾‍💻": QRQZaBigqp,
-  "👨🏾‍💼": aDecldtQtW,
-  "👨🏾‍🔧": YxtvMJHpvN,
-  "👨🏾‍🔬": EFkYjVAwnr,
-  "👨🏾‍🚀": xcgnVyirYC,
-  "👨🏾‍🚒": LPtqAycpHh,
-  "👨🏾‍🤝‍👨🏻": VvniHhYWyU,
-  "👨🏾‍🤝‍👨🏼": eDPweqWBGV,
-  "👨🏾‍🤝‍👨🏽": CyLTGfufMp,
-  "👨🏾‍🤝‍👨🏿": gFocWjsgpo,
-  "👨🏾‍🦯": IbzETVAJEV,
-  "👨🏾‍🦰": icWthDImyj,
-  "👨🏾‍🦱": QaDqfvKZXt,
-  "👨🏾‍🦲": aFygwPOAGh,
-  "👨🏾‍🦳": GfHFBtDVhU,
-  "👨🏾‍🦼": GCMOEephhA,
-  "👨🏾‍🦽": wMsKtxjPhe,
-  "👨🏾‍⚕️": qABoDRCUje,
-  "👨🏾‍⚖️": aNZlIhKKQM,
-  "👨🏾‍✈️": hzkfVlEhrQ,
-  "👨🏾‍❤️‍👨🏻": xmaVqqqulL,
-  "👨🏾‍❤️‍👨🏼": mBGpNfdpTD,
-  "👨🏾‍❤️‍👨🏽": PtLcFHMyVN,
-  "👨🏾‍❤️‍👨🏾": TzIhLMSrSs,
-  "👨🏾‍❤️‍👨🏿": qfABKsbMMb,
-  "👨🏾‍❤️‍💋‍👨🏻": lgFDsRCwdb,
-  "👨🏾‍❤️‍💋‍👨🏼": DjUCaUHImu,
-  "👨🏾‍❤️‍💋‍👨🏽": FNYGxAaTBf,
-  "👨🏾‍❤️‍💋‍👨🏾": jDvKjOJGEY,
-  "👨🏾‍❤️‍💋‍👨🏿": PQERQgVhzJ,
-  "👨🏾": HjMhALXSeh,
-  "👨🏿‍🌾": LavYsYTJYP,
-  "👨🏿‍🍳": CKSuyPDlbj,
-  "👨🏿‍🍼": wojqnAHmYI,
-  "👨🏿‍🎓": vARrdMgkFF,
-  "👨🏿‍🎤": BaKduIjIEO,
-  "👨🏿‍🎨": sHElQLuVto,
-  "👨🏿‍🏫": DCNzLPGLro,
-  "👨🏿‍🏭": odGXtiPWGB,
-  "👨🏿‍💻": kObdGbrnLF,
-  "👨🏿‍💼": qNAtCXtvYW,
-  "👨🏿‍🔧": UosCsEPIsb,
-  "👨🏿‍🔬": scShzdTEbD,
-  "👨🏿‍🚀": FqXRNoHBKS,
-  "👨🏿‍🚒": GIHhmmbrmg,
-  "👨🏿‍🤝‍👨🏻": HGcVHjfGQp,
-  "👨🏿‍🤝‍👨🏼": GzGScuaYTl,
-  "👨🏿‍🤝‍👨🏽": MlMuWQmFPL,
-  "👨🏿‍🤝‍👨🏾": XwZEqHFxZt,
-  "👨🏿‍🦯": bGldrDTGHQ,
-  "👨🏿‍🦰": EFyTHmMUcr,
-  "👨🏿‍🦱": azNQmFUZPz,
-  "👨🏿‍🦲": FCeBxScsRR,
-  "👨🏿‍🦳": qqsXgAOXSq,
-  "👨🏿‍🦼": suwDXiWnot,
-  "👨🏿‍🦽": pvNJdOKAVv,
-  "👨🏿‍⚕️": HWtWdSMbwM,
-  "👨🏿‍⚖️": kzuJaCahRt,
-  "👨🏿‍✈️": wpBBmfadLo,
-  "👨🏿‍❤️‍👨🏻": ocOVwHkgRk,
-  "👨🏿‍❤️‍👨🏼": UuPoWbvEyC,
-  "👨🏿‍❤️‍👨🏽": rQBaEzSCiR,
-  "👨🏿‍❤️‍👨🏾": kCXjrYSikO,
-  "👨🏿‍❤️‍👨🏿": hadIiQfMYX,
-  "👨🏿‍❤️‍💋‍👨🏻": YpkBFXShJu,
-  "👨🏿‍❤️‍💋‍👨🏼": LMEWIOXojP,
-  "👨🏿‍❤️‍💋‍👨🏽": PDClyqnyEr,
-  "👨🏿‍❤️‍💋‍👨🏾": kaycqGKtiF,
-  "👨🏿‍❤️‍💋‍👨🏿": LGNRpoRfwV,
-  "👨🏿": rhJVfQKUvX,
-  "👨‍🌾": qNYurwlvam,
-  "👨‍🍳": PGcTknLAiG,
-  "👨‍🍼": EfQUcoyFhq,
-  "👨‍🎓": ykdZTmOLfG,
-  "👨‍🎤": hqAvAOxfgA,
-  "👨‍🎨": eHSWOgkQbq,
-  "👨‍🏫": OYwImIbXAF,
-  "👨‍🏭": kApdnvBIEu,
-  "👨‍👦‍👦": QQUvnTGfSG,
-  "👨‍👦": TBeBuAgvlY,
-  "👨‍👧‍👦": mUtVjzUDxe,
-  "👨‍👧‍👧": akfZqeaIKd,
-  "👨‍👧": UgawmBBAhK,
-  "👨‍👨‍👦‍👦": MgSpnlKqna,
-  "👨‍👨‍👦": bIJCtaPAFR,
-  "👨‍👨‍👧‍👦": vRjxiyCHTR,
-  "👨‍👨‍👧‍👧": pYcYyRygPE,
-  "👨‍👨‍👧": FznVjzEpJK,
-  "👨‍👩‍👦‍👦": xcOKtwoUao,
-  "👨‍👩‍👦": PvxUjfkzgI,
-  "👨‍👩‍👧‍👦": ZAmXfOiRDz,
-  "👨‍👩‍👧‍👧": HXeKLIInZf,
-  "👨‍👩‍👧": qzHaDYAJYy,
-  "👨‍💻": ifXBdfLaPw,
-  "👨‍💼": GMrjpzFjeT,
-  "👨‍🔧": htGjLRXXra,
-  "👨‍🔬": MQKpUwpfBR,
-  "👨‍🚀": HjpMtFwoWX,
-  "👨‍🚒": yPWzcZLjUB,
-  "👨‍🦯": qKmXcmLFdp,
-  "👨‍🦰": UDyBjAYvpT,
-  "👨‍🦱": iiAnPdmCes,
-  "👨‍🦲": qBBMZxpaFY,
-  "👨‍🦳": EFTKQXQKKZ,
-  "👨‍🦼": zYRqjTUmwm,
-  "👨‍🦽": pTrrkxmKcb,
-  "👨‍🪩": OrGDawNFAb,
-  "👨‍⚕️": zedsjlAALa,
-  "👨‍⚖️": BprHRFSesg,
-  "👨‍✈️": fjBfNNPmLV,
-  "👨‍❤️‍👨": rLqgTukGue,
-  "👨‍❤️‍💋‍👨": nGLQhueMME,
-  "👨": WlqcITFXqa,
-  "👩🏻‍🌾": JjsNbWnEOF,
-  "👩🏻‍🍳": lYZyyUwkZx,
-  "👩🏻‍🍼": ZDotEgxoDW,
-  "👩🏻‍🎓": GexspKDVsv,
-  "👩🏻‍🎤": hSLcgPLYCD,
-  "👩🏻‍🎨": LaxcMyVOZB,
-  "👩🏻‍🏫": qjfWSOPMbL,
-  "👩🏻‍🏭": emmGodFkxS,
-  "👩🏻‍💻": hKCDQqjpNL,
-  "👩🏻‍💼": HEFlHeuIAQ,
-  "👩🏻‍🔧": SMnqoymsbT,
-  "👩🏻‍🔬": dNuQeknpZT,
-  "👩🏻‍🚀": vAQlNKtcDz,
-  "👩🏻‍🚒": EfYWCNjJBR,
-  "👩🏻‍🤝‍👨🏼": fKlBvsPKBI,
-  "👩🏻‍🤝‍👨🏽": LcakgZfkpL,
-  "👩🏻‍🤝‍👨🏾": uZWYiaIxuv,
-  "👩🏻‍🤝‍👨🏿": MepfYtIlyG,
-  "👩🏻‍🤝‍👩🏼": WBGRljyjTM,
-  "👩🏻‍🤝‍👩🏽": BmglQCJmFJ,
-  "👩🏻‍🤝‍👩🏾": frSgAaZdna,
-  "👩🏻‍🤝‍👩🏿": kLvqcTBJzJ,
-  "👩🏻‍🦯": FNoKnoHYvk,
-  "👩🏻‍🦰": DEAMAfZRrT,
-  "👩🏻‍🦱": YJOpvGMpRw,
-  "👩🏻‍🦲": hSUSfxTQZn,
-  "👩🏻‍🦳": LhFsjMXwGU,
-  "👩🏻‍🦼": AfHOxVtqQT,
-  "👩🏻‍🦽": yPWEMwFZkT,
-  "👩🏻‍⚕️": GNdvgyCVoc,
-  "👩🏻‍⚖️": SYCGzwLQSq,
-  "👩🏻‍✈️": LEGxQZxDMR,
-  "👩🏻‍❤️‍👨🏻": AhSfhpOyQO,
-  "👩🏻‍❤️‍👨🏼": woJXjDHsKy,
-  "👩🏻‍❤️‍👨🏽": olSJeStopr,
-  "👩🏻‍❤️‍👨🏾": gBanUHleSm,
-  "👩🏻‍❤️‍👨🏿": NUHTfCuDqT,
-  "👩🏻‍❤️‍👩🏻": KFuckzdmVg,
-  "👩🏻‍❤️‍👩🏼": MebvupmNSn,
-  "👩🏻‍❤️‍👩🏽": vBWVMdFGLI,
-  "👩🏻‍❤️‍👩🏾": xkwUXkclwA,
-  "👩🏻‍❤️‍👩🏿": uFQagWRBdf,
-  "👩🏻‍❤️‍💋‍👨🏻": vvTqGiXmfZ,
-  "👩🏻‍❤️‍💋‍👨🏼": BaIkgBHTIs,
-  "👩🏻‍❤️‍💋‍👨🏽": GTcJfRXORU,
-  "👩🏻‍❤️‍💋‍👨🏾": oTZHqDTBVU,
-  "👩🏻‍❤️‍💋‍👨🏿": QdMmPVqYOh,
-  "👩🏻‍❤️‍💋‍👩🏻": vQIvHtMgrq,
-  "👩🏻‍❤️‍💋‍👩🏼": UnrGBRShMa,
-  "👩🏻‍❤️‍💋‍👩🏽": GfcwRLHRqN,
-  "👩🏻‍❤️‍💋‍👩🏾": exxomXjNCu,
-  "👩🏻‍❤️‍💋‍👩🏿": khxKGIqnyd,
-  "👩🏻": mOAwvtmClI,
-  "👩🏼‍🌾": xeTPezRoXM,
-  "👩🏼‍🍳": hmWPsfzBBj,
-  "👩🏼‍🍼": kwfimisbsQ,
-  "👩🏼‍🎓": XwFvaKMNRM,
-  "👩🏼‍🎤": ZNdWvXQNpz,
-  "👩🏼‍🎨": KgPnVUGKOf,
-  "👩🏼‍🏫": SaXEoatIHw,
-  "👩🏼‍🏭": PDfcnkTgxs,
-  "👩🏼‍💻": UifhVfertF,
-  "👩🏼‍💼": IyrOLPkvKq,
-  "👩🏼‍🔧": GytvNYpIEG,
-  "👩🏼‍🔬": tsTxezCGeH,
-  "👩🏼‍🚀": YCcZCipSUd,
-  "👩🏼‍🚒": TUJQDvTTmO,
-  "👩🏼‍🤝‍👨🏻": ySdsBOsJyV,
-  "👩🏼‍🤝‍👨🏽": YLouPqUmpx,
-  "👩🏼‍🤝‍👨🏾": eVQuLHHjSQ,
-  "👩🏼‍🤝‍👨🏿": TxDvQOVOZN,
-  "👩🏼‍🤝‍👩🏻": traKkufLWN,
-  "👩🏼‍🤝‍👩🏽": GsykQPrBdN,
-  "👩🏼‍🤝‍👩🏾": nmJdNdgRgR,
-  "👩🏼‍🤝‍👩🏿": XoAyXlACoD,
-  "👩🏼‍🦯": IwHbXIJBpw,
-  "👩🏼‍🦰": tdoVbcHxLS,
-  "👩🏼‍🦱": GLSYqChRkj,
-  "👩🏼‍🦲": mHpAQQUkHQ,
-  "👩🏼‍🦳": MguQrjyPzO,
-  "👩🏼‍🦼": hbGqDVfqQE,
-  "👩🏼‍🦽": oTrYrzAmpQ,
-  "👩🏼‍⚕️": nKRkBtFYtk,
-  "👩🏼‍⚖️": pUgwiCqPSC,
-  "👩🏼‍✈️": nXDYTplyxR,
-  "👩🏼‍❤️‍👨🏻": nLgLwzBuuk,
-  "👩🏼‍❤️‍👨🏼": bGpbQyUaZx,
-  "👩🏼‍❤️‍👨🏽": heHegSTeHb,
-  "👩🏼‍❤️‍👨🏾": vvPLikIrzC,
-  "👩🏼‍❤️‍👨🏿": UThhOOeadj,
-  "👩🏼‍❤️‍👩🏻": pOAJlcLUWk,
-  "👩🏼‍❤️‍👩🏼": XvmVqloyHt,
-  "👩🏼‍❤️‍👩🏽": nYVMFxAlvz,
-  "👩🏼‍❤️‍👩🏾": ullHwJywBG,
-  "👩🏼‍❤️‍👩🏿": zXGejyYfkx,
-  "👩🏼‍❤️‍💋‍👨🏻": RMmBGjjWFM,
-  "👩🏼‍❤️‍💋‍👨🏼": skbLRefszV,
-  "👩🏼‍❤️‍💋‍👨🏽": ylynMWlqyP,
-  "👩🏼‍❤️‍💋‍👨🏾": YuxkfsBnse,
-  "👩🏼‍❤️‍💋‍👨🏿": gMchkjvJIf,
-  "👩🏼‍❤️‍💋‍👩🏻": BqvMdGBIdU,
-  "👩🏼‍❤️‍💋‍👩🏼": cByQMwIryB,
-  "👩🏼‍❤️‍💋‍👩🏽": uAGPePDgwS,
-  "👩🏼‍❤️‍💋‍👩🏾": zqjepUPkyD,
-  "👩🏼‍❤️‍💋‍👩🏿": yOSYXuBDcX,
-  "👩🏼": zFCeHJQKiA,
-  "👩🏽‍🌾": RgPoZewrKU,
-  "👩🏽‍🍳": mbaMFBfUjE,
-  "👩🏽‍🍼": JaDdwqSThA,
-  "👩🏽‍🎓": BQhLvfGAez,
-  "👩🏽‍🎤": sNAuPQpAuF,
-  "👩🏽‍🎨": zdIjaHvCwC,
-  "👩🏽‍🏫": GdVhLCoPMA,
-  "👩🏽‍🏭": JaFmDQNMPD,
-  "👩🏽‍💻": wtZARVILFk,
-  "👩🏽‍💼": hlahdQQjXW,
-  "👩🏽‍🔧": GNDZAapShd,
-  "👩🏽‍🔬": SuQbVLnPdD,
-  "👩🏽‍🚀": VViwDKDLdq,
-  "👩🏽‍🚒": SnWnvughfk,
-  "👩🏽‍🤝‍👨🏻": vfVEMnhIUZ,
-  "👩🏽‍🤝‍👨🏼": lOHsJwNHmw,
-  "👩🏽‍🤝‍👨🏾": WpKlQiJbCd,
-  "👩🏽‍🤝‍👨🏿": GnSrYorkgG,
-  "👩🏽‍🤝‍👩🏻": iWaFASqcSq,
-  "👩🏽‍🤝‍👩🏼": wFMVLRqJDF,
-  "👩🏽‍🤝‍👩🏾": AacRrwOTft,
-  "👩🏽‍🤝‍👩🏿": nfKQbAGEVA,
-  "👩🏽‍🦯": dDCDuvfhXj,
-  "👩🏽‍🦰": jmOsJLyysp,
-  "👩🏽‍🦱": fYoUABfLyi,
-  "👩🏽‍🦲": muHFQubKTe,
-  "👩🏽‍🦳": RePUjiRWoC,
-  "👩🏽‍🦼": VDkYlyGUFD,
-  "👩🏽‍🦽": bSvwSuTerY,
-  "👩🏽‍⚕️": uLVvtvRJCC,
-  "👩🏽‍⚖️": vRpYggIhaK,
-  "👩🏽‍✈️": WJzOzhAzAC,
-  "👩🏽‍❤️‍👨🏻": anvrftFMRy,
-  "👩🏽‍❤️‍👨🏼": eDGKjzwsEX,
-  "👩🏽‍❤️‍👨🏽": DZYAKmWuAN,
-  "👩🏽‍❤️‍👨🏾": KVOCrbzsjc,
-  "👩🏽‍❤️‍👨🏿": ZiJzQlPAYC,
-  "👩🏽‍❤️‍👩🏻": fmvCuImIdZ,
-  "👩🏽‍❤️‍👩🏼": YnPsjacNDW,
-  "👩🏽‍❤️‍👩🏽": XpJsFBJVkg,
-  "👩🏽‍❤️‍👩🏾": tHUvvVBvve,
-  "👩🏽‍❤️‍👩🏿": XjBddJJXuk,
-  "👩🏽‍❤️‍💋‍👨🏻": lTMTsBZrIb,
-  "👩🏽‍❤️‍💋‍👨🏼": eowzRVSdxH,
-  "👩🏽‍❤️‍💋‍👨🏽": hsoLgmKhOI,
-  "👩🏽‍❤️‍💋‍👨🏾": gGHDJfzUzk,
-  "👩🏽‍❤️‍💋‍👨🏿": dPkCQJWMHe,
-  "👩🏽‍❤️‍💋‍👩🏻": HgsQhMfFxM,
-  "👩🏽‍❤️‍💋‍👩🏼": yyLVqhsmXA,
-  "👩🏽‍❤️‍💋‍👩🏽": qXJIGpMmet,
-  "👩🏽‍❤️‍💋‍👩🏾": lUgcWvEvjR,
-  "👩🏽‍❤️‍💋‍👩🏿": QnDECNflWZ,
-  "👩🏽": zaNPdtOrMy,
-  "👩🏾‍🌾": UElhrFyNvJ,
-  "👩🏾‍🍳": wjzUEysCux,
-  "👩🏾‍🍼": sFefSocmEu,
-  "👩🏾‍🎓": AVHQMcEmJq,
-  "👩🏾‍🎤": LeoUptFGzf,
-  "👩🏾‍🎨": ZcWlVuBlLv,
-  "👩🏾‍🏫": SXGHuokhbt,
-  "👩🏾‍🏭": FrtmgAZWrh,
-  "👩🏾‍💻": bSNBuGPbIx,
-  "👩🏾‍💼": OpAjnEfPoQ,
-  "👩🏾‍🔧": LnSGMOBPfh,
-  "👩🏾‍🔬": YYPeZeNANG,
-  "👩🏾‍🚀": VbbCnuvQZf,
-  "👩🏾‍🚒": JyzKnzlUhN,
-  "👩🏾‍🤝‍👨🏻": VGTHgYvOdy,
-  "👩🏾‍🤝‍👨🏼": SKpunFjUJQ,
-  "👩🏾‍🤝‍👨🏽": PAgziuADAS,
-  "👩🏾‍🤝‍👨🏿": JPLuwexTqU,
-  "👩🏾‍🤝‍👩🏻": ZsQMDriKLw,
-  "👩🏾‍🤝‍👩🏼": MINZUrXzeT,
-  "👩🏾‍🤝‍👩🏽": SGKdJTmgKZ,
-  "👩🏾‍🤝‍👩🏿": OTidRbILOy,
-  "👩🏾‍🦯": OLPZwkbbNG,
-  "👩🏾‍🦰": nvXMpchoyF,
-  "👩🏾‍🦱": yXgJhwZpse,
-  "👩🏾‍🦲": JLhzirSnRW,
-  "👩🏾‍🦳": XTqaaawMZz,
-  "👩🏾‍🦼": PNFCkypkkz,
-  "👩🏾‍🦽": aqLnGiGxOl,
-  "👩🏾‍⚕️": OddwIQIaIF,
-  "👩🏾‍⚖️": WVMtWssfyU,
-  "👩🏾‍✈️": XpZolYOJWL,
-  "👩🏾‍❤️‍👨🏻": lcmwIXuxYW,
-  "👩🏾‍❤️‍👨🏼": eWaVruSueC,
-  "👩🏾‍❤️‍👨🏽": CDLjrilmzz,
-  "👩🏾‍❤️‍👨🏾": WesrxuUHEA,
-  "👩🏾‍❤️‍👨🏿": TNlfBvbics,
-  "👩🏾‍❤️‍👩🏻": dSoGfbOYKI,
-  "👩🏾‍❤️‍👩🏼": XbRUADEDMp,
-  "👩🏾‍❤️‍👩🏽": ZhticYbNpI,
-  "👩🏾‍❤️‍👩🏾": nYRlrDeodq,
-  "👩🏾‍❤️‍👩🏿": cKpcaLFhnT,
-  "👩🏾‍❤️‍💋‍👨🏻": kTtBWOItAi,
-  "👩🏾‍❤️‍💋‍👨🏼": lmNqncYgwm,
-  "👩🏾‍❤️‍💋‍👨🏽": VrnZwLtEQQ,
-  "👩🏾‍❤️‍💋‍👨🏾": UBHtKRjxFC,
-  "👩🏾‍❤️‍💋‍👨🏿": JayFbYmnhU,
-  "👩🏾‍❤️‍💋‍👩🏻": jngXONuDDV,
-  "👩🏾‍❤️‍💋‍👩🏼": sWMtmJaVUO,
-  "👩🏾‍❤️‍💋‍👩🏽": MxCAzNwfGh,
-  "👩🏾‍❤️‍💋‍👩🏾": ykEwfXGfNr,
-  "👩🏾‍❤️‍💋‍👩🏿": HPrmvzZYNA,
-  "👩🏾": stNIZbUKre,
-  "👩🏿‍🌾": WIFHhzoXuF,
-  "👩🏿‍🍳": zeYsRRvOfL,
-  "👩🏿‍🍼": WamOhxgrZo,
-  "👩🏿‍🎓": fDDqFCOKWp,
-  "👩🏿‍🎤": ZvRgFBWIka,
-  "👩🏿‍🎨": kLTnIirgHr,
-  "👩🏿‍🏫": jMdQBwxqax,
-  "👩🏿‍🏭": cjAgLXbOUh,
-  "👩🏿‍💻": aijjIbLHlF,
-  "👩🏿‍💼": UaceFKSRPw,
-  "👩🏿‍🔧": fJYNSvkiBn,
-  "👩🏿‍🔬": wgCXbTkTwQ,
-  "👩🏿‍🚀": gKcNKsJCLN,
-  "👩🏿‍🚒": iBVihHqonL,
-  "👩🏿‍🤝‍👨🏻": ZkZYWvVccq,
-  "👩🏿‍🤝‍👨🏼": gYHjOBTVAb,
-  "👩🏿‍🤝‍👨🏽": bUAzjgfBqr,
-  "👩🏿‍🤝‍👨🏾": bUwnzfsaMA,
-  "👩🏿‍🤝‍👩🏻": cxvgozoXGN,
-  "👩🏿‍🤝‍👩🏼": qAjhzqJXiX,
-  "👩🏿‍🤝‍👩🏽": yKjUuFzCCw,
-  "👩🏿‍🤝‍👩🏾": NZGCmbUXeC,
-  "👩🏿‍🦯": AwSZDIwEYx,
-  "👩🏿‍🦰": cITmADBley,
-  "👩🏿‍🦱": oFlpOvakGo,
-  "👩🏿‍🦲": etqGBkTJKh,
-  "👩🏿‍🦳": RSyHSPMZAC,
-  "👩🏿‍🦼": DreshrSjMJ,
-  "👩🏿‍🦽": TgJxlCBYzV,
-  "👩🏿‍⚕️": sHCiVpAlKQ,
-  "👩🏿‍⚖️": mDnGwgwSWp,
-  "👩🏿‍✈️": QccXHukdNi,
-  "👩🏿‍❤️‍👨🏻": DoIWtFdNdK,
-  "👩🏿‍❤️‍👨🏼": PGxksOXFjP,
-  "👩🏿‍❤️‍👨🏽": txvseRaNhu,
-  "👩🏿‍❤️‍👨🏾": VdzXxrXKTL,
-  "👩🏿‍❤️‍👨🏿": ZGvllScqEA,
-  "👩🏿‍❤️‍👩🏻": fVOFCaTBXE,
-  "👩🏿‍❤️‍👩🏼": eDLRMxbopj,
-  "👩🏿‍❤️‍👩🏽": eqXhnISMmO,
-  "👩🏿‍❤️‍👩🏾": IzgsBfphgK,
-  "👩🏿‍❤️‍👩🏿": sGgTZSoYte,
-  "👩🏿‍❤️‍💋‍👨🏻": UIFBuzCqWr,
-  "👩🏿‍❤️‍💋‍👨🏼": aSpLLEbTTs,
-  "👩🏿‍❤️‍💋‍👨🏽": qUgulZLyBf,
-  "👩🏿‍❤️‍💋‍👨🏾": GKCpouMiza,
-  "👩🏿‍❤️‍💋‍👨🏿": DuprwqqDJd,
-  "👩🏿‍❤️‍💋‍👩🏻": ZYppjpdXuZ,
-  "👩🏿‍❤️‍💋‍👩🏼": XWBTUSfVMz,
-  "👩🏿‍❤️‍💋‍👩🏽": MgBgiidxtt,
-  "👩🏿‍❤️‍💋‍👩🏾": fHRFrwEHEi,
-  "👩🏿‍❤️‍💋‍👩🏿": cVcUvJCeMd,
-  "👩🏿": mNELwdgnDe,
-  "👩‍🌾": wIzcHYfRnD,
-  "👩‍🍳": LVWyvONsnq,
-  "👩‍🍼": ynUmLIbZvv,
-  "👩‍🎓": PfqbFoofgw,
-  "👩‍🎤": DAGjkRhENS,
-  "👩‍🎨": HXZDXjeSNP,
-  "👩‍🏫": qoYZTVoxUJ,
-  "👩‍🏭": GoPJCvFdmK,
-  "👩‍👦‍👦": CIQDlMSLBm,
-  "👩‍👦": ZqBNVynCJn,
-  "👩‍👧‍👦": cbnTwPxMMg,
-  "👩‍👧‍👧": psCrWrQFLo,
-  "👩‍👧": dhUHKnzXwn,
-  "👩‍👩‍👦‍👦": DWbzWFSufP,
-  "👩‍👩‍👦": gAahXrdUfY,
-  "👩‍👩‍👧‍👦": MWmGOqxrXr,
-  "👩‍👩‍👧‍👧": zbZNnJtaGF,
-  "👩‍👩‍👧": UZtgTFUPwt,
-  "👩‍💻": THeTZhvXMH,
-  "👩‍💼": EmEhaDFUgv,
-  "👩‍🔧": owwnIUDryy,
-  "👩‍🔬": gpkISeSERS,
-  "👩‍🚀": ltsylAmFcT,
-  "👩‍🚒": PttkaUYgop,
-  "👩‍🦯": JUMGeSygzU,
-  "👩‍🦰": zMZFkVGgXY,
-  "👩‍🦱": bdmyQHpLYM,
-  "👩‍🦲": DdevgXUgVH,
-  "👩‍🦳": bUShveKPAZ,
-  "👩‍🦼": BsPtFZZrlb,
-  "👩‍🦽": SkhOesJDxO,
-  "👩‍🪩": CstiBsUwiH,
-  "👩‍⚕️": KOlInCHOIm,
-  "👩‍⚖️": DcCbXTqOMj,
-  "👩‍✈️": xKTRlfvbCY,
-  "👩‍❤️‍👨": rnhDWPhBgn,
-  "👩‍❤️‍👩": gEnyTwXDcy,
-  "👩‍❤️‍💋‍👨": BXUARlNYSk,
-  "👩‍❤️‍💋‍👩": XBmQWGqASr,
-  "👩": ROfSYTJrkV,
-  "👪": liWicHEUel,
-  "👫🏻": dEfAtartOL,
-  "👫🏼": mxJOwDrKMb,
-  "👫🏽": fdxfGnapez,
-  "👫🏾": KEBsWmWePG,
-  "👫🏿": EKslycxcJb,
-  "👫": etZycRrgrT,
-  "👬🏻": xMKgXbIjJu,
-  "👬🏼": RdroajJevi,
-  "👬🏽": oBjXoYqEBL,
-  "👬🏾": ytaZbNqqlS,
-  "👬🏿": FQcelfWPbL,
-  "👬": qcUmsyDEFo,
-  "👭🏻": DUtNKYvrDB,
-  "👭🏼": WFhcyyVnVP,
-  "👭🏽": fgyeOqDxvH,
-  "👭🏾": AmmvzzrzLP,
-  "👭🏿": ctlmRnqlFA,
-  "👭": LMMSJIgpKP,
-  "👮🏻‍♀️": iLNiQRGsvi,
-  "👮🏻‍♂️": GOZzqbKjFf,
-  "👮🏻": rlysxWayUg,
-  "👮🏼‍♀️": MBqXNbSfhD,
-  "👮🏼‍♂️": zqxtmRQttD,
-  "👮🏼": aLbHfOVEVd,
-  "👮🏽‍♀️": LyAXpQzjIb,
-  "👮🏽‍♂️": xygugGqXxM,
-  "👮🏽": yvaxXPIEhG,
-  "👮🏾‍♀️": VMPIUUUaij,
-  "👮🏾‍♂️": adoicTTGwZ,
-  "👮🏾": JRXzzzpibu,
-  "👮🏿‍♀️": YBYeFUharo,
-  "👮🏿‍♂️": fDPAyeYHkj,
-  "👮🏿": fogavljGtg,
-  "👮‍♀️": yYywAGcJXg,
-  "👮‍♂️": SqzEqeWudq,
-  "👮": rlLuVbTAJB,
-  "👯‍♀️": iObXxuwigb,
-  "👯‍♂️": sUheqpGSmF,
-  "👯": UKIVfoZGjF,
-  "👰🏻‍♀️": BoVCSrWdEb,
-  "👰🏻‍♂️": hzCHXuVmYu,
-  "👰🏻": EHdZnEzsVT,
-  "👰🏼‍♀️": rsrhZrjXpw,
-  "👰🏼‍♂️": LwfNiplCTz,
-  "👰🏼": MGuOVauTpo,
-  "👰🏽‍♀️": kTuNxQSZSI,
-  "👰🏽‍♂️": NWWrlVFVUk,
-  "👰🏽": SvKFHXcziO,
-  "👰🏾‍♀️": pUQofwqRaL,
-  "👰🏾‍♂️": dClVSRzDQD,
-  "👰🏾": PDuzDIjxXc,
-  "👰🏿‍♀️": YgZfZAEwVU,
-  "👰🏿‍♂️": gxbKPNIJlt,
-  "👰🏿": pzraCkhQkb,
-  "👰‍♀️": BkaJbRqdUc,
-  "👰‍♂️": WKpsTNPMUj,
-  "👰": LoWFXnQZzD,
-  "👱🏻‍♀️": uCxugwYxmY,
-  "👱🏻‍♂️": EzmmFubWOo,
-  "👱🏻": FALldZcSoj,
-  "👱🏼‍♀️": TGeqnKNKTH,
-  "👱🏼‍♂️": XMGfUPlGNJ,
-  "👱🏼": yYMgfHAhTG,
-  "👱🏽‍♀️": wTlvbuQpGX,
-  "👱🏽‍♂️": SebfINKCpr,
-  "👱🏽": JTfSTKdIMk,
-  "👱🏾‍♀️": WKYRAYosOK,
-  "👱🏾‍♂️": niIblxMQrf,
-  "👱🏾": ELikRvvsxR,
-  "👱🏿‍♀️": tquAgCQpUb,
-  "👱🏿‍♂️": angvsIVlAO,
-  "👱🏿": hzShiMEZTT,
-  "👱‍♀️": OcSIOPwKqd,
-  "👱‍♂️": ZcGrqbrXfh,
-  "👱": PDphfKivsd,
-  "👲🏻": IevzTPWBbc,
-  "👲🏼": IkcdbgGFHp,
-  "👲🏽": FMeFCxkuPW,
-  "👲🏾": uFfdTiVztC,
-  "👲🏿": KlrQsYgBtS,
-  "👲": vwDMkwbHOg,
-  "👳🏻‍♀️": fbdPvmBfhR,
-  "👳🏻‍♂️": ZTkMsBRGWi,
-  "👳🏻": aXJaxuiGHY,
-  "👳🏼‍♀️": hqCGdFapBn,
-  "👳🏼‍♂️": EYksiGSCpm,
-  "👳🏼": eViDXOSOpb,
-  "👳🏽‍♀️": ctTcOnVmZy,
-  "👳🏽‍♂️": XxOUClmFuv,
-  "👳🏽": ChKMoKixlI,
-  "👳🏾‍♀️": iVGJNFMCad,
-  "👳🏾‍♂️": rZZKJNJFwR,
-  "👳🏾": mopFbYdMIg,
-  "👳🏿‍♀️": fXkGiQYcpA,
-  "👳🏿‍♂️": OcxuzjRHxq,
-  "👳🏿": uFhvawYGJi,
-  "👳‍♀️": sDFMjipxfo,
-  "👳‍♂️": kltBmWkjiA,
-  "👳": zwcExQEJlr,
-  "👴🏻": EdXyJMObOH,
-  "👴🏼": rrDEvPosDO,
-  "👴🏽": xPiXiadgTk,
-  "👴🏾": xcrgABAWlS,
-  "👴🏿": jfZsecpBkX,
-  "👴": nCrhaILLVn,
-  "👵🏻": GAsRFmvCZa,
-  "👵🏼": ysbapOcOgm,
-  "👵🏽": ZGdsmeBEeh,
-  "👵🏾": iHqFfeMApR,
-  "👵🏿": uGKZBqHqwI,
-  "👵": CdHosufkuD,
-  "👶🏻": UstTYmKDkH,
-  "👶🏼": LscmmqZIbg,
-  "👶🏽": pMowfkOjWO,
-  "👶🏾": naUYkwrjHQ,
-  "👶🏿": jlacpncEOf,
-  "👶": YqRRlnkTxD,
-  "👷🏻‍♀️": VgvDcuyGox,
-  "👷🏻‍♂️": pLRDqqcGyc,
-  "👷🏻": WzJQOmQKcl,
-  "👷🏼‍♀️": VdlzpjCvby,
-  "👷🏼‍♂️": PhikbMlwKD,
-  "👷🏼": XIDOqGuDOn,
-  "👷🏽‍♀️": TyyOGlaYAC,
-  "👷🏽‍♂️": meyluJfLNR,
-  "👷🏽": UPWelpmFAK,
-  "👷🏾‍♀️": wtmcoWLELn,
-  "👷🏾‍♂️": WLePKHLNJW,
-  "👷🏾": UhyRNzUnAM,
-  "👷🏿‍♀️": BKtyyaswZA,
-  "👷🏿‍♂️": bWTDcjfEAM,
-  "👷🏿": TjyOzmqfZF,
-  "👷‍♀️": kokaoDRJvo,
-  "👷‍♂️": jArkTCWYHS,
-  "👷": ePNtpbzqis,
-  "👸🏻": McMZEFBbwg,
-  "👸🏼": tBfmbvnoPG,
-  "👸🏽": lWKPckOPpY,
-  "👸🏾": ocHvdZWoOD,
-  "👸🏿": ZdutIiIypl,
-  "👸": ZhMkSbWlTK,
-  "👹": toUwfnBTyv,
-  "👺": WDqxVIfWHx,
-  "👻": OzazZLfqJA,
-  "👼🏻": OHmZsHannP,
-  "👼🏼": jTDqBrShTE,
-  "👼🏽": GsvVswdzsl,
-  "👼🏾": yuoGiOHnvm,
-  "👼🏿": aeSdxLUSSE,
-  "👼": FxZymBYHMK,
-  "👽": nTzJsybvWc,
-  "👾": XLqiunFEBd,
-  "👿": dGueBnAkse,
-  "💀": MisTXrQJvf,
-  "💁🏻‍♀️": GDDVvRmHzW,
-  "💁🏻‍♂️": NOuBMCcDsq,
-  "💁🏻": IfqPrTzlVx,
-  "💁🏼‍♀️": DnXniBnLNA,
-  "💁🏼‍♂️": OkewGEWBlU,
-  "💁🏼": dhnFBRkfgK,
-  "💁🏽‍♀️": uYdYksPGlT,
-  "💁🏽‍♂️": oTajqfiMQd,
-  "💁🏽": yxKOGCwqJS,
-  "💁🏾‍♀️": ipDjAiAiSU,
-  "💁🏾‍♂️": qtPoZfAeIU,
-  "💁🏾": aHrEExYDMR,
-  "💁🏿‍♀️": IVpxxpGSJE,
-  "💁🏿‍♂️": VzgSBTQbeq,
-  "💁🏿": EloktcBsUL,
-  "💁‍♀️": uoEsSMRVex,
-  "💁‍♂️": HVWXuYEMrC,
-  "💁": LnCGWUcXoE,
-  "💂🏻‍♀️": FVjyugWqgR,
-  "💂🏻‍♂️": oJRVcISRCz,
-  "💂🏻": gtkRJfsPJX,
-  "💂🏼‍♀️": bxziJcBtAl,
-  "💂🏼‍♂️": wYBJWSbcOL,
-  "💂🏼": HweSqufOKa,
-  "💂🏽‍♀️": hyiWGfkojH,
-  "💂🏽‍♂️": pnxwIXPVay,
-  "💂🏽": sgtzByFRnj,
-  "💂🏾‍♀️": KNNLCUcaYZ,
-  "💂🏾‍♂️": qHqeVwVZkw,
-  "💂🏾": VhhhSZTBJS,
-  "💂🏿‍♀️": AMNqZhiaio,
-  "💂🏿‍♂️": kNuMLEUbIq,
-  "💂🏿": JUWsmFPCBB,
-  "💂‍♀️": vQHwDosFcw,
-  "💂‍♂️": HcFbNzwSUV,
-  "💂": TKlEryJkKw,
-  "💃🏻": IPLHvitGZd,
-  "💃🏼": LdJFBQjZdg,
-  "💃🏽": lXtqRxZdaZ,
-  "💃🏾": RjvsFlauby,
-  "💃🏿": vMUlObChvf,
-  "💃": AltmpKanYM,
-  "💄": EpFfTzmbRK,
-  "💅🏻": KVZZMgKSfY,
-  "💅🏼": IiIXdIqKBT,
-  "💅🏽": iiVYeuwqrH,
-  "💅🏾": DNiUujlGIv,
-  "💅🏿": RqsZbOxNtS,
-  "💅": gbJCQOCIim,
-  "💆🏻‍♀️": rBPCmBgKGO,
-  "💆🏻‍♂️": yyNkObIxvP,
-  "💆🏻": JqVCDnoagE,
-  "💆🏼‍♀️": ziImWdjraz,
-  "💆🏼‍♂️": QDuqYeCzgy,
-  "💆🏼": hQbBNKLLBK,
-  "💆🏽‍♀️": QHEcCPrLnS,
-  "💆🏽‍♂️": GCmJoRwtDY,
-  "💆🏽": UlhrlWcAmm,
-  "💆🏾‍♀️": calbnjbckF,
-  "💆🏾‍♂️": YQjRddXfCN,
-  "💆🏾": vIRqeKCWil,
-  "💆🏿‍♀️": QzbohBmQwZ,
-  "💆🏿‍♂️": pDApStFpIh,
-  "💆🏿": OPeWiEBUCO,
-  "💆‍♀️": qyvUlYgDLk,
-  "💆‍♂️": vXtqJEMpNp,
-  "💆": yrwBOpVnka,
-  "💇🏻‍♀️": HznkiMjqlU,
-  "💇🏻‍♂️": ZSDUZDGfJg,
-  "💇🏻": gketzlpWOD,
-  "💇🏼‍♀️": rQTKYBFOlc,
-  "💇🏼‍♂️": mhqtEqgwLh,
-  "💇🏼": pWAiPVIDLk,
-  "💇🏽‍♀️": yovcWtDdRb,
-  "💇🏽‍♂️": cSANioGquD,
-  "💇🏽": vokqfVYPDT,
-  "💇🏾‍♀️": oNKdEDbnKq,
-  "💇🏾‍♂️": LvlwviSfqA,
-  "💇🏾": NXpYaMcRgh,
-  "💇🏿‍♀️": EfecDhGdZL,
-  "💇🏿‍♂️": UCJBdqzsOk,
-  "💇🏿": wUXEWFXhVt,
-  "💇‍♀️": CIToHZmduv,
-  "💇‍♂️": xXuxNnVatK,
-  "💇": qtcLSsngOv,
-  "💈": FaCKcNZICi,
-  "💉": mFdUpOOeRG,
-  "💊": pwzcxikfPv,
-  "💋": cFXRitSVPy,
-  "💌": EhcBBFPvmV,
-  "💍": fAfmYmaPZJ,
-  "💎": ISOgqgikBx,
-  "💏🏻": tIyyPMwTnT,
-  "💏🏼": kKFluAMrao,
-  "💏🏽": ahBOqMSEdF,
-  "💏🏾": CwtMPbwJdi,
-  "💏🏿": PZzVVGQtwV,
-  "💏": EaMVwhxmzi,
-  "💐": VpWIzxdJTw,
-  "💑🏻": EYHUwkzdny,
-  "💑🏼": YJlQddinCH,
-  "💑🏽": ufvgPPDPbT,
-  "💑🏾": lCqIZoEOJW,
-  "💑🏿": pSRdnaTzbL,
-  "💑": ytRKxRggII,
-  "💒": WzUvrESYzA,
-  "💓": XHFlqHjZYC,
-  "💔": ZPAQuCJJfN,
-  "💕": vZYpDXmWKJ,
-  "💖": kfNYnlTvvP,
-  "💗": shepFxOWiM,
-  "💘": gMNfYBUJDH,
-  "💙": LzfCekvDTI,
-  "💚": sehXOXeiBT,
-  "💛": kiOJdXbTdM,
-  "💜": jUQPzZRNxo,
-  "💝": QCiQSwFJjq,
-  "💞": PSQFpkogWD,
-  "💟": GdClFkLsRP,
-  "💠": HYQRbctHWC,
-  "💡": XcigktrleJ,
-  "💢": HPPcwpyXXB,
-  "💣": sHdVCDtZVX,
-  "💤": qIuFuxtsRU,
-  "💥": nCfWZczYvH,
-  "💦": mtcWTleEAQ,
-  "💧": NyNaSzHAIs,
-  "💨": pjNkFaWNkG,
-  "💩": tDCHedBiHQ,
-  "💪🏻": bRdjOqOxlC,
-  "💪🏼": srbnSbPhYE,
-  "💪🏽": zqOoaxBvTx,
-  "💪🏾": CPitcvHuTc,
-  "💪🏿": oiuvKkBkRr,
-  "💪": afuwKetjuU,
-  "💫": DudwRvRQCW,
-  "💬": AhbZruwrMr,
-  "💭": cjgBsUsqzr,
-  "💮": ShDXxBXvoT,
-  "💯": fsJPenyNUC,
-  "💰": FeHixeNcOy,
-  "💱": TBMPwqosPu,
-  "💲": ZvGeLSTUMJ,
-  "💳": tKrNOBNgTH,
-  "💴": KTnoFZvDDE,
-  "💵": ncbdLeqPoL,
-  "💶": dGHDUpFQTM,
-  "💷": owCYHqNzvY,
-  "💸": vcqNHAxsFH,
-  "💹": sSsuESSFfG,
-  "💺": mhsMwyTAkT,
-  "💻": QeFUWbiPcZ,
-  "💼": CLwgeMWOqh,
-  "💽": FfCdNRVLxT,
-  "💾": EZbiRkbKiD,
-  "💿": cwJMNbixUN,
-  "📀": KCQdRYrBji,
-  "📁": LaBQadjwKk,
-  "📂": gvoAHvOLKX,
-  "📃": GuFSrjWuMD,
-  "📄": wUjBvUTnfs,
-  "📅": MaLlzMksdk,
-  "📆": dFYJUpTnRv,
-  "📇": tumloKBpLm,
-  "📈": XGwtgkoiiZ,
-  "📉": kkeqwXIHcb,
-  "📊": yYSuMnMDDL,
-  "📋": jefAdugGTQ,
-  "📌": CjhFWpUuNF,
-  "📍": aRCsgwCHyK,
-  "📎": PecEbfbTGc,
-  "📏": ltwHlsWEMQ,
-  "📐": TlezyTElmn,
-  "📑": hphEyxUqlM,
-  "📒": oeNoGKMGIb,
-  "📓": YFMHXqYVzj,
-  "📔": TPRhRkmIjL,
-  "📕": xKqGigbtrq,
-  "📖": vJScIuFTGi,
-  "📗": aZWVveSQhI,
-  "📘": oKgPymwRpX,
-  "📙": EbFtCDXeVD,
-  "📚": GrXxWOTaaV,
-  "📛": HTuLmzHjJe,
-  "📜": eQuhFuAazz,
-  "📝": ncCmmEuEVC,
-  "📞": pNaZVePhpn,
-  "📟": xXLlIgMIyx,
-  "📠": TCzrIRSenn,
-  "📡": mZbvKSmEkR,
-  "📢": czhpAPAXnL,
-  "📣": LeudKnHPus,
-  "📤": jKniCUYfla,
-  "📥": dWAsEdAAHp,
-  "📦": zGHRnzPRKt,
-  "📧": XKbJKUiLNH,
-  "📨": ePgBEiDVYJ,
-  "📩": dDtNyBoCii,
-  "📪": eWijtzkYmk,
-  "📫": HuuFvWbSXM,
-  "📬": RBaMIyiEGb,
-  "📭": CGBHWUitdo,
-  "📮": KUSjVIYjoe,
-  "📯": eLJOCzhmeo,
-  "📰": PEttwMizdD,
-  "📱": iDarSbFTgz,
-  "📲": VwnqVkCXZw,
-  "📳": TEfOpjRiCX,
-  "📴": JsaietyIVO,
-  "📵": PZXCUzQjCv,
-  "📶": SeCPbqEQWM,
-  "📷": kFWJqgifyr,
-  "📸": xgCxHSpifi,
-  "📹": fUjIGZUGGs,
-  "📺": jDUGbPfEJe,
-  "📻": UXFcmFqYxi,
-  "📼": KrUUTQsScv,
-  "📽": DjIHOVsunw,
-  "📿": qhpNxdKniN,
-  "🔀": GOUiXQHzRp,
-  "🔁": QIiTYfGqNX,
-  "🔂": RndTNfRVJc,
-  "🔃": OlEmyjoCvR,
-  "🔄": LEawXdqUhJ,
-  "🔅": hQewAeGnfU,
-  "🔆": HnztEvcVvN,
-  "🔇": LuWmmEqrDZ,
-  "🔈": IJTufzhzKd,
-  "🔉": iFLJHQfmBQ,
-  "🔊": EoZgDKBIZM,
-  "🔋": bkkUUVlKRi,
-  "🔌": jnFxIpdIZU,
-  "🔍": aYYmMDpAsa,
-  "🔎": aOATsIZhbZ,
-  "🔏": nmipGnOibd,
-  "🔐": WvPEPodcdv,
-  "🔑": OhVXHWJvBG,
-  "🔒": GPjmsiLbgY,
-  "🔓": JtORlAHAJm,
-  "🔔": VPPxokkkZp,
-  "🔕": NfOBaFcCIU,
-  "🔖": yOePBljgGD,
-  "🔗": XgFLUdisbc,
-  "🔘": ahblXNzqRr,
-  "🔙": uSiUuBvblD,
-  "🔚": cxxTGfrZdv,
-  "🔛": kunvABXXeR,
-  "🔜": VsVjOpCuyB,
-  "🔝": yasVoPztWP,
-  "🔞": wilSHExUjN,
-  "🔟": hdXFRnaRNP,
-  "🔠": zhjLMwAYhj,
-  "🔡": wwiyhDXdNu,
-  "🔢": PeUzTuZpDE,
-  "🔣": PiobMYWMHU,
-  "🔤": yCuVKawltk,
-  "🔥": dUMLClrvpL,
-  "🔦": yyVuQWmDVo,
-  "🔧": umMXzlXcDp,
-  "🔨": IsVrHohMlk,
-  "🔩": UmYqlLfpMH,
-  "🔪": VEMDjQbXDt,
-  "🔫": JwNQCTGEZX,
-  "🔬": BsVYjgrrDh,
-  "🔭": FmLebFeIDb,
-  "🔮": GuhMitnrXg,
-  "🔯": PoiQAMBGdq,
-  "🔰": NOtQUkifwk,
-  "🔱": LqwFXOEZpc,
-  "🔲": ZMiNMgxApw,
-  "🔳": NCbDZHOHFU,
-  "🔴": bgSZWDMnvD,
-  "🔵": aleBNBsxxN,
-  "🔶": VCYKAjzEXv,
-  "🔷": ngEBOcUDor,
-  "🔸": TZAbOFKuxi,
-  "🔹": QSNsXpeRFe,
-  "🔺": RuCWWLJZQK,
-  "🔻": gKqSLcdyjw,
-  "🔼": GenXWbcHPk,
-  "🔽": wdDsXgCJDx,
-  "🕉": UnksbpQbwP,
-  "🕊️": OaAsxzVjDF,
-  "🕋": eTikHrhiyK,
-  "🕌": rCxDItMpqg,
-  "🕍": fVuzQlerGT,
-  "🕎": tjQEqQzhkr,
-  "🕐": mqrBuaKiMh,
-  "🕑": uLczsKzdbT,
-  "🕒": rhpIXEHKBW,
-  "🕓": BmwkTqHOpV,
-  "🕔": DVneMjTuxx,
-  "🕕": fSBAfyLkXW,
-  "🕖": VeyMwrjVJA,
-  "🕗": YuicGWpiPo,
-  "🕘": WvcbAEAwhA,
-  "🕙": QHaMPGXCMA,
-  "🕚": MIDKasMxUw,
-  "🕛": DgyBASvUCr,
-  "🕜": kjHJsSGtwh,
-  "🕝": VKuGYhHazj,
-  "🕞": ENOqEnWQeL,
-  "🕟": XFPNjzRPcf,
-  "🕠": hObolyGIvk,
-  "🕡": xLpjXaoHUF,
-  "🕢": NVFcqBlqsy,
-  "🕣": rFvNaIhPRo,
-  "🕤": fpGzMhsOYr,
-  "🕥": AlBJMSJbCr,
-  "🕦": jeKPqhTJEQ,
-  "🕧": CvDAhXjbjs,
-  "🕯": aCJkfAXYPL,
-  "🕰": gifvmRqnel,
-  "🕳": eOIopzoIVT,
-  "🕴🏻": qXNtMPCdKj,
-  "🕴🏼": sonbkJDZkP,
-  "🕴🏽": NKVagnfcKJ,
-  "🕴🏾": SGPeOyPNVc,
-  "🕴🏿": MLyEXOHysP,
-  "🕴": WOAbHRhjSD,
-  "🕵🏻‍♀️": fGaKLiUNEc,
-  "🕵🏻‍♂️": IaQgbcuEgs,
-  "🕵🏻": ieDJMlWBdr,
-  "🕵🏼‍♀️": vCNHMOObbK,
-  "🕵🏼‍♂️": YOjnGWduqK,
-  "🕵🏼": zfKIoGPVMU,
-  "🕵🏽‍♀️": EKyoLXguMu,
-  "🕵🏽‍♂️": zqyWOhJgYn,
-  "🕵🏽": OBLZpxBVJZ,
-  "🕵🏾‍♀️": evTkDgDREe,
-  "🕵🏾‍♂️": rnqZROMBzD,
-  "🕵🏾": HwNnpVGwIc,
-  "🕵🏿‍♀️": IaktFHsiZk,
-  "🕵🏿‍♂️": nukFsIpVZI,
-  "🕵🏿": NpbtwtXcDx,
-  "🕵️‍♀️": vLRwmjANdQ,
-  "🕵️‍♂️": aKItoaOlWn,
-  "🕵": EaQkDiqdnv,
-  "🕶": QdeVqiZbPR,
-  "🕷": CadRhpVgOD,
-  "🕸": dLKvHItwZe,
-  "🕹": wpQlZnEjJS,
-  "🕺🏻": zHzNiIMnwa,
-  "🕺🏼": VFtFOegTMA,
-  "🕺🏽": paCjDlAQcl,
-  "🕺🏾": cJbIzQvqPT,
-  "🕺🏿": KcnplzGaoo,
-  "🕺": EttpiurMWS,
-  "🖇": xzJzdXxbGm,
-  "🖊": gnLWOdtvnd,
-  "🖋": GhnXRvglen,
-  "🖌": dAtFqwylAA,
-  "🖍": KayOOqpmDH,
-  "🖐🏻": lgSovKevMH,
-  "🖐🏼": bEgWrcyHaK,
-  "🖐🏽": ZEiKDymcrA,
-  "🖐🏾": rhwargxfsK,
-  "🖐🏿": FJCwOamgbr,
-  "🖐": AfNcAHAfHx,
-  "🖕🏻": JsEjHnYcOK,
-  "🖕🏼": RcaqiMzqkg,
-  "🖕🏽": dAPZWiBqLx,
-  "🖕🏾": ghcQeUSPTS,
-  "🖕🏿": tYmcfQBTiT,
-  "🖕": pOBREjNqse,
-  "🖖🏻": xdJYrRWnrK,
-  "🖖🏼": TnCSNqkXDp,
-  "🖖🏽": VSnDcGGmWh,
-  "🖖🏾": FanAugURCw,
-  "🖖🏿": MqBoTmYvck,
-  "🖖": QoZuyxUUdc,
-  "🖤": DTZDsRhDzj,
-  "🖥": vdNlHWntgA,
-  "🖨": uzBezxHYpd,
-  "🖱": onsDfUztNc,
-  "🖲": GmhFddggyx,
-  "🖼": SeuXKXCzmG,
-  "🗂": MbjGWvcvaF,
-  "🗃": DuksoWNMkE,
-  "🗄": YDeebPCicZ,
-  "🗑": gghsneEgXZ,
-  "🗒": fiYPvzHqxF,
-  "🗓": GgkNzOLRCX,
-  "🗜": TBgiqhrDRF,
-  "🗝": yjbAlczaEh,
-  "🗞": UztlQJUfzh,
-  "🗡": nJiDUXiNWP,
-  "🗣": IMQiyJaLKp,
-  "🗨": KrcIxYhrXi,
-  "🗯": TRQMsMLztp,
-  "🗳": BVaXNVGcgY,
-  "🗺️": wnwgcJPYJN,
-  "🗻": MefyGaLaGT,
-  "🗼": pcJLYcNtEl,
-  "🗽": fallXZUzIC,
-  "🗾": tiOeLpKOri,
-  "🗿": CArAPaTPuo,
-  "😀": CxAwWPVBhD,
-  "😁": qrXcSDFJMG,
-  "😂": pVEeUoCAMG,
-  "😃": TjwzyZLdJa,
-  "😄": DSsHRmDvxD,
-  "😅": ZYUdLDsLej,
-  "😆": JWDkFKxMLA,
-  "😇": LGZNYbpuLb,
-  "😈": qRdKrYbNNT,
-  "😉": wslIydaQOu,
-  "😊": BdBhblGsPP,
-  "😋": hQJxNAJHfs,
-  "😌": saoMCVbFkG,
-  "😍": sZTDDVWmGB,
-  "😎": WfwpKvHVOp,
-  "😏": fCHTLhDiuR,
-  "😐": HVlRDUIRGo,
-  "😑": zUpyNqYWyQ,
-  "😒": IZiPvMEDHR,
-  "😓": rOyFLdxJkf,
-  "😔": edhAGkShwn,
-  "😕": bOywVKocWD,
-  "😖": ZkKIuvjFBB,
-  "😗": RCFhfzVjRB,
-  "😘": JkHgEkkTQV,
-  "😙": KKEGQdGMmX,
-  "😚": EmxUgMvkVq,
-  "😛": vfHhojzewV,
-  "😜": HWdgTqEHhD,
-  "😝": cLIoBWbwEJ,
-  "😞": AcGPnwBgoT,
-  "😟": nNdemHUbTi,
-  "😠": PmlEcfeZpv,
-  "😡": uORfqHETko,
-  "😢": dLfWjbmTid,
-  "😣": CwqGpniICw,
-  "😤": gEAwiPlqEu,
-  "😥": ZgTkWLIUGv,
-  "😦": KVaOzJtfbY,
-  "😧": QdfEVubrub,
-  "😨": cwZcQTAxJg,
-  "😩": PYVBWMMrWh,
-  "😪": BBVcNHdick,
-  "😫": LWVlDLLSUV,
-  "😬": uhhJRfIBIO,
-  "😭": gtyCtTZTGm,
-  "😮‍💨": oudmNmkBph,
-  "😮": jfqrZVRiWS,
-  "😯": wSFXsEWCoD,
-  "😰": lacdjgnCvu,
-  "😱": JtPsKBreYQ,
-  "😲": dbyOnZbAKK,
-  "😳": icWuIDAtOX,
-  "😴": vRocIEDTtz,
-  "😵‍💫": KWGqNbwcyK,
-  "😵": HWWDZpZRaB,
-  "😶‍🌫️": HwzNCJRclV,
-  "😶": GJKyHpxWjE,
-  "😷": aQafctAinE,
-  "😸": bpAIdkFvBG,
-  "😹": WKvvhadVAy,
-  "😺": nyMHmIXlDG,
-  "😻": yAEQHbBYNi,
-  "😼": pxkUJxQyUQ,
-  "😽": hOIsndZrTp,
-  "😾": JtrpwJRvjv,
-  "😿": uBjZiImejH,
-  "🙀": kEMNfKPWqD,
-  "🙁": iJPXgISZCS,
-  "🙂": fttAQsbDyK,
-  "🙃": ohXkpobDFt,
-  "🙄": MbUjFPSIyG,
-  "🙅🏻‍♀️": zHILExdTfJ,
-  "🙅🏻‍♂️": QFsZCQukKI,
-  "🙅🏻": zTCiZVpsur,
-  "🙅🏼‍♀️": ZFtzGxiohd,
-  "🙅🏼‍♂️": ZFKRTsPTmH,
-  "🙅🏼": WPutDdEhVj,
-  "🙅🏽‍♀️": dGaoIMSxPf,
-  "🙅🏽‍♂️": FMiXrTVjaC,
-  "🙅🏽": lPPMqdSdrr,
-  "🙅🏾‍♀️": EnUeeodojZ,
-  "🙅🏾‍♂️": ieYTyUcMsd,
-  "🙅🏾": gccJfWUdFl,
-  "🙅🏿‍♀️": swEmVXRRXR,
-  "🙅🏿‍♂️": NFtdHvLfmO,
-  "🙅🏿": ffOyzDtgHD,
-  "🙅‍♀️": FCawFYBxkn,
-  "🙅‍♂️": hCzwsKrOOb,
-  "🙅": eoOWGWGKgZ,
-  "🙆🏻‍♀️": evWseuRnFZ,
-  "🙆🏻‍♂️": GJFskkCiOp,
-  "🙆🏻": bJYVnJSwcp,
-  "🙆🏼‍♀️": aGPhDjoKqD,
-  "🙆🏼‍♂️": NguIzTTvRk,
-  "🙆🏼": DNYiIMmEEK,
-  "🙆🏽‍♀️": AiSxaRXWlk,
-  "🙆🏽‍♂️": gxRrvkiBOO,
-  "🙆🏽": FEEtFjBNzp,
-  "🙆🏾‍♀️": mJXclGyDWG,
-  "🙆🏾‍♂️": RUWNHcbbkC,
-  "🙆🏾": wjhnHMvwJt,
-  "🙆🏿‍♀️": NWkorZPGFc,
-  "🙆🏿‍♂️": PYTrxynoep,
-  "🙆🏿": TncnBGPNOD,
-  "🙆‍♀️": RCcRkuhKLX,
-  "🙆‍♂️": mJYcHBdxUG,
-  "🙆": VYitTQgMgu,
-  "🙇🏻‍♀️": bMrqagJobC,
-  "🙇🏻‍♂️": irBEymGBGb,
-  "🙇🏻": HEDOopfZwc,
-  "🙇🏼‍♀️": XSthYxrJhq,
-  "🙇🏼‍♂️": UWFmuEDgSQ,
-  "🙇🏼": zZAtmUZfSg,
-  "🙇🏽‍♀️": wuGyqmLMzR,
-  "🙇🏽‍♂️": MMspHTLGDn,
-  "🙇🏽": pYnjqDdPoi,
-  "🙇🏾‍♀️": MIRcAVotan,
-  "🙇🏾‍♂️": KYpzpQeQHW,
-  "🙇🏾": IrCRxCuHhb,
-  "🙇🏿‍♀️": sTWVoxzHDN,
-  "🙇🏿‍♂️": voEKZTmlfa,
-  "🙇🏿": XghCtGTJhO,
-  "🙇‍♀️": pOOXbawfLT,
-  "🙇‍♂️": mHNwZVNDrH,
-  "🙇": JnDHuCRmDi,
-  "🙈": ptVQlYtyfh,
-  "🙉": kHugPCbMIC,
-  "🙊": ZEICPJLVQA,
-  "🙋🏻‍♀️": UlyPHrrWCY,
-  "🙋🏻‍♂️": WjaoQtOOHK,
-  "🙋🏻": mCLPjOXoJg,
-  "🙋🏼‍♀️": CgKuJbhjwX,
-  "🙋🏼‍♂️": VxYXAwXigu,
-  "🙋🏼": PpbXHJnHhe,
-  "🙋🏽‍♀️": cPsueekOBq,
-  "🙋🏽‍♂️": VidhDumGrE,
-  "🙋🏽": pJaZiQQhcO,
-  "🙋🏾‍♀️": TipoZdBsVu,
-  "🙋🏾‍♂️": EIzulNuzZp,
-  "🙋🏾": xnRonnfrga,
-  "🙋🏿‍♀️": dnqloNaRFe,
-  "🙋🏿‍♂️": zcwfKqzVGS,
-  "🙋🏿": GhATCYwRzO,
-  "🙋‍♀️": dXWYxxEKgb,
-  "🙋‍♂️": BiUkLyXzUm,
-  "🙋": sMCRULVKrw,
-  "🙌🏻": FDQTchBoYB,
-  "🙌🏼": HfOMwqGcOF,
-  "🙌🏽": JVKlXHIQBP,
-  "🙌🏾": ePvTMcnBKO,
-  "🙌🏿": AvtlfLDlJv,
-  "🙌": VPNtbkHojk,
-  "🙍🏻‍♀️": xsHKNcPNXP,
-  "🙍🏻‍♂️": EyaUTbszCc,
-  "🙍🏻": AbteGXoIgu,
-  "🙍🏼‍♀️": bNqePbBKTR,
-  "🙍🏼‍♂️": SQtxLWKoRz,
-  "🙍🏼": rXGfqlvaMN,
-  "🙍🏽‍♀️": tdoZNPgUpZ,
-  "🙍🏽‍♂️": ivfrHKpqhN,
-  "🙍🏽": MDuqikKfYp,
-  "🙍🏾‍♀️": wSGbElraMY,
-  "🙍🏾‍♂️": jfKWLeOHOX,
-  "🙍🏾": BzaZBmpRMN,
-  "🙍🏿‍♀️": CoNIsBZdkm,
-  "🙍🏿‍♂️": jPQFsumrWR,
-  "🙍🏿": wvzVlZXxAp,
-  "🙍‍♀️": YxdZmAdIbZ,
-  "🙍‍♂️": dTrpZXRWmq,
-  "🙍": jZiVotKlGT,
-  "🙎🏻‍♀️": oTPAoHKZEH,
-  "🙎🏻‍♂️": AycUzFkXLY,
-  "🙎🏻": XNsQarZfqE,
-  "🙎🏼‍♀️": AKVGuyeZZh,
-  "🙎🏼‍♂️": enzfEwnfvd,
-  "🙎🏼": SaoluHENvU,
-  "🙎🏽‍♀️": ZwzEiBLSfN,
-  "🙎🏽‍♂️": kFmiabsGib,
-  "🙎🏽": mwkBjvQLyx,
-  "🙎🏾‍♀️": ojjPWSQyCV,
-  "🙎🏾‍♂️": RBGVvTJXRm,
-  "🙎🏾": jozzGZObUK,
-  "🙎🏿‍♀️": DWKFlKsnlm,
-  "🙎🏿‍♂️": oASylAkaCU,
-  "🙎🏿": uUbqvVaxLA,
-  "🙎‍♀️": mSIZMHEGKm,
-  "🙎‍♂️": WXzxkqWDeN,
-  "🙎": WoLVlMcxth,
-  "🙏🏻": kcjdeJtaQo,
-  "🙏🏼": KPDZtGKbZR,
-  "🙏🏽": TXBncgtDhS,
-  "🙏🏾": xeDChTfToz,
-  "🙏🏿": LQCVKTHXtp,
-  "🙏": RSffFWbGuN,
-  "🚀": nFEgRdpirS,
-  "🚁": vbDOAiqPtZ,
-  "🚂": jeCVfSUOHt,
-  "🚃": etXKFAHgMP,
-  "🚄": UTFeMmsDUR,
-  "🚅": zSBfpoWbEX,
-  "🚆": PWGiHzmtPR,
-  "🚇": tKNndzhZyP,
-  "🚈": aNaxnnoAlo,
-  "🚉": hDoQSNwgnm,
-  "🚊": TelYcpxckG,
-  "🚋": ESopZvQZUF,
-  "🚌": bZgDDiVKID,
-  "🚍": KVJbuzWOhR,
-  "🚎": vmtliZAvbB,
-  "🚏": niMadqvGWa,
-  "🚐": EvPUNBoIVH,
-  "🚑": yocbfQJOtc,
-  "🚒": imKgeMfVMS,
-  "🚓": TwNZDwkPlZ,
-  "🚔": MewpKkoGuI,
-  "🚕": fkhTloqgOV,
-  "🚖": ZkXnLeDBNY,
-  "🚗": rrlQiZnGZL,
-  "🚘": taTrzgOhnx,
-  "🚙": bWGZzWFraN,
-  "🚚": zjreRIoDat,
-  "🚛": ktHPtdFgtL,
-  "🚜": PWXMaTWdcO,
-  "🚝": zQrAUSZfTW,
-  "🚞": nVSpPhXSJB,
-  "🚟": fEbWeMWTlr,
-  "🚠": GXIzxuerXm,
-  "🚡": eKIpyTzpOy,
-  "🚢": VoxKUoYgBG,
-  "🚣🏻‍♀️": LhIuBvAOQq,
-  "🚣🏻‍♂️": pIaZPikJgG,
-  "🚣🏻": EJYhGBFnYa,
-  "🚣🏼‍♀️": GVKutETEHC,
-  "🚣🏼‍♂️": fIIKnXaSOI,
-  "🚣🏼": mFnAGNZvQn,
-  "🚣🏽‍♀️": WBYnmJpWGI,
-  "🚣🏽‍♂️": QBQbPeidjd,
-  "🚣🏽": CObRIBnnOh,
-  "🚣🏾‍♀️": GLLWjtGoqd,
-  "🚣🏾‍♂️": JwnlFaCHOR,
-  "🚣🏾": lsfqeJfJsO,
-  "🚣🏿‍♀️": DKkXkvvmec,
-  "🚣🏿‍♂️": bcJJeAgDtY,
-  "🚣🏿": YubEvIUPjM,
-  "🚣‍♀️": rOSTDeYivA,
-  "🚣‍♂️": hqZmxpGwXn,
-  "🚣": HTMwNFPqJV,
-  "🚤": XGvtxAdGva,
-  "🚥": ZjCkrkeJkl,
-  "🚦": dpyIElEiCg,
-  "🚧": BWjqzWNjdE,
-  "🚨": AOjHygfOVF,
-  "🚩": lwghrmNZcD,
-  "🚪": eCblCXjBFH,
-  "🚫": SCwALMZUae,
-  "🚬": hFuDcDgJcB,
-  "🚭": wJBZLnpnbL,
-  "🚮": QuTwyNdJnO,
-  "🚯": aizvNRRYNP,
-  "🚰": ixUVeRdIFX,
-  "🚱": iNHoJBQFDE,
-  "🚲": MeStmkRNZU,
-  "🚳": dPVuaxSVDt,
-  "🚴🏻‍♀️": hXYaoADgqr,
-  "🚴🏻‍♂️": yTJyEiBNkA,
-  "🚴🏻": DFboqhHjWE,
-  "🚴🏼‍♀️": WaglGqPgUa,
-  "🚴🏼‍♂️": GYtkiRfoYl,
-  "🚴🏼": HgHYdAeKkG,
-  "🚴🏽‍♀️": twBLkpekYN,
-  "🚴🏽‍♂️": sJEkwNgKmR,
-  "🚴🏽": BzAcDdLPEI,
-  "🚴🏾‍♀️": LHlKEzMvif,
-  "🚴🏾‍♂️": SoyzfGyMsc,
-  "🚴🏾": SuvVXksnUC,
-  "🚴🏿‍♀️": JMxfjYdWyH,
-  "🚴🏿‍♂️": IPrAUfiuMo,
-  "🚴🏿": EVhhGAIPBG,
-  "🚴‍♀️": gafiYSmxuz,
-  "🚴‍♂️": eczDLQxaZn,
-  "🚴": cWvYbaoVPW,
-  "🚵🏻‍♀️": aOmrhAwwNO,
-  "🚵🏻‍♂️": HbSGLqZwpi,
-  "🚵🏻": yNnjFpHNJM,
-  "🚵🏼‍♀️": NwChuLeXRm,
-  "🚵🏼‍♂️": TGXPmphhCu,
-  "🚵🏼": MwuGSPpkes,
-  "🚵🏽‍♀️": iWUxYfetVw,
-  "🚵🏽‍♂️": qAmkOivHIG,
-  "🚵🏽": sCGeWOROfZ,
-  "🚵🏾‍♀️": qChlwnbOsb,
-  "🚵🏾‍♂️": bZHOhIqIoD,
-  "🚵🏾": duuBpbXphJ,
-  "🚵🏿‍♀️": PosdAcjOjU,
-  "🚵🏿‍♂️": XtaUwjPUly,
-  "🚵🏿": eIaiKLdpXP,
-  "🚵‍♀️": ErgcVnsrGx,
-  "🚵‍♂️": xvpImeyvfm,
-  "🚵": VCmxlTcAli,
-  "🚶🏻‍♀️": xjZxvCuqIa,
-  "🚶🏻‍♂️": JHfsZVzNqb,
-  "🚶🏻": JdDhsQKKKf,
-  "🚶🏼‍♀️": WDkbFRVpBX,
-  "🚶🏼‍♂️": jitNLKOOhg,
-  "🚶🏼": ZuBwXRRucJ,
-  "🚶🏽‍♀️": lKcdgZfhJW,
-  "🚶🏽‍♂️": FHPhYVAcqt,
-  "🚶🏽": vuayFNxcBN,
-  "🚶🏾‍♀️": fBsYKsdvqz,
-  "🚶🏾‍♂️": NbiDpRzFry,
-  "🚶🏾": rypFtUbZez,
-  "🚶🏿‍♀️": FTGQouUurB,
-  "🚶🏿‍♂️": EqhUevSFJm,
-  "🚶🏿": PpuRtFSSNp,
-  "🚶‍♀️": XcygDzEzTL,
-  "🚶‍♂️": pyhhijMPgF,
-  "🚶": BgpmYCHxuI,
-  "🚷": drRnmlEYvz,
-  "🚸": FWEiNxFfHm,
-  "🚹": zyRWLluaRP,
-  "🚺": tJoAvbEiPa,
-  "🚻": VztZETAEeG,
-  "🚼": eeILGpqImT,
-  "🚽": BLrXBgtQCv,
-  "🚾": dveEXPLRbN,
-  "🚿": SCGAuStuSR,
-  "🛀🏻": NWDKJkxzPB,
-  "🛀🏼": DHXAevqwcX,
-  "🛀🏽": yizbDHBvQJ,
-  "🛀🏾": dTwdUpQKAV,
-  "🛀🏿": gCxNGSUrFr,
-  "🛀": OlwOJDdhfR,
-  "🛁": QeoeyyejFc,
-  "🛂": qlfJbgdhfV,
-  "🛃": rKsOGZYcKa,
-  "🛄": ItdwNMHrLO,
-  "🛅": pdPPpYJISr,
-  "🛋": fniUyouNCT,
-  "🛌🏻": ihfOzowhmD,
-  "🛌🏼": nfXbKhFSHu,
-  "🛌🏽": BcKamRrBjo,
-  "🛌🏾": UOdnmDvHuB,
-  "🛌🏿": CVecHCPvDx,
-  "🛌": RlpDNCymTM,
-  "🛍": aJaIdeQOeF,
-  "🛎": kHpnzVebqo,
-  "🛏": eEkMTxprQK,
-  "🛐": JnuVKNUrup,
-  "🛑": AYwdfttFVm,
-  "🛒": PihxArVQbL,
-  "🛕": eyeuHWwbGe,
-  "🛖": ezmhfnqEHN,
-  "🛗": OcDZZfWXiF,
-  "🛜": zjSYWyNzck,
-  "🛝": QogLVMHnzN,
-  "🛞": kOKDMNjMUg,
-  "🛟": vFetvPSBrE,
-  "🛠": NUbWWDOkXD,
-  "🛡": eOLqCCAeco,
-  "🛢": SVuKFNSswh,
-  "🛣": mwYlITpfwM,
-  "🛤": iFgWGYiYoG,
-  "🛥": BmFuibJuRa,
-  "🛩": mTlDxcwSie,
-  "🛫": uMJtuwtqgF,
-  "🛬": XYVYMqhaAO,
-  "🛰": udDEGtNGmB,
-  "🛳": CctXxlBzau,
-  "🛴": DurJfTMxkO,
-  "🛵": scJNqWRTrN,
-  "🛶": guCBaRWJdn,
-  "🛷": peWquEQaha,
-  "🛸": bOzGHrBvHD,
-  "🛹": yVTsenFffH,
-  "🛺": ltkKdNXjVz,
-  "🛻": dLzHhiILKx,
-  "🛼": gVZlDnZLNb,
-  "🟠": qgfeBiqgNx,
-  "🟡": pOlXOFwhBT,
-  "🟢": xudZNIrCvq,
-  "🟣": hwyWqwzwgl,
-  "🟤": vCZRidhLBs,
-  "🟥": nyVQGEIjje,
-  "🟦": LUSpiKgzeK,
-  "🟧": kQGBtuyPHf,
-  "🟨": IFfYSUfGSy,
-  "🟩": mNYoJrhdvB,
-  "🟪": sIxHTEVzdy,
-  "🟫": arrUmRlDqg,
-  "🟰": CggtQrROMJ,
-  "🤌🏻": YtFhsHEhQP,
-  "🤌🏼": YsMnSMwtFg,
-  "🤌🏽": EuswoywnkD,
-  "🤌🏾": HKObONvzxR,
-  "🤌🏿": KMdIVsscgz,
-  "🤌": bCmJMdiyBw,
-  "🤍": ztqzzqsaEB,
-  "🤎": FshZajIMWG,
-  "🤏🏻": NcYnIFEUXY,
-  "🤏🏼": NTeAfmKldp,
-  "🤏🏽": zElhijsLtR,
-  "🤏🏾": KmYHNpnoRw,
-  "🤏🏿": wCofFzfvvk,
-  "🤏": nDhZBNlKBZ,
-  "🤐": ORnUsPSfBV,
-  "🤑": CeSmysvTsC,
-  "🤒": frRfUzsrzU,
-  "🤓": LoYZATeteg,
-  "🤔": QXztHoZfBR,
-  "🤕": hzSoHMSYqS,
-  "🤖": PLaKXkXYuO,
-  "🤗": jIGJPndjQt,
-  "🤘🏻": tsWbCqxJkh,
-  "🤘🏼": SvxjRFbqjh,
-  "🤘🏽": VaTaeOSZYW,
-  "🤘🏾": zwIJVYuVEr,
-  "🤘🏿": PqATtRLmeI,
-  "🤘": QcaRCIoPHa,
-  "🤙🏻": UFeMuWyBSI,
-  "🤙🏼": FGwxFbCVDa,
-  "🤙🏽": ThKWkGRbTW,
-  "🤙🏾": LgSyIvzdQA,
-  "🤙🏿": tlIDyBldce,
-  "🤙": tpBVNCpyIL,
-  "🤚🏻": JZnkblPwxj,
-  "🤚🏼": YyYxYYCUJt,
-  "🤚🏽": mCcwsQGkyD,
-  "🤚🏾": urtIWQbwGE,
-  "🤚🏿": cMSeuNmdUW,
-  "🤚": aghEqrBAIu,
-  "🤛🏻": jLcWwKvdpP,
-  "🤛🏼": biLMVAOcdG,
-  "🤛🏽": DuimTGbjIj,
-  "🤛🏾": OzEkFcArwo,
-  "🤛🏿": WOzlMbrPik,
-  "🤛": lPolNmiNNN,
-  "🤜🏻": wqIfvsdNvr,
-  "🤜🏼": unrmbAWJke,
-  "🤜🏽": UWOSVgWDNz,
-  "🤜🏾": ODpDQFESog,
-  "🤜🏿": uQwhZNqeUN,
-  "🤜": srgmsscqby,
-  "🤝🏻": KLuXuPIhLy,
-  "🤝🏼": KFDiygKNje,
-  "🤝🏽": mpAyUwjQBm,
-  "🤝🏾": mxNLiLBTcS,
-  "🤝🏿": zXTxiQGFZx,
-  "🤝": lLEyOqnyQB,
-  "🤞🏻": ZsLRuQaugO,
-  "🤞🏼": nBHmPFoKCg,
-  "🤞🏽": jWzjGHCFQt,
-  "🤞🏾": gBIauZHlow,
-  "🤞🏿": yZmxwkTUcD,
-  "🤞": tJpokefLPc,
-  "🤟🏻": AMpCHQhmVN,
-  "🤟🏼": aDLLCadzeG,
-  "🤟🏽": OCimHGNlVH,
-  "🤟🏾": DmEKPWSEdp,
-  "🤟🏿": MbHTEuwZZL,
-  "🤟": jnRmDKzuxx,
-  "🤠": OnFtSoOlXo,
-  "🤡": txIKrdegzz,
-  "🤢": zefswlXfrP,
-  "🤣": CdVGHXLhOB,
-  "🤤": UKBornAHhW,
-  "🤥": JPjJSjVCIx,
-  "🤦🏻‍♀️": QyFFKAVnho,
-  "🤦🏻‍♂️": scEUepXDFc,
-  "🤦🏻": WtMXseQHhD,
-  "🤦🏼‍♀️": RUdDLdGkjB,
-  "🤦🏼‍♂️": aOWkTcKHHa,
-  "🤦🏼": VShtAdYGdz,
-  "🤦🏽‍♀️": MszegFIFaf,
-  "🤦🏽‍♂️": AmTLadjHtF,
-  "🤦🏽": aSDHcvzVgk,
-  "🤦🏾‍♀️": XNpEPdROjl,
-  "🤦🏾‍♂️": nhSHwfPCMp,
-  "🤦🏾": kuPcyotxUQ,
-  "🤦🏿‍♀️": wCyqsMLnyu,
-  "🤦🏿‍♂️": zCPsjlKuTC,
-  "🤦🏿": gmLxcVWfaS,
-  "🤦‍♀️": fQNzxaYqcy,
-  "🤦‍♂️": TbdZgWSfDX,
-  "🤦": QigIaPzBvB,
-  "🤧": lIgLrZslxz,
-  "🤨": ThiTENdnmm,
-  "🤩": moRbjsLcyl,
-  "🤪": gLFqhLGWtP,
-  "🤫": PpwSzfXRMP,
-  "🤬": hbNNgKemvi,
-  "🤭": WSmCUryCjj,
-  "🤮": cckRcyTNde,
-  "🤯": lZtyPojxyE,
-  "🤰🏻": KQhwWkMhwO,
-  "🤰🏼": SDCnWrpUTA,
-  "🤰🏽": xnvJvFQPVE,
-  "🤰🏾": FaFJFwmpdE,
-  "🤰🏿": CMljKRctJj,
-  "🤰": lRoeuIhWnM,
-  "🤱🏻": enwQXSziHO,
-  "🤱🏼": OlvyzHaXxp,
-  "🤱🏽": fHTYRrDdns,
-  "🤱🏾": TpqsPzyPyR,
-  "🤱🏿": gMVhHBdjsN,
-  "🤱": WChRRqiNbT,
-  "🤲🏻": gCyFCqiMoR,
-  "🤲🏼": VZlAquuIIE,
-  "🤲🏽": DOqfRXgLxF,
-  "🤲🏾": VAskgTeWUi,
-  "🤲🏿": BGDipRCuIY,
-  "🤲": PuTFTWuHsC,
-  "🤳🏻": EapfiAZNnW,
-  "🤳🏼": ezlNxNVffX,
-  "🤳🏽": gbtptskeeM,
-  "🤳🏾": IEyfpVDhEx,
-  "🤳🏿": AHAjefZxol,
-  "🤳": UAAGmNqoxk,
-  "🤴🏻": IwbncTQbwE,
-  "🤴🏼": ZfjdlqfzKk,
-  "🤴🏽": zEaoQfdsty,
-  "🤴🏾": qUeRZoVrkz,
-  "🤴🏿": FQCDWERBBT,
-  "🤴": RAnTpMoAoC,
-  "🤵🏻‍♀️": DhBglRBmoc,
-  "🤵🏻‍♂️": LKxQqAEdZB,
-  "🤵🏻": fyBmWJJcAG,
-  "🤵🏼‍♀️": KWqoGIliea,
-  "🤵🏼‍♂️": foKysuUaiS,
-  "🤵🏼": qddbvqMNbS,
-  "🤵🏽‍♀️": oeNERKaSBN,
-  "🤵🏽‍♂️": bZMdeedYlw,
-  "🤵🏽": etyNHWvPpL,
-  "🤵🏾‍♀️": xAbczeaBNU,
-  "🤵🏾‍♂️": WqKRfyhrDv,
-  "🤵🏾": TiUglBUrwd,
-  "🤵🏿‍♀️": hYYsTWwspN,
-  "🤵🏿‍♂️": WBUGaBqGkA,
-  "🤵🏿": lClYuQENLa,
-  "🤵‍♀️": wTLahcjtEF,
-  "🤵‍♂️": FJQcHWZLjS,
-  "🤵": POaIJujrWT,
-  "🤶🏻": NcSSzYnjeI,
-  "🤶🏼": tAaAeatITM,
-  "🤶🏽": WBJVjDPdpL,
-  "🤶🏾": BznfIBUvQe,
-  "🤶🏿": lljuwrIDdz,
-  "🤶": bCZnhZCxsJ,
-  "🤷🏻‍♀️": sgYzyUPhen,
-  "🤷🏻‍♂️": kgxcUNOalX,
-  "🤷🏻": atHwQcnGap,
-  "🤷🏼‍♀️": YbKHLsKMuX,
-  "🤷🏼‍♂️": CvXfbozfJD,
-  "🤷🏼": TpqNqERtSb,
-  "🤷🏽‍♀️": unoqeRleUG,
-  "🤷🏽‍♂️": xmEjTnyzTD,
-  "🤷🏽": mkxMccWZpv,
-  "🤷🏾‍♀️": FwykfRxNeg,
-  "🤷🏾‍♂️": avfPRHtOTk,
-  "🤷🏾": dBWBiUauZP,
-  "🤷🏿‍♀️": msLQAnfReh,
-  "🤷🏿‍♂️": bXazgHncIe,
-  "🤷🏿": LOTSjXQpzX,
-  "🤷‍♀️": YNpkQRvGXx,
-  "🤷‍♂️": xIywcwycRU,
-  "🤷": WjYDLcDDik,
-  "🤸🏻‍♀️": cLNfATLPHJ,
-  "🤸🏻‍♂️": xxrJEYsivI,
-  "🤸🏻": xiiPlwLGwm,
-  "🤸🏼‍♀️": fFoHDImIra,
-  "🤸🏼‍♂️": woPqvfnICc,
-  "🤸🏼": wJneuetMnw,
-  "🤸🏽‍♀️": GJFaccGzVg,
-  "🤸🏽‍♂️": tNPTLzLDZw,
-  "🤸🏽": lpYNAoMXkY,
-  "🤸🏾‍♀️": OldJakQUTk,
-  "🤸🏾‍♂️": JsuzhBhthp,
-  "🤸🏾": sOyNbqivNy,
-  "🤸🏿‍♀️": WBjIUGaTai,
-  "🤸🏿‍♂️": pQOJzBJtyE,
-  "🤸🏿": IWdaTuKtlL,
-  "🤸‍♀️": SdGFBFSANT,
-  "🤸‍♂️": ANncrfSmxA,
-  "🤸": FbchAEJhDX,
-  "🤹🏻‍♀️": XZILYWmDaB,
-  "🤹🏻‍♂️": BIvhKdxcGv,
-  "🤹🏻": zfaCEABrFS,
-  "🤹🏼‍♀️": YWLABnuehk,
-  "🤹🏼‍♂️": XQevABnpVi,
-  "🤹🏼": ErYpdgGWzw,
-  "🤹🏽‍♀️": KmveerqmCa,
-  "🤹🏽‍♂️": WVNXVpoIYU,
-  "🤹🏽": jAAtUfAHaJ,
-  "🤹🏾‍♀️": BgHjyBKYLQ,
-  "🤹🏾‍♂️": pZuuRpDZZs,
-  "🤹🏾": TrsajNHpvq,
-  "🤹🏿‍♀️": KoEILEdscA,
-  "🤹🏿‍♂️": mlvTXdoOrw,
-  "🤹🏿": kJIZbxBstU,
-  "🤹‍♀️": IFVGLrwxFf,
-  "🤹‍♂️": dOrAHHQiLZ,
-  "🤹": TaMbSiwUGx,
-  "🤺": kNJxpakWJh,
-  "🤼‍♀️": JKSIvYTcLk,
-  "🤼‍♂️": EXHhgWJAVS,
-  "🤼": fCcBJdnYtY,
-  "🤽🏻‍♀️": gLCyUhikDN,
-  "🤽🏻‍♂️": GaVDYhlifn,
-  "🤽🏻": wmdmPUvzut,
-  "🤽🏼‍♀️": jPEqBBzgsV,
-  "🤽🏼‍♂️": bwWKeLElLh,
-  "🤽🏼": lElJxpNlSE,
-  "🤽🏽‍♀️": DxkxVzTBBm,
-  "🤽🏽‍♂️": udzkEMFbrR,
-  "🤽🏽": orDqfFfaFp,
-  "🤽🏾‍♀️": EfIvDFlRFZ,
-  "🤽🏾‍♂️": CBMdGMtdPQ,
-  "🤽🏾": hkgrvITIHm,
-  "🤽🏿‍♀️": RPFpXkmBqG,
-  "🤽🏿‍♂️": OhsPezZQVI,
-  "🤽🏿": wEFLMOqflV,
-  "🤽‍♀️": gkjIjTpLys,
-  "🤽‍♂️": tBwtJCFZGy,
-  "🤽": UmbljvpGCJ,
-  "🤾🏻‍♀️": LqjBMCHLje,
-  "🤾🏻‍♂️": HUrIuyjxJm,
-  "🤾🏻": FbRrYvHuCx,
-  "🤾🏼‍♀️": oyKUzZUARQ,
-  "🤾🏼‍♂️": UaslNugeqA,
-  "🤾🏼": bgYZxQvFaG,
-  "🤾🏽‍♀️": QENDvUozfd,
-  "🤾🏽‍♂️": iwttDNvwZX,
-  "🤾🏽": TXmuRfRkNa,
-  "🤾🏾‍♀️": VyumbSvail,
-  "🤾🏾‍♂️": xhtVggLDVy,
-  "🤾🏾": iaZDuemJAU,
-  "🤾🏿‍♀️": wnanPkxmcg,
-  "🤾🏿‍♂️": PlEQFifWtg,
-  "🤾🏿": qINXJOqKHK,
-  "🤾‍♀️": ixfAuoOixj,
-  "🤾‍♂️": hNwlVFEMfw,
-  "🤾": SsUvfSqUmk,
-  "🤿": tiLiHIHIas,
-  "🥀": eqOcBdaNhQ,
-  "🥁": GTGDfYoiIS,
-  "🥂": MjridDYNwV,
-  "🥃": qUVjByqBrW,
-  "🥄": TCiXjcDhit,
-  "🥅": QHlgKXsBpq,
-  "🥇": pXIOfFWomT,
-  "🥈": EAWndRFYMS,
-  "🥉": tOxZNkPTEE,
-  "🥊": gLPtYMcfjI,
-  "🥋": fbXmPMqTJJ,
-  "🥌": RGjjMteRPK,
-  "🥍": fNRhWAuLaC,
-  "🥎": qFQpYryuWq,
-  "🥏": vGjmXksmoS,
-  "🥐": NhfnEpDJYH,
-  "🥑": NwvpeXowKs,
-  "🥒": vkKVUxZKeK,
-  "🥓": icdKkHlslR,
-  "🥔": eSUWlFgUPt,
-  "🥕": uiLnHizGHi,
-  "🥖": VNSfRojnMA,
-  "🥗": KAthffiTpe,
-  "🥘": VTkZcIqree,
-  "🥙": GWQnCLrmOV,
-  "🥚": BNYeCTlIHy,
-  "🥛": UKcaiqSstP,
-  "🥜": pznhBbggex,
-  "🥝": QTSgAqbqMZ,
-  "🥞": YoZWWksIuB,
-  "🥟": KnHVAtqIKs,
-  "🥠": nALaynIERp,
-  "🥡": eeiLwmdjhY,
-  "🥢": LlAojOBXqx,
-  "🥣": ZayVpwELjM,
-  "🥤": lNadenZBpL,
-  "🥥": qETfkPHCUQ,
-  "🥦": birGKDpqLn,
-  "🥧": aoCRHcLeMl,
-  "🥨": yPznQsEOTB,
-  "🥩": FUWfjutSBD,
-  "🥪": TzSbMFCPgr,
-  "🥫": JWqUtkvxkc,
-  "🥬": WqvvRzzlWw,
-  "🥭": WzmzPvXqBV,
-  "🥮": UVQRMWtFHT,
-  "🥯": dnXKQGPyjz,
-  "🥰": ivzzHxejrX,
-  "🥱": GdzBAGpdjf,
-  "🥲": AcetWsNcCR,
-  "🥳": xPSjVpixHP,
-  "🥴": VyRQLvQClD,
-  "🥵": PIQRpUVpwI,
-  "🥶": IWIbyrakCu,
-  "🥷🏻": FMikMbGgRc,
-  "🥷🏼": abzDPlgtYb,
-  "🥷🏽": thLeEaqxLb,
-  "🥷🏾": tjRrmoXjRH,
-  "🥷🏿": epIrjGRFWK,
-  "🥷": AuzCXBWlFG,
-  "🥸": ttwiEuGacb,
-  "🥹": UajPIIptDE,
-  "🥺": FFiEOruMmH,
-  "🥻": hWWqswrAri,
-  "🥼": CFOckqnhNT,
-  "🥽": jZNJvyrMoR,
-  "🥾": kHLcdMPurC,
-  "🥿": qJMirhYpwo,
-  "🦀": WeIzsgYPVh,
-  "🦁": UOpjtyJbZc,
-  "🦂": VfJEOfwxAk,
-  "🦃": khxdwjrcBv,
-  "🦄": GuUtxnnuDY,
-  "🦅": XprniWdUYY,
-  "🦆": XiDyuUtZzG,
-  "🦇": NsYIGzJEFL,
-  "🦈": gWhtFeZtja,
-  "🦉": OBXaNNQfYF,
-  "🦊": eleWZflNNN,
-  "🦋": WemniBSsKR,
-  "🦌": QGSjtLIFkR,
-  "🦍": GekMKcyuDs,
-  "🦎": ibnoMJPRuf,
-  "🦏": uXuosnMFhB,
-  "🦐": iffTyYlsAY,
-  "🦑": jqPWrrpEQa,
-  "🦒": lzGQqdOrwq,
-  "🦓": cNMDkMNPRY,
-  "🦔": AfJUdfCAup,
-  "🦕": rMaFqpeeXd,
-  "🦖": enjjnESrgz,
-  "🦗": OqxacVKAmZ,
-  "🦘": epPfcANYGa,
-  "🦙": HhCpMhPFSO,
-  "🦚": UCYNLhrbAJ,
-  "🦛": fEIvqGHvCa,
-  "🦜": fHRHglChvs,
-  "🦝": MakkfsnmlC,
-  "🦞": TELORAutnN,
-  "🦟": WszLvADjhp,
-  "🦠": dBWlLCZXze,
-  "🦡": spmHwmqoIE,
-  "🦢": SYBwilebTC,
-  "🦣": uuKcwguzSN,
-  "🦤": ISKLfWMweb,
-  "🦥": jMUDwVtfqW,
-  "🦦": gVHtjpsgcP,
-  "🦧": EoDCfZSLGx,
-  "🦨": aqCtnkAyei,
-  "🦩": ybsjGgobYl,
-  "🦪": jcTOlDXxki,
-  "🦫": rMlxxMfESn,
-  "🦬": qKOZQWgLuG,
-  "🦭": ltSlzgXCxq,
-  "🦮": jPAtFrSIZI,
-  "🦯": SyefYdtUiS,
-  "🦰": EighvSAnyI,
-  "🦱": OpqJnyCqay,
-  "🦲": vwtlpuzFIU,
-  "🦳": eYBsZwExBc,
-  "🦴": zZToCjCRjq,
-  "🦵🏻": xGKJBlYQYp,
-  "🦵🏼": IjkGvteuAC,
-  "🦵🏽": rrulDYghpq,
-  "🦵🏾": RGBPgUxZvX,
-  "🦵🏿": olEyARTNgX,
-  "🦵": XOaUlkpRbM,
-  "🦶🏻": zGlxZbyneo,
-  "🦶🏼": iOcLMsUdRR,
-  "🦶🏽": ZHdagzXkZT,
-  "🦶🏾": GybbkIICOF,
-  "🦶🏿": EyxkRNRaoW,
-  "🦶": FaIdUPDTAD,
-  "🦷": tJpWyysLtA,
-  "🦸🏻‍♀️": bqtVZPlsCn,
-  "🦸🏻‍♂️": BXYLiNFehR,
-  "🦸🏻": IqgSFqODAh,
-  "🦸🏼‍♀️": UHTFwmnksV,
-  "🦸🏼‍♂️": UAnyjFfSZA,
-  "🦸🏼": zAAyymJiYi,
-  "🦸🏽‍♀️": HtkRqrhabN,
-  "🦸🏽‍♂️": XcGUpOoUAZ,
-  "🦸🏽": YxQuEqQcvL,
-  "🦸🏾‍♀️": IZZRwqBTQu,
-  "🦸🏾‍♂️": tXEVnPMSro,
-  "🦸🏾": GdzLSULkPm,
-  "🦸🏿‍♀️": VxXKxCjFIc,
-  "🦸🏿‍♂️": RHkZsxcjzK,
-  "🦸🏿": WbRJTyawQx,
-  "🦸‍♀️": NDPkwOYXss,
-  "🦸‍♂️": djNEXvdyvR,
-  "🦸": lIYTDevMEA,
-  "🦹🏻‍♀️": lbiAUHQdTv,
-  "🦹🏻‍♂️": SIjsuNmiiH,
-  "🦹🏻": pIYVUNSsWy,
-  "🦹🏼‍♀️": bgoXekmAqQ,
-  "🦹🏼‍♂️": uJEdAZyHnK,
-  "🦹🏼": rmzFpJQXkQ,
-  "🦹🏽‍♀️": IDzbrVvcJs,
-  "🦹🏽‍♂️": uIpUsuKzae,
-  "🦹🏽": YkdXtKbjVf,
-  "🦹🏾‍♀️": TpjkWnVoba,
-  "🦹🏾‍♂️": SycZsXTjMb,
-  "🦹🏾": PkZGfPEESY,
-  "🦹🏿‍♀️": ODhrIQBIfM,
-  "🦹🏿‍♂️": iEdDwyTMEv,
-  "🦹🏿": PDxxzHcsNu,
-  "🦹‍♀️": TdFgInkLIH,
-  "🦹‍♂️": HeFCKQSCDq,
-  "🦹": oOUkdTgdXk,
-  "🦺": mbQOiCixET,
-  "🦻🏻": ROQhFKGgIv,
-  "🦻🏼": gJgMRUsLZt,
-  "🦻🏽": UuWBcwMEpn,
-  "🦻🏾": AtjIcnSUio,
-  "🦻🏿": FINwEBnYbr,
-  "🦻": ZvvRKNoBJl,
-  "🦼": uPPpbfhlzo,
-  "🦽": VttWvhQhAS,
-  "🦾": dcWakrvPgL,
-  "🦿": QcTjxSSRkM,
-  "🧀": xYVxasWIxx,
-  "🧁": fLxfjpYeMe,
-  "🧂": NskuzaPwJf,
-  "🧃": VTbcxOCJBY,
-  "🧄": XrsoYvZNUF,
-  "🧅": NXrGBjFZAi,
-  "🧆": sGkeUXkCkl,
-  "🧇": ERLVlpwtxU,
-  "🧈": vOQLrMshaF,
-  "🧉": lZirtFaFKx,
-  "🧊": jgfwolrqsg,
-  "🧋": mTQojRuJvf,
-  "🧌": hegNXmBcJc,
-  "🧍🏻‍♀️": OkfOxiWRDS,
-  "🧍🏻‍♂️": XPvJqabCCo,
-  "🧍🏻": dBbzplHtPF,
-  "🧍🏼‍♀️": JpjCmbtnCP,
-  "🧍🏼‍♂️": FRLIolBDhB,
-  "🧍🏼": MBRDmjmRQC,
-  "🧍🏽‍♀️": eEfofITlpA,
-  "🧍🏽‍♂️": qXSTswTcJJ,
-  "🧍🏽": tMmWPqbxQs,
-  "🧍🏾‍♀️": zKGuduqnnj,
-  "🧍🏾‍♂️": ESoWTExrTZ,
-  "🧍🏾": SOpKCEPLsR,
-  "🧍🏿‍♀️": eRjsJYHXXU,
-  "🧍🏿‍♂️": vsEvSLsncl,
-  "🧍🏿": PiqHClREiQ,
-  "🧍‍♀️": GuUKjTnuNl,
-  "🧍‍♂️": wNaNuGjJda,
-  "🧍": bODeckVgbC,
-  "🧎🏻‍♀️": WjAxwnhATB,
-  "🧎🏻‍♂️": yvyRTDOSMd,
-  "🧎🏻": HLlIxgNALg,
-  "🧎🏼‍♀️": YeOsueXRRK,
-  "🧎🏼‍♂️": UTggWbDAqy,
-  "🧎🏼": yCEvIuAmMO,
-  "🧎🏽‍♀️": VZgAfhiUJW,
-  "🧎🏽‍♂️": lJLHuKSQSB,
-  "🧎🏽": xqXtLkBbhF,
-  "🧎🏾‍♀️": IjuxUZbjWj,
-  "🧎🏾‍♂️": ixVvjzaBbl,
-  "🧎🏾": ReLhLskgEr,
-  "🧎🏿‍♀️": oSJbtzyorE,
-  "🧎🏿‍♂️": oIEvXtzuds,
-  "🧎🏿": ygxVYzAtVu,
-  "🧎‍♀️": cdpWQiTkDu,
-  "🧎‍♂️": egnLGriddk,
-  "🧎": eEwzzFKlvM,
-  "🧏🏻‍♀️": ovWVTSxiOo,
-  "🧏🏻‍♂️": KQfWjWKiGo,
-  "🧏🏻": jfHnxvbrQi,
-  "🧏🏼‍♀️": DklFhNyBar,
-  "🧏🏼‍♂️": NJVziEWsWe,
-  "🧏🏼": dGrIetarxm,
-  "🧏🏽‍♀️": yqGnBHxMUJ,
-  "🧏🏽‍♂️": rUSxWIOkfE,
-  "🧏🏽": ASKtzfBcdY,
-  "🧏🏾‍♀️": kdBLwcoFJT,
-  "🧏🏾‍♂️": AZbKQNYIqX,
-  "🧏🏾": LAodtGwPkN,
-  "🧏🏿‍♀️": aKhZRZFqiC,
-  "🧏🏿‍♂️": feZqNAsvTZ,
-  "🧏🏿": NbtiGywwLs,
-  "🧏‍♀️": SmMQJTtygV,
-  "🧏‍♂️": eegnbylROE,
-  "🧏": UaBXncgNwO,
-  "🧐": vwsLzcsYSn,
-  "🧑🏻‍🌾": khIsuaHzDS,
-  "🧑🏻‍🍳": oWQkPVHKtq,
-  "🧑🏻‍🍼": YGKnShLRZy,
-  "🧑🏻‍🎄": TiihDFpOVV,
-  "🧑🏻‍🎓": qWlCLsBxbq,
-  "🧑🏻‍🎤": yvnOgTLIWg,
-  "🧑🏻‍🎨": BesNgLxyfD,
-  "🧑🏻‍🏫": OYwfXjVoBc,
-  "🧑🏻‍🏭": IgbqkafjWL,
-  "🧑🏻‍💻": SSwnVuZCTM,
-  "🧑🏻‍💼": FgfYwGgRLB,
-  "🧑🏻‍🔧": LaDtGdkYgX,
-  "🧑🏻‍🔬": eJFPaypISh,
-  "🧑🏻‍🚀": wdGNfNZBiS,
-  "🧑🏻‍🚒": tqPjZXIRQJ,
-  "🧑🏻‍🤝‍🧑🏻": NjwLcYWCuN,
-  "🧑🏻‍🤝‍🧑🏼": zpHTQlLeVd,
-  "🧑🏻‍🤝‍🧑🏽": zYoNdvuVUK,
-  "🧑🏻‍🤝‍🧑🏾": qESZaVIkLa,
-  "🧑🏻‍🤝‍🧑🏿": cpItGCUPCK,
-  "🧑🏻‍🦯": sEkSRjooYd,
-  "🧑🏻‍🦰": OOqOCTBvpm,
-  "🧑🏻‍🦱": uFhyMEyaHl,
-  "🧑🏻‍🦲": XTTrzgciDv,
-  "🧑🏻‍🦳": AhUbPVKhda,
-  "🧑🏻‍🦼": yBnGQyruYK,
-  "🧑🏻‍🦽": VOAYUAvxjo,
-  "🧑🏻‍⚕️": BgKguZPncc,
-  "🧑🏻‍⚖️": EBjQTYQPyH,
-  "🧑🏻‍✈️": qsCtuSnQvk,
-  "🧑🏻‍❤️‍💋‍🧑🏼": XcnCuErkFS,
-  "🧑🏻‍❤️‍💋‍🧑🏽": eLAZkTraKj,
-  "🧑🏻‍❤️‍💋‍🧑🏾": TqDIUJyKjb,
-  "🧑🏻‍❤️‍💋‍🧑🏿": KHzTRczMtG,
-  "🧑🏻‍❤️‍🧑🏼": fGmPgSpQkk,
-  "🧑🏻‍❤️‍🧑🏽": PbVobDSMFJ,
-  "🧑🏻‍❤️‍🧑🏾": mLNEaRsNUL,
-  "🧑🏻‍❤️‍🧑🏿": SMbomBSgQA,
-  "🧑🏻": gGcVTWxCmn,
-  "🧑🏼‍🌾": zyPHDmxwBS,
-  "🧑🏼‍🍳": jpBgwwdlgf,
-  "🧑🏼‍🍼": rGacoMonri,
-  "🧑🏼‍🎄": AhtTrxIzjV,
-  "🧑🏼‍🎓": LEdkAEpGjn,
-  "🧑🏼‍🎤": KJolWLVoYN,
-  "🧑🏼‍🎨": SxFNDYQoZq,
-  "🧑🏼‍🏫": wsttnmmLUE,
-  "🧑🏼‍🏭": BzkecYhSof,
-  "🧑🏼‍💻": HrRRtuXhbR,
-  "🧑🏼‍💼": VZbxSlDNYp,
-  "🧑🏼‍🔧": tTGYYdQHyL,
-  "🧑🏼‍🔬": LwEcSsAuHi,
-  "🧑🏼‍🚀": ggxlZOatEe,
-  "🧑🏼‍🚒": gyXKjplctd,
-  "🧑🏼‍🤝‍🧑🏻": FNDaFWNixA,
-  "🧑🏼‍🤝‍🧑🏼": tlFtvxoToN,
-  "🧑🏼‍🤝‍🧑🏽": HoCnfmOEqq,
-  "🧑🏼‍🤝‍🧑🏾": GVxogFxskx,
-  "🧑🏼‍🤝‍🧑🏿": uSWmzfCRAv,
-  "🧑🏼‍🦯": veCeWrCmSE,
-  "🧑🏼‍🦰": HxZRJxOznq,
-  "🧑🏼‍🦱": qLPyiXveXg,
-  "🧑🏼‍🦲": esBtDvvajT,
-  "🧑🏼‍🦳": HlDSDXzPqp,
-  "🧑🏼‍🦼": vwDbVnnqDD,
-  "🧑🏼‍🦽": veWDuDJlvb,
-  "🧑🏼‍⚕️": DsuoubtwmS,
-  "🧑🏼‍⚖️": QQoidUzFLX,
-  "🧑🏼‍✈️": XehfEagbhe,
-  "🧑🏼‍❤️‍💋‍🧑🏻": kZoKXdUdWX,
-  "🧑🏼‍❤️‍💋‍🧑🏽": pmSCriDrKx,
-  "🧑🏼‍❤️‍💋‍🧑🏾": AfHQSfAjWF,
-  "🧑🏼‍❤️‍💋‍🧑🏿": iWUEFCJaul,
-  "🧑🏼‍❤️‍🧑🏻": pAODNnansf,
-  "🧑🏼‍❤️‍🧑🏽": CXIRgmoDie,
-  "🧑🏼‍❤️‍🧑🏾": NghFhwHekf,
-  "🧑🏼‍❤️‍🧑🏿": GbjUOvOsqr,
-  "🧑🏼": bUoOovKiiU,
-  "🧑🏽‍🌾": vvAMDQyDFH,
-  "🧑🏽‍🍳": ykVCFOAoyz,
-  "🧑🏽‍🍼": idydZMqYwl,
-  "🧑🏽‍🎄": tePEflNoKP,
-  "🧑🏽‍🎓": oHJPtDpuUD,
-  "🧑🏽‍🎤": bfLZdmLtAg,
-  "🧑🏽‍🎨": DbNAWhXmse,
-  "🧑🏽‍🏫": HJlCfuBUWq,
-  "🧑🏽‍🏭": hMkMGyBcqf,
-  "🧑🏽‍💻": PSoEQSYVpB,
-  "🧑🏽‍💼": vfGpVKNXEK,
-  "🧑🏽‍🔧": QvSTaEFXRj,
-  "🧑🏽‍🔬": rTAvGasGpp,
-  "🧑🏽‍🚀": VurEUNwadz,
-  "🧑🏽‍🚒": NbbwqBXNUP,
-  "🧑🏽‍🤝‍🧑🏻": DpDeJZWqBH,
-  "🧑🏽‍🤝‍🧑🏼": pjradwvxFr,
-  "🧑🏽‍🤝‍🧑🏽": MvoBtoTDxt,
-  "🧑🏽‍🤝‍🧑🏾": swWjtlQnXj,
-  "🧑🏽‍🤝‍🧑🏿": oREbprOWLL,
-  "🧑🏽‍🦯": xoIqFdYGCG,
-  "🧑🏽‍🦰": ArHpLNyYce,
-  "🧑🏽‍🦱": QkUjfeTEbe,
-  "🧑🏽‍🦲": UFRGuFWsQr,
-  "🧑🏽‍🦳": apmxUeFoyf,
-  "🧑🏽‍🦼": LZxWjswMGN,
-  "🧑🏽‍🦽": NKoczOpEAc,
-  "🧑🏽‍⚕️": UNPckHXMeb,
-  "🧑🏽‍⚖️": oSvjfCHUpl,
-  "🧑🏽‍✈️": NRotfkjKcp,
-  "🧑🏽‍❤️‍💋‍🧑🏻": RZcMJyzzHo,
-  "🧑🏽‍❤️‍💋‍🧑🏼": fpQKPbryWJ,
-  "🧑🏽‍❤️‍💋‍🧑🏾": uYYqqvHkWO,
-  "🧑🏽‍❤️‍💋‍🧑🏿": tfwcRNfspb,
-  "🧑🏽‍❤️‍🧑🏻": RvSIHucwmI,
-  "🧑🏽‍❤️‍🧑🏼": OtkUtdoIJY,
-  "🧑🏽‍❤️‍🧑🏾": jaMNxzZrUm,
-  "🧑🏽‍❤️‍🧑🏿": ApygJxWRxV,
-  "🧑🏽": BqdXnCHqCx,
-  "🧑🏾‍🌾": PGdadbcsim,
-  "🧑🏾‍🍳": yiovBbGFbN,
-  "🧑🏾‍🍼": enHoozbJzl,
-  "🧑🏾‍🎄": KOiIkKwqTS,
-  "🧑🏾‍🎓": lOFmpyMMeE,
-  "🧑🏾‍🎤": zQDpoZoQuY,
-  "🧑🏾‍🎨": aggJKulufp,
-  "🧑🏾‍🏫": SelEBvrbdP,
-  "🧑🏾‍🏭": MdqWviucpn,
-  "🧑🏾‍💻": txqtCitiBh,
-  "🧑🏾‍💼": ROQSnswHei,
-  "🧑🏾‍🔧": YFMTHXFgKZ,
-  "🧑🏾‍🔬": gYvapSKXNc,
-  "🧑🏾‍🚀": lPpNimwEIR,
-  "🧑🏾‍🚒": yASmiOdJmj,
-  "🧑🏾‍🤝‍🧑🏻": WOsOyGZcLp,
-  "🧑🏾‍🤝‍🧑🏼": HFIOmtkoFI,
-  "🧑🏾‍🤝‍🧑🏽": HUqximQHez,
-  "🧑🏾‍🤝‍🧑🏾": sjxIfaoaAY,
-  "🧑🏾‍🤝‍🧑🏿": wVSQXWYKMe,
-  "🧑🏾‍🦯": POvJdIXTrt,
-  "🧑🏾‍🦰": OQLDkewadz,
-  "🧑🏾‍🦱": UOZNBcRTCj,
-  "🧑🏾‍🦲": HKivMpfOrC,
-  "🧑🏾‍🦳": dfYsJnEDEn,
-  "🧑🏾‍🦼": iqvvHtlIMu,
-  "🧑🏾‍🦽": bxPHznZsss,
-  "🧑🏾‍⚕️": ccSvIKWAub,
-  "🧑🏾‍⚖️": emFlqNKoRY,
-  "🧑🏾‍✈️": HbBbSYNjnt,
-  "🧑🏾‍❤️‍💋‍🧑🏻": XoAFkodCTl,
-  "🧑🏾‍❤️‍💋‍🧑🏼": tQBbSxkigk,
-  "🧑🏾‍❤️‍💋‍🧑🏽": REWReetWjC,
-  "🧑🏾‍❤️‍💋‍🧑🏿": TxQLEsIzRZ,
-  "🧑🏾‍❤️‍🧑🏻": fcoADoQtlH,
-  "🧑🏾‍❤️‍🧑🏼": pOtwzKUrBK,
-  "🧑🏾‍❤️‍🧑🏽": DZtEbYyPjr,
-  "🧑🏾‍❤️‍🧑🏿": GSBjQIXGPA,
-  "🧑🏾": EGWSNJSlKy,
-  "🧑🏿‍🌾": ylRlTuHcoW,
-  "🧑🏿‍🍳": TWHaFNXpWv,
-  "🧑🏿‍🍼": GzVmNsLsbF,
-  "🧑🏿‍🎄": HffQumzVPi,
-  "🧑🏿‍🎓": cRKAWumGbr,
-  "🧑🏿‍🎤": hobLlqTEgL,
-  "🧑🏿‍🎨": fYjoETdaQS,
-  "🧑🏿‍🏫": xrbxUSkvZc,
-  "🧑🏿‍🏭": hDVcisztiG,
-  "🧑🏿‍💻": aDBvOvytHv,
-  "🧑🏿‍💼": LkbYCZZHbW,
-  "🧑🏿‍🔧": BnaOXTpvEH,
-  "🧑🏿‍🔬": uRkBWqGPsW,
-  "🧑🏿‍🚀": zEnlEQbKlQ,
-  "🧑🏿‍🚒": WMJXnOafVW,
-  "🧑🏿‍🤝‍🧑🏻": nhlGmzyDWl,
-  "🧑🏿‍🤝‍🧑🏼": PwUOMOgrxo,
-  "🧑🏿‍🤝‍🧑🏽": remToRTyjy,
-  "🧑🏿‍🤝‍🧑🏾": HARJeodPUG,
-  "🧑🏿‍🤝‍🧑🏿": kIJFJxkXtl,
-  "🧑🏿‍🦯": rbYEIqFRBk,
-  "🧑🏿‍🦰": zaZnVpSDbo,
-  "🧑🏿‍🦱": zCUpPGgKun,
-  "🧑🏿‍🦲": deBsmAgCyR,
-  "🧑🏿‍🦳": biTjFrQQGa,
-  "🧑🏿‍🦼": ylnUSWkGcL,
-  "🧑🏿‍🦽": iWVBsArJDf,
-  "🧑🏿‍⚕️": fISeEDCCDS,
-  "🧑🏿‍⚖️": GkmPNBRDtm,
-  "🧑🏿‍✈️": ISzJWimkPz,
-  "🧑🏿‍❤️‍💋‍🧑🏻": gqAstpLEcP,
-  "🧑🏿‍❤️‍💋‍🧑🏼": dfqzpChYwY,
-  "🧑🏿‍❤️‍💋‍🧑🏽": YWqzyazunD,
-  "🧑🏿‍❤️‍💋‍🧑🏾": pycCjmDxxS,
-  "🧑🏿‍❤️‍🧑🏻": hKvZJhrroC,
-  "🧑🏿‍❤️‍🧑🏼": pcLVrbQomo,
-  "🧑🏿‍❤️‍🧑🏽": wJHmHQJrEV,
-  "🧑🏿‍❤️‍🧑🏾": ysjrGXSOrp,
-  "🧑🏿": OPbviSgKyQ,
-  "🧑‍🌾": JCWqyUUhFf,
-  "🧑‍🍳": IsXlIQCrba,
-  "🧑‍🍼": oKUCxPNERC,
-  "🧑‍🎄": yrUatTWHGC,
-  "🧑‍🎓": qNdIDSIKMU,
-  "🧑‍🎤": MHZndZoxih,
-  "🧑‍🎨": qzCaVaHRFj,
-  "🧑‍🏫": dshAcpfvGy,
-  "🧑‍🏭": TESBIgimBy,
-  "🧑‍💻": OCMyjrxPhC,
-  "🧑‍💼": vBOgddYJPP,
-  "🧑‍🔧": HibqlzBWcD,
-  "🧑‍🔬": xpBBRrybud,
-  "🧑‍🚀": JzUIvccvrA,
-  "🧑‍🚒": qxwHlyAClI,
-  "🧑‍🤝‍🧑": GkpYtmwcPZ,
-  "🧑‍🦯": oLlfWBlwVQ,
-  "🧑‍🦰": iPDKbrmSkb,
-  "🧑‍🦱": SldLtogilc,
-  "🧑‍🦲": ackYwUmOUb,
-  "🧑‍🦳": ANpMPMATBo,
-  "🧑‍🦼": AqmobxlhDJ,
-  "🧑‍🦽": GhAPRHOvdD,
-  "🧑‍🪩": xMKmkGFVye,
-  "🧑‍⚕️": RQWHjHvsxI,
-  "🧑‍⚖️": NLuWTfGhSL,
-  "🧑‍✈️": MAzQxuGxzN,
-  "🧑": ZwXylalYqQ,
-  "🧒🏻": DboFQdwoGf,
-  "🧒🏼": XyzadnWgEq,
-  "🧒🏽": PFgLcmJTOa,
-  "🧒🏾": edZIpXnLhh,
-  "🧒🏿": DrHzgATbDC,
-  "🧒": tzIklswQbZ,
-  "🧓🏻": icNBrSQbTx,
-  "🧓🏼": VcClrpqily,
-  "🧓🏽": iLKRtEnzvy,
-  "🧓🏾": PAywLFlwsY,
-  "🧓🏿": GkYvKmnGbn,
-  "🧓": FDLnzPYOgi,
-  "🧔🏻‍♀️": InpyedUuFP,
-  "🧔🏻‍♂️": WOkwHLGaPU,
-  "🧔🏻": RGIIIpOiFz,
-  "🧔🏼‍♀️": EHeObTKKOD,
-  "🧔🏼‍♂️": CEbskpJaVY,
-  "🧔🏼": cgAnWvgUQH,
-  "🧔🏽‍♀️": njGPBPfanm,
-  "🧔🏽‍♂️": goONddicuU,
-  "🧔🏽": roSHGNbkOg,
-  "🧔🏾‍♀️": cHRGrGgPkl,
-  "🧔🏾‍♂️": KQNTUcPWod,
-  "🧔🏾": SYxgpuNqBt,
-  "🧔🏿‍♀️": cMFggsbpGr,
-  "🧔🏿‍♂️": YTRdCvTEPJ,
-  "🧔🏿": uJFbBTsZpx,
-  "🧔‍♀️": zpEHnlYexf,
-  "🧔‍♂️": QgYzamJvoa,
-  "🧔": jBvvlggwte,
-  "🧕🏻": nItoBCwryX,
-  "🧕🏼": iXioBZPdDv,
-  "🧕🏽": NTMGPKfLAp,
-  "🧕🏾": WozhLbktGD,
-  "🧕🏿": tLIhiAlTGY,
-  "🧕": pFcccGuXAi,
-  "🧖🏻‍♀️": GWARijGVPi,
-  "🧖🏻‍♂️": fsgmtVNXic,
-  "🧖🏻": clYUzoWJMr,
-  "🧖🏼‍♀️": aVjzxUVdib,
-  "🧖🏼‍♂️": pakcKQQmjg,
-  "🧖🏼": aFooxzocjs,
-  "🧖🏽‍♀️": RfyEOKOijG,
-  "🧖🏽‍♂️": SZwzPqXtPT,
-  "🧖🏽": eMyxxfqJoK,
-  "🧖🏾‍♀️": boKfoJYhVq,
-  "🧖🏾‍♂️": MZuuTyqYAa,
-  "🧖🏾": SnMOhcyMQn,
-  "🧖🏿‍♀️": vPWNbcEhIk,
-  "🧖🏿‍♂️": bZeRowmiIK,
-  "🧖🏿": GpUhReNjRT,
-  "🧖‍♀️": ydRFMppXnX,
-  "🧖‍♂️": sZRBisMdzA,
-  "🧖": IYJhMgVhyl,
-  "🧗🏻‍♀️": EkUaTgRQRG,
-  "🧗🏻‍♂️": PstKCiYsNk,
-  "🧗🏻": TtVQcFiNQC,
-  "🧗🏼‍♀️": jUzTuZkOvw,
-  "🧗🏼‍♂️": ayifFNBCRk,
-  "🧗🏼": PuEwTJijNw,
-  "🧗🏽‍♀️": SSYFEfBfge,
-  "🧗🏽‍♂️": wQrMerFYGm,
-  "🧗🏽": iwNVfsQyYW,
-  "🧗🏾‍♀️": nISoDpmXbN,
-  "🧗🏾‍♂️": ESnfTqtBAq,
-  "🧗🏾": boeTOZQjGO,
-  "🧗🏿‍♀️": TAWcdhVdEQ,
-  "🧗🏿‍♂️": SomlWbsCQc,
-  "🧗🏿": XnwwrPJxze,
-  "🧗‍♀️": dKaAZrDRnL,
-  "🧗‍♂️": RiZpPOBkOP,
-  "🧗": qnXiTxnxPX,
-  "🧘🏻‍♀️": oiSGqpojgd,
-  "🧘🏻‍♂️": APcTiqRwGf,
-  "🧘🏻": FGaAUJlanB,
-  "🧘🏼‍♀️": JrZWVWpkML,
-  "🧘🏼‍♂️": pFjdgYXNyU,
-  "🧘🏼": llXxAPPYno,
-  "🧘🏽‍♀️": cReWaQGKbB,
-  "🧘🏽‍♂️": lLHPVqqdYc,
-  "🧘🏽": xYJbUHcUOr,
-  "🧘🏾‍♀️": DcPLpPImdS,
-  "🧘🏾‍♂️": WopMTEktbj,
-  "🧘🏾": ixJWFkSMNN,
-  "🧘🏿‍♀️": WKTenEIywP,
-  "🧘🏿‍♂️": aHEHuChWfj,
-  "🧘🏿": RSgFnyOUuz,
-  "🧘‍♀️": fvpDbzqbfG,
-  "🧘‍♂️": RBHrxrSNOK,
-  "🧘": SYiXJiJkzk,
-  "🧙🏻‍♀️": IdyHUdvYXb,
-  "🧙🏻‍♂️": lMKmKUMneQ,
-  "🧙🏻": qHaOPdWalT,
-  "🧙🏼‍♀️": mnTEmcbGzH,
-  "🧙🏼‍♂️": wWVHpssjLe,
-  "🧙🏼": hPEHjklamm,
-  "🧙🏽‍♀️": eFbGYZyjXg,
-  "🧙🏽‍♂️": pgddzHTEOA,
-  "🧙🏽": ZFxOOaSLRN,
-  "🧙🏾‍♀️": XgmVhVQSgu,
-  "🧙🏾‍♂️": nahrObHFtH,
-  "🧙🏾": wVHGTtutve,
-  "🧙🏿‍♀️": eJSUGSDOSI,
-  "🧙🏿‍♂️": KxQzQbYJrj,
-  "🧙🏿": idNSAaejwE,
-  "🧙‍♀️": ebDsbHaFng,
-  "🧙‍♂️": QjVlVmfTFH,
-  "🧙": tximIzvspz,
-  "🧚🏻‍♀️": gjZgUYAapG,
-  "🧚🏻‍♂️": OTnqTZQcAA,
-  "🧚🏻": iDqekNmaym,
-  "🧚🏼‍♀️": hWNYOisdSK,
-  "🧚🏼‍♂️": KuZqZoVLgM,
-  "🧚🏼": OYajJzqFUc,
-  "🧚🏽‍♀️": fGHshuiTMk,
-  "🧚🏽‍♂️": wHcixYIuIH,
-  "🧚🏽": qtMbjUxPnH,
-  "🧚🏾‍♀️": aXGUgJXUWT,
-  "🧚🏾‍♂️": QXZlmDZBbD,
-  "🧚🏾": vPLQOvvtoN,
-  "🧚🏿‍♀️": emZXSEPirG,
-  "🧚🏿‍♂️": sPdukSqWaY,
-  "🧚🏿": koaVjiDhjM,
-  "🧚‍♀️": TRgIypZUvN,
-  "🧚‍♂️": JEQNFhunEr,
-  "🧚": nBUGUYqcDm,
-  "🧛🏻‍♀️": ehtOukSGJL,
-  "🧛🏻‍♂️": bMBUEczDAz,
-  "🧛🏻": hCfuXbPvis,
-  "🧛🏼‍♀️": ATYwLZYYTA,
-  "🧛🏼‍♂️": tyftTskJMU,
-  "🧛🏼": saojKFhAeW,
-  "🧛🏽‍♀️": KfcxaqsBiN,
-  "🧛🏽‍♂️": pPXqtEWqFV,
-  "🧛🏽": VEYglVbLQc,
-  "🧛🏾‍♀️": PYQYbzeocK,
-  "🧛🏾‍♂️": SaKauwKzzD,
-  "🧛🏾": kPYLKQKrOr,
-  "🧛🏿‍♀️": HqOIbPWeVC,
-  "🧛🏿‍♂️": IZWXGFcZoG,
-  "🧛🏿": qeYAotldAq,
-  "🧛‍♀️": EqtBKVsDys,
-  "🧛‍♂️": YpuIkIuPFy,
-  "🧛": jXJeWLniJj,
-  "🧜🏻‍♀️": bhacvmvCKY,
-  "🧜🏻‍♂️": VxffbEippU,
-  "🧜🏻": PYOOkhjUdv,
-  "🧜🏼‍♀️": XIaheCKMdC,
-  "🧜🏼‍♂️": muEBHxjbsR,
-  "🧜🏼": loNmGQMHqD,
-  "🧜🏽‍♀️": SUkMMZmNPs,
-  "🧜🏽‍♂️": mRrrOeqTwu,
-  "🧜🏽": qnYQOEyaDS,
-  "🧜🏾‍♀️": UKgOfKOWBL,
-  "🧜🏾‍♂️": cwaqAxNqeN,
-  "🧜🏾": FKxZidDmis,
-  "🧜🏿‍♀️": KQOHVLjuoR,
-  "🧜🏿‍♂️": suehMSzlHn,
-  "🧜🏿": YtVhsRcXSf,
-  "🧜‍♀️": bHApQeIYHU,
-  "🧜‍♂️": uHgpnvQhtH,
-  "🧜": dDSAaPtXEZ,
-  "🧝🏻‍♀️": HNqXhcLAHN,
-  "🧝🏻‍♂️": TioffbbUcO,
-  "🧝🏻": JiiErfnVhM,
-  "🧝🏼‍♀️": vkvqbJOifw,
-  "🧝🏼‍♂️": NuGbjOwayV,
-  "🧝🏼": VbaOEyhnqd,
-  "🧝🏽‍♀️": jrSjkRxRmZ,
-  "🧝🏽‍♂️": fdOOxxktPl,
-  "🧝🏽": WXWNQmcSLb,
-  "🧝🏾‍♀️": NKhjWNcIJS,
-  "🧝🏾‍♂️": YeOYSzjcdB,
-  "🧝🏾": NlrgtPmOQu,
-  "🧝🏿‍♀️": ZjoLTbAOSb,
-  "🧝🏿‍♂️": IHtAsJgzeF,
-  "🧝🏿": dSguTEPgCD,
-  "🧝‍♀️": uxjvfuWgGC,
-  "🧝‍♂️": EZYRYvcBeH,
-  "🧝": cWZitYJuwf,
-  "🧞‍♀️": FweWnUVMZD,
-  "🧞‍♂️": WOLTULSzXo,
-  "🧞": PjakDfaQyz,
-  "🧟‍♀️": qCBlhqQchm,
-  "🧟‍♂️": koiMDjyMXX,
-  "🧟": JbQeVLjHUZ,
-  "🧠": fFrtYXCaAg,
-  "🧡": xZQtKFUNGx,
-  "🧢": limeUeJIyi,
-  "🧣": CgSjHvUZHz,
-  "🧤": FwqcrqVXRA,
-  "🧥": qQnDrrPPda,
-  "🧦": QymGfBnEKq,
-  "🧧": oitMlKXeKQ,
-  "🧨": pDAZlubXKu,
-  "🧩": juZQxQEPZe,
-  "🧪": KkbiedsEyr,
-  "🧫": gVOfokpVaR,
-  "🧬": FgXewtFzts,
-  "🧭": BkciGEvqwR,
-  "🧮": QybRFgGTcM,
-  "🧯": YNSOZiTTSo,
-  "🧰": GDHIUhEnPx,
-  "🧱": JdaWNcPJQH,
-  "🧲": RIpjdLcvcO,
-  "🧳": xEwuxCUctC,
-  "🧴": cWjNuOiWiK,
-  "🧵": EQlWBxRFda,
-  "🧶": mSCnPbKCPN,
-  "🧷": EZekrMwwuh,
-  "🧸": AtWLliJWuu,
-  "🧹": TRCtPCCzvE,
-  "🧺": GrfokvIecH,
-  "🧻": PlqQqKOluR,
-  "🧼": GPsSIKveEK,
-  "🧽": pYoiCPoowB,
-  "🧾": KpKIrLmRSS,
-  "🧿": gPzurVBZQz,
-  "🩰": XcxDGQvHUb,
-  "🩱": xQYewYfGzu,
-  "🩲": OGNEgPHVtK,
-  "🩳": MKNOJKRlVu,
-  "🩴": YiChipnezB,
-  "🩵": mwzUrJGFIa,
-  "🩶": neANDdaSMh,
-  "🩷": EQGWCxWiFt,
-  "🩸": ZRFNVzHezM,
-  "🩹": vgFUhXNqVr,
-  "🩺": ZXajAieupO,
-  "🩻": gKvhsTwvSi,
-  "🩼": SIIKjlKRPQ,
-  "🪀": dGlsWzEMOK,
-  "🪁": svizKLRkzM,
-  "🪂": KxeKodYesT,
-  "🪃": nhRCiPyphd,
-  "🪄": wEtfkdMIHQ,
-  "🪅": CzGsZtIWaB,
-  "🪆": UlwlHwPuNt,
-  "🪇": xPYzthdZgi,
-  "🪈": aGaWAmKPRt,
-  "🪐": mYMjTMvmxs,
-  "🪑": nnyyJNDmHb,
-  "🪒": ZrzKbQeHEU,
-  "🪓": qOIQJtkAoP,
-  "🪔": dxrnVmkOvt,
-  "🪕": ifBIxXyQzu,
-  "🪖": gSnEptvtna,
-  "🪗": atroxsxSfN,
-  "🪘": QvGGNwVmCb,
-  "🪙": xBkRnmITHo,
-  "🪚": xzVrUPvfuC,
-  "🪛": eODLoRqWeD,
-  "🪜": kNryDxKIMV,
-  "🪝": deROgTQhug,
-  "🪞": jFfOHgHXpI,
-  "🪟": yMszYYpQuq,
-  "🪠": OwwcgOhVAt,
-  "🪡": bQlxPvcoDz,
-  "🪢": hqGgzVHPgX,
-  "🪣": wELcGOhVdK,
-  "🪤": OZwMfevLzN,
-  "🪥": kpzygopzPb,
-  "🪦": IunAqDYueh,
-  "🪧": cUWIYKdBaS,
-  "🪨": PStHkuZVEo,
-  "🪩": IYDIPWzgWY,
-  "🪪": QwWFgnoFPI,
-  "🪫": aEUyqEzSQV,
-  "🪬": ECQXJkrxhh,
-  "🪭": agPsYUzJUu,
-  "🪮": CGCtOkBCxv,
-  "🪯": OlbnKZSTKz,
-  "🪰": VWpYdnQyxe,
-  "🪱": dmZyAmApVg,
-  "🪲": lOmnrLgnTY,
-  "🪳": ERhPtXHrXE,
-  "🪴": hrTvwbYuRz,
-  "🪵": FLJeDKkATF,
-  "🪶": DBhnjJJQJR,
-  "🪷": WRfusEabpA,
-  "🪸": NFWjwyOilH,
-  "🪹": LOVJaOJKQo,
-  "🪺": SIOTYTfAIK,
-  "🪻": PtdeFSNrgp,
-  "🪼": gyIEoBwVjO,
-  "🪽": kxWfSobZuI,
-  "🪿": zNMDEJZDDi,
-  "🫀": CEdLNdkjhY,
-  "🫁": oSfRrxWcYU,
-  "🫂": EnCCLBiKyb,
-  "🫃🏻": KJbWOdhJoT,
-  "🫃🏼": PZxOEXUVSd,
-  "🫃🏽": HUaiMqVMbZ,
-  "🫃🏾": CtFhDCFscv,
-  "🫃🏿": EmhkuppZMi,
-  "🫃": MBvTdVLmCn,
-  "🫄🏻": RdiyaZkCJL,
-  "🫄🏼": NXNZyxoMCN,
-  "🫄🏽": GxIDrqYRTf,
-  "🫄🏾": BfYMclwGqK,
-  "🫄🏿": OmWZEtemsN,
-  "🫄": mqTBQBbKaj,
-  "🫅🏻": yIDeYxkisk,
-  "🫅🏼": ruMaYZAdga,
-  "🫅🏽": iaRGnLQaeH,
-  "🫅🏾": CXyJPXrFNI,
-  "🫅🏿": uwxGQvFOeR,
-  "🫅": RROswprAmZ,
-  "🫎": SqCRerwmGj,
-  "🫏": XXGVyPxppy,
-  "🫐": sbugOccQsD,
-  "🫑": GdRLCACSMv,
-  "🫒": toEySbBhrf,
-  "🫓": LypPAffRnQ,
-  "🫔": GoZZQtwUco,
-  "🫕": SoWJEcZshE,
-  "🫖": BsVyLiZNzT,
-  "🫗": lGUhRRQJNC,
-  "🫘": rReKMRjOJP,
-  "🫙‍🟥": LmAuoFuIzY,
-  "🫙‍🟦": ntKcNZOGeF,
-  "🫙‍🟧": jvjVCiSdbO,
-  "🫙‍🟨": zWGFButVwN,
-  "🫙‍🟩": nwSDouyPkV,
-  "🫙‍🟪": CIkBYuInbf,
-  "🫙‍🟫": lAPCoEwPeE,
-  "🫙": JkwmnmHmIG,
-  "🫚": FSNTNYvWHT,
-  "🫛": CCbweKdTcU,
-  "🫠": CSxHbzGZlk,
-  "🫡": JCWfGmxHnR,
-  "🫢": AwazCnTeYo,
-  "🫣": PXAIHFvWRK,
-  "🫤": CCBDvLcRoD,
-  "🫥": aacRuPoXGW,
-  "🫦": wGOEhqqELb,
-  "🫧": kkxClEFdkf,
-  "🫨": lYiivGRowa,
-  "🫰🏻": jrhQLqpyfv,
-  "🫰🏼": ttxZArwtbc,
-  "🫰🏽": ridUIMqjCU,
-  "🫰🏾": nOkNKCsney,
-  "🫰🏿": iZhRartxOr,
-  "🫰": CLuBLvSguR,
-  "🫱🏻‍🫲🏼": gGVwZxICSh,
-  "🫱🏻‍🫲🏽": lrDCdDfqga,
-  "🫱🏻‍🫲🏾": bSXtuEFOVK,
-  "🫱🏻‍🫲🏿": lyRXWQSrBQ,
-  "🫱🏻": nTClBOIRYK,
-  "🫱🏼‍🫲🏻": RSxlZyufnT,
-  "🫱🏼‍🫲🏽": MqRNGqBWKw,
-  "🫱🏼‍🫲🏾": BcuLKKwxkG,
-  "🫱🏼‍🫲🏿": jjluxBxwMz,
-  "🫱🏼": fwzoHJlsHK,
-  "🫱🏽‍🫲🏻": OqKQtOfwbo,
-  "🫱🏽‍🫲🏼": MrGCeTTSsz,
-  "🫱🏽‍🫲🏾": SDVIWxXJvS,
-  "🫱🏽‍🫲🏿": sPNNoFrVFe,
-  "🫱🏽": qkkygJJlAi,
-  "🫱🏾‍🫲🏻": DqhcEDueEG,
-  "🫱🏾‍🫲🏼": AekNFCwzbK,
-  "🫱🏾‍🫲🏽": pbZMeOBQJY,
-  "🫱🏾‍🫲🏿": CRKWfSkebe,
-  "🫱🏾": MClqIbZCmr,
-  "🫱🏿‍🫲🏻": ZtAQdAnsTF,
-  "🫱🏿‍🫲🏼": llKYUTevqO,
-  "🫱🏿‍🫲🏽": hhTheWpHLS,
-  "🫱🏿‍🫲🏾": xZLhjYRgem,
-  "🫱🏿": cGjLHgIUgS,
-  "🫱": OKCkrNkJEk,
-  "🫲🏻": jValglNUNn,
-  "🫲🏼": xGnVJmTLvO,
-  "🫲🏽": agAojKraFK,
-  "🫲🏾": TXPsNIZRVI,
-  "🫲🏿": VeYBlVbfat,
-  "🫲": pNRVdCnkTR,
-  "🫳🏻": rQiMsTYWVE,
-  "🫳🏼": PxoqbdSdZr,
-  "🫳🏽": oUOuqeJTQD,
-  "🫳🏾": efDDKVuzJK,
-  "🫳🏿": gXvGDAlTKC,
-  "🫳": PCEdneeisi,
-  "🫴🏻": NWijhtzxqM,
-  "🫴🏼": ddSPgpkMyf,
-  "🫴🏽": tuyFMrSTSi,
-  "🫴🏾": LRiwzIorAo,
-  "🫴🏿": DuUJDyaJvX,
-  "🫴": wRJQdcSigJ,
-  "🫵🏻": wACZIsNiwg,
-  "🫵🏼": cHtQfVHVdb,
-  "🫵🏽": ewVrTKgvhb,
-  "🫵🏾": rLiEiORZQC,
-  "🫵🏿": dWzQOkDDOt,
-  "🫵": SdKWHlDBSI,
-  "🫶🏻": FPlXiUpvnm,
-  "🫶🏼": iUIjBKMJkV,
-  "🫶🏽": itruYJMlnC,
-  "🫶🏾": uyNKuHcIuX,
-  "🫶🏿": BhvrsJWgPo,
-  "🫶": axlIvMxZNx,
-  "🫷🏻": HsscaSQvZh,
-  "🫷🏼": bNpnQrMPhV,
-  "🫷🏽": mkUfEcwBNe,
-  "🫷🏾": ermnxlxWrR,
-  "🫷🏿": YYaxcDTfss,
-  "🫷": mHXRmuQfIE,
-  "🫸🏻": RfQAsgTmet,
-  "🫸🏼": SIcQsgwjxZ,
-  "🫸🏽": SOHlQrehVl,
-  "🫸🏾": mqdoMBElCw,
-  "🫸🏿": qjoKbdXFbT,
-  "🫸": vHYobeXYPY,
-  "🯅": SmDheCVFco,
-  "🯆‍👗": cWrNoURvul,
-  "🯆": tTZWMsYUPQ,
-  "🯇‍👗": JLXAlrkFVb,
-  "🯇": EPubucuEql,
-  "🯈‍👗": txhBNFfuNo,
-  "🯈": AlbeOxgfJN,
-  "🯉": fmdnGVHRFG,
-  "‼️": LsTqaErSXY,
-  "⁉️": druWzXAhbn,
-  "℗": lFlqopHflu,
-  "℠": OfQxxQZQmh,
-  "™": PhNsMOgMEY,
-  "ℹ": fRhFUBfKWs,
-  "↔": jazpxLiQrh,
-  "↕": aZvRyshKxp,
-  "↖️": KoZXlcHCti,
-  "↗️": IiLmlGhttr,
-  "↘️": sSUFEWRMoM,
-  "↙️": QpTlguneVj,
-  "↩️": ngWGDPxdjP,
-  "↪️": HnTxQkVdfV,
-  "⊜": jDVioxhiUn,
-  "⌚": cysBNWQEGT,
-  "⌛": QqaRNLizIC,
-  "⌨": EmCKhAbrAM,
-  "⏏": xXbKNDkwsC,
-  "⏩": XXRsPUwjKI,
-  "⏪": WCwppbLuqH,
-  "⏫": KnvMTVVSnw,
-  "⏬": qffXIuPIsf,
-  "⏭": ErYbrrriyt,
-  "⏮": UMUBgfEuho,
-  "⏯": dawPYomVWR,
-  "⏰": IQgVjbMlCm,
-  "⏱": xcxhrYfJsN,
-  "⏲": vLmeCAoybl,
-  "⏳": wvtMVXuEiD,
-  "⏸": CREXXlprMM,
-  "⏹": hoefYHtcMU,
-  "⏺": OlHBJYhHul,
-  "⏻": FMMFizPkqP,
-  "⏼": uOJEvheiwq,
-  "⏽": LiiSXwDmmX,
-  "⏾": EriUCstGDu,
-  "Ⓜ": GavcqljykT,
-  "□": CcGRNaCzAR,
-  "▪": kEtkyxdXse,
-  "▫": CDmFZHpiGu,
-  "▬": JthUseFfhB,
-  "▭": GsTNSDxtzF,
-  "▮": PRJqBoGGEp,
-  "▶": FeUzlCYKed,
-  "◀": ujtwmrRwdJ,
-  "◉️‍🔴‍▮️": nJdbzUPXWW,
-  "◉️‍🔴": SVemTbNkMS,
-  "◉": bbDgibuAgK,
-  "◐": TvorFAhQRt,
-  "◑": ZMfXKUnWIq,
-  "◧": mGGamGQQfb,
-  "◨": zfBNLKrRtS,
-  "◩": tSJlwwtykc,
-  "◪": sKOyuqLvjo,
-  "◭": dxuNFWClVP,
-  "◮": oyUknhdWsX,
-  "◻": tfKxRUcKxa,
-  "◼": WLAVAsYtad,
-  "◽": dCuvHjeMfy,
-  "◾": FBVihhfLfS,
-  "☀️": FnIiLklJZO,
-  "☁": DgjUzDxQya,
-  "☂": uigwjbBIMx,
-  "☃": iQdjdfSwPZ,
-  "☄": gUvKgsCWVC,
-  "★": DNkhhUahZo,
-  "☎": yAYgixrnFZ,
-  "☑": ZfBlezSSuq,
-  "☔": LrQijKMzuo,
-  "☕": rCIhQytxOg,
-  "☘️": cGzPoGIqDM,
-  "☝🏻": XLhBIHnXZL,
-  "☝🏼": wYkmcbPYLT,
-  "☝🏽": UlSvPgJBKx,
-  "☝🏾": euxMdWnQxG,
-  "☝🏿": kNBoaSRyzq,
-  "☝": pddZwXlWcx,
-  "☠": pbuUNRDpEc,
-  "☢": QQSapYylZI,
-  "☣": fjuRZZdkIH,
-  "☦": cITIAZYPTt,
-  "☪": slSbsdQmfI,
-  "☮": IHRrVEuuds,
-  "☯": ZQqcqUDhoU,
-  "☸": PdPHsfxokq,
-  "☹": ZLbIczLDMy,
-  "☺": cNIxdtMVWI,
-  "♀": kBoVfHRnrV,
-  "♂": IRusfIkXSd,
-  "♈": jRwuqBITem,
-  "♉": QgHjDMLRSY,
-  "♊": UQWkRdGNOV,
-  "♋": lfGZyWQjId,
-  "♌": UxeaQXdDfc,
-  "♍": upmefmISZO,
-  "♎": FSqZmPnGYr,
-  "♏": YzJFYiiXwg,
-  "♐": VACFnrkmlI,
-  "♑": FzJywAYsCD,
-  "♒": wnfmatURBE,
-  "♓": EUYdDcykCb,
-  "♟": DzJqHdgjNT,
-  "♠": QntojsYHOM,
-  "♣": bvvueaPNau,
-  "♥": RSMHeoMLoN,
-  "♦": EcGSFtBNNr,
-  "♨": GHoBKDSdaJ,
-  "♻": lShRUZuSvG,
-  "♾": JZpjIAvTCf,
-  "♿": FVCtmoVxep,
-  "⚑️‍🟥": nZEWJpyTAi,
-  "⚑️‍🟦": yRaerzeCwy,
-  "⚑️‍🟧": jZweeeGWpS,
-  "⚑️‍🟨": MFhglyNxJN,
-  "⚑️‍🟩‍★️": tMAlAAucTS,
-  "⚑️‍🟩": mAozEcqXTP,
-  "⚑️‍🟪": jSHthJnsWT,
-  "⚑️‍🟫": XkaJkrtYZW,
-  "⚒": xHeYsyHfNV,
-  "⚓": fkTzIDyuwx,
-  "⚔": GkLyfRyZMD,
-  "⚕": ihNoFgPByL,
-  "⚖": pYPBHHIXAh,
-  "⚗": QqQHBTUaJa,
-  "⚙": buNwPujEsK,
-  "⚛": IfNlYmsVHZ,
-  "⚜": LvyECddXAU,
-  "⚠": uGAPTTpvYX,
-  "⚡": UDixmRvgTA,
-  "⚧": VGKPUvFMYx,
-  "⚪": qOKQuNsHEF,
-  "⚫": qkmJsqNwPx,
-  "⚰": SAiMrbyvFv,
-  "⚱": ylDhhocCxQ,
-  "⚽": elbzqxcjZX,
-  "⚾": LvzZfzctcD,
-  "⛄": yxWhFiUkFS,
-  "⛅": wPmSIykWrS,
-  "⛈": gxdtmDIqzC,
-  "⛎": AeSUOTlztV,
-  "⛏": UbfWdZjPEe,
-  "⛑": XViWpHeedj,
-  "⛓": sQEYClcWBr,
-  "⛔": BTIEiHcUDl,
-  "⛩": sQDtLaqXVl,
-  "⛪": NPAxaPYpha,
-  "⛰": nTFGTruuaY,
-  "⛱": vwbxYvvead,
-  "⛲": iZtNajcixm,
-  "⛳": RjYCYrrQha,
-  "⛴": NgGYrpiRpV,
-  "⛵": dVixNRZNza,
-  "⛷": XaPLvpQoqq,
-  "⛸": BwZEQdKnIS,
-  "⛹🏻‍♀️": BJqitbqMTh,
-  "⛹🏻‍♂️": uJcHnlZDZQ,
-  "⛹🏻": oGvzctoPxk,
-  "⛹🏼‍♀️": gPNHekxXJE,
-  "⛹🏼‍♂️": ccCsElsjmH,
-  "⛹🏼": rGjkySmYdj,
-  "⛹🏽‍♀️": QWbdLQpfxa,
-  "⛹🏽‍♂️": XNNkENumtn,
-  "⛹🏽": nEXMpVCikJ,
-  "⛹🏾‍♀️": VlWrgrhtNm,
-  "⛹🏾‍♂️": wcOidVRqny,
-  "⛹🏾": jHRehnGiMi,
-  "⛹🏿‍♀️": FHqCzblwhC,
-  "⛹🏿‍♂️": bUEEjFkNFj,
-  "⛹🏿": MjujwpPVfU,
-  "⛹️‍♀️": nUBMplecxp,
-  "⛹️‍♂️": pGYUmFpnws,
-  "⛹": tkPXDriPVb,
-  "⛺": jVUTQhyGWR,
-  "⛽": stfrJcqoNg,
-  "✂": gdKnebpTeJ,
-  "✅": bWAjSItrNZ,
-  "✈": QEXFRKLJJr,
-  "✉": hNUFbovISZ,
-  "✊🏻": KnZjtsyrjL,
-  "✊🏼": MwFsusaUmQ,
-  "✊🏽": IeFWLglzOL,
-  "✊🏾": CJydYoDfkK,
-  "✊🏿": LkrBEvylEQ,
-  "✊": jLYAfxcqzX,
-  "✋🏻": gkMoogFwKI,
-  "✋🏼": dcIhDFwIyF,
-  "✋🏽": asYozjNFXp,
-  "✋🏾": QVkzdWpqae,
-  "✋🏿": FPPcJaiFaw,
-  "✋": xxTLjCVBWg,
-  "✌🏻": jUTEXwpmtt,
-  "✌🏼": pVxIniNbkx,
-  "✌🏽": YzKqSsNcWc,
-  "✌🏾": xDWOrJZFuo,
-  "✌🏿": eTEGRELGqK,
-  "✌": OsbZvaKDyo,
-  "✍🏻": untezWqseb,
-  "✍🏼": vlLSQouFst,
-  "✍🏽": XheJXWRVWU,
-  "✍🏾": NoYUlJFBTJ,
-  "✍🏿": GXRjEcoYIn,
-  "✍": LkEgyPyrZV,
-  "✏": VNYuApMpHE,
-  "✒": CZMaCHsAyH,
-  "✔": QXPUBHDORA,
-  "✖": uzQLCdlDuG,
-  "✝": KLNNMycPCb,
-  "✡": GtcHhzEDOD,
-  "✨": QSGbsXwJRJ,
-  "✳": WlzwinuPtp,
-  "✴": YOFfLxxbta,
-  "❄": ONNzQGYGwu,
-  "❇": xLsjGMyspF,
-  "❌": ctlwnKcgcF,
-  "❎": zITRWqnUno,
-  "❓": MffKkJvcjl,
-  "❔": sLtYJqoYyP,
-  "❕": WilhajqVkp,
-  "❗": hTYFOEVaSi,
-  "❣️": kNxyxOLCwH,
-  "❤️‍🔥": ypPYsKOuOE,
-  "❤️‍🩹": QaibyTaVnB,
-  "❤": UaFylpeWpB,
-  "➕": YLXKVclylH,
-  "➖": mFYHPtGwgu,
-  "➗": tAJSVfUHjz,
-  "➡️": tserKbbaGr,
-  "➰": plioQQsyDl,
-  "➿": TJWBPxTaTZ,
-  "⤴️": ywzXJYkzDL,
-  "⤵️": FumEHbFpQT,
-  "⬅️": EUfTpcclZE,
-  "⬆️": asvIooETrI,
-  "⬇️": YeBsUcYKMo,
-  "↔️": MjVFmCqAVq,
-  "↕️": XHsiOnmFao,
-  "⬛": WcSvjAewdU,
-  "⬜": SAxMsMBKda,
-  "⬟": WTjdBEVbhA,
-  "⬠": hNiVKvEHZO,
-  "⬡️‍🌈": XolVcfqfUP,
-  "⬡️‍🟥": nKnzWkjTZv,
-  "⬡️‍🟦": QvexYtrkBZ,
-  "⬡️‍🟧": GlzxyMvlaN,
-  "⬡️‍🟨": DacZTtkQIe,
-  "⬡️‍🟩": tzbzNfDBOf,
-  "⬡️‍🟪": eGhseCFqlf,
-  "⬡️‍🟫": EeJsYFmFic,
-  "⬡": HOFxdDIgfG,
-  "⬢": EvFBLvrsWo,
-  "⬣": DvIQfpeaPh,
-  "⬤": rRDPMydpld,
-  "⬮": nMxdznykdz,
-  "⬯": faEkTJTEPD,
-  "⭐": orcfpyGfSC,
-  "⭕": csPxuBvIei,
-  "⭘": GfZPriqFAR,
-  "⮏": HXsvlZNmWP,
-  "⮺": kpDyaOXXSt,
-  "⮻": mSdBpGDlZg,
-  "⮼": favOZVNYjX,
-  "⯃": DnmZkdqMHd,
-  "⯄": dgLtinSCUW,
-  "⯪": GFgapMnBBb,
-  "⯫": tphJvGsQNY,
-  "〰": XhTkSLCufG,
-  "〽": nnUsUXvsQe,
-  "㊗": kZkNrpauOH,
-  "㊙": tnmsWZarvv,
-  "": RFYTMuMWGI,
-  "": mHHhDdNhJT,
-  "": zvvQzQtcdp,
-  "": yGXsdCecBp,
-  "": ZctnGXjgPt,
-  "": IibnrEUZWv,
-  "": RQjicgjpSw,
-  "": GjAzJvMfkf,
-  "": HwdrHpbZHd,
-  "": XpxHZIhGiA,
-  "": JQkFRtaoCB,
-  "": NpXqTXRKUk,
-  "": wZEYIzhbBd,
-  "": qpNHajpAqg,
-  "": rmxyIciPmL,
-  "": gLqkFsMXyj,
-  "": YhzyCIewzz,
-  "": ygKQtAwGLs,
-  "": eTIvWxamyj,
-  "": zwfFZtmWMb,
-  "": JthYmniYQs,
-  "": cSCbBKbteG,
-  "": WcwwCkCkcy,
-  "": AAAIVaZxlK,
-  "": fUWwwVUcBl,
-  "": QpPrsKSxiu,
-  "": vzPclhgkwI,
-  "": wXcIHdwyow,
-  "": mosHYnCDKJ,
-  "": zxypaWvONn,
-  "": YgwdnpVvpD,
-  "": nGexEYlLHb,
-  "": uehRsnKAKZ,
-  "": TzyMKCBejj,
-  "": FgwTfwrEfx,
-  "": HXTUrDnQpv,
-  "": mbXOGSoFVU,
-  "": EFSKXMPWDz,
-  "": uyGVERMWtF,
-  "": XGSfFWldzI,
-  "": GucwmvpGRj,
-  "": QUZGOZpxhw,
-  "": uiPMnnxlqQ,
-  "": kssMDBWWZp,
-  "": hhkaPrPwvi,
-  "": YFgpJhKoMf,
-  "": EvnzESYJSA,
-  "": gYnULsybaM,
-  "": YsgKaHzjcW,
-  "": AhSJUwnzkt,
-  "": IzIshlLtvd,
-  "": pGTktSuvqP,
-  "": DhvtqSqnYL,
-  "": XYgVZCSxqC,
-  "": zNMIsPOMML,
-  "": IwOtQTmwTY,
-  "": fmQWxQNsEI,
-  "": YpWulqgiHW,
-  "": apgYMcEiZs,
-  "": oISHqBtKFB,
-  "": aTYmYVkbqx,
-  "": JQrEiaIxRT,
-  "": mVKLOWIPus,
-  "": gAmksnhGLf,
-  "": jVCVrobiuw,
-  "": RKrUYLekyv,
-  "": qjCocFUtJH,
-  "": SHOUCkkHVQ,
-  "": TSsIWMZfaW,
-  "": YosthEuPEj,
-  "": YQJjLHNHnm,
-  "": TVNbWuwMvK,
-  "": yGHJSKXemu,
-  "": kRPwczodKJ,
-  "": ySKXQCSqsz,
-  "": miJzRBDRqi,
-  "": PvsKBJCYEO,
-  "": WEceDyqVxo,
-  "": zmCtCvvcdG,
-  "": hRDDEhQSEh,
-  "": VZsVfWorBb,
-  "": ORYMqKjoLz,
-  "": GvvqjRdexO,
-  "": zXujqgvvuu,
-  "": NbOhwvHDvy,
-  "": TuyIdRtgtt,
-  "": wYOLYrhVFI,
-  "": RjxRYwIVUS,
-  "": vpqCdTPgnU,
-  "": UhdYzSVaoh,
-  "": tqPEiBefKr,
-  "": bQSrxyXSKm,
-  "": sGYeVCUkYI,
-  "": FwOjepQIIl,
-  "": ATyzGEdRJB,
-  "": cJmNLNHJZm,
-  "": egjTVQWHGg,
-  "": bpIGAMyAEM,
-  "‍♀️": JEACimnrjq,
-  "‍♂️": QIOCHyOGav,
-  "": xlDliOQZGd,
-  "‍♀️": fDgzNSIwmE,
-  "‍♂️": HLNOrjbiYD,
-  "": KSyYDDDMWp,
-  "": FGMVsrLSjl,
-  "": zQOqWTctSs,
-  "": LPsBBHogiN,
-  "": ilbxCzPGRJ,
-  "": mGcwqQcsTs,
-  "": RDoUgthdun,
-  "": xuhYxHkXSF,
-  "": bBCEDjjeLn,
-  "": mbZuBuQqGb,
-  "": HYuMzxFnQS,
-  "": OhRviCzgyN,
-  "": ALdIoCKVbT,
-  "": rHTReUxaqY,
-  "": gWFrtwBjqn,
-  "": HVbhyzRjNl,
-  "": tRctIOQcIt,
-  "": TsJUebGCPs,
-  "": sIgalTJbeu,
-  "": jDTXYYXMAx,
-  "": PzZazkRoCm,
-  "": XZUlyiSpYC,
-  "": bMNtamCHHC,
-  "": oHBpdQwrgP,
-  "": UqsPIiQzVy,
-  "": xCniKvixXX,
-  "": evdHoXrvHQ,
-  "": SWFQZCEvYI,
-  "": lIPrSSoEny,
-  "": rHjWdTpGcf,
-  "": WVrEITTnji,
-  "": QZYyweTomw,
-  "": otSAIbNuSK,
-  "": ecGwlTRmUC,
-  "": YTieRMMLXq,
-  "": ScUlQogRYt,
-  "": uWyBfojBBo,
-  "": tirSBYZrie,
-  "": yDWYmTcIPa,
-  "": wXYJLAvvWG,
-  "": zKzyJWDkwK,
-  "": HoHOFuHYra,
-  "": jxNuhuxsAL,
-  "": FDihjkUiJX,
-  "": PyIjqmHwZj,
-  "": IicrfteArN,
-  "": NyJCcHTcpl,
-  "": ALUijinpUL,
-  "": ofEOEOFDSP,
-  "": spAQmEVkgU,
-  "": vFpZNicFjF,
-  "": qyVqprGaWS,
-  "": cSkCxgkJGY,
-  "": kmnNFXVjMX,
-  "": tizjeZCGtK,
-  "": iLRkGxRSdw,
-  "": gGhOXEVdvI,
-  "": dDVzFyyzhH,
-  "": xFfunAQKDd,
-  "": ctTcnayFHl,
-  "": MFuNGwuSuC,
-  "": ljElKwTJrj,
-  "": kuordztOby,
-  "": JnCfMWIGVX,
-  "": hOfPPASIpK,
-  "": HHReVmxrpU,
-  "": SwjHEdlxNg,
-  "": vxPEesLLGj,
-  "": KmtdWGNGaH,
-  "": UeXnNLmcLc,
-  "": tjzozqecVb,
-  "": HbOMXIijDd,
-  "": DEeclPeLFq,
-  "": kqDPggkcRj,
-  "": XoXVlQitSQ,
-  "": CftbKGdPXT,
-  "": fjHVddIQYA,
-  "": uQrFJfEBNG,
-  "": ppYcrCwgFi,
-  "": pgXFyeQXYZ,
-  "": eJLHCeOXBX,
-  "": muokGlmVSu,
-  "": LdsfynFISk,
-  "": RWQmfOnBqG,
-  "": MUmWDkExjR,
-  "": DjZtMpsoWZ,
-  "": WDdDShKstd,
-  "": BmipqGdLTQ,
-  "": hsLkqMSbSW,
-  "": UVumONUcjA,
-  "": oufsVyxfio,
-  "": zFthQAGgwh,
-  "": sBVQnPuhqi,
-  "": PfcilUlaDY,
-  "": npxnCkZiww,
-  "": GjcSnthcFC,
-  "": hHtTTuQMEt,
-  "": CFwqEfyYAc,
-  "": cbRHawtkeX,
-  "": xQWrpIopKB,
-  "": nWFcMSVwhH,
-  "": jjtlAIuluh,
-  "": NCOvfcrYFt,
-  "": EUFsPFPwCQ,
-  "": kQiNBOGXOb,
-  "": TcFXtkIRmz,
-  "": jhHiWrawXC,
-  "": EIjNLPGbdP,
-  "": ZBbunCSMmB,
-  "": cEHwyGjODu,
-  "": LjhvIgzSSY,
-  "": lnFfYrUPka,
-  "": PcsavzBpHF,
-  "": XyjnSzmgAE,
-  "": xVJmQDwwHY,
-  "": QDoQxLynZX,
-  "": QKZGfYdmVp,
-  "": cyOBVyPmPe,
-  "": kYTaVFQckv,
-  "": FfEicHqlSb,
-  "": gOBFNMZnKq,
-  "": sahVbpVVGy,
-  "": ZIBKJkZDzF,
-  "": uqdFpDpvbX,
-  "": CFUsTlOrWR,
-  "": bBJXVIcvzP,
-  "": gXjJRjJpOg,
-  "": VrrNFYpoYG,
-  "": teoHIGKwfW,
-  "": HpEsMXlFTa,
-  "": pLBvCxwByL,
-  "": LpeOkjxcwT,
-  "": IaacJhadjb,
-  "": XBplNYgXkY,
-  "": DMBjeWMkRV,
-  "": XLGkmYUcaO,
-  "": gcMcmugXDN,
-  "": ftADryOMsz,
-  "": jYOljPnUVD,
-  "": AlGatQeyIO,
-  "": vntzrlMusr,
-  "": vHurbuqYuT,
-  "": GApbjooqhY,
-  "": olFRseZdfP,
-  "": mzrSANkgoU,
-  "": lSaFfpgXYy,
-  "": fjoVFALzGE,
-  "": zYToeTEQKS,
-  "": fscecdGgdn,
-  "": uOODRnnBOU,
-  "": UNwdusupAc,
-  "": gaHHVcjWBI,
-  "": JRJeGhnkNS,
-  "": mAjxqGwyMg,
-  "": bGwLXQjHex,
-  "": zmqBeyqpXu,
-  "": fAXDXNYRPx,
-  "": CZrXkPDvNF,
-  "": ktuOltyCSL,
-  "": FPtKRxKSoQ,
-  "": FNqmeIiPLw,
-  "": AechduEEmT,
-  "": BEhvbcjDLI,
-  "": HmRNpmnxmq,
-  "": rEDMuskSQw,
-  "": spfeaWoYgc,
-  "": YWsTzJoDss,
-  "": vJwGJrHPZK,
-  "": nNbQLeivSM,
-  "": drzBlKlxHI,
-  "": IwySqZiwGf,
-  "": PadVDhTqav,
-  "": cWiGbcjNkh,
-  "": byUiQpLtUt,
-  "": QoUBxAHvsW,
-  "": nQvufOwqVt,
-  "": qUuTdbgJwb,
-  "": KAnFRUuYfg,
-  "": nFdLWsSPZu,
-  "": kEtZnKDJhp,
-  "": vdaSlYgKLZ,
-  "": KPAtjqecxa,
-  "": jOKzhDohcK,
-  "": XwtQRsMOpI,
-  "": MKlOjuqkmZ,
-  "": EeiEeEjHWy,
-  "": jpnWAeRVIm,
-  "": dmSKFPFVoj,
-  "": KGchjaQOBQ,
-  "": BaFTiOzyyW,
-  "": gNeswHDXcI,
-  "": ioHPiryuPZ,
-  "": dTpblWLzar,
-  "": rLNEckfWMA,
-  "": zyXayUAPJv,
-  "": lHXGzOGLym,
-  "": LEWkEfCZYb,
-  "": UEyFmgFlDx,
-  "": wbqXdyDbVK,
-  "": UQQOQMEbAK,
-  "": oLyvOGkRbz,
-  "": NCzmFUZtWU,
-  "": VDpHNPTDBl,
-  "": OfsVmomuZY,
-  "": xgsBWMvixP,
-  "": CHiqEwMKXx,
-  "": VvogqckruU,
-  "": zjAQjibWFj,
-  "": dtJgsMiFpB,
-  "": NepTCqdDtW,
-  "": GEUVyifxsF,
-  "": DJDHKgKUfa,
-  "": EZMkcHkkrt,
-  "": EBSYvdEjlM,
-  "": QoheNSyMoM,
-  "": HJtbAQIrTJ,
-  "": xwsgEFNEqO,
-  "": BNgDOLnegk,
-  "": jdVLCJCnff,
-  "": dvxRDArkcl,
-  "": viRRshkWRS,
-  "": MIyeIvtuIH,
-  "": wWNIytaaCx,
-  "": ZqOFvPsiPq,
-  "": NwxIFrKDfc,
-  "": fDCEOcDpUD,
-  "": kaAnAaBaXP,
-  "": FPeRbotwof,
-  "": CghBZWqrOT,
-  "": EZlQHIiVXR,
-  "": MFQEAFEfhF,
-  "": zXXQnqOwOw,
-  "": gYThLlQpLc,
-  "": BOHxuNeYmH,
-  "": xpDilbcvFF,
-  "": pRGXJnkmzz,
+
+
+
+
+"😀": _1F600,
+"😃": _1F603,
+"😄": _1F604,
+"😁": _1F601,
+"😆": _1F606,
+"😅": _1F605,
+"🤣": _1F923,
+"😂": _1F602,
+"🙂": _1F642,
+"🙃": _1F643,
+"🫠": _1FAE0,
+"😉": _1F609,
+"😊": _1F60A,
+"😇": _1F607,
+"🥰": _1F970,
+"😍": _1F60D,
+"🤩": _1F929,
+"😘": _1F618,
+"😗": _1F617,
+"☺️": _263A,
+"😚": _1F61A,
+"😙": _1F619,
+"🥲": _1F972,
+"😋": _1F60B,
+"😛": _1F61B,
+"😜": _1F61C,
+"🤪": _1F92A,
+"😝": _1F61D,
+"🤑": _1F911,
+"🤗": _1F917,
+"🤭": _1F92D,
+"🫢": _1FAE2,
+"🫣": _1FAE3,
+"🤫": _1F92B,
+"🤔": _1F914,
+"🫡": _1FAE1,
+"🤐": _1F910,
+"🤨": _1F928,
+"😐️": _1F610,
+"😑": _1F611,
+"😶": _1F636,
+"🫥": _1FAE5,
+"😶‍🌫️": _1F636200D1F32BFE0F,
+"😏": _1F60F,
+"😒": _1F612,
+"🙄": _1F644,
+"😬": _1F62C,
+"😮‍💨": _1F62E200D1F4A8,
+"🤥": _1F925,
+"🫨": _1FAE8,
+"🙂‍↔️": _1F642200D2194FE0F,
+"🙂‍↕️": _1F642200D2195FE0F,
+"😌": _1F60C,
+"😔": _1F614,
+"😪": _1F62A,
+"🤤": _1F924,
+"😴": _1F634,
+"😷": _1F637,
+"🤒": _1F912,
+"🤕": _1F915,
+"🤢": _1F922,
+"🤮": _1F92E,
+"🤧": _1F927,
+"🥵": _1F975,
+"🥶": _1F976,
+"🥴": _1F974,
+"😵": _1F635,
+"😵‍💫": _1F635200D1F4AB,
+"🤯": _1F92F,
+"🤠": _1F920,
+"🥳": _1F973,
+"🥸": _1F978,
+"😎": _1F60E,
+"🤓": _1F913,
+"🧐": _1F9D0,
+"😕": _1F615,
+"🫤": _1FAE4,
+"😟": _1F61F,
+"🙁": _1F641,
+"☹️": _2639,
+"😮": _1F62E,
+"😯": _1F62F,
+"😲": _1F632,
+"😳": _1F633,
+"🥺": _1F97A,
+"🥹": _1F979,
+"😦": _1F626,
+"😧": _1F627,
+"😨": _1F628,
+"😰": _1F630,
+"😥": _1F625,
+"😢": _1F622,
+"😭": _1F62D,
+"😱": _1F631,
+"😖": _1F616,
+"😣": _1F623,
+"😞": _1F61E,
+"😓": _1F613,
+"😩": _1F629,
+"😫": _1F62B,
+"🥱": _1F971,
+"😤": _1F624,
+"😡": _1F621,
+"😠": _1F620,
+"🤬": _1F92C,
+"😈": _1F608,
+"👿": _1F47F,
+"💀": _1F480,
+"☠️": _2620,
+"💩": _1F4A9,
+"🤡": _1F921,
+"👹": _1F479,
+"👺": _1F47A,
+"👻": _1F47B,
+"👽️": _1F47D,
+"👾": _1F47E,
+"🤖": _1F916,
+"😺": _1F63A,
+"😸": _1F638,
+"😹": _1F639,
+"😻": _1F63B,
+"😼": _1F63C,
+"😽": _1F63D,
+"🙀": _1F640,
+"😿": _1F63F,
+"😾": _1F63E,
+"🙈": _1F648,
+"🙉": _1F649,
+"🙊": _1F64A,
+"💌": _1F48C,
+"💘": _1F498,
+"💝": _1F49D,
+"💖": _1F496,
+"💗": _1F497,
+"💓": _1F493,
+"💞": _1F49E,
+"💕": _1F495,
+"💟": _1F49F,
+"❣️": _2763,
+"💔": _1F494,
+"❤️‍🔥": _2764FE0F200D1F525,
+"❤️‍🩹": _2764FE0F200D1FA79,
+"❤️": _2764,
+"🩷": _1FA77,
+"🧡": _1F9E1,
+"💛": _1F49B,
+"💚": _1F49A,
+"💙": _1F499,
+"🩵": _1FA75,
+"💜": _1F49C,
+"🤎": _1F90E,
+"🖤": _1F5A4,
+"🩶": _1FA76,
+"🤍": _1F90D,
+"💋": _1F48B,
+"💯": _1F4AF,
+"💢": _1F4A2,
+"💥": _1F4A5,
+"💫": _1F4AB,
+"💦": _1F4A6,
+"💨": _1F4A8,
+"🕳️": _1F573,
+"💬": _1F4AC,
+"👁️‍🗨️": _1F441FE0F200D1F5E8FE0F,
+"🗨️": _1F5E8,
+"🗯️": _1F5EF,
+"💭": _1F4AD,
+"💤": _1F4A4,
+"👋": _1F44B,
+"👋🏻": _1F44B1F3FB,
+"👋🏼": _1F44B1F3FC,
+"👋🏽": _1F44B1F3FD,
+"👋🏾": _1F44B1F3FE,
+"👋🏿": _1F44B1F3FF,
+"🤚": _1F91A,
+"🤚🏻": _1F91A1F3FB,
+"🤚🏼": _1F91A1F3FC,
+"🤚🏽": _1F91A1F3FD,
+"🤚🏾": _1F91A1F3FE,
+"🤚🏿": _1F91A1F3FF,
+"🖐️": _1F590,
+"🖐🏻": _1F5901F3FB,
+"🖐🏼": _1F5901F3FC,
+"🖐🏽": _1F5901F3FD,
+"🖐🏾": _1F5901F3FE,
+"🖐🏿": _1F5901F3FF,
+"✋️": _270B,
+"✋🏻": _270B1F3FB,
+"✋🏼": _270B1F3FC,
+"✋🏽": _270B1F3FD,
+"✋🏾": _270B1F3FE,
+"✋🏿": _270B1F3FF,
+"🖖": _1F596,
+"🖖🏻": _1F5961F3FB,
+"🖖🏼": _1F5961F3FC,
+"🖖🏽": _1F5961F3FD,
+"🖖🏾": _1F5961F3FE,
+"🖖🏿": _1F5961F3FF,
+"🫱": _1FAF1,
+"🫱🏻": _1FAF11F3FB,
+"🫱🏼": _1FAF11F3FC,
+"🫱🏽": _1FAF11F3FD,
+"🫱🏾": _1FAF11F3FE,
+"🫱🏿": _1FAF11F3FF,
+"🫲": _1FAF2,
+"🫲🏻": _1FAF21F3FB,
+"🫲🏼": _1FAF21F3FC,
+"🫲🏽": _1FAF21F3FD,
+"🫲🏾": _1FAF21F3FE,
+"🫲🏿": _1FAF21F3FF,
+"🫳": _1FAF3,
+"🫳🏻": _1FAF31F3FB,
+"🫳🏼": _1FAF31F3FC,
+"🫳🏽": _1FAF31F3FD,
+"🫳🏾": _1FAF31F3FE,
+"🫳🏿": _1FAF31F3FF,
+"🫴": _1FAF4,
+"🫴🏻": _1FAF41F3FB,
+"🫴🏼": _1FAF41F3FC,
+"🫴🏽": _1FAF41F3FD,
+"🫴🏾": _1FAF41F3FE,
+"🫴🏿": _1FAF41F3FF,
+"🫷": _1FAF7,
+"🫷🏻": _1FAF71F3FB,
+"🫷🏼": _1FAF71F3FC,
+"🫷🏽": _1FAF71F3FD,
+"🫷🏾": _1FAF71F3FE,
+"🫷🏿": _1FAF71F3FF,
+"🫸": _1FAF8,
+"🫸🏻": _1FAF81F3FB,
+"🫸🏼": _1FAF81F3FC,
+"🫸🏽": _1FAF81F3FD,
+"🫸🏾": _1FAF81F3FE,
+"🫸🏿": _1FAF81F3FF,
+"👌": _1F44C,
+"👌🏻": _1F44C1F3FB,
+"👌🏼": _1F44C1F3FC,
+"👌🏽": _1F44C1F3FD,
+"👌🏾": _1F44C1F3FE,
+"👌🏿": _1F44C1F3FF,
+"🤌": _1F90C,
+"🤌🏻": _1F90C1F3FB,
+"🤌🏼": _1F90C1F3FC,
+"🤌🏽": _1F90C1F3FD,
+"🤌🏾": _1F90C1F3FE,
+"🤌🏿": _1F90C1F3FF,
+"🤏": _1F90F,
+"🤏🏻": _1F90F1F3FB,
+"🤏🏼": _1F90F1F3FC,
+"🤏🏽": _1F90F1F3FD,
+"🤏🏾": _1F90F1F3FE,
+"🤏🏿": _1F90F1F3FF,
+"✌️": _270C,
+"✌🏻": _270C1F3FB,
+"✌🏼": _270C1F3FC,
+"✌🏽": _270C1F3FD,
+"✌🏾": _270C1F3FE,
+"✌🏿": _270C1F3FF,
+"🤞": _1F91E,
+"🤞🏻": _1F91E1F3FB,
+"🤞🏼": _1F91E1F3FC,
+"🤞🏽": _1F91E1F3FD,
+"🤞🏾": _1F91E1F3FE,
+"🤞🏿": _1F91E1F3FF,
+"🫰": _1FAF0,
+"🫰🏻": _1FAF01F3FB,
+"🫰🏼": _1FAF01F3FC,
+"🫰🏽": _1FAF01F3FD,
+"🫰🏾": _1FAF01F3FE,
+"🫰🏿": _1FAF01F3FF,
+"🤟": _1F91F,
+"🤟🏻": _1F91F1F3FB,
+"🤟🏼": _1F91F1F3FC,
+"🤟🏽": _1F91F1F3FD,
+"🤟🏾": _1F91F1F3FE,
+"🤟🏿": _1F91F1F3FF,
+"🤘": _1F918,
+"🤘🏻": _1F9181F3FB,
+"🤘🏼": _1F9181F3FC,
+"🤘🏽": _1F9181F3FD,
+"🤘🏾": _1F9181F3FE,
+"🤘🏿": _1F9181F3FF,
+"🤙": _1F919,
+"🤙🏻": _1F9191F3FB,
+"🤙🏼": _1F9191F3FC,
+"🤙🏽": _1F9191F3FD,
+"🤙🏾": _1F9191F3FE,
+"🤙🏿": _1F9191F3FF,
+"👈️": _1F448,
+"👈🏻": _1F4481F3FB,
+"👈🏼": _1F4481F3FC,
+"👈🏽": _1F4481F3FD,
+"👈🏾": _1F4481F3FE,
+"👈🏿": _1F4481F3FF,
+"👉️": _1F449,
+"👉🏻": _1F4491F3FB,
+"👉🏼": _1F4491F3FC,
+"👉🏽": _1F4491F3FD,
+"👉🏾": _1F4491F3FE,
+"👉🏿": _1F4491F3FF,
+"👆️": _1F446,
+"👆🏻": _1F4461F3FB,
+"👆🏼": _1F4461F3FC,
+"👆🏽": _1F4461F3FD,
+"👆🏾": _1F4461F3FE,
+"👆🏿": _1F4461F3FF,
+"🖕": _1F595,
+"🖕🏻": _1F5951F3FB,
+"🖕🏼": _1F5951F3FC,
+"🖕🏽": _1F5951F3FD,
+"🖕🏾": _1F5951F3FE,
+"🖕🏿": _1F5951F3FF,
+"👇️": _1F447,
+"👇🏻": _1F4471F3FB,
+"👇🏼": _1F4471F3FC,
+"👇🏽": _1F4471F3FD,
+"👇🏾": _1F4471F3FE,
+"👇🏿": _1F4471F3FF,
+"☝️": _261D,
+"☝🏻": _261D1F3FB,
+"☝🏼": _261D1F3FC,
+"☝🏽": _261D1F3FD,
+"☝🏾": _261D1F3FE,
+"☝🏿": _261D1F3FF,
+"🫵": _1FAF5,
+"🫵🏻": _1FAF51F3FB,
+"🫵🏼": _1FAF51F3FC,
+"🫵🏽": _1FAF51F3FD,
+"🫵🏾": _1FAF51F3FE,
+"🫵🏿": _1FAF51F3FF,
+"👍️": _1F44D,
+"👍🏻": _1F44D1F3FB,
+"👍🏼": _1F44D1F3FC,
+"👍🏽": _1F44D1F3FD,
+"👍🏾": _1F44D1F3FE,
+"👍🏿": _1F44D1F3FF,
+"👎️": _1F44E,
+"👎🏻": _1F44E1F3FB,
+"👎🏼": _1F44E1F3FC,
+"👎🏽": _1F44E1F3FD,
+"👎🏾": _1F44E1F3FE,
+"👎🏿": _1F44E1F3FF,
+"✊️": _270A,
+"✊🏻": _270A1F3FB,
+"✊🏼": _270A1F3FC,
+"✊🏽": _270A1F3FD,
+"✊🏾": _270A1F3FE,
+"✊🏿": _270A1F3FF,
+"👊": _1F44A,
+"👊🏻": _1F44A1F3FB,
+"👊🏼": _1F44A1F3FC,
+"👊🏽": _1F44A1F3FD,
+"👊🏾": _1F44A1F3FE,
+"👊🏿": _1F44A1F3FF,
+"🤛": _1F91B,
+"🤛🏻": _1F91B1F3FB,
+"🤛🏼": _1F91B1F3FC,
+"🤛🏽": _1F91B1F3FD,
+"🤛🏾": _1F91B1F3FE,
+"🤛🏿": _1F91B1F3FF,
+"🤜": _1F91C,
+"🤜🏻": _1F91C1F3FB,
+"🤜🏼": _1F91C1F3FC,
+"🤜🏽": _1F91C1F3FD,
+"🤜🏾": _1F91C1F3FE,
+"🤜🏿": _1F91C1F3FF,
+"👏": _1F44F,
+"👏🏻": _1F44F1F3FB,
+"👏🏼": _1F44F1F3FC,
+"👏🏽": _1F44F1F3FD,
+"👏🏾": _1F44F1F3FE,
+"👏🏿": _1F44F1F3FF,
+"🙌": _1F64C,
+"🙌🏻": _1F64C1F3FB,
+"🙌🏼": _1F64C1F3FC,
+"🙌🏽": _1F64C1F3FD,
+"🙌🏾": _1F64C1F3FE,
+"🙌🏿": _1F64C1F3FF,
+"🫶": _1FAF6,
+"🫶🏻": _1FAF61F3FB,
+"🫶🏼": _1FAF61F3FC,
+"🫶🏽": _1FAF61F3FD,
+"🫶🏾": _1FAF61F3FE,
+"🫶🏿": _1FAF61F3FF,
+"👐": _1F450,
+"👐🏻": _1F4501F3FB,
+"👐🏼": _1F4501F3FC,
+"👐🏽": _1F4501F3FD,
+"👐🏾": _1F4501F3FE,
+"👐🏿": _1F4501F3FF,
+"🤲": _1F932,
+"🤲🏻": _1F9321F3FB,
+"🤲🏼": _1F9321F3FC,
+"🤲🏽": _1F9321F3FD,
+"🤲🏾": _1F9321F3FE,
+"🤲🏿": _1F9321F3FF,
+"🤝": _1F91D,
+"🤝🏻": _1F91D1F3FB,
+"🤝🏼": _1F91D1F3FC,
+"🤝🏽": _1F91D1F3FD,
+"🤝🏾": _1F91D1F3FE,
+"🤝🏿": _1F91D1F3FF,
+"🫱🏻‍🫲🏼": _1FAF11F3FB200D1FAF21F3FC,
+"🫱🏻‍🫲🏽": _1FAF11F3FB200D1FAF21F3FD,
+"🫱🏻‍🫲🏾": _1FAF11F3FB200D1FAF21F3FE,
+"🫱🏻‍🫲🏿": _1FAF11F3FB200D1FAF21F3FF,
+"🫱🏼‍🫲🏻": _1FAF11F3FC200D1FAF21F3FB,
+"🫱🏼‍🫲🏽": _1FAF11F3FC200D1FAF21F3FD,
+"🫱🏼‍🫲🏾": _1FAF11F3FC200D1FAF21F3FE,
+"🫱🏼‍🫲🏿": _1FAF11F3FC200D1FAF21F3FF,
+"🫱🏽‍🫲🏻": _1FAF11F3FD200D1FAF21F3FB,
+"🫱🏽‍🫲🏼": _1FAF11F3FD200D1FAF21F3FC,
+"🫱🏽‍🫲🏾": _1FAF11F3FD200D1FAF21F3FE,
+"🫱🏽‍🫲🏿": _1FAF11F3FD200D1FAF21F3FF,
+"🫱🏾‍🫲🏻": _1FAF11F3FE200D1FAF21F3FB,
+"🫱🏾‍🫲🏼": _1FAF11F3FE200D1FAF21F3FC,
+"🫱🏾‍🫲🏽": _1FAF11F3FE200D1FAF21F3FD,
+"🫱🏾‍🫲🏿": _1FAF11F3FE200D1FAF21F3FF,
+"🫱🏿‍🫲🏻": _1FAF11F3FF200D1FAF21F3FB,
+"🫱🏿‍🫲🏼": _1FAF11F3FF200D1FAF21F3FC,
+"🫱🏿‍🫲🏽": _1FAF11F3FF200D1FAF21F3FD,
+"🫱🏿‍🫲🏾": _1FAF11F3FF200D1FAF21F3FE,
+"🙏": _1F64F,
+"🙏🏻": _1F64F1F3FB,
+"🙏🏼": _1F64F1F3FC,
+"🙏🏽": _1F64F1F3FD,
+"🙏🏾": _1F64F1F3FE,
+"🙏🏿": _1F64F1F3FF,
+"✍️": _270D,
+"✍🏻": _270D1F3FB,
+"✍🏼": _270D1F3FC,
+"✍🏽": _270D1F3FD,
+"✍🏾": _270D1F3FE,
+"✍🏿": _270D1F3FF,
+"💅": _1F485,
+"💅🏻": _1F4851F3FB,
+"💅🏼": _1F4851F3FC,
+"💅🏽": _1F4851F3FD,
+"💅🏾": _1F4851F3FE,
+"💅🏿": _1F4851F3FF,
+"🤳": _1F933,
+"🤳🏻": _1F9331F3FB,
+"🤳🏼": _1F9331F3FC,
+"🤳🏽": _1F9331F3FD,
+"🤳🏾": _1F9331F3FE,
+"🤳🏿": _1F9331F3FF,
+"💪": _1F4AA,
+"💪🏻": _1F4AA1F3FB,
+"💪🏼": _1F4AA1F3FC,
+"💪🏽": _1F4AA1F3FD,
+"💪🏾": _1F4AA1F3FE,
+"💪🏿": _1F4AA1F3FF,
+"🦾": _1F9BE,
+"🦿": _1F9BF,
+"🦵": _1F9B5,
+"🦵🏻": _1F9B51F3FB,
+"🦵🏼": _1F9B51F3FC,
+"🦵🏽": _1F9B51F3FD,
+"🦵🏾": _1F9B51F3FE,
+"🦵🏿": _1F9B51F3FF,
+"🦶": _1F9B6,
+"🦶🏻": _1F9B61F3FB,
+"🦶🏼": _1F9B61F3FC,
+"🦶🏽": _1F9B61F3FD,
+"🦶🏾": _1F9B61F3FE,
+"🦶🏿": _1F9B61F3FF,
+"👂️": _1F442,
+"👂🏻": _1F4421F3FB,
+"👂🏼": _1F4421F3FC,
+"👂🏽": _1F4421F3FD,
+"👂🏾": _1F4421F3FE,
+"👂🏿": _1F4421F3FF,
+"🦻": _1F9BB,
+"🦻🏻": _1F9BB1F3FB,
+"🦻🏼": _1F9BB1F3FC,
+"🦻🏽": _1F9BB1F3FD,
+"🦻🏾": _1F9BB1F3FE,
+"🦻🏿": _1F9BB1F3FF,
+"👃": _1F443,
+"👃🏻": _1F4431F3FB,
+"👃🏼": _1F4431F3FC,
+"👃🏽": _1F4431F3FD,
+"👃🏾": _1F4431F3FE,
+"👃🏿": _1F4431F3FF,
+"🧠": _1F9E0,
+"🫀": _1FAC0,
+"🫁": _1FAC1,
+"🦷": _1F9B7,
+"🦴": _1F9B4,
+"👀": _1F440,
+"👁️": _1F441,
+"👅": _1F445,
+"👄": _1F444,
+"🫦": _1FAE6,
+"👶": _1F476,
+"👶🏻": _1F4761F3FB,
+"👶🏼": _1F4761F3FC,
+"👶🏽": _1F4761F3FD,
+"👶🏾": _1F4761F3FE,
+"👶🏿": _1F4761F3FF,
+"🧒": _1F9D2,
+"🧒🏻": _1F9D21F3FB,
+"🧒🏼": _1F9D21F3FC,
+"🧒🏽": _1F9D21F3FD,
+"🧒🏾": _1F9D21F3FE,
+"🧒🏿": _1F9D21F3FF,
+"👦": _1F466,
+"👦🏻": _1F4661F3FB,
+"👦🏼": _1F4661F3FC,
+"👦🏽": _1F4661F3FD,
+"👦🏾": _1F4661F3FE,
+"👦🏿": _1F4661F3FF,
+"👧": _1F467,
+"👧🏻": _1F4671F3FB,
+"👧🏼": _1F4671F3FC,
+"👧🏽": _1F4671F3FD,
+"👧🏾": _1F4671F3FE,
+"👧🏿": _1F4671F3FF,
+"🧑": _1F9D1,
+"🧑🏻": _1F9D11F3FB,
+"🧑🏼": _1F9D11F3FC,
+"🧑🏽": _1F9D11F3FD,
+"🧑🏾": _1F9D11F3FE,
+"🧑🏿": _1F9D11F3FF,
+"👱": _1F471,
+"👱🏻": _1F4711F3FB,
+"👱🏼": _1F4711F3FC,
+"👱🏽": _1F4711F3FD,
+"👱🏾": _1F4711F3FE,
+"👱🏿": _1F4711F3FF,
+"👨": _1F468,
+"👨🏻": _1F4681F3FB,
+"👨🏼": _1F4681F3FC,
+"👨🏽": _1F4681F3FD,
+"👨🏾": _1F4681F3FE,
+"👨🏿": _1F4681F3FF,
+"🧔": _1F9D4,
+"🧔🏻": _1F9D41F3FB,
+"🧔🏼": _1F9D41F3FC,
+"🧔🏽": _1F9D41F3FD,
+"🧔🏾": _1F9D41F3FE,
+"🧔🏿": _1F9D41F3FF,
+"🧔‍♂️": _1F9D4200D2642FE0F,
+"🧔🏻‍♂️": _1F9D41F3FB200D2642FE0F,
+"🧔🏼‍♂️": _1F9D41F3FC200D2642FE0F,
+"🧔🏽‍♂️": _1F9D41F3FD200D2642FE0F,
+"🧔🏾‍♂️": _1F9D41F3FE200D2642FE0F,
+"🧔🏿‍♂️": _1F9D41F3FF200D2642FE0F,
+"🧔‍♀️": _1F9D4200D2640FE0F,
+"🧔🏻‍♀️": _1F9D41F3FB200D2640FE0F,
+"🧔🏼‍♀️": _1F9D41F3FC200D2640FE0F,
+"🧔🏽‍♀️": _1F9D41F3FD200D2640FE0F,
+"🧔🏾‍♀️": _1F9D41F3FE200D2640FE0F,
+"🧔🏿‍♀️": _1F9D41F3FF200D2640FE0F,
+"👨‍🦰": _1F468200D1F9B0,
+"👨🏻‍🦰": _1F4681F3FB200D1F9B0,
+"👨🏼‍🦰": _1F4681F3FC200D1F9B0,
+"👨🏽‍🦰": _1F4681F3FD200D1F9B0,
+"👨🏾‍🦰": _1F4681F3FE200D1F9B0,
+"👨🏿‍🦰": _1F4681F3FF200D1F9B0,
+"👨‍🦱": _1F468200D1F9B1,
+"👨🏻‍🦱": _1F4681F3FB200D1F9B1,
+"👨🏼‍🦱": _1F4681F3FC200D1F9B1,
+"👨🏽‍🦱": _1F4681F3FD200D1F9B1,
+"👨🏾‍🦱": _1F4681F3FE200D1F9B1,
+"👨🏿‍🦱": _1F4681F3FF200D1F9B1,
+"👨‍🦳": _1F468200D1F9B3,
+"👨🏻‍🦳": _1F4681F3FB200D1F9B3,
+"👨🏼‍🦳": _1F4681F3FC200D1F9B3,
+"👨🏽‍🦳": _1F4681F3FD200D1F9B3,
+"👨🏾‍🦳": _1F4681F3FE200D1F9B3,
+"👨🏿‍🦳": _1F4681F3FF200D1F9B3,
+"👨‍🦲": _1F468200D1F9B2,
+"👨🏻‍🦲": _1F4681F3FB200D1F9B2,
+"👨🏼‍🦲": _1F4681F3FC200D1F9B2,
+"👨🏽‍🦲": _1F4681F3FD200D1F9B2,
+"👨🏾‍🦲": _1F4681F3FE200D1F9B2,
+"👨🏿‍🦲": _1F4681F3FF200D1F9B2,
+"👩": _1F469,
+"👩🏻": _1F4691F3FB,
+"👩🏼": _1F4691F3FC,
+"👩🏽": _1F4691F3FD,
+"👩🏾": _1F4691F3FE,
+"👩🏿": _1F4691F3FF,
+"👩‍🦰": _1F469200D1F9B0,
+"👩🏻‍🦰": _1F4691F3FB200D1F9B0,
+"👩🏼‍🦰": _1F4691F3FC200D1F9B0,
+"👩🏽‍🦰": _1F4691F3FD200D1F9B0,
+"👩🏾‍🦰": _1F4691F3FE200D1F9B0,
+"👩🏿‍🦰": _1F4691F3FF200D1F9B0,
+"🧑‍🦰": _1F9D1200D1F9B0,
+"🧑🏻‍🦰": _1F9D11F3FB200D1F9B0,
+"🧑🏼‍🦰": _1F9D11F3FC200D1F9B0,
+"🧑🏽‍🦰": _1F9D11F3FD200D1F9B0,
+"🧑🏾‍🦰": _1F9D11F3FE200D1F9B0,
+"🧑🏿‍🦰": _1F9D11F3FF200D1F9B0,
+"👩‍🦱": _1F469200D1F9B1,
+"👩🏻‍🦱": _1F4691F3FB200D1F9B1,
+"👩🏼‍🦱": _1F4691F3FC200D1F9B1,
+"👩🏽‍🦱": _1F4691F3FD200D1F9B1,
+"👩🏾‍🦱": _1F4691F3FE200D1F9B1,
+"👩🏿‍🦱": _1F4691F3FF200D1F9B1,
+"🧑‍🦱": _1F9D1200D1F9B1,
+"🧑🏻‍🦱": _1F9D11F3FB200D1F9B1,
+"🧑🏼‍🦱": _1F9D11F3FC200D1F9B1,
+"🧑🏽‍🦱": _1F9D11F3FD200D1F9B1,
+"🧑🏾‍🦱": _1F9D11F3FE200D1F9B1,
+"🧑🏿‍🦱": _1F9D11F3FF200D1F9B1,
+"👩‍🦳": _1F469200D1F9B3,
+"👩🏻‍🦳": _1F4691F3FB200D1F9B3,
+"👩🏼‍🦳": _1F4691F3FC200D1F9B3,
+"👩🏽‍🦳": _1F4691F3FD200D1F9B3,
+"👩🏾‍🦳": _1F4691F3FE200D1F9B3,
+"👩🏿‍🦳": _1F4691F3FF200D1F9B3,
+"🧑‍🦳": _1F9D1200D1F9B3,
+"🧑🏻‍🦳": _1F9D11F3FB200D1F9B3,
+"🧑🏼‍🦳": _1F9D11F3FC200D1F9B3,
+"🧑🏽‍🦳": _1F9D11F3FD200D1F9B3,
+"🧑🏾‍🦳": _1F9D11F3FE200D1F9B3,
+"🧑🏿‍🦳": _1F9D11F3FF200D1F9B3,
+"👩‍🦲": _1F469200D1F9B2,
+"👩🏻‍🦲": _1F4691F3FB200D1F9B2,
+"👩🏼‍🦲": _1F4691F3FC200D1F9B2,
+"👩🏽‍🦲": _1F4691F3FD200D1F9B2,
+"👩🏾‍🦲": _1F4691F3FE200D1F9B2,
+"👩🏿‍🦲": _1F4691F3FF200D1F9B2,
+"🧑‍🦲": _1F9D1200D1F9B2,
+"🧑🏻‍🦲": _1F9D11F3FB200D1F9B2,
+"🧑🏼‍🦲": _1F9D11F3FC200D1F9B2,
+"🧑🏽‍🦲": _1F9D11F3FD200D1F9B2,
+"🧑🏾‍🦲": _1F9D11F3FE200D1F9B2,
+"🧑🏿‍🦲": _1F9D11F3FF200D1F9B2,
+"👱‍♀️": _1F471200D2640FE0F,
+"👱🏻‍♀️": _1F4711F3FB200D2640FE0F,
+"👱🏼‍♀️": _1F4711F3FC200D2640FE0F,
+"👱🏽‍♀️": _1F4711F3FD200D2640FE0F,
+"👱🏾‍♀️": _1F4711F3FE200D2640FE0F,
+"👱🏿‍♀️": _1F4711F3FF200D2640FE0F,
+"👱‍♂️": _1F471200D2642FE0F,
+"👱🏻‍♂️": _1F4711F3FB200D2642FE0F,
+"👱🏼‍♂️": _1F4711F3FC200D2642FE0F,
+"👱🏽‍♂️": _1F4711F3FD200D2642FE0F,
+"👱🏾‍♂️": _1F4711F3FE200D2642FE0F,
+"👱🏿‍♂️": _1F4711F3FF200D2642FE0F,
+"🧓": _1F9D3,
+"🧓🏻": _1F9D31F3FB,
+"🧓🏼": _1F9D31F3FC,
+"🧓🏽": _1F9D31F3FD,
+"🧓🏾": _1F9D31F3FE,
+"🧓🏿": _1F9D31F3FF,
+"👴": _1F474,
+"👴🏻": _1F4741F3FB,
+"👴🏼": _1F4741F3FC,
+"👴🏽": _1F4741F3FD,
+"👴🏾": _1F4741F3FE,
+"👴🏿": _1F4741F3FF,
+"👵": _1F475,
+"👵🏻": _1F4751F3FB,
+"👵🏼": _1F4751F3FC,
+"👵🏽": _1F4751F3FD,
+"👵🏾": _1F4751F3FE,
+"👵🏿": _1F4751F3FF,
+"🙍": _1F64D,
+"🙍🏻": _1F64D1F3FB,
+"🙍🏼": _1F64D1F3FC,
+"🙍🏽": _1F64D1F3FD,
+"🙍🏾": _1F64D1F3FE,
+"🙍🏿": _1F64D1F3FF,
+"🙍‍♂️": _1F64D200D2642FE0F,
+"🙍🏻‍♂️": _1F64D1F3FB200D2642FE0F,
+"🙍🏼‍♂️": _1F64D1F3FC200D2642FE0F,
+"🙍🏽‍♂️": _1F64D1F3FD200D2642FE0F,
+"🙍🏾‍♂️": _1F64D1F3FE200D2642FE0F,
+"🙍🏿‍♂️": _1F64D1F3FF200D2642FE0F,
+"🙍‍♀️": _1F64D200D2640FE0F,
+"🙍🏻‍♀️": _1F64D1F3FB200D2640FE0F,
+"🙍🏼‍♀️": _1F64D1F3FC200D2640FE0F,
+"🙍🏽‍♀️": _1F64D1F3FD200D2640FE0F,
+"🙍🏾‍♀️": _1F64D1F3FE200D2640FE0F,
+"🙍🏿‍♀️": _1F64D1F3FF200D2640FE0F,
+"🙎": _1F64E,
+"🙎🏻": _1F64E1F3FB,
+"🙎🏼": _1F64E1F3FC,
+"🙎🏽": _1F64E1F3FD,
+"🙎🏾": _1F64E1F3FE,
+"🙎🏿": _1F64E1F3FF,
+"🙎‍♂️": _1F64E200D2642FE0F,
+"🙎🏻‍♂️": _1F64E1F3FB200D2642FE0F,
+"🙎🏼‍♂️": _1F64E1F3FC200D2642FE0F,
+"🙎🏽‍♂️": _1F64E1F3FD200D2642FE0F,
+"🙎🏾‍♂️": _1F64E1F3FE200D2642FE0F,
+"🙎🏿‍♂️": _1F64E1F3FF200D2642FE0F,
+"🙎‍♀️": _1F64E200D2640FE0F,
+"🙎🏻‍♀️": _1F64E1F3FB200D2640FE0F,
+"🙎🏼‍♀️": _1F64E1F3FC200D2640FE0F,
+"🙎🏽‍♀️": _1F64E1F3FD200D2640FE0F,
+"🙎🏾‍♀️": _1F64E1F3FE200D2640FE0F,
+"🙎🏿‍♀️": _1F64E1F3FF200D2640FE0F,
+"🙅": _1F645,
+"🙅🏻": _1F6451F3FB,
+"🙅🏼": _1F6451F3FC,
+"🙅🏽": _1F6451F3FD,
+"🙅🏾": _1F6451F3FE,
+"🙅🏿": _1F6451F3FF,
+"🙅‍♂️": _1F645200D2642FE0F,
+"🙅🏻‍♂️": _1F6451F3FB200D2642FE0F,
+"🙅🏼‍♂️": _1F6451F3FC200D2642FE0F,
+"🙅🏽‍♂️": _1F6451F3FD200D2642FE0F,
+"🙅🏾‍♂️": _1F6451F3FE200D2642FE0F,
+"🙅🏿‍♂️": _1F6451F3FF200D2642FE0F,
+"🙅‍♀️": _1F645200D2640FE0F,
+"🙅🏻‍♀️": _1F6451F3FB200D2640FE0F,
+"🙅🏼‍♀️": _1F6451F3FC200D2640FE0F,
+"🙅🏽‍♀️": _1F6451F3FD200D2640FE0F,
+"🙅🏾‍♀️": _1F6451F3FE200D2640FE0F,
+"🙅🏿‍♀️": _1F6451F3FF200D2640FE0F,
+"🙆": _1F646,
+"🙆🏻": _1F6461F3FB,
+"🙆🏼": _1F6461F3FC,
+"🙆🏽": _1F6461F3FD,
+"🙆🏾": _1F6461F3FE,
+"🙆🏿": _1F6461F3FF,
+"🙆‍♂️": _1F646200D2642FE0F,
+"🙆🏻‍♂️": _1F6461F3FB200D2642FE0F,
+"🙆🏼‍♂️": _1F6461F3FC200D2642FE0F,
+"🙆🏽‍♂️": _1F6461F3FD200D2642FE0F,
+"🙆🏾‍♂️": _1F6461F3FE200D2642FE0F,
+"🙆🏿‍♂️": _1F6461F3FF200D2642FE0F,
+"🙆‍♀️": _1F646200D2640FE0F,
+"🙆🏻‍♀️": _1F6461F3FB200D2640FE0F,
+"🙆🏼‍♀️": _1F6461F3FC200D2640FE0F,
+"🙆🏽‍♀️": _1F6461F3FD200D2640FE0F,
+"🙆🏾‍♀️": _1F6461F3FE200D2640FE0F,
+"🙆🏿‍♀️": _1F6461F3FF200D2640FE0F,
+"💁": _1F481,
+"💁🏻": _1F4811F3FB,
+"💁🏼": _1F4811F3FC,
+"💁🏽": _1F4811F3FD,
+"💁🏾": _1F4811F3FE,
+"💁🏿": _1F4811F3FF,
+"💁‍♂️": _1F481200D2642FE0F,
+"💁🏻‍♂️": _1F4811F3FB200D2642FE0F,
+"💁🏼‍♂️": _1F4811F3FC200D2642FE0F,
+"💁🏽‍♂️": _1F4811F3FD200D2642FE0F,
+"💁🏾‍♂️": _1F4811F3FE200D2642FE0F,
+"💁🏿‍♂️": _1F4811F3FF200D2642FE0F,
+"💁‍♀️": _1F481200D2640FE0F,
+"💁🏻‍♀️": _1F4811F3FB200D2640FE0F,
+"💁🏼‍♀️": _1F4811F3FC200D2640FE0F,
+"💁🏽‍♀️": _1F4811F3FD200D2640FE0F,
+"💁🏾‍♀️": _1F4811F3FE200D2640FE0F,
+"💁🏿‍♀️": _1F4811F3FF200D2640FE0F,
+"🙋": _1F64B,
+"🙋🏻": _1F64B1F3FB,
+"🙋🏼": _1F64B1F3FC,
+"🙋🏽": _1F64B1F3FD,
+"🙋🏾": _1F64B1F3FE,
+"🙋🏿": _1F64B1F3FF,
+"🙋‍♂️": _1F64B200D2642FE0F,
+"🙋🏻‍♂️": _1F64B1F3FB200D2642FE0F,
+"🙋🏼‍♂️": _1F64B1F3FC200D2642FE0F,
+"🙋🏽‍♂️": _1F64B1F3FD200D2642FE0F,
+"🙋🏾‍♂️": _1F64B1F3FE200D2642FE0F,
+"🙋🏿‍♂️": _1F64B1F3FF200D2642FE0F,
+"🙋‍♀️": _1F64B200D2640FE0F,
+"🙋🏻‍♀️": _1F64B1F3FB200D2640FE0F,
+"🙋🏼‍♀️": _1F64B1F3FC200D2640FE0F,
+"🙋🏽‍♀️": _1F64B1F3FD200D2640FE0F,
+"🙋🏾‍♀️": _1F64B1F3FE200D2640FE0F,
+"🙋🏿‍♀️": _1F64B1F3FF200D2640FE0F,
+"🧏": _1F9CF,
+"🧏🏻": _1F9CF1F3FB,
+"🧏🏼": _1F9CF1F3FC,
+"🧏🏽": _1F9CF1F3FD,
+"🧏🏾": _1F9CF1F3FE,
+"🧏🏿": _1F9CF1F3FF,
+"🧏‍♂️": _1F9CF200D2642FE0F,
+"🧏🏻‍♂️": _1F9CF1F3FB200D2642FE0F,
+"🧏🏼‍♂️": _1F9CF1F3FC200D2642FE0F,
+"🧏🏽‍♂️": _1F9CF1F3FD200D2642FE0F,
+"🧏🏾‍♂️": _1F9CF1F3FE200D2642FE0F,
+"🧏🏿‍♂️": _1F9CF1F3FF200D2642FE0F,
+"🧏‍♀️": _1F9CF200D2640FE0F,
+"🧏🏻‍♀️": _1F9CF1F3FB200D2640FE0F,
+"🧏🏼‍♀️": _1F9CF1F3FC200D2640FE0F,
+"🧏🏽‍♀️": _1F9CF1F3FD200D2640FE0F,
+"🧏🏾‍♀️": _1F9CF1F3FE200D2640FE0F,
+"🧏🏿‍♀️": _1F9CF1F3FF200D2640FE0F,
+"🙇": _1F647,
+"🙇🏻": _1F6471F3FB,
+"🙇🏼": _1F6471F3FC,
+"🙇🏽": _1F6471F3FD,
+"🙇🏾": _1F6471F3FE,
+"🙇🏿": _1F6471F3FF,
+"🙇‍♂️": _1F647200D2642FE0F,
+"🙇🏻‍♂️": _1F6471F3FB200D2642FE0F,
+"🙇🏼‍♂️": _1F6471F3FC200D2642FE0F,
+"🙇🏽‍♂️": _1F6471F3FD200D2642FE0F,
+"🙇🏾‍♂️": _1F6471F3FE200D2642FE0F,
+"🙇🏿‍♂️": _1F6471F3FF200D2642FE0F,
+"🙇‍♀️": _1F647200D2640FE0F,
+"🙇🏻‍♀️": _1F6471F3FB200D2640FE0F,
+"🙇🏼‍♀️": _1F6471F3FC200D2640FE0F,
+"🙇🏽‍♀️": _1F6471F3FD200D2640FE0F,
+"🙇🏾‍♀️": _1F6471F3FE200D2640FE0F,
+"🙇🏿‍♀️": _1F6471F3FF200D2640FE0F,
+"🤦": _1F926,
+"🤦🏻": _1F9261F3FB,
+"🤦🏼": _1F9261F3FC,
+"🤦🏽": _1F9261F3FD,
+"🤦🏾": _1F9261F3FE,
+"🤦🏿": _1F9261F3FF,
+"🤦‍♂️": _1F926200D2642FE0F,
+"🤦🏻‍♂️": _1F9261F3FB200D2642FE0F,
+"🤦🏼‍♂️": _1F9261F3FC200D2642FE0F,
+"🤦🏽‍♂️": _1F9261F3FD200D2642FE0F,
+"🤦🏾‍♂️": _1F9261F3FE200D2642FE0F,
+"🤦🏿‍♂️": _1F9261F3FF200D2642FE0F,
+"🤦‍♀️": _1F926200D2640FE0F,
+"🤦🏻‍♀️": _1F9261F3FB200D2640FE0F,
+"🤦🏼‍♀️": _1F9261F3FC200D2640FE0F,
+"🤦🏽‍♀️": _1F9261F3FD200D2640FE0F,
+"🤦🏾‍♀️": _1F9261F3FE200D2640FE0F,
+"🤦🏿‍♀️": _1F9261F3FF200D2640FE0F,
+"🤷": _1F937,
+"🤷🏻": _1F9371F3FB,
+"🤷🏼": _1F9371F3FC,
+"🤷🏽": _1F9371F3FD,
+"🤷🏾": _1F9371F3FE,
+"🤷🏿": _1F9371F3FF,
+"🤷‍♂️": _1F937200D2642FE0F,
+"🤷🏻‍♂️": _1F9371F3FB200D2642FE0F,
+"🤷🏼‍♂️": _1F9371F3FC200D2642FE0F,
+"🤷🏽‍♂️": _1F9371F3FD200D2642FE0F,
+"🤷🏾‍♂️": _1F9371F3FE200D2642FE0F,
+"🤷🏿‍♂️": _1F9371F3FF200D2642FE0F,
+"🤷‍♀️": _1F937200D2640FE0F,
+"🤷🏻‍♀️": _1F9371F3FB200D2640FE0F,
+"🤷🏼‍♀️": _1F9371F3FC200D2640FE0F,
+"🤷🏽‍♀️": _1F9371F3FD200D2640FE0F,
+"🤷🏾‍♀️": _1F9371F3FE200D2640FE0F,
+"🤷🏿‍♀️": _1F9371F3FF200D2640FE0F,
+"🧑‍⚕️": _1F9D1200D2695FE0F,
+"🧑🏻‍⚕️": _1F9D11F3FB200D2695FE0F,
+"🧑🏼‍⚕️": _1F9D11F3FC200D2695FE0F,
+"🧑🏽‍⚕️": _1F9D11F3FD200D2695FE0F,
+"🧑🏾‍⚕️": _1F9D11F3FE200D2695FE0F,
+"🧑🏿‍⚕️": _1F9D11F3FF200D2695FE0F,
+"👨‍⚕️": _1F468200D2695FE0F,
+"👨🏻‍⚕️": _1F4681F3FB200D2695FE0F,
+"👨🏼‍⚕️": _1F4681F3FC200D2695FE0F,
+"👨🏽‍⚕️": _1F4681F3FD200D2695FE0F,
+"👨🏾‍⚕️": _1F4681F3FE200D2695FE0F,
+"👨🏿‍⚕️": _1F4681F3FF200D2695FE0F,
+"👩‍⚕️": _1F469200D2695FE0F,
+"👩🏻‍⚕️": _1F4691F3FB200D2695FE0F,
+"👩🏼‍⚕️": _1F4691F3FC200D2695FE0F,
+"👩🏽‍⚕️": _1F4691F3FD200D2695FE0F,
+"👩🏾‍⚕️": _1F4691F3FE200D2695FE0F,
+"👩🏿‍⚕️": _1F4691F3FF200D2695FE0F,
+"🧑‍🎓": _1F9D1200D1F393,
+"🧑🏻‍🎓": _1F9D11F3FB200D1F393,
+"🧑🏼‍🎓": _1F9D11F3FC200D1F393,
+"🧑🏽‍🎓": _1F9D11F3FD200D1F393,
+"🧑🏾‍🎓": _1F9D11F3FE200D1F393,
+"🧑🏿‍🎓": _1F9D11F3FF200D1F393,
+"👨‍🎓": _1F468200D1F393,
+"👨🏻‍🎓": _1F4681F3FB200D1F393,
+"👨🏼‍🎓": _1F4681F3FC200D1F393,
+"👨🏽‍🎓": _1F4681F3FD200D1F393,
+"👨🏾‍🎓": _1F4681F3FE200D1F393,
+"👨🏿‍🎓": _1F4681F3FF200D1F393,
+"👩‍🎓": _1F469200D1F393,
+"👩🏻‍🎓": _1F4691F3FB200D1F393,
+"👩🏼‍🎓": _1F4691F3FC200D1F393,
+"👩🏽‍🎓": _1F4691F3FD200D1F393,
+"👩🏾‍🎓": _1F4691F3FE200D1F393,
+"👩🏿‍🎓": _1F4691F3FF200D1F393,
+"🧑‍🏫": _1F9D1200D1F3EB,
+"🧑🏻‍🏫": _1F9D11F3FB200D1F3EB,
+"🧑🏼‍🏫": _1F9D11F3FC200D1F3EB,
+"🧑🏽‍🏫": _1F9D11F3FD200D1F3EB,
+"🧑🏾‍🏫": _1F9D11F3FE200D1F3EB,
+"🧑🏿‍🏫": _1F9D11F3FF200D1F3EB,
+"👨‍🏫": _1F468200D1F3EB,
+"👨🏻‍🏫": _1F4681F3FB200D1F3EB,
+"👨🏼‍🏫": _1F4681F3FC200D1F3EB,
+"👨🏽‍🏫": _1F4681F3FD200D1F3EB,
+"👨🏾‍🏫": _1F4681F3FE200D1F3EB,
+"👨🏿‍🏫": _1F4681F3FF200D1F3EB,
+"👩‍🏫": _1F469200D1F3EB,
+"👩🏻‍🏫": _1F4691F3FB200D1F3EB,
+"👩🏼‍🏫": _1F4691F3FC200D1F3EB,
+"👩🏽‍🏫": _1F4691F3FD200D1F3EB,
+"👩🏾‍🏫": _1F4691F3FE200D1F3EB,
+"👩🏿‍🏫": _1F4691F3FF200D1F3EB,
+"🧑‍⚖️": _1F9D1200D2696FE0F,
+"🧑🏻‍⚖️": _1F9D11F3FB200D2696FE0F,
+"🧑🏼‍⚖️": _1F9D11F3FC200D2696FE0F,
+"🧑🏽‍⚖️": _1F9D11F3FD200D2696FE0F,
+"🧑🏾‍⚖️": _1F9D11F3FE200D2696FE0F,
+"🧑🏿‍⚖️": _1F9D11F3FF200D2696FE0F,
+"👨‍⚖️": _1F468200D2696FE0F,
+"👨🏻‍⚖️": _1F4681F3FB200D2696FE0F,
+"👨🏼‍⚖️": _1F4681F3FC200D2696FE0F,
+"👨🏽‍⚖️": _1F4681F3FD200D2696FE0F,
+"👨🏾‍⚖️": _1F4681F3FE200D2696FE0F,
+"👨🏿‍⚖️": _1F4681F3FF200D2696FE0F,
+"👩‍⚖️": _1F469200D2696FE0F,
+"👩🏻‍⚖️": _1F4691F3FB200D2696FE0F,
+"👩🏼‍⚖️": _1F4691F3FC200D2696FE0F,
+"👩🏽‍⚖️": _1F4691F3FD200D2696FE0F,
+"👩🏾‍⚖️": _1F4691F3FE200D2696FE0F,
+"👩🏿‍⚖️": _1F4691F3FF200D2696FE0F,
+"🧑‍🌾": _1F9D1200D1F33E,
+"🧑🏻‍🌾": _1F9D11F3FB200D1F33E,
+"🧑🏼‍🌾": _1F9D11F3FC200D1F33E,
+"🧑🏽‍🌾": _1F9D11F3FD200D1F33E,
+"🧑🏾‍🌾": _1F9D11F3FE200D1F33E,
+"🧑🏿‍🌾": _1F9D11F3FF200D1F33E,
+"👨‍🌾": _1F468200D1F33E,
+"👨🏻‍🌾": _1F4681F3FB200D1F33E,
+"👨🏼‍🌾": _1F4681F3FC200D1F33E,
+"👨🏽‍🌾": _1F4681F3FD200D1F33E,
+"👨🏾‍🌾": _1F4681F3FE200D1F33E,
+"👨🏿‍🌾": _1F4681F3FF200D1F33E,
+"👩‍🌾": _1F469200D1F33E,
+"👩🏻‍🌾": _1F4691F3FB200D1F33E,
+"👩🏼‍🌾": _1F4691F3FC200D1F33E,
+"👩🏽‍🌾": _1F4691F3FD200D1F33E,
+"👩🏾‍🌾": _1F4691F3FE200D1F33E,
+"👩🏿‍🌾": _1F4691F3FF200D1F33E,
+"🧑‍🍳": _1F9D1200D1F373,
+"🧑🏻‍🍳": _1F9D11F3FB200D1F373,
+"🧑🏼‍🍳": _1F9D11F3FC200D1F373,
+"🧑🏽‍🍳": _1F9D11F3FD200D1F373,
+"🧑🏾‍🍳": _1F9D11F3FE200D1F373,
+"🧑🏿‍🍳": _1F9D11F3FF200D1F373,
+"👨‍🍳": _1F468200D1F373,
+"👨🏻‍🍳": _1F4681F3FB200D1F373,
+"👨🏼‍🍳": _1F4681F3FC200D1F373,
+"👨🏽‍🍳": _1F4681F3FD200D1F373,
+"👨🏾‍🍳": _1F4681F3FE200D1F373,
+"👨🏿‍🍳": _1F4681F3FF200D1F373,
+"👩‍🍳": _1F469200D1F373,
+"👩🏻‍🍳": _1F4691F3FB200D1F373,
+"👩🏼‍🍳": _1F4691F3FC200D1F373,
+"👩🏽‍🍳": _1F4691F3FD200D1F373,
+"👩🏾‍🍳": _1F4691F3FE200D1F373,
+"👩🏿‍🍳": _1F4691F3FF200D1F373,
+"🧑‍🔧": _1F9D1200D1F527,
+"🧑🏻‍🔧": _1F9D11F3FB200D1F527,
+"🧑🏼‍🔧": _1F9D11F3FC200D1F527,
+"🧑🏽‍🔧": _1F9D11F3FD200D1F527,
+"🧑🏾‍🔧": _1F9D11F3FE200D1F527,
+"🧑🏿‍🔧": _1F9D11F3FF200D1F527,
+"👨‍🔧": _1F468200D1F527,
+"👨🏻‍🔧": _1F4681F3FB200D1F527,
+"👨🏼‍🔧": _1F4681F3FC200D1F527,
+"👨🏽‍🔧": _1F4681F3FD200D1F527,
+"👨🏾‍🔧": _1F4681F3FE200D1F527,
+"👨🏿‍🔧": _1F4681F3FF200D1F527,
+"👩‍🔧": _1F469200D1F527,
+"👩🏻‍🔧": _1F4691F3FB200D1F527,
+"👩🏼‍🔧": _1F4691F3FC200D1F527,
+"👩🏽‍🔧": _1F4691F3FD200D1F527,
+"👩🏾‍🔧": _1F4691F3FE200D1F527,
+"👩🏿‍🔧": _1F4691F3FF200D1F527,
+"🧑‍🏭": _1F9D1200D1F3ED,
+"🧑🏻‍🏭": _1F9D11F3FB200D1F3ED,
+"🧑🏼‍🏭": _1F9D11F3FC200D1F3ED,
+"🧑🏽‍🏭": _1F9D11F3FD200D1F3ED,
+"🧑🏾‍🏭": _1F9D11F3FE200D1F3ED,
+"🧑🏿‍🏭": _1F9D11F3FF200D1F3ED,
+"👨‍🏭": _1F468200D1F3ED,
+"👨🏻‍🏭": _1F4681F3FB200D1F3ED,
+"👨🏼‍🏭": _1F4681F3FC200D1F3ED,
+"👨🏽‍🏭": _1F4681F3FD200D1F3ED,
+"👨🏾‍🏭": _1F4681F3FE200D1F3ED,
+"👨🏿‍🏭": _1F4681F3FF200D1F3ED,
+"👩‍🏭": _1F469200D1F3ED,
+"👩🏻‍🏭": _1F4691F3FB200D1F3ED,
+"👩🏼‍🏭": _1F4691F3FC200D1F3ED,
+"👩🏽‍🏭": _1F4691F3FD200D1F3ED,
+"👩🏾‍🏭": _1F4691F3FE200D1F3ED,
+"👩🏿‍🏭": _1F4691F3FF200D1F3ED,
+"🧑‍💼": _1F9D1200D1F4BC,
+"🧑🏻‍💼": _1F9D11F3FB200D1F4BC,
+"🧑🏼‍💼": _1F9D11F3FC200D1F4BC,
+"🧑🏽‍💼": _1F9D11F3FD200D1F4BC,
+"🧑🏾‍💼": _1F9D11F3FE200D1F4BC,
+"🧑🏿‍💼": _1F9D11F3FF200D1F4BC,
+"👨‍💼": _1F468200D1F4BC,
+"👨🏻‍💼": _1F4681F3FB200D1F4BC,
+"👨🏼‍💼": _1F4681F3FC200D1F4BC,
+"👨🏽‍💼": _1F4681F3FD200D1F4BC,
+"👨🏾‍💼": _1F4681F3FE200D1F4BC,
+"👨🏿‍💼": _1F4681F3FF200D1F4BC,
+"👩‍💼": _1F469200D1F4BC,
+"👩🏻‍💼": _1F4691F3FB200D1F4BC,
+"👩🏼‍💼": _1F4691F3FC200D1F4BC,
+"👩🏽‍💼": _1F4691F3FD200D1F4BC,
+"👩🏾‍💼": _1F4691F3FE200D1F4BC,
+"👩🏿‍💼": _1F4691F3FF200D1F4BC,
+"🧑‍🔬": _1F9D1200D1F52C,
+"🧑🏻‍🔬": _1F9D11F3FB200D1F52C,
+"🧑🏼‍🔬": _1F9D11F3FC200D1F52C,
+"🧑🏽‍🔬": _1F9D11F3FD200D1F52C,
+"🧑🏾‍🔬": _1F9D11F3FE200D1F52C,
+"🧑🏿‍🔬": _1F9D11F3FF200D1F52C,
+"👨‍🔬": _1F468200D1F52C,
+"👨🏻‍🔬": _1F4681F3FB200D1F52C,
+"👨🏼‍🔬": _1F4681F3FC200D1F52C,
+"👨🏽‍🔬": _1F4681F3FD200D1F52C,
+"👨🏾‍🔬": _1F4681F3FE200D1F52C,
+"👨🏿‍🔬": _1F4681F3FF200D1F52C,
+"👩‍🔬": _1F469200D1F52C,
+"👩🏻‍🔬": _1F4691F3FB200D1F52C,
+"👩🏼‍🔬": _1F4691F3FC200D1F52C,
+"👩🏽‍🔬": _1F4691F3FD200D1F52C,
+"👩🏾‍🔬": _1F4691F3FE200D1F52C,
+"👩🏿‍🔬": _1F4691F3FF200D1F52C,
+"🧑‍💻": _1F9D1200D1F4BB,
+"🧑🏻‍💻": _1F9D11F3FB200D1F4BB,
+"🧑🏼‍💻": _1F9D11F3FC200D1F4BB,
+"🧑🏽‍💻": _1F9D11F3FD200D1F4BB,
+"🧑🏾‍💻": _1F9D11F3FE200D1F4BB,
+"🧑🏿‍💻": _1F9D11F3FF200D1F4BB,
+"👨‍💻": _1F468200D1F4BB,
+"👨🏻‍💻": _1F4681F3FB200D1F4BB,
+"👨🏼‍💻": _1F4681F3FC200D1F4BB,
+"👨🏽‍💻": _1F4681F3FD200D1F4BB,
+"👨🏾‍💻": _1F4681F3FE200D1F4BB,
+"👨🏿‍💻": _1F4681F3FF200D1F4BB,
+"👩‍💻": _1F469200D1F4BB,
+"👩🏻‍💻": _1F4691F3FB200D1F4BB,
+"👩🏼‍💻": _1F4691F3FC200D1F4BB,
+"👩🏽‍💻": _1F4691F3FD200D1F4BB,
+"👩🏾‍💻": _1F4691F3FE200D1F4BB,
+"👩🏿‍💻": _1F4691F3FF200D1F4BB,
+"🧑‍🎤": _1F9D1200D1F3A4,
+"🧑🏻‍🎤": _1F9D11F3FB200D1F3A4,
+"🧑🏼‍🎤": _1F9D11F3FC200D1F3A4,
+"🧑🏽‍🎤": _1F9D11F3FD200D1F3A4,
+"🧑🏾‍🎤": _1F9D11F3FE200D1F3A4,
+"🧑🏿‍🎤": _1F9D11F3FF200D1F3A4,
+"👨‍🎤": _1F468200D1F3A4,
+"👨🏻‍🎤": _1F4681F3FB200D1F3A4,
+"👨🏼‍🎤": _1F4681F3FC200D1F3A4,
+"👨🏽‍🎤": _1F4681F3FD200D1F3A4,
+"👨🏾‍🎤": _1F4681F3FE200D1F3A4,
+"👨🏿‍🎤": _1F4681F3FF200D1F3A4,
+"👩‍🎤": _1F469200D1F3A4,
+"👩🏻‍🎤": _1F4691F3FB200D1F3A4,
+"👩🏼‍🎤": _1F4691F3FC200D1F3A4,
+"👩🏽‍🎤": _1F4691F3FD200D1F3A4,
+"👩🏾‍🎤": _1F4691F3FE200D1F3A4,
+"👩🏿‍🎤": _1F4691F3FF200D1F3A4,
+"🧑‍🎨": _1F9D1200D1F3A8,
+"🧑🏻‍🎨": _1F9D11F3FB200D1F3A8,
+"🧑🏼‍🎨": _1F9D11F3FC200D1F3A8,
+"🧑🏽‍🎨": _1F9D11F3FD200D1F3A8,
+"🧑🏾‍🎨": _1F9D11F3FE200D1F3A8,
+"🧑🏿‍🎨": _1F9D11F3FF200D1F3A8,
+"👨‍🎨": _1F468200D1F3A8,
+"👨🏻‍🎨": _1F4681F3FB200D1F3A8,
+"👨🏼‍🎨": _1F4681F3FC200D1F3A8,
+"👨🏽‍🎨": _1F4681F3FD200D1F3A8,
+"👨🏾‍🎨": _1F4681F3FE200D1F3A8,
+"👨🏿‍🎨": _1F4681F3FF200D1F3A8,
+"👩‍🎨": _1F469200D1F3A8,
+"👩🏻‍🎨": _1F4691F3FB200D1F3A8,
+"👩🏼‍🎨": _1F4691F3FC200D1F3A8,
+"👩🏽‍🎨": _1F4691F3FD200D1F3A8,
+"👩🏾‍🎨": _1F4691F3FE200D1F3A8,
+"👩🏿‍🎨": _1F4691F3FF200D1F3A8,
+"🧑‍✈️": _1F9D1200D2708FE0F,
+"🧑🏻‍✈️": _1F9D11F3FB200D2708FE0F,
+"🧑🏼‍✈️": _1F9D11F3FC200D2708FE0F,
+"🧑🏽‍✈️": _1F9D11F3FD200D2708FE0F,
+"🧑🏾‍✈️": _1F9D11F3FE200D2708FE0F,
+"🧑🏿‍✈️": _1F9D11F3FF200D2708FE0F,
+"👨‍✈️": _1F468200D2708FE0F,
+"👨🏻‍✈️": _1F4681F3FB200D2708FE0F,
+"👨🏼‍✈️": _1F4681F3FC200D2708FE0F,
+"👨🏽‍✈️": _1F4681F3FD200D2708FE0F,
+"👨🏾‍✈️": _1F4681F3FE200D2708FE0F,
+"👨🏿‍✈️": _1F4681F3FF200D2708FE0F,
+"👩‍✈️": _1F469200D2708FE0F,
+"👩🏻‍✈️": _1F4691F3FB200D2708FE0F,
+"👩🏼‍✈️": _1F4691F3FC200D2708FE0F,
+"👩🏽‍✈️": _1F4691F3FD200D2708FE0F,
+"👩🏾‍✈️": _1F4691F3FE200D2708FE0F,
+"👩🏿‍✈️": _1F4691F3FF200D2708FE0F,
+"🧑‍🚀": _1F9D1200D1F680,
+"🧑🏻‍🚀": _1F9D11F3FB200D1F680,
+"🧑🏼‍🚀": _1F9D11F3FC200D1F680,
+"🧑🏽‍🚀": _1F9D11F3FD200D1F680,
+"🧑🏾‍🚀": _1F9D11F3FE200D1F680,
+"🧑🏿‍🚀": _1F9D11F3FF200D1F680,
+"👨‍🚀": _1F468200D1F680,
+"👨🏻‍🚀": _1F4681F3FB200D1F680,
+"👨🏼‍🚀": _1F4681F3FC200D1F680,
+"👨🏽‍🚀": _1F4681F3FD200D1F680,
+"👨🏾‍🚀": _1F4681F3FE200D1F680,
+"👨🏿‍🚀": _1F4681F3FF200D1F680,
+"👩‍🚀": _1F469200D1F680,
+"👩🏻‍🚀": _1F4691F3FB200D1F680,
+"👩🏼‍🚀": _1F4691F3FC200D1F680,
+"👩🏽‍🚀": _1F4691F3FD200D1F680,
+"👩🏾‍🚀": _1F4691F3FE200D1F680,
+"👩🏿‍🚀": _1F4691F3FF200D1F680,
+"🧑‍🚒": _1F9D1200D1F692,
+"🧑🏻‍🚒": _1F9D11F3FB200D1F692,
+"🧑🏼‍🚒": _1F9D11F3FC200D1F692,
+"🧑🏽‍🚒": _1F9D11F3FD200D1F692,
+"🧑🏾‍🚒": _1F9D11F3FE200D1F692,
+"🧑🏿‍🚒": _1F9D11F3FF200D1F692,
+"👨‍🚒": _1F468200D1F692,
+"👨🏻‍🚒": _1F4681F3FB200D1F692,
+"👨🏼‍🚒": _1F4681F3FC200D1F692,
+"👨🏽‍🚒": _1F4681F3FD200D1F692,
+"👨🏾‍🚒": _1F4681F3FE200D1F692,
+"👨🏿‍🚒": _1F4681F3FF200D1F692,
+"👩‍🚒": _1F469200D1F692,
+"👩🏻‍🚒": _1F4691F3FB200D1F692,
+"👩🏼‍🚒": _1F4691F3FC200D1F692,
+"👩🏽‍🚒": _1F4691F3FD200D1F692,
+"👩🏾‍🚒": _1F4691F3FE200D1F692,
+"👩🏿‍🚒": _1F4691F3FF200D1F692,
+"👮": _1F46E,
+"👮🏻": _1F46E1F3FB,
+"👮🏼": _1F46E1F3FC,
+"👮🏽": _1F46E1F3FD,
+"👮🏾": _1F46E1F3FE,
+"👮🏿": _1F46E1F3FF,
+"👮‍♂️": _1F46E200D2642FE0F,
+"👮🏻‍♂️": _1F46E1F3FB200D2642FE0F,
+"👮🏼‍♂️": _1F46E1F3FC200D2642FE0F,
+"👮🏽‍♂️": _1F46E1F3FD200D2642FE0F,
+"👮🏾‍♂️": _1F46E1F3FE200D2642FE0F,
+"👮🏿‍♂️": _1F46E1F3FF200D2642FE0F,
+"👮‍♀️": _1F46E200D2640FE0F,
+"👮🏻‍♀️": _1F46E1F3FB200D2640FE0F,
+"👮🏼‍♀️": _1F46E1F3FC200D2640FE0F,
+"👮🏽‍♀️": _1F46E1F3FD200D2640FE0F,
+"👮🏾‍♀️": _1F46E1F3FE200D2640FE0F,
+"👮🏿‍♀️": _1F46E1F3FF200D2640FE0F,
+"🕵️": _1F575,
+"🕵🏻": _1F5751F3FB,
+"🕵🏼": _1F5751F3FC,
+"🕵🏽": _1F5751F3FD,
+"🕵🏾": _1F5751F3FE,
+"🕵🏿": _1F5751F3FF,
+"🕵️‍♂️": _1F575FE0F200D2642FE0F,
+"🕵🏻‍♂️": _1F5751F3FB200D2642FE0F,
+"🕵🏼‍♂️": _1F5751F3FC200D2642FE0F,
+"🕵🏽‍♂️": _1F5751F3FD200D2642FE0F,
+"🕵🏾‍♂️": _1F5751F3FE200D2642FE0F,
+"🕵🏿‍♂️": _1F5751F3FF200D2642FE0F,
+"🕵️‍♀️": _1F575FE0F200D2640FE0F,
+"🕵🏻‍♀️": _1F5751F3FB200D2640FE0F,
+"🕵🏼‍♀️": _1F5751F3FC200D2640FE0F,
+"🕵🏽‍♀️": _1F5751F3FD200D2640FE0F,
+"🕵🏾‍♀️": _1F5751F3FE200D2640FE0F,
+"🕵🏿‍♀️": _1F5751F3FF200D2640FE0F,
+"💂": _1F482,
+"💂🏻": _1F4821F3FB,
+"💂🏼": _1F4821F3FC,
+"💂🏽": _1F4821F3FD,
+"💂🏾": _1F4821F3FE,
+"💂🏿": _1F4821F3FF,
+"💂‍♂️": _1F482200D2642FE0F,
+"💂🏻‍♂️": _1F4821F3FB200D2642FE0F,
+"💂🏼‍♂️": _1F4821F3FC200D2642FE0F,
+"💂🏽‍♂️": _1F4821F3FD200D2642FE0F,
+"💂🏾‍♂️": _1F4821F3FE200D2642FE0F,
+"💂🏿‍♂️": _1F4821F3FF200D2642FE0F,
+"💂‍♀️": _1F482200D2640FE0F,
+"💂🏻‍♀️": _1F4821F3FB200D2640FE0F,
+"💂🏼‍♀️": _1F4821F3FC200D2640FE0F,
+"💂🏽‍♀️": _1F4821F3FD200D2640FE0F,
+"💂🏾‍♀️": _1F4821F3FE200D2640FE0F,
+"💂🏿‍♀️": _1F4821F3FF200D2640FE0F,
+"🥷": _1F977,
+"🥷🏻": _1F9771F3FB,
+"🥷🏼": _1F9771F3FC,
+"🥷🏽": _1F9771F3FD,
+"🥷🏾": _1F9771F3FE,
+"🥷🏿": _1F9771F3FF,
+"👷": _1F477,
+"👷🏻": _1F4771F3FB,
+"👷🏼": _1F4771F3FC,
+"👷🏽": _1F4771F3FD,
+"👷🏾": _1F4771F3FE,
+"👷🏿": _1F4771F3FF,
+"👷‍♂️": _1F477200D2642FE0F,
+"👷🏻‍♂️": _1F4771F3FB200D2642FE0F,
+"👷🏼‍♂️": _1F4771F3FC200D2642FE0F,
+"👷🏽‍♂️": _1F4771F3FD200D2642FE0F,
+"👷🏾‍♂️": _1F4771F3FE200D2642FE0F,
+"👷🏿‍♂️": _1F4771F3FF200D2642FE0F,
+"👷‍♀️": _1F477200D2640FE0F,
+"👷🏻‍♀️": _1F4771F3FB200D2640FE0F,
+"👷🏼‍♀️": _1F4771F3FC200D2640FE0F,
+"👷🏽‍♀️": _1F4771F3FD200D2640FE0F,
+"👷🏾‍♀️": _1F4771F3FE200D2640FE0F,
+"👷🏿‍♀️": _1F4771F3FF200D2640FE0F,
+"🫅": _1FAC5,
+"🫅🏻": _1FAC51F3FB,
+"🫅🏼": _1FAC51F3FC,
+"🫅🏽": _1FAC51F3FD,
+"🫅🏾": _1FAC51F3FE,
+"🫅🏿": _1FAC51F3FF,
+"🤴": _1F934,
+"🤴🏻": _1F9341F3FB,
+"🤴🏼": _1F9341F3FC,
+"🤴🏽": _1F9341F3FD,
+"🤴🏾": _1F9341F3FE,
+"🤴🏿": _1F9341F3FF,
+"👸": _1F478,
+"👸🏻": _1F4781F3FB,
+"👸🏼": _1F4781F3FC,
+"👸🏽": _1F4781F3FD,
+"👸🏾": _1F4781F3FE,
+"👸🏿": _1F4781F3FF,
+"👳": _1F473,
+"👳🏻": _1F4731F3FB,
+"👳🏼": _1F4731F3FC,
+"👳🏽": _1F4731F3FD,
+"👳🏾": _1F4731F3FE,
+"👳🏿": _1F4731F3FF,
+"👳‍♂️": _1F473200D2642FE0F,
+"👳🏻‍♂️": _1F4731F3FB200D2642FE0F,
+"👳🏼‍♂️": _1F4731F3FC200D2642FE0F,
+"👳🏽‍♂️": _1F4731F3FD200D2642FE0F,
+"👳🏾‍♂️": _1F4731F3FE200D2642FE0F,
+"👳🏿‍♂️": _1F4731F3FF200D2642FE0F,
+"👳‍♀️": _1F473200D2640FE0F,
+"👳🏻‍♀️": _1F4731F3FB200D2640FE0F,
+"👳🏼‍♀️": _1F4731F3FC200D2640FE0F,
+"👳🏽‍♀️": _1F4731F3FD200D2640FE0F,
+"👳🏾‍♀️": _1F4731F3FE200D2640FE0F,
+"👳🏿‍♀️": _1F4731F3FF200D2640FE0F,
+"👲": _1F472,
+"👲🏻": _1F4721F3FB,
+"👲🏼": _1F4721F3FC,
+"👲🏽": _1F4721F3FD,
+"👲🏾": _1F4721F3FE,
+"👲🏿": _1F4721F3FF,
+"🧕": _1F9D5,
+"🧕🏻": _1F9D51F3FB,
+"🧕🏼": _1F9D51F3FC,
+"🧕🏽": _1F9D51F3FD,
+"🧕🏾": _1F9D51F3FE,
+"🧕🏿": _1F9D51F3FF,
+"🤵": _1F935,
+"🤵🏻": _1F9351F3FB,
+"🤵🏼": _1F9351F3FC,
+"🤵🏽": _1F9351F3FD,
+"🤵🏾": _1F9351F3FE,
+"🤵🏿": _1F9351F3FF,
+"🤵‍♂️": _1F935200D2642FE0F,
+"🤵🏻‍♂️": _1F9351F3FB200D2642FE0F,
+"🤵🏼‍♂️": _1F9351F3FC200D2642FE0F,
+"🤵🏽‍♂️": _1F9351F3FD200D2642FE0F,
+"🤵🏾‍♂️": _1F9351F3FE200D2642FE0F,
+"🤵🏿‍♂️": _1F9351F3FF200D2642FE0F,
+"🤵‍♀️": _1F935200D2640FE0F,
+"🤵🏻‍♀️": _1F9351F3FB200D2640FE0F,
+"🤵🏼‍♀️": _1F9351F3FC200D2640FE0F,
+"🤵🏽‍♀️": _1F9351F3FD200D2640FE0F,
+"🤵🏾‍♀️": _1F9351F3FE200D2640FE0F,
+"🤵🏿‍♀️": _1F9351F3FF200D2640FE0F,
+"👰": _1F470,
+"👰🏻": _1F4701F3FB,
+"👰🏼": _1F4701F3FC,
+"👰🏽": _1F4701F3FD,
+"👰🏾": _1F4701F3FE,
+"👰🏿": _1F4701F3FF,
+"👰‍♂️": _1F470200D2642FE0F,
+"👰🏻‍♂️": _1F4701F3FB200D2642FE0F,
+"👰🏼‍♂️": _1F4701F3FC200D2642FE0F,
+"👰🏽‍♂️": _1F4701F3FD200D2642FE0F,
+"👰🏾‍♂️": _1F4701F3FE200D2642FE0F,
+"👰🏿‍♂️": _1F4701F3FF200D2642FE0F,
+"👰‍♀️": _1F470200D2640FE0F,
+"👰🏻‍♀️": _1F4701F3FB200D2640FE0F,
+"👰🏼‍♀️": _1F4701F3FC200D2640FE0F,
+"👰🏽‍♀️": _1F4701F3FD200D2640FE0F,
+"👰🏾‍♀️": _1F4701F3FE200D2640FE0F,
+"👰🏿‍♀️": _1F4701F3FF200D2640FE0F,
+"🤰": _1F930,
+"🤰🏻": _1F9301F3FB,
+"🤰🏼": _1F9301F3FC,
+"🤰🏽": _1F9301F3FD,
+"🤰🏾": _1F9301F3FE,
+"🤰🏿": _1F9301F3FF,
+"🫃": _1FAC3,
+"🫃🏻": _1FAC31F3FB,
+"🫃🏼": _1FAC31F3FC,
+"🫃🏽": _1FAC31F3FD,
+"🫃🏾": _1FAC31F3FE,
+"🫃🏿": _1FAC31F3FF,
+"🫄": _1FAC4,
+"🫄🏻": _1FAC41F3FB,
+"🫄🏼": _1FAC41F3FC,
+"🫄🏽": _1FAC41F3FD,
+"🫄🏾": _1FAC41F3FE,
+"🫄🏿": _1FAC41F3FF,
+"🤱": _1F931,
+"🤱🏻": _1F9311F3FB,
+"🤱🏼": _1F9311F3FC,
+"🤱🏽": _1F9311F3FD,
+"🤱🏾": _1F9311F3FE,
+"🤱🏿": _1F9311F3FF,
+"👩‍🍼": _1F469200D1F37C,
+"👩🏻‍🍼": _1F4691F3FB200D1F37C,
+"👩🏼‍🍼": _1F4691F3FC200D1F37C,
+"👩🏽‍🍼": _1F4691F3FD200D1F37C,
+"👩🏾‍🍼": _1F4691F3FE200D1F37C,
+"👩🏿‍🍼": _1F4691F3FF200D1F37C,
+"👨‍🍼": _1F468200D1F37C,
+"👨🏻‍🍼": _1F4681F3FB200D1F37C,
+"👨🏼‍🍼": _1F4681F3FC200D1F37C,
+"👨🏽‍🍼": _1F4681F3FD200D1F37C,
+"👨🏾‍🍼": _1F4681F3FE200D1F37C,
+"👨🏿‍🍼": _1F4681F3FF200D1F37C,
+"🧑‍🍼": _1F9D1200D1F37C,
+"🧑🏻‍🍼": _1F9D11F3FB200D1F37C,
+"🧑🏼‍🍼": _1F9D11F3FC200D1F37C,
+"🧑🏽‍🍼": _1F9D11F3FD200D1F37C,
+"🧑🏾‍🍼": _1F9D11F3FE200D1F37C,
+"🧑🏿‍🍼": _1F9D11F3FF200D1F37C,
+"👼": _1F47C,
+"👼🏻": _1F47C1F3FB,
+"👼🏼": _1F47C1F3FC,
+"👼🏽": _1F47C1F3FD,
+"👼🏾": _1F47C1F3FE,
+"👼🏿": _1F47C1F3FF,
+"🎅": _1F385,
+"🎅🏻": _1F3851F3FB,
+"🎅🏼": _1F3851F3FC,
+"🎅🏽": _1F3851F3FD,
+"🎅🏾": _1F3851F3FE,
+"🎅🏿": _1F3851F3FF,
+"🤶": _1F936,
+"🤶🏻": _1F9361F3FB,
+"🤶🏼": _1F9361F3FC,
+"🤶🏽": _1F9361F3FD,
+"🤶🏾": _1F9361F3FE,
+"🤶🏿": _1F9361F3FF,
+"🧑‍🎄": _1F9D1200D1F384,
+"🧑🏻‍🎄": _1F9D11F3FB200D1F384,
+"🧑🏼‍🎄": _1F9D11F3FC200D1F384,
+"🧑🏽‍🎄": _1F9D11F3FD200D1F384,
+"🧑🏾‍🎄": _1F9D11F3FE200D1F384,
+"🧑🏿‍🎄": _1F9D11F3FF200D1F384,
+"🦸": _1F9B8,
+"🦸🏻": _1F9B81F3FB,
+"🦸🏼": _1F9B81F3FC,
+"🦸🏽": _1F9B81F3FD,
+"🦸🏾": _1F9B81F3FE,
+"🦸🏿": _1F9B81F3FF,
+"🦸‍♂️": _1F9B8200D2642FE0F,
+"🦸🏻‍♂️": _1F9B81F3FB200D2642FE0F,
+"🦸🏼‍♂️": _1F9B81F3FC200D2642FE0F,
+"🦸🏽‍♂️": _1F9B81F3FD200D2642FE0F,
+"🦸🏾‍♂️": _1F9B81F3FE200D2642FE0F,
+"🦸🏿‍♂️": _1F9B81F3FF200D2642FE0F,
+"🦸‍♀️": _1F9B8200D2640FE0F,
+"🦸🏻‍♀️": _1F9B81F3FB200D2640FE0F,
+"🦸🏼‍♀️": _1F9B81F3FC200D2640FE0F,
+"🦸🏽‍♀️": _1F9B81F3FD200D2640FE0F,
+"🦸🏾‍♀️": _1F9B81F3FE200D2640FE0F,
+"🦸🏿‍♀️": _1F9B81F3FF200D2640FE0F,
+"🦹": _1F9B9,
+"🦹🏻": _1F9B91F3FB,
+"🦹🏼": _1F9B91F3FC,
+"🦹🏽": _1F9B91F3FD,
+"🦹🏾": _1F9B91F3FE,
+"🦹🏿": _1F9B91F3FF,
+"🦹‍♂️": _1F9B9200D2642FE0F,
+"🦹🏻‍♂️": _1F9B91F3FB200D2642FE0F,
+"🦹🏼‍♂️": _1F9B91F3FC200D2642FE0F,
+"🦹🏽‍♂️": _1F9B91F3FD200D2642FE0F,
+"🦹🏾‍♂️": _1F9B91F3FE200D2642FE0F,
+"🦹🏿‍♂️": _1F9B91F3FF200D2642FE0F,
+"🦹‍♀️": _1F9B9200D2640FE0F,
+"🦹🏻‍♀️": _1F9B91F3FB200D2640FE0F,
+"🦹🏼‍♀️": _1F9B91F3FC200D2640FE0F,
+"🦹🏽‍♀️": _1F9B91F3FD200D2640FE0F,
+"🦹🏾‍♀️": _1F9B91F3FE200D2640FE0F,
+"🦹🏿‍♀️": _1F9B91F3FF200D2640FE0F,
+"🧙": _1F9D9,
+"🧙🏻": _1F9D91F3FB,
+"🧙🏼": _1F9D91F3FC,
+"🧙🏽": _1F9D91F3FD,
+"🧙🏾": _1F9D91F3FE,
+"🧙🏿": _1F9D91F3FF,
+"🧙‍♂️": _1F9D9200D2642FE0F,
+"🧙🏻‍♂️": _1F9D91F3FB200D2642FE0F,
+"🧙🏼‍♂️": _1F9D91F3FC200D2642FE0F,
+"🧙🏽‍♂️": _1F9D91F3FD200D2642FE0F,
+"🧙🏾‍♂️": _1F9D91F3FE200D2642FE0F,
+"🧙🏿‍♂️": _1F9D91F3FF200D2642FE0F,
+"🧙‍♀️": _1F9D9200D2640FE0F,
+"🧙🏻‍♀️": _1F9D91F3FB200D2640FE0F,
+"🧙🏼‍♀️": _1F9D91F3FC200D2640FE0F,
+"🧙🏽‍♀️": _1F9D91F3FD200D2640FE0F,
+"🧙🏾‍♀️": _1F9D91F3FE200D2640FE0F,
+"🧙🏿‍♀️": _1F9D91F3FF200D2640FE0F,
+"🧚": _1F9DA,
+"🧚🏻": _1F9DA1F3FB,
+"🧚🏼": _1F9DA1F3FC,
+"🧚🏽": _1F9DA1F3FD,
+"🧚🏾": _1F9DA1F3FE,
+"🧚🏿": _1F9DA1F3FF,
+"🧚‍♂️": _1F9DA200D2642FE0F,
+"🧚🏻‍♂️": _1F9DA1F3FB200D2642FE0F,
+"🧚🏼‍♂️": _1F9DA1F3FC200D2642FE0F,
+"🧚🏽‍♂️": _1F9DA1F3FD200D2642FE0F,
+"🧚🏾‍♂️": _1F9DA1F3FE200D2642FE0F,
+"🧚🏿‍♂️": _1F9DA1F3FF200D2642FE0F,
+"🧚‍♀️": _1F9DA200D2640FE0F,
+"🧚🏻‍♀️": _1F9DA1F3FB200D2640FE0F,
+"🧚🏼‍♀️": _1F9DA1F3FC200D2640FE0F,
+"🧚🏽‍♀️": _1F9DA1F3FD200D2640FE0F,
+"🧚🏾‍♀️": _1F9DA1F3FE200D2640FE0F,
+"🧚🏿‍♀️": _1F9DA1F3FF200D2640FE0F,
+"🧛": _1F9DB,
+"🧛🏻": _1F9DB1F3FB,
+"🧛🏼": _1F9DB1F3FC,
+"🧛🏽": _1F9DB1F3FD,
+"🧛🏾": _1F9DB1F3FE,
+"🧛🏿": _1F9DB1F3FF,
+"🧛‍♂️": _1F9DB200D2642FE0F,
+"🧛🏻‍♂️": _1F9DB1F3FB200D2642FE0F,
+"🧛🏼‍♂️": _1F9DB1F3FC200D2642FE0F,
+"🧛🏽‍♂️": _1F9DB1F3FD200D2642FE0F,
+"🧛🏾‍♂️": _1F9DB1F3FE200D2642FE0F,
+"🧛🏿‍♂️": _1F9DB1F3FF200D2642FE0F,
+"🧛‍♀️": _1F9DB200D2640FE0F,
+"🧛🏻‍♀️": _1F9DB1F3FB200D2640FE0F,
+"🧛🏼‍♀️": _1F9DB1F3FC200D2640FE0F,
+"🧛🏽‍♀️": _1F9DB1F3FD200D2640FE0F,
+"🧛🏾‍♀️": _1F9DB1F3FE200D2640FE0F,
+"🧛🏿‍♀️": _1F9DB1F3FF200D2640FE0F,
+"🧜": _1F9DC,
+"🧜🏻": _1F9DC1F3FB,
+"🧜🏼": _1F9DC1F3FC,
+"🧜🏽": _1F9DC1F3FD,
+"🧜🏾": _1F9DC1F3FE,
+"🧜🏿": _1F9DC1F3FF,
+"🧜‍♂️": _1F9DC200D2642FE0F,
+"🧜🏻‍♂️": _1F9DC1F3FB200D2642FE0F,
+"🧜🏼‍♂️": _1F9DC1F3FC200D2642FE0F,
+"🧜🏽‍♂️": _1F9DC1F3FD200D2642FE0F,
+"🧜🏾‍♂️": _1F9DC1F3FE200D2642FE0F,
+"🧜🏿‍♂️": _1F9DC1F3FF200D2642FE0F,
+"🧜‍♀️": _1F9DC200D2640FE0F,
+"🧜🏻‍♀️": _1F9DC1F3FB200D2640FE0F,
+"🧜🏼‍♀️": _1F9DC1F3FC200D2640FE0F,
+"🧜🏽‍♀️": _1F9DC1F3FD200D2640FE0F,
+"🧜🏾‍♀️": _1F9DC1F3FE200D2640FE0F,
+"🧜🏿‍♀️": _1F9DC1F3FF200D2640FE0F,
+"🧝": _1F9DD,
+"🧝🏻": _1F9DD1F3FB,
+"🧝🏼": _1F9DD1F3FC,
+"🧝🏽": _1F9DD1F3FD,
+"🧝🏾": _1F9DD1F3FE,
+"🧝🏿": _1F9DD1F3FF,
+"🧝‍♂️": _1F9DD200D2642FE0F,
+"🧝🏻‍♂️": _1F9DD1F3FB200D2642FE0F,
+"🧝🏼‍♂️": _1F9DD1F3FC200D2642FE0F,
+"🧝🏽‍♂️": _1F9DD1F3FD200D2642FE0F,
+"🧝🏾‍♂️": _1F9DD1F3FE200D2642FE0F,
+"🧝🏿‍♂️": _1F9DD1F3FF200D2642FE0F,
+"🧝‍♀️": _1F9DD200D2640FE0F,
+"🧝🏻‍♀️": _1F9DD1F3FB200D2640FE0F,
+"🧝🏼‍♀️": _1F9DD1F3FC200D2640FE0F,
+"🧝🏽‍♀️": _1F9DD1F3FD200D2640FE0F,
+"🧝🏾‍♀️": _1F9DD1F3FE200D2640FE0F,
+"🧝🏿‍♀️": _1F9DD1F3FF200D2640FE0F,
+"🧞": _1F9DE,
+"🧞‍♂️": _1F9DE200D2642FE0F,
+"🧞‍♀️": _1F9DE200D2640FE0F,
+"🧟": _1F9DF,
+"🧟‍♂️": _1F9DF200D2642FE0F,
+"🧟‍♀️": _1F9DF200D2640FE0F,
+"🧌": _1F9CC,
+"💆": _1F486,
+"💆🏻": _1F4861F3FB,
+"💆🏼": _1F4861F3FC,
+"💆🏽": _1F4861F3FD,
+"💆🏾": _1F4861F3FE,
+"💆🏿": _1F4861F3FF,
+"💆‍♂️": _1F486200D2642FE0F,
+"💆🏻‍♂️": _1F4861F3FB200D2642FE0F,
+"💆🏼‍♂️": _1F4861F3FC200D2642FE0F,
+"💆🏽‍♂️": _1F4861F3FD200D2642FE0F,
+"💆🏾‍♂️": _1F4861F3FE200D2642FE0F,
+"💆🏿‍♂️": _1F4861F3FF200D2642FE0F,
+"💆‍♀️": _1F486200D2640FE0F,
+"💆🏻‍♀️": _1F4861F3FB200D2640FE0F,
+"💆🏼‍♀️": _1F4861F3FC200D2640FE0F,
+"💆🏽‍♀️": _1F4861F3FD200D2640FE0F,
+"💆🏾‍♀️": _1F4861F3FE200D2640FE0F,
+"💆🏿‍♀️": _1F4861F3FF200D2640FE0F,
+"💇": _1F487,
+"💇🏻": _1F4871F3FB,
+"💇🏼": _1F4871F3FC,
+"💇🏽": _1F4871F3FD,
+"💇🏾": _1F4871F3FE,
+"💇🏿": _1F4871F3FF,
+"💇‍♂️": _1F487200D2642FE0F,
+"💇🏻‍♂️": _1F4871F3FB200D2642FE0F,
+"💇🏼‍♂️": _1F4871F3FC200D2642FE0F,
+"💇🏽‍♂️": _1F4871F3FD200D2642FE0F,
+"💇🏾‍♂️": _1F4871F3FE200D2642FE0F,
+"💇🏿‍♂️": _1F4871F3FF200D2642FE0F,
+"💇‍♀️": _1F487200D2640FE0F,
+"💇🏻‍♀️": _1F4871F3FB200D2640FE0F,
+"💇🏼‍♀️": _1F4871F3FC200D2640FE0F,
+"💇🏽‍♀️": _1F4871F3FD200D2640FE0F,
+"💇🏾‍♀️": _1F4871F3FE200D2640FE0F,
+"💇🏿‍♀️": _1F4871F3FF200D2640FE0F,
+"🚶": _1F6B6,
+"🚶🏻": _1F6B61F3FB,
+"🚶🏼": _1F6B61F3FC,
+"🚶🏽": _1F6B61F3FD,
+"🚶🏾": _1F6B61F3FE,
+"🚶🏿": _1F6B61F3FF,
+"🚶‍♂️": _1F6B6200D2642FE0F,
+"🚶🏻‍♂️": _1F6B61F3FB200D2642FE0F,
+"🚶🏼‍♂️": _1F6B61F3FC200D2642FE0F,
+"🚶🏽‍♂️": _1F6B61F3FD200D2642FE0F,
+"🚶🏾‍♂️": _1F6B61F3FE200D2642FE0F,
+"🚶🏿‍♂️": _1F6B61F3FF200D2642FE0F,
+"🚶‍♀️": _1F6B6200D2640FE0F,
+"🚶🏻‍♀️": _1F6B61F3FB200D2640FE0F,
+"🚶🏼‍♀️": _1F6B61F3FC200D2640FE0F,
+"🚶🏽‍♀️": _1F6B61F3FD200D2640FE0F,
+"🚶🏾‍♀️": _1F6B61F3FE200D2640FE0F,
+"🚶🏿‍♀️": _1F6B61F3FF200D2640FE0F,
+"🚶‍➡️": _1F6B6200D27A1FE0F,
+"🚶🏻‍➡️": _1F6B61F3FB200D27A1FE0F,
+"🚶🏼‍➡️": _1F6B61F3FC200D27A1FE0F,
+"🚶🏽‍➡️": _1F6B61F3FD200D27A1FE0F,
+"🚶🏾‍➡️": _1F6B61F3FE200D27A1FE0F,
+"🚶🏿‍➡️": _1F6B61F3FF200D27A1FE0F,
+"🚶‍♀️‍➡️": _1F6B6200D2640FE0F200D27A1FE0F,
+"🚶🏻‍♀️‍➡️": _1F6B61F3FB200D2640FE0F200D27A1FE0F,
+"🚶🏼‍♀️‍➡️": _1F6B61F3FC200D2640FE0F200D27A1FE0F,
+"🚶🏽‍♀️‍➡️": _1F6B61F3FD200D2640FE0F200D27A1FE0F,
+"🚶🏾‍♀️‍➡️": _1F6B61F3FE200D2640FE0F200D27A1FE0F,
+"🚶🏿‍♀️‍➡️": _1F6B61F3FF200D2640FE0F200D27A1FE0F,
+"🚶‍♂️‍➡️": _1F6B6200D2642FE0F200D27A1FE0F,
+"🚶🏻‍♂️‍➡️": _1F6B61F3FB200D2642FE0F200D27A1FE0F,
+"🚶🏼‍♂️‍➡️": _1F6B61F3FC200D2642FE0F200D27A1FE0F,
+"🚶🏽‍♂️‍➡️": _1F6B61F3FD200D2642FE0F200D27A1FE0F,
+"🚶🏾‍♂️‍➡️": _1F6B61F3FE200D2642FE0F200D27A1FE0F,
+"🚶🏿‍♂️‍➡️": _1F6B61F3FF200D2642FE0F200D27A1FE0F,
+"🧍": _1F9CD,
+"🧍🏻": _1F9CD1F3FB,
+"🧍🏼": _1F9CD1F3FC,
+"🧍🏽": _1F9CD1F3FD,
+"🧍🏾": _1F9CD1F3FE,
+"🧍🏿": _1F9CD1F3FF,
+"🧍‍♂️": _1F9CD200D2642FE0F,
+"🧍🏻‍♂️": _1F9CD1F3FB200D2642FE0F,
+"🧍🏼‍♂️": _1F9CD1F3FC200D2642FE0F,
+"🧍🏽‍♂️": _1F9CD1F3FD200D2642FE0F,
+"🧍🏾‍♂️": _1F9CD1F3FE200D2642FE0F,
+"🧍🏿‍♂️": _1F9CD1F3FF200D2642FE0F,
+"🧍‍♀️": _1F9CD200D2640FE0F,
+"🧍🏻‍♀️": _1F9CD1F3FB200D2640FE0F,
+"🧍🏼‍♀️": _1F9CD1F3FC200D2640FE0F,
+"🧍🏽‍♀️": _1F9CD1F3FD200D2640FE0F,
+"🧍🏾‍♀️": _1F9CD1F3FE200D2640FE0F,
+"🧍🏿‍♀️": _1F9CD1F3FF200D2640FE0F,
+"🧎": _1F9CE,
+"🧎🏻": _1F9CE1F3FB,
+"🧎🏼": _1F9CE1F3FC,
+"🧎🏽": _1F9CE1F3FD,
+"🧎🏾": _1F9CE1F3FE,
+"🧎🏿": _1F9CE1F3FF,
+"🧎‍♂️": _1F9CE200D2642FE0F,
+"🧎🏻‍♂️": _1F9CE1F3FB200D2642FE0F,
+"🧎🏼‍♂️": _1F9CE1F3FC200D2642FE0F,
+"🧎🏽‍♂️": _1F9CE1F3FD200D2642FE0F,
+"🧎🏾‍♂️": _1F9CE1F3FE200D2642FE0F,
+"🧎🏿‍♂️": _1F9CE1F3FF200D2642FE0F,
+"🧎‍♀️": _1F9CE200D2640FE0F,
+"🧎🏻‍♀️": _1F9CE1F3FB200D2640FE0F,
+"🧎🏼‍♀️": _1F9CE1F3FC200D2640FE0F,
+"🧎🏽‍♀️": _1F9CE1F3FD200D2640FE0F,
+"🧎🏾‍♀️": _1F9CE1F3FE200D2640FE0F,
+"🧎🏿‍♀️": _1F9CE1F3FF200D2640FE0F,
+"🧎‍➡️": _1F9CE200D27A1FE0F,
+"🧎🏻‍➡️": _1F9CE1F3FB200D27A1FE0F,
+"🧎🏼‍➡️": _1F9CE1F3FC200D27A1FE0F,
+"🧎🏽‍➡️": _1F9CE1F3FD200D27A1FE0F,
+"🧎🏾‍➡️": _1F9CE1F3FE200D27A1FE0F,
+"🧎🏿‍➡️": _1F9CE1F3FF200D27A1FE0F,
+"🧎‍♀️‍➡️": _1F9CE200D2640FE0F200D27A1FE0F,
+"🧎🏻‍♀️‍➡️": _1F9CE1F3FB200D2640FE0F200D27A1FE0F,
+"🧎🏼‍♀️‍➡️": _1F9CE1F3FC200D2640FE0F200D27A1FE0F,
+"🧎🏽‍♀️‍➡️": _1F9CE1F3FD200D2640FE0F200D27A1FE0F,
+"🧎🏾‍♀️‍➡️": _1F9CE1F3FE200D2640FE0F200D27A1FE0F,
+"🧎🏿‍♀️‍➡️": _1F9CE1F3FF200D2640FE0F200D27A1FE0F,
+"🧎‍♂️‍➡️": _1F9CE200D2642FE0F200D27A1FE0F,
+"🧎🏻‍♂️‍➡️": _1F9CE1F3FB200D2642FE0F200D27A1FE0F,
+"🧎🏼‍♂️‍➡️": _1F9CE1F3FC200D2642FE0F200D27A1FE0F,
+"🧎🏽‍♂️‍➡️": _1F9CE1F3FD200D2642FE0F200D27A1FE0F,
+"🧎🏾‍♂️‍➡️": _1F9CE1F3FE200D2642FE0F200D27A1FE0F,
+"🧎🏿‍♂️‍➡️": _1F9CE1F3FF200D2642FE0F200D27A1FE0F,
+"🧑‍🦯": _1F9D1200D1F9AF,
+"🧑🏻‍🦯": _1F9D11F3FB200D1F9AF,
+"🧑🏼‍🦯": _1F9D11F3FC200D1F9AF,
+"🧑🏽‍🦯": _1F9D11F3FD200D1F9AF,
+"🧑🏾‍🦯": _1F9D11F3FE200D1F9AF,
+"🧑🏿‍🦯": _1F9D11F3FF200D1F9AF,
+"🧑‍🦯‍➡️": _1F9D1200D1F9AF200D27A1FE0F,
+"🧑🏻‍🦯‍➡️": _1F9D11F3FB200D1F9AF200D27A1FE0F,
+"🧑🏼‍🦯‍➡️": _1F9D11F3FC200D1F9AF200D27A1FE0F,
+"🧑🏽‍🦯‍➡️": _1F9D11F3FD200D1F9AF200D27A1FE0F,
+"🧑🏾‍🦯‍➡️": _1F9D11F3FE200D1F9AF200D27A1FE0F,
+"🧑🏿‍🦯‍➡️": _1F9D11F3FF200D1F9AF200D27A1FE0F,
+"👨‍🦯": _1F468200D1F9AF,
+"👨🏻‍🦯": _1F4681F3FB200D1F9AF,
+"👨🏼‍🦯": _1F4681F3FC200D1F9AF,
+"👨🏽‍🦯": _1F4681F3FD200D1F9AF,
+"👨🏾‍🦯": _1F4681F3FE200D1F9AF,
+"👨🏿‍🦯": _1F4681F3FF200D1F9AF,
+"👨‍🦯‍➡️": _1F468200D1F9AF200D27A1FE0F,
+"👨🏻‍🦯‍➡️": _1F4681F3FB200D1F9AF200D27A1FE0F,
+"👨🏼‍🦯‍➡️": _1F4681F3FC200D1F9AF200D27A1FE0F,
+"👨🏽‍🦯‍➡️": _1F4681F3FD200D1F9AF200D27A1FE0F,
+"👨🏾‍🦯‍➡️": _1F4681F3FE200D1F9AF200D27A1FE0F,
+"👨🏿‍🦯‍➡️": _1F4681F3FF200D1F9AF200D27A1FE0F,
+"👩‍🦯": _1F469200D1F9AF,
+"👩🏻‍🦯": _1F4691F3FB200D1F9AF,
+"👩🏼‍🦯": _1F4691F3FC200D1F9AF,
+"👩🏽‍🦯": _1F4691F3FD200D1F9AF,
+"👩🏾‍🦯": _1F4691F3FE200D1F9AF,
+"👩🏿‍🦯": _1F4691F3FF200D1F9AF,
+"👩‍🦯‍➡️": _1F469200D1F9AF200D27A1FE0F,
+"👩🏻‍🦯‍➡️": _1F4691F3FB200D1F9AF200D27A1FE0F,
+"👩🏼‍🦯‍➡️": _1F4691F3FC200D1F9AF200D27A1FE0F,
+"👩🏽‍🦯‍➡️": _1F4691F3FD200D1F9AF200D27A1FE0F,
+"👩🏾‍🦯‍➡️": _1F4691F3FE200D1F9AF200D27A1FE0F,
+"👩🏿‍🦯‍➡️": _1F4691F3FF200D1F9AF200D27A1FE0F,
+"🧑‍🦼": _1F9D1200D1F9BC,
+"🧑🏻‍🦼": _1F9D11F3FB200D1F9BC,
+"🧑🏼‍🦼": _1F9D11F3FC200D1F9BC,
+"🧑🏽‍🦼": _1F9D11F3FD200D1F9BC,
+"🧑🏾‍🦼": _1F9D11F3FE200D1F9BC,
+"🧑🏿‍🦼": _1F9D11F3FF200D1F9BC,
+"🧑‍🦼‍➡️": _1F9D1200D1F9BC200D27A1FE0F,
+"🧑🏻‍🦼‍➡️": _1F9D11F3FB200D1F9BC200D27A1FE0F,
+"🧑🏼‍🦼‍➡️": _1F9D11F3FC200D1F9BC200D27A1FE0F,
+"🧑🏽‍🦼‍➡️": _1F9D11F3FD200D1F9BC200D27A1FE0F,
+"🧑🏾‍🦼‍➡️": _1F9D11F3FE200D1F9BC200D27A1FE0F,
+"🧑🏿‍🦼‍➡️": _1F9D11F3FF200D1F9BC200D27A1FE0F,
+"👨‍🦼": _1F468200D1F9BC,
+"👨🏻‍🦼": _1F4681F3FB200D1F9BC,
+"👨🏼‍🦼": _1F4681F3FC200D1F9BC,
+"👨🏽‍🦼": _1F4681F3FD200D1F9BC,
+"👨🏾‍🦼": _1F4681F3FE200D1F9BC,
+"👨🏿‍🦼": _1F4681F3FF200D1F9BC,
+"👨‍🦼‍➡️": _1F468200D1F9BC200D27A1FE0F,
+"👨🏻‍🦼‍➡️": _1F4681F3FB200D1F9BC200D27A1FE0F,
+"👨🏼‍🦼‍➡️": _1F4681F3FC200D1F9BC200D27A1FE0F,
+"👨🏽‍🦼‍➡️": _1F4681F3FD200D1F9BC200D27A1FE0F,
+"👨🏾‍🦼‍➡️": _1F4681F3FE200D1F9BC200D27A1FE0F,
+"👨🏿‍🦼‍➡️": _1F4681F3FF200D1F9BC200D27A1FE0F,
+"👩‍🦼": _1F469200D1F9BC,
+"👩🏻‍🦼": _1F4691F3FB200D1F9BC,
+"👩🏼‍🦼": _1F4691F3FC200D1F9BC,
+"👩🏽‍🦼": _1F4691F3FD200D1F9BC,
+"👩🏾‍🦼": _1F4691F3FE200D1F9BC,
+"👩🏿‍🦼": _1F4691F3FF200D1F9BC,
+"👩‍🦼‍➡️": _1F469200D1F9BC200D27A1FE0F,
+"👩🏻‍🦼‍➡️": _1F4691F3FB200D1F9BC200D27A1FE0F,
+"👩🏼‍🦼‍➡️": _1F4691F3FC200D1F9BC200D27A1FE0F,
+"👩🏽‍🦼‍➡️": _1F4691F3FD200D1F9BC200D27A1FE0F,
+"👩🏾‍🦼‍➡️": _1F4691F3FE200D1F9BC200D27A1FE0F,
+"👩🏿‍🦼‍➡️": _1F4691F3FF200D1F9BC200D27A1FE0F,
+"🧑‍🦽": _1F9D1200D1F9BD,
+"🧑🏻‍🦽": _1F9D11F3FB200D1F9BD,
+"🧑🏼‍🦽": _1F9D11F3FC200D1F9BD,
+"🧑🏽‍🦽": _1F9D11F3FD200D1F9BD,
+"🧑🏾‍🦽": _1F9D11F3FE200D1F9BD,
+"🧑🏿‍🦽": _1F9D11F3FF200D1F9BD,
+"🧑‍🦽‍➡️": _1F9D1200D1F9BD200D27A1FE0F,
+"🧑🏻‍🦽‍➡️": _1F9D11F3FB200D1F9BD200D27A1FE0F,
+"🧑🏼‍🦽‍➡️": _1F9D11F3FC200D1F9BD200D27A1FE0F,
+"🧑🏽‍🦽‍➡️": _1F9D11F3FD200D1F9BD200D27A1FE0F,
+"🧑🏾‍🦽‍➡️": _1F9D11F3FE200D1F9BD200D27A1FE0F,
+"🧑🏿‍🦽‍➡️": _1F9D11F3FF200D1F9BD200D27A1FE0F,
+"👨‍🦽": _1F468200D1F9BD,
+"👨🏻‍🦽": _1F4681F3FB200D1F9BD,
+"👨🏼‍🦽": _1F4681F3FC200D1F9BD,
+"👨🏽‍🦽": _1F4681F3FD200D1F9BD,
+"👨🏾‍🦽": _1F4681F3FE200D1F9BD,
+"👨🏿‍🦽": _1F4681F3FF200D1F9BD,
+"👨‍🦽‍➡️": _1F468200D1F9BD200D27A1FE0F,
+"👨🏻‍🦽‍➡️": _1F4681F3FB200D1F9BD200D27A1FE0F,
+"👨🏼‍🦽‍➡️": _1F4681F3FC200D1F9BD200D27A1FE0F,
+"👨🏽‍🦽‍➡️": _1F4681F3FD200D1F9BD200D27A1FE0F,
+"👨🏾‍🦽‍➡️": _1F4681F3FE200D1F9BD200D27A1FE0F,
+"👨🏿‍🦽‍➡️": _1F4681F3FF200D1F9BD200D27A1FE0F,
+"👩‍🦽": _1F469200D1F9BD,
+"👩🏻‍🦽": _1F4691F3FB200D1F9BD,
+"👩🏼‍🦽": _1F4691F3FC200D1F9BD,
+"👩🏽‍🦽": _1F4691F3FD200D1F9BD,
+"👩🏾‍🦽": _1F4691F3FE200D1F9BD,
+"👩🏿‍🦽": _1F4691F3FF200D1F9BD,
+"👩‍🦽‍➡️": _1F469200D1F9BD200D27A1FE0F,
+"👩🏻‍🦽‍➡️": _1F4691F3FB200D1F9BD200D27A1FE0F,
+"👩🏼‍🦽‍➡️": _1F4691F3FC200D1F9BD200D27A1FE0F,
+"👩🏽‍🦽‍➡️": _1F4691F3FD200D1F9BD200D27A1FE0F,
+"👩🏾‍🦽‍➡️": _1F4691F3FE200D1F9BD200D27A1FE0F,
+"👩🏿‍🦽‍➡️": _1F4691F3FF200D1F9BD200D27A1FE0F,
+"🏃": _1F3C3,
+"🏃🏻": _1F3C31F3FB,
+"🏃🏼": _1F3C31F3FC,
+"🏃🏽": _1F3C31F3FD,
+"🏃🏾": _1F3C31F3FE,
+"🏃🏿": _1F3C31F3FF,
+"🏃‍♂️": _1F3C3200D2642FE0F,
+"🏃🏻‍♂️": _1F3C31F3FB200D2642FE0F,
+"🏃🏼‍♂️": _1F3C31F3FC200D2642FE0F,
+"🏃🏽‍♂️": _1F3C31F3FD200D2642FE0F,
+"🏃🏾‍♂️": _1F3C31F3FE200D2642FE0F,
+"🏃🏿‍♂️": _1F3C31F3FF200D2642FE0F,
+"🏃‍♀️": _1F3C3200D2640FE0F,
+"🏃🏻‍♀️": _1F3C31F3FB200D2640FE0F,
+"🏃🏼‍♀️": _1F3C31F3FC200D2640FE0F,
+"🏃🏽‍♀️": _1F3C31F3FD200D2640FE0F,
+"🏃🏾‍♀️": _1F3C31F3FE200D2640FE0F,
+"🏃🏿‍♀️": _1F3C31F3FF200D2640FE0F,
+"🏃‍➡️": _1F3C3200D27A1FE0F,
+"🏃🏻‍➡️": _1F3C31F3FB200D27A1FE0F,
+"🏃🏼‍➡️": _1F3C31F3FC200D27A1FE0F,
+"🏃🏽‍➡️": _1F3C31F3FD200D27A1FE0F,
+"🏃🏾‍➡️": _1F3C31F3FE200D27A1FE0F,
+"🏃🏿‍➡️": _1F3C31F3FF200D27A1FE0F,
+"🏃‍♀️‍➡️": _1F3C3200D2640FE0F200D27A1FE0F,
+"🏃🏻‍♀️‍➡️": _1F3C31F3FB200D2640FE0F200D27A1FE0F,
+"🏃🏼‍♀️‍➡️": _1F3C31F3FC200D2640FE0F200D27A1FE0F,
+"🏃🏽‍♀️‍➡️": _1F3C31F3FD200D2640FE0F200D27A1FE0F,
+"🏃🏾‍♀️‍➡️": _1F3C31F3FE200D2640FE0F200D27A1FE0F,
+"🏃🏿‍♀️‍➡️": _1F3C31F3FF200D2640FE0F200D27A1FE0F,
+"🏃‍♂️‍➡️": _1F3C3200D2642FE0F200D27A1FE0F,
+"🏃🏻‍♂️‍➡️": _1F3C31F3FB200D2642FE0F200D27A1FE0F,
+"🏃🏼‍♂️‍➡️": _1F3C31F3FC200D2642FE0F200D27A1FE0F,
+"🏃🏽‍♂️‍➡️": _1F3C31F3FD200D2642FE0F200D27A1FE0F,
+"🏃🏾‍♂️‍➡️": _1F3C31F3FE200D2642FE0F200D27A1FE0F,
+"🏃🏿‍♂️‍➡️": _1F3C31F3FF200D2642FE0F200D27A1FE0F,
+"💃": _1F483,
+"💃🏻": _1F4831F3FB,
+"💃🏼": _1F4831F3FC,
+"💃🏽": _1F4831F3FD,
+"💃🏾": _1F4831F3FE,
+"💃🏿": _1F4831F3FF,
+"🕺": _1F57A,
+"🕺🏻": _1F57A1F3FB,
+"🕺🏼": _1F57A1F3FC,
+"🕺🏽": _1F57A1F3FD,
+"🕺🏾": _1F57A1F3FE,
+"🕺🏿": _1F57A1F3FF,
+"🕴️": _1F574,
+"🕴🏻": _1F5741F3FB,
+"🕴🏼": _1F5741F3FC,
+"🕴🏽": _1F5741F3FD,
+"🕴🏾": _1F5741F3FE,
+"🕴🏿": _1F5741F3FF,
+"👯": _1F46F,
+"👯‍♂️": _1F46F200D2642FE0F,
+"👯‍♀️": _1F46F200D2640FE0F,
+"🧖": _1F9D6,
+"🧖🏻": _1F9D61F3FB,
+"🧖🏼": _1F9D61F3FC,
+"🧖🏽": _1F9D61F3FD,
+"🧖🏾": _1F9D61F3FE,
+"🧖🏿": _1F9D61F3FF,
+"🧖‍♂️": _1F9D6200D2642FE0F,
+"🧖🏻‍♂️": _1F9D61F3FB200D2642FE0F,
+"🧖🏼‍♂️": _1F9D61F3FC200D2642FE0F,
+"🧖🏽‍♂️": _1F9D61F3FD200D2642FE0F,
+"🧖🏾‍♂️": _1F9D61F3FE200D2642FE0F,
+"🧖🏿‍♂️": _1F9D61F3FF200D2642FE0F,
+"🧖‍♀️": _1F9D6200D2640FE0F,
+"🧖🏻‍♀️": _1F9D61F3FB200D2640FE0F,
+"🧖🏼‍♀️": _1F9D61F3FC200D2640FE0F,
+"🧖🏽‍♀️": _1F9D61F3FD200D2640FE0F,
+"🧖🏾‍♀️": _1F9D61F3FE200D2640FE0F,
+"🧖🏿‍♀️": _1F9D61F3FF200D2640FE0F,
+"🧗": _1F9D7,
+"🧗🏻": _1F9D71F3FB,
+"🧗🏼": _1F9D71F3FC,
+"🧗🏽": _1F9D71F3FD,
+"🧗🏾": _1F9D71F3FE,
+"🧗🏿": _1F9D71F3FF,
+"🧗‍♂️": _1F9D7200D2642FE0F,
+"🧗🏻‍♂️": _1F9D71F3FB200D2642FE0F,
+"🧗🏼‍♂️": _1F9D71F3FC200D2642FE0F,
+"🧗🏽‍♂️": _1F9D71F3FD200D2642FE0F,
+"🧗🏾‍♂️": _1F9D71F3FE200D2642FE0F,
+"🧗🏿‍♂️": _1F9D71F3FF200D2642FE0F,
+"🧗‍♀️": _1F9D7200D2640FE0F,
+"🧗🏻‍♀️": _1F9D71F3FB200D2640FE0F,
+"🧗🏼‍♀️": _1F9D71F3FC200D2640FE0F,
+"🧗🏽‍♀️": _1F9D71F3FD200D2640FE0F,
+"🧗🏾‍♀️": _1F9D71F3FE200D2640FE0F,
+"🧗🏿‍♀️": _1F9D71F3FF200D2640FE0F,
+"🤺": _1F93A,
+"🏇": _1F3C7,
+"🏇🏻": _1F3C71F3FB,
+"🏇🏼": _1F3C71F3FC,
+"🏇🏽": _1F3C71F3FD,
+"🏇🏾": _1F3C71F3FE,
+"🏇🏿": _1F3C71F3FF,
+"⛷️": _26F7,
+"🏂️": _1F3C2,
+"🏂🏻": _1F3C21F3FB,
+"🏂🏼": _1F3C21F3FC,
+"🏂🏽": _1F3C21F3FD,
+"🏂🏾": _1F3C21F3FE,
+"🏂🏿": _1F3C21F3FF,
+"🏌️": _1F3CC,
+"🏌🏻": _1F3CC1F3FB,
+"🏌🏼": _1F3CC1F3FC,
+"🏌🏽": _1F3CC1F3FD,
+"🏌🏾": _1F3CC1F3FE,
+"🏌🏿": _1F3CC1F3FF,
+"🏌️‍♂️": _1F3CCFE0F200D2642FE0F,
+"🏌🏻‍♂️": _1F3CC1F3FB200D2642FE0F,
+"🏌🏼‍♂️": _1F3CC1F3FC200D2642FE0F,
+"🏌🏽‍♂️": _1F3CC1F3FD200D2642FE0F,
+"🏌🏾‍♂️": _1F3CC1F3FE200D2642FE0F,
+"🏌🏿‍♂️": _1F3CC1F3FF200D2642FE0F,
+"🏌️‍♀️": _1F3CCFE0F200D2640FE0F,
+"🏌🏻‍♀️": _1F3CC1F3FB200D2640FE0F,
+"🏌🏼‍♀️": _1F3CC1F3FC200D2640FE0F,
+"🏌🏽‍♀️": _1F3CC1F3FD200D2640FE0F,
+"🏌🏾‍♀️": _1F3CC1F3FE200D2640FE0F,
+"🏌🏿‍♀️": _1F3CC1F3FF200D2640FE0F,
+"🏄️": _1F3C4,
+"🏄🏻": _1F3C41F3FB,
+"🏄🏼": _1F3C41F3FC,
+"🏄🏽": _1F3C41F3FD,
+"🏄🏾": _1F3C41F3FE,
+"🏄🏿": _1F3C41F3FF,
+"🏄‍♂️": _1F3C4200D2642FE0F,
+"🏄🏻‍♂️": _1F3C41F3FB200D2642FE0F,
+"🏄🏼‍♂️": _1F3C41F3FC200D2642FE0F,
+"🏄🏽‍♂️": _1F3C41F3FD200D2642FE0F,
+"🏄🏾‍♂️": _1F3C41F3FE200D2642FE0F,
+"🏄🏿‍♂️": _1F3C41F3FF200D2642FE0F,
+"🏄‍♀️": _1F3C4200D2640FE0F,
+"🏄🏻‍♀️": _1F3C41F3FB200D2640FE0F,
+"🏄🏼‍♀️": _1F3C41F3FC200D2640FE0F,
+"🏄🏽‍♀️": _1F3C41F3FD200D2640FE0F,
+"🏄🏾‍♀️": _1F3C41F3FE200D2640FE0F,
+"🏄🏿‍♀️": _1F3C41F3FF200D2640FE0F,
+"🚣": _1F6A3,
+"🚣🏻": _1F6A31F3FB,
+"🚣🏼": _1F6A31F3FC,
+"🚣🏽": _1F6A31F3FD,
+"🚣🏾": _1F6A31F3FE,
+"🚣🏿": _1F6A31F3FF,
+"🚣‍♂️": _1F6A3200D2642FE0F,
+"🚣🏻‍♂️": _1F6A31F3FB200D2642FE0F,
+"🚣🏼‍♂️": _1F6A31F3FC200D2642FE0F,
+"🚣🏽‍♂️": _1F6A31F3FD200D2642FE0F,
+"🚣🏾‍♂️": _1F6A31F3FE200D2642FE0F,
+"🚣🏿‍♂️": _1F6A31F3FF200D2642FE0F,
+"🚣‍♀️": _1F6A3200D2640FE0F,
+"🚣🏻‍♀️": _1F6A31F3FB200D2640FE0F,
+"🚣🏼‍♀️": _1F6A31F3FC200D2640FE0F,
+"🚣🏽‍♀️": _1F6A31F3FD200D2640FE0F,
+"🚣🏾‍♀️": _1F6A31F3FE200D2640FE0F,
+"🚣🏿‍♀️": _1F6A31F3FF200D2640FE0F,
+"🏊️": _1F3CA,
+"🏊🏻": _1F3CA1F3FB,
+"🏊🏼": _1F3CA1F3FC,
+"🏊🏽": _1F3CA1F3FD,
+"🏊🏾": _1F3CA1F3FE,
+"🏊🏿": _1F3CA1F3FF,
+"🏊‍♂️": _1F3CA200D2642FE0F,
+"🏊🏻‍♂️": _1F3CA1F3FB200D2642FE0F,
+"🏊🏼‍♂️": _1F3CA1F3FC200D2642FE0F,
+"🏊🏽‍♂️": _1F3CA1F3FD200D2642FE0F,
+"🏊🏾‍♂️": _1F3CA1F3FE200D2642FE0F,
+"🏊🏿‍♂️": _1F3CA1F3FF200D2642FE0F,
+"🏊‍♀️": _1F3CA200D2640FE0F,
+"🏊🏻‍♀️": _1F3CA1F3FB200D2640FE0F,
+"🏊🏼‍♀️": _1F3CA1F3FC200D2640FE0F,
+"🏊🏽‍♀️": _1F3CA1F3FD200D2640FE0F,
+"🏊🏾‍♀️": _1F3CA1F3FE200D2640FE0F,
+"🏊🏿‍♀️": _1F3CA1F3FF200D2640FE0F,
+"⛹️": _26F9,
+"⛹🏻": _26F91F3FB,
+"⛹🏼": _26F91F3FC,
+"⛹🏽": _26F91F3FD,
+"⛹🏾": _26F91F3FE,
+"⛹🏿": _26F91F3FF,
+"⛹️‍♂️": _26F9FE0F200D2642FE0F,
+"⛹🏻‍♂️": _26F91F3FB200D2642FE0F,
+"⛹🏼‍♂️": _26F91F3FC200D2642FE0F,
+"⛹🏽‍♂️": _26F91F3FD200D2642FE0F,
+"⛹🏾‍♂️": _26F91F3FE200D2642FE0F,
+"⛹🏿‍♂️": _26F91F3FF200D2642FE0F,
+"⛹️‍♀️": _26F9FE0F200D2640FE0F,
+"⛹🏻‍♀️": _26F91F3FB200D2640FE0F,
+"⛹🏼‍♀️": _26F91F3FC200D2640FE0F,
+"⛹🏽‍♀️": _26F91F3FD200D2640FE0F,
+"⛹🏾‍♀️": _26F91F3FE200D2640FE0F,
+"⛹🏿‍♀️": _26F91F3FF200D2640FE0F,
+"🏋️": _1F3CB,
+"🏋🏻": _1F3CB1F3FB,
+"🏋🏼": _1F3CB1F3FC,
+"🏋🏽": _1F3CB1F3FD,
+"🏋🏾": _1F3CB1F3FE,
+"🏋🏿": _1F3CB1F3FF,
+"🏋️‍♂️": _1F3CBFE0F200D2642FE0F,
+"🏋🏻‍♂️": _1F3CB1F3FB200D2642FE0F,
+"🏋🏼‍♂️": _1F3CB1F3FC200D2642FE0F,
+"🏋🏽‍♂️": _1F3CB1F3FD200D2642FE0F,
+"🏋🏾‍♂️": _1F3CB1F3FE200D2642FE0F,
+"🏋🏿‍♂️": _1F3CB1F3FF200D2642FE0F,
+"🏋️‍♀️": _1F3CBFE0F200D2640FE0F,
+"🏋🏻‍♀️": _1F3CB1F3FB200D2640FE0F,
+"🏋🏼‍♀️": _1F3CB1F3FC200D2640FE0F,
+"🏋🏽‍♀️": _1F3CB1F3FD200D2640FE0F,
+"🏋🏾‍♀️": _1F3CB1F3FE200D2640FE0F,
+"🏋🏿‍♀️": _1F3CB1F3FF200D2640FE0F,
+"🚴": _1F6B4,
+"🚴🏻": _1F6B41F3FB,
+"🚴🏼": _1F6B41F3FC,
+"🚴🏽": _1F6B41F3FD,
+"🚴🏾": _1F6B41F3FE,
+"🚴🏿": _1F6B41F3FF,
+"🚴‍♂️": _1F6B4200D2642FE0F,
+"🚴🏻‍♂️": _1F6B41F3FB200D2642FE0F,
+"🚴🏼‍♂️": _1F6B41F3FC200D2642FE0F,
+"🚴🏽‍♂️": _1F6B41F3FD200D2642FE0F,
+"🚴🏾‍♂️": _1F6B41F3FE200D2642FE0F,
+"🚴🏿‍♂️": _1F6B41F3FF200D2642FE0F,
+"🚴‍♀️": _1F6B4200D2640FE0F,
+"🚴🏻‍♀️": _1F6B41F3FB200D2640FE0F,
+"🚴🏼‍♀️": _1F6B41F3FC200D2640FE0F,
+"🚴🏽‍♀️": _1F6B41F3FD200D2640FE0F,
+"🚴🏾‍♀️": _1F6B41F3FE200D2640FE0F,
+"🚴🏿‍♀️": _1F6B41F3FF200D2640FE0F,
+"🚵": _1F6B5,
+"🚵🏻": _1F6B51F3FB,
+"🚵🏼": _1F6B51F3FC,
+"🚵🏽": _1F6B51F3FD,
+"🚵🏾": _1F6B51F3FE,
+"🚵🏿": _1F6B51F3FF,
+"🚵‍♂️": _1F6B5200D2642FE0F,
+"🚵🏻‍♂️": _1F6B51F3FB200D2642FE0F,
+"🚵🏼‍♂️": _1F6B51F3FC200D2642FE0F,
+"🚵🏽‍♂️": _1F6B51F3FD200D2642FE0F,
+"🚵🏾‍♂️": _1F6B51F3FE200D2642FE0F,
+"🚵🏿‍♂️": _1F6B51F3FF200D2642FE0F,
+"🚵‍♀️": _1F6B5200D2640FE0F,
+"🚵🏻‍♀️": _1F6B51F3FB200D2640FE0F,
+"🚵🏼‍♀️": _1F6B51F3FC200D2640FE0F,
+"🚵🏽‍♀️": _1F6B51F3FD200D2640FE0F,
+"🚵🏾‍♀️": _1F6B51F3FE200D2640FE0F,
+"🚵🏿‍♀️": _1F6B51F3FF200D2640FE0F,
+"🤸": _1F938,
+"🤸🏻": _1F9381F3FB,
+"🤸🏼": _1F9381F3FC,
+"🤸🏽": _1F9381F3FD,
+"🤸🏾": _1F9381F3FE,
+"🤸🏿": _1F9381F3FF,
+"🤸‍♂️": _1F938200D2642FE0F,
+"🤸🏻‍♂️": _1F9381F3FB200D2642FE0F,
+"🤸🏼‍♂️": _1F9381F3FC200D2642FE0F,
+"🤸🏽‍♂️": _1F9381F3FD200D2642FE0F,
+"🤸🏾‍♂️": _1F9381F3FE200D2642FE0F,
+"🤸🏿‍♂️": _1F9381F3FF200D2642FE0F,
+"🤸‍♀️": _1F938200D2640FE0F,
+"🤸🏻‍♀️": _1F9381F3FB200D2640FE0F,
+"🤸🏼‍♀️": _1F9381F3FC200D2640FE0F,
+"🤸🏽‍♀️": _1F9381F3FD200D2640FE0F,
+"🤸🏾‍♀️": _1F9381F3FE200D2640FE0F,
+"🤸🏿‍♀️": _1F9381F3FF200D2640FE0F,
+"🤼": _1F93C,
+"🤼‍♂️": _1F93C200D2642FE0F,
+"🤼‍♀️": _1F93C200D2640FE0F,
+"🤽": _1F93D,
+"🤽🏻": _1F93D1F3FB,
+"🤽🏼": _1F93D1F3FC,
+"🤽🏽": _1F93D1F3FD,
+"🤽🏾": _1F93D1F3FE,
+"🤽🏿": _1F93D1F3FF,
+"🤽‍♂️": _1F93D200D2642FE0F,
+"🤽🏻‍♂️": _1F93D1F3FB200D2642FE0F,
+"🤽🏼‍♂️": _1F93D1F3FC200D2642FE0F,
+"🤽🏽‍♂️": _1F93D1F3FD200D2642FE0F,
+"🤽🏾‍♂️": _1F93D1F3FE200D2642FE0F,
+"🤽🏿‍♂️": _1F93D1F3FF200D2642FE0F,
+"🤽‍♀️": _1F93D200D2640FE0F,
+"🤽🏻‍♀️": _1F93D1F3FB200D2640FE0F,
+"🤽🏼‍♀️": _1F93D1F3FC200D2640FE0F,
+"🤽🏽‍♀️": _1F93D1F3FD200D2640FE0F,
+"🤽🏾‍♀️": _1F93D1F3FE200D2640FE0F,
+"🤽🏿‍♀️": _1F93D1F3FF200D2640FE0F,
+"🤾": _1F93E,
+"🤾🏻": _1F93E1F3FB,
+"🤾🏼": _1F93E1F3FC,
+"🤾🏽": _1F93E1F3FD,
+"🤾🏾": _1F93E1F3FE,
+"🤾🏿": _1F93E1F3FF,
+"🤾‍♂️": _1F93E200D2642FE0F,
+"🤾🏻‍♂️": _1F93E1F3FB200D2642FE0F,
+"🤾🏼‍♂️": _1F93E1F3FC200D2642FE0F,
+"🤾🏽‍♂️": _1F93E1F3FD200D2642FE0F,
+"🤾🏾‍♂️": _1F93E1F3FE200D2642FE0F,
+"🤾🏿‍♂️": _1F93E1F3FF200D2642FE0F,
+"🤾‍♀️": _1F93E200D2640FE0F,
+"🤾🏻‍♀️": _1F93E1F3FB200D2640FE0F,
+"🤾🏼‍♀️": _1F93E1F3FC200D2640FE0F,
+"🤾🏽‍♀️": _1F93E1F3FD200D2640FE0F,
+"🤾🏾‍♀️": _1F93E1F3FE200D2640FE0F,
+"🤾🏿‍♀️": _1F93E1F3FF200D2640FE0F,
+"🤹": _1F939,
+"🤹🏻": _1F9391F3FB,
+"🤹🏼": _1F9391F3FC,
+"🤹🏽": _1F9391F3FD,
+"🤹🏾": _1F9391F3FE,
+"🤹🏿": _1F9391F3FF,
+"🤹‍♂️": _1F939200D2642FE0F,
+"🤹🏻‍♂️": _1F9391F3FB200D2642FE0F,
+"🤹🏼‍♂️": _1F9391F3FC200D2642FE0F,
+"🤹🏽‍♂️": _1F9391F3FD200D2642FE0F,
+"🤹🏾‍♂️": _1F9391F3FE200D2642FE0F,
+"🤹🏿‍♂️": _1F9391F3FF200D2642FE0F,
+"🤹‍♀️": _1F939200D2640FE0F,
+"🤹🏻‍♀️": _1F9391F3FB200D2640FE0F,
+"🤹🏼‍♀️": _1F9391F3FC200D2640FE0F,
+"🤹🏽‍♀️": _1F9391F3FD200D2640FE0F,
+"🤹🏾‍♀️": _1F9391F3FE200D2640FE0F,
+"🤹🏿‍♀️": _1F9391F3FF200D2640FE0F,
+"🧘": _1F9D8,
+"🧘🏻": _1F9D81F3FB,
+"🧘🏼": _1F9D81F3FC,
+"🧘🏽": _1F9D81F3FD,
+"🧘🏾": _1F9D81F3FE,
+"🧘🏿": _1F9D81F3FF,
+"🧘‍♂️": _1F9D8200D2642FE0F,
+"🧘🏻‍♂️": _1F9D81F3FB200D2642FE0F,
+"🧘🏼‍♂️": _1F9D81F3FC200D2642FE0F,
+"🧘🏽‍♂️": _1F9D81F3FD200D2642FE0F,
+"🧘🏾‍♂️": _1F9D81F3FE200D2642FE0F,
+"🧘🏿‍♂️": _1F9D81F3FF200D2642FE0F,
+"🧘‍♀️": _1F9D8200D2640FE0F,
+"🧘🏻‍♀️": _1F9D81F3FB200D2640FE0F,
+"🧘🏼‍♀️": _1F9D81F3FC200D2640FE0F,
+"🧘🏽‍♀️": _1F9D81F3FD200D2640FE0F,
+"🧘🏾‍♀️": _1F9D81F3FE200D2640FE0F,
+"🧘🏿‍♀️": _1F9D81F3FF200D2640FE0F,
+"🛀": _1F6C0,
+"🛀🏻": _1F6C01F3FB,
+"🛀🏼": _1F6C01F3FC,
+"🛀🏽": _1F6C01F3FD,
+"🛀🏾": _1F6C01F3FE,
+"🛀🏿": _1F6C01F3FF,
+"🛌": _1F6CC,
+"🛌🏻": _1F6CC1F3FB,
+"🛌🏼": _1F6CC1F3FC,
+"🛌🏽": _1F6CC1F3FD,
+"🛌🏾": _1F6CC1F3FE,
+"🛌🏿": _1F6CC1F3FF,
+"🧑‍🤝‍🧑": _1F9D1200D1F91D200D1F9D1,
+"🧑🏻‍🤝‍🧑🏻": _1F9D11F3FB200D1F91D200D1F9D11F3FB,
+"🧑🏻‍🤝‍🧑🏼": _1F9D11F3FB200D1F91D200D1F9D11F3FC,
+"🧑🏻‍🤝‍🧑🏽": _1F9D11F3FB200D1F91D200D1F9D11F3FD,
+"🧑🏻‍🤝‍🧑🏾": _1F9D11F3FB200D1F91D200D1F9D11F3FE,
+"🧑🏻‍🤝‍🧑🏿": _1F9D11F3FB200D1F91D200D1F9D11F3FF,
+"🧑🏼‍🤝‍🧑🏻": _1F9D11F3FC200D1F91D200D1F9D11F3FB,
+"🧑🏼‍🤝‍🧑🏼": _1F9D11F3FC200D1F91D200D1F9D11F3FC,
+"🧑🏼‍🤝‍🧑🏽": _1F9D11F3FC200D1F91D200D1F9D11F3FD,
+"🧑🏼‍🤝‍🧑🏾": _1F9D11F3FC200D1F91D200D1F9D11F3FE,
+"🧑🏼‍🤝‍🧑🏿": _1F9D11F3FC200D1F91D200D1F9D11F3FF,
+"🧑🏽‍🤝‍🧑🏻": _1F9D11F3FD200D1F91D200D1F9D11F3FB,
+"🧑🏽‍🤝‍🧑🏼": _1F9D11F3FD200D1F91D200D1F9D11F3FC,
+"🧑🏽‍🤝‍🧑🏽": _1F9D11F3FD200D1F91D200D1F9D11F3FD,
+"🧑🏽‍🤝‍🧑🏾": _1F9D11F3FD200D1F91D200D1F9D11F3FE,
+"🧑🏽‍🤝‍🧑🏿": _1F9D11F3FD200D1F91D200D1F9D11F3FF,
+"🧑🏾‍🤝‍🧑🏻": _1F9D11F3FE200D1F91D200D1F9D11F3FB,
+"🧑🏾‍🤝‍🧑🏼": _1F9D11F3FE200D1F91D200D1F9D11F3FC,
+"🧑🏾‍🤝‍🧑🏽": _1F9D11F3FE200D1F91D200D1F9D11F3FD,
+"🧑🏾‍🤝‍🧑🏾": _1F9D11F3FE200D1F91D200D1F9D11F3FE,
+"🧑🏾‍🤝‍🧑🏿": _1F9D11F3FE200D1F91D200D1F9D11F3FF,
+"🧑🏿‍🤝‍🧑🏻": _1F9D11F3FF200D1F91D200D1F9D11F3FB,
+"🧑🏿‍🤝‍🧑🏼": _1F9D11F3FF200D1F91D200D1F9D11F3FC,
+"🧑🏿‍🤝‍🧑🏽": _1F9D11F3FF200D1F91D200D1F9D11F3FD,
+"🧑🏿‍🤝‍🧑🏾": _1F9D11F3FF200D1F91D200D1F9D11F3FE,
+"🧑🏿‍🤝‍🧑🏿": _1F9D11F3FF200D1F91D200D1F9D11F3FF,
+"👭": _1F46D,
+"👭🏻": _1F46D1F3FB,
+"👩🏻‍🤝‍👩🏼": _1F4691F3FB200D1F91D200D1F4691F3FC,
+"👩🏻‍🤝‍👩🏽": _1F4691F3FB200D1F91D200D1F4691F3FD,
+"👩🏻‍🤝‍👩🏾": _1F4691F3FB200D1F91D200D1F4691F3FE,
+"👩🏻‍🤝‍👩🏿": _1F4691F3FB200D1F91D200D1F4691F3FF,
+"👩🏼‍🤝‍👩🏻": _1F4691F3FC200D1F91D200D1F4691F3FB,
+"👭🏼": _1F46D1F3FC,
+"👩🏼‍🤝‍👩🏽": _1F4691F3FC200D1F91D200D1F4691F3FD,
+"👩🏼‍🤝‍👩🏾": _1F4691F3FC200D1F91D200D1F4691F3FE,
+"👩🏼‍🤝‍👩🏿": _1F4691F3FC200D1F91D200D1F4691F3FF,
+"👩🏽‍🤝‍👩🏻": _1F4691F3FD200D1F91D200D1F4691F3FB,
+"👩🏽‍🤝‍👩🏼": _1F4691F3FD200D1F91D200D1F4691F3FC,
+"👭🏽": _1F46D1F3FD,
+"👩🏽‍🤝‍👩🏾": _1F4691F3FD200D1F91D200D1F4691F3FE,
+"👩🏽‍🤝‍👩🏿": _1F4691F3FD200D1F91D200D1F4691F3FF,
+"👩🏾‍🤝‍👩🏻": _1F4691F3FE200D1F91D200D1F4691F3FB,
+"👩🏾‍🤝‍👩🏼": _1F4691F3FE200D1F91D200D1F4691F3FC,
+"👩🏾‍🤝‍👩🏽": _1F4691F3FE200D1F91D200D1F4691F3FD,
+"👭🏾": _1F46D1F3FE,
+"👩🏾‍🤝‍👩🏿": _1F4691F3FE200D1F91D200D1F4691F3FF,
+"👩🏿‍🤝‍👩🏻": _1F4691F3FF200D1F91D200D1F4691F3FB,
+"👩🏿‍🤝‍👩🏼": _1F4691F3FF200D1F91D200D1F4691F3FC,
+"👩🏿‍🤝‍👩🏽": _1F4691F3FF200D1F91D200D1F4691F3FD,
+"👩🏿‍🤝‍👩🏾": _1F4691F3FF200D1F91D200D1F4691F3FE,
+"👭🏿": _1F46D1F3FF,
+"👫": _1F46B,
+"👫🏻": _1F46B1F3FB,
+"👩🏻‍🤝‍👨🏼": _1F4691F3FB200D1F91D200D1F4681F3FC,
+"👩🏻‍🤝‍👨🏽": _1F4691F3FB200D1F91D200D1F4681F3FD,
+"👩🏻‍🤝‍👨🏾": _1F4691F3FB200D1F91D200D1F4681F3FE,
+"👩🏻‍🤝‍👨🏿": _1F4691F3FB200D1F91D200D1F4681F3FF,
+"👩🏼‍🤝‍👨🏻": _1F4691F3FC200D1F91D200D1F4681F3FB,
+"👫🏼": _1F46B1F3FC,
+"👩🏼‍🤝‍👨🏽": _1F4691F3FC200D1F91D200D1F4681F3FD,
+"👩🏼‍🤝‍👨🏾": _1F4691F3FC200D1F91D200D1F4681F3FE,
+"👩🏼‍🤝‍👨🏿": _1F4691F3FC200D1F91D200D1F4681F3FF,
+"👩🏽‍🤝‍👨🏻": _1F4691F3FD200D1F91D200D1F4681F3FB,
+"👩🏽‍🤝‍👨🏼": _1F4691F3FD200D1F91D200D1F4681F3FC,
+"👫🏽": _1F46B1F3FD,
+"👩🏽‍🤝‍👨🏾": _1F4691F3FD200D1F91D200D1F4681F3FE,
+"👩🏽‍🤝‍👨🏿": _1F4691F3FD200D1F91D200D1F4681F3FF,
+"👩🏾‍🤝‍👨🏻": _1F4691F3FE200D1F91D200D1F4681F3FB,
+"👩🏾‍🤝‍👨🏼": _1F4691F3FE200D1F91D200D1F4681F3FC,
+"👩🏾‍🤝‍👨🏽": _1F4691F3FE200D1F91D200D1F4681F3FD,
+"👫🏾": _1F46B1F3FE,
+"👩🏾‍🤝‍👨🏿": _1F4691F3FE200D1F91D200D1F4681F3FF,
+"👩🏿‍🤝‍👨🏻": _1F4691F3FF200D1F91D200D1F4681F3FB,
+"👩🏿‍🤝‍👨🏼": _1F4691F3FF200D1F91D200D1F4681F3FC,
+"👩🏿‍🤝‍👨🏽": _1F4691F3FF200D1F91D200D1F4681F3FD,
+"👩🏿‍🤝‍👨🏾": _1F4691F3FF200D1F91D200D1F4681F3FE,
+"👫🏿": _1F46B1F3FF,
+"👬": _1F46C,
+"👬🏻": _1F46C1F3FB,
+"👨🏻‍🤝‍👨🏼": _1F4681F3FB200D1F91D200D1F4681F3FC,
+"👨🏻‍🤝‍👨🏽": _1F4681F3FB200D1F91D200D1F4681F3FD,
+"👨🏻‍🤝‍👨🏾": _1F4681F3FB200D1F91D200D1F4681F3FE,
+"👨🏻‍🤝‍👨🏿": _1F4681F3FB200D1F91D200D1F4681F3FF,
+"👨🏼‍🤝‍👨🏻": _1F4681F3FC200D1F91D200D1F4681F3FB,
+"👬🏼": _1F46C1F3FC,
+"👨🏼‍🤝‍👨🏽": _1F4681F3FC200D1F91D200D1F4681F3FD,
+"👨🏼‍🤝‍👨🏾": _1F4681F3FC200D1F91D200D1F4681F3FE,
+"👨🏼‍🤝‍👨🏿": _1F4681F3FC200D1F91D200D1F4681F3FF,
+"👨🏽‍🤝‍👨🏻": _1F4681F3FD200D1F91D200D1F4681F3FB,
+"👨🏽‍🤝‍👨🏼": _1F4681F3FD200D1F91D200D1F4681F3FC,
+"👬🏽": _1F46C1F3FD,
+"👨🏽‍🤝‍👨🏾": _1F4681F3FD200D1F91D200D1F4681F3FE,
+"👨🏽‍🤝‍👨🏿": _1F4681F3FD200D1F91D200D1F4681F3FF,
+"👨🏾‍🤝‍👨🏻": _1F4681F3FE200D1F91D200D1F4681F3FB,
+"👨🏾‍🤝‍👨🏼": _1F4681F3FE200D1F91D200D1F4681F3FC,
+"👨🏾‍🤝‍👨🏽": _1F4681F3FE200D1F91D200D1F4681F3FD,
+"👬🏾": _1F46C1F3FE,
+"👨🏾‍🤝‍👨🏿": _1F4681F3FE200D1F91D200D1F4681F3FF,
+"👨🏿‍🤝‍👨🏻": _1F4681F3FF200D1F91D200D1F4681F3FB,
+"👨🏿‍🤝‍👨🏼": _1F4681F3FF200D1F91D200D1F4681F3FC,
+"👨🏿‍🤝‍👨🏽": _1F4681F3FF200D1F91D200D1F4681F3FD,
+"👨🏿‍🤝‍👨🏾": _1F4681F3FF200D1F91D200D1F4681F3FE,
+"👬🏿": _1F46C1F3FF,
+"💏": _1F48F,
+"💏🏻": _1F48F1F3FB,
+"💏🏼": _1F48F1F3FC,
+"💏🏽": _1F48F1F3FD,
+"💏🏾": _1F48F1F3FE,
+"💏🏿": _1F48F1F3FF,
+"🧑🏻‍❤️‍💋‍🧑🏼": _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FC,
+"🧑🏻‍❤️‍💋‍🧑🏽": _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FD,
+"🧑🏻‍❤️‍💋‍🧑🏾": _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FE,
+"🧑🏻‍❤️‍💋‍🧑🏿": _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FF,
+"🧑🏼‍❤️‍💋‍🧑🏻": _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FB,
+"🧑🏼‍❤️‍💋‍🧑🏽": _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FD,
+"🧑🏼‍❤️‍💋‍🧑🏾": _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FE,
+"🧑🏼‍❤️‍💋‍🧑🏿": _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FF,
+"🧑🏽‍❤️‍💋‍🧑🏻": _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FB,
+"🧑🏽‍❤️‍💋‍🧑🏼": _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FC,
+"🧑🏽‍❤️‍💋‍🧑🏾": _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FE,
+"🧑🏽‍❤️‍💋‍🧑🏿": _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FF,
+"🧑🏾‍❤️‍💋‍🧑🏻": _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FB,
+"🧑🏾‍❤️‍💋‍🧑🏼": _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FC,
+"🧑🏾‍❤️‍💋‍🧑🏽": _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FD,
+"🧑🏾‍❤️‍💋‍🧑🏿": _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FF,
+"🧑🏿‍❤️‍💋‍🧑🏻": _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FB,
+"🧑🏿‍❤️‍💋‍🧑🏼": _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FC,
+"🧑🏿‍❤️‍💋‍🧑🏽": _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FD,
+"🧑🏿‍❤️‍💋‍🧑🏾": _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FE,
+"👩‍❤️‍💋‍👨": _1F469200D2764FE0F200D1F48B200D1F468,
+"👩🏻‍❤️‍💋‍👨🏻": _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FB,
+"👩🏻‍❤️‍💋‍👨🏼": _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FC,
+"👩🏻‍❤️‍💋‍👨🏽": _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FD,
+"👩🏻‍❤️‍💋‍👨🏾": _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FE,
+"👩🏻‍❤️‍💋‍👨🏿": _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FF,
+"👩🏼‍❤️‍💋‍👨🏻": _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FB,
+"👩🏼‍❤️‍💋‍👨🏼": _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FC,
+"👩🏼‍❤️‍💋‍👨🏽": _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FD,
+"👩🏼‍❤️‍💋‍👨🏾": _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FE,
+"👩🏼‍❤️‍💋‍👨🏿": _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FF,
+"👩🏽‍❤️‍💋‍👨🏻": _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FB,
+"👩🏽‍❤️‍💋‍👨🏼": _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FC,
+"👩🏽‍❤️‍💋‍👨🏽": _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FD,
+"👩🏽‍❤️‍💋‍👨🏾": _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FE,
+"👩🏽‍❤️‍💋‍👨🏿": _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FF,
+"👩🏾‍❤️‍💋‍👨🏻": _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FB,
+"👩🏾‍❤️‍💋‍👨🏼": _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FC,
+"👩🏾‍❤️‍💋‍👨🏽": _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FD,
+"👩🏾‍❤️‍💋‍👨🏾": _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FE,
+"👩🏾‍❤️‍💋‍👨🏿": _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FF,
+"👩🏿‍❤️‍💋‍👨🏻": _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FB,
+"👩🏿‍❤️‍💋‍👨🏼": _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FC,
+"👩🏿‍❤️‍💋‍👨🏽": _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FD,
+"👩🏿‍❤️‍💋‍👨🏾": _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FE,
+"👩🏿‍❤️‍💋‍👨🏿": _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FF,
+"👨‍❤️‍💋‍👨": _1F468200D2764FE0F200D1F48B200D1F468,
+"👨🏻‍❤️‍💋‍👨🏻": _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FB,
+"👨🏻‍❤️‍💋‍👨🏼": _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FC,
+"👨🏻‍❤️‍💋‍👨🏽": _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FD,
+"👨🏻‍❤️‍💋‍👨🏾": _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FE,
+"👨🏻‍❤️‍💋‍👨🏿": _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FF,
+"👨🏼‍❤️‍💋‍👨🏻": _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FB,
+"👨🏼‍❤️‍💋‍👨🏼": _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FC,
+"👨🏼‍❤️‍💋‍👨🏽": _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FD,
+"👨🏼‍❤️‍💋‍👨🏾": _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FE,
+"👨🏼‍❤️‍💋‍👨🏿": _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FF,
+"👨🏽‍❤️‍💋‍👨🏻": _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FB,
+"👨🏽‍❤️‍💋‍👨🏼": _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FC,
+"👨🏽‍❤️‍💋‍👨🏽": _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FD,
+"👨🏽‍❤️‍💋‍👨🏾": _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FE,
+"👨🏽‍❤️‍💋‍👨🏿": _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FF,
+"👨🏾‍❤️‍💋‍👨🏻": _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FB,
+"👨🏾‍❤️‍💋‍👨🏼": _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FC,
+"👨🏾‍❤️‍💋‍👨🏽": _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FD,
+"👨🏾‍❤️‍💋‍👨🏾": _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FE,
+"👨🏾‍❤️‍💋‍👨🏿": _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FF,
+"👨🏿‍❤️‍💋‍👨🏻": _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FB,
+"👨🏿‍❤️‍💋‍👨🏼": _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FC,
+"👨🏿‍❤️‍💋‍👨🏽": _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FD,
+"👨🏿‍❤️‍💋‍👨🏾": _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FE,
+"👨🏿‍❤️‍💋‍👨🏿": _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FF,
+"👩‍❤️‍💋‍👩": _1F469200D2764FE0F200D1F48B200D1F469,
+"👩🏻‍❤️‍💋‍👩🏻": _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FB,
+"👩🏻‍❤️‍💋‍👩🏼": _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FC,
+"👩🏻‍❤️‍💋‍👩🏽": _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FD,
+"👩🏻‍❤️‍💋‍👩🏾": _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FE,
+"👩🏻‍❤️‍💋‍👩🏿": _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FF,
+"👩🏼‍❤️‍💋‍👩🏻": _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FB,
+"👩🏼‍❤️‍💋‍👩🏼": _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FC,
+"👩🏼‍❤️‍💋‍👩🏽": _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FD,
+"👩🏼‍❤️‍💋‍👩🏾": _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FE,
+"👩🏼‍❤️‍💋‍👩🏿": _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FF,
+"👩🏽‍❤️‍💋‍👩🏻": _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FB,
+"👩🏽‍❤️‍💋‍👩🏼": _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FC,
+"👩🏽‍❤️‍💋‍👩🏽": _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FD,
+"👩🏽‍❤️‍💋‍👩🏾": _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FE,
+"👩🏽‍❤️‍💋‍👩🏿": _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FF,
+"👩🏾‍❤️‍💋‍👩🏻": _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FB,
+"👩🏾‍❤️‍💋‍👩🏼": _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FC,
+"👩🏾‍❤️‍💋‍👩🏽": _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FD,
+"👩🏾‍❤️‍💋‍👩🏾": _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FE,
+"👩🏾‍❤️‍💋‍👩🏿": _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FF,
+"👩🏿‍❤️‍💋‍👩🏻": _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FB,
+"👩🏿‍❤️‍💋‍👩🏼": _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FC,
+"👩🏿‍❤️‍💋‍👩🏽": _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FD,
+"👩🏿‍❤️‍💋‍👩🏾": _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FE,
+"👩🏿‍❤️‍💋‍👩🏿": _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FF,
+"💑": _1F491,
+"💑🏻": _1F4911F3FB,
+"💑🏼": _1F4911F3FC,
+"💑🏽": _1F4911F3FD,
+"💑🏾": _1F4911F3FE,
+"💑🏿": _1F4911F3FF,
+"🧑🏻‍❤️‍🧑🏼": _1F9D11F3FB200D2764FE0F200D1F9D11F3FC,
+"🧑🏻‍❤️‍🧑🏽": _1F9D11F3FB200D2764FE0F200D1F9D11F3FD,
+"🧑🏻‍❤️‍🧑🏾": _1F9D11F3FB200D2764FE0F200D1F9D11F3FE,
+"🧑🏻‍❤️‍🧑🏿": _1F9D11F3FB200D2764FE0F200D1F9D11F3FF,
+"🧑🏼‍❤️‍🧑🏻": _1F9D11F3FC200D2764FE0F200D1F9D11F3FB,
+"🧑🏼‍❤️‍🧑🏽": _1F9D11F3FC200D2764FE0F200D1F9D11F3FD,
+"🧑🏼‍❤️‍🧑🏾": _1F9D11F3FC200D2764FE0F200D1F9D11F3FE,
+"🧑🏼‍❤️‍🧑🏿": _1F9D11F3FC200D2764FE0F200D1F9D11F3FF,
+"🧑🏽‍❤️‍🧑🏻": _1F9D11F3FD200D2764FE0F200D1F9D11F3FB,
+"🧑🏽‍❤️‍🧑🏼": _1F9D11F3FD200D2764FE0F200D1F9D11F3FC,
+"🧑🏽‍❤️‍🧑🏾": _1F9D11F3FD200D2764FE0F200D1F9D11F3FE,
+"🧑🏽‍❤️‍🧑🏿": _1F9D11F3FD200D2764FE0F200D1F9D11F3FF,
+"🧑🏾‍❤️‍🧑🏻": _1F9D11F3FE200D2764FE0F200D1F9D11F3FB,
+"🧑🏾‍❤️‍🧑🏼": _1F9D11F3FE200D2764FE0F200D1F9D11F3FC,
+"🧑🏾‍❤️‍🧑🏽": _1F9D11F3FE200D2764FE0F200D1F9D11F3FD,
+"🧑🏾‍❤️‍🧑🏿": _1F9D11F3FE200D2764FE0F200D1F9D11F3FF,
+"🧑🏿‍❤️‍🧑🏻": _1F9D11F3FF200D2764FE0F200D1F9D11F3FB,
+"🧑🏿‍❤️‍🧑🏼": _1F9D11F3FF200D2764FE0F200D1F9D11F3FC,
+"🧑🏿‍❤️‍🧑🏽": _1F9D11F3FF200D2764FE0F200D1F9D11F3FD,
+"🧑🏿‍❤️‍🧑🏾": _1F9D11F3FF200D2764FE0F200D1F9D11F3FE,
+"👩‍❤️‍👨": _1F469200D2764FE0F200D1F468,
+"👩🏻‍❤️‍👨🏻": _1F4691F3FB200D2764FE0F200D1F4681F3FB,
+"👩🏻‍❤️‍👨🏼": _1F4691F3FB200D2764FE0F200D1F4681F3FC,
+"👩🏻‍❤️‍👨🏽": _1F4691F3FB200D2764FE0F200D1F4681F3FD,
+"👩🏻‍❤️‍👨🏾": _1F4691F3FB200D2764FE0F200D1F4681F3FE,
+"👩🏻‍❤️‍👨🏿": _1F4691F3FB200D2764FE0F200D1F4681F3FF,
+"👩🏼‍❤️‍👨🏻": _1F4691F3FC200D2764FE0F200D1F4681F3FB,
+"👩🏼‍❤️‍👨🏼": _1F4691F3FC200D2764FE0F200D1F4681F3FC,
+"👩🏼‍❤️‍👨🏽": _1F4691F3FC200D2764FE0F200D1F4681F3FD,
+"👩🏼‍❤️‍👨🏾": _1F4691F3FC200D2764FE0F200D1F4681F3FE,
+"👩🏼‍❤️‍👨🏿": _1F4691F3FC200D2764FE0F200D1F4681F3FF,
+"👩🏽‍❤️‍👨🏻": _1F4691F3FD200D2764FE0F200D1F4681F3FB,
+"👩🏽‍❤️‍👨🏼": _1F4691F3FD200D2764FE0F200D1F4681F3FC,
+"👩🏽‍❤️‍👨🏽": _1F4691F3FD200D2764FE0F200D1F4681F3FD,
+"👩🏽‍❤️‍👨🏾": _1F4691F3FD200D2764FE0F200D1F4681F3FE,
+"👩🏽‍❤️‍👨🏿": _1F4691F3FD200D2764FE0F200D1F4681F3FF,
+"👩🏾‍❤️‍👨🏻": _1F4691F3FE200D2764FE0F200D1F4681F3FB,
+"👩🏾‍❤️‍👨🏼": _1F4691F3FE200D2764FE0F200D1F4681F3FC,
+"👩🏾‍❤️‍👨🏽": _1F4691F3FE200D2764FE0F200D1F4681F3FD,
+"👩🏾‍❤️‍👨🏾": _1F4691F3FE200D2764FE0F200D1F4681F3FE,
+"👩🏾‍❤️‍👨🏿": _1F4691F3FE200D2764FE0F200D1F4681F3FF,
+"👩🏿‍❤️‍👨🏻": _1F4691F3FF200D2764FE0F200D1F4681F3FB,
+"👩🏿‍❤️‍👨🏼": _1F4691F3FF200D2764FE0F200D1F4681F3FC,
+"👩🏿‍❤️‍👨🏽": _1F4691F3FF200D2764FE0F200D1F4681F3FD,
+"👩🏿‍❤️‍👨🏾": _1F4691F3FF200D2764FE0F200D1F4681F3FE,
+"👩🏿‍❤️‍👨🏿": _1F4691F3FF200D2764FE0F200D1F4681F3FF,
+"👨‍❤️‍👨": _1F468200D2764FE0F200D1F468,
+"👨🏻‍❤️‍👨🏻": _1F4681F3FB200D2764FE0F200D1F4681F3FB,
+"👨🏻‍❤️‍👨🏼": _1F4681F3FB200D2764FE0F200D1F4681F3FC,
+"👨🏻‍❤️‍👨🏽": _1F4681F3FB200D2764FE0F200D1F4681F3FD,
+"👨🏻‍❤️‍👨🏾": _1F4681F3FB200D2764FE0F200D1F4681F3FE,
+"👨🏻‍❤️‍👨🏿": _1F4681F3FB200D2764FE0F200D1F4681F3FF,
+"👨🏼‍❤️‍👨🏻": _1F4681F3FC200D2764FE0F200D1F4681F3FB,
+"👨🏼‍❤️‍👨🏼": _1F4681F3FC200D2764FE0F200D1F4681F3FC,
+"👨🏼‍❤️‍👨🏽": _1F4681F3FC200D2764FE0F200D1F4681F3FD,
+"👨🏼‍❤️‍👨🏾": _1F4681F3FC200D2764FE0F200D1F4681F3FE,
+"👨🏼‍❤️‍👨🏿": _1F4681F3FC200D2764FE0F200D1F4681F3FF,
+"👨🏽‍❤️‍👨🏻": _1F4681F3FD200D2764FE0F200D1F4681F3FB,
+"👨🏽‍❤️‍👨🏼": _1F4681F3FD200D2764FE0F200D1F4681F3FC,
+"👨🏽‍❤️‍👨🏽": _1F4681F3FD200D2764FE0F200D1F4681F3FD,
+"👨🏽‍❤️‍👨🏾": _1F4681F3FD200D2764FE0F200D1F4681F3FE,
+"👨🏽‍❤️‍👨🏿": _1F4681F3FD200D2764FE0F200D1F4681F3FF,
+"👨🏾‍❤️‍👨🏻": _1F4681F3FE200D2764FE0F200D1F4681F3FB,
+"👨🏾‍❤️‍👨🏼": _1F4681F3FE200D2764FE0F200D1F4681F3FC,
+"👨🏾‍❤️‍👨🏽": _1F4681F3FE200D2764FE0F200D1F4681F3FD,
+"👨🏾‍❤️‍👨🏾": _1F4681F3FE200D2764FE0F200D1F4681F3FE,
+"👨🏾‍❤️‍👨🏿": _1F4681F3FE200D2764FE0F200D1F4681F3FF,
+"👨🏿‍❤️‍👨🏻": _1F4681F3FF200D2764FE0F200D1F4681F3FB,
+"👨🏿‍❤️‍👨🏼": _1F4681F3FF200D2764FE0F200D1F4681F3FC,
+"👨🏿‍❤️‍👨🏽": _1F4681F3FF200D2764FE0F200D1F4681F3FD,
+"👨🏿‍❤️‍👨🏾": _1F4681F3FF200D2764FE0F200D1F4681F3FE,
+"👨🏿‍❤️‍👨🏿": _1F4681F3FF200D2764FE0F200D1F4681F3FF,
+"👩‍❤️‍👩": _1F469200D2764FE0F200D1F469,
+"👩🏻‍❤️‍👩🏻": _1F4691F3FB200D2764FE0F200D1F4691F3FB,
+"👩🏻‍❤️‍👩🏼": _1F4691F3FB200D2764FE0F200D1F4691F3FC,
+"👩🏻‍❤️‍👩🏽": _1F4691F3FB200D2764FE0F200D1F4691F3FD,
+"👩🏻‍❤️‍👩🏾": _1F4691F3FB200D2764FE0F200D1F4691F3FE,
+"👩🏻‍❤️‍👩🏿": _1F4691F3FB200D2764FE0F200D1F4691F3FF,
+"👩🏼‍❤️‍👩🏻": _1F4691F3FC200D2764FE0F200D1F4691F3FB,
+"👩🏼‍❤️‍👩🏼": _1F4691F3FC200D2764FE0F200D1F4691F3FC,
+"👩🏼‍❤️‍👩🏽": _1F4691F3FC200D2764FE0F200D1F4691F3FD,
+"👩🏼‍❤️‍👩🏾": _1F4691F3FC200D2764FE0F200D1F4691F3FE,
+"👩🏼‍❤️‍👩🏿": _1F4691F3FC200D2764FE0F200D1F4691F3FF,
+"👩🏽‍❤️‍👩🏻": _1F4691F3FD200D2764FE0F200D1F4691F3FB,
+"👩🏽‍❤️‍👩🏼": _1F4691F3FD200D2764FE0F200D1F4691F3FC,
+"👩🏽‍❤️‍👩🏽": _1F4691F3FD200D2764FE0F200D1F4691F3FD,
+"👩🏽‍❤️‍👩🏾": _1F4691F3FD200D2764FE0F200D1F4691F3FE,
+"👩🏽‍❤️‍👩🏿": _1F4691F3FD200D2764FE0F200D1F4691F3FF,
+"👩🏾‍❤️‍👩🏻": _1F4691F3FE200D2764FE0F200D1F4691F3FB,
+"👩🏾‍❤️‍👩🏼": _1F4691F3FE200D2764FE0F200D1F4691F3FC,
+"👩🏾‍❤️‍👩🏽": _1F4691F3FE200D2764FE0F200D1F4691F3FD,
+"👩🏾‍❤️‍👩🏾": _1F4691F3FE200D2764FE0F200D1F4691F3FE,
+"👩🏾‍❤️‍👩🏿": _1F4691F3FE200D2764FE0F200D1F4691F3FF,
+"👩🏿‍❤️‍👩🏻": _1F4691F3FF200D2764FE0F200D1F4691F3FB,
+"👩🏿‍❤️‍👩🏼": _1F4691F3FF200D2764FE0F200D1F4691F3FC,
+"👩🏿‍❤️‍👩🏽": _1F4691F3FF200D2764FE0F200D1F4691F3FD,
+"👩🏿‍❤️‍👩🏾": _1F4691F3FF200D2764FE0F200D1F4691F3FE,
+"👩🏿‍❤️‍👩🏿": _1F4691F3FF200D2764FE0F200D1F4691F3FF,
+"👨‍👩‍👦": _1F468200D1F469200D1F466,
+"👨‍👩‍👧": _1F468200D1F469200D1F467,
+"👨‍👩‍👧‍👦": _1F468200D1F469200D1F467200D1F466,
+"👨‍👩‍👦‍👦": _1F468200D1F469200D1F466200D1F466,
+"👨‍👩‍👧‍👧": _1F468200D1F469200D1F467200D1F467,
+"👨‍👨‍👦": _1F468200D1F468200D1F466,
+"👨‍👨‍👧": _1F468200D1F468200D1F467,
+"👨‍👨‍👧‍👦": _1F468200D1F468200D1F467200D1F466,
+"👨‍👨‍👦‍👦": _1F468200D1F468200D1F466200D1F466,
+"👨‍👨‍👧‍👧": _1F468200D1F468200D1F467200D1F467,
+"👩‍👩‍👦": _1F469200D1F469200D1F466,
+"👩‍👩‍👧": _1F469200D1F469200D1F467,
+"👩‍👩‍👧‍👦": _1F469200D1F469200D1F467200D1F466,
+"👩‍👩‍👦‍👦": _1F469200D1F469200D1F466200D1F466,
+"👩‍👩‍👧‍👧": _1F469200D1F469200D1F467200D1F467,
+"👨‍👦": _1F468200D1F466,
+"👨‍👦‍👦": _1F468200D1F466200D1F466,
+"👨‍👧": _1F468200D1F467,
+"👨‍👧‍👦": _1F468200D1F467200D1F466,
+"👨‍👧‍👧": _1F468200D1F467200D1F467,
+"👩‍👦": _1F469200D1F466,
+"👩‍👦‍👦": _1F469200D1F466200D1F466,
+"👩‍👧": _1F469200D1F467,
+"👩‍👧‍👦": _1F469200D1F467200D1F466,
+"👩‍👧‍👧": _1F469200D1F467200D1F467,
+"🗣️": _1F5E3,
+"👤": _1F464,
+"👥": _1F465,
+"🫂": _1FAC2,
+"👪️": _1F46A,
+"🧑‍🧑‍🧒": _1F9D1200D1F9D1200D1F9D2,
+"🧑‍🧑‍🧒‍🧒": _1F9D1200D1F9D1200D1F9D2200D1F9D2,
+"🧑‍🧒": _1F9D1200D1F9D2,
+"🧑‍🧒‍🧒": _1F9D1200D1F9D2200D1F9D2,
+"👣": _1F463,
+"🏻": _1F3FB,
+"🏼": _1F3FC,
+"🏽": _1F3FD,
+"🏾": _1F3FE,
+"🏿": _1F3FF,
+"🦰": _1F9B0,
+"🦱": _1F9B1,
+"🦳": _1F9B3,
+"🦲": _1F9B2,
+"🐵": _1F435,
+"🐒": _1F412,
+"🦍": _1F98D,
+"🦧": _1F9A7,
+"🐶": _1F436,
+"🐕️": _1F415,
+"🦮": _1F9AE,
+"🐕‍🦺": _1F415200D1F9BA,
+"🐩": _1F429,
+"🐺": _1F43A,
+"🦊": _1F98A,
+"🦝": _1F99D,
+"🐱": _1F431,
+"🐈️": _1F408,
+"🐈‍⬛": _1F408200D2B1B,
+"🦁": _1F981,
+"🐯": _1F42F,
+"🐅": _1F405,
+"🐆": _1F406,
+"🐴": _1F434,
+"🫎": _1FACE,
+"🫏": _1FACF,
+"🐎": _1F40E,
+"🦄": _1F984,
+"🦓": _1F993,
+"🦌": _1F98C,
+"🦬": _1F9AC,
+"🐮": _1F42E,
+"🐂": _1F402,
+"🐃": _1F403,
+"🐄": _1F404,
+"🐷": _1F437,
+"🐖": _1F416,
+"🐗": _1F417,
+"🐽": _1F43D,
+"🐏": _1F40F,
+"🐑": _1F411,
+"🐐": _1F410,
+"🐪": _1F42A,
+"🐫": _1F42B,
+"🦙": _1F999,
+"🦒": _1F992,
+"🐘": _1F418,
+"🦣": _1F9A3,
+"🦏": _1F98F,
+"🦛": _1F99B,
+"🐭": _1F42D,
+"🐁": _1F401,
+"🐀": _1F400,
+"🐹": _1F439,
+"🐰": _1F430,
+"🐇": _1F407,
+"🐿️": _1F43F,
+"🦫": _1F9AB,
+"🦔": _1F994,
+"🦇": _1F987,
+"🐻": _1F43B,
+"🐻‍❄️": _1F43B200D2744FE0F,
+"🐨": _1F428,
+"🐼": _1F43C,
+"🦥": _1F9A5,
+"🦦": _1F9A6,
+"🦨": _1F9A8,
+"🦘": _1F998,
+"🦡": _1F9A1,
+"🐾": _1F43E,
+"🦃": _1F983,
+"🐔": _1F414,
+"🐓": _1F413,
+"🐣": _1F423,
+"🐤": _1F424,
+"🐥": _1F425,
+"🐦️": _1F426,
+"🐧": _1F427,
+"🕊️": _1F54A,
+"🦅": _1F985,
+"🦆": _1F986,
+"🦢": _1F9A2,
+"🦉": _1F989,
+"🦤": _1F9A4,
+"🪶": _1FAB6,
+"🦩": _1F9A9,
+"🦚": _1F99A,
+"🦜": _1F99C,
+"🪽": _1FABD,
+"🐦‍⬛": _1F426200D2B1B,
+"🪿": _1FABF,
+"🐦‍🔥": _1F426200D1F525,
+"🐸": _1F438,
+"🐊": _1F40A,
+"🐢": _1F422,
+"🦎": _1F98E,
+"🐍": _1F40D,
+"🐲": _1F432,
+"🐉": _1F409,
+"🦕": _1F995,
+"🦖": _1F996,
+"🐳": _1F433,
+"🐋": _1F40B,
+"🐬": _1F42C,
+"🦭": _1F9AD,
+"🐟️": _1F41F,
+"🐠": _1F420,
+"🐡": _1F421,
+"🦈": _1F988,
+"🐙": _1F419,
+"🐚": _1F41A,
+"🪸": _1FAB8,
+"🪼": _1FABC,
+"🐌": _1F40C,
+"🦋": _1F98B,
+"🐛": _1F41B,
+"🐜": _1F41C,
+"🐝": _1F41D,
+"🪲": _1FAB2,
+"🐞": _1F41E,
+"🦗": _1F997,
+"🪳": _1FAB3,
+"🕷️": _1F577,
+"🕸️": _1F578,
+"🦂": _1F982,
+"🦟": _1F99F,
+"🪰": _1FAB0,
+"🪱": _1FAB1,
+"🦠": _1F9A0,
+"💐": _1F490,
+"🌸": _1F338,
+"💮": _1F4AE,
+"🪷": _1FAB7,
+"🏵️": _1F3F5,
+"🌹": _1F339,
+"🥀": _1F940,
+"🌺": _1F33A,
+"🌻": _1F33B,
+"🌼": _1F33C,
+"🌷": _1F337,
+"🪻": _1FABB,
+"🌱": _1F331,
+"🪴": _1FAB4,
+"🌲": _1F332,
+"🌳": _1F333,
+"🌴": _1F334,
+"🌵": _1F335,
+"🌾": _1F33E,
+"🌿": _1F33F,
+"☘️": _2618,
+"🍀": _1F340,
+"🍁": _1F341,
+"🍂": _1F342,
+"🍃": _1F343,
+"🪹": _1FAB9,
+"🪺": _1FABA,
+"🍄": _1F344,
+"🍇": _1F347,
+"🍈": _1F348,
+"🍉": _1F349,
+"🍊": _1F34A,
+"🍋": _1F34B,
+"🍋‍🟩": _1F34B200D1F7E9,
+"🍌": _1F34C,
+"🍍": _1F34D,
+"🥭": _1F96D,
+"🍎": _1F34E,
+"🍏": _1F34F,
+"🍐": _1F350,
+"🍑": _1F351,
+"🍒": _1F352,
+"🍓": _1F353,
+"🫐": _1FAD0,
+"🥝": _1F95D,
+"🍅": _1F345,
+"🫒": _1FAD2,
+"🥥": _1F965,
+"🥑": _1F951,
+"🍆": _1F346,
+"🥔": _1F954,
+"🥕": _1F955,
+"🌽": _1F33D,
+"🌶️": _1F336,
+"🫑": _1FAD1,
+"🥒": _1F952,
+"🥬": _1F96C,
+"🥦": _1F966,
+"🧄": _1F9C4,
+"🧅": _1F9C5,
+"🥜": _1F95C,
+"🫘": _1FAD8,
+"🌰": _1F330,
+"🫚": _1FADA,
+"🫛": _1FADB,
+"🍄‍🟫": _1F344200D1F7EB,
+"🍞": _1F35E,
+"🥐": _1F950,
+"🥖": _1F956,
+"🫓": _1FAD3,
+"🥨": _1F968,
+"🥯": _1F96F,
+"🥞": _1F95E,
+"🧇": _1F9C7,
+"🧀": _1F9C0,
+"🍖": _1F356,
+"🍗": _1F357,
+"🥩": _1F969,
+"🥓": _1F953,
+"🍔": _1F354,
+"🍟": _1F35F,
+"🍕": _1F355,
+"🌭": _1F32D,
+"🥪": _1F96A,
+"🌮": _1F32E,
+"🌯": _1F32F,
+"🫔": _1FAD4,
+"🥙": _1F959,
+"🧆": _1F9C6,
+"🥚": _1F95A,
+"🍳": _1F373,
+"🥘": _1F958,
+"🍲": _1F372,
+"🫕": _1FAD5,
+"🥣": _1F963,
+"🥗": _1F957,
+"🍿": _1F37F,
+"🧈": _1F9C8,
+"🧂": _1F9C2,
+"🥫": _1F96B,
+"🍱": _1F371,
+"🍘": _1F358,
+"🍙": _1F359,
+"🍚": _1F35A,
+"🍛": _1F35B,
+"🍜": _1F35C,
+"🍝": _1F35D,
+"🍠": _1F360,
+"🍢": _1F362,
+"🍣": _1F363,
+"🍤": _1F364,
+"🍥": _1F365,
+"🥮": _1F96E,
+"🍡": _1F361,
+"🥟": _1F95F,
+"🥠": _1F960,
+"🥡": _1F961,
+"🦀": _1F980,
+"🦞": _1F99E,
+"🦐": _1F990,
+"🦑": _1F991,
+"🦪": _1F9AA,
+"🍦": _1F366,
+"🍧": _1F367,
+"🍨": _1F368,
+"🍩": _1F369,
+"🍪": _1F36A,
+"🎂": _1F382,
+"🍰": _1F370,
+"🧁": _1F9C1,
+"🥧": _1F967,
+"🍫": _1F36B,
+"🍬": _1F36C,
+"🍭": _1F36D,
+"🍮": _1F36E,
+"🍯": _1F36F,
+"🍼": _1F37C,
+"🥛": _1F95B,
+"☕️": _2615,
+"🫖": _1FAD6,
+"🍵": _1F375,
+"🍶": _1F376,
+"🍾": _1F37E,
+"🍷": _1F377,
+"🍸️": _1F378,
+"🍹": _1F379,
+"🍺": _1F37A,
+"🍻": _1F37B,
+"🥂": _1F942,
+"🥃": _1F943,
+"🫗": _1FAD7,
+"🥤": _1F964,
+"🧋": _1F9CB,
+"🧃": _1F9C3,
+"🧉": _1F9C9,
+"🧊": _1F9CA,
+"🥢": _1F962,
+"🍽️": _1F37D,
+"🍴": _1F374,
+"🥄": _1F944,
+"🔪": _1F52A,
+"🫙": _1FAD9,
+"🏺": _1F3FA,
+"🌍️": _1F30D,
+"🌎️": _1F30E,
+"🌏️": _1F30F,
+"🌐": _1F310,
+"🗺️": _1F5FA,
+"🗾": _1F5FE,
+"🧭": _1F9ED,
+"🏔️": _1F3D4,
+"⛰️": _26F0,
+"🌋": _1F30B,
+"🗻": _1F5FB,
+"🏕️": _1F3D5,
+"🏖️": _1F3D6,
+"🏜️": _1F3DC,
+"🏝️": _1F3DD,
+"🏞️": _1F3DE,
+"🏟️": _1F3DF,
+"🏛️": _1F3DB,
+"🏗️": _1F3D7,
+"🧱": _1F9F1,
+"🪨": _1FAA8,
+"🪵": _1FAB5,
+"🛖": _1F6D6,
+"🏘️": _1F3D8,
+"🏚️": _1F3DA,
+"🏠️": _1F3E0,
+"🏡": _1F3E1,
+"🏢": _1F3E2,
+"🏣": _1F3E3,
+"🏤": _1F3E4,
+"🏥": _1F3E5,
+"🏦": _1F3E6,
+"🏨": _1F3E8,
+"🏩": _1F3E9,
+"🏪": _1F3EA,
+"🏫": _1F3EB,
+"🏬": _1F3EC,
+"🏭️": _1F3ED,
+"🏯": _1F3EF,
+"🏰": _1F3F0,
+"💒": _1F492,
+"🗼": _1F5FC,
+"🗽": _1F5FD,
+"⛪️": _26EA,
+"🕌": _1F54C,
+"🛕": _1F6D5,
+"🕍": _1F54D,
+"⛩️": _26E9,
+"🕋": _1F54B,
+"⛲️": _26F2,
+"⛺️": _26FA,
+"🌁": _1F301,
+"🌃": _1F303,
+"🏙️": _1F3D9,
+"🌄": _1F304,
+"🌅": _1F305,
+"🌆": _1F306,
+"🌇": _1F307,
+"🌉": _1F309,
+"♨️": _2668,
+"🎠": _1F3A0,
+"🛝": _1F6DD,
+"🎡": _1F3A1,
+"🎢": _1F3A2,
+"💈": _1F488,
+"🎪": _1F3AA,
+"🚂": _1F682,
+"🚃": _1F683,
+"🚄": _1F684,
+"🚅": _1F685,
+"🚆": _1F686,
+"🚇️": _1F687,
+"🚈": _1F688,
+"🚉": _1F689,
+"🚊": _1F68A,
+"🚝": _1F69D,
+"🚞": _1F69E,
+"🚋": _1F68B,
+"🚌": _1F68C,
+"🚍️": _1F68D,
+"🚎": _1F68E,
+"🚐": _1F690,
+"🚑️": _1F691,
+"🚒": _1F692,
+"🚓": _1F693,
+"🚔️": _1F694,
+"🚕": _1F695,
+"🚖": _1F696,
+"🚗": _1F697,
+"🚘️": _1F698,
+"🚙": _1F699,
+"🛻": _1F6FB,
+"🚚": _1F69A,
+"🚛": _1F69B,
+"🚜": _1F69C,
+"🏎️": _1F3CE,
+"🏍️": _1F3CD,
+"🛵": _1F6F5,
+"🦽": _1F9BD,
+"🦼": _1F9BC,
+"🛺": _1F6FA,
+"🚲️": _1F6B2,
+"🛴": _1F6F4,
+"🛹": _1F6F9,
+"🛼": _1F6FC,
+"🚏": _1F68F,
+"🛣️": _1F6E3,
+"🛤️": _1F6E4,
+"🛢️": _1F6E2,
+"⛽️": _26FD,
+"🛞": _1F6DE,
+"🚨": _1F6A8,
+"🚥": _1F6A5,
+"🚦": _1F6A6,
+"🛑": _1F6D1,
+"🚧": _1F6A7,
+"⚓️": _2693,
+"🛟": _1F6DF,
+"⛵️": _26F5,
+"🛶": _1F6F6,
+"🚤": _1F6A4,
+"🛳️": _1F6F3,
+"⛴️": _26F4,
+"🛥️": _1F6E5,
+"🚢": _1F6A2,
+"✈️": _2708,
+"🛩️": _1F6E9,
+"🛫": _1F6EB,
+"🛬": _1F6EC,
+"🪂": _1FA82,
+"💺": _1F4BA,
+"🚁": _1F681,
+"🚟": _1F69F,
+"🚠": _1F6A0,
+"🚡": _1F6A1,
+"🛰️": _1F6F0,
+"🚀": _1F680,
+"🛸": _1F6F8,
+"🛎️": _1F6CE,
+"🧳": _1F9F3,
+"⌛️": _231B,
+"⏳️": _23F3,
+"⌚️": _231A,
+"⏰️": _23F0,
+"⏱️": _23F1,
+"⏲️": _23F2,
+"🕰️": _1F570,
+"🕛️": _1F55B,
+"🕧️": _1F567,
+"🕐️": _1F550,
+"🕜️": _1F55C,
+"🕑️": _1F551,
+"🕝️": _1F55D,
+"🕒️": _1F552,
+"🕞️": _1F55E,
+"🕓️": _1F553,
+"🕟️": _1F55F,
+"🕔️": _1F554,
+"🕠️": _1F560,
+"🕕️": _1F555,
+"🕡️": _1F561,
+"🕖️": _1F556,
+"🕢️": _1F562,
+"🕗️": _1F557,
+"🕣️": _1F563,
+"🕘️": _1F558,
+"🕤️": _1F564,
+"🕙️": _1F559,
+"🕥️": _1F565,
+"🕚️": _1F55A,
+"🕦️": _1F566,
+"🌑": _1F311,
+"🌒": _1F312,
+"🌓": _1F313,
+"🌔": _1F314,
+"🌕️": _1F315,
+"🌖": _1F316,
+"🌗": _1F317,
+"🌘": _1F318,
+"🌙": _1F319,
+"🌚": _1F31A,
+"🌛": _1F31B,
+"🌜️": _1F31C,
+"🌡️": _1F321,
+"☀️": _2600,
+"🌝": _1F31D,
+"🌞": _1F31E,
+"🪐": _1FA90,
+"⭐️": _2B50,
+"🌟": _1F31F,
+"🌠": _1F320,
+"🌌": _1F30C,
+"☁️": _2601,
+"⛅️": _26C5,
+"⛈️": _26C8,
+"🌤️": _1F324,
+"🌥️": _1F325,
+"🌦️": _1F326,
+"🌧️": _1F327,
+"🌨️": _1F328,
+"🌩️": _1F329,
+"🌪️": _1F32A,
+"🌫️": _1F32B,
+"🌬️": _1F32C,
+"🌀": _1F300,
+"🌈": _1F308,
+"🌂": _1F302,
+"☂️": _2602,
+"☔️": _2614,
+"⛱️": _26F1,
+"⚡️": _26A1,
+"❄️": _2744,
+"☃️": _2603,
+"⛄": _26C4,
+"☄️": _2604,
+"🔥": _1F525,
+"💧": _1F4A7,
+"🌊": _1F30A,
+"🎃": _1F383,
+"🎄": _1F384,
+"🎆": _1F386,
+"🎇": _1F387,
+"🧨": _1F9E8,
+"✨️": _2728,
+"🎈": _1F388,
+"🎉": _1F389,
+"🎊": _1F38A,
+"🎋": _1F38B,
+"🎍": _1F38D,
+"🎎": _1F38E,
+"🎏": _1F38F,
+"🎐": _1F390,
+"🎑": _1F391,
+"🧧": _1F9E7,
+"🎀": _1F380,
+"🎁": _1F381,
+"🎗️": _1F397,
+"🎟️": _1F39F,
+"🎫": _1F3AB,
+"🎖️": _1F396,
+"🏆️": _1F3C6,
+"🏅": _1F3C5,
+"🥇": _1F947,
+"🥈": _1F948,
+"🥉": _1F949,
+"⚽️": _26BD,
+"⚾️": _26BE,
+"🥎": _1F94E,
+"🏀": _1F3C0,
+"🏐": _1F3D0,
+"🏈": _1F3C8,
+"🏉": _1F3C9,
+"🎾": _1F3BE,
+"🥏": _1F94F,
+"🎳": _1F3B3,
+"🏏": _1F3CF,
+"🏑": _1F3D1,
+"🏒": _1F3D2,
+"🥍": _1F94D,
+"🏓": _1F3D3,
+"🏸": _1F3F8,
+"🥊": _1F94A,
+"🥋": _1F94B,
+"🥅": _1F945,
+"⛳️": _26F3,
+"⛸️": _26F8,
+"🎣": _1F3A3,
+"🤿": _1F93F,
+"🎽": _1F3BD,
+"🎿": _1F3BF,
+"🛷": _1F6F7,
+"🥌": _1F94C,
+"🎯": _1F3AF,
+"🪀": _1FA80,
+"🪁": _1FA81,
+"🔫": _1F52B,
+"🎱": _1F3B1,
+"🔮": _1F52E,
+"🪄": _1FA84,
+"🎮️": _1F3AE,
+"🕹️": _1F579,
+"🎰": _1F3B0,
+"🎲": _1F3B2,
+"🧩": _1F9E9,
+"🧸": _1F9F8,
+"🪅": _1FA85,
+"🪩": _1FAA9,
+"🪆": _1FA86,
+"♠️": _2660,
+"♥️": _2665,
+"♦️": _2666,
+"♣️": _2663,
+"♟️": _265F,
+"🃏": _1F0CF,
+"🀄️": _1F004,
+"🎴": _1F3B4,
+"🎭️": _1F3AD,
+"🖼️": _1F5BC,
+"🎨": _1F3A8,
+"🧵": _1F9F5,
+"🪡": _1FAA1,
+"🧶": _1F9F6,
+"🪢": _1FAA2,
+"👓️": _1F453,
+"🕶️": _1F576,
+"🥽": _1F97D,
+"🥼": _1F97C,
+"🦺": _1F9BA,
+"👔": _1F454,
+"👕": _1F455,
+"👖": _1F456,
+"🧣": _1F9E3,
+"🧤": _1F9E4,
+"🧥": _1F9E5,
+"🧦": _1F9E6,
+"👗": _1F457,
+"👘": _1F458,
+"🥻": _1F97B,
+"🩱": _1FA71,
+"🩲": _1FA72,
+"🩳": _1FA73,
+"👙": _1F459,
+"👚": _1F45A,
+"🪭": _1FAAD,
+"👛": _1F45B,
+"👜": _1F45C,
+"👝": _1F45D,
+"🛍️": _1F6CD,
+"🎒": _1F392,
+"🩴": _1FA74,
+"👞": _1F45E,
+"👟": _1F45F,
+"🥾": _1F97E,
+"🥿": _1F97F,
+"👠": _1F460,
+"👡": _1F461,
+"🩰": _1FA70,
+"👢": _1F462,
+"🪮": _1FAAE,
+"👑": _1F451,
+"👒": _1F452,
+"🎩": _1F3A9,
+"🎓️": _1F393,
+"🧢": _1F9E2,
+"🪖": _1FA96,
+"⛑️": _26D1,
+"📿": _1F4FF,
+"💄": _1F484,
+"💍": _1F48D,
+"💎": _1F48E,
+"🔇": _1F507,
+"🔈️": _1F508,
+"🔉": _1F509,
+"🔊": _1F50A,
+"📢": _1F4E2,
+"📣": _1F4E3,
+"📯": _1F4EF,
+"🔔": _1F514,
+"🔕": _1F515,
+"🎼": _1F3BC,
+"🎵": _1F3B5,
+"🎶": _1F3B6,
+"🎙️": _1F399,
+"🎚️": _1F39A,
+"🎛️": _1F39B,
+"🎤": _1F3A4,
+"🎧️": _1F3A7,
+"📻️": _1F4FB,
+"🎷": _1F3B7,
+"🪗": _1FA97,
+"🎸": _1F3B8,
+"🎹": _1F3B9,
+"🎺": _1F3BA,
+"🎻": _1F3BB,
+"🪕": _1FA95,
+"🥁": _1F941,
+"🪘": _1FA98,
+"🪇": _1FA87,
+"🪈": _1FA88,
+"📱": _1F4F1,
+"📲": _1F4F2,
+"☎️": _260E,
+"📞": _1F4DE,
+"📟️": _1F4DF,
+"📠": _1F4E0,
+"🔋": _1F50B,
+"🪫": _1FAAB,
+"🔌": _1F50C,
+"💻️": _1F4BB,
+"🖥️": _1F5A5,
+"🖨️": _1F5A8,
+"⌨️": _2328,
+"🖱️": _1F5B1,
+"🖲️": _1F5B2,
+"💽": _1F4BD,
+"💾": _1F4BE,
+"💿️": _1F4BF,
+"📀": _1F4C0,
+"🧮": _1F9EE,
+"🎥": _1F3A5,
+"🎞️": _1F39E,
+"📽️": _1F4FD,
+"🎬️": _1F3AC,
+"📺️": _1F4FA,
+"📷️": _1F4F7,
+"📸": _1F4F8,
+"📹️": _1F4F9,
+"📼": _1F4FC,
+"🔍️": _1F50D,
+"🔎": _1F50E,
+"🕯️": _1F56F,
+"💡": _1F4A1,
+"🔦": _1F526,
+"🏮": _1F3EE,
+"🪔": _1FA94,
+"📔": _1F4D4,
+"📕": _1F4D5,
+"📖": _1F4D6,
+"📗": _1F4D7,
+"📘": _1F4D8,
+"📙": _1F4D9,
+"📚️": _1F4DA,
+"📓": _1F4D3,
+"📒": _1F4D2,
+"📃": _1F4C3,
+"📜": _1F4DC,
+"📄": _1F4C4,
+"📰": _1F4F0,
+"🗞️": _1F5DE,
+"📑": _1F4D1,
+"🔖": _1F516,
+"🏷️": _1F3F7,
+"💰️": _1F4B0,
+"🪙": _1FA99,
+"💴": _1F4B4,
+"💵": _1F4B5,
+"💶": _1F4B6,
+"💷": _1F4B7,
+"💸": _1F4B8,
+"💳️": _1F4B3,
+"🧾": _1F9FE,
+"💹": _1F4B9,
+"✉️": _2709,
+"📧": _1F4E7,
+"📨": _1F4E8,
+"📩": _1F4E9,
+"📤️": _1F4E4,
+"📥️": _1F4E5,
+"📦️": _1F4E6,
+"📫️": _1F4EB,
+"📪️": _1F4EA,
+"📬️": _1F4EC,
+"📭️": _1F4ED,
+"📮": _1F4EE,
+"🗳️": _1F5F3,
+"✏️": _270F,
+"✒️": _2712,
+"🖋️": _1F58B,
+"🖊️": _1F58A,
+"🖌️": _1F58C,
+"🖍️": _1F58D,
+"📝": _1F4DD,
+"💼": _1F4BC,
+"📁": _1F4C1,
+"📂": _1F4C2,
+"🗂️": _1F5C2,
+"📅": _1F4C5,
+"📆": _1F4C6,
+"🗒️": _1F5D2,
+"🗓️": _1F5D3,
+"📇": _1F4C7,
+"📈": _1F4C8,
+"📉": _1F4C9,
+"📊": _1F4CA,
+"📋️": _1F4CB,
+"📌": _1F4CC,
+"📍": _1F4CD,
+"📎": _1F4CE,
+"🖇️": _1F587,
+"📏": _1F4CF,
+"📐": _1F4D0,
+"✂️": _2702,
+"🗃️": _1F5C3,
+"🗄️": _1F5C4,
+"🗑️": _1F5D1,
+"🔒️": _1F512,
+"🔓️": _1F513,
+"🔏": _1F50F,
+"🔐": _1F510,
+"🔑": _1F511,
+"🗝️": _1F5DD,
+"🔨": _1F528,
+"🪓": _1FA93,
+"⛏️": _26CF,
+"⚒️": _2692,
+"🛠️": _1F6E0,
+"🗡️": _1F5E1,
+"⚔️": _2694,
+"💣️": _1F4A3,
+"🪃": _1FA83,
+"🏹": _1F3F9,
+"🛡️": _1F6E1,
+"🪚": _1FA9A,
+"🔧": _1F527,
+"🪛": _1FA9B,
+"🔩": _1F529,
+"⚙️": _2699,
+"🗜️": _1F5DC,
+"⚖️": _2696,
+"🦯": _1F9AF,
+"🔗": _1F517,
+"⛓️‍💥": _26D3FE0F200D1F4A5,
+"⛓️": _26D3,
+"🪝": _1FA9D,
+"🧰": _1F9F0,
+"🧲": _1F9F2,
+"🪜": _1FA9C,
+"⚗️": _2697,
+"🧪": _1F9EA,
+"🧫": _1F9EB,
+"🧬": _1F9EC,
+"🔬": _1F52C,
+"🔭": _1F52D,
+"📡": _1F4E1,
+"💉": _1F489,
+"🩸": _1FA78,
+"💊": _1F48A,
+"🩹": _1FA79,
+"🩼": _1FA7C,
+"🩺": _1FA7A,
+"🩻": _1FA7B,
+"🚪": _1F6AA,
+"🛗": _1F6D7,
+"🪞": _1FA9E,
+"🪟": _1FA9F,
+"🛏️": _1F6CF,
+"🛋️": _1F6CB,
+"🪑": _1FA91,
+"🚽": _1F6BD,
+"🪠": _1FAA0,
+"🚿": _1F6BF,
+"🛁": _1F6C1,
+"🪤": _1FAA4,
+"🪒": _1FA92,
+"🧴": _1F9F4,
+"🧷": _1F9F7,
+"🧹": _1F9F9,
+"🧺": _1F9FA,
+"🧻": _1F9FB,
+"🪣": _1FAA3,
+"🧼": _1F9FC,
+"🫧": _1FAE7,
+"🪥": _1FAA5,
+"🧽": _1F9FD,
+"🧯": _1F9EF,
+"🛒": _1F6D2,
+"🚬": _1F6AC,
+"⚰️": _26B0,
+"🪦": _1FAA6,
+"⚱️": _26B1,
+"🧿": _1F9FF,
+"🪬": _1FAAC,
+"🗿": _1F5FF,
+"🪧": _1FAA7,
+"🪪": _1FAAA,
+"🏧": _1F3E7,
+"🚮": _1F6AE,
+"🚰": _1F6B0,
+"♿️": _267F,
+"🚹️": _1F6B9,
+"🚺️": _1F6BA,
+"🚻": _1F6BB,
+"🚼️": _1F6BC,
+"🚾": _1F6BE,
+"🛂": _1F6C2,
+"🛃": _1F6C3,
+"🛄": _1F6C4,
+"🛅": _1F6C5,
+"⚠️": _26A0,
+"🚸": _1F6B8,
+"⛔️": _26D4,
+"🚫": _1F6AB,
+"🚳": _1F6B3,
+"🚭️": _1F6AD,
+"🚯": _1F6AF,
+"🚱": _1F6B1,
+"🚷": _1F6B7,
+"📵": _1F4F5,
+"🔞": _1F51E,
+"☢️": _2622,
+"☣️": _2623,
+"⬆️": _2B06,
+"↗️": _2197,
+"➡️": _27A1,
+"↘️": _2198,
+"⬇️": _2B07,
+"↙️": _2199,
+"⬅️": _2B05,
+"↖️": _2196,
+"↕️": _2195,
+"↔️": _2194,
+"↩️": _21A9,
+"↪️": _21AA,
+"⤴️": _2934,
+"⤵️": _2935,
+"🔃": _1F503,
+"🔄": _1F504,
+"🔙": _1F519,
+"🔚": _1F51A,
+"🔛": _1F51B,
+"🔜": _1F51C,
+"🔝": _1F51D,
+"🛐": _1F6D0,
+"⚛️": _269B,
+"🕉️": _1F549,
+"✡️": _2721,
+"☸️": _2638,
+"☯️": _262F,
+"✝️": _271D,
+"☦️": _2626,
+"☪️": _262A,
+"☮️": _262E,
+"🕎": _1F54E,
+"🔯": _1F52F,
+"🪯": _1FAAF,
+"♈️": _2648,
+"♉️": _2649,
+"♊️": _264A,
+"♋️": _264B,
+"♌️": _264C,
+"♍️": _264D,
+"♎️": _264E,
+"♏️": _264F,
+"♐️": _2650,
+"♑️": _2651,
+"♒️": _2652,
+"♓️": _2653,
+"⛎️": _26CE,
+"🔀": _1F500,
+"🔁": _1F501,
+"🔂": _1F502,
+"▶️": _25B6,
+"⏩️": _23E9,
+"⏭️": _23ED,
+"⏯️": _23EF,
+"◀️": _25C0,
+"⏪️": _23EA,
+"⏮️": _23EE,
+"🔼": _1F53C,
+"⏫️": _23EB,
+"🔽": _1F53D,
+"⏬️": _23EC,
+"⏸️": _23F8,
+"⏹️": _23F9,
+"⏺️": _23FA,
+"⏏️": _23CF,
+"🎦": _1F3A6,
+"🔅": _1F505,
+"🔆": _1F506,
+"📶": _1F4F6,
+"🛜": _1F6DC,
+"📳": _1F4F3,
+"📴": _1F4F4,
+"♀️": _2640,
+"♂️": _2642,
+"⚧️": _26A7,
+"✖️": _2716,
+"➕️": _2795,
+"➖️": _2796,
+"➗️": _2797,
+"🟰": _1F7F0,
+"♾️": _267E,
+"‼️": _203C,
+"⁉️": _2049,
+"❓️": _2753,
+"❔️": _2754,
+"❕️": _2755,
+"❗️": _2757,
+"〰️": _3030,
+"💱": _1F4B1,
+"💲": _1F4B2,
+"⚕️": _2695,
+"♻️": _267B,
+"⚜️": _269C,
+"🔱": _1F531,
+"📛": _1F4DB,
+"🔰": _1F530,
+"⭕️": _2B55,
+"✅️": _2705,
+"☑️": _2611,
+"✔️": _2714,
+"❌️": _274C,
+"❎️": _274E,
+"➰️": _27B0,
+"➿️": _27BF,
+"〽️": _303D,
+"✳️": _2733,
+"✴️": _2734,
+"❇️": _2747,
+"©️": _00A9,
+"®️": _00AE,
+"™️": _2122,
+"#️⃣": _0023FE0F20E3,
+"*️⃣": _002AFE0F20E3,
+"0️⃣": _0030FE0F20E3,
+"1️⃣": _0031FE0F20E3,
+"2️⃣": _0032FE0F20E3,
+"3️⃣": _0033FE0F20E3,
+"4️⃣": _0034FE0F20E3,
+"5️⃣": _0035FE0F20E3,
+"6️⃣": _0036FE0F20E3,
+"7️⃣": _0037FE0F20E3,
+"8️⃣": _0038FE0F20E3,
+"9️⃣": _0039FE0F20E3,
+"🔟": _1F51F,
+"🔠": _1F520,
+"🔡": _1F521,
+"🔢": _1F522,
+"🔣": _1F523,
+"🔤": _1F524,
+"🅰️": _1F170,
+"🆎": _1F18E,
+"🅱️": _1F171,
+"🆑": _1F191,
+"🆒": _1F192,
+"🆓": _1F193,
+"ℹ️": _2139,
+"🆔": _1F194,
+"Ⓜ️": _24C2,
+"🆕": _1F195,
+"🆖": _1F196,
+"🅾️": _1F17E,
+"🆗": _1F197,
+"🅿️": _1F17F,
+"🆘": _1F198,
+"🆙": _1F199,
+"🆚": _1F19A,
+"🈁": _1F201,
+"🈂️": _1F202,
+"🈷️": _1F237,
+"🈶": _1F236,
+"🈯️": _1F22F,
+"🉐": _1F250,
+"🈹": _1F239,
+"🈚️": _1F21A,
+"🈲": _1F232,
+"🉑": _1F251,
+"🈸": _1F238,
+"🈴": _1F234,
+"🈳": _1F233,
+"㊗️": _3297,
+"㊙️": _3299,
+"🈺": _1F23A,
+"🈵": _1F235,
+"🔴": _1F534,
+"🟠": _1F7E0,
+"🟡": _1F7E1,
+"🟢": _1F7E2,
+"🔵": _1F535,
+"🟣": _1F7E3,
+"🟤": _1F7E4,
+"⚫️": _26AB,
+"⚪️": _26AA,
+"🟥": _1F7E5,
+"🟧": _1F7E7,
+"🟨": _1F7E8,
+"🟩": _1F7E9,
+"🟦": _1F7E6,
+"🟪": _1F7EA,
+"🟫": _1F7EB,
+"⬛️": _2B1B,
+"⬜️": _2B1C,
+"◼️": _25FC,
+"◻️": _25FB,
+"◾️": _25FE,
+"◽️": _25FD,
+"▪️": _25AA,
+"▫️": _25AB,
+"🔶": _1F536,
+"🔷": _1F537,
+"🔸": _1F538,
+"🔹": _1F539,
+"🔺": _1F53A,
+"🔻": _1F53B,
+"💠": _1F4A0,
+"🔘": _1F518,
+"🔳": _1F533,
+"🔲": _1F532,
+"🏁": _1F3C1,
+"🚩": _1F6A9,
+"🎌": _1F38C,
+"🏴": _1F3F4,
+"🏳️": _1F3F3,
+"🏳️‍🌈": _1F3F3FE0F200D1F308,
+"🏳️‍⚧️": _1F3F3FE0F200D26A7FE0F,
+"🏴‍☠️": _1F3F4200D2620FE0F,
+"🇦🇨": _1F1E61F1E8,
+"🇦🇩": _1F1E61F1E9,
+"🇦🇪": _1F1E61F1EA,
+"🇦🇫": _1F1E61F1EB,
+"🇦🇬": _1F1E61F1EC,
+"🇦🇮": _1F1E61F1EE,
+"🇦🇱": _1F1E61F1F1,
+"🇦🇲": _1F1E61F1F2,
+"🇦🇴": _1F1E61F1F4,
+"🇦🇶": _1F1E61F1F6,
+"🇦🇷": _1F1E61F1F7,
+"🇦🇸": _1F1E61F1F8,
+"🇦🇹": _1F1E61F1F9,
+"🇦🇺": _1F1E61F1FA,
+"🇦🇼": _1F1E61F1FC,
+"🇦🇽": _1F1E61F1FD,
+"🇦🇿": _1F1E61F1FF,
+"🇧🇦": _1F1E71F1E6,
+"🇧🇧": _1F1E71F1E7,
+"🇧🇩": _1F1E71F1E9,
+"🇧🇪": _1F1E71F1EA,
+"🇧🇫": _1F1E71F1EB,
+"🇧🇬": _1F1E71F1EC,
+"🇧🇭": _1F1E71F1ED,
+"🇧🇮": _1F1E71F1EE,
+"🇧🇯": _1F1E71F1EF,
+"🇧🇱": _1F1E71F1F1,
+"🇧🇲": _1F1E71F1F2,
+"🇧🇳": _1F1E71F1F3,
+"🇧🇴": _1F1E71F1F4,
+"🇧🇶": _1F1E71F1F6,
+"🇧🇷": _1F1E71F1F7,
+"🇧🇸": _1F1E71F1F8,
+"🇧🇹": _1F1E71F1F9,
+"🇧🇻": _1F1E71F1FB,
+"🇧🇼": _1F1E71F1FC,
+"🇧🇾": _1F1E71F1FE,
+"🇧🇿": _1F1E71F1FF,
+"🇨🇦": _1F1E81F1E6,
+"🇨🇨": _1F1E81F1E8,
+"🇨🇩": _1F1E81F1E9,
+"🇨🇫": _1F1E81F1EB,
+"🇨🇬": _1F1E81F1EC,
+"🇨🇭": _1F1E81F1ED,
+"🇨🇮": _1F1E81F1EE,
+"🇨🇰": _1F1E81F1F0,
+"🇨🇱": _1F1E81F1F1,
+"🇨🇲": _1F1E81F1F2,
+"🇨🇳": _1F1E81F1F3,
+"🇨🇴": _1F1E81F1F4,
+"🇨🇵": _1F1E81F1F5,
+"🇨🇷": _1F1E81F1F7,
+"🇨🇺": _1F1E81F1FA,
+"🇨🇻": _1F1E81F1FB,
+"🇨🇼": _1F1E81F1FC,
+"🇨🇽": _1F1E81F1FD,
+"🇨🇾": _1F1E81F1FE,
+"🇨🇿": _1F1E81F1FF,
+"🇩🇪": _1F1E91F1EA,
+"🇩🇬": _1F1E91F1EC,
+"🇩🇯": _1F1E91F1EF,
+"🇩🇰": _1F1E91F1F0,
+"🇩🇲": _1F1E91F1F2,
+"🇩🇴": _1F1E91F1F4,
+"🇩🇿": _1F1E91F1FF,
+"🇪🇦": _1F1EA1F1E6,
+"🇪🇨": _1F1EA1F1E8,
+"🇪🇪": _1F1EA1F1EA,
+"🇪🇬": _1F1EA1F1EC,
+"🇪🇭": _1F1EA1F1ED,
+"🇪🇷": _1F1EA1F1F7,
+"🇪🇸": _1F1EA1F1F8,
+"🇪🇹": _1F1EA1F1F9,
+"🇪🇺": _1F1EA1F1FA,
+"🇫🇮": _1F1EB1F1EE,
+"🇫🇯": _1F1EB1F1EF,
+"🇫🇰": _1F1EB1F1F0,
+"🇫🇲": _1F1EB1F1F2,
+"🇫🇴": _1F1EB1F1F4,
+"🇫🇷": _1F1EB1F1F7,
+"🇬🇦": _1F1EC1F1E6,
+"🇬🇧": _1F1EC1F1E7,
+"🇬🇩": _1F1EC1F1E9,
+"🇬🇪": _1F1EC1F1EA,
+"🇬🇫": _1F1EC1F1EB,
+"🇬🇬": _1F1EC1F1EC,
+"🇬🇭": _1F1EC1F1ED,
+"🇬🇮": _1F1EC1F1EE,
+"🇬🇱": _1F1EC1F1F1,
+"🇬🇲": _1F1EC1F1F2,
+"🇬🇳": _1F1EC1F1F3,
+"🇬🇵": _1F1EC1F1F5,
+"🇬🇶": _1F1EC1F1F6,
+"🇬🇷": _1F1EC1F1F7,
+"🇬🇸": _1F1EC1F1F8,
+"🇬🇹": _1F1EC1F1F9,
+"🇬🇺": _1F1EC1F1FA,
+"🇬🇼": _1F1EC1F1FC,
+"🇬🇾": _1F1EC1F1FE,
+"🇭🇰": _1F1ED1F1F0,
+"🇭🇲": _1F1ED1F1F2,
+"🇭🇳": _1F1ED1F1F3,
+"🇭🇷": _1F1ED1F1F7,
+"🇭🇹": _1F1ED1F1F9,
+"🇭🇺": _1F1ED1F1FA,
+"🇮🇨": _1F1EE1F1E8,
+"🇮🇩": _1F1EE1F1E9,
+"🇮🇪": _1F1EE1F1EA,
+"🇮🇱": _1F1EE1F1F1,
+"🇮🇲": _1F1EE1F1F2,
+"🇮🇳": _1F1EE1F1F3,
+"🇮🇴": _1F1EE1F1F4,
+"🇮🇶": _1F1EE1F1F6,
+"🇮🇷": _1F1EE1F1F7,
+"🇮🇸": _1F1EE1F1F8,
+"🇮🇹": _1F1EE1F1F9,
+"🇯🇪": _1F1EF1F1EA,
+"🇯🇲": _1F1EF1F1F2,
+"🇯🇴": _1F1EF1F1F4,
+"🇯🇵": _1F1EF1F1F5,
+"🇰🇪": _1F1F01F1EA,
+"🇰🇬": _1F1F01F1EC,
+"🇰🇭": _1F1F01F1ED,
+"🇰🇮": _1F1F01F1EE,
+"🇰🇲": _1F1F01F1F2,
+"🇰🇳": _1F1F01F1F3,
+"🇰🇵": _1F1F01F1F5,
+"🇰🇷": _1F1F01F1F7,
+"🇰🇼": _1F1F01F1FC,
+"🇰🇾": _1F1F01F1FE,
+"🇰🇿": _1F1F01F1FF,
+"🇱🇦": _1F1F11F1E6,
+"🇱🇧": _1F1F11F1E7,
+"🇱🇨": _1F1F11F1E8,
+"🇱🇮": _1F1F11F1EE,
+"🇱🇰": _1F1F11F1F0,
+"🇱🇷": _1F1F11F1F7,
+"🇱🇸": _1F1F11F1F8,
+"🇱🇹": _1F1F11F1F9,
+"🇱🇺": _1F1F11F1FA,
+"🇱🇻": _1F1F11F1FB,
+"🇱🇾": _1F1F11F1FE,
+"🇲🇦": _1F1F21F1E6,
+"🇲🇨": _1F1F21F1E8,
+"🇲🇩": _1F1F21F1E9,
+"🇲🇪": _1F1F21F1EA,
+"🇲🇫": _1F1F21F1EB,
+"🇲🇬": _1F1F21F1EC,
+"🇲🇭": _1F1F21F1ED,
+"🇲🇰": _1F1F21F1F0,
+"🇲🇱": _1F1F21F1F1,
+"🇲🇲": _1F1F21F1F2,
+"🇲🇳": _1F1F21F1F3,
+"🇲🇴": _1F1F21F1F4,
+"🇲🇵": _1F1F21F1F5,
+"🇲🇶": _1F1F21F1F6,
+"🇲🇷": _1F1F21F1F7,
+"🇲🇸": _1F1F21F1F8,
+"🇲🇹": _1F1F21F1F9,
+"🇲🇺": _1F1F21F1FA,
+"🇲🇻": _1F1F21F1FB,
+"🇲🇼": _1F1F21F1FC,
+"🇲🇽": _1F1F21F1FD,
+"🇲🇾": _1F1F21F1FE,
+"🇲🇿": _1F1F21F1FF,
+"🇳🇦": _1F1F31F1E6,
+"🇳🇨": _1F1F31F1E8,
+"🇳🇪": _1F1F31F1EA,
+"🇳🇫": _1F1F31F1EB,
+"🇳🇬": _1F1F31F1EC,
+"🇳🇮": _1F1F31F1EE,
+"🇳🇱": _1F1F31F1F1,
+"🇳🇴": _1F1F31F1F4,
+"🇳🇵": _1F1F31F1F5,
+"🇳🇷": _1F1F31F1F7,
+"🇳🇺": _1F1F31F1FA,
+"🇳🇿": _1F1F31F1FF,
+"🇴🇲": _1F1F41F1F2,
+"🇵🇦": _1F1F51F1E6,
+"🇵🇪": _1F1F51F1EA,
+"🇵🇫": _1F1F51F1EB,
+"🇵🇬": _1F1F51F1EC,
+"🇵🇭": _1F1F51F1ED,
+"🇵🇰": _1F1F51F1F0,
+"🇵🇱": _1F1F51F1F1,
+"🇵🇲": _1F1F51F1F2,
+"🇵🇳": _1F1F51F1F3,
+"🇵🇷": _1F1F51F1F7,
+"🇵🇸": _1F1F51F1F8,
+"🇵🇹": _1F1F51F1F9,
+"🇵🇼": _1F1F51F1FC,
+"🇵🇾": _1F1F51F1FE,
+"🇶🇦": _1F1F61F1E6,
+"🇷🇪": _1F1F71F1EA,
+"🇷🇴": _1F1F71F1F4,
+"🇷🇸": _1F1F71F1F8,
+"🇷🇺": _1F1F71F1FA,
+"🇷🇼": _1F1F71F1FC,
+"🇸🇦": _1F1F81F1E6,
+"🇸🇧": _1F1F81F1E7,
+"🇸🇨": _1F1F81F1E8,
+"🇸🇩": _1F1F81F1E9,
+"🇸🇪": _1F1F81F1EA,
+"🇸🇬": _1F1F81F1EC,
+"🇸🇭": _1F1F81F1ED,
+"🇸🇮": _1F1F81F1EE,
+"🇸🇯": _1F1F81F1EF,
+"🇸🇰": _1F1F81F1F0,
+"🇸🇱": _1F1F81F1F1,
+"🇸🇲": _1F1F81F1F2,
+"🇸🇳": _1F1F81F1F3,
+"🇸🇴": _1F1F81F1F4,
+"🇸🇷": _1F1F81F1F7,
+"🇸🇸": _1F1F81F1F8,
+"🇸🇹": _1F1F81F1F9,
+"🇸🇻": _1F1F81F1FB,
+"🇸🇽": _1F1F81F1FD,
+"🇸🇾": _1F1F81F1FE,
+"🇸🇿": _1F1F81F1FF,
+"🇹🇦": _1F1F91F1E6,
+"🇹🇨": _1F1F91F1E8,
+"🇹🇩": _1F1F91F1E9,
+"🇹🇫": _1F1F91F1EB,
+"🇹🇬": _1F1F91F1EC,
+"🇹🇭": _1F1F91F1ED,
+"🇹🇯": _1F1F91F1EF,
+"🇹🇰": _1F1F91F1F0,
+"🇹🇱": _1F1F91F1F1,
+"🇹🇲": _1F1F91F1F2,
+"🇹🇳": _1F1F91F1F3,
+"🇹🇴": _1F1F91F1F4,
+"🇹🇷": _1F1F91F1F7,
+"🇹🇹": _1F1F91F1F9,
+"🇹🇻": _1F1F91F1FB,
+"🇹🇼": _1F1F91F1FC,
+"🇹🇿": _1F1F91F1FF,
+"🇺🇦": _1F1FA1F1E6,
+"🇺🇬": _1F1FA1F1EC,
+"🇺🇲": _1F1FA1F1F2,
+"🇺🇳": _1F1FA1F1F3,
+"🇺🇸": _1F1FA1F1F8,
+"🇺🇾": _1F1FA1F1FE,
+"🇺🇿": _1F1FA1F1FF,
+"🇻🇦": _1F1FB1F1E6,
+"🇻🇨": _1F1FB1F1E8,
+"🇻🇪": _1F1FB1F1EA,
+"🇻🇬": _1F1FB1F1EC,
+"🇻🇮": _1F1FB1F1EE,
+"🇻🇳": _1F1FB1F1F3,
+"🇻🇺": _1F1FB1F1FA,
+"🇼🇫": _1F1FC1F1EB,
+"🇼🇸": _1F1FC1F1F8,
+"🇽🇰": _1F1FD1F1F0,
+"🇾🇪": _1F1FE1F1EA,
+"🇾🇹": _1F1FE1F1F9,
+"🇿🇦": _1F1FF1F1E6,
+"🇿🇲": _1F1FF1F1F2,
+"🇿🇼": _1F1FF1F1FC,
+"🏴󠁧󠁢󠁥󠁮󠁧󠁿": _1F3F4E0067E0062E0065E006EE0067E007F,
+"🏴󠁧󠁢󠁳󠁣󠁴󠁿": _1F3F4E0067E0062E0073E0063E0074E007F,
+"🏴󠁧󠁢󠁷󠁬󠁳󠁿": _1F3F4E0067E0062E0077E006CE0073E007F,
+"": _E000,
+"": _E001,
+"": _E002,
+"": _E003,
+"": _E004,
+"": _E005,
+"": _E006,
+"": _E007,
+"": _E008,
+"": _E009,
+"": _E010,
+"": _E011,
+"": _E040,
+"": _E041,
+"": _E042,
+"": _E043,
+"": _E044,
+"": _E045,
+"": _E046,
+"": _E047,
+"": _E048,
+"": _E049,
+"": _E04A,
+"": _E04B,
+"": _E04C,
+"": _E04D,
+"": _E04E,
+"": _E04F,
+"": _E050,
+"": _E051,
+"": _E052,
+"": _E053,
+"": _E054,
+"": _E055,
+"": _E056,
+"": _E057,
+"": _E058,
+"": _E059,
+"": _E05A,
+"": _E05B,
+"": _E05C,
+"": _E05D,
+"": _E05E,
+"": _E05F,
+"": _E060,
+"": _E061,
+"": _E062,
+"": _E063,
+"": _E064,
+"": _E065,
+"": _E066,
+"": _E067,
+"": _E068,
+"": _E069,
+"": _E06A,
+"": _E06B,
+"": _E06C,
+"": _E06D,
+"": _E0FF,
+"": _F000,
+"": _F77A,
+"": _F8FF,
+"": _E2C0,
+"": _E2C1,
+"": _E2C2,
+"": _E2C3,
+"": _E2C4,
+"": _E2C6,
+"": _E2C7,
+"": _E2C8,
+"": _E2C9,
+"": _E2CA,
+"": _E2CB,
+"": _E2CC,
+"": _E2CD,
+"": _E2CE,
+"": _E2CF,
+"": _E2D0,
+"": _E2D1,
+"": _E2D2,
+"": _E2D3,
+"": _E2D4,
+"": _E2D5,
+"": _E2D6,
+"": _E2D7,
+"": _E2D8,
+"": _E2D9,
+"": _E2DA,
+"": _E080,
+"": _E081,
+"": _E082,
+"": _E083,
+"": _E084,
+"": _E085,
+"": _E086,
+"": _E087,
+"": _E088,
+"": _E089,
+"": _E08A,
+"": _E08B,
+"": _E08C,
+"": _E08D,
+"": _E08E,
+"": _E08F,
+"": _E090,
+"": _E091,
+"": _E092,
+"": _E093,
+"": _E094,
+"": _E095,
+"": _E096,
+"": _E097,
+"": _E098,
+"": _E099,
+"": _E09A,
+"": _E09B,
+"": _E09C,
+"": _E09D,
+"": _E09E,
+"": _E09F,
+"": _E0A0,
+"": _E0A1,
+"": _E0A2,
+"": _E0A3,
+"": _E0A4,
+"": _E0A5,
+"": _E0A6,
+"": _E0A7,
+"": _E0A8,
+"": _E0A9,
+"": _E0AA,
+"": _E0AB,
+"": _E0AC,
+"‍♀️": _E0AC200D2640FE0F,
+"‍♂️": _E0AC200D2642FE0F,
+"": _E0AD,
+"‍♀️": _E0AD200D2640FE0F,
+"‍♂️": _E0AD200D2642FE0F,
+"": _E0AE,
+"": _E0AF,
+"": _E0B0,
+"": _E0B1,
+"": _E0B2,
+"": _E0B3,
+"": _E0B4,
+"🇦🇶💎": _1F1E61F1F61F48E,
+"🏳🟦🟩🟨": _1F3F31F7E61F7E91F7E8,
+// "🏳️": _1F3F3FE0F,
+"🏳️‍📌‍⚙️": _1F3F3FE0F200D1F4CC200D2699FE0F,
+"🏳️‍🟥": _1F3F3FE0F200D1F7E5,
+"🏳️‍🟦": _1F3F3FE0F200D1F7E6,
+"🏳️‍🟦‍🌌": _1F3F3FE0F200D1F7E6200D1F30C,
+"🏳️‍🟧": _1F3F3FE0F200D1F7E7,
+"🏳️‍🟨": _1F3F3FE0F200D1F7E8,
+"🏳️‍🟩": _1F3F3FE0F200D1F7E9,
+"🏳️‍🟩‍⭐‍🟩": _1F3F3FE0F200D1F7E9200D2B50200D1F7E9,
+"🏳️‍🟪": _1F3F3FE0F200D1F7EA,
+"🏳️‍🟫": _1F3F3FE0F200D1F7EB,
+"🏴️‍🅰️": _1F3F4FE0F200D1F170FE0F,
+"⚑️‍🟥": _2691FE0F200D1F7E5,
+"⚑️‍🟦": _2691FE0F200D1F7E6,
+"⚑️‍🟧": _2691FE0F200D1F7E7,
+"⚑️‍🟨": _2691FE0F200D1F7E8,
+"⚑️‍🟩": _2691FE0F200D1F7E9,
+"⚑️‍🟩‍★️": _2691FE0F200D1F7E9200D2605FE0F,
+"⚑️‍🟪": _2691FE0F200D1F7EA,
+"⚑️‍🟫": _2691FE0F200D1F7EB,
+"": _E0C0,
+"": _E0C1,
+"": _E0C2,
+"": _E0C3,
+"": _E0C4,
+"": _E0C5,
+"": _E0C6,
+"": _E0C7,
+"": _E0C8,
+"": _E0C9,
+"": _E0CA,
+"": _E0CB,
+"": _E0CC,
+"": _E340,
+"": _E341,
+"": _E342,
+"": _E343,
+"": _E344,
+"": _E345,
+"": _E346,
+"": _E347,
+"": _E348,
+"": _E300,
+"": _E301,
+"": _E302,
+"": _E303,
+"": _E305,
+"": _E306,
+"": _E307,
+"": _E308,
+"": _E309,
+"": _E30A,
+"": _E30B,
+"": _E30C,
+"": _E30D,
+"": _E30E,
+"": _E30F,
+"": _E312,
+"": _E313,
+"": _E314,
+"": _E315,
+"": _E316,
+"": _E318,
+"": _E319,
+"": _E31A,
+"": _E31B,
+"": _E31C,
+"": _E31D,
+"": _E31E,
+"": _E31F,
+"": _E320,
+"": _E321,
+"": _E322,
+"": _E324,
+"": _E325,
+"": _E326,
+"": _E327,
+"": _E328,
+"": _E329,
+"": _E32B,
+"": _E100,
+"": _E101,
+"": _E102,
+"": _E103,
+"": _E104,
+"": _E105,
+"": _E106,
+"": _E107,
+"": _E108,
+"": _E109,
+"": _E10A,
+"": _E10B,
+"": _E10C,
+"": _E10D,
+"": _E140,
+"": _E141,
+"": _E142,
+"": _E143,
+"": _E144,
+"": _E145,
+"": _E146,
+"": _E147,
+"": _E148,
+"": _E149,
+"": _E14A,
+"": _E150,
+"": _E151,
+"": _E152,
+"": _E153,
+"": _E154,
+"": _E155,
+"": _E156,
+"": _E157,
+"👨‍🪩": _1F468200D1FAA9,
+"👩‍🪩": _1F469200D1FAA9,
+"🧑‍🪩": _1F9D1200D1FAA9,
+"": _E181,
+"": _E182,
+"": _E183,
+"": _E184,
+"": _E185,
+"": _E186,
+"": _E187,
+"": _E188,
+"": _E189,
+"": _E280,
+"": _E281,
+"": _E282,
+"": _E283,
+"🯆‍👗": _1FBC6200D1F457,
+"🯇‍👗": _1FBC7200D1F457,
+"🯈‍👗": _1FBC8200D1F457,
+"⬡️‍🌈": _2B21FE0F200D1F308,
+"⬡️‍🟥": _2B21FE0F200D1F7E5,
+"⬡️‍🟦": _2B21FE0F200D1F7E6,
+"⬡️‍🟧": _2B21FE0F200D1F7E7,
+"⬡️‍🟨": _2B21FE0F200D1F7E8,
+"⬡️‍🟩": _2B21FE0F200D1F7E9,
+"⬡️‍🟪": _2B21FE0F200D1F7EA,
+"⬡️‍🟫": _2B21FE0F200D1F7EB,
+"": _E380,
+"": _E381,
+"◉️‍🔴": _25C9FE0F200D1F534,
+"◉️‍🔴‍▮️": _25C9FE0F200D1F534200D25AEFE0F,
+"": _E1C0,
+"": _E1C1,
+"": _E1C2,
+"": _E1C3,
+"": _E1C4,
+"": _E1C6,
+"": _E1C7,
+"": _E1C8,
+"": _E1C9,
+"": _E1CA,
+"": _E1CB,
+"": _E1CC,
+"": _E1CD,
+"": _E1CE,
+"": _E1CF,
+"": _E1D0,
+"": _E1D1,
+"": _E1D2,
+"": _E1D3,
+"": _E1D4,
+"": _E1D5,
+"": _E1D6,
+"": _E1D7,
+"": _E1D8,
+"": _E1D9,
+"": _E200,
+"": _E201,
+"": _E202,
+"": _E203,
+"": _E204,
+"": _E205,
+"": _E206,
+"": _E207,
+"": _E208,
+"": _E209,
+"": _E20A,
+"": _E20B,
+"": _E20C,
+"": _E20D,
+"": _E20E,
+"": _E20F,
+"": _E210,
+"": _E211,
+"": _E212,
+"": _E213,
+"": _E214,
+"": _E215,
+"": _E216,
+"": _E240,
+"": _E241,
+"": _E242,
+"": _E243,
+"": _E244,
+"": _E245,
+"": _E246,
+"": _E247,
+"": _E248,
+"": _E249,
+"": _E24A,
+"": _E24B,
+"": _E24C,
+"": _E24D,
+"": _E24E,
+"": _E24F,
+"": _E250,
+"": _E251,
+"": _E252,
+"": _E253,
+"": _E254,
+"": _E255,
+"": _E256,
+"": _E257,
+"": _E258,
+"": _E259,
+"": _E25A,
+"": _E25B,
+"": _E25C,
+"": _E25D,
+"": _E25E,
+"": _E25F,
+"": _E260,
+"": _E261,
+"": _E262,
+"": _E263,
+"": _E264,
+"": _E265,
+"": _E266,
+"": _E267,
+"": _E268,
+"": _E269,
+"🫙‍🟥": _1FAD9200D1F7E5,
+"🫙‍🟦": _1FAD9200D1F7E6,
+"🫙‍🟧": _1FAD9200D1F7E7,
+"🫙‍🟨": _1FAD9200D1F7E8,
+"🫙‍🟩": _1FAD9200D1F7E9,
+"🫙‍🟪": _1FAD9200D1F7EA,
+"🫙‍🟫": _1FAD9200D1F7EB,
+"🇦": _1F1E6,
+"🇧": _1F1E7,
+"🇨": _1F1E8,
+"🇩": _1F1E9,
+"🇪": _1F1EA,
+"🇫": _1F1EB,
+"🇬": _1F1EC,
+"🇭": _1F1ED,
+"🇮": _1F1EE,
+"🇯": _1F1EF,
+"🇰": _1F1F0,
+"🇱": _1F1F1,
+"🇲": _1F1F2,
+"🇳": _1F1F3,
+"🇴": _1F1F4,
+"🇵": _1F1F5,
+"🇶": _1F1F6,
+"🇷": _1F1F7,
+"🇸": _1F1F8,
+"🇹": _1F1F9,
+"🇺": _1F1FA,
+"🇻": _1F1FB,
+"🇼": _1F1FC,
+"🇽": _1F1FD,
+"🇾": _1F1FE,
+"🇿": _1F1FF,
+"🏴󠁡󠁶󠁿": _1F3F4E0061E0076E007F,
+"🏴󠁣󠁡󠁱󠁣󠁿": _1F3F4E0063E0061E0071E0063E007F,
+"🏴󠁤󠁥󠁢󠁥󠁿": _1F3F4E0064E0065E0062E0065E007F,
+"🏴󠁤󠁥󠁢󠁹󠁿": _1F3F4E0064E0065E0062E0079E007F,
+"🏴󠁥󠁳󠁡󠁮󠁿": _1F3F4E0065E0073E0061E006EE007F,
+"🏴󠁥󠁳󠁡󠁲󠁿": _1F3F4E0065E0073E0061E0072E007F,
+"🏴󠁥󠁳󠁡󠁳󠁿": _1F3F4E0065E0073E0061E0073E007F,
+"🏴󠁥󠁳󠁣󠁢󠁿": _1F3F4E0065E0073E0063E0062E007F,
+"🏴󠁥󠁳󠁣󠁥󠁿": _1F3F4E0065E0073E0063E0065E007F,
+"🏴󠁥󠁳󠁣󠁬󠁿": _1F3F4E0065E0073E0063E006CE007F,
+"🏴󠁥󠁳󠁣󠁭󠁿": _1F3F4E0065E0073E0063E006DE007F,
+"🏴󠁥󠁳󠁣󠁮󠁿": _1F3F4E0065E0073E0063E006EE007F,
+"🏴󠁥󠁳󠁣󠁴󠁿": _1F3F4E0065E0073E0063E0074E007F,
+"🏴󠁥󠁳󠁥󠁸󠁿": _1F3F4E0065E0073E0065E0078E007F,
+"🏴󠁥󠁳󠁧󠁡󠁿": _1F3F4E0065E0073E0067E0061E007F,
+"🏴󠁥󠁳󠁩󠁢󠁿": _1F3F4E0065E0073E0069E0062E007F,
+"🏴󠁥󠁳󠁭󠁣󠁿": _1F3F4E0065E0073E006DE0063E007F,
+"🏴󠁥󠁳󠁭󠁤󠁿": _1F3F4E0065E0073E006DE0064E007F,
+"🏴󠁥󠁳󠁭󠁬󠁿": _1F3F4E0065E0073E006DE006CE007F,
+"🏴󠁥󠁳󠁮󠁣󠁿": _1F3F4E0065E0073E006EE0063E007F,
+"🏴󠁥󠁳󠁰󠁶󠁿": _1F3F4E0065E0073E0070E0076E007F,
+"🏴󠁥󠁳󠁲󠁩󠁿": _1F3F4E0065E0073E0072E0069E007F,
+"🏴󠁥󠁳󠁶󠁣󠁿": _1F3F4E0065E0073E0076E0063E007F,
+"🏴󠁦󠁲󠁢󠁲󠁥󠁿": _1F3F4E0066E0072E0062E0072E0065E007F,
+"🏴󠁵󠁳󠁣󠁡󠁿": _1F3F4E0075E0073E0063E0061E007F,
+"🏴󠁵󠁳󠁣󠁯󠁿": _1F3F4E0075E0073E0063E006FE007F,
+"🏴󠁵󠁳󠁴󠁸󠁿": _1F3F4E0075E0073E0074E0078E007F,
+"🏴󠁷󠁤󠁣󠁿": _1F3F4E0077E0064E0063E007F,
+"-": _002D,
+"🄍": _1F10D,
+"🄎": _1F10E,
+"🄏": _1F10F,
+"🄯": _1F12F,
+"🅭": _1F16D,
+"🅮": _1F16E,
+"🅯": _1F16F,
+"🉠": _1F260,
+"🉡": _1F261,
+"🉢": _1F262,
+"🉣": _1F263,
+"🉤": _1F264,
+"🉥": _1F265,
+"🐱‍💻": _1F431200D1F4BB,
+"🯅": _1FBC5,
+"🯆": _1FBC6,
+"🯇": _1FBC7,
+"🯈": _1FBC8,
+"🯉": _1FBC9,
+"℗": _2117,
+"℠": _2120,
+"⊜": _229C,
+"⏻": _23FB,
+"⏼": _23FC,
+"⏽": _23FD,
+"⏾": _23FE,
+"□": _25A1,
+"▬": _25AC,
+"▭": _25AD,
+"▮": _25AE,
+"◉": _25C9,
+"◐": _25D0,
+"◑": _25D1,
+"◧": _25E7,
+"◨": _25E8,
+"◩": _25E9,
+"◪": _25EA,
+"◭": _25ED,
+"◮": _25EE,
+"★": _2605,
+"⬌": _2B0C,
+"⬍": _2B0D,
+"⬟": _2B1F,
+"⬠": _2B20,
+"⬡": _2B21,
+"⬢": _2B22,
+"⬣": _2B23,
+"⬤": _2B24,
+"⬮": _2B2E,
+"⬯": _2B2F,
+"⭘": _2B58,
+"⮏": _2B8F,
+"⮺": _2BBA,
+"⮻": _2BBB,
+"⮼": _2BBC,
+"⯃": _2BC3,
+"⯄": _2BC4,
+"⯪": _2BEA,
+"⯫": _2BEB,
 }
+import _hexcode from "/public/openmoji/hexcode.svg";
+import _1F600 from "/public/openmoji/1F600.svg";
+import _1F603 from "/public/openmoji/1F603.svg";
+import _1F604 from "/public/openmoji/1F604.svg";
+import _1F601 from "/public/openmoji/1F601.svg";
+import _1F606 from "/public/openmoji/1F606.svg";
+import _1F605 from "/public/openmoji/1F605.svg";
+import _1F923 from "/public/openmoji/1F923.svg";
+import _1F602 from "/public/openmoji/1F602.svg";
+import _1F642 from "/public/openmoji/1F642.svg";
+import _1F643 from "/public/openmoji/1F643.svg";
+import _1FAE0 from "/public/openmoji/1FAE0.svg";
+import _1F609 from "/public/openmoji/1F609.svg";
+import _1F60A from "/public/openmoji/1F60A.svg";
+import _1F607 from "/public/openmoji/1F607.svg";
+import _1F970 from "/public/openmoji/1F970.svg";
+import _1F60D from "/public/openmoji/1F60D.svg";
+import _1F929 from "/public/openmoji/1F929.svg";
+import _1F618 from "/public/openmoji/1F618.svg";
+import _1F617 from "/public/openmoji/1F617.svg";
+import _263A from "/public/openmoji/263A.svg";
+import _1F61A from "/public/openmoji/1F61A.svg";
+import _1F619 from "/public/openmoji/1F619.svg";
+import _1F972 from "/public/openmoji/1F972.svg";
+import _1F60B from "/public/openmoji/1F60B.svg";
+import _1F61B from "/public/openmoji/1F61B.svg";
+import _1F61C from "/public/openmoji/1F61C.svg";
+import _1F92A from "/public/openmoji/1F92A.svg";
+import _1F61D from "/public/openmoji/1F61D.svg";
+import _1F911 from "/public/openmoji/1F911.svg";
+import _1F917 from "/public/openmoji/1F917.svg";
+import _1F92D from "/public/openmoji/1F92D.svg";
+import _1FAE2 from "/public/openmoji/1FAE2.svg";
+import _1FAE3 from "/public/openmoji/1FAE3.svg";
+import _1F92B from "/public/openmoji/1F92B.svg";
+import _1F914 from "/public/openmoji/1F914.svg";
+import _1FAE1 from "/public/openmoji/1FAE1.svg";
+import _1F910 from "/public/openmoji/1F910.svg";
+import _1F928 from "/public/openmoji/1F928.svg";
+import _1F610 from "/public/openmoji/1F610.svg";
+import _1F611 from "/public/openmoji/1F611.svg";
+import _1F636 from "/public/openmoji/1F636.svg";
+import _1FAE5 from "/public/openmoji/1FAE5.svg";
+import _1F636200D1F32BFE0F from "/public/openmoji/1F636-200D-1F32B-FE0F.svg";
+import _1F60F from "/public/openmoji/1F60F.svg";
+import _1F612 from "/public/openmoji/1F612.svg";
+import _1F644 from "/public/openmoji/1F644.svg";
+import _1F62C from "/public/openmoji/1F62C.svg";
+import _1F62E200D1F4A8 from "/public/openmoji/1F62E-200D-1F4A8.svg";
+import _1F925 from "/public/openmoji/1F925.svg";
+import _1FAE8 from "/public/openmoji/1FAE8.svg";
+import _1F642200D2194FE0F from "/public/openmoji/1F642-200D-2194-FE0F.svg";
+import _1F642200D2195FE0F from "/public/openmoji/1F642-200D-2195-FE0F.svg";
+import _1F60C from "/public/openmoji/1F60C.svg";
+import _1F614 from "/public/openmoji/1F614.svg";
+import _1F62A from "/public/openmoji/1F62A.svg";
+import _1F924 from "/public/openmoji/1F924.svg";
+import _1F634 from "/public/openmoji/1F634.svg";
+import _1F637 from "/public/openmoji/1F637.svg";
+import _1F912 from "/public/openmoji/1F912.svg";
+import _1F915 from "/public/openmoji/1F915.svg";
+import _1F922 from "/public/openmoji/1F922.svg";
+import _1F92E from "/public/openmoji/1F92E.svg";
+import _1F927 from "/public/openmoji/1F927.svg";
+import _1F975 from "/public/openmoji/1F975.svg";
+import _1F976 from "/public/openmoji/1F976.svg";
+import _1F974 from "/public/openmoji/1F974.svg";
+import _1F635 from "/public/openmoji/1F635.svg";
+import _1F635200D1F4AB from "/public/openmoji/1F635-200D-1F4AB.svg";
+import _1F92F from "/public/openmoji/1F92F.svg";
+import _1F920 from "/public/openmoji/1F920.svg";
+import _1F973 from "/public/openmoji/1F973.svg";
+import _1F978 from "/public/openmoji/1F978.svg";
+import _1F60E from "/public/openmoji/1F60E.svg";
+import _1F913 from "/public/openmoji/1F913.svg";
+import _1F9D0 from "/public/openmoji/1F9D0.svg";
+import _1F615 from "/public/openmoji/1F615.svg";
+import _1FAE4 from "/public/openmoji/1FAE4.svg";
+import _1F61F from "/public/openmoji/1F61F.svg";
+import _1F641 from "/public/openmoji/1F641.svg";
+import _2639 from "/public/openmoji/2639.svg";
+import _1F62E from "/public/openmoji/1F62E.svg";
+import _1F62F from "/public/openmoji/1F62F.svg";
+import _1F632 from "/public/openmoji/1F632.svg";
+import _1F633 from "/public/openmoji/1F633.svg";
+import _1F97A from "/public/openmoji/1F97A.svg";
+import _1F979 from "/public/openmoji/1F979.svg";
+import _1F626 from "/public/openmoji/1F626.svg";
+import _1F627 from "/public/openmoji/1F627.svg";
+import _1F628 from "/public/openmoji/1F628.svg";
+import _1F630 from "/public/openmoji/1F630.svg";
+import _1F625 from "/public/openmoji/1F625.svg";
+import _1F622 from "/public/openmoji/1F622.svg";
+import _1F62D from "/public/openmoji/1F62D.svg";
+import _1F631 from "/public/openmoji/1F631.svg";
+import _1F616 from "/public/openmoji/1F616.svg";
+import _1F623 from "/public/openmoji/1F623.svg";
+import _1F61E from "/public/openmoji/1F61E.svg";
+import _1F613 from "/public/openmoji/1F613.svg";
+import _1F629 from "/public/openmoji/1F629.svg";
+import _1F62B from "/public/openmoji/1F62B.svg";
+import _1F971 from "/public/openmoji/1F971.svg";
+import _1F624 from "/public/openmoji/1F624.svg";
+import _1F621 from "/public/openmoji/1F621.svg";
+import _1F620 from "/public/openmoji/1F620.svg";
+import _1F92C from "/public/openmoji/1F92C.svg";
+import _1F608 from "/public/openmoji/1F608.svg";
+import _1F47F from "/public/openmoji/1F47F.svg";
+import _1F480 from "/public/openmoji/1F480.svg";
+import _2620 from "/public/openmoji/2620.svg";
+import _1F4A9 from "/public/openmoji/1F4A9.svg";
+import _1F921 from "/public/openmoji/1F921.svg";
+import _1F479 from "/public/openmoji/1F479.svg";
+import _1F47A from "/public/openmoji/1F47A.svg";
+import _1F47B from "/public/openmoji/1F47B.svg";
+import _1F47D from "/public/openmoji/1F47D.svg";
+import _1F47E from "/public/openmoji/1F47E.svg";
+import _1F916 from "/public/openmoji/1F916.svg";
+import _1F63A from "/public/openmoji/1F63A.svg";
+import _1F638 from "/public/openmoji/1F638.svg";
+import _1F639 from "/public/openmoji/1F639.svg";
+import _1F63B from "/public/openmoji/1F63B.svg";
+import _1F63C from "/public/openmoji/1F63C.svg";
+import _1F63D from "/public/openmoji/1F63D.svg";
+import _1F640 from "/public/openmoji/1F640.svg";
+import _1F63F from "/public/openmoji/1F63F.svg";
+import _1F63E from "/public/openmoji/1F63E.svg";
+import _1F648 from "/public/openmoji/1F648.svg";
+import _1F649 from "/public/openmoji/1F649.svg";
+import _1F64A from "/public/openmoji/1F64A.svg";
+import _1F48C from "/public/openmoji/1F48C.svg";
+import _1F498 from "/public/openmoji/1F498.svg";
+import _1F49D from "/public/openmoji/1F49D.svg";
+import _1F496 from "/public/openmoji/1F496.svg";
+import _1F497 from "/public/openmoji/1F497.svg";
+import _1F493 from "/public/openmoji/1F493.svg";
+import _1F49E from "/public/openmoji/1F49E.svg";
+import _1F495 from "/public/openmoji/1F495.svg";
+import _1F49F from "/public/openmoji/1F49F.svg";
+import _2763 from "/public/openmoji/2763.svg";
+import _1F494 from "/public/openmoji/1F494.svg";
+import _2764FE0F200D1F525 from "/public/openmoji/2764-FE0F-200D-1F525.svg";
+import _2764FE0F200D1FA79 from "/public/openmoji/2764-FE0F-200D-1FA79.svg";
+import _2764 from "/public/openmoji/2764.svg";
+import _1FA77 from "/public/openmoji/1FA77.svg";
+import _1F9E1 from "/public/openmoji/1F9E1.svg";
+import _1F49B from "/public/openmoji/1F49B.svg";
+import _1F49A from "/public/openmoji/1F49A.svg";
+import _1F499 from "/public/openmoji/1F499.svg";
+import _1FA75 from "/public/openmoji/1FA75.svg";
+import _1F49C from "/public/openmoji/1F49C.svg";
+import _1F90E from "/public/openmoji/1F90E.svg";
+import _1F5A4 from "/public/openmoji/1F5A4.svg";
+import _1FA76 from "/public/openmoji/1FA76.svg";
+import _1F90D from "/public/openmoji/1F90D.svg";
+import _1F48B from "/public/openmoji/1F48B.svg";
+import _1F4AF from "/public/openmoji/1F4AF.svg";
+import _1F4A2 from "/public/openmoji/1F4A2.svg";
+import _1F4A5 from "/public/openmoji/1F4A5.svg";
+import _1F4AB from "/public/openmoji/1F4AB.svg";
+import _1F4A6 from "/public/openmoji/1F4A6.svg";
+import _1F4A8 from "/public/openmoji/1F4A8.svg";
+import _1F573 from "/public/openmoji/1F573.svg";
+import _1F4AC from "/public/openmoji/1F4AC.svg";
+import _1F441FE0F200D1F5E8FE0F from "/public/openmoji/1F441-FE0F-200D-1F5E8-FE0F.svg";
+import _1F5E8 from "/public/openmoji/1F5E8.svg";
+import _1F5EF from "/public/openmoji/1F5EF.svg";
+import _1F4AD from "/public/openmoji/1F4AD.svg";
+import _1F4A4 from "/public/openmoji/1F4A4.svg";
+import _1F44B from "/public/openmoji/1F44B.svg";
+import _1F44B1F3FB from "/public/openmoji/1F44B-1F3FB.svg";
+import _1F44B1F3FC from "/public/openmoji/1F44B-1F3FC.svg";
+import _1F44B1F3FD from "/public/openmoji/1F44B-1F3FD.svg";
+import _1F44B1F3FE from "/public/openmoji/1F44B-1F3FE.svg";
+import _1F44B1F3FF from "/public/openmoji/1F44B-1F3FF.svg";
+import _1F91A from "/public/openmoji/1F91A.svg";
+import _1F91A1F3FB from "/public/openmoji/1F91A-1F3FB.svg";
+import _1F91A1F3FC from "/public/openmoji/1F91A-1F3FC.svg";
+import _1F91A1F3FD from "/public/openmoji/1F91A-1F3FD.svg";
+import _1F91A1F3FE from "/public/openmoji/1F91A-1F3FE.svg";
+import _1F91A1F3FF from "/public/openmoji/1F91A-1F3FF.svg";
+import _1F590 from "/public/openmoji/1F590.svg";
+import _1F5901F3FB from "/public/openmoji/1F590-1F3FB.svg";
+import _1F5901F3FC from "/public/openmoji/1F590-1F3FC.svg";
+import _1F5901F3FD from "/public/openmoji/1F590-1F3FD.svg";
+import _1F5901F3FE from "/public/openmoji/1F590-1F3FE.svg";
+import _1F5901F3FF from "/public/openmoji/1F590-1F3FF.svg";
+import _270B from "/public/openmoji/270B.svg";
+import _270B1F3FB from "/public/openmoji/270B-1F3FB.svg";
+import _270B1F3FC from "/public/openmoji/270B-1F3FC.svg";
+import _270B1F3FD from "/public/openmoji/270B-1F3FD.svg";
+import _270B1F3FE from "/public/openmoji/270B-1F3FE.svg";
+import _270B1F3FF from "/public/openmoji/270B-1F3FF.svg";
+import _1F596 from "/public/openmoji/1F596.svg";
+import _1F5961F3FB from "/public/openmoji/1F596-1F3FB.svg";
+import _1F5961F3FC from "/public/openmoji/1F596-1F3FC.svg";
+import _1F5961F3FD from "/public/openmoji/1F596-1F3FD.svg";
+import _1F5961F3FE from "/public/openmoji/1F596-1F3FE.svg";
+import _1F5961F3FF from "/public/openmoji/1F596-1F3FF.svg";
+import _1FAF1 from "/public/openmoji/1FAF1.svg";
+import _1FAF11F3FB from "/public/openmoji/1FAF1-1F3FB.svg";
+import _1FAF11F3FC from "/public/openmoji/1FAF1-1F3FC.svg";
+import _1FAF11F3FD from "/public/openmoji/1FAF1-1F3FD.svg";
+import _1FAF11F3FE from "/public/openmoji/1FAF1-1F3FE.svg";
+import _1FAF11F3FF from "/public/openmoji/1FAF1-1F3FF.svg";
+import _1FAF2 from "/public/openmoji/1FAF2.svg";
+import _1FAF21F3FB from "/public/openmoji/1FAF2-1F3FB.svg";
+import _1FAF21F3FC from "/public/openmoji/1FAF2-1F3FC.svg";
+import _1FAF21F3FD from "/public/openmoji/1FAF2-1F3FD.svg";
+import _1FAF21F3FE from "/public/openmoji/1FAF2-1F3FE.svg";
+import _1FAF21F3FF from "/public/openmoji/1FAF2-1F3FF.svg";
+import _1FAF3 from "/public/openmoji/1FAF3.svg";
+import _1FAF31F3FB from "/public/openmoji/1FAF3-1F3FB.svg";
+import _1FAF31F3FC from "/public/openmoji/1FAF3-1F3FC.svg";
+import _1FAF31F3FD from "/public/openmoji/1FAF3-1F3FD.svg";
+import _1FAF31F3FE from "/public/openmoji/1FAF3-1F3FE.svg";
+import _1FAF31F3FF from "/public/openmoji/1FAF3-1F3FF.svg";
+import _1FAF4 from "/public/openmoji/1FAF4.svg";
+import _1FAF41F3FB from "/public/openmoji/1FAF4-1F3FB.svg";
+import _1FAF41F3FC from "/public/openmoji/1FAF4-1F3FC.svg";
+import _1FAF41F3FD from "/public/openmoji/1FAF4-1F3FD.svg";
+import _1FAF41F3FE from "/public/openmoji/1FAF4-1F3FE.svg";
+import _1FAF41F3FF from "/public/openmoji/1FAF4-1F3FF.svg";
+import _1FAF7 from "/public/openmoji/1FAF7.svg";
+import _1FAF71F3FB from "/public/openmoji/1FAF7-1F3FB.svg";
+import _1FAF71F3FC from "/public/openmoji/1FAF7-1F3FC.svg";
+import _1FAF71F3FD from "/public/openmoji/1FAF7-1F3FD.svg";
+import _1FAF71F3FE from "/public/openmoji/1FAF7-1F3FE.svg";
+import _1FAF71F3FF from "/public/openmoji/1FAF7-1F3FF.svg";
+import _1FAF8 from "/public/openmoji/1FAF8.svg";
+import _1FAF81F3FB from "/public/openmoji/1FAF8-1F3FB.svg";
+import _1FAF81F3FC from "/public/openmoji/1FAF8-1F3FC.svg";
+import _1FAF81F3FD from "/public/openmoji/1FAF8-1F3FD.svg";
+import _1FAF81F3FE from "/public/openmoji/1FAF8-1F3FE.svg";
+import _1FAF81F3FF from "/public/openmoji/1FAF8-1F3FF.svg";
+import _1F44C from "/public/openmoji/1F44C.svg";
+import _1F44C1F3FB from "/public/openmoji/1F44C-1F3FB.svg";
+import _1F44C1F3FC from "/public/openmoji/1F44C-1F3FC.svg";
+import _1F44C1F3FD from "/public/openmoji/1F44C-1F3FD.svg";
+import _1F44C1F3FE from "/public/openmoji/1F44C-1F3FE.svg";
+import _1F44C1F3FF from "/public/openmoji/1F44C-1F3FF.svg";
+import _1F90C from "/public/openmoji/1F90C.svg";
+import _1F90C1F3FB from "/public/openmoji/1F90C-1F3FB.svg";
+import _1F90C1F3FC from "/public/openmoji/1F90C-1F3FC.svg";
+import _1F90C1F3FD from "/public/openmoji/1F90C-1F3FD.svg";
+import _1F90C1F3FE from "/public/openmoji/1F90C-1F3FE.svg";
+import _1F90C1F3FF from "/public/openmoji/1F90C-1F3FF.svg";
+import _1F90F from "/public/openmoji/1F90F.svg";
+import _1F90F1F3FB from "/public/openmoji/1F90F-1F3FB.svg";
+import _1F90F1F3FC from "/public/openmoji/1F90F-1F3FC.svg";
+import _1F90F1F3FD from "/public/openmoji/1F90F-1F3FD.svg";
+import _1F90F1F3FE from "/public/openmoji/1F90F-1F3FE.svg";
+import _1F90F1F3FF from "/public/openmoji/1F90F-1F3FF.svg";
+import _270C from "/public/openmoji/270C.svg";
+import _270C1F3FB from "/public/openmoji/270C-1F3FB.svg";
+import _270C1F3FC from "/public/openmoji/270C-1F3FC.svg";
+import _270C1F3FD from "/public/openmoji/270C-1F3FD.svg";
+import _270C1F3FE from "/public/openmoji/270C-1F3FE.svg";
+import _270C1F3FF from "/public/openmoji/270C-1F3FF.svg";
+import _1F91E from "/public/openmoji/1F91E.svg";
+import _1F91E1F3FB from "/public/openmoji/1F91E-1F3FB.svg";
+import _1F91E1F3FC from "/public/openmoji/1F91E-1F3FC.svg";
+import _1F91E1F3FD from "/public/openmoji/1F91E-1F3FD.svg";
+import _1F91E1F3FE from "/public/openmoji/1F91E-1F3FE.svg";
+import _1F91E1F3FF from "/public/openmoji/1F91E-1F3FF.svg";
+import _1FAF0 from "/public/openmoji/1FAF0.svg";
+import _1FAF01F3FB from "/public/openmoji/1FAF0-1F3FB.svg";
+import _1FAF01F3FC from "/public/openmoji/1FAF0-1F3FC.svg";
+import _1FAF01F3FD from "/public/openmoji/1FAF0-1F3FD.svg";
+import _1FAF01F3FE from "/public/openmoji/1FAF0-1F3FE.svg";
+import _1FAF01F3FF from "/public/openmoji/1FAF0-1F3FF.svg";
+import _1F91F from "/public/openmoji/1F91F.svg";
+import _1F91F1F3FB from "/public/openmoji/1F91F-1F3FB.svg";
+import _1F91F1F3FC from "/public/openmoji/1F91F-1F3FC.svg";
+import _1F91F1F3FD from "/public/openmoji/1F91F-1F3FD.svg";
+import _1F91F1F3FE from "/public/openmoji/1F91F-1F3FE.svg";
+import _1F91F1F3FF from "/public/openmoji/1F91F-1F3FF.svg";
+import _1F918 from "/public/openmoji/1F918.svg";
+import _1F9181F3FB from "/public/openmoji/1F918-1F3FB.svg";
+import _1F9181F3FC from "/public/openmoji/1F918-1F3FC.svg";
+import _1F9181F3FD from "/public/openmoji/1F918-1F3FD.svg";
+import _1F9181F3FE from "/public/openmoji/1F918-1F3FE.svg";
+import _1F9181F3FF from "/public/openmoji/1F918-1F3FF.svg";
+import _1F919 from "/public/openmoji/1F919.svg";
+import _1F9191F3FB from "/public/openmoji/1F919-1F3FB.svg";
+import _1F9191F3FC from "/public/openmoji/1F919-1F3FC.svg";
+import _1F9191F3FD from "/public/openmoji/1F919-1F3FD.svg";
+import _1F9191F3FE from "/public/openmoji/1F919-1F3FE.svg";
+import _1F9191F3FF from "/public/openmoji/1F919-1F3FF.svg";
+import _1F448 from "/public/openmoji/1F448.svg";
+import _1F4481F3FB from "/public/openmoji/1F448-1F3FB.svg";
+import _1F4481F3FC from "/public/openmoji/1F448-1F3FC.svg";
+import _1F4481F3FD from "/public/openmoji/1F448-1F3FD.svg";
+import _1F4481F3FE from "/public/openmoji/1F448-1F3FE.svg";
+import _1F4481F3FF from "/public/openmoji/1F448-1F3FF.svg";
+import _1F449 from "/public/openmoji/1F449.svg";
+import _1F4491F3FB from "/public/openmoji/1F449-1F3FB.svg";
+import _1F4491F3FC from "/public/openmoji/1F449-1F3FC.svg";
+import _1F4491F3FD from "/public/openmoji/1F449-1F3FD.svg";
+import _1F4491F3FE from "/public/openmoji/1F449-1F3FE.svg";
+import _1F4491F3FF from "/public/openmoji/1F449-1F3FF.svg";
+import _1F446 from "/public/openmoji/1F446.svg";
+import _1F4461F3FB from "/public/openmoji/1F446-1F3FB.svg";
+import _1F4461F3FC from "/public/openmoji/1F446-1F3FC.svg";
+import _1F4461F3FD from "/public/openmoji/1F446-1F3FD.svg";
+import _1F4461F3FE from "/public/openmoji/1F446-1F3FE.svg";
+import _1F4461F3FF from "/public/openmoji/1F446-1F3FF.svg";
+import _1F595 from "/public/openmoji/1F595.svg";
+import _1F5951F3FB from "/public/openmoji/1F595-1F3FB.svg";
+import _1F5951F3FC from "/public/openmoji/1F595-1F3FC.svg";
+import _1F5951F3FD from "/public/openmoji/1F595-1F3FD.svg";
+import _1F5951F3FE from "/public/openmoji/1F595-1F3FE.svg";
+import _1F5951F3FF from "/public/openmoji/1F595-1F3FF.svg";
+import _1F447 from "/public/openmoji/1F447.svg";
+import _1F4471F3FB from "/public/openmoji/1F447-1F3FB.svg";
+import _1F4471F3FC from "/public/openmoji/1F447-1F3FC.svg";
+import _1F4471F3FD from "/public/openmoji/1F447-1F3FD.svg";
+import _1F4471F3FE from "/public/openmoji/1F447-1F3FE.svg";
+import _1F4471F3FF from "/public/openmoji/1F447-1F3FF.svg";
+import _261D from "/public/openmoji/261D.svg";
+import _261D1F3FB from "/public/openmoji/261D-1F3FB.svg";
+import _261D1F3FC from "/public/openmoji/261D-1F3FC.svg";
+import _261D1F3FD from "/public/openmoji/261D-1F3FD.svg";
+import _261D1F3FE from "/public/openmoji/261D-1F3FE.svg";
+import _261D1F3FF from "/public/openmoji/261D-1F3FF.svg";
+import _1FAF5 from "/public/openmoji/1FAF5.svg";
+import _1FAF51F3FB from "/public/openmoji/1FAF5-1F3FB.svg";
+import _1FAF51F3FC from "/public/openmoji/1FAF5-1F3FC.svg";
+import _1FAF51F3FD from "/public/openmoji/1FAF5-1F3FD.svg";
+import _1FAF51F3FE from "/public/openmoji/1FAF5-1F3FE.svg";
+import _1FAF51F3FF from "/public/openmoji/1FAF5-1F3FF.svg";
+import _1F44D from "/public/openmoji/1F44D.svg";
+import _1F44D1F3FB from "/public/openmoji/1F44D-1F3FB.svg";
+import _1F44D1F3FC from "/public/openmoji/1F44D-1F3FC.svg";
+import _1F44D1F3FD from "/public/openmoji/1F44D-1F3FD.svg";
+import _1F44D1F3FE from "/public/openmoji/1F44D-1F3FE.svg";
+import _1F44D1F3FF from "/public/openmoji/1F44D-1F3FF.svg";
+import _1F44E from "/public/openmoji/1F44E.svg";
+import _1F44E1F3FB from "/public/openmoji/1F44E-1F3FB.svg";
+import _1F44E1F3FC from "/public/openmoji/1F44E-1F3FC.svg";
+import _1F44E1F3FD from "/public/openmoji/1F44E-1F3FD.svg";
+import _1F44E1F3FE from "/public/openmoji/1F44E-1F3FE.svg";
+import _1F44E1F3FF from "/public/openmoji/1F44E-1F3FF.svg";
+import _270A from "/public/openmoji/270A.svg";
+import _270A1F3FB from "/public/openmoji/270A-1F3FB.svg";
+import _270A1F3FC from "/public/openmoji/270A-1F3FC.svg";
+import _270A1F3FD from "/public/openmoji/270A-1F3FD.svg";
+import _270A1F3FE from "/public/openmoji/270A-1F3FE.svg";
+import _270A1F3FF from "/public/openmoji/270A-1F3FF.svg";
+import _1F44A from "/public/openmoji/1F44A.svg";
+import _1F44A1F3FB from "/public/openmoji/1F44A-1F3FB.svg";
+import _1F44A1F3FC from "/public/openmoji/1F44A-1F3FC.svg";
+import _1F44A1F3FD from "/public/openmoji/1F44A-1F3FD.svg";
+import _1F44A1F3FE from "/public/openmoji/1F44A-1F3FE.svg";
+import _1F44A1F3FF from "/public/openmoji/1F44A-1F3FF.svg";
+import _1F91B from "/public/openmoji/1F91B.svg";
+import _1F91B1F3FB from "/public/openmoji/1F91B-1F3FB.svg";
+import _1F91B1F3FC from "/public/openmoji/1F91B-1F3FC.svg";
+import _1F91B1F3FD from "/public/openmoji/1F91B-1F3FD.svg";
+import _1F91B1F3FE from "/public/openmoji/1F91B-1F3FE.svg";
+import _1F91B1F3FF from "/public/openmoji/1F91B-1F3FF.svg";
+import _1F91C from "/public/openmoji/1F91C.svg";
+import _1F91C1F3FB from "/public/openmoji/1F91C-1F3FB.svg";
+import _1F91C1F3FC from "/public/openmoji/1F91C-1F3FC.svg";
+import _1F91C1F3FD from "/public/openmoji/1F91C-1F3FD.svg";
+import _1F91C1F3FE from "/public/openmoji/1F91C-1F3FE.svg";
+import _1F91C1F3FF from "/public/openmoji/1F91C-1F3FF.svg";
+import _1F44F from "/public/openmoji/1F44F.svg";
+import _1F44F1F3FB from "/public/openmoji/1F44F-1F3FB.svg";
+import _1F44F1F3FC from "/public/openmoji/1F44F-1F3FC.svg";
+import _1F44F1F3FD from "/public/openmoji/1F44F-1F3FD.svg";
+import _1F44F1F3FE from "/public/openmoji/1F44F-1F3FE.svg";
+import _1F44F1F3FF from "/public/openmoji/1F44F-1F3FF.svg";
+import _1F64C from "/public/openmoji/1F64C.svg";
+import _1F64C1F3FB from "/public/openmoji/1F64C-1F3FB.svg";
+import _1F64C1F3FC from "/public/openmoji/1F64C-1F3FC.svg";
+import _1F64C1F3FD from "/public/openmoji/1F64C-1F3FD.svg";
+import _1F64C1F3FE from "/public/openmoji/1F64C-1F3FE.svg";
+import _1F64C1F3FF from "/public/openmoji/1F64C-1F3FF.svg";
+import _1FAF6 from "/public/openmoji/1FAF6.svg";
+import _1FAF61F3FB from "/public/openmoji/1FAF6-1F3FB.svg";
+import _1FAF61F3FC from "/public/openmoji/1FAF6-1F3FC.svg";
+import _1FAF61F3FD from "/public/openmoji/1FAF6-1F3FD.svg";
+import _1FAF61F3FE from "/public/openmoji/1FAF6-1F3FE.svg";
+import _1FAF61F3FF from "/public/openmoji/1FAF6-1F3FF.svg";
+import _1F450 from "/public/openmoji/1F450.svg";
+import _1F4501F3FB from "/public/openmoji/1F450-1F3FB.svg";
+import _1F4501F3FC from "/public/openmoji/1F450-1F3FC.svg";
+import _1F4501F3FD from "/public/openmoji/1F450-1F3FD.svg";
+import _1F4501F3FE from "/public/openmoji/1F450-1F3FE.svg";
+import _1F4501F3FF from "/public/openmoji/1F450-1F3FF.svg";
+import _1F932 from "/public/openmoji/1F932.svg";
+import _1F9321F3FB from "/public/openmoji/1F932-1F3FB.svg";
+import _1F9321F3FC from "/public/openmoji/1F932-1F3FC.svg";
+import _1F9321F3FD from "/public/openmoji/1F932-1F3FD.svg";
+import _1F9321F3FE from "/public/openmoji/1F932-1F3FE.svg";
+import _1F9321F3FF from "/public/openmoji/1F932-1F3FF.svg";
+import _1F91D from "/public/openmoji/1F91D.svg";
+import _1F91D1F3FB from "/public/openmoji/1F91D-1F3FB.svg";
+import _1F91D1F3FC from "/public/openmoji/1F91D-1F3FC.svg";
+import _1F91D1F3FD from "/public/openmoji/1F91D-1F3FD.svg";
+import _1F91D1F3FE from "/public/openmoji/1F91D-1F3FE.svg";
+import _1F91D1F3FF from "/public/openmoji/1F91D-1F3FF.svg";
+import _1FAF11F3FB200D1FAF21F3FC from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FC.svg";
+import _1FAF11F3FB200D1FAF21F3FD from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FD.svg";
+import _1FAF11F3FB200D1FAF21F3FE from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FE.svg";
+import _1FAF11F3FB200D1FAF21F3FF from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FF.svg";
+import _1FAF11F3FC200D1FAF21F3FB from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FB.svg";
+import _1FAF11F3FC200D1FAF21F3FD from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FD.svg";
+import _1FAF11F3FC200D1FAF21F3FE from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FE.svg";
+import _1FAF11F3FC200D1FAF21F3FF from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FF.svg";
+import _1FAF11F3FD200D1FAF21F3FB from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FB.svg";
+import _1FAF11F3FD200D1FAF21F3FC from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FC.svg";
+import _1FAF11F3FD200D1FAF21F3FE from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FE.svg";
+import _1FAF11F3FD200D1FAF21F3FF from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FF.svg";
+import _1FAF11F3FE200D1FAF21F3FB from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FB.svg";
+import _1FAF11F3FE200D1FAF21F3FC from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FC.svg";
+import _1FAF11F3FE200D1FAF21F3FD from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FD.svg";
+import _1FAF11F3FE200D1FAF21F3FF from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FF.svg";
+import _1FAF11F3FF200D1FAF21F3FB from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FB.svg";
+import _1FAF11F3FF200D1FAF21F3FC from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FC.svg";
+import _1FAF11F3FF200D1FAF21F3FD from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FD.svg";
+import _1FAF11F3FF200D1FAF21F3FE from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FE.svg";
+import _1F64F from "/public/openmoji/1F64F.svg";
+import _1F64F1F3FB from "/public/openmoji/1F64F-1F3FB.svg";
+import _1F64F1F3FC from "/public/openmoji/1F64F-1F3FC.svg";
+import _1F64F1F3FD from "/public/openmoji/1F64F-1F3FD.svg";
+import _1F64F1F3FE from "/public/openmoji/1F64F-1F3FE.svg";
+import _1F64F1F3FF from "/public/openmoji/1F64F-1F3FF.svg";
+import _270D from "/public/openmoji/270D.svg";
+import _270D1F3FB from "/public/openmoji/270D-1F3FB.svg";
+import _270D1F3FC from "/public/openmoji/270D-1F3FC.svg";
+import _270D1F3FD from "/public/openmoji/270D-1F3FD.svg";
+import _270D1F3FE from "/public/openmoji/270D-1F3FE.svg";
+import _270D1F3FF from "/public/openmoji/270D-1F3FF.svg";
+import _1F485 from "/public/openmoji/1F485.svg";
+import _1F4851F3FB from "/public/openmoji/1F485-1F3FB.svg";
+import _1F4851F3FC from "/public/openmoji/1F485-1F3FC.svg";
+import _1F4851F3FD from "/public/openmoji/1F485-1F3FD.svg";
+import _1F4851F3FE from "/public/openmoji/1F485-1F3FE.svg";
+import _1F4851F3FF from "/public/openmoji/1F485-1F3FF.svg";
+import _1F933 from "/public/openmoji/1F933.svg";
+import _1F9331F3FB from "/public/openmoji/1F933-1F3FB.svg";
+import _1F9331F3FC from "/public/openmoji/1F933-1F3FC.svg";
+import _1F9331F3FD from "/public/openmoji/1F933-1F3FD.svg";
+import _1F9331F3FE from "/public/openmoji/1F933-1F3FE.svg";
+import _1F9331F3FF from "/public/openmoji/1F933-1F3FF.svg";
+import _1F4AA from "/public/openmoji/1F4AA.svg";
+import _1F4AA1F3FB from "/public/openmoji/1F4AA-1F3FB.svg";
+import _1F4AA1F3FC from "/public/openmoji/1F4AA-1F3FC.svg";
+import _1F4AA1F3FD from "/public/openmoji/1F4AA-1F3FD.svg";
+import _1F4AA1F3FE from "/public/openmoji/1F4AA-1F3FE.svg";
+import _1F4AA1F3FF from "/public/openmoji/1F4AA-1F3FF.svg";
+import _1F9BE from "/public/openmoji/1F9BE.svg";
+import _1F9BF from "/public/openmoji/1F9BF.svg";
+import _1F9B5 from "/public/openmoji/1F9B5.svg";
+import _1F9B51F3FB from "/public/openmoji/1F9B5-1F3FB.svg";
+import _1F9B51F3FC from "/public/openmoji/1F9B5-1F3FC.svg";
+import _1F9B51F3FD from "/public/openmoji/1F9B5-1F3FD.svg";
+import _1F9B51F3FE from "/public/openmoji/1F9B5-1F3FE.svg";
+import _1F9B51F3FF from "/public/openmoji/1F9B5-1F3FF.svg";
+import _1F9B6 from "/public/openmoji/1F9B6.svg";
+import _1F9B61F3FB from "/public/openmoji/1F9B6-1F3FB.svg";
+import _1F9B61F3FC from "/public/openmoji/1F9B6-1F3FC.svg";
+import _1F9B61F3FD from "/public/openmoji/1F9B6-1F3FD.svg";
+import _1F9B61F3FE from "/public/openmoji/1F9B6-1F3FE.svg";
+import _1F9B61F3FF from "/public/openmoji/1F9B6-1F3FF.svg";
+import _1F442 from "/public/openmoji/1F442.svg";
+import _1F4421F3FB from "/public/openmoji/1F442-1F3FB.svg";
+import _1F4421F3FC from "/public/openmoji/1F442-1F3FC.svg";
+import _1F4421F3FD from "/public/openmoji/1F442-1F3FD.svg";
+import _1F4421F3FE from "/public/openmoji/1F442-1F3FE.svg";
+import _1F4421F3FF from "/public/openmoji/1F442-1F3FF.svg";
+import _1F9BB from "/public/openmoji/1F9BB.svg";
+import _1F9BB1F3FB from "/public/openmoji/1F9BB-1F3FB.svg";
+import _1F9BB1F3FC from "/public/openmoji/1F9BB-1F3FC.svg";
+import _1F9BB1F3FD from "/public/openmoji/1F9BB-1F3FD.svg";
+import _1F9BB1F3FE from "/public/openmoji/1F9BB-1F3FE.svg";
+import _1F9BB1F3FF from "/public/openmoji/1F9BB-1F3FF.svg";
+import _1F443 from "/public/openmoji/1F443.svg";
+import _1F4431F3FB from "/public/openmoji/1F443-1F3FB.svg";
+import _1F4431F3FC from "/public/openmoji/1F443-1F3FC.svg";
+import _1F4431F3FD from "/public/openmoji/1F443-1F3FD.svg";
+import _1F4431F3FE from "/public/openmoji/1F443-1F3FE.svg";
+import _1F4431F3FF from "/public/openmoji/1F443-1F3FF.svg";
+import _1F9E0 from "/public/openmoji/1F9E0.svg";
+import _1FAC0 from "/public/openmoji/1FAC0.svg";
+import _1FAC1 from "/public/openmoji/1FAC1.svg";
+import _1F9B7 from "/public/openmoji/1F9B7.svg";
+import _1F9B4 from "/public/openmoji/1F9B4.svg";
+import _1F440 from "/public/openmoji/1F440.svg";
+import _1F441 from "/public/openmoji/1F441.svg";
+import _1F445 from "/public/openmoji/1F445.svg";
+import _1F444 from "/public/openmoji/1F444.svg";
+import _1FAE6 from "/public/openmoji/1FAE6.svg";
+import _1F476 from "/public/openmoji/1F476.svg";
+import _1F4761F3FB from "/public/openmoji/1F476-1F3FB.svg";
+import _1F4761F3FC from "/public/openmoji/1F476-1F3FC.svg";
+import _1F4761F3FD from "/public/openmoji/1F476-1F3FD.svg";
+import _1F4761F3FE from "/public/openmoji/1F476-1F3FE.svg";
+import _1F4761F3FF from "/public/openmoji/1F476-1F3FF.svg";
+import _1F9D2 from "/public/openmoji/1F9D2.svg";
+import _1F9D21F3FB from "/public/openmoji/1F9D2-1F3FB.svg";
+import _1F9D21F3FC from "/public/openmoji/1F9D2-1F3FC.svg";
+import _1F9D21F3FD from "/public/openmoji/1F9D2-1F3FD.svg";
+import _1F9D21F3FE from "/public/openmoji/1F9D2-1F3FE.svg";
+import _1F9D21F3FF from "/public/openmoji/1F9D2-1F3FF.svg";
+import _1F466 from "/public/openmoji/1F466.svg";
+import _1F4661F3FB from "/public/openmoji/1F466-1F3FB.svg";
+import _1F4661F3FC from "/public/openmoji/1F466-1F3FC.svg";
+import _1F4661F3FD from "/public/openmoji/1F466-1F3FD.svg";
+import _1F4661F3FE from "/public/openmoji/1F466-1F3FE.svg";
+import _1F4661F3FF from "/public/openmoji/1F466-1F3FF.svg";
+import _1F467 from "/public/openmoji/1F467.svg";
+import _1F4671F3FB from "/public/openmoji/1F467-1F3FB.svg";
+import _1F4671F3FC from "/public/openmoji/1F467-1F3FC.svg";
+import _1F4671F3FD from "/public/openmoji/1F467-1F3FD.svg";
+import _1F4671F3FE from "/public/openmoji/1F467-1F3FE.svg";
+import _1F4671F3FF from "/public/openmoji/1F467-1F3FF.svg";
+import _1F9D1 from "/public/openmoji/1F9D1.svg";
+import _1F9D11F3FB from "/public/openmoji/1F9D1-1F3FB.svg";
+import _1F9D11F3FC from "/public/openmoji/1F9D1-1F3FC.svg";
+import _1F9D11F3FD from "/public/openmoji/1F9D1-1F3FD.svg";
+import _1F9D11F3FE from "/public/openmoji/1F9D1-1F3FE.svg";
+import _1F9D11F3FF from "/public/openmoji/1F9D1-1F3FF.svg";
+import _1F471 from "/public/openmoji/1F471.svg";
+import _1F4711F3FB from "/public/openmoji/1F471-1F3FB.svg";
+import _1F4711F3FC from "/public/openmoji/1F471-1F3FC.svg";
+import _1F4711F3FD from "/public/openmoji/1F471-1F3FD.svg";
+import _1F4711F3FE from "/public/openmoji/1F471-1F3FE.svg";
+import _1F4711F3FF from "/public/openmoji/1F471-1F3FF.svg";
+import _1F468 from "/public/openmoji/1F468.svg";
+import _1F4681F3FB from "/public/openmoji/1F468-1F3FB.svg";
+import _1F4681F3FC from "/public/openmoji/1F468-1F3FC.svg";
+import _1F4681F3FD from "/public/openmoji/1F468-1F3FD.svg";
+import _1F4681F3FE from "/public/openmoji/1F468-1F3FE.svg";
+import _1F4681F3FF from "/public/openmoji/1F468-1F3FF.svg";
+import _1F9D4 from "/public/openmoji/1F9D4.svg";
+import _1F9D41F3FB from "/public/openmoji/1F9D4-1F3FB.svg";
+import _1F9D41F3FC from "/public/openmoji/1F9D4-1F3FC.svg";
+import _1F9D41F3FD from "/public/openmoji/1F9D4-1F3FD.svg";
+import _1F9D41F3FE from "/public/openmoji/1F9D4-1F3FE.svg";
+import _1F9D41F3FF from "/public/openmoji/1F9D4-1F3FF.svg";
+import _1F9D4200D2642FE0F from "/public/openmoji/1F9D4-200D-2642-FE0F.svg";
+import _1F9D41F3FB200D2642FE0F from "/public/openmoji/1F9D4-1F3FB-200D-2642-FE0F.svg";
+import _1F9D41F3FC200D2642FE0F from "/public/openmoji/1F9D4-1F3FC-200D-2642-FE0F.svg";
+import _1F9D41F3FD200D2642FE0F from "/public/openmoji/1F9D4-1F3FD-200D-2642-FE0F.svg";
+import _1F9D41F3FE200D2642FE0F from "/public/openmoji/1F9D4-1F3FE-200D-2642-FE0F.svg";
+import _1F9D41F3FF200D2642FE0F from "/public/openmoji/1F9D4-1F3FF-200D-2642-FE0F.svg";
+import _1F9D4200D2640FE0F from "/public/openmoji/1F9D4-200D-2640-FE0F.svg";
+import _1F9D41F3FB200D2640FE0F from "/public/openmoji/1F9D4-1F3FB-200D-2640-FE0F.svg";
+import _1F9D41F3FC200D2640FE0F from "/public/openmoji/1F9D4-1F3FC-200D-2640-FE0F.svg";
+import _1F9D41F3FD200D2640FE0F from "/public/openmoji/1F9D4-1F3FD-200D-2640-FE0F.svg";
+import _1F9D41F3FE200D2640FE0F from "/public/openmoji/1F9D4-1F3FE-200D-2640-FE0F.svg";
+import _1F9D41F3FF200D2640FE0F from "/public/openmoji/1F9D4-1F3FF-200D-2640-FE0F.svg";
+import _1F468200D1F9B0 from "/public/openmoji/1F468-200D-1F9B0.svg";
+import _1F4681F3FB200D1F9B0 from "/public/openmoji/1F468-1F3FB-200D-1F9B0.svg";
+import _1F4681F3FC200D1F9B0 from "/public/openmoji/1F468-1F3FC-200D-1F9B0.svg";
+import _1F4681F3FD200D1F9B0 from "/public/openmoji/1F468-1F3FD-200D-1F9B0.svg";
+import _1F4681F3FE200D1F9B0 from "/public/openmoji/1F468-1F3FE-200D-1F9B0.svg";
+import _1F4681F3FF200D1F9B0 from "/public/openmoji/1F468-1F3FF-200D-1F9B0.svg";
+import _1F468200D1F9B1 from "/public/openmoji/1F468-200D-1F9B1.svg";
+import _1F4681F3FB200D1F9B1 from "/public/openmoji/1F468-1F3FB-200D-1F9B1.svg";
+import _1F4681F3FC200D1F9B1 from "/public/openmoji/1F468-1F3FC-200D-1F9B1.svg";
+import _1F4681F3FD200D1F9B1 from "/public/openmoji/1F468-1F3FD-200D-1F9B1.svg";
+import _1F4681F3FE200D1F9B1 from "/public/openmoji/1F468-1F3FE-200D-1F9B1.svg";
+import _1F4681F3FF200D1F9B1 from "/public/openmoji/1F468-1F3FF-200D-1F9B1.svg";
+import _1F468200D1F9B3 from "/public/openmoji/1F468-200D-1F9B3.svg";
+import _1F4681F3FB200D1F9B3 from "/public/openmoji/1F468-1F3FB-200D-1F9B3.svg";
+import _1F4681F3FC200D1F9B3 from "/public/openmoji/1F468-1F3FC-200D-1F9B3.svg";
+import _1F4681F3FD200D1F9B3 from "/public/openmoji/1F468-1F3FD-200D-1F9B3.svg";
+import _1F4681F3FE200D1F9B3 from "/public/openmoji/1F468-1F3FE-200D-1F9B3.svg";
+import _1F4681F3FF200D1F9B3 from "/public/openmoji/1F468-1F3FF-200D-1F9B3.svg";
+import _1F468200D1F9B2 from "/public/openmoji/1F468-200D-1F9B2.svg";
+import _1F4681F3FB200D1F9B2 from "/public/openmoji/1F468-1F3FB-200D-1F9B2.svg";
+import _1F4681F3FC200D1F9B2 from "/public/openmoji/1F468-1F3FC-200D-1F9B2.svg";
+import _1F4681F3FD200D1F9B2 from "/public/openmoji/1F468-1F3FD-200D-1F9B2.svg";
+import _1F4681F3FE200D1F9B2 from "/public/openmoji/1F468-1F3FE-200D-1F9B2.svg";
+import _1F4681F3FF200D1F9B2 from "/public/openmoji/1F468-1F3FF-200D-1F9B2.svg";
+import _1F469 from "/public/openmoji/1F469.svg";
+import _1F4691F3FB from "/public/openmoji/1F469-1F3FB.svg";
+import _1F4691F3FC from "/public/openmoji/1F469-1F3FC.svg";
+import _1F4691F3FD from "/public/openmoji/1F469-1F3FD.svg";
+import _1F4691F3FE from "/public/openmoji/1F469-1F3FE.svg";
+import _1F4691F3FF from "/public/openmoji/1F469-1F3FF.svg";
+import _1F469200D1F9B0 from "/public/openmoji/1F469-200D-1F9B0.svg";
+import _1F4691F3FB200D1F9B0 from "/public/openmoji/1F469-1F3FB-200D-1F9B0.svg";
+import _1F4691F3FC200D1F9B0 from "/public/openmoji/1F469-1F3FC-200D-1F9B0.svg";
+import _1F4691F3FD200D1F9B0 from "/public/openmoji/1F469-1F3FD-200D-1F9B0.svg";
+import _1F4691F3FE200D1F9B0 from "/public/openmoji/1F469-1F3FE-200D-1F9B0.svg";
+import _1F4691F3FF200D1F9B0 from "/public/openmoji/1F469-1F3FF-200D-1F9B0.svg";
+import _1F9D1200D1F9B0 from "/public/openmoji/1F9D1-200D-1F9B0.svg";
+import _1F9D11F3FB200D1F9B0 from "/public/openmoji/1F9D1-1F3FB-200D-1F9B0.svg";
+import _1F9D11F3FC200D1F9B0 from "/public/openmoji/1F9D1-1F3FC-200D-1F9B0.svg";
+import _1F9D11F3FD200D1F9B0 from "/public/openmoji/1F9D1-1F3FD-200D-1F9B0.svg";
+import _1F9D11F3FE200D1F9B0 from "/public/openmoji/1F9D1-1F3FE-200D-1F9B0.svg";
+import _1F9D11F3FF200D1F9B0 from "/public/openmoji/1F9D1-1F3FF-200D-1F9B0.svg";
+import _1F469200D1F9B1 from "/public/openmoji/1F469-200D-1F9B1.svg";
+import _1F4691F3FB200D1F9B1 from "/public/openmoji/1F469-1F3FB-200D-1F9B1.svg";
+import _1F4691F3FC200D1F9B1 from "/public/openmoji/1F469-1F3FC-200D-1F9B1.svg";
+import _1F4691F3FD200D1F9B1 from "/public/openmoji/1F469-1F3FD-200D-1F9B1.svg";
+import _1F4691F3FE200D1F9B1 from "/public/openmoji/1F469-1F3FE-200D-1F9B1.svg";
+import _1F4691F3FF200D1F9B1 from "/public/openmoji/1F469-1F3FF-200D-1F9B1.svg";
+import _1F9D1200D1F9B1 from "/public/openmoji/1F9D1-200D-1F9B1.svg";
+import _1F9D11F3FB200D1F9B1 from "/public/openmoji/1F9D1-1F3FB-200D-1F9B1.svg";
+import _1F9D11F3FC200D1F9B1 from "/public/openmoji/1F9D1-1F3FC-200D-1F9B1.svg";
+import _1F9D11F3FD200D1F9B1 from "/public/openmoji/1F9D1-1F3FD-200D-1F9B1.svg";
+import _1F9D11F3FE200D1F9B1 from "/public/openmoji/1F9D1-1F3FE-200D-1F9B1.svg";
+import _1F9D11F3FF200D1F9B1 from "/public/openmoji/1F9D1-1F3FF-200D-1F9B1.svg";
+import _1F469200D1F9B3 from "/public/openmoji/1F469-200D-1F9B3.svg";
+import _1F4691F3FB200D1F9B3 from "/public/openmoji/1F469-1F3FB-200D-1F9B3.svg";
+import _1F4691F3FC200D1F9B3 from "/public/openmoji/1F469-1F3FC-200D-1F9B3.svg";
+import _1F4691F3FD200D1F9B3 from "/public/openmoji/1F469-1F3FD-200D-1F9B3.svg";
+import _1F4691F3FE200D1F9B3 from "/public/openmoji/1F469-1F3FE-200D-1F9B3.svg";
+import _1F4691F3FF200D1F9B3 from "/public/openmoji/1F469-1F3FF-200D-1F9B3.svg";
+import _1F9D1200D1F9B3 from "/public/openmoji/1F9D1-200D-1F9B3.svg";
+import _1F9D11F3FB200D1F9B3 from "/public/openmoji/1F9D1-1F3FB-200D-1F9B3.svg";
+import _1F9D11F3FC200D1F9B3 from "/public/openmoji/1F9D1-1F3FC-200D-1F9B3.svg";
+import _1F9D11F3FD200D1F9B3 from "/public/openmoji/1F9D1-1F3FD-200D-1F9B3.svg";
+import _1F9D11F3FE200D1F9B3 from "/public/openmoji/1F9D1-1F3FE-200D-1F9B3.svg";
+import _1F9D11F3FF200D1F9B3 from "/public/openmoji/1F9D1-1F3FF-200D-1F9B3.svg";
+import _1F469200D1F9B2 from "/public/openmoji/1F469-200D-1F9B2.svg";
+import _1F4691F3FB200D1F9B2 from "/public/openmoji/1F469-1F3FB-200D-1F9B2.svg";
+import _1F4691F3FC200D1F9B2 from "/public/openmoji/1F469-1F3FC-200D-1F9B2.svg";
+import _1F4691F3FD200D1F9B2 from "/public/openmoji/1F469-1F3FD-200D-1F9B2.svg";
+import _1F4691F3FE200D1F9B2 from "/public/openmoji/1F469-1F3FE-200D-1F9B2.svg";
+import _1F4691F3FF200D1F9B2 from "/public/openmoji/1F469-1F3FF-200D-1F9B2.svg";
+import _1F9D1200D1F9B2 from "/public/openmoji/1F9D1-200D-1F9B2.svg";
+import _1F9D11F3FB200D1F9B2 from "/public/openmoji/1F9D1-1F3FB-200D-1F9B2.svg";
+import _1F9D11F3FC200D1F9B2 from "/public/openmoji/1F9D1-1F3FC-200D-1F9B2.svg";
+import _1F9D11F3FD200D1F9B2 from "/public/openmoji/1F9D1-1F3FD-200D-1F9B2.svg";
+import _1F9D11F3FE200D1F9B2 from "/public/openmoji/1F9D1-1F3FE-200D-1F9B2.svg";
+import _1F9D11F3FF200D1F9B2 from "/public/openmoji/1F9D1-1F3FF-200D-1F9B2.svg";
+import _1F471200D2640FE0F from "/public/openmoji/1F471-200D-2640-FE0F.svg";
+import _1F4711F3FB200D2640FE0F from "/public/openmoji/1F471-1F3FB-200D-2640-FE0F.svg";
+import _1F4711F3FC200D2640FE0F from "/public/openmoji/1F471-1F3FC-200D-2640-FE0F.svg";
+import _1F4711F3FD200D2640FE0F from "/public/openmoji/1F471-1F3FD-200D-2640-FE0F.svg";
+import _1F4711F3FE200D2640FE0F from "/public/openmoji/1F471-1F3FE-200D-2640-FE0F.svg";
+import _1F4711F3FF200D2640FE0F from "/public/openmoji/1F471-1F3FF-200D-2640-FE0F.svg";
+import _1F471200D2642FE0F from "/public/openmoji/1F471-200D-2642-FE0F.svg";
+import _1F4711F3FB200D2642FE0F from "/public/openmoji/1F471-1F3FB-200D-2642-FE0F.svg";
+import _1F4711F3FC200D2642FE0F from "/public/openmoji/1F471-1F3FC-200D-2642-FE0F.svg";
+import _1F4711F3FD200D2642FE0F from "/public/openmoji/1F471-1F3FD-200D-2642-FE0F.svg";
+import _1F4711F3FE200D2642FE0F from "/public/openmoji/1F471-1F3FE-200D-2642-FE0F.svg";
+import _1F4711F3FF200D2642FE0F from "/public/openmoji/1F471-1F3FF-200D-2642-FE0F.svg";
+import _1F9D3 from "/public/openmoji/1F9D3.svg";
+import _1F9D31F3FB from "/public/openmoji/1F9D3-1F3FB.svg";
+import _1F9D31F3FC from "/public/openmoji/1F9D3-1F3FC.svg";
+import _1F9D31F3FD from "/public/openmoji/1F9D3-1F3FD.svg";
+import _1F9D31F3FE from "/public/openmoji/1F9D3-1F3FE.svg";
+import _1F9D31F3FF from "/public/openmoji/1F9D3-1F3FF.svg";
+import _1F474 from "/public/openmoji/1F474.svg";
+import _1F4741F3FB from "/public/openmoji/1F474-1F3FB.svg";
+import _1F4741F3FC from "/public/openmoji/1F474-1F3FC.svg";
+import _1F4741F3FD from "/public/openmoji/1F474-1F3FD.svg";
+import _1F4741F3FE from "/public/openmoji/1F474-1F3FE.svg";
+import _1F4741F3FF from "/public/openmoji/1F474-1F3FF.svg";
+import _1F475 from "/public/openmoji/1F475.svg";
+import _1F4751F3FB from "/public/openmoji/1F475-1F3FB.svg";
+import _1F4751F3FC from "/public/openmoji/1F475-1F3FC.svg";
+import _1F4751F3FD from "/public/openmoji/1F475-1F3FD.svg";
+import _1F4751F3FE from "/public/openmoji/1F475-1F3FE.svg";
+import _1F4751F3FF from "/public/openmoji/1F475-1F3FF.svg";
+import _1F64D from "/public/openmoji/1F64D.svg";
+import _1F64D1F3FB from "/public/openmoji/1F64D-1F3FB.svg";
+import _1F64D1F3FC from "/public/openmoji/1F64D-1F3FC.svg";
+import _1F64D1F3FD from "/public/openmoji/1F64D-1F3FD.svg";
+import _1F64D1F3FE from "/public/openmoji/1F64D-1F3FE.svg";
+import _1F64D1F3FF from "/public/openmoji/1F64D-1F3FF.svg";
+import _1F64D200D2642FE0F from "/public/openmoji/1F64D-200D-2642-FE0F.svg";
+import _1F64D1F3FB200D2642FE0F from "/public/openmoji/1F64D-1F3FB-200D-2642-FE0F.svg";
+import _1F64D1F3FC200D2642FE0F from "/public/openmoji/1F64D-1F3FC-200D-2642-FE0F.svg";
+import _1F64D1F3FD200D2642FE0F from "/public/openmoji/1F64D-1F3FD-200D-2642-FE0F.svg";
+import _1F64D1F3FE200D2642FE0F from "/public/openmoji/1F64D-1F3FE-200D-2642-FE0F.svg";
+import _1F64D1F3FF200D2642FE0F from "/public/openmoji/1F64D-1F3FF-200D-2642-FE0F.svg";
+import _1F64D200D2640FE0F from "/public/openmoji/1F64D-200D-2640-FE0F.svg";
+import _1F64D1F3FB200D2640FE0F from "/public/openmoji/1F64D-1F3FB-200D-2640-FE0F.svg";
+import _1F64D1F3FC200D2640FE0F from "/public/openmoji/1F64D-1F3FC-200D-2640-FE0F.svg";
+import _1F64D1F3FD200D2640FE0F from "/public/openmoji/1F64D-1F3FD-200D-2640-FE0F.svg";
+import _1F64D1F3FE200D2640FE0F from "/public/openmoji/1F64D-1F3FE-200D-2640-FE0F.svg";
+import _1F64D1F3FF200D2640FE0F from "/public/openmoji/1F64D-1F3FF-200D-2640-FE0F.svg";
+import _1F64E from "/public/openmoji/1F64E.svg";
+import _1F64E1F3FB from "/public/openmoji/1F64E-1F3FB.svg";
+import _1F64E1F3FC from "/public/openmoji/1F64E-1F3FC.svg";
+import _1F64E1F3FD from "/public/openmoji/1F64E-1F3FD.svg";
+import _1F64E1F3FE from "/public/openmoji/1F64E-1F3FE.svg";
+import _1F64E1F3FF from "/public/openmoji/1F64E-1F3FF.svg";
+import _1F64E200D2642FE0F from "/public/openmoji/1F64E-200D-2642-FE0F.svg";
+import _1F64E1F3FB200D2642FE0F from "/public/openmoji/1F64E-1F3FB-200D-2642-FE0F.svg";
+import _1F64E1F3FC200D2642FE0F from "/public/openmoji/1F64E-1F3FC-200D-2642-FE0F.svg";
+import _1F64E1F3FD200D2642FE0F from "/public/openmoji/1F64E-1F3FD-200D-2642-FE0F.svg";
+import _1F64E1F3FE200D2642FE0F from "/public/openmoji/1F64E-1F3FE-200D-2642-FE0F.svg";
+import _1F64E1F3FF200D2642FE0F from "/public/openmoji/1F64E-1F3FF-200D-2642-FE0F.svg";
+import _1F64E200D2640FE0F from "/public/openmoji/1F64E-200D-2640-FE0F.svg";
+import _1F64E1F3FB200D2640FE0F from "/public/openmoji/1F64E-1F3FB-200D-2640-FE0F.svg";
+import _1F64E1F3FC200D2640FE0F from "/public/openmoji/1F64E-1F3FC-200D-2640-FE0F.svg";
+import _1F64E1F3FD200D2640FE0F from "/public/openmoji/1F64E-1F3FD-200D-2640-FE0F.svg";
+import _1F64E1F3FE200D2640FE0F from "/public/openmoji/1F64E-1F3FE-200D-2640-FE0F.svg";
+import _1F64E1F3FF200D2640FE0F from "/public/openmoji/1F64E-1F3FF-200D-2640-FE0F.svg";
+import _1F645 from "/public/openmoji/1F645.svg";
+import _1F6451F3FB from "/public/openmoji/1F645-1F3FB.svg";
+import _1F6451F3FC from "/public/openmoji/1F645-1F3FC.svg";
+import _1F6451F3FD from "/public/openmoji/1F645-1F3FD.svg";
+import _1F6451F3FE from "/public/openmoji/1F645-1F3FE.svg";
+import _1F6451F3FF from "/public/openmoji/1F645-1F3FF.svg";
+import _1F645200D2642FE0F from "/public/openmoji/1F645-200D-2642-FE0F.svg";
+import _1F6451F3FB200D2642FE0F from "/public/openmoji/1F645-1F3FB-200D-2642-FE0F.svg";
+import _1F6451F3FC200D2642FE0F from "/public/openmoji/1F645-1F3FC-200D-2642-FE0F.svg";
+import _1F6451F3FD200D2642FE0F from "/public/openmoji/1F645-1F3FD-200D-2642-FE0F.svg";
+import _1F6451F3FE200D2642FE0F from "/public/openmoji/1F645-1F3FE-200D-2642-FE0F.svg";
+import _1F6451F3FF200D2642FE0F from "/public/openmoji/1F645-1F3FF-200D-2642-FE0F.svg";
+import _1F645200D2640FE0F from "/public/openmoji/1F645-200D-2640-FE0F.svg";
+import _1F6451F3FB200D2640FE0F from "/public/openmoji/1F645-1F3FB-200D-2640-FE0F.svg";
+import _1F6451F3FC200D2640FE0F from "/public/openmoji/1F645-1F3FC-200D-2640-FE0F.svg";
+import _1F6451F3FD200D2640FE0F from "/public/openmoji/1F645-1F3FD-200D-2640-FE0F.svg";
+import _1F6451F3FE200D2640FE0F from "/public/openmoji/1F645-1F3FE-200D-2640-FE0F.svg";
+import _1F6451F3FF200D2640FE0F from "/public/openmoji/1F645-1F3FF-200D-2640-FE0F.svg";
+import _1F646 from "/public/openmoji/1F646.svg";
+import _1F6461F3FB from "/public/openmoji/1F646-1F3FB.svg";
+import _1F6461F3FC from "/public/openmoji/1F646-1F3FC.svg";
+import _1F6461F3FD from "/public/openmoji/1F646-1F3FD.svg";
+import _1F6461F3FE from "/public/openmoji/1F646-1F3FE.svg";
+import _1F6461F3FF from "/public/openmoji/1F646-1F3FF.svg";
+import _1F646200D2642FE0F from "/public/openmoji/1F646-200D-2642-FE0F.svg";
+import _1F6461F3FB200D2642FE0F from "/public/openmoji/1F646-1F3FB-200D-2642-FE0F.svg";
+import _1F6461F3FC200D2642FE0F from "/public/openmoji/1F646-1F3FC-200D-2642-FE0F.svg";
+import _1F6461F3FD200D2642FE0F from "/public/openmoji/1F646-1F3FD-200D-2642-FE0F.svg";
+import _1F6461F3FE200D2642FE0F from "/public/openmoji/1F646-1F3FE-200D-2642-FE0F.svg";
+import _1F6461F3FF200D2642FE0F from "/public/openmoji/1F646-1F3FF-200D-2642-FE0F.svg";
+import _1F646200D2640FE0F from "/public/openmoji/1F646-200D-2640-FE0F.svg";
+import _1F6461F3FB200D2640FE0F from "/public/openmoji/1F646-1F3FB-200D-2640-FE0F.svg";
+import _1F6461F3FC200D2640FE0F from "/public/openmoji/1F646-1F3FC-200D-2640-FE0F.svg";
+import _1F6461F3FD200D2640FE0F from "/public/openmoji/1F646-1F3FD-200D-2640-FE0F.svg";
+import _1F6461F3FE200D2640FE0F from "/public/openmoji/1F646-1F3FE-200D-2640-FE0F.svg";
+import _1F6461F3FF200D2640FE0F from "/public/openmoji/1F646-1F3FF-200D-2640-FE0F.svg";
+import _1F481 from "/public/openmoji/1F481.svg";
+import _1F4811F3FB from "/public/openmoji/1F481-1F3FB.svg";
+import _1F4811F3FC from "/public/openmoji/1F481-1F3FC.svg";
+import _1F4811F3FD from "/public/openmoji/1F481-1F3FD.svg";
+import _1F4811F3FE from "/public/openmoji/1F481-1F3FE.svg";
+import _1F4811F3FF from "/public/openmoji/1F481-1F3FF.svg";
+import _1F481200D2642FE0F from "/public/openmoji/1F481-200D-2642-FE0F.svg";
+import _1F4811F3FB200D2642FE0F from "/public/openmoji/1F481-1F3FB-200D-2642-FE0F.svg";
+import _1F4811F3FC200D2642FE0F from "/public/openmoji/1F481-1F3FC-200D-2642-FE0F.svg";
+import _1F4811F3FD200D2642FE0F from "/public/openmoji/1F481-1F3FD-200D-2642-FE0F.svg";
+import _1F4811F3FE200D2642FE0F from "/public/openmoji/1F481-1F3FE-200D-2642-FE0F.svg";
+import _1F4811F3FF200D2642FE0F from "/public/openmoji/1F481-1F3FF-200D-2642-FE0F.svg";
+import _1F481200D2640FE0F from "/public/openmoji/1F481-200D-2640-FE0F.svg";
+import _1F4811F3FB200D2640FE0F from "/public/openmoji/1F481-1F3FB-200D-2640-FE0F.svg";
+import _1F4811F3FC200D2640FE0F from "/public/openmoji/1F481-1F3FC-200D-2640-FE0F.svg";
+import _1F4811F3FD200D2640FE0F from "/public/openmoji/1F481-1F3FD-200D-2640-FE0F.svg";
+import _1F4811F3FE200D2640FE0F from "/public/openmoji/1F481-1F3FE-200D-2640-FE0F.svg";
+import _1F4811F3FF200D2640FE0F from "/public/openmoji/1F481-1F3FF-200D-2640-FE0F.svg";
+import _1F64B from "/public/openmoji/1F64B.svg";
+import _1F64B1F3FB from "/public/openmoji/1F64B-1F3FB.svg";
+import _1F64B1F3FC from "/public/openmoji/1F64B-1F3FC.svg";
+import _1F64B1F3FD from "/public/openmoji/1F64B-1F3FD.svg";
+import _1F64B1F3FE from "/public/openmoji/1F64B-1F3FE.svg";
+import _1F64B1F3FF from "/public/openmoji/1F64B-1F3FF.svg";
+import _1F64B200D2642FE0F from "/public/openmoji/1F64B-200D-2642-FE0F.svg";
+import _1F64B1F3FB200D2642FE0F from "/public/openmoji/1F64B-1F3FB-200D-2642-FE0F.svg";
+import _1F64B1F3FC200D2642FE0F from "/public/openmoji/1F64B-1F3FC-200D-2642-FE0F.svg";
+import _1F64B1F3FD200D2642FE0F from "/public/openmoji/1F64B-1F3FD-200D-2642-FE0F.svg";
+import _1F64B1F3FE200D2642FE0F from "/public/openmoji/1F64B-1F3FE-200D-2642-FE0F.svg";
+import _1F64B1F3FF200D2642FE0F from "/public/openmoji/1F64B-1F3FF-200D-2642-FE0F.svg";
+import _1F64B200D2640FE0F from "/public/openmoji/1F64B-200D-2640-FE0F.svg";
+import _1F64B1F3FB200D2640FE0F from "/public/openmoji/1F64B-1F3FB-200D-2640-FE0F.svg";
+import _1F64B1F3FC200D2640FE0F from "/public/openmoji/1F64B-1F3FC-200D-2640-FE0F.svg";
+import _1F64B1F3FD200D2640FE0F from "/public/openmoji/1F64B-1F3FD-200D-2640-FE0F.svg";
+import _1F64B1F3FE200D2640FE0F from "/public/openmoji/1F64B-1F3FE-200D-2640-FE0F.svg";
+import _1F64B1F3FF200D2640FE0F from "/public/openmoji/1F64B-1F3FF-200D-2640-FE0F.svg";
+import _1F9CF from "/public/openmoji/1F9CF.svg";
+import _1F9CF1F3FB from "/public/openmoji/1F9CF-1F3FB.svg";
+import _1F9CF1F3FC from "/public/openmoji/1F9CF-1F3FC.svg";
+import _1F9CF1F3FD from "/public/openmoji/1F9CF-1F3FD.svg";
+import _1F9CF1F3FE from "/public/openmoji/1F9CF-1F3FE.svg";
+import _1F9CF1F3FF from "/public/openmoji/1F9CF-1F3FF.svg";
+import _1F9CF200D2642FE0F from "/public/openmoji/1F9CF-200D-2642-FE0F.svg";
+import _1F9CF1F3FB200D2642FE0F from "/public/openmoji/1F9CF-1F3FB-200D-2642-FE0F.svg";
+import _1F9CF1F3FC200D2642FE0F from "/public/openmoji/1F9CF-1F3FC-200D-2642-FE0F.svg";
+import _1F9CF1F3FD200D2642FE0F from "/public/openmoji/1F9CF-1F3FD-200D-2642-FE0F.svg";
+import _1F9CF1F3FE200D2642FE0F from "/public/openmoji/1F9CF-1F3FE-200D-2642-FE0F.svg";
+import _1F9CF1F3FF200D2642FE0F from "/public/openmoji/1F9CF-1F3FF-200D-2642-FE0F.svg";
+import _1F9CF200D2640FE0F from "/public/openmoji/1F9CF-200D-2640-FE0F.svg";
+import _1F9CF1F3FB200D2640FE0F from "/public/openmoji/1F9CF-1F3FB-200D-2640-FE0F.svg";
+import _1F9CF1F3FC200D2640FE0F from "/public/openmoji/1F9CF-1F3FC-200D-2640-FE0F.svg";
+import _1F9CF1F3FD200D2640FE0F from "/public/openmoji/1F9CF-1F3FD-200D-2640-FE0F.svg";
+import _1F9CF1F3FE200D2640FE0F from "/public/openmoji/1F9CF-1F3FE-200D-2640-FE0F.svg";
+import _1F9CF1F3FF200D2640FE0F from "/public/openmoji/1F9CF-1F3FF-200D-2640-FE0F.svg";
+import _1F647 from "/public/openmoji/1F647.svg";
+import _1F6471F3FB from "/public/openmoji/1F647-1F3FB.svg";
+import _1F6471F3FC from "/public/openmoji/1F647-1F3FC.svg";
+import _1F6471F3FD from "/public/openmoji/1F647-1F3FD.svg";
+import _1F6471F3FE from "/public/openmoji/1F647-1F3FE.svg";
+import _1F6471F3FF from "/public/openmoji/1F647-1F3FF.svg";
+import _1F647200D2642FE0F from "/public/openmoji/1F647-200D-2642-FE0F.svg";
+import _1F6471F3FB200D2642FE0F from "/public/openmoji/1F647-1F3FB-200D-2642-FE0F.svg";
+import _1F6471F3FC200D2642FE0F from "/public/openmoji/1F647-1F3FC-200D-2642-FE0F.svg";
+import _1F6471F3FD200D2642FE0F from "/public/openmoji/1F647-1F3FD-200D-2642-FE0F.svg";
+import _1F6471F3FE200D2642FE0F from "/public/openmoji/1F647-1F3FE-200D-2642-FE0F.svg";
+import _1F6471F3FF200D2642FE0F from "/public/openmoji/1F647-1F3FF-200D-2642-FE0F.svg";
+import _1F647200D2640FE0F from "/public/openmoji/1F647-200D-2640-FE0F.svg";
+import _1F6471F3FB200D2640FE0F from "/public/openmoji/1F647-1F3FB-200D-2640-FE0F.svg";
+import _1F6471F3FC200D2640FE0F from "/public/openmoji/1F647-1F3FC-200D-2640-FE0F.svg";
+import _1F6471F3FD200D2640FE0F from "/public/openmoji/1F647-1F3FD-200D-2640-FE0F.svg";
+import _1F6471F3FE200D2640FE0F from "/public/openmoji/1F647-1F3FE-200D-2640-FE0F.svg";
+import _1F6471F3FF200D2640FE0F from "/public/openmoji/1F647-1F3FF-200D-2640-FE0F.svg";
+import _1F926 from "/public/openmoji/1F926.svg";
+import _1F9261F3FB from "/public/openmoji/1F926-1F3FB.svg";
+import _1F9261F3FC from "/public/openmoji/1F926-1F3FC.svg";
+import _1F9261F3FD from "/public/openmoji/1F926-1F3FD.svg";
+import _1F9261F3FE from "/public/openmoji/1F926-1F3FE.svg";
+import _1F9261F3FF from "/public/openmoji/1F926-1F3FF.svg";
+import _1F926200D2642FE0F from "/public/openmoji/1F926-200D-2642-FE0F.svg";
+import _1F9261F3FB200D2642FE0F from "/public/openmoji/1F926-1F3FB-200D-2642-FE0F.svg";
+import _1F9261F3FC200D2642FE0F from "/public/openmoji/1F926-1F3FC-200D-2642-FE0F.svg";
+import _1F9261F3FD200D2642FE0F from "/public/openmoji/1F926-1F3FD-200D-2642-FE0F.svg";
+import _1F9261F3FE200D2642FE0F from "/public/openmoji/1F926-1F3FE-200D-2642-FE0F.svg";
+import _1F9261F3FF200D2642FE0F from "/public/openmoji/1F926-1F3FF-200D-2642-FE0F.svg";
+import _1F926200D2640FE0F from "/public/openmoji/1F926-200D-2640-FE0F.svg";
+import _1F9261F3FB200D2640FE0F from "/public/openmoji/1F926-1F3FB-200D-2640-FE0F.svg";
+import _1F9261F3FC200D2640FE0F from "/public/openmoji/1F926-1F3FC-200D-2640-FE0F.svg";
+import _1F9261F3FD200D2640FE0F from "/public/openmoji/1F926-1F3FD-200D-2640-FE0F.svg";
+import _1F9261F3FE200D2640FE0F from "/public/openmoji/1F926-1F3FE-200D-2640-FE0F.svg";
+import _1F9261F3FF200D2640FE0F from "/public/openmoji/1F926-1F3FF-200D-2640-FE0F.svg";
+import _1F937 from "/public/openmoji/1F937.svg";
+import _1F9371F3FB from "/public/openmoji/1F937-1F3FB.svg";
+import _1F9371F3FC from "/public/openmoji/1F937-1F3FC.svg";
+import _1F9371F3FD from "/public/openmoji/1F937-1F3FD.svg";
+import _1F9371F3FE from "/public/openmoji/1F937-1F3FE.svg";
+import _1F9371F3FF from "/public/openmoji/1F937-1F3FF.svg";
+import _1F937200D2642FE0F from "/public/openmoji/1F937-200D-2642-FE0F.svg";
+import _1F9371F3FB200D2642FE0F from "/public/openmoji/1F937-1F3FB-200D-2642-FE0F.svg";
+import _1F9371F3FC200D2642FE0F from "/public/openmoji/1F937-1F3FC-200D-2642-FE0F.svg";
+import _1F9371F3FD200D2642FE0F from "/public/openmoji/1F937-1F3FD-200D-2642-FE0F.svg";
+import _1F9371F3FE200D2642FE0F from "/public/openmoji/1F937-1F3FE-200D-2642-FE0F.svg";
+import _1F9371F3FF200D2642FE0F from "/public/openmoji/1F937-1F3FF-200D-2642-FE0F.svg";
+import _1F937200D2640FE0F from "/public/openmoji/1F937-200D-2640-FE0F.svg";
+import _1F9371F3FB200D2640FE0F from "/public/openmoji/1F937-1F3FB-200D-2640-FE0F.svg";
+import _1F9371F3FC200D2640FE0F from "/public/openmoji/1F937-1F3FC-200D-2640-FE0F.svg";
+import _1F9371F3FD200D2640FE0F from "/public/openmoji/1F937-1F3FD-200D-2640-FE0F.svg";
+import _1F9371F3FE200D2640FE0F from "/public/openmoji/1F937-1F3FE-200D-2640-FE0F.svg";
+import _1F9371F3FF200D2640FE0F from "/public/openmoji/1F937-1F3FF-200D-2640-FE0F.svg";
+import _1F9D1200D2695FE0F from "/public/openmoji/1F9D1-200D-2695-FE0F.svg";
+import _1F9D11F3FB200D2695FE0F from "/public/openmoji/1F9D1-1F3FB-200D-2695-FE0F.svg";
+import _1F9D11F3FC200D2695FE0F from "/public/openmoji/1F9D1-1F3FC-200D-2695-FE0F.svg";
+import _1F9D11F3FD200D2695FE0F from "/public/openmoji/1F9D1-1F3FD-200D-2695-FE0F.svg";
+import _1F9D11F3FE200D2695FE0F from "/public/openmoji/1F9D1-1F3FE-200D-2695-FE0F.svg";
+import _1F9D11F3FF200D2695FE0F from "/public/openmoji/1F9D1-1F3FF-200D-2695-FE0F.svg";
+import _1F468200D2695FE0F from "/public/openmoji/1F468-200D-2695-FE0F.svg";
+import _1F4681F3FB200D2695FE0F from "/public/openmoji/1F468-1F3FB-200D-2695-FE0F.svg";
+import _1F4681F3FC200D2695FE0F from "/public/openmoji/1F468-1F3FC-200D-2695-FE0F.svg";
+import _1F4681F3FD200D2695FE0F from "/public/openmoji/1F468-1F3FD-200D-2695-FE0F.svg";
+import _1F4681F3FE200D2695FE0F from "/public/openmoji/1F468-1F3FE-200D-2695-FE0F.svg";
+import _1F4681F3FF200D2695FE0F from "/public/openmoji/1F468-1F3FF-200D-2695-FE0F.svg";
+import _1F469200D2695FE0F from "/public/openmoji/1F469-200D-2695-FE0F.svg";
+import _1F4691F3FB200D2695FE0F from "/public/openmoji/1F469-1F3FB-200D-2695-FE0F.svg";
+import _1F4691F3FC200D2695FE0F from "/public/openmoji/1F469-1F3FC-200D-2695-FE0F.svg";
+import _1F4691F3FD200D2695FE0F from "/public/openmoji/1F469-1F3FD-200D-2695-FE0F.svg";
+import _1F4691F3FE200D2695FE0F from "/public/openmoji/1F469-1F3FE-200D-2695-FE0F.svg";
+import _1F4691F3FF200D2695FE0F from "/public/openmoji/1F469-1F3FF-200D-2695-FE0F.svg";
+import _1F9D1200D1F393 from "/public/openmoji/1F9D1-200D-1F393.svg";
+import _1F9D11F3FB200D1F393 from "/public/openmoji/1F9D1-1F3FB-200D-1F393.svg";
+import _1F9D11F3FC200D1F393 from "/public/openmoji/1F9D1-1F3FC-200D-1F393.svg";
+import _1F9D11F3FD200D1F393 from "/public/openmoji/1F9D1-1F3FD-200D-1F393.svg";
+import _1F9D11F3FE200D1F393 from "/public/openmoji/1F9D1-1F3FE-200D-1F393.svg";
+import _1F9D11F3FF200D1F393 from "/public/openmoji/1F9D1-1F3FF-200D-1F393.svg";
+import _1F468200D1F393 from "/public/openmoji/1F468-200D-1F393.svg";
+import _1F4681F3FB200D1F393 from "/public/openmoji/1F468-1F3FB-200D-1F393.svg";
+import _1F4681F3FC200D1F393 from "/public/openmoji/1F468-1F3FC-200D-1F393.svg";
+import _1F4681F3FD200D1F393 from "/public/openmoji/1F468-1F3FD-200D-1F393.svg";
+import _1F4681F3FE200D1F393 from "/public/openmoji/1F468-1F3FE-200D-1F393.svg";
+import _1F4681F3FF200D1F393 from "/public/openmoji/1F468-1F3FF-200D-1F393.svg";
+import _1F469200D1F393 from "/public/openmoji/1F469-200D-1F393.svg";
+import _1F4691F3FB200D1F393 from "/public/openmoji/1F469-1F3FB-200D-1F393.svg";
+import _1F4691F3FC200D1F393 from "/public/openmoji/1F469-1F3FC-200D-1F393.svg";
+import _1F4691F3FD200D1F393 from "/public/openmoji/1F469-1F3FD-200D-1F393.svg";
+import _1F4691F3FE200D1F393 from "/public/openmoji/1F469-1F3FE-200D-1F393.svg";
+import _1F4691F3FF200D1F393 from "/public/openmoji/1F469-1F3FF-200D-1F393.svg";
+import _1F9D1200D1F3EB from "/public/openmoji/1F9D1-200D-1F3EB.svg";
+import _1F9D11F3FB200D1F3EB from "/public/openmoji/1F9D1-1F3FB-200D-1F3EB.svg";
+import _1F9D11F3FC200D1F3EB from "/public/openmoji/1F9D1-1F3FC-200D-1F3EB.svg";
+import _1F9D11F3FD200D1F3EB from "/public/openmoji/1F9D1-1F3FD-200D-1F3EB.svg";
+import _1F9D11F3FE200D1F3EB from "/public/openmoji/1F9D1-1F3FE-200D-1F3EB.svg";
+import _1F9D11F3FF200D1F3EB from "/public/openmoji/1F9D1-1F3FF-200D-1F3EB.svg";
+import _1F468200D1F3EB from "/public/openmoji/1F468-200D-1F3EB.svg";
+import _1F4681F3FB200D1F3EB from "/public/openmoji/1F468-1F3FB-200D-1F3EB.svg";
+import _1F4681F3FC200D1F3EB from "/public/openmoji/1F468-1F3FC-200D-1F3EB.svg";
+import _1F4681F3FD200D1F3EB from "/public/openmoji/1F468-1F3FD-200D-1F3EB.svg";
+import _1F4681F3FE200D1F3EB from "/public/openmoji/1F468-1F3FE-200D-1F3EB.svg";
+import _1F4681F3FF200D1F3EB from "/public/openmoji/1F468-1F3FF-200D-1F3EB.svg";
+import _1F469200D1F3EB from "/public/openmoji/1F469-200D-1F3EB.svg";
+import _1F4691F3FB200D1F3EB from "/public/openmoji/1F469-1F3FB-200D-1F3EB.svg";
+import _1F4691F3FC200D1F3EB from "/public/openmoji/1F469-1F3FC-200D-1F3EB.svg";
+import _1F4691F3FD200D1F3EB from "/public/openmoji/1F469-1F3FD-200D-1F3EB.svg";
+import _1F4691F3FE200D1F3EB from "/public/openmoji/1F469-1F3FE-200D-1F3EB.svg";
+import _1F4691F3FF200D1F3EB from "/public/openmoji/1F469-1F3FF-200D-1F3EB.svg";
+import _1F9D1200D2696FE0F from "/public/openmoji/1F9D1-200D-2696-FE0F.svg";
+import _1F9D11F3FB200D2696FE0F from "/public/openmoji/1F9D1-1F3FB-200D-2696-FE0F.svg";
+import _1F9D11F3FC200D2696FE0F from "/public/openmoji/1F9D1-1F3FC-200D-2696-FE0F.svg";
+import _1F9D11F3FD200D2696FE0F from "/public/openmoji/1F9D1-1F3FD-200D-2696-FE0F.svg";
+import _1F9D11F3FE200D2696FE0F from "/public/openmoji/1F9D1-1F3FE-200D-2696-FE0F.svg";
+import _1F9D11F3FF200D2696FE0F from "/public/openmoji/1F9D1-1F3FF-200D-2696-FE0F.svg";
+import _1F468200D2696FE0F from "/public/openmoji/1F468-200D-2696-FE0F.svg";
+import _1F4681F3FB200D2696FE0F from "/public/openmoji/1F468-1F3FB-200D-2696-FE0F.svg";
+import _1F4681F3FC200D2696FE0F from "/public/openmoji/1F468-1F3FC-200D-2696-FE0F.svg";
+import _1F4681F3FD200D2696FE0F from "/public/openmoji/1F468-1F3FD-200D-2696-FE0F.svg";
+import _1F4681F3FE200D2696FE0F from "/public/openmoji/1F468-1F3FE-200D-2696-FE0F.svg";
+import _1F4681F3FF200D2696FE0F from "/public/openmoji/1F468-1F3FF-200D-2696-FE0F.svg";
+import _1F469200D2696FE0F from "/public/openmoji/1F469-200D-2696-FE0F.svg";
+import _1F4691F3FB200D2696FE0F from "/public/openmoji/1F469-1F3FB-200D-2696-FE0F.svg";
+import _1F4691F3FC200D2696FE0F from "/public/openmoji/1F469-1F3FC-200D-2696-FE0F.svg";
+import _1F4691F3FD200D2696FE0F from "/public/openmoji/1F469-1F3FD-200D-2696-FE0F.svg";
+import _1F4691F3FE200D2696FE0F from "/public/openmoji/1F469-1F3FE-200D-2696-FE0F.svg";
+import _1F4691F3FF200D2696FE0F from "/public/openmoji/1F469-1F3FF-200D-2696-FE0F.svg";
+import _1F9D1200D1F33E from "/public/openmoji/1F9D1-200D-1F33E.svg";
+import _1F9D11F3FB200D1F33E from "/public/openmoji/1F9D1-1F3FB-200D-1F33E.svg";
+import _1F9D11F3FC200D1F33E from "/public/openmoji/1F9D1-1F3FC-200D-1F33E.svg";
+import _1F9D11F3FD200D1F33E from "/public/openmoji/1F9D1-1F3FD-200D-1F33E.svg";
+import _1F9D11F3FE200D1F33E from "/public/openmoji/1F9D1-1F3FE-200D-1F33E.svg";
+import _1F9D11F3FF200D1F33E from "/public/openmoji/1F9D1-1F3FF-200D-1F33E.svg";
+import _1F468200D1F33E from "/public/openmoji/1F468-200D-1F33E.svg";
+import _1F4681F3FB200D1F33E from "/public/openmoji/1F468-1F3FB-200D-1F33E.svg";
+import _1F4681F3FC200D1F33E from "/public/openmoji/1F468-1F3FC-200D-1F33E.svg";
+import _1F4681F3FD200D1F33E from "/public/openmoji/1F468-1F3FD-200D-1F33E.svg";
+import _1F4681F3FE200D1F33E from "/public/openmoji/1F468-1F3FE-200D-1F33E.svg";
+import _1F4681F3FF200D1F33E from "/public/openmoji/1F468-1F3FF-200D-1F33E.svg";
+import _1F469200D1F33E from "/public/openmoji/1F469-200D-1F33E.svg";
+import _1F4691F3FB200D1F33E from "/public/openmoji/1F469-1F3FB-200D-1F33E.svg";
+import _1F4691F3FC200D1F33E from "/public/openmoji/1F469-1F3FC-200D-1F33E.svg";
+import _1F4691F3FD200D1F33E from "/public/openmoji/1F469-1F3FD-200D-1F33E.svg";
+import _1F4691F3FE200D1F33E from "/public/openmoji/1F469-1F3FE-200D-1F33E.svg";
+import _1F4691F3FF200D1F33E from "/public/openmoji/1F469-1F3FF-200D-1F33E.svg";
+import _1F9D1200D1F373 from "/public/openmoji/1F9D1-200D-1F373.svg";
+import _1F9D11F3FB200D1F373 from "/public/openmoji/1F9D1-1F3FB-200D-1F373.svg";
+import _1F9D11F3FC200D1F373 from "/public/openmoji/1F9D1-1F3FC-200D-1F373.svg";
+import _1F9D11F3FD200D1F373 from "/public/openmoji/1F9D1-1F3FD-200D-1F373.svg";
+import _1F9D11F3FE200D1F373 from "/public/openmoji/1F9D1-1F3FE-200D-1F373.svg";
+import _1F9D11F3FF200D1F373 from "/public/openmoji/1F9D1-1F3FF-200D-1F373.svg";
+import _1F468200D1F373 from "/public/openmoji/1F468-200D-1F373.svg";
+import _1F4681F3FB200D1F373 from "/public/openmoji/1F468-1F3FB-200D-1F373.svg";
+import _1F4681F3FC200D1F373 from "/public/openmoji/1F468-1F3FC-200D-1F373.svg";
+import _1F4681F3FD200D1F373 from "/public/openmoji/1F468-1F3FD-200D-1F373.svg";
+import _1F4681F3FE200D1F373 from "/public/openmoji/1F468-1F3FE-200D-1F373.svg";
+import _1F4681F3FF200D1F373 from "/public/openmoji/1F468-1F3FF-200D-1F373.svg";
+import _1F469200D1F373 from "/public/openmoji/1F469-200D-1F373.svg";
+import _1F4691F3FB200D1F373 from "/public/openmoji/1F469-1F3FB-200D-1F373.svg";
+import _1F4691F3FC200D1F373 from "/public/openmoji/1F469-1F3FC-200D-1F373.svg";
+import _1F4691F3FD200D1F373 from "/public/openmoji/1F469-1F3FD-200D-1F373.svg";
+import _1F4691F3FE200D1F373 from "/public/openmoji/1F469-1F3FE-200D-1F373.svg";
+import _1F4691F3FF200D1F373 from "/public/openmoji/1F469-1F3FF-200D-1F373.svg";
+import _1F9D1200D1F527 from "/public/openmoji/1F9D1-200D-1F527.svg";
+import _1F9D11F3FB200D1F527 from "/public/openmoji/1F9D1-1F3FB-200D-1F527.svg";
+import _1F9D11F3FC200D1F527 from "/public/openmoji/1F9D1-1F3FC-200D-1F527.svg";
+import _1F9D11F3FD200D1F527 from "/public/openmoji/1F9D1-1F3FD-200D-1F527.svg";
+import _1F9D11F3FE200D1F527 from "/public/openmoji/1F9D1-1F3FE-200D-1F527.svg";
+import _1F9D11F3FF200D1F527 from "/public/openmoji/1F9D1-1F3FF-200D-1F527.svg";
+import _1F468200D1F527 from "/public/openmoji/1F468-200D-1F527.svg";
+import _1F4681F3FB200D1F527 from "/public/openmoji/1F468-1F3FB-200D-1F527.svg";
+import _1F4681F3FC200D1F527 from "/public/openmoji/1F468-1F3FC-200D-1F527.svg";
+import _1F4681F3FD200D1F527 from "/public/openmoji/1F468-1F3FD-200D-1F527.svg";
+import _1F4681F3FE200D1F527 from "/public/openmoji/1F468-1F3FE-200D-1F527.svg";
+import _1F4681F3FF200D1F527 from "/public/openmoji/1F468-1F3FF-200D-1F527.svg";
+import _1F469200D1F527 from "/public/openmoji/1F469-200D-1F527.svg";
+import _1F4691F3FB200D1F527 from "/public/openmoji/1F469-1F3FB-200D-1F527.svg";
+import _1F4691F3FC200D1F527 from "/public/openmoji/1F469-1F3FC-200D-1F527.svg";
+import _1F4691F3FD200D1F527 from "/public/openmoji/1F469-1F3FD-200D-1F527.svg";
+import _1F4691F3FE200D1F527 from "/public/openmoji/1F469-1F3FE-200D-1F527.svg";
+import _1F4691F3FF200D1F527 from "/public/openmoji/1F469-1F3FF-200D-1F527.svg";
+import _1F9D1200D1F3ED from "/public/openmoji/1F9D1-200D-1F3ED.svg";
+import _1F9D11F3FB200D1F3ED from "/public/openmoji/1F9D1-1F3FB-200D-1F3ED.svg";
+import _1F9D11F3FC200D1F3ED from "/public/openmoji/1F9D1-1F3FC-200D-1F3ED.svg";
+import _1F9D11F3FD200D1F3ED from "/public/openmoji/1F9D1-1F3FD-200D-1F3ED.svg";
+import _1F9D11F3FE200D1F3ED from "/public/openmoji/1F9D1-1F3FE-200D-1F3ED.svg";
+import _1F9D11F3FF200D1F3ED from "/public/openmoji/1F9D1-1F3FF-200D-1F3ED.svg";
+import _1F468200D1F3ED from "/public/openmoji/1F468-200D-1F3ED.svg";
+import _1F4681F3FB200D1F3ED from "/public/openmoji/1F468-1F3FB-200D-1F3ED.svg";
+import _1F4681F3FC200D1F3ED from "/public/openmoji/1F468-1F3FC-200D-1F3ED.svg";
+import _1F4681F3FD200D1F3ED from "/public/openmoji/1F468-1F3FD-200D-1F3ED.svg";
+import _1F4681F3FE200D1F3ED from "/public/openmoji/1F468-1F3FE-200D-1F3ED.svg";
+import _1F4681F3FF200D1F3ED from "/public/openmoji/1F468-1F3FF-200D-1F3ED.svg";
+import _1F469200D1F3ED from "/public/openmoji/1F469-200D-1F3ED.svg";
+import _1F4691F3FB200D1F3ED from "/public/openmoji/1F469-1F3FB-200D-1F3ED.svg";
+import _1F4691F3FC200D1F3ED from "/public/openmoji/1F469-1F3FC-200D-1F3ED.svg";
+import _1F4691F3FD200D1F3ED from "/public/openmoji/1F469-1F3FD-200D-1F3ED.svg";
+import _1F4691F3FE200D1F3ED from "/public/openmoji/1F469-1F3FE-200D-1F3ED.svg";
+import _1F4691F3FF200D1F3ED from "/public/openmoji/1F469-1F3FF-200D-1F3ED.svg";
+import _1F9D1200D1F4BC from "/public/openmoji/1F9D1-200D-1F4BC.svg";
+import _1F9D11F3FB200D1F4BC from "/public/openmoji/1F9D1-1F3FB-200D-1F4BC.svg";
+import _1F9D11F3FC200D1F4BC from "/public/openmoji/1F9D1-1F3FC-200D-1F4BC.svg";
+import _1F9D11F3FD200D1F4BC from "/public/openmoji/1F9D1-1F3FD-200D-1F4BC.svg";
+import _1F9D11F3FE200D1F4BC from "/public/openmoji/1F9D1-1F3FE-200D-1F4BC.svg";
+import _1F9D11F3FF200D1F4BC from "/public/openmoji/1F9D1-1F3FF-200D-1F4BC.svg";
+import _1F468200D1F4BC from "/public/openmoji/1F468-200D-1F4BC.svg";
+import _1F4681F3FB200D1F4BC from "/public/openmoji/1F468-1F3FB-200D-1F4BC.svg";
+import _1F4681F3FC200D1F4BC from "/public/openmoji/1F468-1F3FC-200D-1F4BC.svg";
+import _1F4681F3FD200D1F4BC from "/public/openmoji/1F468-1F3FD-200D-1F4BC.svg";
+import _1F4681F3FE200D1F4BC from "/public/openmoji/1F468-1F3FE-200D-1F4BC.svg";
+import _1F4681F3FF200D1F4BC from "/public/openmoji/1F468-1F3FF-200D-1F4BC.svg";
+import _1F469200D1F4BC from "/public/openmoji/1F469-200D-1F4BC.svg";
+import _1F4691F3FB200D1F4BC from "/public/openmoji/1F469-1F3FB-200D-1F4BC.svg";
+import _1F4691F3FC200D1F4BC from "/public/openmoji/1F469-1F3FC-200D-1F4BC.svg";
+import _1F4691F3FD200D1F4BC from "/public/openmoji/1F469-1F3FD-200D-1F4BC.svg";
+import _1F4691F3FE200D1F4BC from "/public/openmoji/1F469-1F3FE-200D-1F4BC.svg";
+import _1F4691F3FF200D1F4BC from "/public/openmoji/1F469-1F3FF-200D-1F4BC.svg";
+import _1F9D1200D1F52C from "/public/openmoji/1F9D1-200D-1F52C.svg";
+import _1F9D11F3FB200D1F52C from "/public/openmoji/1F9D1-1F3FB-200D-1F52C.svg";
+import _1F9D11F3FC200D1F52C from "/public/openmoji/1F9D1-1F3FC-200D-1F52C.svg";
+import _1F9D11F3FD200D1F52C from "/public/openmoji/1F9D1-1F3FD-200D-1F52C.svg";
+import _1F9D11F3FE200D1F52C from "/public/openmoji/1F9D1-1F3FE-200D-1F52C.svg";
+import _1F9D11F3FF200D1F52C from "/public/openmoji/1F9D1-1F3FF-200D-1F52C.svg";
+import _1F468200D1F52C from "/public/openmoji/1F468-200D-1F52C.svg";
+import _1F4681F3FB200D1F52C from "/public/openmoji/1F468-1F3FB-200D-1F52C.svg";
+import _1F4681F3FC200D1F52C from "/public/openmoji/1F468-1F3FC-200D-1F52C.svg";
+import _1F4681F3FD200D1F52C from "/public/openmoji/1F468-1F3FD-200D-1F52C.svg";
+import _1F4681F3FE200D1F52C from "/public/openmoji/1F468-1F3FE-200D-1F52C.svg";
+import _1F4681F3FF200D1F52C from "/public/openmoji/1F468-1F3FF-200D-1F52C.svg";
+import _1F469200D1F52C from "/public/openmoji/1F469-200D-1F52C.svg";
+import _1F4691F3FB200D1F52C from "/public/openmoji/1F469-1F3FB-200D-1F52C.svg";
+import _1F4691F3FC200D1F52C from "/public/openmoji/1F469-1F3FC-200D-1F52C.svg";
+import _1F4691F3FD200D1F52C from "/public/openmoji/1F469-1F3FD-200D-1F52C.svg";
+import _1F4691F3FE200D1F52C from "/public/openmoji/1F469-1F3FE-200D-1F52C.svg";
+import _1F4691F3FF200D1F52C from "/public/openmoji/1F469-1F3FF-200D-1F52C.svg";
+import _1F9D1200D1F4BB from "/public/openmoji/1F9D1-200D-1F4BB.svg";
+import _1F9D11F3FB200D1F4BB from "/public/openmoji/1F9D1-1F3FB-200D-1F4BB.svg";
+import _1F9D11F3FC200D1F4BB from "/public/openmoji/1F9D1-1F3FC-200D-1F4BB.svg";
+import _1F9D11F3FD200D1F4BB from "/public/openmoji/1F9D1-1F3FD-200D-1F4BB.svg";
+import _1F9D11F3FE200D1F4BB from "/public/openmoji/1F9D1-1F3FE-200D-1F4BB.svg";
+import _1F9D11F3FF200D1F4BB from "/public/openmoji/1F9D1-1F3FF-200D-1F4BB.svg";
+import _1F468200D1F4BB from "/public/openmoji/1F468-200D-1F4BB.svg";
+import _1F4681F3FB200D1F4BB from "/public/openmoji/1F468-1F3FB-200D-1F4BB.svg";
+import _1F4681F3FC200D1F4BB from "/public/openmoji/1F468-1F3FC-200D-1F4BB.svg";
+import _1F4681F3FD200D1F4BB from "/public/openmoji/1F468-1F3FD-200D-1F4BB.svg";
+import _1F4681F3FE200D1F4BB from "/public/openmoji/1F468-1F3FE-200D-1F4BB.svg";
+import _1F4681F3FF200D1F4BB from "/public/openmoji/1F468-1F3FF-200D-1F4BB.svg";
+import _1F469200D1F4BB from "/public/openmoji/1F469-200D-1F4BB.svg";
+import _1F4691F3FB200D1F4BB from "/public/openmoji/1F469-1F3FB-200D-1F4BB.svg";
+import _1F4691F3FC200D1F4BB from "/public/openmoji/1F469-1F3FC-200D-1F4BB.svg";
+import _1F4691F3FD200D1F4BB from "/public/openmoji/1F469-1F3FD-200D-1F4BB.svg";
+import _1F4691F3FE200D1F4BB from "/public/openmoji/1F469-1F3FE-200D-1F4BB.svg";
+import _1F4691F3FF200D1F4BB from "/public/openmoji/1F469-1F3FF-200D-1F4BB.svg";
+import _1F9D1200D1F3A4 from "/public/openmoji/1F9D1-200D-1F3A4.svg";
+import _1F9D11F3FB200D1F3A4 from "/public/openmoji/1F9D1-1F3FB-200D-1F3A4.svg";
+import _1F9D11F3FC200D1F3A4 from "/public/openmoji/1F9D1-1F3FC-200D-1F3A4.svg";
+import _1F9D11F3FD200D1F3A4 from "/public/openmoji/1F9D1-1F3FD-200D-1F3A4.svg";
+import _1F9D11F3FE200D1F3A4 from "/public/openmoji/1F9D1-1F3FE-200D-1F3A4.svg";
+import _1F9D11F3FF200D1F3A4 from "/public/openmoji/1F9D1-1F3FF-200D-1F3A4.svg";
+import _1F468200D1F3A4 from "/public/openmoji/1F468-200D-1F3A4.svg";
+import _1F4681F3FB200D1F3A4 from "/public/openmoji/1F468-1F3FB-200D-1F3A4.svg";
+import _1F4681F3FC200D1F3A4 from "/public/openmoji/1F468-1F3FC-200D-1F3A4.svg";
+import _1F4681F3FD200D1F3A4 from "/public/openmoji/1F468-1F3FD-200D-1F3A4.svg";
+import _1F4681F3FE200D1F3A4 from "/public/openmoji/1F468-1F3FE-200D-1F3A4.svg";
+import _1F4681F3FF200D1F3A4 from "/public/openmoji/1F468-1F3FF-200D-1F3A4.svg";
+import _1F469200D1F3A4 from "/public/openmoji/1F469-200D-1F3A4.svg";
+import _1F4691F3FB200D1F3A4 from "/public/openmoji/1F469-1F3FB-200D-1F3A4.svg";
+import _1F4691F3FC200D1F3A4 from "/public/openmoji/1F469-1F3FC-200D-1F3A4.svg";
+import _1F4691F3FD200D1F3A4 from "/public/openmoji/1F469-1F3FD-200D-1F3A4.svg";
+import _1F4691F3FE200D1F3A4 from "/public/openmoji/1F469-1F3FE-200D-1F3A4.svg";
+import _1F4691F3FF200D1F3A4 from "/public/openmoji/1F469-1F3FF-200D-1F3A4.svg";
+import _1F9D1200D1F3A8 from "/public/openmoji/1F9D1-200D-1F3A8.svg";
+import _1F9D11F3FB200D1F3A8 from "/public/openmoji/1F9D1-1F3FB-200D-1F3A8.svg";
+import _1F9D11F3FC200D1F3A8 from "/public/openmoji/1F9D1-1F3FC-200D-1F3A8.svg";
+import _1F9D11F3FD200D1F3A8 from "/public/openmoji/1F9D1-1F3FD-200D-1F3A8.svg";
+import _1F9D11F3FE200D1F3A8 from "/public/openmoji/1F9D1-1F3FE-200D-1F3A8.svg";
+import _1F9D11F3FF200D1F3A8 from "/public/openmoji/1F9D1-1F3FF-200D-1F3A8.svg";
+import _1F468200D1F3A8 from "/public/openmoji/1F468-200D-1F3A8.svg";
+import _1F4681F3FB200D1F3A8 from "/public/openmoji/1F468-1F3FB-200D-1F3A8.svg";
+import _1F4681F3FC200D1F3A8 from "/public/openmoji/1F468-1F3FC-200D-1F3A8.svg";
+import _1F4681F3FD200D1F3A8 from "/public/openmoji/1F468-1F3FD-200D-1F3A8.svg";
+import _1F4681F3FE200D1F3A8 from "/public/openmoji/1F468-1F3FE-200D-1F3A8.svg";
+import _1F4681F3FF200D1F3A8 from "/public/openmoji/1F468-1F3FF-200D-1F3A8.svg";
+import _1F469200D1F3A8 from "/public/openmoji/1F469-200D-1F3A8.svg";
+import _1F4691F3FB200D1F3A8 from "/public/openmoji/1F469-1F3FB-200D-1F3A8.svg";
+import _1F4691F3FC200D1F3A8 from "/public/openmoji/1F469-1F3FC-200D-1F3A8.svg";
+import _1F4691F3FD200D1F3A8 from "/public/openmoji/1F469-1F3FD-200D-1F3A8.svg";
+import _1F4691F3FE200D1F3A8 from "/public/openmoji/1F469-1F3FE-200D-1F3A8.svg";
+import _1F4691F3FF200D1F3A8 from "/public/openmoji/1F469-1F3FF-200D-1F3A8.svg";
+import _1F9D1200D2708FE0F from "/public/openmoji/1F9D1-200D-2708-FE0F.svg";
+import _1F9D11F3FB200D2708FE0F from "/public/openmoji/1F9D1-1F3FB-200D-2708-FE0F.svg";
+import _1F9D11F3FC200D2708FE0F from "/public/openmoji/1F9D1-1F3FC-200D-2708-FE0F.svg";
+import _1F9D11F3FD200D2708FE0F from "/public/openmoji/1F9D1-1F3FD-200D-2708-FE0F.svg";
+import _1F9D11F3FE200D2708FE0F from "/public/openmoji/1F9D1-1F3FE-200D-2708-FE0F.svg";
+import _1F9D11F3FF200D2708FE0F from "/public/openmoji/1F9D1-1F3FF-200D-2708-FE0F.svg";
+import _1F468200D2708FE0F from "/public/openmoji/1F468-200D-2708-FE0F.svg";
+import _1F4681F3FB200D2708FE0F from "/public/openmoji/1F468-1F3FB-200D-2708-FE0F.svg";
+import _1F4681F3FC200D2708FE0F from "/public/openmoji/1F468-1F3FC-200D-2708-FE0F.svg";
+import _1F4681F3FD200D2708FE0F from "/public/openmoji/1F468-1F3FD-200D-2708-FE0F.svg";
+import _1F4681F3FE200D2708FE0F from "/public/openmoji/1F468-1F3FE-200D-2708-FE0F.svg";
+import _1F4681F3FF200D2708FE0F from "/public/openmoji/1F468-1F3FF-200D-2708-FE0F.svg";
+import _1F469200D2708FE0F from "/public/openmoji/1F469-200D-2708-FE0F.svg";
+import _1F4691F3FB200D2708FE0F from "/public/openmoji/1F469-1F3FB-200D-2708-FE0F.svg";
+import _1F4691F3FC200D2708FE0F from "/public/openmoji/1F469-1F3FC-200D-2708-FE0F.svg";
+import _1F4691F3FD200D2708FE0F from "/public/openmoji/1F469-1F3FD-200D-2708-FE0F.svg";
+import _1F4691F3FE200D2708FE0F from "/public/openmoji/1F469-1F3FE-200D-2708-FE0F.svg";
+import _1F4691F3FF200D2708FE0F from "/public/openmoji/1F469-1F3FF-200D-2708-FE0F.svg";
+import _1F9D1200D1F680 from "/public/openmoji/1F9D1-200D-1F680.svg";
+import _1F9D11F3FB200D1F680 from "/public/openmoji/1F9D1-1F3FB-200D-1F680.svg";
+import _1F9D11F3FC200D1F680 from "/public/openmoji/1F9D1-1F3FC-200D-1F680.svg";
+import _1F9D11F3FD200D1F680 from "/public/openmoji/1F9D1-1F3FD-200D-1F680.svg";
+import _1F9D11F3FE200D1F680 from "/public/openmoji/1F9D1-1F3FE-200D-1F680.svg";
+import _1F9D11F3FF200D1F680 from "/public/openmoji/1F9D1-1F3FF-200D-1F680.svg";
+import _1F468200D1F680 from "/public/openmoji/1F468-200D-1F680.svg";
+import _1F4681F3FB200D1F680 from "/public/openmoji/1F468-1F3FB-200D-1F680.svg";
+import _1F4681F3FC200D1F680 from "/public/openmoji/1F468-1F3FC-200D-1F680.svg";
+import _1F4681F3FD200D1F680 from "/public/openmoji/1F468-1F3FD-200D-1F680.svg";
+import _1F4681F3FE200D1F680 from "/public/openmoji/1F468-1F3FE-200D-1F680.svg";
+import _1F4681F3FF200D1F680 from "/public/openmoji/1F468-1F3FF-200D-1F680.svg";
+import _1F469200D1F680 from "/public/openmoji/1F469-200D-1F680.svg";
+import _1F4691F3FB200D1F680 from "/public/openmoji/1F469-1F3FB-200D-1F680.svg";
+import _1F4691F3FC200D1F680 from "/public/openmoji/1F469-1F3FC-200D-1F680.svg";
+import _1F4691F3FD200D1F680 from "/public/openmoji/1F469-1F3FD-200D-1F680.svg";
+import _1F4691F3FE200D1F680 from "/public/openmoji/1F469-1F3FE-200D-1F680.svg";
+import _1F4691F3FF200D1F680 from "/public/openmoji/1F469-1F3FF-200D-1F680.svg";
+import _1F9D1200D1F692 from "/public/openmoji/1F9D1-200D-1F692.svg";
+import _1F9D11F3FB200D1F692 from "/public/openmoji/1F9D1-1F3FB-200D-1F692.svg";
+import _1F9D11F3FC200D1F692 from "/public/openmoji/1F9D1-1F3FC-200D-1F692.svg";
+import _1F9D11F3FD200D1F692 from "/public/openmoji/1F9D1-1F3FD-200D-1F692.svg";
+import _1F9D11F3FE200D1F692 from "/public/openmoji/1F9D1-1F3FE-200D-1F692.svg";
+import _1F9D11F3FF200D1F692 from "/public/openmoji/1F9D1-1F3FF-200D-1F692.svg";
+import _1F468200D1F692 from "/public/openmoji/1F468-200D-1F692.svg";
+import _1F4681F3FB200D1F692 from "/public/openmoji/1F468-1F3FB-200D-1F692.svg";
+import _1F4681F3FC200D1F692 from "/public/openmoji/1F468-1F3FC-200D-1F692.svg";
+import _1F4681F3FD200D1F692 from "/public/openmoji/1F468-1F3FD-200D-1F692.svg";
+import _1F4681F3FE200D1F692 from "/public/openmoji/1F468-1F3FE-200D-1F692.svg";
+import _1F4681F3FF200D1F692 from "/public/openmoji/1F468-1F3FF-200D-1F692.svg";
+import _1F469200D1F692 from "/public/openmoji/1F469-200D-1F692.svg";
+import _1F4691F3FB200D1F692 from "/public/openmoji/1F469-1F3FB-200D-1F692.svg";
+import _1F4691F3FC200D1F692 from "/public/openmoji/1F469-1F3FC-200D-1F692.svg";
+import _1F4691F3FD200D1F692 from "/public/openmoji/1F469-1F3FD-200D-1F692.svg";
+import _1F4691F3FE200D1F692 from "/public/openmoji/1F469-1F3FE-200D-1F692.svg";
+import _1F4691F3FF200D1F692 from "/public/openmoji/1F469-1F3FF-200D-1F692.svg";
+import _1F46E from "/public/openmoji/1F46E.svg";
+import _1F46E1F3FB from "/public/openmoji/1F46E-1F3FB.svg";
+import _1F46E1F3FC from "/public/openmoji/1F46E-1F3FC.svg";
+import _1F46E1F3FD from "/public/openmoji/1F46E-1F3FD.svg";
+import _1F46E1F3FE from "/public/openmoji/1F46E-1F3FE.svg";
+import _1F46E1F3FF from "/public/openmoji/1F46E-1F3FF.svg";
+import _1F46E200D2642FE0F from "/public/openmoji/1F46E-200D-2642-FE0F.svg";
+import _1F46E1F3FB200D2642FE0F from "/public/openmoji/1F46E-1F3FB-200D-2642-FE0F.svg";
+import _1F46E1F3FC200D2642FE0F from "/public/openmoji/1F46E-1F3FC-200D-2642-FE0F.svg";
+import _1F46E1F3FD200D2642FE0F from "/public/openmoji/1F46E-1F3FD-200D-2642-FE0F.svg";
+import _1F46E1F3FE200D2642FE0F from "/public/openmoji/1F46E-1F3FE-200D-2642-FE0F.svg";
+import _1F46E1F3FF200D2642FE0F from "/public/openmoji/1F46E-1F3FF-200D-2642-FE0F.svg";
+import _1F46E200D2640FE0F from "/public/openmoji/1F46E-200D-2640-FE0F.svg";
+import _1F46E1F3FB200D2640FE0F from "/public/openmoji/1F46E-1F3FB-200D-2640-FE0F.svg";
+import _1F46E1F3FC200D2640FE0F from "/public/openmoji/1F46E-1F3FC-200D-2640-FE0F.svg";
+import _1F46E1F3FD200D2640FE0F from "/public/openmoji/1F46E-1F3FD-200D-2640-FE0F.svg";
+import _1F46E1F3FE200D2640FE0F from "/public/openmoji/1F46E-1F3FE-200D-2640-FE0F.svg";
+import _1F46E1F3FF200D2640FE0F from "/public/openmoji/1F46E-1F3FF-200D-2640-FE0F.svg";
+import _1F575 from "/public/openmoji/1F575.svg";
+import _1F5751F3FB from "/public/openmoji/1F575-1F3FB.svg";
+import _1F5751F3FC from "/public/openmoji/1F575-1F3FC.svg";
+import _1F5751F3FD from "/public/openmoji/1F575-1F3FD.svg";
+import _1F5751F3FE from "/public/openmoji/1F575-1F3FE.svg";
+import _1F5751F3FF from "/public/openmoji/1F575-1F3FF.svg";
+import _1F575FE0F200D2642FE0F from "/public/openmoji/1F575-FE0F-200D-2642-FE0F.svg";
+import _1F5751F3FB200D2642FE0F from "/public/openmoji/1F575-1F3FB-200D-2642-FE0F.svg";
+import _1F5751F3FC200D2642FE0F from "/public/openmoji/1F575-1F3FC-200D-2642-FE0F.svg";
+import _1F5751F3FD200D2642FE0F from "/public/openmoji/1F575-1F3FD-200D-2642-FE0F.svg";
+import _1F5751F3FE200D2642FE0F from "/public/openmoji/1F575-1F3FE-200D-2642-FE0F.svg";
+import _1F5751F3FF200D2642FE0F from "/public/openmoji/1F575-1F3FF-200D-2642-FE0F.svg";
+import _1F575FE0F200D2640FE0F from "/public/openmoji/1F575-FE0F-200D-2640-FE0F.svg";
+import _1F5751F3FB200D2640FE0F from "/public/openmoji/1F575-1F3FB-200D-2640-FE0F.svg";
+import _1F5751F3FC200D2640FE0F from "/public/openmoji/1F575-1F3FC-200D-2640-FE0F.svg";
+import _1F5751F3FD200D2640FE0F from "/public/openmoji/1F575-1F3FD-200D-2640-FE0F.svg";
+import _1F5751F3FE200D2640FE0F from "/public/openmoji/1F575-1F3FE-200D-2640-FE0F.svg";
+import _1F5751F3FF200D2640FE0F from "/public/openmoji/1F575-1F3FF-200D-2640-FE0F.svg";
+import _1F482 from "/public/openmoji/1F482.svg";
+import _1F4821F3FB from "/public/openmoji/1F482-1F3FB.svg";
+import _1F4821F3FC from "/public/openmoji/1F482-1F3FC.svg";
+import _1F4821F3FD from "/public/openmoji/1F482-1F3FD.svg";
+import _1F4821F3FE from "/public/openmoji/1F482-1F3FE.svg";
+import _1F4821F3FF from "/public/openmoji/1F482-1F3FF.svg";
+import _1F482200D2642FE0F from "/public/openmoji/1F482-200D-2642-FE0F.svg";
+import _1F4821F3FB200D2642FE0F from "/public/openmoji/1F482-1F3FB-200D-2642-FE0F.svg";
+import _1F4821F3FC200D2642FE0F from "/public/openmoji/1F482-1F3FC-200D-2642-FE0F.svg";
+import _1F4821F3FD200D2642FE0F from "/public/openmoji/1F482-1F3FD-200D-2642-FE0F.svg";
+import _1F4821F3FE200D2642FE0F from "/public/openmoji/1F482-1F3FE-200D-2642-FE0F.svg";
+import _1F4821F3FF200D2642FE0F from "/public/openmoji/1F482-1F3FF-200D-2642-FE0F.svg";
+import _1F482200D2640FE0F from "/public/openmoji/1F482-200D-2640-FE0F.svg";
+import _1F4821F3FB200D2640FE0F from "/public/openmoji/1F482-1F3FB-200D-2640-FE0F.svg";
+import _1F4821F3FC200D2640FE0F from "/public/openmoji/1F482-1F3FC-200D-2640-FE0F.svg";
+import _1F4821F3FD200D2640FE0F from "/public/openmoji/1F482-1F3FD-200D-2640-FE0F.svg";
+import _1F4821F3FE200D2640FE0F from "/public/openmoji/1F482-1F3FE-200D-2640-FE0F.svg";
+import _1F4821F3FF200D2640FE0F from "/public/openmoji/1F482-1F3FF-200D-2640-FE0F.svg";
+import _1F977 from "/public/openmoji/1F977.svg";
+import _1F9771F3FB from "/public/openmoji/1F977-1F3FB.svg";
+import _1F9771F3FC from "/public/openmoji/1F977-1F3FC.svg";
+import _1F9771F3FD from "/public/openmoji/1F977-1F3FD.svg";
+import _1F9771F3FE from "/public/openmoji/1F977-1F3FE.svg";
+import _1F9771F3FF from "/public/openmoji/1F977-1F3FF.svg";
+import _1F477 from "/public/openmoji/1F477.svg";
+import _1F4771F3FB from "/public/openmoji/1F477-1F3FB.svg";
+import _1F4771F3FC from "/public/openmoji/1F477-1F3FC.svg";
+import _1F4771F3FD from "/public/openmoji/1F477-1F3FD.svg";
+import _1F4771F3FE from "/public/openmoji/1F477-1F3FE.svg";
+import _1F4771F3FF from "/public/openmoji/1F477-1F3FF.svg";
+import _1F477200D2642FE0F from "/public/openmoji/1F477-200D-2642-FE0F.svg";
+import _1F4771F3FB200D2642FE0F from "/public/openmoji/1F477-1F3FB-200D-2642-FE0F.svg";
+import _1F4771F3FC200D2642FE0F from "/public/openmoji/1F477-1F3FC-200D-2642-FE0F.svg";
+import _1F4771F3FD200D2642FE0F from "/public/openmoji/1F477-1F3FD-200D-2642-FE0F.svg";
+import _1F4771F3FE200D2642FE0F from "/public/openmoji/1F477-1F3FE-200D-2642-FE0F.svg";
+import _1F4771F3FF200D2642FE0F from "/public/openmoji/1F477-1F3FF-200D-2642-FE0F.svg";
+import _1F477200D2640FE0F from "/public/openmoji/1F477-200D-2640-FE0F.svg";
+import _1F4771F3FB200D2640FE0F from "/public/openmoji/1F477-1F3FB-200D-2640-FE0F.svg";
+import _1F4771F3FC200D2640FE0F from "/public/openmoji/1F477-1F3FC-200D-2640-FE0F.svg";
+import _1F4771F3FD200D2640FE0F from "/public/openmoji/1F477-1F3FD-200D-2640-FE0F.svg";
+import _1F4771F3FE200D2640FE0F from "/public/openmoji/1F477-1F3FE-200D-2640-FE0F.svg";
+import _1F4771F3FF200D2640FE0F from "/public/openmoji/1F477-1F3FF-200D-2640-FE0F.svg";
+import _1FAC5 from "/public/openmoji/1FAC5.svg";
+import _1FAC51F3FB from "/public/openmoji/1FAC5-1F3FB.svg";
+import _1FAC51F3FC from "/public/openmoji/1FAC5-1F3FC.svg";
+import _1FAC51F3FD from "/public/openmoji/1FAC5-1F3FD.svg";
+import _1FAC51F3FE from "/public/openmoji/1FAC5-1F3FE.svg";
+import _1FAC51F3FF from "/public/openmoji/1FAC5-1F3FF.svg";
+import _1F934 from "/public/openmoji/1F934.svg";
+import _1F9341F3FB from "/public/openmoji/1F934-1F3FB.svg";
+import _1F9341F3FC from "/public/openmoji/1F934-1F3FC.svg";
+import _1F9341F3FD from "/public/openmoji/1F934-1F3FD.svg";
+import _1F9341F3FE from "/public/openmoji/1F934-1F3FE.svg";
+import _1F9341F3FF from "/public/openmoji/1F934-1F3FF.svg";
+import _1F478 from "/public/openmoji/1F478.svg";
+import _1F4781F3FB from "/public/openmoji/1F478-1F3FB.svg";
+import _1F4781F3FC from "/public/openmoji/1F478-1F3FC.svg";
+import _1F4781F3FD from "/public/openmoji/1F478-1F3FD.svg";
+import _1F4781F3FE from "/public/openmoji/1F478-1F3FE.svg";
+import _1F4781F3FF from "/public/openmoji/1F478-1F3FF.svg";
+import _1F473 from "/public/openmoji/1F473.svg";
+import _1F4731F3FB from "/public/openmoji/1F473-1F3FB.svg";
+import _1F4731F3FC from "/public/openmoji/1F473-1F3FC.svg";
+import _1F4731F3FD from "/public/openmoji/1F473-1F3FD.svg";
+import _1F4731F3FE from "/public/openmoji/1F473-1F3FE.svg";
+import _1F4731F3FF from "/public/openmoji/1F473-1F3FF.svg";
+import _1F473200D2642FE0F from "/public/openmoji/1F473-200D-2642-FE0F.svg";
+import _1F4731F3FB200D2642FE0F from "/public/openmoji/1F473-1F3FB-200D-2642-FE0F.svg";
+import _1F4731F3FC200D2642FE0F from "/public/openmoji/1F473-1F3FC-200D-2642-FE0F.svg";
+import _1F4731F3FD200D2642FE0F from "/public/openmoji/1F473-1F3FD-200D-2642-FE0F.svg";
+import _1F4731F3FE200D2642FE0F from "/public/openmoji/1F473-1F3FE-200D-2642-FE0F.svg";
+import _1F4731F3FF200D2642FE0F from "/public/openmoji/1F473-1F3FF-200D-2642-FE0F.svg";
+import _1F473200D2640FE0F from "/public/openmoji/1F473-200D-2640-FE0F.svg";
+import _1F4731F3FB200D2640FE0F from "/public/openmoji/1F473-1F3FB-200D-2640-FE0F.svg";
+import _1F4731F3FC200D2640FE0F from "/public/openmoji/1F473-1F3FC-200D-2640-FE0F.svg";
+import _1F4731F3FD200D2640FE0F from "/public/openmoji/1F473-1F3FD-200D-2640-FE0F.svg";
+import _1F4731F3FE200D2640FE0F from "/public/openmoji/1F473-1F3FE-200D-2640-FE0F.svg";
+import _1F4731F3FF200D2640FE0F from "/public/openmoji/1F473-1F3FF-200D-2640-FE0F.svg";
+import _1F472 from "/public/openmoji/1F472.svg";
+import _1F4721F3FB from "/public/openmoji/1F472-1F3FB.svg";
+import _1F4721F3FC from "/public/openmoji/1F472-1F3FC.svg";
+import _1F4721F3FD from "/public/openmoji/1F472-1F3FD.svg";
+import _1F4721F3FE from "/public/openmoji/1F472-1F3FE.svg";
+import _1F4721F3FF from "/public/openmoji/1F472-1F3FF.svg";
+import _1F9D5 from "/public/openmoji/1F9D5.svg";
+import _1F9D51F3FB from "/public/openmoji/1F9D5-1F3FB.svg";
+import _1F9D51F3FC from "/public/openmoji/1F9D5-1F3FC.svg";
+import _1F9D51F3FD from "/public/openmoji/1F9D5-1F3FD.svg";
+import _1F9D51F3FE from "/public/openmoji/1F9D5-1F3FE.svg";
+import _1F9D51F3FF from "/public/openmoji/1F9D5-1F3FF.svg";
+import _1F935 from "/public/openmoji/1F935.svg";
+import _1F9351F3FB from "/public/openmoji/1F935-1F3FB.svg";
+import _1F9351F3FC from "/public/openmoji/1F935-1F3FC.svg";
+import _1F9351F3FD from "/public/openmoji/1F935-1F3FD.svg";
+import _1F9351F3FE from "/public/openmoji/1F935-1F3FE.svg";
+import _1F9351F3FF from "/public/openmoji/1F935-1F3FF.svg";
+import _1F935200D2642FE0F from "/public/openmoji/1F935-200D-2642-FE0F.svg";
+import _1F9351F3FB200D2642FE0F from "/public/openmoji/1F935-1F3FB-200D-2642-FE0F.svg";
+import _1F9351F3FC200D2642FE0F from "/public/openmoji/1F935-1F3FC-200D-2642-FE0F.svg";
+import _1F9351F3FD200D2642FE0F from "/public/openmoji/1F935-1F3FD-200D-2642-FE0F.svg";
+import _1F9351F3FE200D2642FE0F from "/public/openmoji/1F935-1F3FE-200D-2642-FE0F.svg";
+import _1F9351F3FF200D2642FE0F from "/public/openmoji/1F935-1F3FF-200D-2642-FE0F.svg";
+import _1F935200D2640FE0F from "/public/openmoji/1F935-200D-2640-FE0F.svg";
+import _1F9351F3FB200D2640FE0F from "/public/openmoji/1F935-1F3FB-200D-2640-FE0F.svg";
+import _1F9351F3FC200D2640FE0F from "/public/openmoji/1F935-1F3FC-200D-2640-FE0F.svg";
+import _1F9351F3FD200D2640FE0F from "/public/openmoji/1F935-1F3FD-200D-2640-FE0F.svg";
+import _1F9351F3FE200D2640FE0F from "/public/openmoji/1F935-1F3FE-200D-2640-FE0F.svg";
+import _1F9351F3FF200D2640FE0F from "/public/openmoji/1F935-1F3FF-200D-2640-FE0F.svg";
+import _1F470 from "/public/openmoji/1F470.svg";
+import _1F4701F3FB from "/public/openmoji/1F470-1F3FB.svg";
+import _1F4701F3FC from "/public/openmoji/1F470-1F3FC.svg";
+import _1F4701F3FD from "/public/openmoji/1F470-1F3FD.svg";
+import _1F4701F3FE from "/public/openmoji/1F470-1F3FE.svg";
+import _1F4701F3FF from "/public/openmoji/1F470-1F3FF.svg";
+import _1F470200D2642FE0F from "/public/openmoji/1F470-200D-2642-FE0F.svg";
+import _1F4701F3FB200D2642FE0F from "/public/openmoji/1F470-1F3FB-200D-2642-FE0F.svg";
+import _1F4701F3FC200D2642FE0F from "/public/openmoji/1F470-1F3FC-200D-2642-FE0F.svg";
+import _1F4701F3FD200D2642FE0F from "/public/openmoji/1F470-1F3FD-200D-2642-FE0F.svg";
+import _1F4701F3FE200D2642FE0F from "/public/openmoji/1F470-1F3FE-200D-2642-FE0F.svg";
+import _1F4701F3FF200D2642FE0F from "/public/openmoji/1F470-1F3FF-200D-2642-FE0F.svg";
+import _1F470200D2640FE0F from "/public/openmoji/1F470-200D-2640-FE0F.svg";
+import _1F4701F3FB200D2640FE0F from "/public/openmoji/1F470-1F3FB-200D-2640-FE0F.svg";
+import _1F4701F3FC200D2640FE0F from "/public/openmoji/1F470-1F3FC-200D-2640-FE0F.svg";
+import _1F4701F3FD200D2640FE0F from "/public/openmoji/1F470-1F3FD-200D-2640-FE0F.svg";
+import _1F4701F3FE200D2640FE0F from "/public/openmoji/1F470-1F3FE-200D-2640-FE0F.svg";
+import _1F4701F3FF200D2640FE0F from "/public/openmoji/1F470-1F3FF-200D-2640-FE0F.svg";
+import _1F930 from "/public/openmoji/1F930.svg";
+import _1F9301F3FB from "/public/openmoji/1F930-1F3FB.svg";
+import _1F9301F3FC from "/public/openmoji/1F930-1F3FC.svg";
+import _1F9301F3FD from "/public/openmoji/1F930-1F3FD.svg";
+import _1F9301F3FE from "/public/openmoji/1F930-1F3FE.svg";
+import _1F9301F3FF from "/public/openmoji/1F930-1F3FF.svg";
+import _1FAC3 from "/public/openmoji/1FAC3.svg";
+import _1FAC31F3FB from "/public/openmoji/1FAC3-1F3FB.svg";
+import _1FAC31F3FC from "/public/openmoji/1FAC3-1F3FC.svg";
+import _1FAC31F3FD from "/public/openmoji/1FAC3-1F3FD.svg";
+import _1FAC31F3FE from "/public/openmoji/1FAC3-1F3FE.svg";
+import _1FAC31F3FF from "/public/openmoji/1FAC3-1F3FF.svg";
+import _1FAC4 from "/public/openmoji/1FAC4.svg";
+import _1FAC41F3FB from "/public/openmoji/1FAC4-1F3FB.svg";
+import _1FAC41F3FC from "/public/openmoji/1FAC4-1F3FC.svg";
+import _1FAC41F3FD from "/public/openmoji/1FAC4-1F3FD.svg";
+import _1FAC41F3FE from "/public/openmoji/1FAC4-1F3FE.svg";
+import _1FAC41F3FF from "/public/openmoji/1FAC4-1F3FF.svg";
+import _1F931 from "/public/openmoji/1F931.svg";
+import _1F9311F3FB from "/public/openmoji/1F931-1F3FB.svg";
+import _1F9311F3FC from "/public/openmoji/1F931-1F3FC.svg";
+import _1F9311F3FD from "/public/openmoji/1F931-1F3FD.svg";
+import _1F9311F3FE from "/public/openmoji/1F931-1F3FE.svg";
+import _1F9311F3FF from "/public/openmoji/1F931-1F3FF.svg";
+import _1F469200D1F37C from "/public/openmoji/1F469-200D-1F37C.svg";
+import _1F4691F3FB200D1F37C from "/public/openmoji/1F469-1F3FB-200D-1F37C.svg";
+import _1F4691F3FC200D1F37C from "/public/openmoji/1F469-1F3FC-200D-1F37C.svg";
+import _1F4691F3FD200D1F37C from "/public/openmoji/1F469-1F3FD-200D-1F37C.svg";
+import _1F4691F3FE200D1F37C from "/public/openmoji/1F469-1F3FE-200D-1F37C.svg";
+import _1F4691F3FF200D1F37C from "/public/openmoji/1F469-1F3FF-200D-1F37C.svg";
+import _1F468200D1F37C from "/public/openmoji/1F468-200D-1F37C.svg";
+import _1F4681F3FB200D1F37C from "/public/openmoji/1F468-1F3FB-200D-1F37C.svg";
+import _1F4681F3FC200D1F37C from "/public/openmoji/1F468-1F3FC-200D-1F37C.svg";
+import _1F4681F3FD200D1F37C from "/public/openmoji/1F468-1F3FD-200D-1F37C.svg";
+import _1F4681F3FE200D1F37C from "/public/openmoji/1F468-1F3FE-200D-1F37C.svg";
+import _1F4681F3FF200D1F37C from "/public/openmoji/1F468-1F3FF-200D-1F37C.svg";
+import _1F9D1200D1F37C from "/public/openmoji/1F9D1-200D-1F37C.svg";
+import _1F9D11F3FB200D1F37C from "/public/openmoji/1F9D1-1F3FB-200D-1F37C.svg";
+import _1F9D11F3FC200D1F37C from "/public/openmoji/1F9D1-1F3FC-200D-1F37C.svg";
+import _1F9D11F3FD200D1F37C from "/public/openmoji/1F9D1-1F3FD-200D-1F37C.svg";
+import _1F9D11F3FE200D1F37C from "/public/openmoji/1F9D1-1F3FE-200D-1F37C.svg";
+import _1F9D11F3FF200D1F37C from "/public/openmoji/1F9D1-1F3FF-200D-1F37C.svg";
+import _1F47C from "/public/openmoji/1F47C.svg";
+import _1F47C1F3FB from "/public/openmoji/1F47C-1F3FB.svg";
+import _1F47C1F3FC from "/public/openmoji/1F47C-1F3FC.svg";
+import _1F47C1F3FD from "/public/openmoji/1F47C-1F3FD.svg";
+import _1F47C1F3FE from "/public/openmoji/1F47C-1F3FE.svg";
+import _1F47C1F3FF from "/public/openmoji/1F47C-1F3FF.svg";
+import _1F385 from "/public/openmoji/1F385.svg";
+import _1F3851F3FB from "/public/openmoji/1F385-1F3FB.svg";
+import _1F3851F3FC from "/public/openmoji/1F385-1F3FC.svg";
+import _1F3851F3FD from "/public/openmoji/1F385-1F3FD.svg";
+import _1F3851F3FE from "/public/openmoji/1F385-1F3FE.svg";
+import _1F3851F3FF from "/public/openmoji/1F385-1F3FF.svg";
+import _1F936 from "/public/openmoji/1F936.svg";
+import _1F9361F3FB from "/public/openmoji/1F936-1F3FB.svg";
+import _1F9361F3FC from "/public/openmoji/1F936-1F3FC.svg";
+import _1F9361F3FD from "/public/openmoji/1F936-1F3FD.svg";
+import _1F9361F3FE from "/public/openmoji/1F936-1F3FE.svg";
+import _1F9361F3FF from "/public/openmoji/1F936-1F3FF.svg";
+import _1F9D1200D1F384 from "/public/openmoji/1F9D1-200D-1F384.svg";
+import _1F9D11F3FB200D1F384 from "/public/openmoji/1F9D1-1F3FB-200D-1F384.svg";
+import _1F9D11F3FC200D1F384 from "/public/openmoji/1F9D1-1F3FC-200D-1F384.svg";
+import _1F9D11F3FD200D1F384 from "/public/openmoji/1F9D1-1F3FD-200D-1F384.svg";
+import _1F9D11F3FE200D1F384 from "/public/openmoji/1F9D1-1F3FE-200D-1F384.svg";
+import _1F9D11F3FF200D1F384 from "/public/openmoji/1F9D1-1F3FF-200D-1F384.svg";
+import _1F9B8 from "/public/openmoji/1F9B8.svg";
+import _1F9B81F3FB from "/public/openmoji/1F9B8-1F3FB.svg";
+import _1F9B81F3FC from "/public/openmoji/1F9B8-1F3FC.svg";
+import _1F9B81F3FD from "/public/openmoji/1F9B8-1F3FD.svg";
+import _1F9B81F3FE from "/public/openmoji/1F9B8-1F3FE.svg";
+import _1F9B81F3FF from "/public/openmoji/1F9B8-1F3FF.svg";
+import _1F9B8200D2642FE0F from "/public/openmoji/1F9B8-200D-2642-FE0F.svg";
+import _1F9B81F3FB200D2642FE0F from "/public/openmoji/1F9B8-1F3FB-200D-2642-FE0F.svg";
+import _1F9B81F3FC200D2642FE0F from "/public/openmoji/1F9B8-1F3FC-200D-2642-FE0F.svg";
+import _1F9B81F3FD200D2642FE0F from "/public/openmoji/1F9B8-1F3FD-200D-2642-FE0F.svg";
+import _1F9B81F3FE200D2642FE0F from "/public/openmoji/1F9B8-1F3FE-200D-2642-FE0F.svg";
+import _1F9B81F3FF200D2642FE0F from "/public/openmoji/1F9B8-1F3FF-200D-2642-FE0F.svg";
+import _1F9B8200D2640FE0F from "/public/openmoji/1F9B8-200D-2640-FE0F.svg";
+import _1F9B81F3FB200D2640FE0F from "/public/openmoji/1F9B8-1F3FB-200D-2640-FE0F.svg";
+import _1F9B81F3FC200D2640FE0F from "/public/openmoji/1F9B8-1F3FC-200D-2640-FE0F.svg";
+import _1F9B81F3FD200D2640FE0F from "/public/openmoji/1F9B8-1F3FD-200D-2640-FE0F.svg";
+import _1F9B81F3FE200D2640FE0F from "/public/openmoji/1F9B8-1F3FE-200D-2640-FE0F.svg";
+import _1F9B81F3FF200D2640FE0F from "/public/openmoji/1F9B8-1F3FF-200D-2640-FE0F.svg";
+import _1F9B9 from "/public/openmoji/1F9B9.svg";
+import _1F9B91F3FB from "/public/openmoji/1F9B9-1F3FB.svg";
+import _1F9B91F3FC from "/public/openmoji/1F9B9-1F3FC.svg";
+import _1F9B91F3FD from "/public/openmoji/1F9B9-1F3FD.svg";
+import _1F9B91F3FE from "/public/openmoji/1F9B9-1F3FE.svg";
+import _1F9B91F3FF from "/public/openmoji/1F9B9-1F3FF.svg";
+import _1F9B9200D2642FE0F from "/public/openmoji/1F9B9-200D-2642-FE0F.svg";
+import _1F9B91F3FB200D2642FE0F from "/public/openmoji/1F9B9-1F3FB-200D-2642-FE0F.svg";
+import _1F9B91F3FC200D2642FE0F from "/public/openmoji/1F9B9-1F3FC-200D-2642-FE0F.svg";
+import _1F9B91F3FD200D2642FE0F from "/public/openmoji/1F9B9-1F3FD-200D-2642-FE0F.svg";
+import _1F9B91F3FE200D2642FE0F from "/public/openmoji/1F9B9-1F3FE-200D-2642-FE0F.svg";
+import _1F9B91F3FF200D2642FE0F from "/public/openmoji/1F9B9-1F3FF-200D-2642-FE0F.svg";
+import _1F9B9200D2640FE0F from "/public/openmoji/1F9B9-200D-2640-FE0F.svg";
+import _1F9B91F3FB200D2640FE0F from "/public/openmoji/1F9B9-1F3FB-200D-2640-FE0F.svg";
+import _1F9B91F3FC200D2640FE0F from "/public/openmoji/1F9B9-1F3FC-200D-2640-FE0F.svg";
+import _1F9B91F3FD200D2640FE0F from "/public/openmoji/1F9B9-1F3FD-200D-2640-FE0F.svg";
+import _1F9B91F3FE200D2640FE0F from "/public/openmoji/1F9B9-1F3FE-200D-2640-FE0F.svg";
+import _1F9B91F3FF200D2640FE0F from "/public/openmoji/1F9B9-1F3FF-200D-2640-FE0F.svg";
+import _1F9D9 from "/public/openmoji/1F9D9.svg";
+import _1F9D91F3FB from "/public/openmoji/1F9D9-1F3FB.svg";
+import _1F9D91F3FC from "/public/openmoji/1F9D9-1F3FC.svg";
+import _1F9D91F3FD from "/public/openmoji/1F9D9-1F3FD.svg";
+import _1F9D91F3FE from "/public/openmoji/1F9D9-1F3FE.svg";
+import _1F9D91F3FF from "/public/openmoji/1F9D9-1F3FF.svg";
+import _1F9D9200D2642FE0F from "/public/openmoji/1F9D9-200D-2642-FE0F.svg";
+import _1F9D91F3FB200D2642FE0F from "/public/openmoji/1F9D9-1F3FB-200D-2642-FE0F.svg";
+import _1F9D91F3FC200D2642FE0F from "/public/openmoji/1F9D9-1F3FC-200D-2642-FE0F.svg";
+import _1F9D91F3FD200D2642FE0F from "/public/openmoji/1F9D9-1F3FD-200D-2642-FE0F.svg";
+import _1F9D91F3FE200D2642FE0F from "/public/openmoji/1F9D9-1F3FE-200D-2642-FE0F.svg";
+import _1F9D91F3FF200D2642FE0F from "/public/openmoji/1F9D9-1F3FF-200D-2642-FE0F.svg";
+import _1F9D9200D2640FE0F from "/public/openmoji/1F9D9-200D-2640-FE0F.svg";
+import _1F9D91F3FB200D2640FE0F from "/public/openmoji/1F9D9-1F3FB-200D-2640-FE0F.svg";
+import _1F9D91F3FC200D2640FE0F from "/public/openmoji/1F9D9-1F3FC-200D-2640-FE0F.svg";
+import _1F9D91F3FD200D2640FE0F from "/public/openmoji/1F9D9-1F3FD-200D-2640-FE0F.svg";
+import _1F9D91F3FE200D2640FE0F from "/public/openmoji/1F9D9-1F3FE-200D-2640-FE0F.svg";
+import _1F9D91F3FF200D2640FE0F from "/public/openmoji/1F9D9-1F3FF-200D-2640-FE0F.svg";
+import _1F9DA from "/public/openmoji/1F9DA.svg";
+import _1F9DA1F3FB from "/public/openmoji/1F9DA-1F3FB.svg";
+import _1F9DA1F3FC from "/public/openmoji/1F9DA-1F3FC.svg";
+import _1F9DA1F3FD from "/public/openmoji/1F9DA-1F3FD.svg";
+import _1F9DA1F3FE from "/public/openmoji/1F9DA-1F3FE.svg";
+import _1F9DA1F3FF from "/public/openmoji/1F9DA-1F3FF.svg";
+import _1F9DA200D2642FE0F from "/public/openmoji/1F9DA-200D-2642-FE0F.svg";
+import _1F9DA1F3FB200D2642FE0F from "/public/openmoji/1F9DA-1F3FB-200D-2642-FE0F.svg";
+import _1F9DA1F3FC200D2642FE0F from "/public/openmoji/1F9DA-1F3FC-200D-2642-FE0F.svg";
+import _1F9DA1F3FD200D2642FE0F from "/public/openmoji/1F9DA-1F3FD-200D-2642-FE0F.svg";
+import _1F9DA1F3FE200D2642FE0F from "/public/openmoji/1F9DA-1F3FE-200D-2642-FE0F.svg";
+import _1F9DA1F3FF200D2642FE0F from "/public/openmoji/1F9DA-1F3FF-200D-2642-FE0F.svg";
+import _1F9DA200D2640FE0F from "/public/openmoji/1F9DA-200D-2640-FE0F.svg";
+import _1F9DA1F3FB200D2640FE0F from "/public/openmoji/1F9DA-1F3FB-200D-2640-FE0F.svg";
+import _1F9DA1F3FC200D2640FE0F from "/public/openmoji/1F9DA-1F3FC-200D-2640-FE0F.svg";
+import _1F9DA1F3FD200D2640FE0F from "/public/openmoji/1F9DA-1F3FD-200D-2640-FE0F.svg";
+import _1F9DA1F3FE200D2640FE0F from "/public/openmoji/1F9DA-1F3FE-200D-2640-FE0F.svg";
+import _1F9DA1F3FF200D2640FE0F from "/public/openmoji/1F9DA-1F3FF-200D-2640-FE0F.svg";
+import _1F9DB from "/public/openmoji/1F9DB.svg";
+import _1F9DB1F3FB from "/public/openmoji/1F9DB-1F3FB.svg";
+import _1F9DB1F3FC from "/public/openmoji/1F9DB-1F3FC.svg";
+import _1F9DB1F3FD from "/public/openmoji/1F9DB-1F3FD.svg";
+import _1F9DB1F3FE from "/public/openmoji/1F9DB-1F3FE.svg";
+import _1F9DB1F3FF from "/public/openmoji/1F9DB-1F3FF.svg";
+import _1F9DB200D2642FE0F from "/public/openmoji/1F9DB-200D-2642-FE0F.svg";
+import _1F9DB1F3FB200D2642FE0F from "/public/openmoji/1F9DB-1F3FB-200D-2642-FE0F.svg";
+import _1F9DB1F3FC200D2642FE0F from "/public/openmoji/1F9DB-1F3FC-200D-2642-FE0F.svg";
+import _1F9DB1F3FD200D2642FE0F from "/public/openmoji/1F9DB-1F3FD-200D-2642-FE0F.svg";
+import _1F9DB1F3FE200D2642FE0F from "/public/openmoji/1F9DB-1F3FE-200D-2642-FE0F.svg";
+import _1F9DB1F3FF200D2642FE0F from "/public/openmoji/1F9DB-1F3FF-200D-2642-FE0F.svg";
+import _1F9DB200D2640FE0F from "/public/openmoji/1F9DB-200D-2640-FE0F.svg";
+import _1F9DB1F3FB200D2640FE0F from "/public/openmoji/1F9DB-1F3FB-200D-2640-FE0F.svg";
+import _1F9DB1F3FC200D2640FE0F from "/public/openmoji/1F9DB-1F3FC-200D-2640-FE0F.svg";
+import _1F9DB1F3FD200D2640FE0F from "/public/openmoji/1F9DB-1F3FD-200D-2640-FE0F.svg";
+import _1F9DB1F3FE200D2640FE0F from "/public/openmoji/1F9DB-1F3FE-200D-2640-FE0F.svg";
+import _1F9DB1F3FF200D2640FE0F from "/public/openmoji/1F9DB-1F3FF-200D-2640-FE0F.svg";
+import _1F9DC from "/public/openmoji/1F9DC.svg";
+import _1F9DC1F3FB from "/public/openmoji/1F9DC-1F3FB.svg";
+import _1F9DC1F3FC from "/public/openmoji/1F9DC-1F3FC.svg";
+import _1F9DC1F3FD from "/public/openmoji/1F9DC-1F3FD.svg";
+import _1F9DC1F3FE from "/public/openmoji/1F9DC-1F3FE.svg";
+import _1F9DC1F3FF from "/public/openmoji/1F9DC-1F3FF.svg";
+import _1F9DC200D2642FE0F from "/public/openmoji/1F9DC-200D-2642-FE0F.svg";
+import _1F9DC1F3FB200D2642FE0F from "/public/openmoji/1F9DC-1F3FB-200D-2642-FE0F.svg";
+import _1F9DC1F3FC200D2642FE0F from "/public/openmoji/1F9DC-1F3FC-200D-2642-FE0F.svg";
+import _1F9DC1F3FD200D2642FE0F from "/public/openmoji/1F9DC-1F3FD-200D-2642-FE0F.svg";
+import _1F9DC1F3FE200D2642FE0F from "/public/openmoji/1F9DC-1F3FE-200D-2642-FE0F.svg";
+import _1F9DC1F3FF200D2642FE0F from "/public/openmoji/1F9DC-1F3FF-200D-2642-FE0F.svg";
+import _1F9DC200D2640FE0F from "/public/openmoji/1F9DC-200D-2640-FE0F.svg";
+import _1F9DC1F3FB200D2640FE0F from "/public/openmoji/1F9DC-1F3FB-200D-2640-FE0F.svg";
+import _1F9DC1F3FC200D2640FE0F from "/public/openmoji/1F9DC-1F3FC-200D-2640-FE0F.svg";
+import _1F9DC1F3FD200D2640FE0F from "/public/openmoji/1F9DC-1F3FD-200D-2640-FE0F.svg";
+import _1F9DC1F3FE200D2640FE0F from "/public/openmoji/1F9DC-1F3FE-200D-2640-FE0F.svg";
+import _1F9DC1F3FF200D2640FE0F from "/public/openmoji/1F9DC-1F3FF-200D-2640-FE0F.svg";
+import _1F9DD from "/public/openmoji/1F9DD.svg";
+import _1F9DD1F3FB from "/public/openmoji/1F9DD-1F3FB.svg";
+import _1F9DD1F3FC from "/public/openmoji/1F9DD-1F3FC.svg";
+import _1F9DD1F3FD from "/public/openmoji/1F9DD-1F3FD.svg";
+import _1F9DD1F3FE from "/public/openmoji/1F9DD-1F3FE.svg";
+import _1F9DD1F3FF from "/public/openmoji/1F9DD-1F3FF.svg";
+import _1F9DD200D2642FE0F from "/public/openmoji/1F9DD-200D-2642-FE0F.svg";
+import _1F9DD1F3FB200D2642FE0F from "/public/openmoji/1F9DD-1F3FB-200D-2642-FE0F.svg";
+import _1F9DD1F3FC200D2642FE0F from "/public/openmoji/1F9DD-1F3FC-200D-2642-FE0F.svg";
+import _1F9DD1F3FD200D2642FE0F from "/public/openmoji/1F9DD-1F3FD-200D-2642-FE0F.svg";
+import _1F9DD1F3FE200D2642FE0F from "/public/openmoji/1F9DD-1F3FE-200D-2642-FE0F.svg";
+import _1F9DD1F3FF200D2642FE0F from "/public/openmoji/1F9DD-1F3FF-200D-2642-FE0F.svg";
+import _1F9DD200D2640FE0F from "/public/openmoji/1F9DD-200D-2640-FE0F.svg";
+import _1F9DD1F3FB200D2640FE0F from "/public/openmoji/1F9DD-1F3FB-200D-2640-FE0F.svg";
+import _1F9DD1F3FC200D2640FE0F from "/public/openmoji/1F9DD-1F3FC-200D-2640-FE0F.svg";
+import _1F9DD1F3FD200D2640FE0F from "/public/openmoji/1F9DD-1F3FD-200D-2640-FE0F.svg";
+import _1F9DD1F3FE200D2640FE0F from "/public/openmoji/1F9DD-1F3FE-200D-2640-FE0F.svg";
+import _1F9DD1F3FF200D2640FE0F from "/public/openmoji/1F9DD-1F3FF-200D-2640-FE0F.svg";
+import _1F9DE from "/public/openmoji/1F9DE.svg";
+import _1F9DE200D2642FE0F from "/public/openmoji/1F9DE-200D-2642-FE0F.svg";
+import _1F9DE200D2640FE0F from "/public/openmoji/1F9DE-200D-2640-FE0F.svg";
+import _1F9DF from "/public/openmoji/1F9DF.svg";
+import _1F9DF200D2642FE0F from "/public/openmoji/1F9DF-200D-2642-FE0F.svg";
+import _1F9DF200D2640FE0F from "/public/openmoji/1F9DF-200D-2640-FE0F.svg";
+import _1F9CC from "/public/openmoji/1F9CC.svg";
+import _1F486 from "/public/openmoji/1F486.svg";
+import _1F4861F3FB from "/public/openmoji/1F486-1F3FB.svg";
+import _1F4861F3FC from "/public/openmoji/1F486-1F3FC.svg";
+import _1F4861F3FD from "/public/openmoji/1F486-1F3FD.svg";
+import _1F4861F3FE from "/public/openmoji/1F486-1F3FE.svg";
+import _1F4861F3FF from "/public/openmoji/1F486-1F3FF.svg";
+import _1F486200D2642FE0F from "/public/openmoji/1F486-200D-2642-FE0F.svg";
+import _1F4861F3FB200D2642FE0F from "/public/openmoji/1F486-1F3FB-200D-2642-FE0F.svg";
+import _1F4861F3FC200D2642FE0F from "/public/openmoji/1F486-1F3FC-200D-2642-FE0F.svg";
+import _1F4861F3FD200D2642FE0F from "/public/openmoji/1F486-1F3FD-200D-2642-FE0F.svg";
+import _1F4861F3FE200D2642FE0F from "/public/openmoji/1F486-1F3FE-200D-2642-FE0F.svg";
+import _1F4861F3FF200D2642FE0F from "/public/openmoji/1F486-1F3FF-200D-2642-FE0F.svg";
+import _1F486200D2640FE0F from "/public/openmoji/1F486-200D-2640-FE0F.svg";
+import _1F4861F3FB200D2640FE0F from "/public/openmoji/1F486-1F3FB-200D-2640-FE0F.svg";
+import _1F4861F3FC200D2640FE0F from "/public/openmoji/1F486-1F3FC-200D-2640-FE0F.svg";
+import _1F4861F3FD200D2640FE0F from "/public/openmoji/1F486-1F3FD-200D-2640-FE0F.svg";
+import _1F4861F3FE200D2640FE0F from "/public/openmoji/1F486-1F3FE-200D-2640-FE0F.svg";
+import _1F4861F3FF200D2640FE0F from "/public/openmoji/1F486-1F3FF-200D-2640-FE0F.svg";
+import _1F487 from "/public/openmoji/1F487.svg";
+import _1F4871F3FB from "/public/openmoji/1F487-1F3FB.svg";
+import _1F4871F3FC from "/public/openmoji/1F487-1F3FC.svg";
+import _1F4871F3FD from "/public/openmoji/1F487-1F3FD.svg";
+import _1F4871F3FE from "/public/openmoji/1F487-1F3FE.svg";
+import _1F4871F3FF from "/public/openmoji/1F487-1F3FF.svg";
+import _1F487200D2642FE0F from "/public/openmoji/1F487-200D-2642-FE0F.svg";
+import _1F4871F3FB200D2642FE0F from "/public/openmoji/1F487-1F3FB-200D-2642-FE0F.svg";
+import _1F4871F3FC200D2642FE0F from "/public/openmoji/1F487-1F3FC-200D-2642-FE0F.svg";
+import _1F4871F3FD200D2642FE0F from "/public/openmoji/1F487-1F3FD-200D-2642-FE0F.svg";
+import _1F4871F3FE200D2642FE0F from "/public/openmoji/1F487-1F3FE-200D-2642-FE0F.svg";
+import _1F4871F3FF200D2642FE0F from "/public/openmoji/1F487-1F3FF-200D-2642-FE0F.svg";
+import _1F487200D2640FE0F from "/public/openmoji/1F487-200D-2640-FE0F.svg";
+import _1F4871F3FB200D2640FE0F from "/public/openmoji/1F487-1F3FB-200D-2640-FE0F.svg";
+import _1F4871F3FC200D2640FE0F from "/public/openmoji/1F487-1F3FC-200D-2640-FE0F.svg";
+import _1F4871F3FD200D2640FE0F from "/public/openmoji/1F487-1F3FD-200D-2640-FE0F.svg";
+import _1F4871F3FE200D2640FE0F from "/public/openmoji/1F487-1F3FE-200D-2640-FE0F.svg";
+import _1F4871F3FF200D2640FE0F from "/public/openmoji/1F487-1F3FF-200D-2640-FE0F.svg";
+import _1F6B6 from "/public/openmoji/1F6B6.svg";
+import _1F6B61F3FB from "/public/openmoji/1F6B6-1F3FB.svg";
+import _1F6B61F3FC from "/public/openmoji/1F6B6-1F3FC.svg";
+import _1F6B61F3FD from "/public/openmoji/1F6B6-1F3FD.svg";
+import _1F6B61F3FE from "/public/openmoji/1F6B6-1F3FE.svg";
+import _1F6B61F3FF from "/public/openmoji/1F6B6-1F3FF.svg";
+import _1F6B6200D2642FE0F from "/public/openmoji/1F6B6-200D-2642-FE0F.svg";
+import _1F6B61F3FB200D2642FE0F from "/public/openmoji/1F6B6-1F3FB-200D-2642-FE0F.svg";
+import _1F6B61F3FC200D2642FE0F from "/public/openmoji/1F6B6-1F3FC-200D-2642-FE0F.svg";
+import _1F6B61F3FD200D2642FE0F from "/public/openmoji/1F6B6-1F3FD-200D-2642-FE0F.svg";
+import _1F6B61F3FE200D2642FE0F from "/public/openmoji/1F6B6-1F3FE-200D-2642-FE0F.svg";
+import _1F6B61F3FF200D2642FE0F from "/public/openmoji/1F6B6-1F3FF-200D-2642-FE0F.svg";
+import _1F6B6200D2640FE0F from "/public/openmoji/1F6B6-200D-2640-FE0F.svg";
+import _1F6B61F3FB200D2640FE0F from "/public/openmoji/1F6B6-1F3FB-200D-2640-FE0F.svg";
+import _1F6B61F3FC200D2640FE0F from "/public/openmoji/1F6B6-1F3FC-200D-2640-FE0F.svg";
+import _1F6B61F3FD200D2640FE0F from "/public/openmoji/1F6B6-1F3FD-200D-2640-FE0F.svg";
+import _1F6B61F3FE200D2640FE0F from "/public/openmoji/1F6B6-1F3FE-200D-2640-FE0F.svg";
+import _1F6B61F3FF200D2640FE0F from "/public/openmoji/1F6B6-1F3FF-200D-2640-FE0F.svg";
+import _1F6B6200D27A1FE0F from "/public/openmoji/1F6B6-200D-27A1-FE0F.svg";
+import _1F6B61F3FB200D27A1FE0F from "/public/openmoji/1F6B6-1F3FB-200D-27A1-FE0F.svg";
+import _1F6B61F3FC200D27A1FE0F from "/public/openmoji/1F6B6-1F3FC-200D-27A1-FE0F.svg";
+import _1F6B61F3FD200D27A1FE0F from "/public/openmoji/1F6B6-1F3FD-200D-27A1-FE0F.svg";
+import _1F6B61F3FE200D27A1FE0F from "/public/openmoji/1F6B6-1F3FE-200D-27A1-FE0F.svg";
+import _1F6B61F3FF200D27A1FE0F from "/public/openmoji/1F6B6-1F3FF-200D-27A1-FE0F.svg";
+import _1F6B6200D2640FE0F200D27A1FE0F from "/public/openmoji/1F6B6-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FB200D2640FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FB-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FC200D2640FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FC-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FD200D2640FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FD-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FE200D2640FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FE-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FF200D2640FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FF-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F6B6200D2642FE0F200D27A1FE0F from "/public/openmoji/1F6B6-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FB200D2642FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FB-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FC200D2642FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FC-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FD200D2642FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FD-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FE200D2642FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FE-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F6B61F3FF200D2642FE0F200D27A1FE0F from "/public/openmoji/1F6B6-1F3FF-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9CD from "/public/openmoji/1F9CD.svg";
+import _1F9CD1F3FB from "/public/openmoji/1F9CD-1F3FB.svg";
+import _1F9CD1F3FC from "/public/openmoji/1F9CD-1F3FC.svg";
+import _1F9CD1F3FD from "/public/openmoji/1F9CD-1F3FD.svg";
+import _1F9CD1F3FE from "/public/openmoji/1F9CD-1F3FE.svg";
+import _1F9CD1F3FF from "/public/openmoji/1F9CD-1F3FF.svg";
+import _1F9CD200D2642FE0F from "/public/openmoji/1F9CD-200D-2642-FE0F.svg";
+import _1F9CD1F3FB200D2642FE0F from "/public/openmoji/1F9CD-1F3FB-200D-2642-FE0F.svg";
+import _1F9CD1F3FC200D2642FE0F from "/public/openmoji/1F9CD-1F3FC-200D-2642-FE0F.svg";
+import _1F9CD1F3FD200D2642FE0F from "/public/openmoji/1F9CD-1F3FD-200D-2642-FE0F.svg";
+import _1F9CD1F3FE200D2642FE0F from "/public/openmoji/1F9CD-1F3FE-200D-2642-FE0F.svg";
+import _1F9CD1F3FF200D2642FE0F from "/public/openmoji/1F9CD-1F3FF-200D-2642-FE0F.svg";
+import _1F9CD200D2640FE0F from "/public/openmoji/1F9CD-200D-2640-FE0F.svg";
+import _1F9CD1F3FB200D2640FE0F from "/public/openmoji/1F9CD-1F3FB-200D-2640-FE0F.svg";
+import _1F9CD1F3FC200D2640FE0F from "/public/openmoji/1F9CD-1F3FC-200D-2640-FE0F.svg";
+import _1F9CD1F3FD200D2640FE0F from "/public/openmoji/1F9CD-1F3FD-200D-2640-FE0F.svg";
+import _1F9CD1F3FE200D2640FE0F from "/public/openmoji/1F9CD-1F3FE-200D-2640-FE0F.svg";
+import _1F9CD1F3FF200D2640FE0F from "/public/openmoji/1F9CD-1F3FF-200D-2640-FE0F.svg";
+import _1F9CE from "/public/openmoji/1F9CE.svg";
+import _1F9CE1F3FB from "/public/openmoji/1F9CE-1F3FB.svg";
+import _1F9CE1F3FC from "/public/openmoji/1F9CE-1F3FC.svg";
+import _1F9CE1F3FD from "/public/openmoji/1F9CE-1F3FD.svg";
+import _1F9CE1F3FE from "/public/openmoji/1F9CE-1F3FE.svg";
+import _1F9CE1F3FF from "/public/openmoji/1F9CE-1F3FF.svg";
+import _1F9CE200D2642FE0F from "/public/openmoji/1F9CE-200D-2642-FE0F.svg";
+import _1F9CE1F3FB200D2642FE0F from "/public/openmoji/1F9CE-1F3FB-200D-2642-FE0F.svg";
+import _1F9CE1F3FC200D2642FE0F from "/public/openmoji/1F9CE-1F3FC-200D-2642-FE0F.svg";
+import _1F9CE1F3FD200D2642FE0F from "/public/openmoji/1F9CE-1F3FD-200D-2642-FE0F.svg";
+import _1F9CE1F3FE200D2642FE0F from "/public/openmoji/1F9CE-1F3FE-200D-2642-FE0F.svg";
+import _1F9CE1F3FF200D2642FE0F from "/public/openmoji/1F9CE-1F3FF-200D-2642-FE0F.svg";
+import _1F9CE200D2640FE0F from "/public/openmoji/1F9CE-200D-2640-FE0F.svg";
+import _1F9CE1F3FB200D2640FE0F from "/public/openmoji/1F9CE-1F3FB-200D-2640-FE0F.svg";
+import _1F9CE1F3FC200D2640FE0F from "/public/openmoji/1F9CE-1F3FC-200D-2640-FE0F.svg";
+import _1F9CE1F3FD200D2640FE0F from "/public/openmoji/1F9CE-1F3FD-200D-2640-FE0F.svg";
+import _1F9CE1F3FE200D2640FE0F from "/public/openmoji/1F9CE-1F3FE-200D-2640-FE0F.svg";
+import _1F9CE1F3FF200D2640FE0F from "/public/openmoji/1F9CE-1F3FF-200D-2640-FE0F.svg";
+import _1F9CE200D27A1FE0F from "/public/openmoji/1F9CE-200D-27A1-FE0F.svg";
+import _1F9CE1F3FB200D27A1FE0F from "/public/openmoji/1F9CE-1F3FB-200D-27A1-FE0F.svg";
+import _1F9CE1F3FC200D27A1FE0F from "/public/openmoji/1F9CE-1F3FC-200D-27A1-FE0F.svg";
+import _1F9CE1F3FD200D27A1FE0F from "/public/openmoji/1F9CE-1F3FD-200D-27A1-FE0F.svg";
+import _1F9CE1F3FE200D27A1FE0F from "/public/openmoji/1F9CE-1F3FE-200D-27A1-FE0F.svg";
+import _1F9CE1F3FF200D27A1FE0F from "/public/openmoji/1F9CE-1F3FF-200D-27A1-FE0F.svg";
+import _1F9CE200D2640FE0F200D27A1FE0F from "/public/openmoji/1F9CE-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FB200D2640FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FB-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FC200D2640FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FC-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FD200D2640FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FD-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FE200D2640FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FE-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FF200D2640FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FF-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE200D2642FE0F200D27A1FE0F from "/public/openmoji/1F9CE-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FB200D2642FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FB-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FC200D2642FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FC-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FD200D2642FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FD-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FE200D2642FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FE-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9CE1F3FF200D2642FE0F200D27A1FE0F from "/public/openmoji/1F9CE-1F3FF-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F9D1200D1F9AF from "/public/openmoji/1F9D1-200D-1F9AF.svg";
+import _1F9D11F3FB200D1F9AF from "/public/openmoji/1F9D1-1F3FB-200D-1F9AF.svg";
+import _1F9D11F3FC200D1F9AF from "/public/openmoji/1F9D1-1F3FC-200D-1F9AF.svg";
+import _1F9D11F3FD200D1F9AF from "/public/openmoji/1F9D1-1F3FD-200D-1F9AF.svg";
+import _1F9D11F3FE200D1F9AF from "/public/openmoji/1F9D1-1F3FE-200D-1F9AF.svg";
+import _1F9D11F3FF200D1F9AF from "/public/openmoji/1F9D1-1F3FF-200D-1F9AF.svg";
+import _1F9D1200D1F9AF200D27A1FE0F from "/public/openmoji/1F9D1-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F9D11F3FB200D1F9AF200D27A1FE0F from "/public/openmoji/1F9D1-1F3FB-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F9D11F3FC200D1F9AF200D27A1FE0F from "/public/openmoji/1F9D1-1F3FC-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F9D11F3FD200D1F9AF200D27A1FE0F from "/public/openmoji/1F9D1-1F3FD-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F9D11F3FE200D1F9AF200D27A1FE0F from "/public/openmoji/1F9D1-1F3FE-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F9D11F3FF200D1F9AF200D27A1FE0F from "/public/openmoji/1F9D1-1F3FF-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F468200D1F9AF from "/public/openmoji/1F468-200D-1F9AF.svg";
+import _1F4681F3FB200D1F9AF from "/public/openmoji/1F468-1F3FB-200D-1F9AF.svg";
+import _1F4681F3FC200D1F9AF from "/public/openmoji/1F468-1F3FC-200D-1F9AF.svg";
+import _1F4681F3FD200D1F9AF from "/public/openmoji/1F468-1F3FD-200D-1F9AF.svg";
+import _1F4681F3FE200D1F9AF from "/public/openmoji/1F468-1F3FE-200D-1F9AF.svg";
+import _1F4681F3FF200D1F9AF from "/public/openmoji/1F468-1F3FF-200D-1F9AF.svg";
+import _1F468200D1F9AF200D27A1FE0F from "/public/openmoji/1F468-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4681F3FB200D1F9AF200D27A1FE0F from "/public/openmoji/1F468-1F3FB-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4681F3FC200D1F9AF200D27A1FE0F from "/public/openmoji/1F468-1F3FC-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4681F3FD200D1F9AF200D27A1FE0F from "/public/openmoji/1F468-1F3FD-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4681F3FE200D1F9AF200D27A1FE0F from "/public/openmoji/1F468-1F3FE-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4681F3FF200D1F9AF200D27A1FE0F from "/public/openmoji/1F468-1F3FF-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F469200D1F9AF from "/public/openmoji/1F469-200D-1F9AF.svg";
+import _1F4691F3FB200D1F9AF from "/public/openmoji/1F469-1F3FB-200D-1F9AF.svg";
+import _1F4691F3FC200D1F9AF from "/public/openmoji/1F469-1F3FC-200D-1F9AF.svg";
+import _1F4691F3FD200D1F9AF from "/public/openmoji/1F469-1F3FD-200D-1F9AF.svg";
+import _1F4691F3FE200D1F9AF from "/public/openmoji/1F469-1F3FE-200D-1F9AF.svg";
+import _1F4691F3FF200D1F9AF from "/public/openmoji/1F469-1F3FF-200D-1F9AF.svg";
+import _1F469200D1F9AF200D27A1FE0F from "/public/openmoji/1F469-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4691F3FB200D1F9AF200D27A1FE0F from "/public/openmoji/1F469-1F3FB-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4691F3FC200D1F9AF200D27A1FE0F from "/public/openmoji/1F469-1F3FC-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4691F3FD200D1F9AF200D27A1FE0F from "/public/openmoji/1F469-1F3FD-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4691F3FE200D1F9AF200D27A1FE0F from "/public/openmoji/1F469-1F3FE-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F4691F3FF200D1F9AF200D27A1FE0F from "/public/openmoji/1F469-1F3FF-200D-1F9AF-200D-27A1-FE0F.svg";
+import _1F9D1200D1F9BC from "/public/openmoji/1F9D1-200D-1F9BC.svg";
+import _1F9D11F3FB200D1F9BC from "/public/openmoji/1F9D1-1F3FB-200D-1F9BC.svg";
+import _1F9D11F3FC200D1F9BC from "/public/openmoji/1F9D1-1F3FC-200D-1F9BC.svg";
+import _1F9D11F3FD200D1F9BC from "/public/openmoji/1F9D1-1F3FD-200D-1F9BC.svg";
+import _1F9D11F3FE200D1F9BC from "/public/openmoji/1F9D1-1F3FE-200D-1F9BC.svg";
+import _1F9D11F3FF200D1F9BC from "/public/openmoji/1F9D1-1F3FF-200D-1F9BC.svg";
+import _1F9D1200D1F9BC200D27A1FE0F from "/public/openmoji/1F9D1-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F9D11F3FB200D1F9BC200D27A1FE0F from "/public/openmoji/1F9D1-1F3FB-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F9D11F3FC200D1F9BC200D27A1FE0F from "/public/openmoji/1F9D1-1F3FC-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F9D11F3FD200D1F9BC200D27A1FE0F from "/public/openmoji/1F9D1-1F3FD-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F9D11F3FE200D1F9BC200D27A1FE0F from "/public/openmoji/1F9D1-1F3FE-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F9D11F3FF200D1F9BC200D27A1FE0F from "/public/openmoji/1F9D1-1F3FF-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F468200D1F9BC from "/public/openmoji/1F468-200D-1F9BC.svg";
+import _1F4681F3FB200D1F9BC from "/public/openmoji/1F468-1F3FB-200D-1F9BC.svg";
+import _1F4681F3FC200D1F9BC from "/public/openmoji/1F468-1F3FC-200D-1F9BC.svg";
+import _1F4681F3FD200D1F9BC from "/public/openmoji/1F468-1F3FD-200D-1F9BC.svg";
+import _1F4681F3FE200D1F9BC from "/public/openmoji/1F468-1F3FE-200D-1F9BC.svg";
+import _1F4681F3FF200D1F9BC from "/public/openmoji/1F468-1F3FF-200D-1F9BC.svg";
+import _1F468200D1F9BC200D27A1FE0F from "/public/openmoji/1F468-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4681F3FB200D1F9BC200D27A1FE0F from "/public/openmoji/1F468-1F3FB-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4681F3FC200D1F9BC200D27A1FE0F from "/public/openmoji/1F468-1F3FC-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4681F3FD200D1F9BC200D27A1FE0F from "/public/openmoji/1F468-1F3FD-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4681F3FE200D1F9BC200D27A1FE0F from "/public/openmoji/1F468-1F3FE-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4681F3FF200D1F9BC200D27A1FE0F from "/public/openmoji/1F468-1F3FF-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F469200D1F9BC from "/public/openmoji/1F469-200D-1F9BC.svg";
+import _1F4691F3FB200D1F9BC from "/public/openmoji/1F469-1F3FB-200D-1F9BC.svg";
+import _1F4691F3FC200D1F9BC from "/public/openmoji/1F469-1F3FC-200D-1F9BC.svg";
+import _1F4691F3FD200D1F9BC from "/public/openmoji/1F469-1F3FD-200D-1F9BC.svg";
+import _1F4691F3FE200D1F9BC from "/public/openmoji/1F469-1F3FE-200D-1F9BC.svg";
+import _1F4691F3FF200D1F9BC from "/public/openmoji/1F469-1F3FF-200D-1F9BC.svg";
+import _1F469200D1F9BC200D27A1FE0F from "/public/openmoji/1F469-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4691F3FB200D1F9BC200D27A1FE0F from "/public/openmoji/1F469-1F3FB-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4691F3FC200D1F9BC200D27A1FE0F from "/public/openmoji/1F469-1F3FC-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4691F3FD200D1F9BC200D27A1FE0F from "/public/openmoji/1F469-1F3FD-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4691F3FE200D1F9BC200D27A1FE0F from "/public/openmoji/1F469-1F3FE-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F4691F3FF200D1F9BC200D27A1FE0F from "/public/openmoji/1F469-1F3FF-200D-1F9BC-200D-27A1-FE0F.svg";
+import _1F9D1200D1F9BD from "/public/openmoji/1F9D1-200D-1F9BD.svg";
+import _1F9D11F3FB200D1F9BD from "/public/openmoji/1F9D1-1F3FB-200D-1F9BD.svg";
+import _1F9D11F3FC200D1F9BD from "/public/openmoji/1F9D1-1F3FC-200D-1F9BD.svg";
+import _1F9D11F3FD200D1F9BD from "/public/openmoji/1F9D1-1F3FD-200D-1F9BD.svg";
+import _1F9D11F3FE200D1F9BD from "/public/openmoji/1F9D1-1F3FE-200D-1F9BD.svg";
+import _1F9D11F3FF200D1F9BD from "/public/openmoji/1F9D1-1F3FF-200D-1F9BD.svg";
+import _1F9D1200D1F9BD200D27A1FE0F from "/public/openmoji/1F9D1-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F9D11F3FB200D1F9BD200D27A1FE0F from "/public/openmoji/1F9D1-1F3FB-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F9D11F3FC200D1F9BD200D27A1FE0F from "/public/openmoji/1F9D1-1F3FC-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F9D11F3FD200D1F9BD200D27A1FE0F from "/public/openmoji/1F9D1-1F3FD-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F9D11F3FE200D1F9BD200D27A1FE0F from "/public/openmoji/1F9D1-1F3FE-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F9D11F3FF200D1F9BD200D27A1FE0F from "/public/openmoji/1F9D1-1F3FF-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F468200D1F9BD from "/public/openmoji/1F468-200D-1F9BD.svg";
+import _1F4681F3FB200D1F9BD from "/public/openmoji/1F468-1F3FB-200D-1F9BD.svg";
+import _1F4681F3FC200D1F9BD from "/public/openmoji/1F468-1F3FC-200D-1F9BD.svg";
+import _1F4681F3FD200D1F9BD from "/public/openmoji/1F468-1F3FD-200D-1F9BD.svg";
+import _1F4681F3FE200D1F9BD from "/public/openmoji/1F468-1F3FE-200D-1F9BD.svg";
+import _1F4681F3FF200D1F9BD from "/public/openmoji/1F468-1F3FF-200D-1F9BD.svg";
+import _1F468200D1F9BD200D27A1FE0F from "/public/openmoji/1F468-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4681F3FB200D1F9BD200D27A1FE0F from "/public/openmoji/1F468-1F3FB-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4681F3FC200D1F9BD200D27A1FE0F from "/public/openmoji/1F468-1F3FC-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4681F3FD200D1F9BD200D27A1FE0F from "/public/openmoji/1F468-1F3FD-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4681F3FE200D1F9BD200D27A1FE0F from "/public/openmoji/1F468-1F3FE-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4681F3FF200D1F9BD200D27A1FE0F from "/public/openmoji/1F468-1F3FF-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F469200D1F9BD from "/public/openmoji/1F469-200D-1F9BD.svg";
+import _1F4691F3FB200D1F9BD from "/public/openmoji/1F469-1F3FB-200D-1F9BD.svg";
+import _1F4691F3FC200D1F9BD from "/public/openmoji/1F469-1F3FC-200D-1F9BD.svg";
+import _1F4691F3FD200D1F9BD from "/public/openmoji/1F469-1F3FD-200D-1F9BD.svg";
+import _1F4691F3FE200D1F9BD from "/public/openmoji/1F469-1F3FE-200D-1F9BD.svg";
+import _1F4691F3FF200D1F9BD from "/public/openmoji/1F469-1F3FF-200D-1F9BD.svg";
+import _1F469200D1F9BD200D27A1FE0F from "/public/openmoji/1F469-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4691F3FB200D1F9BD200D27A1FE0F from "/public/openmoji/1F469-1F3FB-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4691F3FC200D1F9BD200D27A1FE0F from "/public/openmoji/1F469-1F3FC-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4691F3FD200D1F9BD200D27A1FE0F from "/public/openmoji/1F469-1F3FD-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4691F3FE200D1F9BD200D27A1FE0F from "/public/openmoji/1F469-1F3FE-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F4691F3FF200D1F9BD200D27A1FE0F from "/public/openmoji/1F469-1F3FF-200D-1F9BD-200D-27A1-FE0F.svg";
+import _1F3C3 from "/public/openmoji/1F3C3.svg";
+import _1F3C31F3FB from "/public/openmoji/1F3C3-1F3FB.svg";
+import _1F3C31F3FC from "/public/openmoji/1F3C3-1F3FC.svg";
+import _1F3C31F3FD from "/public/openmoji/1F3C3-1F3FD.svg";
+import _1F3C31F3FE from "/public/openmoji/1F3C3-1F3FE.svg";
+import _1F3C31F3FF from "/public/openmoji/1F3C3-1F3FF.svg";
+import _1F3C3200D2642FE0F from "/public/openmoji/1F3C3-200D-2642-FE0F.svg";
+import _1F3C31F3FB200D2642FE0F from "/public/openmoji/1F3C3-1F3FB-200D-2642-FE0F.svg";
+import _1F3C31F3FC200D2642FE0F from "/public/openmoji/1F3C3-1F3FC-200D-2642-FE0F.svg";
+import _1F3C31F3FD200D2642FE0F from "/public/openmoji/1F3C3-1F3FD-200D-2642-FE0F.svg";
+import _1F3C31F3FE200D2642FE0F from "/public/openmoji/1F3C3-1F3FE-200D-2642-FE0F.svg";
+import _1F3C31F3FF200D2642FE0F from "/public/openmoji/1F3C3-1F3FF-200D-2642-FE0F.svg";
+import _1F3C3200D2640FE0F from "/public/openmoji/1F3C3-200D-2640-FE0F.svg";
+import _1F3C31F3FB200D2640FE0F from "/public/openmoji/1F3C3-1F3FB-200D-2640-FE0F.svg";
+import _1F3C31F3FC200D2640FE0F from "/public/openmoji/1F3C3-1F3FC-200D-2640-FE0F.svg";
+import _1F3C31F3FD200D2640FE0F from "/public/openmoji/1F3C3-1F3FD-200D-2640-FE0F.svg";
+import _1F3C31F3FE200D2640FE0F from "/public/openmoji/1F3C3-1F3FE-200D-2640-FE0F.svg";
+import _1F3C31F3FF200D2640FE0F from "/public/openmoji/1F3C3-1F3FF-200D-2640-FE0F.svg";
+import _1F3C3200D27A1FE0F from "/public/openmoji/1F3C3-200D-27A1-FE0F.svg";
+import _1F3C31F3FB200D27A1FE0F from "/public/openmoji/1F3C3-1F3FB-200D-27A1-FE0F.svg";
+import _1F3C31F3FC200D27A1FE0F from "/public/openmoji/1F3C3-1F3FC-200D-27A1-FE0F.svg";
+import _1F3C31F3FD200D27A1FE0F from "/public/openmoji/1F3C3-1F3FD-200D-27A1-FE0F.svg";
+import _1F3C31F3FE200D27A1FE0F from "/public/openmoji/1F3C3-1F3FE-200D-27A1-FE0F.svg";
+import _1F3C31F3FF200D27A1FE0F from "/public/openmoji/1F3C3-1F3FF-200D-27A1-FE0F.svg";
+import _1F3C3200D2640FE0F200D27A1FE0F from "/public/openmoji/1F3C3-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FB200D2640FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FB-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FC200D2640FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FC-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FD200D2640FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FD-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FE200D2640FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FE-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FF200D2640FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FF-200D-2640-FE0F-200D-27A1-FE0F.svg";
+import _1F3C3200D2642FE0F200D27A1FE0F from "/public/openmoji/1F3C3-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FB200D2642FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FB-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FC200D2642FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FC-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FD200D2642FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FD-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FE200D2642FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FE-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F3C31F3FF200D2642FE0F200D27A1FE0F from "/public/openmoji/1F3C3-1F3FF-200D-2642-FE0F-200D-27A1-FE0F.svg";
+import _1F483 from "/public/openmoji/1F483.svg";
+import _1F4831F3FB from "/public/openmoji/1F483-1F3FB.svg";
+import _1F4831F3FC from "/public/openmoji/1F483-1F3FC.svg";
+import _1F4831F3FD from "/public/openmoji/1F483-1F3FD.svg";
+import _1F4831F3FE from "/public/openmoji/1F483-1F3FE.svg";
+import _1F4831F3FF from "/public/openmoji/1F483-1F3FF.svg";
+import _1F57A from "/public/openmoji/1F57A.svg";
+import _1F57A1F3FB from "/public/openmoji/1F57A-1F3FB.svg";
+import _1F57A1F3FC from "/public/openmoji/1F57A-1F3FC.svg";
+import _1F57A1F3FD from "/public/openmoji/1F57A-1F3FD.svg";
+import _1F57A1F3FE from "/public/openmoji/1F57A-1F3FE.svg";
+import _1F57A1F3FF from "/public/openmoji/1F57A-1F3FF.svg";
+import _1F574 from "/public/openmoji/1F574.svg";
+import _1F5741F3FB from "/public/openmoji/1F574-1F3FB.svg";
+import _1F5741F3FC from "/public/openmoji/1F574-1F3FC.svg";
+import _1F5741F3FD from "/public/openmoji/1F574-1F3FD.svg";
+import _1F5741F3FE from "/public/openmoji/1F574-1F3FE.svg";
+import _1F5741F3FF from "/public/openmoji/1F574-1F3FF.svg";
+import _1F46F from "/public/openmoji/1F46F.svg";
+import _1F46F200D2642FE0F from "/public/openmoji/1F46F-200D-2642-FE0F.svg";
+import _1F46F200D2640FE0F from "/public/openmoji/1F46F-200D-2640-FE0F.svg";
+import _1F9D6 from "/public/openmoji/1F9D6.svg";
+import _1F9D61F3FB from "/public/openmoji/1F9D6-1F3FB.svg";
+import _1F9D61F3FC from "/public/openmoji/1F9D6-1F3FC.svg";
+import _1F9D61F3FD from "/public/openmoji/1F9D6-1F3FD.svg";
+import _1F9D61F3FE from "/public/openmoji/1F9D6-1F3FE.svg";
+import _1F9D61F3FF from "/public/openmoji/1F9D6-1F3FF.svg";
+import _1F9D6200D2642FE0F from "/public/openmoji/1F9D6-200D-2642-FE0F.svg";
+import _1F9D61F3FB200D2642FE0F from "/public/openmoji/1F9D6-1F3FB-200D-2642-FE0F.svg";
+import _1F9D61F3FC200D2642FE0F from "/public/openmoji/1F9D6-1F3FC-200D-2642-FE0F.svg";
+import _1F9D61F3FD200D2642FE0F from "/public/openmoji/1F9D6-1F3FD-200D-2642-FE0F.svg";
+import _1F9D61F3FE200D2642FE0F from "/public/openmoji/1F9D6-1F3FE-200D-2642-FE0F.svg";
+import _1F9D61F3FF200D2642FE0F from "/public/openmoji/1F9D6-1F3FF-200D-2642-FE0F.svg";
+import _1F9D6200D2640FE0F from "/public/openmoji/1F9D6-200D-2640-FE0F.svg";
+import _1F9D61F3FB200D2640FE0F from "/public/openmoji/1F9D6-1F3FB-200D-2640-FE0F.svg";
+import _1F9D61F3FC200D2640FE0F from "/public/openmoji/1F9D6-1F3FC-200D-2640-FE0F.svg";
+import _1F9D61F3FD200D2640FE0F from "/public/openmoji/1F9D6-1F3FD-200D-2640-FE0F.svg";
+import _1F9D61F3FE200D2640FE0F from "/public/openmoji/1F9D6-1F3FE-200D-2640-FE0F.svg";
+import _1F9D61F3FF200D2640FE0F from "/public/openmoji/1F9D6-1F3FF-200D-2640-FE0F.svg";
+import _1F9D7 from "/public/openmoji/1F9D7.svg";
+import _1F9D71F3FB from "/public/openmoji/1F9D7-1F3FB.svg";
+import _1F9D71F3FC from "/public/openmoji/1F9D7-1F3FC.svg";
+import _1F9D71F3FD from "/public/openmoji/1F9D7-1F3FD.svg";
+import _1F9D71F3FE from "/public/openmoji/1F9D7-1F3FE.svg";
+import _1F9D71F3FF from "/public/openmoji/1F9D7-1F3FF.svg";
+import _1F9D7200D2642FE0F from "/public/openmoji/1F9D7-200D-2642-FE0F.svg";
+import _1F9D71F3FB200D2642FE0F from "/public/openmoji/1F9D7-1F3FB-200D-2642-FE0F.svg";
+import _1F9D71F3FC200D2642FE0F from "/public/openmoji/1F9D7-1F3FC-200D-2642-FE0F.svg";
+import _1F9D71F3FD200D2642FE0F from "/public/openmoji/1F9D7-1F3FD-200D-2642-FE0F.svg";
+import _1F9D71F3FE200D2642FE0F from "/public/openmoji/1F9D7-1F3FE-200D-2642-FE0F.svg";
+import _1F9D71F3FF200D2642FE0F from "/public/openmoji/1F9D7-1F3FF-200D-2642-FE0F.svg";
+import _1F9D7200D2640FE0F from "/public/openmoji/1F9D7-200D-2640-FE0F.svg";
+import _1F9D71F3FB200D2640FE0F from "/public/openmoji/1F9D7-1F3FB-200D-2640-FE0F.svg";
+import _1F9D71F3FC200D2640FE0F from "/public/openmoji/1F9D7-1F3FC-200D-2640-FE0F.svg";
+import _1F9D71F3FD200D2640FE0F from "/public/openmoji/1F9D7-1F3FD-200D-2640-FE0F.svg";
+import _1F9D71F3FE200D2640FE0F from "/public/openmoji/1F9D7-1F3FE-200D-2640-FE0F.svg";
+import _1F9D71F3FF200D2640FE0F from "/public/openmoji/1F9D7-1F3FF-200D-2640-FE0F.svg";
+import _1F93A from "/public/openmoji/1F93A.svg";
+import _1F3C7 from "/public/openmoji/1F3C7.svg";
+import _1F3C71F3FB from "/public/openmoji/1F3C7-1F3FB.svg";
+import _1F3C71F3FC from "/public/openmoji/1F3C7-1F3FC.svg";
+import _1F3C71F3FD from "/public/openmoji/1F3C7-1F3FD.svg";
+import _1F3C71F3FE from "/public/openmoji/1F3C7-1F3FE.svg";
+import _1F3C71F3FF from "/public/openmoji/1F3C7-1F3FF.svg";
+import _26F7 from "/public/openmoji/26F7.svg";
+import _1F3C2 from "/public/openmoji/1F3C2.svg";
+import _1F3C21F3FB from "/public/openmoji/1F3C2-1F3FB.svg";
+import _1F3C21F3FC from "/public/openmoji/1F3C2-1F3FC.svg";
+import _1F3C21F3FD from "/public/openmoji/1F3C2-1F3FD.svg";
+import _1F3C21F3FE from "/public/openmoji/1F3C2-1F3FE.svg";
+import _1F3C21F3FF from "/public/openmoji/1F3C2-1F3FF.svg";
+import _1F3CC from "/public/openmoji/1F3CC.svg";
+import _1F3CC1F3FB from "/public/openmoji/1F3CC-1F3FB.svg";
+import _1F3CC1F3FC from "/public/openmoji/1F3CC-1F3FC.svg";
+import _1F3CC1F3FD from "/public/openmoji/1F3CC-1F3FD.svg";
+import _1F3CC1F3FE from "/public/openmoji/1F3CC-1F3FE.svg";
+import _1F3CC1F3FF from "/public/openmoji/1F3CC-1F3FF.svg";
+import _1F3CCFE0F200D2642FE0F from "/public/openmoji/1F3CC-FE0F-200D-2642-FE0F.svg";
+import _1F3CC1F3FB200D2642FE0F from "/public/openmoji/1F3CC-1F3FB-200D-2642-FE0F.svg";
+import _1F3CC1F3FC200D2642FE0F from "/public/openmoji/1F3CC-1F3FC-200D-2642-FE0F.svg";
+import _1F3CC1F3FD200D2642FE0F from "/public/openmoji/1F3CC-1F3FD-200D-2642-FE0F.svg";
+import _1F3CC1F3FE200D2642FE0F from "/public/openmoji/1F3CC-1F3FE-200D-2642-FE0F.svg";
+import _1F3CC1F3FF200D2642FE0F from "/public/openmoji/1F3CC-1F3FF-200D-2642-FE0F.svg";
+import _1F3CCFE0F200D2640FE0F from "/public/openmoji/1F3CC-FE0F-200D-2640-FE0F.svg";
+import _1F3CC1F3FB200D2640FE0F from "/public/openmoji/1F3CC-1F3FB-200D-2640-FE0F.svg";
+import _1F3CC1F3FC200D2640FE0F from "/public/openmoji/1F3CC-1F3FC-200D-2640-FE0F.svg";
+import _1F3CC1F3FD200D2640FE0F from "/public/openmoji/1F3CC-1F3FD-200D-2640-FE0F.svg";
+import _1F3CC1F3FE200D2640FE0F from "/public/openmoji/1F3CC-1F3FE-200D-2640-FE0F.svg";
+import _1F3CC1F3FF200D2640FE0F from "/public/openmoji/1F3CC-1F3FF-200D-2640-FE0F.svg";
+import _1F3C4 from "/public/openmoji/1F3C4.svg";
+import _1F3C41F3FB from "/public/openmoji/1F3C4-1F3FB.svg";
+import _1F3C41F3FC from "/public/openmoji/1F3C4-1F3FC.svg";
+import _1F3C41F3FD from "/public/openmoji/1F3C4-1F3FD.svg";
+import _1F3C41F3FE from "/public/openmoji/1F3C4-1F3FE.svg";
+import _1F3C41F3FF from "/public/openmoji/1F3C4-1F3FF.svg";
+import _1F3C4200D2642FE0F from "/public/openmoji/1F3C4-200D-2642-FE0F.svg";
+import _1F3C41F3FB200D2642FE0F from "/public/openmoji/1F3C4-1F3FB-200D-2642-FE0F.svg";
+import _1F3C41F3FC200D2642FE0F from "/public/openmoji/1F3C4-1F3FC-200D-2642-FE0F.svg";
+import _1F3C41F3FD200D2642FE0F from "/public/openmoji/1F3C4-1F3FD-200D-2642-FE0F.svg";
+import _1F3C41F3FE200D2642FE0F from "/public/openmoji/1F3C4-1F3FE-200D-2642-FE0F.svg";
+import _1F3C41F3FF200D2642FE0F from "/public/openmoji/1F3C4-1F3FF-200D-2642-FE0F.svg";
+import _1F3C4200D2640FE0F from "/public/openmoji/1F3C4-200D-2640-FE0F.svg";
+import _1F3C41F3FB200D2640FE0F from "/public/openmoji/1F3C4-1F3FB-200D-2640-FE0F.svg";
+import _1F3C41F3FC200D2640FE0F from "/public/openmoji/1F3C4-1F3FC-200D-2640-FE0F.svg";
+import _1F3C41F3FD200D2640FE0F from "/public/openmoji/1F3C4-1F3FD-200D-2640-FE0F.svg";
+import _1F3C41F3FE200D2640FE0F from "/public/openmoji/1F3C4-1F3FE-200D-2640-FE0F.svg";
+import _1F3C41F3FF200D2640FE0F from "/public/openmoji/1F3C4-1F3FF-200D-2640-FE0F.svg";
+import _1F6A3 from "/public/openmoji/1F6A3.svg";
+import _1F6A31F3FB from "/public/openmoji/1F6A3-1F3FB.svg";
+import _1F6A31F3FC from "/public/openmoji/1F6A3-1F3FC.svg";
+import _1F6A31F3FD from "/public/openmoji/1F6A3-1F3FD.svg";
+import _1F6A31F3FE from "/public/openmoji/1F6A3-1F3FE.svg";
+import _1F6A31F3FF from "/public/openmoji/1F6A3-1F3FF.svg";
+import _1F6A3200D2642FE0F from "/public/openmoji/1F6A3-200D-2642-FE0F.svg";
+import _1F6A31F3FB200D2642FE0F from "/public/openmoji/1F6A3-1F3FB-200D-2642-FE0F.svg";
+import _1F6A31F3FC200D2642FE0F from "/public/openmoji/1F6A3-1F3FC-200D-2642-FE0F.svg";
+import _1F6A31F3FD200D2642FE0F from "/public/openmoji/1F6A3-1F3FD-200D-2642-FE0F.svg";
+import _1F6A31F3FE200D2642FE0F from "/public/openmoji/1F6A3-1F3FE-200D-2642-FE0F.svg";
+import _1F6A31F3FF200D2642FE0F from "/public/openmoji/1F6A3-1F3FF-200D-2642-FE0F.svg";
+import _1F6A3200D2640FE0F from "/public/openmoji/1F6A3-200D-2640-FE0F.svg";
+import _1F6A31F3FB200D2640FE0F from "/public/openmoji/1F6A3-1F3FB-200D-2640-FE0F.svg";
+import _1F6A31F3FC200D2640FE0F from "/public/openmoji/1F6A3-1F3FC-200D-2640-FE0F.svg";
+import _1F6A31F3FD200D2640FE0F from "/public/openmoji/1F6A3-1F3FD-200D-2640-FE0F.svg";
+import _1F6A31F3FE200D2640FE0F from "/public/openmoji/1F6A3-1F3FE-200D-2640-FE0F.svg";
+import _1F6A31F3FF200D2640FE0F from "/public/openmoji/1F6A3-1F3FF-200D-2640-FE0F.svg";
+import _1F3CA from "/public/openmoji/1F3CA.svg";
+import _1F3CA1F3FB from "/public/openmoji/1F3CA-1F3FB.svg";
+import _1F3CA1F3FC from "/public/openmoji/1F3CA-1F3FC.svg";
+import _1F3CA1F3FD from "/public/openmoji/1F3CA-1F3FD.svg";
+import _1F3CA1F3FE from "/public/openmoji/1F3CA-1F3FE.svg";
+import _1F3CA1F3FF from "/public/openmoji/1F3CA-1F3FF.svg";
+import _1F3CA200D2642FE0F from "/public/openmoji/1F3CA-200D-2642-FE0F.svg";
+import _1F3CA1F3FB200D2642FE0F from "/public/openmoji/1F3CA-1F3FB-200D-2642-FE0F.svg";
+import _1F3CA1F3FC200D2642FE0F from "/public/openmoji/1F3CA-1F3FC-200D-2642-FE0F.svg";
+import _1F3CA1F3FD200D2642FE0F from "/public/openmoji/1F3CA-1F3FD-200D-2642-FE0F.svg";
+import _1F3CA1F3FE200D2642FE0F from "/public/openmoji/1F3CA-1F3FE-200D-2642-FE0F.svg";
+import _1F3CA1F3FF200D2642FE0F from "/public/openmoji/1F3CA-1F3FF-200D-2642-FE0F.svg";
+import _1F3CA200D2640FE0F from "/public/openmoji/1F3CA-200D-2640-FE0F.svg";
+import _1F3CA1F3FB200D2640FE0F from "/public/openmoji/1F3CA-1F3FB-200D-2640-FE0F.svg";
+import _1F3CA1F3FC200D2640FE0F from "/public/openmoji/1F3CA-1F3FC-200D-2640-FE0F.svg";
+import _1F3CA1F3FD200D2640FE0F from "/public/openmoji/1F3CA-1F3FD-200D-2640-FE0F.svg";
+import _1F3CA1F3FE200D2640FE0F from "/public/openmoji/1F3CA-1F3FE-200D-2640-FE0F.svg";
+import _1F3CA1F3FF200D2640FE0F from "/public/openmoji/1F3CA-1F3FF-200D-2640-FE0F.svg";
+import _26F9 from "/public/openmoji/26F9.svg";
+import _26F91F3FB from "/public/openmoji/26F9-1F3FB.svg";
+import _26F91F3FC from "/public/openmoji/26F9-1F3FC.svg";
+import _26F91F3FD from "/public/openmoji/26F9-1F3FD.svg";
+import _26F91F3FE from "/public/openmoji/26F9-1F3FE.svg";
+import _26F91F3FF from "/public/openmoji/26F9-1F3FF.svg";
+import _26F9FE0F200D2642FE0F from "/public/openmoji/26F9-FE0F-200D-2642-FE0F.svg";
+import _26F91F3FB200D2642FE0F from "/public/openmoji/26F9-1F3FB-200D-2642-FE0F.svg";
+import _26F91F3FC200D2642FE0F from "/public/openmoji/26F9-1F3FC-200D-2642-FE0F.svg";
+import _26F91F3FD200D2642FE0F from "/public/openmoji/26F9-1F3FD-200D-2642-FE0F.svg";
+import _26F91F3FE200D2642FE0F from "/public/openmoji/26F9-1F3FE-200D-2642-FE0F.svg";
+import _26F91F3FF200D2642FE0F from "/public/openmoji/26F9-1F3FF-200D-2642-FE0F.svg";
+import _26F9FE0F200D2640FE0F from "/public/openmoji/26F9-FE0F-200D-2640-FE0F.svg";
+import _26F91F3FB200D2640FE0F from "/public/openmoji/26F9-1F3FB-200D-2640-FE0F.svg";
+import _26F91F3FC200D2640FE0F from "/public/openmoji/26F9-1F3FC-200D-2640-FE0F.svg";
+import _26F91F3FD200D2640FE0F from "/public/openmoji/26F9-1F3FD-200D-2640-FE0F.svg";
+import _26F91F3FE200D2640FE0F from "/public/openmoji/26F9-1F3FE-200D-2640-FE0F.svg";
+import _26F91F3FF200D2640FE0F from "/public/openmoji/26F9-1F3FF-200D-2640-FE0F.svg";
+import _1F3CB from "/public/openmoji/1F3CB.svg";
+import _1F3CB1F3FB from "/public/openmoji/1F3CB-1F3FB.svg";
+import _1F3CB1F3FC from "/public/openmoji/1F3CB-1F3FC.svg";
+import _1F3CB1F3FD from "/public/openmoji/1F3CB-1F3FD.svg";
+import _1F3CB1F3FE from "/public/openmoji/1F3CB-1F3FE.svg";
+import _1F3CB1F3FF from "/public/openmoji/1F3CB-1F3FF.svg";
+import _1F3CBFE0F200D2642FE0F from "/public/openmoji/1F3CB-FE0F-200D-2642-FE0F.svg";
+import _1F3CB1F3FB200D2642FE0F from "/public/openmoji/1F3CB-1F3FB-200D-2642-FE0F.svg";
+import _1F3CB1F3FC200D2642FE0F from "/public/openmoji/1F3CB-1F3FC-200D-2642-FE0F.svg";
+import _1F3CB1F3FD200D2642FE0F from "/public/openmoji/1F3CB-1F3FD-200D-2642-FE0F.svg";
+import _1F3CB1F3FE200D2642FE0F from "/public/openmoji/1F3CB-1F3FE-200D-2642-FE0F.svg";
+import _1F3CB1F3FF200D2642FE0F from "/public/openmoji/1F3CB-1F3FF-200D-2642-FE0F.svg";
+import _1F3CBFE0F200D2640FE0F from "/public/openmoji/1F3CB-FE0F-200D-2640-FE0F.svg";
+import _1F3CB1F3FB200D2640FE0F from "/public/openmoji/1F3CB-1F3FB-200D-2640-FE0F.svg";
+import _1F3CB1F3FC200D2640FE0F from "/public/openmoji/1F3CB-1F3FC-200D-2640-FE0F.svg";
+import _1F3CB1F3FD200D2640FE0F from "/public/openmoji/1F3CB-1F3FD-200D-2640-FE0F.svg";
+import _1F3CB1F3FE200D2640FE0F from "/public/openmoji/1F3CB-1F3FE-200D-2640-FE0F.svg";
+import _1F3CB1F3FF200D2640FE0F from "/public/openmoji/1F3CB-1F3FF-200D-2640-FE0F.svg";
+import _1F6B4 from "/public/openmoji/1F6B4.svg";
+import _1F6B41F3FB from "/public/openmoji/1F6B4-1F3FB.svg";
+import _1F6B41F3FC from "/public/openmoji/1F6B4-1F3FC.svg";
+import _1F6B41F3FD from "/public/openmoji/1F6B4-1F3FD.svg";
+import _1F6B41F3FE from "/public/openmoji/1F6B4-1F3FE.svg";
+import _1F6B41F3FF from "/public/openmoji/1F6B4-1F3FF.svg";
+import _1F6B4200D2642FE0F from "/public/openmoji/1F6B4-200D-2642-FE0F.svg";
+import _1F6B41F3FB200D2642FE0F from "/public/openmoji/1F6B4-1F3FB-200D-2642-FE0F.svg";
+import _1F6B41F3FC200D2642FE0F from "/public/openmoji/1F6B4-1F3FC-200D-2642-FE0F.svg";
+import _1F6B41F3FD200D2642FE0F from "/public/openmoji/1F6B4-1F3FD-200D-2642-FE0F.svg";
+import _1F6B41F3FE200D2642FE0F from "/public/openmoji/1F6B4-1F3FE-200D-2642-FE0F.svg";
+import _1F6B41F3FF200D2642FE0F from "/public/openmoji/1F6B4-1F3FF-200D-2642-FE0F.svg";
+import _1F6B4200D2640FE0F from "/public/openmoji/1F6B4-200D-2640-FE0F.svg";
+import _1F6B41F3FB200D2640FE0F from "/public/openmoji/1F6B4-1F3FB-200D-2640-FE0F.svg";
+import _1F6B41F3FC200D2640FE0F from "/public/openmoji/1F6B4-1F3FC-200D-2640-FE0F.svg";
+import _1F6B41F3FD200D2640FE0F from "/public/openmoji/1F6B4-1F3FD-200D-2640-FE0F.svg";
+import _1F6B41F3FE200D2640FE0F from "/public/openmoji/1F6B4-1F3FE-200D-2640-FE0F.svg";
+import _1F6B41F3FF200D2640FE0F from "/public/openmoji/1F6B4-1F3FF-200D-2640-FE0F.svg";
+import _1F6B5 from "/public/openmoji/1F6B5.svg";
+import _1F6B51F3FB from "/public/openmoji/1F6B5-1F3FB.svg";
+import _1F6B51F3FC from "/public/openmoji/1F6B5-1F3FC.svg";
+import _1F6B51F3FD from "/public/openmoji/1F6B5-1F3FD.svg";
+import _1F6B51F3FE from "/public/openmoji/1F6B5-1F3FE.svg";
+import _1F6B51F3FF from "/public/openmoji/1F6B5-1F3FF.svg";
+import _1F6B5200D2642FE0F from "/public/openmoji/1F6B5-200D-2642-FE0F.svg";
+import _1F6B51F3FB200D2642FE0F from "/public/openmoji/1F6B5-1F3FB-200D-2642-FE0F.svg";
+import _1F6B51F3FC200D2642FE0F from "/public/openmoji/1F6B5-1F3FC-200D-2642-FE0F.svg";
+import _1F6B51F3FD200D2642FE0F from "/public/openmoji/1F6B5-1F3FD-200D-2642-FE0F.svg";
+import _1F6B51F3FE200D2642FE0F from "/public/openmoji/1F6B5-1F3FE-200D-2642-FE0F.svg";
+import _1F6B51F3FF200D2642FE0F from "/public/openmoji/1F6B5-1F3FF-200D-2642-FE0F.svg";
+import _1F6B5200D2640FE0F from "/public/openmoji/1F6B5-200D-2640-FE0F.svg";
+import _1F6B51F3FB200D2640FE0F from "/public/openmoji/1F6B5-1F3FB-200D-2640-FE0F.svg";
+import _1F6B51F3FC200D2640FE0F from "/public/openmoji/1F6B5-1F3FC-200D-2640-FE0F.svg";
+import _1F6B51F3FD200D2640FE0F from "/public/openmoji/1F6B5-1F3FD-200D-2640-FE0F.svg";
+import _1F6B51F3FE200D2640FE0F from "/public/openmoji/1F6B5-1F3FE-200D-2640-FE0F.svg";
+import _1F6B51F3FF200D2640FE0F from "/public/openmoji/1F6B5-1F3FF-200D-2640-FE0F.svg";
+import _1F938 from "/public/openmoji/1F938.svg";
+import _1F9381F3FB from "/public/openmoji/1F938-1F3FB.svg";
+import _1F9381F3FC from "/public/openmoji/1F938-1F3FC.svg";
+import _1F9381F3FD from "/public/openmoji/1F938-1F3FD.svg";
+import _1F9381F3FE from "/public/openmoji/1F938-1F3FE.svg";
+import _1F9381F3FF from "/public/openmoji/1F938-1F3FF.svg";
+import _1F938200D2642FE0F from "/public/openmoji/1F938-200D-2642-FE0F.svg";
+import _1F9381F3FB200D2642FE0F from "/public/openmoji/1F938-1F3FB-200D-2642-FE0F.svg";
+import _1F9381F3FC200D2642FE0F from "/public/openmoji/1F938-1F3FC-200D-2642-FE0F.svg";
+import _1F9381F3FD200D2642FE0F from "/public/openmoji/1F938-1F3FD-200D-2642-FE0F.svg";
+import _1F9381F3FE200D2642FE0F from "/public/openmoji/1F938-1F3FE-200D-2642-FE0F.svg";
+import _1F9381F3FF200D2642FE0F from "/public/openmoji/1F938-1F3FF-200D-2642-FE0F.svg";
+import _1F938200D2640FE0F from "/public/openmoji/1F938-200D-2640-FE0F.svg";
+import _1F9381F3FB200D2640FE0F from "/public/openmoji/1F938-1F3FB-200D-2640-FE0F.svg";
+import _1F9381F3FC200D2640FE0F from "/public/openmoji/1F938-1F3FC-200D-2640-FE0F.svg";
+import _1F9381F3FD200D2640FE0F from "/public/openmoji/1F938-1F3FD-200D-2640-FE0F.svg";
+import _1F9381F3FE200D2640FE0F from "/public/openmoji/1F938-1F3FE-200D-2640-FE0F.svg";
+import _1F9381F3FF200D2640FE0F from "/public/openmoji/1F938-1F3FF-200D-2640-FE0F.svg";
+import _1F93C from "/public/openmoji/1F93C.svg";
+import _1F93C200D2642FE0F from "/public/openmoji/1F93C-200D-2642-FE0F.svg";
+import _1F93C200D2640FE0F from "/public/openmoji/1F93C-200D-2640-FE0F.svg";
+import _1F93D from "/public/openmoji/1F93D.svg";
+import _1F93D1F3FB from "/public/openmoji/1F93D-1F3FB.svg";
+import _1F93D1F3FC from "/public/openmoji/1F93D-1F3FC.svg";
+import _1F93D1F3FD from "/public/openmoji/1F93D-1F3FD.svg";
+import _1F93D1F3FE from "/public/openmoji/1F93D-1F3FE.svg";
+import _1F93D1F3FF from "/public/openmoji/1F93D-1F3FF.svg";
+import _1F93D200D2642FE0F from "/public/openmoji/1F93D-200D-2642-FE0F.svg";
+import _1F93D1F3FB200D2642FE0F from "/public/openmoji/1F93D-1F3FB-200D-2642-FE0F.svg";
+import _1F93D1F3FC200D2642FE0F from "/public/openmoji/1F93D-1F3FC-200D-2642-FE0F.svg";
+import _1F93D1F3FD200D2642FE0F from "/public/openmoji/1F93D-1F3FD-200D-2642-FE0F.svg";
+import _1F93D1F3FE200D2642FE0F from "/public/openmoji/1F93D-1F3FE-200D-2642-FE0F.svg";
+import _1F93D1F3FF200D2642FE0F from "/public/openmoji/1F93D-1F3FF-200D-2642-FE0F.svg";
+import _1F93D200D2640FE0F from "/public/openmoji/1F93D-200D-2640-FE0F.svg";
+import _1F93D1F3FB200D2640FE0F from "/public/openmoji/1F93D-1F3FB-200D-2640-FE0F.svg";
+import _1F93D1F3FC200D2640FE0F from "/public/openmoji/1F93D-1F3FC-200D-2640-FE0F.svg";
+import _1F93D1F3FD200D2640FE0F from "/public/openmoji/1F93D-1F3FD-200D-2640-FE0F.svg";
+import _1F93D1F3FE200D2640FE0F from "/public/openmoji/1F93D-1F3FE-200D-2640-FE0F.svg";
+import _1F93D1F3FF200D2640FE0F from "/public/openmoji/1F93D-1F3FF-200D-2640-FE0F.svg";
+import _1F93E from "/public/openmoji/1F93E.svg";
+import _1F93E1F3FB from "/public/openmoji/1F93E-1F3FB.svg";
+import _1F93E1F3FC from "/public/openmoji/1F93E-1F3FC.svg";
+import _1F93E1F3FD from "/public/openmoji/1F93E-1F3FD.svg";
+import _1F93E1F3FE from "/public/openmoji/1F93E-1F3FE.svg";
+import _1F93E1F3FF from "/public/openmoji/1F93E-1F3FF.svg";
+import _1F93E200D2642FE0F from "/public/openmoji/1F93E-200D-2642-FE0F.svg";
+import _1F93E1F3FB200D2642FE0F from "/public/openmoji/1F93E-1F3FB-200D-2642-FE0F.svg";
+import _1F93E1F3FC200D2642FE0F from "/public/openmoji/1F93E-1F3FC-200D-2642-FE0F.svg";
+import _1F93E1F3FD200D2642FE0F from "/public/openmoji/1F93E-1F3FD-200D-2642-FE0F.svg";
+import _1F93E1F3FE200D2642FE0F from "/public/openmoji/1F93E-1F3FE-200D-2642-FE0F.svg";
+import _1F93E1F3FF200D2642FE0F from "/public/openmoji/1F93E-1F3FF-200D-2642-FE0F.svg";
+import _1F93E200D2640FE0F from "/public/openmoji/1F93E-200D-2640-FE0F.svg";
+import _1F93E1F3FB200D2640FE0F from "/public/openmoji/1F93E-1F3FB-200D-2640-FE0F.svg";
+import _1F93E1F3FC200D2640FE0F from "/public/openmoji/1F93E-1F3FC-200D-2640-FE0F.svg";
+import _1F93E1F3FD200D2640FE0F from "/public/openmoji/1F93E-1F3FD-200D-2640-FE0F.svg";
+import _1F93E1F3FE200D2640FE0F from "/public/openmoji/1F93E-1F3FE-200D-2640-FE0F.svg";
+import _1F93E1F3FF200D2640FE0F from "/public/openmoji/1F93E-1F3FF-200D-2640-FE0F.svg";
+import _1F939 from "/public/openmoji/1F939.svg";
+import _1F9391F3FB from "/public/openmoji/1F939-1F3FB.svg";
+import _1F9391F3FC from "/public/openmoji/1F939-1F3FC.svg";
+import _1F9391F3FD from "/public/openmoji/1F939-1F3FD.svg";
+import _1F9391F3FE from "/public/openmoji/1F939-1F3FE.svg";
+import _1F9391F3FF from "/public/openmoji/1F939-1F3FF.svg";
+import _1F939200D2642FE0F from "/public/openmoji/1F939-200D-2642-FE0F.svg";
+import _1F9391F3FB200D2642FE0F from "/public/openmoji/1F939-1F3FB-200D-2642-FE0F.svg";
+import _1F9391F3FC200D2642FE0F from "/public/openmoji/1F939-1F3FC-200D-2642-FE0F.svg";
+import _1F9391F3FD200D2642FE0F from "/public/openmoji/1F939-1F3FD-200D-2642-FE0F.svg";
+import _1F9391F3FE200D2642FE0F from "/public/openmoji/1F939-1F3FE-200D-2642-FE0F.svg";
+import _1F9391F3FF200D2642FE0F from "/public/openmoji/1F939-1F3FF-200D-2642-FE0F.svg";
+import _1F939200D2640FE0F from "/public/openmoji/1F939-200D-2640-FE0F.svg";
+import _1F9391F3FB200D2640FE0F from "/public/openmoji/1F939-1F3FB-200D-2640-FE0F.svg";
+import _1F9391F3FC200D2640FE0F from "/public/openmoji/1F939-1F3FC-200D-2640-FE0F.svg";
+import _1F9391F3FD200D2640FE0F from "/public/openmoji/1F939-1F3FD-200D-2640-FE0F.svg";
+import _1F9391F3FE200D2640FE0F from "/public/openmoji/1F939-1F3FE-200D-2640-FE0F.svg";
+import _1F9391F3FF200D2640FE0F from "/public/openmoji/1F939-1F3FF-200D-2640-FE0F.svg";
+import _1F9D8 from "/public/openmoji/1F9D8.svg";
+import _1F9D81F3FB from "/public/openmoji/1F9D8-1F3FB.svg";
+import _1F9D81F3FC from "/public/openmoji/1F9D8-1F3FC.svg";
+import _1F9D81F3FD from "/public/openmoji/1F9D8-1F3FD.svg";
+import _1F9D81F3FE from "/public/openmoji/1F9D8-1F3FE.svg";
+import _1F9D81F3FF from "/public/openmoji/1F9D8-1F3FF.svg";
+import _1F9D8200D2642FE0F from "/public/openmoji/1F9D8-200D-2642-FE0F.svg";
+import _1F9D81F3FB200D2642FE0F from "/public/openmoji/1F9D8-1F3FB-200D-2642-FE0F.svg";
+import _1F9D81F3FC200D2642FE0F from "/public/openmoji/1F9D8-1F3FC-200D-2642-FE0F.svg";
+import _1F9D81F3FD200D2642FE0F from "/public/openmoji/1F9D8-1F3FD-200D-2642-FE0F.svg";
+import _1F9D81F3FE200D2642FE0F from "/public/openmoji/1F9D8-1F3FE-200D-2642-FE0F.svg";
+import _1F9D81F3FF200D2642FE0F from "/public/openmoji/1F9D8-1F3FF-200D-2642-FE0F.svg";
+import _1F9D8200D2640FE0F from "/public/openmoji/1F9D8-200D-2640-FE0F.svg";
+import _1F9D81F3FB200D2640FE0F from "/public/openmoji/1F9D8-1F3FB-200D-2640-FE0F.svg";
+import _1F9D81F3FC200D2640FE0F from "/public/openmoji/1F9D8-1F3FC-200D-2640-FE0F.svg";
+import _1F9D81F3FD200D2640FE0F from "/public/openmoji/1F9D8-1F3FD-200D-2640-FE0F.svg";
+import _1F9D81F3FE200D2640FE0F from "/public/openmoji/1F9D8-1F3FE-200D-2640-FE0F.svg";
+import _1F9D81F3FF200D2640FE0F from "/public/openmoji/1F9D8-1F3FF-200D-2640-FE0F.svg";
+import _1F6C0 from "/public/openmoji/1F6C0.svg";
+import _1F6C01F3FB from "/public/openmoji/1F6C0-1F3FB.svg";
+import _1F6C01F3FC from "/public/openmoji/1F6C0-1F3FC.svg";
+import _1F6C01F3FD from "/public/openmoji/1F6C0-1F3FD.svg";
+import _1F6C01F3FE from "/public/openmoji/1F6C0-1F3FE.svg";
+import _1F6C01F3FF from "/public/openmoji/1F6C0-1F3FF.svg";
+import _1F6CC from "/public/openmoji/1F6CC.svg";
+import _1F6CC1F3FB from "/public/openmoji/1F6CC-1F3FB.svg";
+import _1F6CC1F3FC from "/public/openmoji/1F6CC-1F3FC.svg";
+import _1F6CC1F3FD from "/public/openmoji/1F6CC-1F3FD.svg";
+import _1F6CC1F3FE from "/public/openmoji/1F6CC-1F3FE.svg";
+import _1F6CC1F3FF from "/public/openmoji/1F6CC-1F3FF.svg";
+import _1F9D1200D1F91D200D1F9D1 from "/public/openmoji/1F9D1-200D-1F91D-200D-1F9D1.svg";
+import _1F9D11F3FB200D1F91D200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FB200D1F91D200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FB200D1F91D200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FB200D1F91D200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FB200D1F91D200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FC200D1F91D200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FC200D1F91D200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FC200D1F91D200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FC200D1F91D200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FC200D1F91D200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FD200D1F91D200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FD200D1F91D200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FD200D1F91D200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FD200D1F91D200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FD200D1F91D200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FE200D1F91D200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FE200D1F91D200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FE200D1F91D200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FE200D1F91D200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FE200D1F91D200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FF200D1F91D200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FF200D1F91D200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FF200D1F91D200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FF200D1F91D200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FF200D1F91D200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF.svg";
+import _1F46D from "/public/openmoji/1F46D.svg";
+import _1F46D1F3FB from "/public/openmoji/1F46D-1F3FB.svg";
+import _1F4691F3FB200D1F91D200D1F4691F3FC from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC.svg";
+import _1F4691F3FB200D1F91D200D1F4691F3FD from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD.svg";
+import _1F4691F3FB200D1F91D200D1F4691F3FE from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE.svg";
+import _1F4691F3FB200D1F91D200D1F4691F3FF from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF.svg";
+import _1F4691F3FC200D1F91D200D1F4691F3FB from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB.svg";
+import _1F46D1F3FC from "/public/openmoji/1F46D-1F3FC.svg";
+import _1F4691F3FC200D1F91D200D1F4691F3FD from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD.svg";
+import _1F4691F3FC200D1F91D200D1F4691F3FE from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE.svg";
+import _1F4691F3FC200D1F91D200D1F4691F3FF from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF.svg";
+import _1F4691F3FD200D1F91D200D1F4691F3FB from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB.svg";
+import _1F4691F3FD200D1F91D200D1F4691F3FC from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC.svg";
+import _1F46D1F3FD from "/public/openmoji/1F46D-1F3FD.svg";
+import _1F4691F3FD200D1F91D200D1F4691F3FE from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE.svg";
+import _1F4691F3FD200D1F91D200D1F4691F3FF from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF.svg";
+import _1F4691F3FE200D1F91D200D1F4691F3FB from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB.svg";
+import _1F4691F3FE200D1F91D200D1F4691F3FC from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC.svg";
+import _1F4691F3FE200D1F91D200D1F4691F3FD from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD.svg";
+import _1F46D1F3FE from "/public/openmoji/1F46D-1F3FE.svg";
+import _1F4691F3FE200D1F91D200D1F4691F3FF from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF.svg";
+import _1F4691F3FF200D1F91D200D1F4691F3FB from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB.svg";
+import _1F4691F3FF200D1F91D200D1F4691F3FC from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC.svg";
+import _1F4691F3FF200D1F91D200D1F4691F3FD from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD.svg";
+import _1F4691F3FF200D1F91D200D1F4691F3FE from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE.svg";
+import _1F46D1F3FF from "/public/openmoji/1F46D-1F3FF.svg";
+import _1F46B from "/public/openmoji/1F46B.svg";
+import _1F46B1F3FB from "/public/openmoji/1F46B-1F3FB.svg";
+import _1F4691F3FB200D1F91D200D1F4681F3FC from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F4691F3FB200D1F91D200D1F4681F3FD from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F4691F3FB200D1F91D200D1F4681F3FE from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F4691F3FB200D1F91D200D1F4681F3FF from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4691F3FC200D1F91D200D1F4681F3FB from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F46B1F3FC from "/public/openmoji/1F46B-1F3FC.svg";
+import _1F4691F3FC200D1F91D200D1F4681F3FD from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F4691F3FC200D1F91D200D1F4681F3FE from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F4691F3FC200D1F91D200D1F4681F3FF from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4691F3FD200D1F91D200D1F4681F3FB from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F4691F3FD200D1F91D200D1F4681F3FC from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F46B1F3FD from "/public/openmoji/1F46B-1F3FD.svg";
+import _1F4691F3FD200D1F91D200D1F4681F3FE from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F4691F3FD200D1F91D200D1F4681F3FF from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4691F3FE200D1F91D200D1F4681F3FB from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F4691F3FE200D1F91D200D1F4681F3FC from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F4691F3FE200D1F91D200D1F4681F3FD from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F46B1F3FE from "/public/openmoji/1F46B-1F3FE.svg";
+import _1F4691F3FE200D1F91D200D1F4681F3FF from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4691F3FF200D1F91D200D1F4681F3FB from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F4691F3FF200D1F91D200D1F4681F3FC from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F4691F3FF200D1F91D200D1F4681F3FD from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F4691F3FF200D1F91D200D1F4681F3FE from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F46B1F3FF from "/public/openmoji/1F46B-1F3FF.svg";
+import _1F46C from "/public/openmoji/1F46C.svg";
+import _1F46C1F3FB from "/public/openmoji/1F46C-1F3FB.svg";
+import _1F4681F3FB200D1F91D200D1F4681F3FC from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F4681F3FB200D1F91D200D1F4681F3FD from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F4681F3FB200D1F91D200D1F4681F3FE from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F4681F3FB200D1F91D200D1F4681F3FF from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4681F3FC200D1F91D200D1F4681F3FB from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F46C1F3FC from "/public/openmoji/1F46C-1F3FC.svg";
+import _1F4681F3FC200D1F91D200D1F4681F3FD from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F4681F3FC200D1F91D200D1F4681F3FE from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F4681F3FC200D1F91D200D1F4681F3FF from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4681F3FD200D1F91D200D1F4681F3FB from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F4681F3FD200D1F91D200D1F4681F3FC from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F46C1F3FD from "/public/openmoji/1F46C-1F3FD.svg";
+import _1F4681F3FD200D1F91D200D1F4681F3FE from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F4681F3FD200D1F91D200D1F4681F3FF from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4681F3FE200D1F91D200D1F4681F3FB from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F4681F3FE200D1F91D200D1F4681F3FC from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F4681F3FE200D1F91D200D1F4681F3FD from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F46C1F3FE from "/public/openmoji/1F46C-1F3FE.svg";
+import _1F4681F3FE200D1F91D200D1F4681F3FF from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF.svg";
+import _1F4681F3FF200D1F91D200D1F4681F3FB from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB.svg";
+import _1F4681F3FF200D1F91D200D1F4681F3FC from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC.svg";
+import _1F4681F3FF200D1F91D200D1F4681F3FD from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD.svg";
+import _1F4681F3FF200D1F91D200D1F4681F3FE from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE.svg";
+import _1F46C1F3FF from "/public/openmoji/1F46C-1F3FF.svg";
+import _1F48F from "/public/openmoji/1F48F.svg";
+import _1F48F1F3FB from "/public/openmoji/1F48F-1F3FB.svg";
+import _1F48F1F3FC from "/public/openmoji/1F48F-1F3FC.svg";
+import _1F48F1F3FD from "/public/openmoji/1F48F-1F3FD.svg";
+import _1F48F1F3FE from "/public/openmoji/1F48F-1F3FE.svg";
+import _1F48F1F3FF from "/public/openmoji/1F48F-1F3FF.svg";
+import _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FB200D2764FE0F200D1F48B200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FC200D2764FE0F200D1F48B200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FD200D2764FE0F200D1F48B200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FE200D2764FE0F200D1F48B200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FF200D2764FE0F200D1F48B200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
+import _1F469200D2764FE0F200D1F48B200D1F468 from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F48B-200D-1F468.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F468200D2764FE0F200D1F48B200D1F468 from "/public/openmoji/1F468-200D-2764-FE0F-200D-1F48B-200D-1F468.svg";
+import _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4681F3FB200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4681F3FC200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4681F3FD200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4681F3FE200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FB from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
+import _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FC from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
+import _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FD from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
+import _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FE from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
+import _1F4681F3FF200D2764FE0F200D1F48B200D1F4681F3FF from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
+import _1F469200D2764FE0F200D1F48B200D1F469 from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F48B-200D-1F469.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FB from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FC from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FD from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FE from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
+import _1F4691F3FB200D2764FE0F200D1F48B200D1F4691F3FF from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FB from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FC from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FD from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FE from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
+import _1F4691F3FC200D2764FE0F200D1F48B200D1F4691F3FF from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FB from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FC from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FD from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FE from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
+import _1F4691F3FD200D2764FE0F200D1F48B200D1F4691F3FF from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FB from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FC from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FD from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FE from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
+import _1F4691F3FE200D2764FE0F200D1F48B200D1F4691F3FF from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FB from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FC from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FD from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FE from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
+import _1F4691F3FF200D2764FE0F200D1F48B200D1F4691F3FF from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
+import _1F491 from "/public/openmoji/1F491.svg";
+import _1F4911F3FB from "/public/openmoji/1F491-1F3FB.svg";
+import _1F4911F3FC from "/public/openmoji/1F491-1F3FC.svg";
+import _1F4911F3FD from "/public/openmoji/1F491-1F3FD.svg";
+import _1F4911F3FE from "/public/openmoji/1F491-1F3FE.svg";
+import _1F4911F3FF from "/public/openmoji/1F491-1F3FF.svg";
+import _1F9D11F3FB200D2764FE0F200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FB200D2764FE0F200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FB200D2764FE0F200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FB200D2764FE0F200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FC200D2764FE0F200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FC200D2764FE0F200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FC200D2764FE0F200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FC200D2764FE0F200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FD200D2764FE0F200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FD200D2764FE0F200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FD200D2764FE0F200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
+import _1F9D11F3FD200D2764FE0F200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FE200D2764FE0F200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FE200D2764FE0F200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FE200D2764FE0F200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FE200D2764FE0F200D1F9D11F3FF from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
+import _1F9D11F3FF200D2764FE0F200D1F9D11F3FB from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
+import _1F9D11F3FF200D2764FE0F200D1F9D11F3FC from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
+import _1F9D11F3FF200D2764FE0F200D1F9D11F3FD from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
+import _1F9D11F3FF200D2764FE0F200D1F9D11F3FE from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
+import _1F469200D2764FE0F200D1F468 from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F468.svg";
+import _1F4691F3FB200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4691F3FB200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4691F3FB200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4691F3FB200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4691F3FB200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4691F3FC200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4691F3FC200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4691F3FC200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4691F3FC200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4691F3FC200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4691F3FD200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4691F3FD200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4691F3FD200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4691F3FD200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4691F3FD200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4691F3FE200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4691F3FE200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4691F3FE200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4691F3FE200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4691F3FE200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4691F3FF200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4691F3FF200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4691F3FF200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4691F3FF200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4691F3FF200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F468200D2764FE0F200D1F468 from "/public/openmoji/1F468-200D-2764-FE0F-200D-1F468.svg";
+import _1F4681F3FB200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4681F3FB200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4681F3FB200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4681F3FB200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4681F3FB200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4681F3FC200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4681F3FC200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4681F3FC200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4681F3FC200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4681F3FC200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4681F3FD200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4681F3FD200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4681F3FD200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4681F3FD200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4681F3FD200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4681F3FE200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4681F3FE200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4681F3FE200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4681F3FE200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4681F3FE200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F4681F3FF200D2764FE0F200D1F4681F3FB from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB.svg";
+import _1F4681F3FF200D2764FE0F200D1F4681F3FC from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC.svg";
+import _1F4681F3FF200D2764FE0F200D1F4681F3FD from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD.svg";
+import _1F4681F3FF200D2764FE0F200D1F4681F3FE from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE.svg";
+import _1F4681F3FF200D2764FE0F200D1F4681F3FF from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF.svg";
+import _1F469200D2764FE0F200D1F469 from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F469.svg";
+import _1F4691F3FB200D2764FE0F200D1F4691F3FB from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FB.svg";
+import _1F4691F3FB200D2764FE0F200D1F4691F3FC from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FC.svg";
+import _1F4691F3FB200D2764FE0F200D1F4691F3FD from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FD.svg";
+import _1F4691F3FB200D2764FE0F200D1F4691F3FE from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FE.svg";
+import _1F4691F3FB200D2764FE0F200D1F4691F3FF from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FF.svg";
+import _1F4691F3FC200D2764FE0F200D1F4691F3FB from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FB.svg";
+import _1F4691F3FC200D2764FE0F200D1F4691F3FC from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FC.svg";
+import _1F4691F3FC200D2764FE0F200D1F4691F3FD from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FD.svg";
+import _1F4691F3FC200D2764FE0F200D1F4691F3FE from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FE.svg";
+import _1F4691F3FC200D2764FE0F200D1F4691F3FF from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FF.svg";
+import _1F4691F3FD200D2764FE0F200D1F4691F3FB from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FB.svg";
+import _1F4691F3FD200D2764FE0F200D1F4691F3FC from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FC.svg";
+import _1F4691F3FD200D2764FE0F200D1F4691F3FD from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FD.svg";
+import _1F4691F3FD200D2764FE0F200D1F4691F3FE from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FE.svg";
+import _1F4691F3FD200D2764FE0F200D1F4691F3FF from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FF.svg";
+import _1F4691F3FE200D2764FE0F200D1F4691F3FB from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FB.svg";
+import _1F4691F3FE200D2764FE0F200D1F4691F3FC from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FC.svg";
+import _1F4691F3FE200D2764FE0F200D1F4691F3FD from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FD.svg";
+import _1F4691F3FE200D2764FE0F200D1F4691F3FE from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FE.svg";
+import _1F4691F3FE200D2764FE0F200D1F4691F3FF from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FF.svg";
+import _1F4691F3FF200D2764FE0F200D1F4691F3FB from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FB.svg";
+import _1F4691F3FF200D2764FE0F200D1F4691F3FC from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FC.svg";
+import _1F4691F3FF200D2764FE0F200D1F4691F3FD from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FD.svg";
+import _1F4691F3FF200D2764FE0F200D1F4691F3FE from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FE.svg";
+import _1F4691F3FF200D2764FE0F200D1F4691F3FF from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FF.svg";
+import _1F468200D1F469200D1F466 from "/public/openmoji/1F468-200D-1F469-200D-1F466.svg";
+import _1F468200D1F469200D1F467 from "/public/openmoji/1F468-200D-1F469-200D-1F467.svg";
+import _1F468200D1F469200D1F467200D1F466 from "/public/openmoji/1F468-200D-1F469-200D-1F467-200D-1F466.svg";
+import _1F468200D1F469200D1F466200D1F466 from "/public/openmoji/1F468-200D-1F469-200D-1F466-200D-1F466.svg";
+import _1F468200D1F469200D1F467200D1F467 from "/public/openmoji/1F468-200D-1F469-200D-1F467-200D-1F467.svg";
+import _1F468200D1F468200D1F466 from "/public/openmoji/1F468-200D-1F468-200D-1F466.svg";
+import _1F468200D1F468200D1F467 from "/public/openmoji/1F468-200D-1F468-200D-1F467.svg";
+import _1F468200D1F468200D1F467200D1F466 from "/public/openmoji/1F468-200D-1F468-200D-1F467-200D-1F466.svg";
+import _1F468200D1F468200D1F466200D1F466 from "/public/openmoji/1F468-200D-1F468-200D-1F466-200D-1F466.svg";
+import _1F468200D1F468200D1F467200D1F467 from "/public/openmoji/1F468-200D-1F468-200D-1F467-200D-1F467.svg";
+import _1F469200D1F469200D1F466 from "/public/openmoji/1F469-200D-1F469-200D-1F466.svg";
+import _1F469200D1F469200D1F467 from "/public/openmoji/1F469-200D-1F469-200D-1F467.svg";
+import _1F469200D1F469200D1F467200D1F466 from "/public/openmoji/1F469-200D-1F469-200D-1F467-200D-1F466.svg";
+import _1F469200D1F469200D1F466200D1F466 from "/public/openmoji/1F469-200D-1F469-200D-1F466-200D-1F466.svg";
+import _1F469200D1F469200D1F467200D1F467 from "/public/openmoji/1F469-200D-1F469-200D-1F467-200D-1F467.svg";
+import _1F468200D1F466 from "/public/openmoji/1F468-200D-1F466.svg";
+import _1F468200D1F466200D1F466 from "/public/openmoji/1F468-200D-1F466-200D-1F466.svg";
+import _1F468200D1F467 from "/public/openmoji/1F468-200D-1F467.svg";
+import _1F468200D1F467200D1F466 from "/public/openmoji/1F468-200D-1F467-200D-1F466.svg";
+import _1F468200D1F467200D1F467 from "/public/openmoji/1F468-200D-1F467-200D-1F467.svg";
+import _1F469200D1F466 from "/public/openmoji/1F469-200D-1F466.svg";
+import _1F469200D1F466200D1F466 from "/public/openmoji/1F469-200D-1F466-200D-1F466.svg";
+import _1F469200D1F467 from "/public/openmoji/1F469-200D-1F467.svg";
+import _1F469200D1F467200D1F466 from "/public/openmoji/1F469-200D-1F467-200D-1F466.svg";
+import _1F469200D1F467200D1F467 from "/public/openmoji/1F469-200D-1F467-200D-1F467.svg";
+import _1F5E3 from "/public/openmoji/1F5E3.svg";
+import _1F464 from "/public/openmoji/1F464.svg";
+import _1F465 from "/public/openmoji/1F465.svg";
+import _1FAC2 from "/public/openmoji/1FAC2.svg";
+import _1F46A from "/public/openmoji/1F46A.svg";
+import _1F9D1200D1F9D1200D1F9D2 from "/public/openmoji/1F9D1-200D-1F9D1-200D-1F9D2.svg";
+import _1F9D1200D1F9D1200D1F9D2200D1F9D2 from "/public/openmoji/1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2.svg";
+import _1F9D1200D1F9D2 from "/public/openmoji/1F9D1-200D-1F9D2.svg";
+import _1F9D1200D1F9D2200D1F9D2 from "/public/openmoji/1F9D1-200D-1F9D2-200D-1F9D2.svg";
+import _1F463 from "/public/openmoji/1F463.svg";
+import _1F3FB from "/public/openmoji/1F3FB.svg";
+import _1F3FC from "/public/openmoji/1F3FC.svg";
+import _1F3FD from "/public/openmoji/1F3FD.svg";
+import _1F3FE from "/public/openmoji/1F3FE.svg";
+import _1F3FF from "/public/openmoji/1F3FF.svg";
+import _1F9B0 from "/public/openmoji/1F9B0.svg";
+import _1F9B1 from "/public/openmoji/1F9B1.svg";
+import _1F9B3 from "/public/openmoji/1F9B3.svg";
+import _1F9B2 from "/public/openmoji/1F9B2.svg";
+import _1F435 from "/public/openmoji/1F435.svg";
+import _1F412 from "/public/openmoji/1F412.svg";
+import _1F98D from "/public/openmoji/1F98D.svg";
+import _1F9A7 from "/public/openmoji/1F9A7.svg";
+import _1F436 from "/public/openmoji/1F436.svg";
+import _1F415 from "/public/openmoji/1F415.svg";
+import _1F9AE from "/public/openmoji/1F9AE.svg";
+import _1F415200D1F9BA from "/public/openmoji/1F415-200D-1F9BA.svg";
+import _1F429 from "/public/openmoji/1F429.svg";
+import _1F43A from "/public/openmoji/1F43A.svg";
+import _1F98A from "/public/openmoji/1F98A.svg";
+import _1F99D from "/public/openmoji/1F99D.svg";
+import _1F431 from "/public/openmoji/1F431.svg";
+import _1F408 from "/public/openmoji/1F408.svg";
+import _1F408200D2B1B from "/public/openmoji/1F408-200D-2B1B.svg";
+import _1F981 from "/public/openmoji/1F981.svg";
+import _1F42F from "/public/openmoji/1F42F.svg";
+import _1F405 from "/public/openmoji/1F405.svg";
+import _1F406 from "/public/openmoji/1F406.svg";
+import _1F434 from "/public/openmoji/1F434.svg";
+import _1FACE from "/public/openmoji/1FACE.svg";
+import _1FACF from "/public/openmoji/1FACF.svg";
+import _1F40E from "/public/openmoji/1F40E.svg";
+import _1F984 from "/public/openmoji/1F984.svg";
+import _1F993 from "/public/openmoji/1F993.svg";
+import _1F98C from "/public/openmoji/1F98C.svg";
+import _1F9AC from "/public/openmoji/1F9AC.svg";
+import _1F42E from "/public/openmoji/1F42E.svg";
+import _1F402 from "/public/openmoji/1F402.svg";
+import _1F403 from "/public/openmoji/1F403.svg";
+import _1F404 from "/public/openmoji/1F404.svg";
+import _1F437 from "/public/openmoji/1F437.svg";
+import _1F416 from "/public/openmoji/1F416.svg";
+import _1F417 from "/public/openmoji/1F417.svg";
+import _1F43D from "/public/openmoji/1F43D.svg";
+import _1F40F from "/public/openmoji/1F40F.svg";
+import _1F411 from "/public/openmoji/1F411.svg";
+import _1F410 from "/public/openmoji/1F410.svg";
+import _1F42A from "/public/openmoji/1F42A.svg";
+import _1F42B from "/public/openmoji/1F42B.svg";
+import _1F999 from "/public/openmoji/1F999.svg";
+import _1F992 from "/public/openmoji/1F992.svg";
+import _1F418 from "/public/openmoji/1F418.svg";
+import _1F9A3 from "/public/openmoji/1F9A3.svg";
+import _1F98F from "/public/openmoji/1F98F.svg";
+import _1F99B from "/public/openmoji/1F99B.svg";
+import _1F42D from "/public/openmoji/1F42D.svg";
+import _1F401 from "/public/openmoji/1F401.svg";
+import _1F400 from "/public/openmoji/1F400.svg";
+import _1F439 from "/public/openmoji/1F439.svg";
+import _1F430 from "/public/openmoji/1F430.svg";
+import _1F407 from "/public/openmoji/1F407.svg";
+import _1F43F from "/public/openmoji/1F43F.svg";
+import _1F9AB from "/public/openmoji/1F9AB.svg";
+import _1F994 from "/public/openmoji/1F994.svg";
+import _1F987 from "/public/openmoji/1F987.svg";
+import _1F43B from "/public/openmoji/1F43B.svg";
+import _1F43B200D2744FE0F from "/public/openmoji/1F43B-200D-2744-FE0F.svg";
+import _1F428 from "/public/openmoji/1F428.svg";
+import _1F43C from "/public/openmoji/1F43C.svg";
+import _1F9A5 from "/public/openmoji/1F9A5.svg";
+import _1F9A6 from "/public/openmoji/1F9A6.svg";
+import _1F9A8 from "/public/openmoji/1F9A8.svg";
+import _1F998 from "/public/openmoji/1F998.svg";
+import _1F9A1 from "/public/openmoji/1F9A1.svg";
+import _1F43E from "/public/openmoji/1F43E.svg";
+import _1F983 from "/public/openmoji/1F983.svg";
+import _1F414 from "/public/openmoji/1F414.svg";
+import _1F413 from "/public/openmoji/1F413.svg";
+import _1F423 from "/public/openmoji/1F423.svg";
+import _1F424 from "/public/openmoji/1F424.svg";
+import _1F425 from "/public/openmoji/1F425.svg";
+import _1F426 from "/public/openmoji/1F426.svg";
+import _1F427 from "/public/openmoji/1F427.svg";
+import _1F54A from "/public/openmoji/1F54A.svg";
+import _1F985 from "/public/openmoji/1F985.svg";
+import _1F986 from "/public/openmoji/1F986.svg";
+import _1F9A2 from "/public/openmoji/1F9A2.svg";
+import _1F989 from "/public/openmoji/1F989.svg";
+import _1F9A4 from "/public/openmoji/1F9A4.svg";
+import _1FAB6 from "/public/openmoji/1FAB6.svg";
+import _1F9A9 from "/public/openmoji/1F9A9.svg";
+import _1F99A from "/public/openmoji/1F99A.svg";
+import _1F99C from "/public/openmoji/1F99C.svg";
+import _1FABD from "/public/openmoji/1FABD.svg";
+import _1F426200D2B1B from "/public/openmoji/1F426-200D-2B1B.svg";
+import _1FABF from "/public/openmoji/1FABF.svg";
+import _1F426200D1F525 from "/public/openmoji/1F426-200D-1F525.svg";
+import _1F438 from "/public/openmoji/1F438.svg";
+import _1F40A from "/public/openmoji/1F40A.svg";
+import _1F422 from "/public/openmoji/1F422.svg";
+import _1F98E from "/public/openmoji/1F98E.svg";
+import _1F40D from "/public/openmoji/1F40D.svg";
+import _1F432 from "/public/openmoji/1F432.svg";
+import _1F409 from "/public/openmoji/1F409.svg";
+import _1F995 from "/public/openmoji/1F995.svg";
+import _1F996 from "/public/openmoji/1F996.svg";
+import _1F433 from "/public/openmoji/1F433.svg";
+import _1F40B from "/public/openmoji/1F40B.svg";
+import _1F42C from "/public/openmoji/1F42C.svg";
+import _1F9AD from "/public/openmoji/1F9AD.svg";
+import _1F41F from "/public/openmoji/1F41F.svg";
+import _1F420 from "/public/openmoji/1F420.svg";
+import _1F421 from "/public/openmoji/1F421.svg";
+import _1F988 from "/public/openmoji/1F988.svg";
+import _1F419 from "/public/openmoji/1F419.svg";
+import _1F41A from "/public/openmoji/1F41A.svg";
+import _1FAB8 from "/public/openmoji/1FAB8.svg";
+import _1FABC from "/public/openmoji/1FABC.svg";
+import _1F40C from "/public/openmoji/1F40C.svg";
+import _1F98B from "/public/openmoji/1F98B.svg";
+import _1F41B from "/public/openmoji/1F41B.svg";
+import _1F41C from "/public/openmoji/1F41C.svg";
+import _1F41D from "/public/openmoji/1F41D.svg";
+import _1FAB2 from "/public/openmoji/1FAB2.svg";
+import _1F41E from "/public/openmoji/1F41E.svg";
+import _1F997 from "/public/openmoji/1F997.svg";
+import _1FAB3 from "/public/openmoji/1FAB3.svg";
+import _1F577 from "/public/openmoji/1F577.svg";
+import _1F578 from "/public/openmoji/1F578.svg";
+import _1F982 from "/public/openmoji/1F982.svg";
+import _1F99F from "/public/openmoji/1F99F.svg";
+import _1FAB0 from "/public/openmoji/1FAB0.svg";
+import _1FAB1 from "/public/openmoji/1FAB1.svg";
+import _1F9A0 from "/public/openmoji/1F9A0.svg";
+import _1F490 from "/public/openmoji/1F490.svg";
+import _1F338 from "/public/openmoji/1F338.svg";
+import _1F4AE from "/public/openmoji/1F4AE.svg";
+import _1FAB7 from "/public/openmoji/1FAB7.svg";
+import _1F3F5 from "/public/openmoji/1F3F5.svg";
+import _1F339 from "/public/openmoji/1F339.svg";
+import _1F940 from "/public/openmoji/1F940.svg";
+import _1F33A from "/public/openmoji/1F33A.svg";
+import _1F33B from "/public/openmoji/1F33B.svg";
+import _1F33C from "/public/openmoji/1F33C.svg";
+import _1F337 from "/public/openmoji/1F337.svg";
+import _1FABB from "/public/openmoji/1FABB.svg";
+import _1F331 from "/public/openmoji/1F331.svg";
+import _1FAB4 from "/public/openmoji/1FAB4.svg";
+import _1F332 from "/public/openmoji/1F332.svg";
+import _1F333 from "/public/openmoji/1F333.svg";
+import _1F334 from "/public/openmoji/1F334.svg";
+import _1F335 from "/public/openmoji/1F335.svg";
+import _1F33E from "/public/openmoji/1F33E.svg";
+import _1F33F from "/public/openmoji/1F33F.svg";
+import _2618 from "/public/openmoji/2618.svg";
+import _1F340 from "/public/openmoji/1F340.svg";
+import _1F341 from "/public/openmoji/1F341.svg";
+import _1F342 from "/public/openmoji/1F342.svg";
+import _1F343 from "/public/openmoji/1F343.svg";
+import _1FAB9 from "/public/openmoji/1FAB9.svg";
+import _1FABA from "/public/openmoji/1FABA.svg";
+import _1F344 from "/public/openmoji/1F344.svg";
+import _1F347 from "/public/openmoji/1F347.svg";
+import _1F348 from "/public/openmoji/1F348.svg";
+import _1F349 from "/public/openmoji/1F349.svg";
+import _1F34A from "/public/openmoji/1F34A.svg";
+import _1F34B from "/public/openmoji/1F34B.svg";
+import _1F34B200D1F7E9 from "/public/openmoji/1F34B-200D-1F7E9.svg";
+import _1F34C from "/public/openmoji/1F34C.svg";
+import _1F34D from "/public/openmoji/1F34D.svg";
+import _1F96D from "/public/openmoji/1F96D.svg";
+import _1F34E from "/public/openmoji/1F34E.svg";
+import _1F34F from "/public/openmoji/1F34F.svg";
+import _1F350 from "/public/openmoji/1F350.svg";
+import _1F351 from "/public/openmoji/1F351.svg";
+import _1F352 from "/public/openmoji/1F352.svg";
+import _1F353 from "/public/openmoji/1F353.svg";
+import _1FAD0 from "/public/openmoji/1FAD0.svg";
+import _1F95D from "/public/openmoji/1F95D.svg";
+import _1F345 from "/public/openmoji/1F345.svg";
+import _1FAD2 from "/public/openmoji/1FAD2.svg";
+import _1F965 from "/public/openmoji/1F965.svg";
+import _1F951 from "/public/openmoji/1F951.svg";
+import _1F346 from "/public/openmoji/1F346.svg";
+import _1F954 from "/public/openmoji/1F954.svg";
+import _1F955 from "/public/openmoji/1F955.svg";
+import _1F33D from "/public/openmoji/1F33D.svg";
+import _1F336 from "/public/openmoji/1F336.svg";
+import _1FAD1 from "/public/openmoji/1FAD1.svg";
+import _1F952 from "/public/openmoji/1F952.svg";
+import _1F96C from "/public/openmoji/1F96C.svg";
+import _1F966 from "/public/openmoji/1F966.svg";
+import _1F9C4 from "/public/openmoji/1F9C4.svg";
+import _1F9C5 from "/public/openmoji/1F9C5.svg";
+import _1F95C from "/public/openmoji/1F95C.svg";
+import _1FAD8 from "/public/openmoji/1FAD8.svg";
+import _1F330 from "/public/openmoji/1F330.svg";
+import _1FADA from "/public/openmoji/1FADA.svg";
+import _1FADB from "/public/openmoji/1FADB.svg";
+import _1F344200D1F7EB from "/public/openmoji/1F344-200D-1F7EB.svg";
+import _1F35E from "/public/openmoji/1F35E.svg";
+import _1F950 from "/public/openmoji/1F950.svg";
+import _1F956 from "/public/openmoji/1F956.svg";
+import _1FAD3 from "/public/openmoji/1FAD3.svg";
+import _1F968 from "/public/openmoji/1F968.svg";
+import _1F96F from "/public/openmoji/1F96F.svg";
+import _1F95E from "/public/openmoji/1F95E.svg";
+import _1F9C7 from "/public/openmoji/1F9C7.svg";
+import _1F9C0 from "/public/openmoji/1F9C0.svg";
+import _1F356 from "/public/openmoji/1F356.svg";
+import _1F357 from "/public/openmoji/1F357.svg";
+import _1F969 from "/public/openmoji/1F969.svg";
+import _1F953 from "/public/openmoji/1F953.svg";
+import _1F354 from "/public/openmoji/1F354.svg";
+import _1F35F from "/public/openmoji/1F35F.svg";
+import _1F355 from "/public/openmoji/1F355.svg";
+import _1F32D from "/public/openmoji/1F32D.svg";
+import _1F96A from "/public/openmoji/1F96A.svg";
+import _1F32E from "/public/openmoji/1F32E.svg";
+import _1F32F from "/public/openmoji/1F32F.svg";
+import _1FAD4 from "/public/openmoji/1FAD4.svg";
+import _1F959 from "/public/openmoji/1F959.svg";
+import _1F9C6 from "/public/openmoji/1F9C6.svg";
+import _1F95A from "/public/openmoji/1F95A.svg";
+import _1F373 from "/public/openmoji/1F373.svg";
+import _1F958 from "/public/openmoji/1F958.svg";
+import _1F372 from "/public/openmoji/1F372.svg";
+import _1FAD5 from "/public/openmoji/1FAD5.svg";
+import _1F963 from "/public/openmoji/1F963.svg";
+import _1F957 from "/public/openmoji/1F957.svg";
+import _1F37F from "/public/openmoji/1F37F.svg";
+import _1F9C8 from "/public/openmoji/1F9C8.svg";
+import _1F9C2 from "/public/openmoji/1F9C2.svg";
+import _1F96B from "/public/openmoji/1F96B.svg";
+import _1F371 from "/public/openmoji/1F371.svg";
+import _1F358 from "/public/openmoji/1F358.svg";
+import _1F359 from "/public/openmoji/1F359.svg";
+import _1F35A from "/public/openmoji/1F35A.svg";
+import _1F35B from "/public/openmoji/1F35B.svg";
+import _1F35C from "/public/openmoji/1F35C.svg";
+import _1F35D from "/public/openmoji/1F35D.svg";
+import _1F360 from "/public/openmoji/1F360.svg";
+import _1F362 from "/public/openmoji/1F362.svg";
+import _1F363 from "/public/openmoji/1F363.svg";
+import _1F364 from "/public/openmoji/1F364.svg";
+import _1F365 from "/public/openmoji/1F365.svg";
+import _1F96E from "/public/openmoji/1F96E.svg";
+import _1F361 from "/public/openmoji/1F361.svg";
+import _1F95F from "/public/openmoji/1F95F.svg";
+import _1F960 from "/public/openmoji/1F960.svg";
+import _1F961 from "/public/openmoji/1F961.svg";
+import _1F980 from "/public/openmoji/1F980.svg";
+import _1F99E from "/public/openmoji/1F99E.svg";
+import _1F990 from "/public/openmoji/1F990.svg";
+import _1F991 from "/public/openmoji/1F991.svg";
+import _1F9AA from "/public/openmoji/1F9AA.svg";
+import _1F366 from "/public/openmoji/1F366.svg";
+import _1F367 from "/public/openmoji/1F367.svg";
+import _1F368 from "/public/openmoji/1F368.svg";
+import _1F369 from "/public/openmoji/1F369.svg";
+import _1F36A from "/public/openmoji/1F36A.svg";
+import _1F382 from "/public/openmoji/1F382.svg";
+import _1F370 from "/public/openmoji/1F370.svg";
+import _1F9C1 from "/public/openmoji/1F9C1.svg";
+import _1F967 from "/public/openmoji/1F967.svg";
+import _1F36B from "/public/openmoji/1F36B.svg";
+import _1F36C from "/public/openmoji/1F36C.svg";
+import _1F36D from "/public/openmoji/1F36D.svg";
+import _1F36E from "/public/openmoji/1F36E.svg";
+import _1F36F from "/public/openmoji/1F36F.svg";
+import _1F37C from "/public/openmoji/1F37C.svg";
+import _1F95B from "/public/openmoji/1F95B.svg";
+import _2615 from "/public/openmoji/2615.svg";
+import _1FAD6 from "/public/openmoji/1FAD6.svg";
+import _1F375 from "/public/openmoji/1F375.svg";
+import _1F376 from "/public/openmoji/1F376.svg";
+import _1F37E from "/public/openmoji/1F37E.svg";
+import _1F377 from "/public/openmoji/1F377.svg";
+import _1F378 from "/public/openmoji/1F378.svg";
+import _1F379 from "/public/openmoji/1F379.svg";
+import _1F37A from "/public/openmoji/1F37A.svg";
+import _1F37B from "/public/openmoji/1F37B.svg";
+import _1F942 from "/public/openmoji/1F942.svg";
+import _1F943 from "/public/openmoji/1F943.svg";
+import _1FAD7 from "/public/openmoji/1FAD7.svg";
+import _1F964 from "/public/openmoji/1F964.svg";
+import _1F9CB from "/public/openmoji/1F9CB.svg";
+import _1F9C3 from "/public/openmoji/1F9C3.svg";
+import _1F9C9 from "/public/openmoji/1F9C9.svg";
+import _1F9CA from "/public/openmoji/1F9CA.svg";
+import _1F962 from "/public/openmoji/1F962.svg";
+import _1F37D from "/public/openmoji/1F37D.svg";
+import _1F374 from "/public/openmoji/1F374.svg";
+import _1F944 from "/public/openmoji/1F944.svg";
+import _1F52A from "/public/openmoji/1F52A.svg";
+import _1FAD9 from "/public/openmoji/1FAD9.svg";
+import _1F3FA from "/public/openmoji/1F3FA.svg";
+import _1F30D from "/public/openmoji/1F30D.svg";
+import _1F30E from "/public/openmoji/1F30E.svg";
+import _1F30F from "/public/openmoji/1F30F.svg";
+import _1F310 from "/public/openmoji/1F310.svg";
+import _1F5FA from "/public/openmoji/1F5FA.svg";
+import _1F5FE from "/public/openmoji/1F5FE.svg";
+import _1F9ED from "/public/openmoji/1F9ED.svg";
+import _1F3D4 from "/public/openmoji/1F3D4.svg";
+import _26F0 from "/public/openmoji/26F0.svg";
+import _1F30B from "/public/openmoji/1F30B.svg";
+import _1F5FB from "/public/openmoji/1F5FB.svg";
+import _1F3D5 from "/public/openmoji/1F3D5.svg";
+import _1F3D6 from "/public/openmoji/1F3D6.svg";
+import _1F3DC from "/public/openmoji/1F3DC.svg";
+import _1F3DD from "/public/openmoji/1F3DD.svg";
+import _1F3DE from "/public/openmoji/1F3DE.svg";
+import _1F3DF from "/public/openmoji/1F3DF.svg";
+import _1F3DB from "/public/openmoji/1F3DB.svg";
+import _1F3D7 from "/public/openmoji/1F3D7.svg";
+import _1F9F1 from "/public/openmoji/1F9F1.svg";
+import _1FAA8 from "/public/openmoji/1FAA8.svg";
+import _1FAB5 from "/public/openmoji/1FAB5.svg";
+import _1F6D6 from "/public/openmoji/1F6D6.svg";
+import _1F3D8 from "/public/openmoji/1F3D8.svg";
+import _1F3DA from "/public/openmoji/1F3DA.svg";
+import _1F3E0 from "/public/openmoji/1F3E0.svg";
+import _1F3E1 from "/public/openmoji/1F3E1.svg";
+import _1F3E2 from "/public/openmoji/1F3E2.svg";
+import _1F3E3 from "/public/openmoji/1F3E3.svg";
+import _1F3E4 from "/public/openmoji/1F3E4.svg";
+import _1F3E5 from "/public/openmoji/1F3E5.svg";
+import _1F3E6 from "/public/openmoji/1F3E6.svg";
+import _1F3E8 from "/public/openmoji/1F3E8.svg";
+import _1F3E9 from "/public/openmoji/1F3E9.svg";
+import _1F3EA from "/public/openmoji/1F3EA.svg";
+import _1F3EB from "/public/openmoji/1F3EB.svg";
+import _1F3EC from "/public/openmoji/1F3EC.svg";
+import _1F3ED from "/public/openmoji/1F3ED.svg";
+import _1F3EF from "/public/openmoji/1F3EF.svg";
+import _1F3F0 from "/public/openmoji/1F3F0.svg";
+import _1F492 from "/public/openmoji/1F492.svg";
+import _1F5FC from "/public/openmoji/1F5FC.svg";
+import _1F5FD from "/public/openmoji/1F5FD.svg";
+import _26EA from "/public/openmoji/26EA.svg";
+import _1F54C from "/public/openmoji/1F54C.svg";
+import _1F6D5 from "/public/openmoji/1F6D5.svg";
+import _1F54D from "/public/openmoji/1F54D.svg";
+import _26E9 from "/public/openmoji/26E9.svg";
+import _1F54B from "/public/openmoji/1F54B.svg";
+import _26F2 from "/public/openmoji/26F2.svg";
+import _26FA from "/public/openmoji/26FA.svg";
+import _1F301 from "/public/openmoji/1F301.svg";
+import _1F303 from "/public/openmoji/1F303.svg";
+import _1F3D9 from "/public/openmoji/1F3D9.svg";
+import _1F304 from "/public/openmoji/1F304.svg";
+import _1F305 from "/public/openmoji/1F305.svg";
+import _1F306 from "/public/openmoji/1F306.svg";
+import _1F307 from "/public/openmoji/1F307.svg";
+import _1F309 from "/public/openmoji/1F309.svg";
+import _2668 from "/public/openmoji/2668.svg";
+import _1F3A0 from "/public/openmoji/1F3A0.svg";
+import _1F6DD from "/public/openmoji/1F6DD.svg";
+import _1F3A1 from "/public/openmoji/1F3A1.svg";
+import _1F3A2 from "/public/openmoji/1F3A2.svg";
+import _1F488 from "/public/openmoji/1F488.svg";
+import _1F3AA from "/public/openmoji/1F3AA.svg";
+import _1F682 from "/public/openmoji/1F682.svg";
+import _1F683 from "/public/openmoji/1F683.svg";
+import _1F684 from "/public/openmoji/1F684.svg";
+import _1F685 from "/public/openmoji/1F685.svg";
+import _1F686 from "/public/openmoji/1F686.svg";
+import _1F687 from "/public/openmoji/1F687.svg";
+import _1F688 from "/public/openmoji/1F688.svg";
+import _1F689 from "/public/openmoji/1F689.svg";
+import _1F68A from "/public/openmoji/1F68A.svg";
+import _1F69D from "/public/openmoji/1F69D.svg";
+import _1F69E from "/public/openmoji/1F69E.svg";
+import _1F68B from "/public/openmoji/1F68B.svg";
+import _1F68C from "/public/openmoji/1F68C.svg";
+import _1F68D from "/public/openmoji/1F68D.svg";
+import _1F68E from "/public/openmoji/1F68E.svg";
+import _1F690 from "/public/openmoji/1F690.svg";
+import _1F691 from "/public/openmoji/1F691.svg";
+import _1F692 from "/public/openmoji/1F692.svg";
+import _1F693 from "/public/openmoji/1F693.svg";
+import _1F694 from "/public/openmoji/1F694.svg";
+import _1F695 from "/public/openmoji/1F695.svg";
+import _1F696 from "/public/openmoji/1F696.svg";
+import _1F697 from "/public/openmoji/1F697.svg";
+import _1F698 from "/public/openmoji/1F698.svg";
+import _1F699 from "/public/openmoji/1F699.svg";
+import _1F6FB from "/public/openmoji/1F6FB.svg";
+import _1F69A from "/public/openmoji/1F69A.svg";
+import _1F69B from "/public/openmoji/1F69B.svg";
+import _1F69C from "/public/openmoji/1F69C.svg";
+import _1F3CE from "/public/openmoji/1F3CE.svg";
+import _1F3CD from "/public/openmoji/1F3CD.svg";
+import _1F6F5 from "/public/openmoji/1F6F5.svg";
+import _1F9BD from "/public/openmoji/1F9BD.svg";
+import _1F9BC from "/public/openmoji/1F9BC.svg";
+import _1F6FA from "/public/openmoji/1F6FA.svg";
+import _1F6B2 from "/public/openmoji/1F6B2.svg";
+import _1F6F4 from "/public/openmoji/1F6F4.svg";
+import _1F6F9 from "/public/openmoji/1F6F9.svg";
+import _1F6FC from "/public/openmoji/1F6FC.svg";
+import _1F68F from "/public/openmoji/1F68F.svg";
+import _1F6E3 from "/public/openmoji/1F6E3.svg";
+import _1F6E4 from "/public/openmoji/1F6E4.svg";
+import _1F6E2 from "/public/openmoji/1F6E2.svg";
+import _26FD from "/public/openmoji/26FD.svg";
+import _1F6DE from "/public/openmoji/1F6DE.svg";
+import _1F6A8 from "/public/openmoji/1F6A8.svg";
+import _1F6A5 from "/public/openmoji/1F6A5.svg";
+import _1F6A6 from "/public/openmoji/1F6A6.svg";
+import _1F6D1 from "/public/openmoji/1F6D1.svg";
+import _1F6A7 from "/public/openmoji/1F6A7.svg";
+import _2693 from "/public/openmoji/2693.svg";
+import _1F6DF from "/public/openmoji/1F6DF.svg";
+import _26F5 from "/public/openmoji/26F5.svg";
+import _1F6F6 from "/public/openmoji/1F6F6.svg";
+import _1F6A4 from "/public/openmoji/1F6A4.svg";
+import _1F6F3 from "/public/openmoji/1F6F3.svg";
+import _26F4 from "/public/openmoji/26F4.svg";
+import _1F6E5 from "/public/openmoji/1F6E5.svg";
+import _1F6A2 from "/public/openmoji/1F6A2.svg";
+import _2708 from "/public/openmoji/2708.svg";
+import _1F6E9 from "/public/openmoji/1F6E9.svg";
+import _1F6EB from "/public/openmoji/1F6EB.svg";
+import _1F6EC from "/public/openmoji/1F6EC.svg";
+import _1FA82 from "/public/openmoji/1FA82.svg";
+import _1F4BA from "/public/openmoji/1F4BA.svg";
+import _1F681 from "/public/openmoji/1F681.svg";
+import _1F69F from "/public/openmoji/1F69F.svg";
+import _1F6A0 from "/public/openmoji/1F6A0.svg";
+import _1F6A1 from "/public/openmoji/1F6A1.svg";
+import _1F6F0 from "/public/openmoji/1F6F0.svg";
+import _1F680 from "/public/openmoji/1F680.svg";
+import _1F6F8 from "/public/openmoji/1F6F8.svg";
+import _1F6CE from "/public/openmoji/1F6CE.svg";
+import _1F9F3 from "/public/openmoji/1F9F3.svg";
+import _231B from "/public/openmoji/231B.svg";
+import _23F3 from "/public/openmoji/23F3.svg";
+import _231A from "/public/openmoji/231A.svg";
+import _23F0 from "/public/openmoji/23F0.svg";
+import _23F1 from "/public/openmoji/23F1.svg";
+import _23F2 from "/public/openmoji/23F2.svg";
+import _1F570 from "/public/openmoji/1F570.svg";
+import _1F55B from "/public/openmoji/1F55B.svg";
+import _1F567 from "/public/openmoji/1F567.svg";
+import _1F550 from "/public/openmoji/1F550.svg";
+import _1F55C from "/public/openmoji/1F55C.svg";
+import _1F551 from "/public/openmoji/1F551.svg";
+import _1F55D from "/public/openmoji/1F55D.svg";
+import _1F552 from "/public/openmoji/1F552.svg";
+import _1F55E from "/public/openmoji/1F55E.svg";
+import _1F553 from "/public/openmoji/1F553.svg";
+import _1F55F from "/public/openmoji/1F55F.svg";
+import _1F554 from "/public/openmoji/1F554.svg";
+import _1F560 from "/public/openmoji/1F560.svg";
+import _1F555 from "/public/openmoji/1F555.svg";
+import _1F561 from "/public/openmoji/1F561.svg";
+import _1F556 from "/public/openmoji/1F556.svg";
+import _1F562 from "/public/openmoji/1F562.svg";
+import _1F557 from "/public/openmoji/1F557.svg";
+import _1F563 from "/public/openmoji/1F563.svg";
+import _1F558 from "/public/openmoji/1F558.svg";
+import _1F564 from "/public/openmoji/1F564.svg";
+import _1F559 from "/public/openmoji/1F559.svg";
+import _1F565 from "/public/openmoji/1F565.svg";
+import _1F55A from "/public/openmoji/1F55A.svg";
+import _1F566 from "/public/openmoji/1F566.svg";
+import _1F311 from "/public/openmoji/1F311.svg";
+import _1F312 from "/public/openmoji/1F312.svg";
+import _1F313 from "/public/openmoji/1F313.svg";
+import _1F314 from "/public/openmoji/1F314.svg";
+import _1F315 from "/public/openmoji/1F315.svg";
+import _1F316 from "/public/openmoji/1F316.svg";
+import _1F317 from "/public/openmoji/1F317.svg";
+import _1F318 from "/public/openmoji/1F318.svg";
+import _1F319 from "/public/openmoji/1F319.svg";
+import _1F31A from "/public/openmoji/1F31A.svg";
+import _1F31B from "/public/openmoji/1F31B.svg";
+import _1F31C from "/public/openmoji/1F31C.svg";
+import _1F321 from "/public/openmoji/1F321.svg";
+import _2600 from "/public/openmoji/2600.svg";
+import _1F31D from "/public/openmoji/1F31D.svg";
+import _1F31E from "/public/openmoji/1F31E.svg";
+import _1FA90 from "/public/openmoji/1FA90.svg";
+import _2B50 from "/public/openmoji/2B50.svg";
+import _1F31F from "/public/openmoji/1F31F.svg";
+import _1F320 from "/public/openmoji/1F320.svg";
+import _1F30C from "/public/openmoji/1F30C.svg";
+import _2601 from "/public/openmoji/2601.svg";
+import _26C5 from "/public/openmoji/26C5.svg";
+import _26C8 from "/public/openmoji/26C8.svg";
+import _1F324 from "/public/openmoji/1F324.svg";
+import _1F325 from "/public/openmoji/1F325.svg";
+import _1F326 from "/public/openmoji/1F326.svg";
+import _1F327 from "/public/openmoji/1F327.svg";
+import _1F328 from "/public/openmoji/1F328.svg";
+import _1F329 from "/public/openmoji/1F329.svg";
+import _1F32A from "/public/openmoji/1F32A.svg";
+import _1F32B from "/public/openmoji/1F32B.svg";
+import _1F32C from "/public/openmoji/1F32C.svg";
+import _1F300 from "/public/openmoji/1F300.svg";
+import _1F308 from "/public/openmoji/1F308.svg";
+import _1F302 from "/public/openmoji/1F302.svg";
+import _2602 from "/public/openmoji/2602.svg";
+import _2614 from "/public/openmoji/2614.svg";
+import _26F1 from "/public/openmoji/26F1.svg";
+import _26A1 from "/public/openmoji/26A1.svg";
+import _2744 from "/public/openmoji/2744.svg";
+import _2603 from "/public/openmoji/2603.svg";
+import _26C4 from "/public/openmoji/26C4.svg";
+import _2604 from "/public/openmoji/2604.svg";
+import _1F525 from "/public/openmoji/1F525.svg";
+import _1F4A7 from "/public/openmoji/1F4A7.svg";
+import _1F30A from "/public/openmoji/1F30A.svg";
+import _1F383 from "/public/openmoji/1F383.svg";
+import _1F384 from "/public/openmoji/1F384.svg";
+import _1F386 from "/public/openmoji/1F386.svg";
+import _1F387 from "/public/openmoji/1F387.svg";
+import _1F9E8 from "/public/openmoji/1F9E8.svg";
+import _2728 from "/public/openmoji/2728.svg";
+import _1F388 from "/public/openmoji/1F388.svg";
+import _1F389 from "/public/openmoji/1F389.svg";
+import _1F38A from "/public/openmoji/1F38A.svg";
+import _1F38B from "/public/openmoji/1F38B.svg";
+import _1F38D from "/public/openmoji/1F38D.svg";
+import _1F38E from "/public/openmoji/1F38E.svg";
+import _1F38F from "/public/openmoji/1F38F.svg";
+import _1F390 from "/public/openmoji/1F390.svg";
+import _1F391 from "/public/openmoji/1F391.svg";
+import _1F9E7 from "/public/openmoji/1F9E7.svg";
+import _1F380 from "/public/openmoji/1F380.svg";
+import _1F381 from "/public/openmoji/1F381.svg";
+import _1F397 from "/public/openmoji/1F397.svg";
+import _1F39F from "/public/openmoji/1F39F.svg";
+import _1F3AB from "/public/openmoji/1F3AB.svg";
+import _1F396 from "/public/openmoji/1F396.svg";
+import _1F3C6 from "/public/openmoji/1F3C6.svg";
+import _1F3C5 from "/public/openmoji/1F3C5.svg";
+import _1F947 from "/public/openmoji/1F947.svg";
+import _1F948 from "/public/openmoji/1F948.svg";
+import _1F949 from "/public/openmoji/1F949.svg";
+import _26BD from "/public/openmoji/26BD.svg";
+import _26BE from "/public/openmoji/26BE.svg";
+import _1F94E from "/public/openmoji/1F94E.svg";
+import _1F3C0 from "/public/openmoji/1F3C0.svg";
+import _1F3D0 from "/public/openmoji/1F3D0.svg";
+import _1F3C8 from "/public/openmoji/1F3C8.svg";
+import _1F3C9 from "/public/openmoji/1F3C9.svg";
+import _1F3BE from "/public/openmoji/1F3BE.svg";
+import _1F94F from "/public/openmoji/1F94F.svg";
+import _1F3B3 from "/public/openmoji/1F3B3.svg";
+import _1F3CF from "/public/openmoji/1F3CF.svg";
+import _1F3D1 from "/public/openmoji/1F3D1.svg";
+import _1F3D2 from "/public/openmoji/1F3D2.svg";
+import _1F94D from "/public/openmoji/1F94D.svg";
+import _1F3D3 from "/public/openmoji/1F3D3.svg";
+import _1F3F8 from "/public/openmoji/1F3F8.svg";
+import _1F94A from "/public/openmoji/1F94A.svg";
+import _1F94B from "/public/openmoji/1F94B.svg";
+import _1F945 from "/public/openmoji/1F945.svg";
+import _26F3 from "/public/openmoji/26F3.svg";
+import _26F8 from "/public/openmoji/26F8.svg";
+import _1F3A3 from "/public/openmoji/1F3A3.svg";
+import _1F93F from "/public/openmoji/1F93F.svg";
+import _1F3BD from "/public/openmoji/1F3BD.svg";
+import _1F3BF from "/public/openmoji/1F3BF.svg";
+import _1F6F7 from "/public/openmoji/1F6F7.svg";
+import _1F94C from "/public/openmoji/1F94C.svg";
+import _1F3AF from "/public/openmoji/1F3AF.svg";
+import _1FA80 from "/public/openmoji/1FA80.svg";
+import _1FA81 from "/public/openmoji/1FA81.svg";
+import _1F52B from "/public/openmoji/1F52B.svg";
+import _1F3B1 from "/public/openmoji/1F3B1.svg";
+import _1F52E from "/public/openmoji/1F52E.svg";
+import _1FA84 from "/public/openmoji/1FA84.svg";
+import _1F3AE from "/public/openmoji/1F3AE.svg";
+import _1F579 from "/public/openmoji/1F579.svg";
+import _1F3B0 from "/public/openmoji/1F3B0.svg";
+import _1F3B2 from "/public/openmoji/1F3B2.svg";
+import _1F9E9 from "/public/openmoji/1F9E9.svg";
+import _1F9F8 from "/public/openmoji/1F9F8.svg";
+import _1FA85 from "/public/openmoji/1FA85.svg";
+import _1FAA9 from "/public/openmoji/1FAA9.svg";
+import _1FA86 from "/public/openmoji/1FA86.svg";
+import _2660 from "/public/openmoji/2660.svg";
+import _2665 from "/public/openmoji/2665.svg";
+import _2666 from "/public/openmoji/2666.svg";
+import _2663 from "/public/openmoji/2663.svg";
+import _265F from "/public/openmoji/265F.svg";
+import _1F0CF from "/public/openmoji/1F0CF.svg";
+import _1F004 from "/public/openmoji/1F004.svg";
+import _1F3B4 from "/public/openmoji/1F3B4.svg";
+import _1F3AD from "/public/openmoji/1F3AD.svg";
+import _1F5BC from "/public/openmoji/1F5BC.svg";
+import _1F3A8 from "/public/openmoji/1F3A8.svg";
+import _1F9F5 from "/public/openmoji/1F9F5.svg";
+import _1FAA1 from "/public/openmoji/1FAA1.svg";
+import _1F9F6 from "/public/openmoji/1F9F6.svg";
+import _1FAA2 from "/public/openmoji/1FAA2.svg";
+import _1F453 from "/public/openmoji/1F453.svg";
+import _1F576 from "/public/openmoji/1F576.svg";
+import _1F97D from "/public/openmoji/1F97D.svg";
+import _1F97C from "/public/openmoji/1F97C.svg";
+import _1F9BA from "/public/openmoji/1F9BA.svg";
+import _1F454 from "/public/openmoji/1F454.svg";
+import _1F455 from "/public/openmoji/1F455.svg";
+import _1F456 from "/public/openmoji/1F456.svg";
+import _1F9E3 from "/public/openmoji/1F9E3.svg";
+import _1F9E4 from "/public/openmoji/1F9E4.svg";
+import _1F9E5 from "/public/openmoji/1F9E5.svg";
+import _1F9E6 from "/public/openmoji/1F9E6.svg";
+import _1F457 from "/public/openmoji/1F457.svg";
+import _1F458 from "/public/openmoji/1F458.svg";
+import _1F97B from "/public/openmoji/1F97B.svg";
+import _1FA71 from "/public/openmoji/1FA71.svg";
+import _1FA72 from "/public/openmoji/1FA72.svg";
+import _1FA73 from "/public/openmoji/1FA73.svg";
+import _1F459 from "/public/openmoji/1F459.svg";
+import _1F45A from "/public/openmoji/1F45A.svg";
+import _1FAAD from "/public/openmoji/1FAAD.svg";
+import _1F45B from "/public/openmoji/1F45B.svg";
+import _1F45C from "/public/openmoji/1F45C.svg";
+import _1F45D from "/public/openmoji/1F45D.svg";
+import _1F6CD from "/public/openmoji/1F6CD.svg";
+import _1F392 from "/public/openmoji/1F392.svg";
+import _1FA74 from "/public/openmoji/1FA74.svg";
+import _1F45E from "/public/openmoji/1F45E.svg";
+import _1F45F from "/public/openmoji/1F45F.svg";
+import _1F97E from "/public/openmoji/1F97E.svg";
+import _1F97F from "/public/openmoji/1F97F.svg";
+import _1F460 from "/public/openmoji/1F460.svg";
+import _1F461 from "/public/openmoji/1F461.svg";
+import _1FA70 from "/public/openmoji/1FA70.svg";
+import _1F462 from "/public/openmoji/1F462.svg";
+import _1FAAE from "/public/openmoji/1FAAE.svg";
+import _1F451 from "/public/openmoji/1F451.svg";
+import _1F452 from "/public/openmoji/1F452.svg";
+import _1F3A9 from "/public/openmoji/1F3A9.svg";
+import _1F393 from "/public/openmoji/1F393.svg";
+import _1F9E2 from "/public/openmoji/1F9E2.svg";
+import _1FA96 from "/public/openmoji/1FA96.svg";
+import _26D1 from "/public/openmoji/26D1.svg";
+import _1F4FF from "/public/openmoji/1F4FF.svg";
+import _1F484 from "/public/openmoji/1F484.svg";
+import _1F48D from "/public/openmoji/1F48D.svg";
+import _1F48E from "/public/openmoji/1F48E.svg";
+import _1F507 from "/public/openmoji/1F507.svg";
+import _1F508 from "/public/openmoji/1F508.svg";
+import _1F509 from "/public/openmoji/1F509.svg";
+import _1F50A from "/public/openmoji/1F50A.svg";
+import _1F4E2 from "/public/openmoji/1F4E2.svg";
+import _1F4E3 from "/public/openmoji/1F4E3.svg";
+import _1F4EF from "/public/openmoji/1F4EF.svg";
+import _1F514 from "/public/openmoji/1F514.svg";
+import _1F515 from "/public/openmoji/1F515.svg";
+import _1F3BC from "/public/openmoji/1F3BC.svg";
+import _1F3B5 from "/public/openmoji/1F3B5.svg";
+import _1F3B6 from "/public/openmoji/1F3B6.svg";
+import _1F399 from "/public/openmoji/1F399.svg";
+import _1F39A from "/public/openmoji/1F39A.svg";
+import _1F39B from "/public/openmoji/1F39B.svg";
+import _1F3A4 from "/public/openmoji/1F3A4.svg";
+import _1F3A7 from "/public/openmoji/1F3A7.svg";
+import _1F4FB from "/public/openmoji/1F4FB.svg";
+import _1F3B7 from "/public/openmoji/1F3B7.svg";
+import _1FA97 from "/public/openmoji/1FA97.svg";
+import _1F3B8 from "/public/openmoji/1F3B8.svg";
+import _1F3B9 from "/public/openmoji/1F3B9.svg";
+import _1F3BA from "/public/openmoji/1F3BA.svg";
+import _1F3BB from "/public/openmoji/1F3BB.svg";
+import _1FA95 from "/public/openmoji/1FA95.svg";
+import _1F941 from "/public/openmoji/1F941.svg";
+import _1FA98 from "/public/openmoji/1FA98.svg";
+import _1FA87 from "/public/openmoji/1FA87.svg";
+import _1FA88 from "/public/openmoji/1FA88.svg";
+import _1F4F1 from "/public/openmoji/1F4F1.svg";
+import _1F4F2 from "/public/openmoji/1F4F2.svg";
+import _260E from "/public/openmoji/260E.svg";
+import _1F4DE from "/public/openmoji/1F4DE.svg";
+import _1F4DF from "/public/openmoji/1F4DF.svg";
+import _1F4E0 from "/public/openmoji/1F4E0.svg";
+import _1F50B from "/public/openmoji/1F50B.svg";
+import _1FAAB from "/public/openmoji/1FAAB.svg";
+import _1F50C from "/public/openmoji/1F50C.svg";
+import _1F4BB from "/public/openmoji/1F4BB.svg";
+import _1F5A5 from "/public/openmoji/1F5A5.svg";
+import _1F5A8 from "/public/openmoji/1F5A8.svg";
+import _2328 from "/public/openmoji/2328.svg";
+import _1F5B1 from "/public/openmoji/1F5B1.svg";
+import _1F5B2 from "/public/openmoji/1F5B2.svg";
+import _1F4BD from "/public/openmoji/1F4BD.svg";
+import _1F4BE from "/public/openmoji/1F4BE.svg";
+import _1F4BF from "/public/openmoji/1F4BF.svg";
+import _1F4C0 from "/public/openmoji/1F4C0.svg";
+import _1F9EE from "/public/openmoji/1F9EE.svg";
+import _1F3A5 from "/public/openmoji/1F3A5.svg";
+import _1F39E from "/public/openmoji/1F39E.svg";
+import _1F4FD from "/public/openmoji/1F4FD.svg";
+import _1F3AC from "/public/openmoji/1F3AC.svg";
+import _1F4FA from "/public/openmoji/1F4FA.svg";
+import _1F4F7 from "/public/openmoji/1F4F7.svg";
+import _1F4F8 from "/public/openmoji/1F4F8.svg";
+import _1F4F9 from "/public/openmoji/1F4F9.svg";
+import _1F4FC from "/public/openmoji/1F4FC.svg";
+import _1F50D from "/public/openmoji/1F50D.svg";
+import _1F50E from "/public/openmoji/1F50E.svg";
+import _1F56F from "/public/openmoji/1F56F.svg";
+import _1F4A1 from "/public/openmoji/1F4A1.svg";
+import _1F526 from "/public/openmoji/1F526.svg";
+import _1F3EE from "/public/openmoji/1F3EE.svg";
+import _1FA94 from "/public/openmoji/1FA94.svg";
+import _1F4D4 from "/public/openmoji/1F4D4.svg";
+import _1F4D5 from "/public/openmoji/1F4D5.svg";
+import _1F4D6 from "/public/openmoji/1F4D6.svg";
+import _1F4D7 from "/public/openmoji/1F4D7.svg";
+import _1F4D8 from "/public/openmoji/1F4D8.svg";
+import _1F4D9 from "/public/openmoji/1F4D9.svg";
+import _1F4DA from "/public/openmoji/1F4DA.svg";
+import _1F4D3 from "/public/openmoji/1F4D3.svg";
+import _1F4D2 from "/public/openmoji/1F4D2.svg";
+import _1F4C3 from "/public/openmoji/1F4C3.svg";
+import _1F4DC from "/public/openmoji/1F4DC.svg";
+import _1F4C4 from "/public/openmoji/1F4C4.svg";
+import _1F4F0 from "/public/openmoji/1F4F0.svg";
+import _1F5DE from "/public/openmoji/1F5DE.svg";
+import _1F4D1 from "/public/openmoji/1F4D1.svg";
+import _1F516 from "/public/openmoji/1F516.svg";
+import _1F3F7 from "/public/openmoji/1F3F7.svg";
+import _1F4B0 from "/public/openmoji/1F4B0.svg";
+import _1FA99 from "/public/openmoji/1FA99.svg";
+import _1F4B4 from "/public/openmoji/1F4B4.svg";
+import _1F4B5 from "/public/openmoji/1F4B5.svg";
+import _1F4B6 from "/public/openmoji/1F4B6.svg";
+import _1F4B7 from "/public/openmoji/1F4B7.svg";
+import _1F4B8 from "/public/openmoji/1F4B8.svg";
+import _1F4B3 from "/public/openmoji/1F4B3.svg";
+import _1F9FE from "/public/openmoji/1F9FE.svg";
+import _1F4B9 from "/public/openmoji/1F4B9.svg";
+import _2709 from "/public/openmoji/2709.svg";
+import _1F4E7 from "/public/openmoji/1F4E7.svg";
+import _1F4E8 from "/public/openmoji/1F4E8.svg";
+import _1F4E9 from "/public/openmoji/1F4E9.svg";
+import _1F4E4 from "/public/openmoji/1F4E4.svg";
+import _1F4E5 from "/public/openmoji/1F4E5.svg";
+import _1F4E6 from "/public/openmoji/1F4E6.svg";
+import _1F4EB from "/public/openmoji/1F4EB.svg";
+import _1F4EA from "/public/openmoji/1F4EA.svg";
+import _1F4EC from "/public/openmoji/1F4EC.svg";
+import _1F4ED from "/public/openmoji/1F4ED.svg";
+import _1F4EE from "/public/openmoji/1F4EE.svg";
+import _1F5F3 from "/public/openmoji/1F5F3.svg";
+import _270F from "/public/openmoji/270F.svg";
+import _2712 from "/public/openmoji/2712.svg";
+import _1F58B from "/public/openmoji/1F58B.svg";
+import _1F58A from "/public/openmoji/1F58A.svg";
+import _1F58C from "/public/openmoji/1F58C.svg";
+import _1F58D from "/public/openmoji/1F58D.svg";
+import _1F4DD from "/public/openmoji/1F4DD.svg";
+import _1F4BC from "/public/openmoji/1F4BC.svg";
+import _1F4C1 from "/public/openmoji/1F4C1.svg";
+import _1F4C2 from "/public/openmoji/1F4C2.svg";
+import _1F5C2 from "/public/openmoji/1F5C2.svg";
+import _1F4C5 from "/public/openmoji/1F4C5.svg";
+import _1F4C6 from "/public/openmoji/1F4C6.svg";
+import _1F5D2 from "/public/openmoji/1F5D2.svg";
+import _1F5D3 from "/public/openmoji/1F5D3.svg";
+import _1F4C7 from "/public/openmoji/1F4C7.svg";
+import _1F4C8 from "/public/openmoji/1F4C8.svg";
+import _1F4C9 from "/public/openmoji/1F4C9.svg";
+import _1F4CA from "/public/openmoji/1F4CA.svg";
+import _1F4CB from "/public/openmoji/1F4CB.svg";
+import _1F4CC from "/public/openmoji/1F4CC.svg";
+import _1F4CD from "/public/openmoji/1F4CD.svg";
+import _1F4CE from "/public/openmoji/1F4CE.svg";
+import _1F587 from "/public/openmoji/1F587.svg";
+import _1F4CF from "/public/openmoji/1F4CF.svg";
+import _1F4D0 from "/public/openmoji/1F4D0.svg";
+import _2702 from "/public/openmoji/2702.svg";
+import _1F5C3 from "/public/openmoji/1F5C3.svg";
+import _1F5C4 from "/public/openmoji/1F5C4.svg";
+import _1F5D1 from "/public/openmoji/1F5D1.svg";
+import _1F512 from "/public/openmoji/1F512.svg";
+import _1F513 from "/public/openmoji/1F513.svg";
+import _1F50F from "/public/openmoji/1F50F.svg";
+import _1F510 from "/public/openmoji/1F510.svg";
+import _1F511 from "/public/openmoji/1F511.svg";
+import _1F5DD from "/public/openmoji/1F5DD.svg";
+import _1F528 from "/public/openmoji/1F528.svg";
+import _1FA93 from "/public/openmoji/1FA93.svg";
+import _26CF from "/public/openmoji/26CF.svg";
+import _2692 from "/public/openmoji/2692.svg";
+import _1F6E0 from "/public/openmoji/1F6E0.svg";
+import _1F5E1 from "/public/openmoji/1F5E1.svg";
+import _2694 from "/public/openmoji/2694.svg";
+import _1F4A3 from "/public/openmoji/1F4A3.svg";
+import _1FA83 from "/public/openmoji/1FA83.svg";
+import _1F3F9 from "/public/openmoji/1F3F9.svg";
+import _1F6E1 from "/public/openmoji/1F6E1.svg";
+import _1FA9A from "/public/openmoji/1FA9A.svg";
+import _1F527 from "/public/openmoji/1F527.svg";
+import _1FA9B from "/public/openmoji/1FA9B.svg";
+import _1F529 from "/public/openmoji/1F529.svg";
+import _2699 from "/public/openmoji/2699.svg";
+import _1F5DC from "/public/openmoji/1F5DC.svg";
+import _2696 from "/public/openmoji/2696.svg";
+import _1F9AF from "/public/openmoji/1F9AF.svg";
+import _1F517 from "/public/openmoji/1F517.svg";
+import _26D3FE0F200D1F4A5 from "/public/openmoji/26D3-FE0F-200D-1F4A5.svg";
+import _26D3 from "/public/openmoji/26D3.svg";
+import _1FA9D from "/public/openmoji/1FA9D.svg";
+import _1F9F0 from "/public/openmoji/1F9F0.svg";
+import _1F9F2 from "/public/openmoji/1F9F2.svg";
+import _1FA9C from "/public/openmoji/1FA9C.svg";
+import _2697 from "/public/openmoji/2697.svg";
+import _1F9EA from "/public/openmoji/1F9EA.svg";
+import _1F9EB from "/public/openmoji/1F9EB.svg";
+import _1F9EC from "/public/openmoji/1F9EC.svg";
+import _1F52C from "/public/openmoji/1F52C.svg";
+import _1F52D from "/public/openmoji/1F52D.svg";
+import _1F4E1 from "/public/openmoji/1F4E1.svg";
+import _1F489 from "/public/openmoji/1F489.svg";
+import _1FA78 from "/public/openmoji/1FA78.svg";
+import _1F48A from "/public/openmoji/1F48A.svg";
+import _1FA79 from "/public/openmoji/1FA79.svg";
+import _1FA7C from "/public/openmoji/1FA7C.svg";
+import _1FA7A from "/public/openmoji/1FA7A.svg";
+import _1FA7B from "/public/openmoji/1FA7B.svg";
+import _1F6AA from "/public/openmoji/1F6AA.svg";
+import _1F6D7 from "/public/openmoji/1F6D7.svg";
+import _1FA9E from "/public/openmoji/1FA9E.svg";
+import _1FA9F from "/public/openmoji/1FA9F.svg";
+import _1F6CF from "/public/openmoji/1F6CF.svg";
+import _1F6CB from "/public/openmoji/1F6CB.svg";
+import _1FA91 from "/public/openmoji/1FA91.svg";
+import _1F6BD from "/public/openmoji/1F6BD.svg";
+import _1FAA0 from "/public/openmoji/1FAA0.svg";
+import _1F6BF from "/public/openmoji/1F6BF.svg";
+import _1F6C1 from "/public/openmoji/1F6C1.svg";
+import _1FAA4 from "/public/openmoji/1FAA4.svg";
+import _1FA92 from "/public/openmoji/1FA92.svg";
+import _1F9F4 from "/public/openmoji/1F9F4.svg";
+import _1F9F7 from "/public/openmoji/1F9F7.svg";
+import _1F9F9 from "/public/openmoji/1F9F9.svg";
+import _1F9FA from "/public/openmoji/1F9FA.svg";
+import _1F9FB from "/public/openmoji/1F9FB.svg";
+import _1FAA3 from "/public/openmoji/1FAA3.svg";
+import _1F9FC from "/public/openmoji/1F9FC.svg";
+import _1FAE7 from "/public/openmoji/1FAE7.svg";
+import _1FAA5 from "/public/openmoji/1FAA5.svg";
+import _1F9FD from "/public/openmoji/1F9FD.svg";
+import _1F9EF from "/public/openmoji/1F9EF.svg";
+import _1F6D2 from "/public/openmoji/1F6D2.svg";
+import _1F6AC from "/public/openmoji/1F6AC.svg";
+import _26B0 from "/public/openmoji/26B0.svg";
+import _1FAA6 from "/public/openmoji/1FAA6.svg";
+import _26B1 from "/public/openmoji/26B1.svg";
+import _1F9FF from "/public/openmoji/1F9FF.svg";
+import _1FAAC from "/public/openmoji/1FAAC.svg";
+import _1F5FF from "/public/openmoji/1F5FF.svg";
+import _1FAA7 from "/public/openmoji/1FAA7.svg";
+import _1FAAA from "/public/openmoji/1FAAA.svg";
+import _1F3E7 from "/public/openmoji/1F3E7.svg";
+import _1F6AE from "/public/openmoji/1F6AE.svg";
+import _1F6B0 from "/public/openmoji/1F6B0.svg";
+import _267F from "/public/openmoji/267F.svg";
+import _1F6B9 from "/public/openmoji/1F6B9.svg";
+import _1F6BA from "/public/openmoji/1F6BA.svg";
+import _1F6BB from "/public/openmoji/1F6BB.svg";
+import _1F6BC from "/public/openmoji/1F6BC.svg";
+import _1F6BE from "/public/openmoji/1F6BE.svg";
+import _1F6C2 from "/public/openmoji/1F6C2.svg";
+import _1F6C3 from "/public/openmoji/1F6C3.svg";
+import _1F6C4 from "/public/openmoji/1F6C4.svg";
+import _1F6C5 from "/public/openmoji/1F6C5.svg";
+import _26A0 from "/public/openmoji/26A0.svg";
+import _1F6B8 from "/public/openmoji/1F6B8.svg";
+import _26D4 from "/public/openmoji/26D4.svg";
+import _1F6AB from "/public/openmoji/1F6AB.svg";
+import _1F6B3 from "/public/openmoji/1F6B3.svg";
+import _1F6AD from "/public/openmoji/1F6AD.svg";
+import _1F6AF from "/public/openmoji/1F6AF.svg";
+import _1F6B1 from "/public/openmoji/1F6B1.svg";
+import _1F6B7 from "/public/openmoji/1F6B7.svg";
+import _1F4F5 from "/public/openmoji/1F4F5.svg";
+import _1F51E from "/public/openmoji/1F51E.svg";
+import _2622 from "/public/openmoji/2622.svg";
+import _2623 from "/public/openmoji/2623.svg";
+import _2B06 from "/public/openmoji/2B06.svg";
+import _2197 from "/public/openmoji/2197.svg";
+import _27A1 from "/public/openmoji/27A1.svg";
+import _2198 from "/public/openmoji/2198.svg";
+import _2B07 from "/public/openmoji/2B07.svg";
+import _2199 from "/public/openmoji/2199.svg";
+import _2B05 from "/public/openmoji/2B05.svg";
+import _2196 from "/public/openmoji/2196.svg";
+import _2195 from "/public/openmoji/2195.svg";
+import _2194 from "/public/openmoji/2194.svg";
+import _21A9 from "/public/openmoji/21A9.svg";
+import _21AA from "/public/openmoji/21AA.svg";
+import _2934 from "/public/openmoji/2934.svg";
+import _2935 from "/public/openmoji/2935.svg";
+import _1F503 from "/public/openmoji/1F503.svg";
+import _1F504 from "/public/openmoji/1F504.svg";
+import _1F519 from "/public/openmoji/1F519.svg";
+import _1F51A from "/public/openmoji/1F51A.svg";
+import _1F51B from "/public/openmoji/1F51B.svg";
+import _1F51C from "/public/openmoji/1F51C.svg";
+import _1F51D from "/public/openmoji/1F51D.svg";
+import _1F6D0 from "/public/openmoji/1F6D0.svg";
+import _269B from "/public/openmoji/269B.svg";
+import _1F549 from "/public/openmoji/1F549.svg";
+import _2721 from "/public/openmoji/2721.svg";
+import _2638 from "/public/openmoji/2638.svg";
+import _262F from "/public/openmoji/262F.svg";
+import _271D from "/public/openmoji/271D.svg";
+import _2626 from "/public/openmoji/2626.svg";
+import _262A from "/public/openmoji/262A.svg";
+import _262E from "/public/openmoji/262E.svg";
+import _1F54E from "/public/openmoji/1F54E.svg";
+import _1F52F from "/public/openmoji/1F52F.svg";
+import _1FAAF from "/public/openmoji/1FAAF.svg";
+import _2648 from "/public/openmoji/2648.svg";
+import _2649 from "/public/openmoji/2649.svg";
+import _264A from "/public/openmoji/264A.svg";
+import _264B from "/public/openmoji/264B.svg";
+import _264C from "/public/openmoji/264C.svg";
+import _264D from "/public/openmoji/264D.svg";
+import _264E from "/public/openmoji/264E.svg";
+import _264F from "/public/openmoji/264F.svg";
+import _2650 from "/public/openmoji/2650.svg";
+import _2651 from "/public/openmoji/2651.svg";
+import _2652 from "/public/openmoji/2652.svg";
+import _2653 from "/public/openmoji/2653.svg";
+import _26CE from "/public/openmoji/26CE.svg";
+import _1F500 from "/public/openmoji/1F500.svg";
+import _1F501 from "/public/openmoji/1F501.svg";
+import _1F502 from "/public/openmoji/1F502.svg";
+import _25B6 from "/public/openmoji/25B6.svg";
+import _23E9 from "/public/openmoji/23E9.svg";
+import _23ED from "/public/openmoji/23ED.svg";
+import _23EF from "/public/openmoji/23EF.svg";
+import _25C0 from "/public/openmoji/25C0.svg";
+import _23EA from "/public/openmoji/23EA.svg";
+import _23EE from "/public/openmoji/23EE.svg";
+import _1F53C from "/public/openmoji/1F53C.svg";
+import _23EB from "/public/openmoji/23EB.svg";
+import _1F53D from "/public/openmoji/1F53D.svg";
+import _23EC from "/public/openmoji/23EC.svg";
+import _23F8 from "/public/openmoji/23F8.svg";
+import _23F9 from "/public/openmoji/23F9.svg";
+import _23FA from "/public/openmoji/23FA.svg";
+import _23CF from "/public/openmoji/23CF.svg";
+import _1F3A6 from "/public/openmoji/1F3A6.svg";
+import _1F505 from "/public/openmoji/1F505.svg";
+import _1F506 from "/public/openmoji/1F506.svg";
+import _1F4F6 from "/public/openmoji/1F4F6.svg";
+import _1F6DC from "/public/openmoji/1F6DC.svg";
+import _1F4F3 from "/public/openmoji/1F4F3.svg";
+import _1F4F4 from "/public/openmoji/1F4F4.svg";
+import _2640 from "/public/openmoji/2640.svg";
+import _2642 from "/public/openmoji/2642.svg";
+import _26A7 from "/public/openmoji/26A7.svg";
+import _2716 from "/public/openmoji/2716.svg";
+import _2795 from "/public/openmoji/2795.svg";
+import _2796 from "/public/openmoji/2796.svg";
+import _2797 from "/public/openmoji/2797.svg";
+import _1F7F0 from "/public/openmoji/1F7F0.svg";
+import _267E from "/public/openmoji/267E.svg";
+import _203C from "/public/openmoji/203C.svg";
+import _2049 from "/public/openmoji/2049.svg";
+import _2753 from "/public/openmoji/2753.svg";
+import _2754 from "/public/openmoji/2754.svg";
+import _2755 from "/public/openmoji/2755.svg";
+import _2757 from "/public/openmoji/2757.svg";
+import _3030 from "/public/openmoji/3030.svg";
+import _1F4B1 from "/public/openmoji/1F4B1.svg";
+import _1F4B2 from "/public/openmoji/1F4B2.svg";
+import _2695 from "/public/openmoji/2695.svg";
+import _267B from "/public/openmoji/267B.svg";
+import _269C from "/public/openmoji/269C.svg";
+import _1F531 from "/public/openmoji/1F531.svg";
+import _1F4DB from "/public/openmoji/1F4DB.svg";
+import _1F530 from "/public/openmoji/1F530.svg";
+import _2B55 from "/public/openmoji/2B55.svg";
+import _2705 from "/public/openmoji/2705.svg";
+import _2611 from "/public/openmoji/2611.svg";
+import _2714 from "/public/openmoji/2714.svg";
+import _274C from "/public/openmoji/274C.svg";
+import _274E from "/public/openmoji/274E.svg";
+import _27B0 from "/public/openmoji/27B0.svg";
+import _27BF from "/public/openmoji/27BF.svg";
+import _303D from "/public/openmoji/303D.svg";
+import _2733 from "/public/openmoji/2733.svg";
+import _2734 from "/public/openmoji/2734.svg";
+import _2747 from "/public/openmoji/2747.svg";
+import _00A9 from "/public/openmoji/00A9.svg";
+import _00AE from "/public/openmoji/00AE.svg";
+import _2122 from "/public/openmoji/2122.svg";
+import _0023FE0F20E3 from "/public/openmoji/0023-FE0F-20E3.svg";
+import _002AFE0F20E3 from "/public/openmoji/002A-FE0F-20E3.svg";
+import _0030FE0F20E3 from "/public/openmoji/0030-FE0F-20E3.svg";
+import _0031FE0F20E3 from "/public/openmoji/0031-FE0F-20E3.svg";
+import _0032FE0F20E3 from "/public/openmoji/0032-FE0F-20E3.svg";
+import _0033FE0F20E3 from "/public/openmoji/0033-FE0F-20E3.svg";
+import _0034FE0F20E3 from "/public/openmoji/0034-FE0F-20E3.svg";
+import _0035FE0F20E3 from "/public/openmoji/0035-FE0F-20E3.svg";
+import _0036FE0F20E3 from "/public/openmoji/0036-FE0F-20E3.svg";
+import _0037FE0F20E3 from "/public/openmoji/0037-FE0F-20E3.svg";
+import _0038FE0F20E3 from "/public/openmoji/0038-FE0F-20E3.svg";
+import _0039FE0F20E3 from "/public/openmoji/0039-FE0F-20E3.svg";
+import _1F51F from "/public/openmoji/1F51F.svg";
+import _1F520 from "/public/openmoji/1F520.svg";
+import _1F521 from "/public/openmoji/1F521.svg";
+import _1F522 from "/public/openmoji/1F522.svg";
+import _1F523 from "/public/openmoji/1F523.svg";
+import _1F524 from "/public/openmoji/1F524.svg";
+import _1F170 from "/public/openmoji/1F170.svg";
+import _1F18E from "/public/openmoji/1F18E.svg";
+import _1F171 from "/public/openmoji/1F171.svg";
+import _1F191 from "/public/openmoji/1F191.svg";
+import _1F192 from "/public/openmoji/1F192.svg";
+import _1F193 from "/public/openmoji/1F193.svg";
+import _2139 from "/public/openmoji/2139.svg";
+import _1F194 from "/public/openmoji/1F194.svg";
+import _24C2 from "/public/openmoji/24C2.svg";
+import _1F195 from "/public/openmoji/1F195.svg";
+import _1F196 from "/public/openmoji/1F196.svg";
+import _1F17E from "/public/openmoji/1F17E.svg";
+import _1F197 from "/public/openmoji/1F197.svg";
+import _1F17F from "/public/openmoji/1F17F.svg";
+import _1F198 from "/public/openmoji/1F198.svg";
+import _1F199 from "/public/openmoji/1F199.svg";
+import _1F19A from "/public/openmoji/1F19A.svg";
+import _1F201 from "/public/openmoji/1F201.svg";
+import _1F202 from "/public/openmoji/1F202.svg";
+import _1F237 from "/public/openmoji/1F237.svg";
+import _1F236 from "/public/openmoji/1F236.svg";
+import _1F22F from "/public/openmoji/1F22F.svg";
+import _1F250 from "/public/openmoji/1F250.svg";
+import _1F239 from "/public/openmoji/1F239.svg";
+import _1F21A from "/public/openmoji/1F21A.svg";
+import _1F232 from "/public/openmoji/1F232.svg";
+import _1F251 from "/public/openmoji/1F251.svg";
+import _1F238 from "/public/openmoji/1F238.svg";
+import _1F234 from "/public/openmoji/1F234.svg";
+import _1F233 from "/public/openmoji/1F233.svg";
+import _3297 from "/public/openmoji/3297.svg";
+import _3299 from "/public/openmoji/3299.svg";
+import _1F23A from "/public/openmoji/1F23A.svg";
+import _1F235 from "/public/openmoji/1F235.svg";
+import _1F534 from "/public/openmoji/1F534.svg";
+import _1F7E0 from "/public/openmoji/1F7E0.svg";
+import _1F7E1 from "/public/openmoji/1F7E1.svg";
+import _1F7E2 from "/public/openmoji/1F7E2.svg";
+import _1F535 from "/public/openmoji/1F535.svg";
+import _1F7E3 from "/public/openmoji/1F7E3.svg";
+import _1F7E4 from "/public/openmoji/1F7E4.svg";
+import _26AB from "/public/openmoji/26AB.svg";
+import _26AA from "/public/openmoji/26AA.svg";
+import _1F7E5 from "/public/openmoji/1F7E5.svg";
+import _1F7E7 from "/public/openmoji/1F7E7.svg";
+import _1F7E8 from "/public/openmoji/1F7E8.svg";
+import _1F7E9 from "/public/openmoji/1F7E9.svg";
+import _1F7E6 from "/public/openmoji/1F7E6.svg";
+import _1F7EA from "/public/openmoji/1F7EA.svg";
+import _1F7EB from "/public/openmoji/1F7EB.svg";
+import _2B1B from "/public/openmoji/2B1B.svg";
+import _2B1C from "/public/openmoji/2B1C.svg";
+import _25FC from "/public/openmoji/25FC.svg";
+import _25FB from "/public/openmoji/25FB.svg";
+import _25FE from "/public/openmoji/25FE.svg";
+import _25FD from "/public/openmoji/25FD.svg";
+import _25AA from "/public/openmoji/25AA.svg";
+import _25AB from "/public/openmoji/25AB.svg";
+import _1F536 from "/public/openmoji/1F536.svg";
+import _1F537 from "/public/openmoji/1F537.svg";
+import _1F538 from "/public/openmoji/1F538.svg";
+import _1F539 from "/public/openmoji/1F539.svg";
+import _1F53A from "/public/openmoji/1F53A.svg";
+import _1F53B from "/public/openmoji/1F53B.svg";
+import _1F4A0 from "/public/openmoji/1F4A0.svg";
+import _1F518 from "/public/openmoji/1F518.svg";
+import _1F533 from "/public/openmoji/1F533.svg";
+import _1F532 from "/public/openmoji/1F532.svg";
+import _1F3C1 from "/public/openmoji/1F3C1.svg";
+import _1F6A9 from "/public/openmoji/1F6A9.svg";
+import _1F38C from "/public/openmoji/1F38C.svg";
+import _1F3F4 from "/public/openmoji/1F3F4.svg";
+import _1F3F3 from "/public/openmoji/1F3F3.svg";
+import _1F3F3FE0F200D1F308 from "/public/openmoji/1F3F3-FE0F-200D-1F308.svg";
+import _1F3F3FE0F200D26A7FE0F from "/public/openmoji/1F3F3-FE0F-200D-26A7-FE0F.svg";
+import _1F3F4200D2620FE0F from "/public/openmoji/1F3F4-200D-2620-FE0F.svg";
+import _1F1E61F1E8 from "/public/openmoji/1F1E6-1F1E8.svg";
+import _1F1E61F1E9 from "/public/openmoji/1F1E6-1F1E9.svg";
+import _1F1E61F1EA from "/public/openmoji/1F1E6-1F1EA.svg";
+import _1F1E61F1EB from "/public/openmoji/1F1E6-1F1EB.svg";
+import _1F1E61F1EC from "/public/openmoji/1F1E6-1F1EC.svg";
+import _1F1E61F1EE from "/public/openmoji/1F1E6-1F1EE.svg";
+import _1F1E61F1F1 from "/public/openmoji/1F1E6-1F1F1.svg";
+import _1F1E61F1F2 from "/public/openmoji/1F1E6-1F1F2.svg";
+import _1F1E61F1F4 from "/public/openmoji/1F1E6-1F1F4.svg";
+import _1F1E61F1F6 from "/public/openmoji/1F1E6-1F1F6.svg";
+import _1F1E61F1F7 from "/public/openmoji/1F1E6-1F1F7.svg";
+import _1F1E61F1F8 from "/public/openmoji/1F1E6-1F1F8.svg";
+import _1F1E61F1F9 from "/public/openmoji/1F1E6-1F1F9.svg";
+import _1F1E61F1FA from "/public/openmoji/1F1E6-1F1FA.svg";
+import _1F1E61F1FC from "/public/openmoji/1F1E6-1F1FC.svg";
+import _1F1E61F1FD from "/public/openmoji/1F1E6-1F1FD.svg";
+import _1F1E61F1FF from "/public/openmoji/1F1E6-1F1FF.svg";
+import _1F1E71F1E6 from "/public/openmoji/1F1E7-1F1E6.svg";
+import _1F1E71F1E7 from "/public/openmoji/1F1E7-1F1E7.svg";
+import _1F1E71F1E9 from "/public/openmoji/1F1E7-1F1E9.svg";
+import _1F1E71F1EA from "/public/openmoji/1F1E7-1F1EA.svg";
+import _1F1E71F1EB from "/public/openmoji/1F1E7-1F1EB.svg";
+import _1F1E71F1EC from "/public/openmoji/1F1E7-1F1EC.svg";
+import _1F1E71F1ED from "/public/openmoji/1F1E7-1F1ED.svg";
+import _1F1E71F1EE from "/public/openmoji/1F1E7-1F1EE.svg";
+import _1F1E71F1EF from "/public/openmoji/1F1E7-1F1EF.svg";
+import _1F1E71F1F1 from "/public/openmoji/1F1E7-1F1F1.svg";
+import _1F1E71F1F2 from "/public/openmoji/1F1E7-1F1F2.svg";
+import _1F1E71F1F3 from "/public/openmoji/1F1E7-1F1F3.svg";
+import _1F1E71F1F4 from "/public/openmoji/1F1E7-1F1F4.svg";
+import _1F1E71F1F6 from "/public/openmoji/1F1E7-1F1F6.svg";
+import _1F1E71F1F7 from "/public/openmoji/1F1E7-1F1F7.svg";
+import _1F1E71F1F8 from "/public/openmoji/1F1E7-1F1F8.svg";
+import _1F1E71F1F9 from "/public/openmoji/1F1E7-1F1F9.svg";
+import _1F1E71F1FB from "/public/openmoji/1F1E7-1F1FB.svg";
+import _1F1E71F1FC from "/public/openmoji/1F1E7-1F1FC.svg";
+import _1F1E71F1FE from "/public/openmoji/1F1E7-1F1FE.svg";
+import _1F1E71F1FF from "/public/openmoji/1F1E7-1F1FF.svg";
+import _1F1E81F1E6 from "/public/openmoji/1F1E8-1F1E6.svg";
+import _1F1E81F1E8 from "/public/openmoji/1F1E8-1F1E8.svg";
+import _1F1E81F1E9 from "/public/openmoji/1F1E8-1F1E9.svg";
+import _1F1E81F1EB from "/public/openmoji/1F1E8-1F1EB.svg";
+import _1F1E81F1EC from "/public/openmoji/1F1E8-1F1EC.svg";
+import _1F1E81F1ED from "/public/openmoji/1F1E8-1F1ED.svg";
+import _1F1E81F1EE from "/public/openmoji/1F1E8-1F1EE.svg";
+import _1F1E81F1F0 from "/public/openmoji/1F1E8-1F1F0.svg";
+import _1F1E81F1F1 from "/public/openmoji/1F1E8-1F1F1.svg";
+import _1F1E81F1F2 from "/public/openmoji/1F1E8-1F1F2.svg";
+import _1F1E81F1F3 from "/public/openmoji/1F1E8-1F1F3.svg";
+import _1F1E81F1F4 from "/public/openmoji/1F1E8-1F1F4.svg";
+import _1F1E81F1F5 from "/public/openmoji/1F1E8-1F1F5.svg";
+import _1F1E81F1F7 from "/public/openmoji/1F1E8-1F1F7.svg";
+import _1F1E81F1FA from "/public/openmoji/1F1E8-1F1FA.svg";
+import _1F1E81F1FB from "/public/openmoji/1F1E8-1F1FB.svg";
+import _1F1E81F1FC from "/public/openmoji/1F1E8-1F1FC.svg";
+import _1F1E81F1FD from "/public/openmoji/1F1E8-1F1FD.svg";
+import _1F1E81F1FE from "/public/openmoji/1F1E8-1F1FE.svg";
+import _1F1E81F1FF from "/public/openmoji/1F1E8-1F1FF.svg";
+import _1F1E91F1EA from "/public/openmoji/1F1E9-1F1EA.svg";
+import _1F1E91F1EC from "/public/openmoji/1F1E9-1F1EC.svg";
+import _1F1E91F1EF from "/public/openmoji/1F1E9-1F1EF.svg";
+import _1F1E91F1F0 from "/public/openmoji/1F1E9-1F1F0.svg";
+import _1F1E91F1F2 from "/public/openmoji/1F1E9-1F1F2.svg";
+import _1F1E91F1F4 from "/public/openmoji/1F1E9-1F1F4.svg";
+import _1F1E91F1FF from "/public/openmoji/1F1E9-1F1FF.svg";
+import _1F1EA1F1E6 from "/public/openmoji/1F1EA-1F1E6.svg";
+import _1F1EA1F1E8 from "/public/openmoji/1F1EA-1F1E8.svg";
+import _1F1EA1F1EA from "/public/openmoji/1F1EA-1F1EA.svg";
+import _1F1EA1F1EC from "/public/openmoji/1F1EA-1F1EC.svg";
+import _1F1EA1F1ED from "/public/openmoji/1F1EA-1F1ED.svg";
+import _1F1EA1F1F7 from "/public/openmoji/1F1EA-1F1F7.svg";
+import _1F1EA1F1F8 from "/public/openmoji/1F1EA-1F1F8.svg";
+import _1F1EA1F1F9 from "/public/openmoji/1F1EA-1F1F9.svg";
+import _1F1EA1F1FA from "/public/openmoji/1F1EA-1F1FA.svg";
+import _1F1EB1F1EE from "/public/openmoji/1F1EB-1F1EE.svg";
+import _1F1EB1F1EF from "/public/openmoji/1F1EB-1F1EF.svg";
+import _1F1EB1F1F0 from "/public/openmoji/1F1EB-1F1F0.svg";
+import _1F1EB1F1F2 from "/public/openmoji/1F1EB-1F1F2.svg";
+import _1F1EB1F1F4 from "/public/openmoji/1F1EB-1F1F4.svg";
+import _1F1EB1F1F7 from "/public/openmoji/1F1EB-1F1F7.svg";
+import _1F1EC1F1E6 from "/public/openmoji/1F1EC-1F1E6.svg";
+import _1F1EC1F1E7 from "/public/openmoji/1F1EC-1F1E7.svg";
+import _1F1EC1F1E9 from "/public/openmoji/1F1EC-1F1E9.svg";
+import _1F1EC1F1EA from "/public/openmoji/1F1EC-1F1EA.svg";
+import _1F1EC1F1EB from "/public/openmoji/1F1EC-1F1EB.svg";
+import _1F1EC1F1EC from "/public/openmoji/1F1EC-1F1EC.svg";
+import _1F1EC1F1ED from "/public/openmoji/1F1EC-1F1ED.svg";
+import _1F1EC1F1EE from "/public/openmoji/1F1EC-1F1EE.svg";
+import _1F1EC1F1F1 from "/public/openmoji/1F1EC-1F1F1.svg";
+import _1F1EC1F1F2 from "/public/openmoji/1F1EC-1F1F2.svg";
+import _1F1EC1F1F3 from "/public/openmoji/1F1EC-1F1F3.svg";
+import _1F1EC1F1F5 from "/public/openmoji/1F1EC-1F1F5.svg";
+import _1F1EC1F1F6 from "/public/openmoji/1F1EC-1F1F6.svg";
+import _1F1EC1F1F7 from "/public/openmoji/1F1EC-1F1F7.svg";
+import _1F1EC1F1F8 from "/public/openmoji/1F1EC-1F1F8.svg";
+import _1F1EC1F1F9 from "/public/openmoji/1F1EC-1F1F9.svg";
+import _1F1EC1F1FA from "/public/openmoji/1F1EC-1F1FA.svg";
+import _1F1EC1F1FC from "/public/openmoji/1F1EC-1F1FC.svg";
+import _1F1EC1F1FE from "/public/openmoji/1F1EC-1F1FE.svg";
+import _1F1ED1F1F0 from "/public/openmoji/1F1ED-1F1F0.svg";
+import _1F1ED1F1F2 from "/public/openmoji/1F1ED-1F1F2.svg";
+import _1F1ED1F1F3 from "/public/openmoji/1F1ED-1F1F3.svg";
+import _1F1ED1F1F7 from "/public/openmoji/1F1ED-1F1F7.svg";
+import _1F1ED1F1F9 from "/public/openmoji/1F1ED-1F1F9.svg";
+import _1F1ED1F1FA from "/public/openmoji/1F1ED-1F1FA.svg";
+import _1F1EE1F1E8 from "/public/openmoji/1F1EE-1F1E8.svg";
+import _1F1EE1F1E9 from "/public/openmoji/1F1EE-1F1E9.svg";
+import _1F1EE1F1EA from "/public/openmoji/1F1EE-1F1EA.svg";
+import _1F1EE1F1F1 from "/public/openmoji/1F1EE-1F1F1.svg";
+import _1F1EE1F1F2 from "/public/openmoji/1F1EE-1F1F2.svg";
+import _1F1EE1F1F3 from "/public/openmoji/1F1EE-1F1F3.svg";
+import _1F1EE1F1F4 from "/public/openmoji/1F1EE-1F1F4.svg";
+import _1F1EE1F1F6 from "/public/openmoji/1F1EE-1F1F6.svg";
+import _1F1EE1F1F7 from "/public/openmoji/1F1EE-1F1F7.svg";
+import _1F1EE1F1F8 from "/public/openmoji/1F1EE-1F1F8.svg";
+import _1F1EE1F1F9 from "/public/openmoji/1F1EE-1F1F9.svg";
+import _1F1EF1F1EA from "/public/openmoji/1F1EF-1F1EA.svg";
+import _1F1EF1F1F2 from "/public/openmoji/1F1EF-1F1F2.svg";
+import _1F1EF1F1F4 from "/public/openmoji/1F1EF-1F1F4.svg";
+import _1F1EF1F1F5 from "/public/openmoji/1F1EF-1F1F5.svg";
+import _1F1F01F1EA from "/public/openmoji/1F1F0-1F1EA.svg";
+import _1F1F01F1EC from "/public/openmoji/1F1F0-1F1EC.svg";
+import _1F1F01F1ED from "/public/openmoji/1F1F0-1F1ED.svg";
+import _1F1F01F1EE from "/public/openmoji/1F1F0-1F1EE.svg";
+import _1F1F01F1F2 from "/public/openmoji/1F1F0-1F1F2.svg";
+import _1F1F01F1F3 from "/public/openmoji/1F1F0-1F1F3.svg";
+import _1F1F01F1F5 from "/public/openmoji/1F1F0-1F1F5.svg";
+import _1F1F01F1F7 from "/public/openmoji/1F1F0-1F1F7.svg";
+import _1F1F01F1FC from "/public/openmoji/1F1F0-1F1FC.svg";
+import _1F1F01F1FE from "/public/openmoji/1F1F0-1F1FE.svg";
+import _1F1F01F1FF from "/public/openmoji/1F1F0-1F1FF.svg";
+import _1F1F11F1E6 from "/public/openmoji/1F1F1-1F1E6.svg";
+import _1F1F11F1E7 from "/public/openmoji/1F1F1-1F1E7.svg";
+import _1F1F11F1E8 from "/public/openmoji/1F1F1-1F1E8.svg";
+import _1F1F11F1EE from "/public/openmoji/1F1F1-1F1EE.svg";
+import _1F1F11F1F0 from "/public/openmoji/1F1F1-1F1F0.svg";
+import _1F1F11F1F7 from "/public/openmoji/1F1F1-1F1F7.svg";
+import _1F1F11F1F8 from "/public/openmoji/1F1F1-1F1F8.svg";
+import _1F1F11F1F9 from "/public/openmoji/1F1F1-1F1F9.svg";
+import _1F1F11F1FA from "/public/openmoji/1F1F1-1F1FA.svg";
+import _1F1F11F1FB from "/public/openmoji/1F1F1-1F1FB.svg";
+import _1F1F11F1FE from "/public/openmoji/1F1F1-1F1FE.svg";
+import _1F1F21F1E6 from "/public/openmoji/1F1F2-1F1E6.svg";
+import _1F1F21F1E8 from "/public/openmoji/1F1F2-1F1E8.svg";
+import _1F1F21F1E9 from "/public/openmoji/1F1F2-1F1E9.svg";
+import _1F1F21F1EA from "/public/openmoji/1F1F2-1F1EA.svg";
+import _1F1F21F1EB from "/public/openmoji/1F1F2-1F1EB.svg";
+import _1F1F21F1EC from "/public/openmoji/1F1F2-1F1EC.svg";
+import _1F1F21F1ED from "/public/openmoji/1F1F2-1F1ED.svg";
+import _1F1F21F1F0 from "/public/openmoji/1F1F2-1F1F0.svg";
+import _1F1F21F1F1 from "/public/openmoji/1F1F2-1F1F1.svg";
+import _1F1F21F1F2 from "/public/openmoji/1F1F2-1F1F2.svg";
+import _1F1F21F1F3 from "/public/openmoji/1F1F2-1F1F3.svg";
+import _1F1F21F1F4 from "/public/openmoji/1F1F2-1F1F4.svg";
+import _1F1F21F1F5 from "/public/openmoji/1F1F2-1F1F5.svg";
+import _1F1F21F1F6 from "/public/openmoji/1F1F2-1F1F6.svg";
+import _1F1F21F1F7 from "/public/openmoji/1F1F2-1F1F7.svg";
+import _1F1F21F1F8 from "/public/openmoji/1F1F2-1F1F8.svg";
+import _1F1F21F1F9 from "/public/openmoji/1F1F2-1F1F9.svg";
+import _1F1F21F1FA from "/public/openmoji/1F1F2-1F1FA.svg";
+import _1F1F21F1FB from "/public/openmoji/1F1F2-1F1FB.svg";
+import _1F1F21F1FC from "/public/openmoji/1F1F2-1F1FC.svg";
+import _1F1F21F1FD from "/public/openmoji/1F1F2-1F1FD.svg";
+import _1F1F21F1FE from "/public/openmoji/1F1F2-1F1FE.svg";
+import _1F1F21F1FF from "/public/openmoji/1F1F2-1F1FF.svg";
+import _1F1F31F1E6 from "/public/openmoji/1F1F3-1F1E6.svg";
+import _1F1F31F1E8 from "/public/openmoji/1F1F3-1F1E8.svg";
+import _1F1F31F1EA from "/public/openmoji/1F1F3-1F1EA.svg";
+import _1F1F31F1EB from "/public/openmoji/1F1F3-1F1EB.svg";
+import _1F1F31F1EC from "/public/openmoji/1F1F3-1F1EC.svg";
+import _1F1F31F1EE from "/public/openmoji/1F1F3-1F1EE.svg";
+import _1F1F31F1F1 from "/public/openmoji/1F1F3-1F1F1.svg";
+import _1F1F31F1F4 from "/public/openmoji/1F1F3-1F1F4.svg";
+import _1F1F31F1F5 from "/public/openmoji/1F1F3-1F1F5.svg";
+import _1F1F31F1F7 from "/public/openmoji/1F1F3-1F1F7.svg";
+import _1F1F31F1FA from "/public/openmoji/1F1F3-1F1FA.svg";
+import _1F1F31F1FF from "/public/openmoji/1F1F3-1F1FF.svg";
+import _1F1F41F1F2 from "/public/openmoji/1F1F4-1F1F2.svg";
+import _1F1F51F1E6 from "/public/openmoji/1F1F5-1F1E6.svg";
+import _1F1F51F1EA from "/public/openmoji/1F1F5-1F1EA.svg";
+import _1F1F51F1EB from "/public/openmoji/1F1F5-1F1EB.svg";
+import _1F1F51F1EC from "/public/openmoji/1F1F5-1F1EC.svg";
+import _1F1F51F1ED from "/public/openmoji/1F1F5-1F1ED.svg";
+import _1F1F51F1F0 from "/public/openmoji/1F1F5-1F1F0.svg";
+import _1F1F51F1F1 from "/public/openmoji/1F1F5-1F1F1.svg";
+import _1F1F51F1F2 from "/public/openmoji/1F1F5-1F1F2.svg";
+import _1F1F51F1F3 from "/public/openmoji/1F1F5-1F1F3.svg";
+import _1F1F51F1F7 from "/public/openmoji/1F1F5-1F1F7.svg";
+import _1F1F51F1F8 from "/public/openmoji/1F1F5-1F1F8.svg";
+import _1F1F51F1F9 from "/public/openmoji/1F1F5-1F1F9.svg";
+import _1F1F51F1FC from "/public/openmoji/1F1F5-1F1FC.svg";
+import _1F1F51F1FE from "/public/openmoji/1F1F5-1F1FE.svg";
+import _1F1F61F1E6 from "/public/openmoji/1F1F6-1F1E6.svg";
+import _1F1F71F1EA from "/public/openmoji/1F1F7-1F1EA.svg";
+import _1F1F71F1F4 from "/public/openmoji/1F1F7-1F1F4.svg";
+import _1F1F71F1F8 from "/public/openmoji/1F1F7-1F1F8.svg";
+import _1F1F71F1FA from "/public/openmoji/1F1F7-1F1FA.svg";
+import _1F1F71F1FC from "/public/openmoji/1F1F7-1F1FC.svg";
+import _1F1F81F1E6 from "/public/openmoji/1F1F8-1F1E6.svg";
+import _1F1F81F1E7 from "/public/openmoji/1F1F8-1F1E7.svg";
+import _1F1F81F1E8 from "/public/openmoji/1F1F8-1F1E8.svg";
+import _1F1F81F1E9 from "/public/openmoji/1F1F8-1F1E9.svg";
+import _1F1F81F1EA from "/public/openmoji/1F1F8-1F1EA.svg";
+import _1F1F81F1EC from "/public/openmoji/1F1F8-1F1EC.svg";
+import _1F1F81F1ED from "/public/openmoji/1F1F8-1F1ED.svg";
+import _1F1F81F1EE from "/public/openmoji/1F1F8-1F1EE.svg";
+import _1F1F81F1EF from "/public/openmoji/1F1F8-1F1EF.svg";
+import _1F1F81F1F0 from "/public/openmoji/1F1F8-1F1F0.svg";
+import _1F1F81F1F1 from "/public/openmoji/1F1F8-1F1F1.svg";
+import _1F1F81F1F2 from "/public/openmoji/1F1F8-1F1F2.svg";
+import _1F1F81F1F3 from "/public/openmoji/1F1F8-1F1F3.svg";
+import _1F1F81F1F4 from "/public/openmoji/1F1F8-1F1F4.svg";
+import _1F1F81F1F7 from "/public/openmoji/1F1F8-1F1F7.svg";
+import _1F1F81F1F8 from "/public/openmoji/1F1F8-1F1F8.svg";
+import _1F1F81F1F9 from "/public/openmoji/1F1F8-1F1F9.svg";
+import _1F1F81F1FB from "/public/openmoji/1F1F8-1F1FB.svg";
+import _1F1F81F1FD from "/public/openmoji/1F1F8-1F1FD.svg";
+import _1F1F81F1FE from "/public/openmoji/1F1F8-1F1FE.svg";
+import _1F1F81F1FF from "/public/openmoji/1F1F8-1F1FF.svg";
+import _1F1F91F1E6 from "/public/openmoji/1F1F9-1F1E6.svg";
+import _1F1F91F1E8 from "/public/openmoji/1F1F9-1F1E8.svg";
+import _1F1F91F1E9 from "/public/openmoji/1F1F9-1F1E9.svg";
+import _1F1F91F1EB from "/public/openmoji/1F1F9-1F1EB.svg";
+import _1F1F91F1EC from "/public/openmoji/1F1F9-1F1EC.svg";
+import _1F1F91F1ED from "/public/openmoji/1F1F9-1F1ED.svg";
+import _1F1F91F1EF from "/public/openmoji/1F1F9-1F1EF.svg";
+import _1F1F91F1F0 from "/public/openmoji/1F1F9-1F1F0.svg";
+import _1F1F91F1F1 from "/public/openmoji/1F1F9-1F1F1.svg";
+import _1F1F91F1F2 from "/public/openmoji/1F1F9-1F1F2.svg";
+import _1F1F91F1F3 from "/public/openmoji/1F1F9-1F1F3.svg";
+import _1F1F91F1F4 from "/public/openmoji/1F1F9-1F1F4.svg";
+import _1F1F91F1F7 from "/public/openmoji/1F1F9-1F1F7.svg";
+import _1F1F91F1F9 from "/public/openmoji/1F1F9-1F1F9.svg";
+import _1F1F91F1FB from "/public/openmoji/1F1F9-1F1FB.svg";
+import _1F1F91F1FC from "/public/openmoji/1F1F9-1F1FC.svg";
+import _1F1F91F1FF from "/public/openmoji/1F1F9-1F1FF.svg";
+import _1F1FA1F1E6 from "/public/openmoji/1F1FA-1F1E6.svg";
+import _1F1FA1F1EC from "/public/openmoji/1F1FA-1F1EC.svg";
+import _1F1FA1F1F2 from "/public/openmoji/1F1FA-1F1F2.svg";
+import _1F1FA1F1F3 from "/public/openmoji/1F1FA-1F1F3.svg";
+import _1F1FA1F1F8 from "/public/openmoji/1F1FA-1F1F8.svg";
+import _1F1FA1F1FE from "/public/openmoji/1F1FA-1F1FE.svg";
+import _1F1FA1F1FF from "/public/openmoji/1F1FA-1F1FF.svg";
+import _1F1FB1F1E6 from "/public/openmoji/1F1FB-1F1E6.svg";
+import _1F1FB1F1E8 from "/public/openmoji/1F1FB-1F1E8.svg";
+import _1F1FB1F1EA from "/public/openmoji/1F1FB-1F1EA.svg";
+import _1F1FB1F1EC from "/public/openmoji/1F1FB-1F1EC.svg";
+import _1F1FB1F1EE from "/public/openmoji/1F1FB-1F1EE.svg";
+import _1F1FB1F1F3 from "/public/openmoji/1F1FB-1F1F3.svg";
+import _1F1FB1F1FA from "/public/openmoji/1F1FB-1F1FA.svg";
+import _1F1FC1F1EB from "/public/openmoji/1F1FC-1F1EB.svg";
+import _1F1FC1F1F8 from "/public/openmoji/1F1FC-1F1F8.svg";
+import _1F1FD1F1F0 from "/public/openmoji/1F1FD-1F1F0.svg";
+import _1F1FE1F1EA from "/public/openmoji/1F1FE-1F1EA.svg";
+import _1F1FE1F1F9 from "/public/openmoji/1F1FE-1F1F9.svg";
+import _1F1FF1F1E6 from "/public/openmoji/1F1FF-1F1E6.svg";
+import _1F1FF1F1F2 from "/public/openmoji/1F1FF-1F1F2.svg";
+import _1F1FF1F1FC from "/public/openmoji/1F1FF-1F1FC.svg";
+import _1F3F4E0067E0062E0065E006EE0067E007F from "/public/openmoji/1F3F4-E0067-E0062-E0065-E006E-E0067-E007F.svg";
+import _1F3F4E0067E0062E0073E0063E0074E007F from "/public/openmoji/1F3F4-E0067-E0062-E0073-E0063-E0074-E007F.svg";
+import _1F3F4E0067E0062E0077E006CE0073E007F from "/public/openmoji/1F3F4-E0067-E0062-E0077-E006C-E0073-E007F.svg";
+import _E000 from "/public/openmoji/E000.svg";
+import _E001 from "/public/openmoji/E001.svg";
+import _E002 from "/public/openmoji/E002.svg";
+import _E003 from "/public/openmoji/E003.svg";
+import _E004 from "/public/openmoji/E004.svg";
+import _E005 from "/public/openmoji/E005.svg";
+import _E006 from "/public/openmoji/E006.svg";
+import _E007 from "/public/openmoji/E007.svg";
+import _E008 from "/public/openmoji/E008.svg";
+import _E009 from "/public/openmoji/E009.svg";
+import _E010 from "/public/openmoji/E010.svg";
+import _E011 from "/public/openmoji/E011.svg";
+import _E040 from "/public/openmoji/E040.svg";
+import _E041 from "/public/openmoji/E041.svg";
+import _E042 from "/public/openmoji/E042.svg";
+import _E043 from "/public/openmoji/E043.svg";
+import _E044 from "/public/openmoji/E044.svg";
+import _E045 from "/public/openmoji/E045.svg";
+import _E046 from "/public/openmoji/E046.svg";
+import _E047 from "/public/openmoji/E047.svg";
+import _E048 from "/public/openmoji/E048.svg";
+import _E049 from "/public/openmoji/E049.svg";
+import _E04A from "/public/openmoji/E04A.svg";
+import _E04B from "/public/openmoji/E04B.svg";
+import _E04C from "/public/openmoji/E04C.svg";
+import _E04D from "/public/openmoji/E04D.svg";
+import _E04E from "/public/openmoji/E04E.svg";
+import _E04F from "/public/openmoji/E04F.svg";
+import _E050 from "/public/openmoji/E050.svg";
+import _E051 from "/public/openmoji/E051.svg";
+import _E052 from "/public/openmoji/E052.svg";
+import _E053 from "/public/openmoji/E053.svg";
+import _E054 from "/public/openmoji/E054.svg";
+import _E055 from "/public/openmoji/E055.svg";
+import _E056 from "/public/openmoji/E056.svg";
+import _E057 from "/public/openmoji/E057.svg";
+import _E058 from "/public/openmoji/E058.svg";
+import _E059 from "/public/openmoji/E059.svg";
+import _E05A from "/public/openmoji/E05A.svg";
+import _E05B from "/public/openmoji/E05B.svg";
+import _E05C from "/public/openmoji/E05C.svg";
+import _E05D from "/public/openmoji/E05D.svg";
+import _E05E from "/public/openmoji/E05E.svg";
+import _E05F from "/public/openmoji/E05F.svg";
+import _E060 from "/public/openmoji/E060.svg";
+import _E061 from "/public/openmoji/E061.svg";
+import _E062 from "/public/openmoji/E062.svg";
+import _E063 from "/public/openmoji/E063.svg";
+import _E064 from "/public/openmoji/E064.svg";
+import _E065 from "/public/openmoji/E065.svg";
+import _E066 from "/public/openmoji/E066.svg";
+import _E067 from "/public/openmoji/E067.svg";
+import _E068 from "/public/openmoji/E068.svg";
+import _E069 from "/public/openmoji/E069.svg";
+import _E06A from "/public/openmoji/E06A.svg";
+import _E06B from "/public/openmoji/E06B.svg";
+import _E06C from "/public/openmoji/E06C.svg";
+import _E06D from "/public/openmoji/E06D.svg";
+import _E0FF from "/public/openmoji/E0FF.svg";
+import _F000 from "/public/openmoji/F000.svg";
+import _F77A from "/public/openmoji/F77A.svg";
+import _F8FF from "/public/openmoji/F8FF.svg";
+import _E2C0 from "/public/openmoji/E2C0.svg";
+import _E2C1 from "/public/openmoji/E2C1.svg";
+import _E2C2 from "/public/openmoji/E2C2.svg";
+import _E2C3 from "/public/openmoji/E2C3.svg";
+import _E2C4 from "/public/openmoji/E2C4.svg";
+import _E2C6 from "/public/openmoji/E2C6.svg";
+import _E2C7 from "/public/openmoji/E2C7.svg";
+import _E2C8 from "/public/openmoji/E2C8.svg";
+import _E2C9 from "/public/openmoji/E2C9.svg";
+import _E2CA from "/public/openmoji/E2CA.svg";
+import _E2CB from "/public/openmoji/E2CB.svg";
+import _E2CC from "/public/openmoji/E2CC.svg";
+import _E2CD from "/public/openmoji/E2CD.svg";
+import _E2CE from "/public/openmoji/E2CE.svg";
+import _E2CF from "/public/openmoji/E2CF.svg";
+import _E2D0 from "/public/openmoji/E2D0.svg";
+import _E2D1 from "/public/openmoji/E2D1.svg";
+import _E2D2 from "/public/openmoji/E2D2.svg";
+import _E2D3 from "/public/openmoji/E2D3.svg";
+import _E2D4 from "/public/openmoji/E2D4.svg";
+import _E2D5 from "/public/openmoji/E2D5.svg";
+import _E2D6 from "/public/openmoji/E2D6.svg";
+import _E2D7 from "/public/openmoji/E2D7.svg";
+import _E2D8 from "/public/openmoji/E2D8.svg";
+import _E2D9 from "/public/openmoji/E2D9.svg";
+import _E2DA from "/public/openmoji/E2DA.svg";
+import _E080 from "/public/openmoji/E080.svg";
+import _E081 from "/public/openmoji/E081.svg";
+import _E082 from "/public/openmoji/E082.svg";
+import _E083 from "/public/openmoji/E083.svg";
+import _E084 from "/public/openmoji/E084.svg";
+import _E085 from "/public/openmoji/E085.svg";
+import _E086 from "/public/openmoji/E086.svg";
+import _E087 from "/public/openmoji/E087.svg";
+import _E088 from "/public/openmoji/E088.svg";
+import _E089 from "/public/openmoji/E089.svg";
+import _E08A from "/public/openmoji/E08A.svg";
+import _E08B from "/public/openmoji/E08B.svg";
+import _E08C from "/public/openmoji/E08C.svg";
+import _E08D from "/public/openmoji/E08D.svg";
+import _E08E from "/public/openmoji/E08E.svg";
+import _E08F from "/public/openmoji/E08F.svg";
+import _E090 from "/public/openmoji/E090.svg";
+import _E091 from "/public/openmoji/E091.svg";
+import _E092 from "/public/openmoji/E092.svg";
+import _E093 from "/public/openmoji/E093.svg";
+import _E094 from "/public/openmoji/E094.svg";
+import _E095 from "/public/openmoji/E095.svg";
+import _E096 from "/public/openmoji/E096.svg";
+import _E097 from "/public/openmoji/E097.svg";
+import _E098 from "/public/openmoji/E098.svg";
+import _E099 from "/public/openmoji/E099.svg";
+import _E09A from "/public/openmoji/E09A.svg";
+import _E09B from "/public/openmoji/E09B.svg";
+import _E09C from "/public/openmoji/E09C.svg";
+import _E09D from "/public/openmoji/E09D.svg";
+import _E09E from "/public/openmoji/E09E.svg";
+import _E09F from "/public/openmoji/E09F.svg";
+import _E0A0 from "/public/openmoji/E0A0.svg";
+import _E0A1 from "/public/openmoji/E0A1.svg";
+import _E0A2 from "/public/openmoji/E0A2.svg";
+import _E0A3 from "/public/openmoji/E0A3.svg";
+import _E0A4 from "/public/openmoji/E0A4.svg";
+import _E0A5 from "/public/openmoji/E0A5.svg";
+import _E0A6 from "/public/openmoji/E0A6.svg";
+import _E0A7 from "/public/openmoji/E0A7.svg";
+import _E0A8 from "/public/openmoji/E0A8.svg";
+import _E0A9 from "/public/openmoji/E0A9.svg";
+import _E0AA from "/public/openmoji/E0AA.svg";
+import _E0AB from "/public/openmoji/E0AB.svg";
+import _E0AC from "/public/openmoji/E0AC.svg";
+import _E0AC200D2640FE0F from "/public/openmoji/E0AC-200D-2640-FE0F.svg";
+import _E0AC200D2642FE0F from "/public/openmoji/E0AC-200D-2642-FE0F.svg";
+import _E0AD from "/public/openmoji/E0AD.svg";
+import _E0AD200D2640FE0F from "/public/openmoji/E0AD-200D-2640-FE0F.svg";
+import _E0AD200D2642FE0F from "/public/openmoji/E0AD-200D-2642-FE0F.svg";
+import _E0AE from "/public/openmoji/E0AE.svg";
+import _E0AF from "/public/openmoji/E0AF.svg";
+import _E0B0 from "/public/openmoji/E0B0.svg";
+import _E0B1 from "/public/openmoji/E0B1.svg";
+import _E0B2 from "/public/openmoji/E0B2.svg";
+import _E0B3 from "/public/openmoji/E0B3.svg";
+import _E0B4 from "/public/openmoji/E0B4.svg";
+import _1F1E61F1F61F48E from "/public/openmoji/1F1E6-1F1F6-1F48E.svg";
+import _1F3F31F7E61F7E91F7E8 from "/public/openmoji/1F3F3-1F7E6-1F7E9-1F7E8.svg";
+import _1F3F3FE0F from "/public/openmoji/1F3F3-FE0F.svg";
+import _1F3F3FE0F200D1F4CC200D2699FE0F from "/public/openmoji/1F3F3-FE0F-200D-1F4CC-200D-2699-FE0F.svg";
+import _1F3F3FE0F200D1F7E5 from "/public/openmoji/1F3F3-FE0F-200D-1F7E5.svg";
+import _1F3F3FE0F200D1F7E6 from "/public/openmoji/1F3F3-FE0F-200D-1F7E6.svg";
+import _1F3F3FE0F200D1F7E6200D1F30C from "/public/openmoji/1F3F3-FE0F-200D-1F7E6-200D-1F30C.svg";
+import _1F3F3FE0F200D1F7E7 from "/public/openmoji/1F3F3-FE0F-200D-1F7E7.svg";
+import _1F3F3FE0F200D1F7E8 from "/public/openmoji/1F3F3-FE0F-200D-1F7E8.svg";
+import _1F3F3FE0F200D1F7E9 from "/public/openmoji/1F3F3-FE0F-200D-1F7E9.svg";
+import _1F3F3FE0F200D1F7E9200D2B50200D1F7E9 from "/public/openmoji/1F3F3-FE0F-200D-1F7E9-200D-2B50-200D-1F7E9.svg";
+import _1F3F3FE0F200D1F7EA from "/public/openmoji/1F3F3-FE0F-200D-1F7EA.svg";
+import _1F3F3FE0F200D1F7EB from "/public/openmoji/1F3F3-FE0F-200D-1F7EB.svg";
+import _1F3F4FE0F200D1F170FE0F from "/public/openmoji/1F3F4-FE0F-200D-1F170-FE0F.svg";
+import _2691FE0F200D1F7E5 from "/public/openmoji/2691-FE0F-200D-1F7E5.svg";
+import _2691FE0F200D1F7E6 from "/public/openmoji/2691-FE0F-200D-1F7E6.svg";
+import _2691FE0F200D1F7E7 from "/public/openmoji/2691-FE0F-200D-1F7E7.svg";
+import _2691FE0F200D1F7E8 from "/public/openmoji/2691-FE0F-200D-1F7E8.svg";
+import _2691FE0F200D1F7E9 from "/public/openmoji/2691-FE0F-200D-1F7E9.svg";
+import _2691FE0F200D1F7E9200D2605FE0F from "/public/openmoji/2691-FE0F-200D-1F7E9-200D-2605-FE0F.svg";
+import _2691FE0F200D1F7EA from "/public/openmoji/2691-FE0F-200D-1F7EA.svg";
+import _2691FE0F200D1F7EB from "/public/openmoji/2691-FE0F-200D-1F7EB.svg";
+import _E0C0 from "/public/openmoji/E0C0.svg";
+import _E0C1 from "/public/openmoji/E0C1.svg";
+import _E0C2 from "/public/openmoji/E0C2.svg";
+import _E0C3 from "/public/openmoji/E0C3.svg";
+import _E0C4 from "/public/openmoji/E0C4.svg";
+import _E0C5 from "/public/openmoji/E0C5.svg";
+import _E0C6 from "/public/openmoji/E0C6.svg";
+import _E0C7 from "/public/openmoji/E0C7.svg";
+import _E0C8 from "/public/openmoji/E0C8.svg";
+import _E0C9 from "/public/openmoji/E0C9.svg";
+import _E0CA from "/public/openmoji/E0CA.svg";
+import _E0CB from "/public/openmoji/E0CB.svg";
+import _E0CC from "/public/openmoji/E0CC.svg";
+import _E340 from "/public/openmoji/E340.svg";
+import _E341 from "/public/openmoji/E341.svg";
+import _E342 from "/public/openmoji/E342.svg";
+import _E343 from "/public/openmoji/E343.svg";
+import _E344 from "/public/openmoji/E344.svg";
+import _E345 from "/public/openmoji/E345.svg";
+import _E346 from "/public/openmoji/E346.svg";
+import _E347 from "/public/openmoji/E347.svg";
+import _E348 from "/public/openmoji/E348.svg";
+import _E300 from "/public/openmoji/E300.svg";
+import _E301 from "/public/openmoji/E301.svg";
+import _E302 from "/public/openmoji/E302.svg";
+import _E303 from "/public/openmoji/E303.svg";
+import _E305 from "/public/openmoji/E305.svg";
+import _E306 from "/public/openmoji/E306.svg";
+import _E307 from "/public/openmoji/E307.svg";
+import _E308 from "/public/openmoji/E308.svg";
+import _E309 from "/public/openmoji/E309.svg";
+import _E30A from "/public/openmoji/E30A.svg";
+import _E30B from "/public/openmoji/E30B.svg";
+import _E30C from "/public/openmoji/E30C.svg";
+import _E30D from "/public/openmoji/E30D.svg";
+import _E30E from "/public/openmoji/E30E.svg";
+import _E30F from "/public/openmoji/E30F.svg";
+import _E312 from "/public/openmoji/E312.svg";
+import _E313 from "/public/openmoji/E313.svg";
+import _E314 from "/public/openmoji/E314.svg";
+import _E315 from "/public/openmoji/E315.svg";
+import _E316 from "/public/openmoji/E316.svg";
+import _E318 from "/public/openmoji/E318.svg";
+import _E319 from "/public/openmoji/E319.svg";
+import _E31A from "/public/openmoji/E31A.svg";
+import _E31B from "/public/openmoji/E31B.svg";
+import _E31C from "/public/openmoji/E31C.svg";
+import _E31D from "/public/openmoji/E31D.svg";
+import _E31E from "/public/openmoji/E31E.svg";
+import _E31F from "/public/openmoji/E31F.svg";
+import _E320 from "/public/openmoji/E320.svg";
+import _E321 from "/public/openmoji/E321.svg";
+import _E322 from "/public/openmoji/E322.svg";
+import _E324 from "/public/openmoji/E324.svg";
+import _E325 from "/public/openmoji/E325.svg";
+import _E326 from "/public/openmoji/E326.svg";
+import _E327 from "/public/openmoji/E327.svg";
+import _E328 from "/public/openmoji/E328.svg";
+import _E329 from "/public/openmoji/E329.svg";
+import _E32B from "/public/openmoji/E32B.svg";
+import _E100 from "/public/openmoji/E100.svg";
+import _E101 from "/public/openmoji/E101.svg";
+import _E102 from "/public/openmoji/E102.svg";
+import _E103 from "/public/openmoji/E103.svg";
+import _E104 from "/public/openmoji/E104.svg";
+import _E105 from "/public/openmoji/E105.svg";
+import _E106 from "/public/openmoji/E106.svg";
+import _E107 from "/public/openmoji/E107.svg";
+import _E108 from "/public/openmoji/E108.svg";
+import _E109 from "/public/openmoji/E109.svg";
+import _E10A from "/public/openmoji/E10A.svg";
+import _E10B from "/public/openmoji/E10B.svg";
+import _E10C from "/public/openmoji/E10C.svg";
+import _E10D from "/public/openmoji/E10D.svg";
+import _E140 from "/public/openmoji/E140.svg";
+import _E141 from "/public/openmoji/E141.svg";
+import _E142 from "/public/openmoji/E142.svg";
+import _E143 from "/public/openmoji/E143.svg";
+import _E144 from "/public/openmoji/E144.svg";
+import _E145 from "/public/openmoji/E145.svg";
+import _E146 from "/public/openmoji/E146.svg";
+import _E147 from "/public/openmoji/E147.svg";
+import _E148 from "/public/openmoji/E148.svg";
+import _E149 from "/public/openmoji/E149.svg";
+import _E14A from "/public/openmoji/E14A.svg";
+import _E150 from "/public/openmoji/E150.svg";
+import _E151 from "/public/openmoji/E151.svg";
+import _E152 from "/public/openmoji/E152.svg";
+import _E153 from "/public/openmoji/E153.svg";
+import _E154 from "/public/openmoji/E154.svg";
+import _E155 from "/public/openmoji/E155.svg";
+import _E156 from "/public/openmoji/E156.svg";
+import _E157 from "/public/openmoji/E157.svg";
+import _1F468200D1FAA9 from "/public/openmoji/1F468-200D-1FAA9.svg";
+import _1F469200D1FAA9 from "/public/openmoji/1F469-200D-1FAA9.svg";
+import _1F9D1200D1FAA9 from "/public/openmoji/1F9D1-200D-1FAA9.svg";
+import _E181 from "/public/openmoji/E181.svg";
+import _E182 from "/public/openmoji/E182.svg";
+import _E183 from "/public/openmoji/E183.svg";
+import _E184 from "/public/openmoji/E184.svg";
+import _E185 from "/public/openmoji/E185.svg";
+import _E186 from "/public/openmoji/E186.svg";
+import _E187 from "/public/openmoji/E187.svg";
+import _E188 from "/public/openmoji/E188.svg";
+import _E189 from "/public/openmoji/E189.svg";
+import _E280 from "/public/openmoji/E280.svg";
+import _E281 from "/public/openmoji/E281.svg";
+import _E282 from "/public/openmoji/E282.svg";
+import _E283 from "/public/openmoji/E283.svg";
+import _1FBC6200D1F457 from "/public/openmoji/1FBC6-200D-1F457.svg";
+import _1FBC7200D1F457 from "/public/openmoji/1FBC7-200D-1F457.svg";
+import _1FBC8200D1F457 from "/public/openmoji/1FBC8-200D-1F457.svg";
+import _2B21FE0F200D1F308 from "/public/openmoji/2B21-FE0F-200D-1F308.svg";
+import _2B21FE0F200D1F7E5 from "/public/openmoji/2B21-FE0F-200D-1F7E5.svg";
+import _2B21FE0F200D1F7E6 from "/public/openmoji/2B21-FE0F-200D-1F7E6.svg";
+import _2B21FE0F200D1F7E7 from "/public/openmoji/2B21-FE0F-200D-1F7E7.svg";
+import _2B21FE0F200D1F7E8 from "/public/openmoji/2B21-FE0F-200D-1F7E8.svg";
+import _2B21FE0F200D1F7E9 from "/public/openmoji/2B21-FE0F-200D-1F7E9.svg";
+import _2B21FE0F200D1F7EA from "/public/openmoji/2B21-FE0F-200D-1F7EA.svg";
+import _2B21FE0F200D1F7EB from "/public/openmoji/2B21-FE0F-200D-1F7EB.svg";
+import _E380 from "/public/openmoji/E380.svg";
+import _E381 from "/public/openmoji/E381.svg";
+import _25C9FE0F200D1F534 from "/public/openmoji/25C9-FE0F-200D-1F534.svg";
+import _25C9FE0F200D1F534200D25AEFE0F from "/public/openmoji/25C9-FE0F-200D-1F534-200D-25AE-FE0F.svg";
+import _E1C0 from "/public/openmoji/E1C0.svg";
+import _E1C1 from "/public/openmoji/E1C1.svg";
+import _E1C2 from "/public/openmoji/E1C2.svg";
+import _E1C3 from "/public/openmoji/E1C3.svg";
+import _E1C4 from "/public/openmoji/E1C4.svg";
+import _E1C6 from "/public/openmoji/E1C6.svg";
+import _E1C7 from "/public/openmoji/E1C7.svg";
+import _E1C8 from "/public/openmoji/E1C8.svg";
+import _E1C9 from "/public/openmoji/E1C9.svg";
+import _E1CA from "/public/openmoji/E1CA.svg";
+import _E1CB from "/public/openmoji/E1CB.svg";
+import _E1CC from "/public/openmoji/E1CC.svg";
+import _E1CD from "/public/openmoji/E1CD.svg";
+import _E1CE from "/public/openmoji/E1CE.svg";
+import _E1CF from "/public/openmoji/E1CF.svg";
+import _E1D0 from "/public/openmoji/E1D0.svg";
+import _E1D1 from "/public/openmoji/E1D1.svg";
+import _E1D2 from "/public/openmoji/E1D2.svg";
+import _E1D3 from "/public/openmoji/E1D3.svg";
+import _E1D4 from "/public/openmoji/E1D4.svg";
+import _E1D5 from "/public/openmoji/E1D5.svg";
+import _E1D6 from "/public/openmoji/E1D6.svg";
+import _E1D7 from "/public/openmoji/E1D7.svg";
+import _E1D8 from "/public/openmoji/E1D8.svg";
+import _E1D9 from "/public/openmoji/E1D9.svg";
+import _E200 from "/public/openmoji/E200.svg";
+import _E201 from "/public/openmoji/E201.svg";
+import _E202 from "/public/openmoji/E202.svg";
+import _E203 from "/public/openmoji/E203.svg";
+import _E204 from "/public/openmoji/E204.svg";
+import _E205 from "/public/openmoji/E205.svg";
+import _E206 from "/public/openmoji/E206.svg";
+import _E207 from "/public/openmoji/E207.svg";
+import _E208 from "/public/openmoji/E208.svg";
+import _E209 from "/public/openmoji/E209.svg";
+import _E20A from "/public/openmoji/E20A.svg";
+import _E20B from "/public/openmoji/E20B.svg";
+import _E20C from "/public/openmoji/E20C.svg";
+import _E20D from "/public/openmoji/E20D.svg";
+import _E20E from "/public/openmoji/E20E.svg";
+import _E20F from "/public/openmoji/E20F.svg";
+import _E210 from "/public/openmoji/E210.svg";
+import _E211 from "/public/openmoji/E211.svg";
+import _E212 from "/public/openmoji/E212.svg";
+import _E213 from "/public/openmoji/E213.svg";
+import _E214 from "/public/openmoji/E214.svg";
+import _E215 from "/public/openmoji/E215.svg";
+import _E216 from "/public/openmoji/E216.svg";
+import _E240 from "/public/openmoji/E240.svg";
+import _E241 from "/public/openmoji/E241.svg";
+import _E242 from "/public/openmoji/E242.svg";
+import _E243 from "/public/openmoji/E243.svg";
+import _E244 from "/public/openmoji/E244.svg";
+import _E245 from "/public/openmoji/E245.svg";
+import _E246 from "/public/openmoji/E246.svg";
+import _E247 from "/public/openmoji/E247.svg";
+import _E248 from "/public/openmoji/E248.svg";
+import _E249 from "/public/openmoji/E249.svg";
+import _E24A from "/public/openmoji/E24A.svg";
+import _E24B from "/public/openmoji/E24B.svg";
+import _E24C from "/public/openmoji/E24C.svg";
+import _E24D from "/public/openmoji/E24D.svg";
+import _E24E from "/public/openmoji/E24E.svg";
+import _E24F from "/public/openmoji/E24F.svg";
+import _E250 from "/public/openmoji/E250.svg";
+import _E251 from "/public/openmoji/E251.svg";
+import _E252 from "/public/openmoji/E252.svg";
+import _E253 from "/public/openmoji/E253.svg";
+import _E254 from "/public/openmoji/E254.svg";
+import _E255 from "/public/openmoji/E255.svg";
+import _E256 from "/public/openmoji/E256.svg";
+import _E257 from "/public/openmoji/E257.svg";
+import _E258 from "/public/openmoji/E258.svg";
+import _E259 from "/public/openmoji/E259.svg";
+import _E25A from "/public/openmoji/E25A.svg";
+import _E25B from "/public/openmoji/E25B.svg";
+import _E25C from "/public/openmoji/E25C.svg";
+import _E25D from "/public/openmoji/E25D.svg";
+import _E25E from "/public/openmoji/E25E.svg";
+import _E25F from "/public/openmoji/E25F.svg";
+import _E260 from "/public/openmoji/E260.svg";
+import _E261 from "/public/openmoji/E261.svg";
+import _E262 from "/public/openmoji/E262.svg";
+import _E263 from "/public/openmoji/E263.svg";
+import _E264 from "/public/openmoji/E264.svg";
+import _E265 from "/public/openmoji/E265.svg";
+import _E266 from "/public/openmoji/E266.svg";
+import _E267 from "/public/openmoji/E267.svg";
+import _E268 from "/public/openmoji/E268.svg";
+import _E269 from "/public/openmoji/E269.svg";
+import _1FAD9200D1F7E5 from "/public/openmoji/1FAD9-200D-1F7E5.svg";
+import _1FAD9200D1F7E6 from "/public/openmoji/1FAD9-200D-1F7E6.svg";
+import _1FAD9200D1F7E7 from "/public/openmoji/1FAD9-200D-1F7E7.svg";
+import _1FAD9200D1F7E8 from "/public/openmoji/1FAD9-200D-1F7E8.svg";
+import _1FAD9200D1F7E9 from "/public/openmoji/1FAD9-200D-1F7E9.svg";
+import _1FAD9200D1F7EA from "/public/openmoji/1FAD9-200D-1F7EA.svg";
+import _1FAD9200D1F7EB from "/public/openmoji/1FAD9-200D-1F7EB.svg";
+import _1F1E6 from "/public/openmoji/1F1E6.svg";
+import _1F1E7 from "/public/openmoji/1F1E7.svg";
+import _1F1E8 from "/public/openmoji/1F1E8.svg";
+import _1F1E9 from "/public/openmoji/1F1E9.svg";
+import _1F1EA from "/public/openmoji/1F1EA.svg";
+import _1F1EB from "/public/openmoji/1F1EB.svg";
+import _1F1EC from "/public/openmoji/1F1EC.svg";
+import _1F1ED from "/public/openmoji/1F1ED.svg";
+import _1F1EE from "/public/openmoji/1F1EE.svg";
+import _1F1EF from "/public/openmoji/1F1EF.svg";
+import _1F1F0 from "/public/openmoji/1F1F0.svg";
+import _1F1F1 from "/public/openmoji/1F1F1.svg";
+import _1F1F2 from "/public/openmoji/1F1F2.svg";
+import _1F1F3 from "/public/openmoji/1F1F3.svg";
+import _1F1F4 from "/public/openmoji/1F1F4.svg";
+import _1F1F5 from "/public/openmoji/1F1F5.svg";
+import _1F1F6 from "/public/openmoji/1F1F6.svg";
+import _1F1F7 from "/public/openmoji/1F1F7.svg";
+import _1F1F8 from "/public/openmoji/1F1F8.svg";
+import _1F1F9 from "/public/openmoji/1F1F9.svg";
+import _1F1FA from "/public/openmoji/1F1FA.svg";
+import _1F1FB from "/public/openmoji/1F1FB.svg";
+import _1F1FC from "/public/openmoji/1F1FC.svg";
+import _1F1FD from "/public/openmoji/1F1FD.svg";
+import _1F1FE from "/public/openmoji/1F1FE.svg";
+import _1F1FF from "/public/openmoji/1F1FF.svg";
+import _1F3F4E0061E0076E007F from "/public/openmoji/1F3F4-E0061-E0076-E007F.svg";
+import _1F3F4E0063E0061E0071E0063E007F from "/public/openmoji/1F3F4-E0063-E0061-E0071-E0063-E007F.svg";
+import _1F3F4E0064E0065E0062E0065E007F from "/public/openmoji/1F3F4-E0064-E0065-E0062-E0065-E007F.svg";
+import _1F3F4E0064E0065E0062E0079E007F from "/public/openmoji/1F3F4-E0064-E0065-E0062-E0079-E007F.svg";
+import _1F3F4E0065E0073E0061E006EE007F from "/public/openmoji/1F3F4-E0065-E0073-E0061-E006E-E007F.svg";
+import _1F3F4E0065E0073E0061E0072E007F from "/public/openmoji/1F3F4-E0065-E0073-E0061-E0072-E007F.svg";
+import _1F3F4E0065E0073E0061E0073E007F from "/public/openmoji/1F3F4-E0065-E0073-E0061-E0073-E007F.svg";
+import _1F3F4E0065E0073E0063E0062E007F from "/public/openmoji/1F3F4-E0065-E0073-E0063-E0062-E007F.svg";
+import _1F3F4E0065E0073E0063E0065E007F from "/public/openmoji/1F3F4-E0065-E0073-E0063-E0065-E007F.svg";
+import _1F3F4E0065E0073E0063E006CE007F from "/public/openmoji/1F3F4-E0065-E0073-E0063-E006C-E007F.svg";
+import _1F3F4E0065E0073E0063E006DE007F from "/public/openmoji/1F3F4-E0065-E0073-E0063-E006D-E007F.svg";
+import _1F3F4E0065E0073E0063E006EE007F from "/public/openmoji/1F3F4-E0065-E0073-E0063-E006E-E007F.svg";
+import _1F3F4E0065E0073E0063E0074E007F from "/public/openmoji/1F3F4-E0065-E0073-E0063-E0074-E007F.svg";
+import _1F3F4E0065E0073E0065E0078E007F from "/public/openmoji/1F3F4-E0065-E0073-E0065-E0078-E007F.svg";
+import _1F3F4E0065E0073E0067E0061E007F from "/public/openmoji/1F3F4-E0065-E0073-E0067-E0061-E007F.svg";
+import _1F3F4E0065E0073E0069E0062E007F from "/public/openmoji/1F3F4-E0065-E0073-E0069-E0062-E007F.svg";
+import _1F3F4E0065E0073E006DE0063E007F from "/public/openmoji/1F3F4-E0065-E0073-E006D-E0063-E007F.svg";
+import _1F3F4E0065E0073E006DE0064E007F from "/public/openmoji/1F3F4-E0065-E0073-E006D-E0064-E007F.svg";
+import _1F3F4E0065E0073E006DE006CE007F from "/public/openmoji/1F3F4-E0065-E0073-E006D-E006C-E007F.svg";
+import _1F3F4E0065E0073E006EE0063E007F from "/public/openmoji/1F3F4-E0065-E0073-E006E-E0063-E007F.svg";
+import _1F3F4E0065E0073E0070E0076E007F from "/public/openmoji/1F3F4-E0065-E0073-E0070-E0076-E007F.svg";
+import _1F3F4E0065E0073E0072E0069E007F from "/public/openmoji/1F3F4-E0065-E0073-E0072-E0069-E007F.svg";
+import _1F3F4E0065E0073E0076E0063E007F from "/public/openmoji/1F3F4-E0065-E0073-E0076-E0063-E007F.svg";
+import _1F3F4E0066E0072E0062E0072E0065E007F from "/public/openmoji/1F3F4-E0066-E0072-E0062-E0072-E0065-E007F.svg";
+import _1F3F4E0075E0073E0063E0061E007F from "/public/openmoji/1F3F4-E0075-E0073-E0063-E0061-E007F.svg";
+import _1F3F4E0075E0073E0063E006FE007F from "/public/openmoji/1F3F4-E0075-E0073-E0063-E006F-E007F.svg";
+import _1F3F4E0075E0073E0074E0078E007F from "/public/openmoji/1F3F4-E0075-E0073-E0074-E0078-E007F.svg";
+import _1F3F4E0077E0064E0063E007F from "/public/openmoji/1F3F4-E0077-E0064-E0063-E007F.svg";
+import _002D from "/public/openmoji/002D.svg";
+import _1F10D from "/public/openmoji/1F10D.svg";
+import _1F10E from "/public/openmoji/1F10E.svg";
+import _1F10F from "/public/openmoji/1F10F.svg";
+import _1F12F from "/public/openmoji/1F12F.svg";
+import _1F16D from "/public/openmoji/1F16D.svg";
+import _1F16E from "/public/openmoji/1F16E.svg";
+import _1F16F from "/public/openmoji/1F16F.svg";
+import _1F260 from "/public/openmoji/1F260.svg";
+import _1F261 from "/public/openmoji/1F261.svg";
+import _1F262 from "/public/openmoji/1F262.svg";
+import _1F263 from "/public/openmoji/1F263.svg";
+import _1F264 from "/public/openmoji/1F264.svg";
+import _1F265 from "/public/openmoji/1F265.svg";
+import _1F431200D1F4BB from "/public/openmoji/1F431-200D-1F4BB.svg";
+import _1FBC5 from "/public/openmoji/1FBC5.svg";
+import _1FBC6 from "/public/openmoji/1FBC6.svg";
+import _1FBC7 from "/public/openmoji/1FBC7.svg";
+import _1FBC8 from "/public/openmoji/1FBC8.svg";
+import _1FBC9 from "/public/openmoji/1FBC9.svg";
+import _2117 from "/public/openmoji/2117.svg";
+import _2120 from "/public/openmoji/2120.svg";
+import _229C from "/public/openmoji/229C.svg";
+import _23FB from "/public/openmoji/23FB.svg";
+import _23FC from "/public/openmoji/23FC.svg";
+import _23FD from "/public/openmoji/23FD.svg";
+import _23FE from "/public/openmoji/23FE.svg";
+import _25A1 from "/public/openmoji/25A1.svg";
+import _25AC from "/public/openmoji/25AC.svg";
+import _25AD from "/public/openmoji/25AD.svg";
+import _25AE from "/public/openmoji/25AE.svg";
+import _25C9 from "/public/openmoji/25C9.svg";
+import _25D0 from "/public/openmoji/25D0.svg";
+import _25D1 from "/public/openmoji/25D1.svg";
+import _25E7 from "/public/openmoji/25E7.svg";
+import _25E8 from "/public/openmoji/25E8.svg";
+import _25E9 from "/public/openmoji/25E9.svg";
+import _25EA from "/public/openmoji/25EA.svg";
+import _25ED from "/public/openmoji/25ED.svg";
+import _25EE from "/public/openmoji/25EE.svg";
+import _2605 from "/public/openmoji/2605.svg";
+import _2B0C from "/public/openmoji/2B0C.svg";
+import _2B0D from "/public/openmoji/2B0D.svg";
+import _2B1F from "/public/openmoji/2B1F.svg";
+import _2B20 from "/public/openmoji/2B20.svg";
+import _2B21 from "/public/openmoji/2B21.svg";
+import _2B22 from "/public/openmoji/2B22.svg";
+import _2B23 from "/public/openmoji/2B23.svg";
+import _2B24 from "/public/openmoji/2B24.svg";
+import _2B2E from "/public/openmoji/2B2E.svg";
+import _2B2F from "/public/openmoji/2B2F.svg";
+import _2B58 from "/public/openmoji/2B58.svg";
+import _2B8F from "/public/openmoji/2B8F.svg";
+import _2BBA from "/public/openmoji/2BBA.svg";
+import _2BBB from "/public/openmoji/2BBB.svg";
+import _2BBC from "/public/openmoji/2BBC.svg";
+import _2BC3 from "/public/openmoji/2BC3.svg";
+import _2BC4 from "/public/openmoji/2BC4.svg";
+import _2BEA from "/public/openmoji/2BEA.svg";
+import _2BEB from "/public/openmoji/2BEB.svg";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import logo from "/public/logo.svg"
 import supabaselogo from "/public/common/supabaselogo.svg"
@@ -4310,4155 +8767,3 @@ import cat_grey from "/public/openmoji/custom/1F431-grey.svg";
 import star_empty from "/public/openmoji/custom/2B50-empty-star.svg";
 
 
-
-
-
-
-
-import JfpCaPDAen from "/public/openmoji/0023-FE0F-20E3.svg";
-import gUFIjABSyP from "/public/openmoji/002A-FE0F-20E3.svg";
-import zbIdQLlQgM from "/public/openmoji/002D.svg";
-import KTVsiKUKWw from "/public/openmoji/0030-FE0F-20E3.svg";
-import uCdERYopxN from "/public/openmoji/0031-FE0F-20E3.svg";
-import WNPViHDkkg from "/public/openmoji/0032-FE0F-20E3.svg";
-import kqGGaGCCEx from "/public/openmoji/0033-FE0F-20E3.svg";
-import nNEDCmxQFY from "/public/openmoji/0034-FE0F-20E3.svg";
-import EumrJqJDMd from "/public/openmoji/0035-FE0F-20E3.svg";
-import eJgTvcANxM from "/public/openmoji/0036-FE0F-20E3.svg";
-import TjGrxUpsLY from "/public/openmoji/0037-FE0F-20E3.svg";
-import TtMMcIsmii from "/public/openmoji/0038-FE0F-20E3.svg";
-import LXzUyokyXT from "/public/openmoji/0039-FE0F-20E3.svg";
-import mrEDYdfuyf from "/public/openmoji/00A9.svg";
-import EYJRybQIPB from "/public/openmoji/00AE.svg";
-import VFYZJjXEvo from "/public/openmoji/1F004.svg";
-import ZoBGlVnXgD from "/public/openmoji/1F0CF.svg";
-import QeRCHxhSSN from "/public/openmoji/1F10D.svg";
-import DbrvvjyCqZ from "/public/openmoji/1F10E.svg";
-import iFakCxqCOe from "/public/openmoji/1F10F.svg";
-import QZmunxZmBb from "/public/openmoji/1F12F.svg";
-import sPNxZRovht from "/public/openmoji/1F16D.svg";
-import ZVulHlnIrr from "/public/openmoji/1F16E.svg";
-import iWStORXNbb from "/public/openmoji/1F16F.svg";
-import DoOavCYNpd from "/public/openmoji/1F170.svg";
-import MFpkDaxvUk from "/public/openmoji/1F171.svg";
-import yeLIHxCvbj from "/public/openmoji/1F17E.svg";
-import ddpLvAnnKl from "/public/openmoji/1F17F.svg";
-import UrDxtuDcQl from "/public/openmoji/1F18E.svg";
-import TinTfwkkuB from "/public/openmoji/1F191.svg";
-import TcePrQNydI from "/public/openmoji/1F192.svg";
-import ONRxuPYNXR from "/public/openmoji/1F193.svg";
-import zLAphnOgLW from "/public/openmoji/1F194.svg";
-import rEbbmlMSFE from "/public/openmoji/1F195.svg";
-import cCHWRpLLmW from "/public/openmoji/1F196.svg";
-import YaicEiuTrt from "/public/openmoji/1F197.svg";
-import RYSJetADKy from "/public/openmoji/1F198.svg";
-import yXQfjbjOzS from "/public/openmoji/1F199.svg";
-import ECGZQTISta from "/public/openmoji/1F19A.svg";
-import SnpPJsOCXs from "/public/openmoji/1F1E6-1F1E8.svg";
-import xmtoXMdHwS from "/public/openmoji/1F1E6-1F1E9.svg";
-import oAuXJKIRgP from "/public/openmoji/1F1E6-1F1EA.svg";
-import RekMFElQrB from "/public/openmoji/1F1E6-1F1EB.svg";
-import nzVOCzJJqB from "/public/openmoji/1F1E6-1F1EC.svg";
-import dKTiJlAeVF from "/public/openmoji/1F1E6-1F1EE.svg";
-import FTXzetyOGl from "/public/openmoji/1F1E6-1F1F1.svg";
-import UBRQFziODH from "/public/openmoji/1F1E6-1F1F2.svg";
-import SwnVmitGVt from "/public/openmoji/1F1E6-1F1F4.svg";
-import BwZPNorqkO from "/public/openmoji/1F1E6-1F1F6-1F48E.svg";
-import OXyZnhBrrH from "/public/openmoji/1F1E6-1F1F6.svg";
-import PsaCVWCFPW from "/public/openmoji/1F1E6-1F1F7.svg";
-import bmwJyaBaDL from "/public/openmoji/1F1E6-1F1F8.svg";
-import ffnpJfqJaF from "/public/openmoji/1F1E6-1F1F9.svg";
-import VxGNugfhXK from "/public/openmoji/1F1E6-1F1FA.svg";
-import zYeqhfvPRq from "/public/openmoji/1F1E6-1F1FC.svg";
-import BbTBIyuePi from "/public/openmoji/1F1E6-1F1FD.svg";
-import UUZgDdHClt from "/public/openmoji/1F1E6-1F1FF.svg";
-import DsebswDaLN from "/public/openmoji/1F1E6.svg";
-import weBDzjLWRw from "/public/openmoji/1F1E7-1F1E6.svg";
-import btpEmLYDjX from "/public/openmoji/1F1E7-1F1E7.svg";
-import jnBjssLsVo from "/public/openmoji/1F1E7-1F1E9.svg";
-import QpeGvYJSNG from "/public/openmoji/1F1E7-1F1EA.svg";
-import HhCUgSJTWx from "/public/openmoji/1F1E7-1F1EB.svg";
-import KQpYgKBMzD from "/public/openmoji/1F1E7-1F1EC.svg";
-import haJoKcXQfz from "/public/openmoji/1F1E7-1F1ED.svg";
-import USIqQYeCIH from "/public/openmoji/1F1E7-1F1EE.svg";
-import LAtiQVwTGi from "/public/openmoji/1F1E7-1F1EF.svg";
-import exCVttwDPL from "/public/openmoji/1F1E7-1F1F1.svg";
-import XivgRbEAKH from "/public/openmoji/1F1E7-1F1F2.svg";
-import HdacfxMlht from "/public/openmoji/1F1E7-1F1F3.svg";
-import GUvlFBnblK from "/public/openmoji/1F1E7-1F1F4.svg";
-import AscbjGxSwl from "/public/openmoji/1F1E7-1F1F6.svg";
-import VmQIeabeBQ from "/public/openmoji/1F1E7-1F1F7.svg";
-import kBxjxTkJIn from "/public/openmoji/1F1E7-1F1F8.svg";
-import whLHTUgyna from "/public/openmoji/1F1E7-1F1F9.svg";
-import aOgHMUasnX from "/public/openmoji/1F1E7-1F1FB.svg";
-import ipHJLenVvI from "/public/openmoji/1F1E7-1F1FC.svg";
-import sqcNHSeuqa from "/public/openmoji/1F1E7-1F1FE.svg";
-import oGtFERmciF from "/public/openmoji/1F1E7-1F1FF.svg";
-import HEIIKLSNkq from "/public/openmoji/1F1E7.svg";
-import JjIBnGoYqT from "/public/openmoji/1F1E8-1F1E6.svg";
-import ETnVQBeEbT from "/public/openmoji/1F1E8-1F1E8.svg";
-import SzMmVemlAt from "/public/openmoji/1F1E8-1F1E9.svg";
-import DQgEDLINdN from "/public/openmoji/1F1E8-1F1EB.svg";
-import DNlSynzNwm from "/public/openmoji/1F1E8-1F1EC.svg";
-import ddELXexRoR from "/public/openmoji/1F1E8-1F1ED.svg";
-import VLofxbJDBW from "/public/openmoji/1F1E8-1F1EE.svg";
-import UTAFdRarbn from "/public/openmoji/1F1E8-1F1F0.svg";
-import tzMkfjjFOI from "/public/openmoji/1F1E8-1F1F1.svg";
-import CbBNcVKdPb from "/public/openmoji/1F1E8-1F1F2.svg";
-import QXFYndBFyr from "/public/openmoji/1F1E8-1F1F3.svg";
-import uxvvJHMSrD from "/public/openmoji/1F1E8-1F1F4.svg";
-import TLiWcZDCCZ from "/public/openmoji/1F1E8-1F1F5.svg";
-import OMfUmDeymu from "/public/openmoji/1F1E8-1F1F7.svg";
-import vHgdwQlSXR from "/public/openmoji/1F1E8-1F1FA.svg";
-import zSGnaRYdsm from "/public/openmoji/1F1E8-1F1FB.svg";
-import BwuHuVAPnp from "/public/openmoji/1F1E8-1F1FC.svg";
-import rwkQrsAzxr from "/public/openmoji/1F1E8-1F1FD.svg";
-import nEuiweBUxL from "/public/openmoji/1F1E8-1F1FE.svg";
-import nRvSfnOUbM from "/public/openmoji/1F1E8-1F1FF.svg";
-import YsdAVlzjqE from "/public/openmoji/1F1E8.svg";
-import fPRLmlyYet from "/public/openmoji/1F1E9-1F1EA.svg";
-import lPcaocNBFY from "/public/openmoji/1F1E9-1F1EC.svg";
-import cZFehErPPw from "/public/openmoji/1F1E9-1F1EF.svg";
-import QzTFTPKkOT from "/public/openmoji/1F1E9-1F1F0.svg";
-import vtXItVvlFK from "/public/openmoji/1F1E9-1F1F2.svg";
-import LUymdvLprv from "/public/openmoji/1F1E9-1F1F4.svg";
-import viNcuiiAtU from "/public/openmoji/1F1E9-1F1FF.svg";
-import YdDjImdDAn from "/public/openmoji/1F1E9.svg";
-import oEFKkIMCog from "/public/openmoji/1F1EA-1F1E6.svg";
-import XNttXWpiJu from "/public/openmoji/1F1EA-1F1E8.svg";
-import uLnHlTCHWA from "/public/openmoji/1F1EA-1F1EA.svg";
-import eNbXDOdOIF from "/public/openmoji/1F1EA-1F1EC.svg";
-import yuALPwwtDj from "/public/openmoji/1F1EA-1F1ED.svg";
-import hkNhRRPVfu from "/public/openmoji/1F1EA-1F1F7.svg";
-import RqkxCmYAOI from "/public/openmoji/1F1EA-1F1F8.svg";
-import ZcBBJCVlOJ from "/public/openmoji/1F1EA-1F1F9.svg";
-import uuaCddTGUI from "/public/openmoji/1F1EA-1F1FA.svg";
-import fNaTZiNgmP from "/public/openmoji/1F1EA.svg";
-import sUbYFWtPDf from "/public/openmoji/1F1EB-1F1EE.svg";
-import TAgiWeoNEH from "/public/openmoji/1F1EB-1F1EF.svg";
-import UhHhuNqIMl from "/public/openmoji/1F1EB-1F1F0.svg";
-import cEeOSfgWsG from "/public/openmoji/1F1EB-1F1F2.svg";
-import thpMJdSbcJ from "/public/openmoji/1F1EB-1F1F4.svg";
-import YxeXEuBYQR from "/public/openmoji/1F1EB-1F1F7.svg";
-import CzLRDqOfCM from "/public/openmoji/1F1EB.svg";
-import WwzpbunfAW from "/public/openmoji/1F1EC-1F1E6.svg";
-import jznQfNapeb from "/public/openmoji/1F1EC-1F1E7.svg";
-import wmmAodLJvy from "/public/openmoji/1F1EC-1F1E9.svg";
-import XjJvnNUgUr from "/public/openmoji/1F1EC-1F1EA.svg";
-import BZLBgwPNUA from "/public/openmoji/1F1EC-1F1EB.svg";
-import lIpIsBtvcQ from "/public/openmoji/1F1EC-1F1EC.svg";
-import TqoxxWEfGf from "/public/openmoji/1F1EC-1F1ED.svg";
-import uVzFzMrfVF from "/public/openmoji/1F1EC-1F1EE.svg";
-import mSKrgDKRWY from "/public/openmoji/1F1EC-1F1F1.svg";
-import jRKntdRxdx from "/public/openmoji/1F1EC-1F1F2.svg";
-import LKVIHJOWio from "/public/openmoji/1F1EC-1F1F3.svg";
-import NzZpgwXgSG from "/public/openmoji/1F1EC-1F1F5.svg";
-import utMwKfneVI from "/public/openmoji/1F1EC-1F1F6.svg";
-import tSLHVfncsJ from "/public/openmoji/1F1EC-1F1F7.svg";
-import ivgjZIhMFA from "/public/openmoji/1F1EC-1F1F8.svg";
-import MbvlIKbsDL from "/public/openmoji/1F1EC-1F1F9.svg";
-import xPFdTgpQuN from "/public/openmoji/1F1EC-1F1FA.svg";
-import hioAkOIBkI from "/public/openmoji/1F1EC-1F1FC.svg";
-import qZlfGlFzCb from "/public/openmoji/1F1EC-1F1FE.svg";
-import ZhHChKzAJl from "/public/openmoji/1F1EC.svg";
-import iRyrAdWOel from "/public/openmoji/1F1ED-1F1F0.svg";
-import EGLKGvyjGy from "/public/openmoji/1F1ED-1F1F2.svg";
-import lQlOMOVBBb from "/public/openmoji/1F1ED-1F1F3.svg";
-import ZLEUrPWRik from "/public/openmoji/1F1ED-1F1F7.svg";
-import hVFscLTdpe from "/public/openmoji/1F1ED-1F1F9.svg";
-import JJxuWPTnJd from "/public/openmoji/1F1ED-1F1FA.svg";
-import CyjRLVokbs from "/public/openmoji/1F1ED.svg";
-import DKHxOuSNIN from "/public/openmoji/1F1EE-1F1E8.svg";
-import nNpZQvepjX from "/public/openmoji/1F1EE-1F1E9.svg";
-import hqXvTAPOxi from "/public/openmoji/1F1EE-1F1EA.svg";
-import QHioztvbhO from "/public/openmoji/1F1EE-1F1F1.svg";
-import bBtnROwniH from "/public/openmoji/1F1EE-1F1F2.svg";
-import xMurKNtOLk from "/public/openmoji/1F1EE-1F1F3.svg";
-import RaLvsrKomC from "/public/openmoji/1F1EE-1F1F4.svg";
-import CHApLkQPlY from "/public/openmoji/1F1EE-1F1F6.svg";
-import wTgLoXMQvB from "/public/openmoji/1F1EE-1F1F7.svg";
-import jtVlcgJdnI from "/public/openmoji/1F1EE-1F1F8.svg";
-import QnvKzWqXKO from "/public/openmoji/1F1EE-1F1F9.svg";
-import DrtdxBWXmN from "/public/openmoji/1F1EE.svg";
-import KmKGEtVswd from "/public/openmoji/1F1EF-1F1EA.svg";
-import JejSoZkaan from "/public/openmoji/1F1EF-1F1F2.svg";
-import SCWCBHwnux from "/public/openmoji/1F1EF-1F1F4.svg";
-import lonejGbhqE from "/public/openmoji/1F1EF-1F1F5.svg";
-import uaSqbFyQWB from "/public/openmoji/1F1EF.svg";
-import wHYEHwJelJ from "/public/openmoji/1F1F0-1F1EA.svg";
-import mpeReMvaDf from "/public/openmoji/1F1F0-1F1EC.svg";
-import teEdxfdEjQ from "/public/openmoji/1F1F0-1F1ED.svg";
-import EvEwdLHMBM from "/public/openmoji/1F1F0-1F1EE.svg";
-import ylpjUvxkZg from "/public/openmoji/1F1F0-1F1F2.svg";
-import rDGgUhepYC from "/public/openmoji/1F1F0-1F1F3.svg";
-import GrdobCsceE from "/public/openmoji/1F1F0-1F1F5.svg";
-import dZYeCImaOZ from "/public/openmoji/1F1F0-1F1F7.svg";
-import nwObXlLRWD from "/public/openmoji/1F1F0-1F1FC.svg";
-import vNNCSqHeHs from "/public/openmoji/1F1F0-1F1FE.svg";
-import IjKzpzmeJc from "/public/openmoji/1F1F0-1F1FF.svg";
-import YkibTLjkhd from "/public/openmoji/1F1F0.svg";
-import DxHFwyokoV from "/public/openmoji/1F1F1-1F1E6.svg";
-import WUQdBQOblk from "/public/openmoji/1F1F1-1F1E7.svg";
-import ajgqMmgXEU from "/public/openmoji/1F1F1-1F1E8.svg";
-import TOBkRcGJYo from "/public/openmoji/1F1F1-1F1EE.svg";
-import udZDHJVBDH from "/public/openmoji/1F1F1-1F1F0.svg";
-import sxAVlxnmBg from "/public/openmoji/1F1F1-1F1F7.svg";
-import IIZsbSYWtM from "/public/openmoji/1F1F1-1F1F8.svg";
-import DxquToHBaW from "/public/openmoji/1F1F1-1F1F9.svg";
-import nRRcztLYpv from "/public/openmoji/1F1F1-1F1FA.svg";
-import gBDvRWwpHX from "/public/openmoji/1F1F1-1F1FB.svg";
-import DVpCZVaAtW from "/public/openmoji/1F1F1-1F1FE.svg";
-import lLqhBGelbU from "/public/openmoji/1F1F1.svg";
-import saezrUaYaA from "/public/openmoji/1F1F2-1F1E6.svg";
-import rfEtyfQVbh from "/public/openmoji/1F1F2-1F1E8.svg";
-import guspsalzQO from "/public/openmoji/1F1F2-1F1E9.svg";
-import dhKpMZBVuH from "/public/openmoji/1F1F2-1F1EA.svg";
-import GnbiJGPfcf from "/public/openmoji/1F1F2-1F1EB.svg";
-import MymMLNlwvI from "/public/openmoji/1F1F2-1F1EC.svg";
-import EPXpBXBxZJ from "/public/openmoji/1F1F2-1F1ED.svg";
-import BJLOpsmWMM from "/public/openmoji/1F1F2-1F1F0.svg";
-import bvnXALFvQp from "/public/openmoji/1F1F2-1F1F1.svg";
-import lvbFFKwfby from "/public/openmoji/1F1F2-1F1F2.svg";
-import boQIWGrmrB from "/public/openmoji/1F1F2-1F1F3.svg";
-import SjZbMYMBAD from "/public/openmoji/1F1F2-1F1F4.svg";
-import NGiicnKEfV from "/public/openmoji/1F1F2-1F1F5.svg";
-import UMkZoiYdHw from "/public/openmoji/1F1F2-1F1F6.svg";
-import WUmAvznisC from "/public/openmoji/1F1F2-1F1F7.svg";
-import tCocdrNoeh from "/public/openmoji/1F1F2-1F1F8.svg";
-import NNmbRaGVvS from "/public/openmoji/1F1F2-1F1F9.svg";
-import qnuDOqsWvC from "/public/openmoji/1F1F2-1F1FA.svg";
-import JKEcankARK from "/public/openmoji/1F1F2-1F1FB.svg";
-import cYKLBmpTgg from "/public/openmoji/1F1F2-1F1FC.svg";
-import lFRdXFCCoh from "/public/openmoji/1F1F2-1F1FD.svg";
-import yQzPgFjPuo from "/public/openmoji/1F1F2-1F1FE.svg";
-import QCFCqsnhyi from "/public/openmoji/1F1F2-1F1FF.svg";
-import yepDuAgvdK from "/public/openmoji/1F1F2.svg";
-import KrHmleXPzF from "/public/openmoji/1F1F3-1F1E6.svg";
-import ZGvBDdDVDG from "/public/openmoji/1F1F3-1F1E8.svg";
-import lRqylvyXGd from "/public/openmoji/1F1F3-1F1EA.svg";
-import zWHeqGgwyo from "/public/openmoji/1F1F3-1F1EB.svg";
-import jukqNOcnAF from "/public/openmoji/1F1F3-1F1EC.svg";
-import UtQgFEHOrI from "/public/openmoji/1F1F3-1F1EE.svg";
-import SiWalMotzo from "/public/openmoji/1F1F3-1F1F1.svg";
-import qAcbtxkSuB from "/public/openmoji/1F1F3-1F1F4.svg";
-import IZbInPMCZQ from "/public/openmoji/1F1F3-1F1F5.svg";
-import oNKOdbjspg from "/public/openmoji/1F1F3-1F1F7.svg";
-import iBbMkXAtOr from "/public/openmoji/1F1F3-1F1FA.svg";
-import EPGFgtWvZn from "/public/openmoji/1F1F3-1F1FF.svg";
-import rVbpShSynm from "/public/openmoji/1F1F3.svg";
-import JElWHZjiCZ from "/public/openmoji/1F1F4-1F1F2.svg";
-import qeNPDaJuWQ from "/public/openmoji/1F1F4.svg";
-import IWGVWiIMTH from "/public/openmoji/1F1F5-1F1E6.svg";
-import BrjjOyyWyt from "/public/openmoji/1F1F5-1F1EA.svg";
-import uNfHyAaZGr from "/public/openmoji/1F1F5-1F1EB.svg";
-import TwSJJGeQyu from "/public/openmoji/1F1F5-1F1EC.svg";
-import PEeUasWKyn from "/public/openmoji/1F1F5-1F1ED.svg";
-import tdwoVqJwRP from "/public/openmoji/1F1F5-1F1F0.svg";
-import ZBpZgeWcfu from "/public/openmoji/1F1F5-1F1F1.svg";
-import JyUQYgpgEE from "/public/openmoji/1F1F5-1F1F2.svg";
-import rNncZPjxzC from "/public/openmoji/1F1F5-1F1F3.svg";
-import YBKYKqeBtZ from "/public/openmoji/1F1F5-1F1F7.svg";
-import wWPQGVdgmm from "/public/openmoji/1F1F5-1F1F8.svg";
-import HSaqsbVshX from "/public/openmoji/1F1F5-1F1F9.svg";
-import PwgdzARsBg from "/public/openmoji/1F1F5-1F1FC.svg";
-import kodkBuFWsX from "/public/openmoji/1F1F5-1F1FE.svg";
-import KElVqAnpSq from "/public/openmoji/1F1F5.svg";
-import xhUWtuIHfX from "/public/openmoji/1F1F6-1F1E6.svg";
-import VTCcrPjHQA from "/public/openmoji/1F1F6.svg";
-import evzltRyYhr from "/public/openmoji/1F1F7-1F1EA.svg";
-import yLbXbJrZGl from "/public/openmoji/1F1F7-1F1F4.svg";
-import cuxfVUIYLA from "/public/openmoji/1F1F7-1F1F8.svg";
-import mDcewsWzYe from "/public/openmoji/1F1F7-1F1FA.svg";
-import pvEKxyrZMX from "/public/openmoji/1F1F7-1F1FC.svg";
-import tiGKLqwGZG from "/public/openmoji/1F1F7.svg";
-import CSPrPCfRgN from "/public/openmoji/1F1F8-1F1E6.svg";
-import CrJNmjvMmx from "/public/openmoji/1F1F8-1F1E7.svg";
-import RNyHVvAoKD from "/public/openmoji/1F1F8-1F1E8.svg";
-import tnUAIGSowE from "/public/openmoji/1F1F8-1F1E9.svg";
-import HnSbIdCupR from "/public/openmoji/1F1F8-1F1EA.svg";
-import BzHGSQXIcX from "/public/openmoji/1F1F8-1F1EC.svg";
-import ewUdVKAkGG from "/public/openmoji/1F1F8-1F1ED.svg";
-import eDnzqSyMds from "/public/openmoji/1F1F8-1F1EE.svg";
-import dZdJnJUILQ from "/public/openmoji/1F1F8-1F1EF.svg";
-import EbUznOcHsz from "/public/openmoji/1F1F8-1F1F0.svg";
-import sKXdquNrYN from "/public/openmoji/1F1F8-1F1F1.svg";
-import zrUrbXFrEV from "/public/openmoji/1F1F8-1F1F2.svg";
-import UfCJyVqpcb from "/public/openmoji/1F1F8-1F1F3.svg";
-import hKRewzPlrj from "/public/openmoji/1F1F8-1F1F4.svg";
-import NnvmugdpEN from "/public/openmoji/1F1F8-1F1F7.svg";
-import TVmCuNbcmH from "/public/openmoji/1F1F8-1F1F8.svg";
-import wAQRnnTmJm from "/public/openmoji/1F1F8-1F1F9.svg";
-import HhybBznqZd from "/public/openmoji/1F1F8-1F1FB.svg";
-import vsEKFhvOLg from "/public/openmoji/1F1F8-1F1FD.svg";
-import MEbIEYCAaA from "/public/openmoji/1F1F8-1F1FE.svg";
-import GTkaeqXUWV from "/public/openmoji/1F1F8-1F1FF.svg";
-import mzXsWkkHHy from "/public/openmoji/1F1F8.svg";
-import shmFTyVKDe from "/public/openmoji/1F1F9-1F1E6.svg";
-import VXxdvMUivC from "/public/openmoji/1F1F9-1F1E8.svg";
-import FuMjNsdvnk from "/public/openmoji/1F1F9-1F1E9.svg";
-import QiBtDldgCD from "/public/openmoji/1F1F9-1F1EB.svg";
-import AkGBwvgyqD from "/public/openmoji/1F1F9-1F1EC.svg";
-import QVANPPjpUt from "/public/openmoji/1F1F9-1F1ED.svg";
-import UEpZkMdFYn from "/public/openmoji/1F1F9-1F1EF.svg";
-import EhkFuLoQyu from "/public/openmoji/1F1F9-1F1F0.svg";
-import cBQLEhhBWQ from "/public/openmoji/1F1F9-1F1F1.svg";
-import PmQXACHHKG from "/public/openmoji/1F1F9-1F1F2.svg";
-import rppwOPDbMF from "/public/openmoji/1F1F9-1F1F3.svg";
-import pWVEBEMkTE from "/public/openmoji/1F1F9-1F1F4.svg";
-import oLusaFLQzy from "/public/openmoji/1F1F9-1F1F7.svg";
-import SqmrosrOWl from "/public/openmoji/1F1F9-1F1F9.svg";
-import tPLtpzIwAG from "/public/openmoji/1F1F9-1F1FB.svg";
-import DoYlMGghvZ from "/public/openmoji/1F1F9-1F1FC.svg";
-import JYMiAQksxT from "/public/openmoji/1F1F9-1F1FF.svg";
-import DvfhBLxLPw from "/public/openmoji/1F1F9.svg";
-import GUXjcVbEzy from "/public/openmoji/1F1FA-1F1E6.svg";
-import AcaqCgfgyO from "/public/openmoji/1F1FA-1F1EC.svg";
-import moQKjHaQbZ from "/public/openmoji/1F1FA-1F1F2.svg";
-import bHpowgsqBK from "/public/openmoji/1F1FA-1F1F3.svg";
-import AIFajpBMYS from "/public/openmoji/1F1FA-1F1F8.svg";
-import LczcrccOxR from "/public/openmoji/1F1FA-1F1FE.svg";
-import gvADmjLnYR from "/public/openmoji/1F1FA-1F1FF.svg";
-import phfWscwQsL from "/public/openmoji/1F1FA.svg";
-import AqYpXjidBR from "/public/openmoji/1F1FB-1F1E6.svg";
-import PNHCFRRWlS from "/public/openmoji/1F1FB-1F1E8.svg";
-import QdiYVDpwcK from "/public/openmoji/1F1FB-1F1EA.svg";
-import xtaHgiUScU from "/public/openmoji/1F1FB-1F1EC.svg";
-import SsZSFFANkf from "/public/openmoji/1F1FB-1F1EE.svg";
-import WyEncurkcC from "/public/openmoji/1F1FB-1F1F3.svg";
-import zdMrvWgmpS from "/public/openmoji/1F1FB-1F1FA.svg";
-import xldxPwxkKd from "/public/openmoji/1F1FB.svg";
-import ZeqjYNcada from "/public/openmoji/1F1FC-1F1EB.svg";
-import vUMzZQNcub from "/public/openmoji/1F1FC-1F1F8.svg";
-import dPFFwgUtVd from "/public/openmoji/1F1FC.svg";
-import lXvLsuEnqx from "/public/openmoji/1F1FD-1F1F0.svg";
-import ceXsdzgjpU from "/public/openmoji/1F1FD.svg";
-import SiCgXnZOtv from "/public/openmoji/1F1FE-1F1EA.svg";
-import eWWtHhYFMb from "/public/openmoji/1F1FE-1F1F9.svg";
-import GCtOsKriTc from "/public/openmoji/1F1FE.svg";
-import MvzIJlmoui from "/public/openmoji/1F1FF-1F1E6.svg";
-import vcrrzyPmzf from "/public/openmoji/1F1FF-1F1F2.svg";
-import VnnRVWZbst from "/public/openmoji/1F1FF-1F1FC.svg";
-import coEgdEjllA from "/public/openmoji/1F1FF.svg";
-import sjjsOnCOyI from "/public/openmoji/1F201.svg";
-import kbHcEbQFdY from "/public/openmoji/1F202.svg";
-import YfxUIvgcpv from "/public/openmoji/1F21A.svg";
-import atfBfAEIYi from "/public/openmoji/1F22F.svg";
-import OeAyonxepd from "/public/openmoji/1F232.svg";
-import cpNSurWJuA from "/public/openmoji/1F233.svg";
-import kWvphWMwLd from "/public/openmoji/1F234.svg";
-import pHHtTczodS from "/public/openmoji/1F235.svg";
-import KVGOjrWLsY from "/public/openmoji/1F236.svg";
-import ILREfdgsoS from "/public/openmoji/1F237.svg";
-import CpblLKqRtM from "/public/openmoji/1F238.svg";
-import KxixHCigGH from "/public/openmoji/1F239.svg";
-import anDtzpJfTP from "/public/openmoji/1F23A.svg";
-import lxqDhHSJrh from "/public/openmoji/1F250.svg";
-import aGyVnovcFZ from "/public/openmoji/1F251.svg";
-import OqlwdkQiBk from "/public/openmoji/1F260.svg";
-import ZlCBtmKwlc from "/public/openmoji/1F261.svg";
-import HxrVXzbuvd from "/public/openmoji/1F262.svg";
-import aLcMNKHXBi from "/public/openmoji/1F263.svg";
-import XNdxdGNMrI from "/public/openmoji/1F264.svg";
-import SLIjmxUcMF from "/public/openmoji/1F265.svg";
-import IydgpUGjyQ from "/public/openmoji/1F300.svg";
-import XnwBIWqnWC from "/public/openmoji/1F301.svg";
-import AXVIcpNBDt from "/public/openmoji/1F302.svg";
-import fKjSLUZTpu from "/public/openmoji/1F303.svg";
-import SOlDrikDbp from "/public/openmoji/1F304.svg";
-import DFoEdEOPSK from "/public/openmoji/1F305.svg";
-import UNuIivNocG from "/public/openmoji/1F306.svg";
-import btdgHyjTqj from "/public/openmoji/1F307.svg";
-import TBJgQYajZZ from "/public/openmoji/1F308.svg";
-import VGBuDpHJMP from "/public/openmoji/1F309.svg";
-import uHHcXdCbzv from "/public/openmoji/1F30A.svg";
-import XdmvRlOAhM from "/public/openmoji/1F30B.svg";
-import uzKbSzoHyZ from "/public/openmoji/1F30C.svg";
-import NuRgAsOAHe from "/public/openmoji/1F30D.svg";
-import xxFIthELCU from "/public/openmoji/1F30E.svg";
-import XUnMRAOrFD from "/public/openmoji/1F30F.svg";
-import pIMqUZVVdP from "/public/openmoji/1F310.svg";
-import faLmTuEUuZ from "/public/openmoji/1F311.svg";
-import dcVAFpnLWw from "/public/openmoji/1F312.svg";
-import jCfxBvBnMh from "/public/openmoji/1F313.svg";
-import stcgPCYIMK from "/public/openmoji/1F314.svg";
-import FIHLMrMXMo from "/public/openmoji/1F315.svg";
-import prOGTdkDZc from "/public/openmoji/1F316.svg";
-import MgOMDLnDRr from "/public/openmoji/1F317.svg";
-import KmCYaBnBkv from "/public/openmoji/1F318.svg";
-import zDyNVwtALe from "/public/openmoji/1F319.svg";
-import LSMraCtWFR from "/public/openmoji/1F31A.svg";
-import YELjyMCUUB from "/public/openmoji/1F31B.svg";
-import MaKhdAbcBj from "/public/openmoji/1F31C.svg";
-import lfanXrNdBO from "/public/openmoji/1F31D.svg";
-import jTZWBFNrsi from "/public/openmoji/1F31E.svg";
-import bSoDOWdekt from "/public/openmoji/1F31F.svg";
-import iNwGNszmbZ from "/public/openmoji/1F320.svg";
-import CqgZrZmnJN from "/public/openmoji/1F321.svg";
-import uGafLPgZlP from "/public/openmoji/1F324.svg";
-import aTpEjhEovu from "/public/openmoji/1F325.svg";
-import fCJHlsxtrT from "/public/openmoji/1F326.svg";
-import lRiTvDOulg from "/public/openmoji/1F327.svg";
-import ayzMiMpujo from "/public/openmoji/1F328.svg";
-import gMzSfqlqTu from "/public/openmoji/1F329.svg";
-import DIlOsvtAuJ from "/public/openmoji/1F32A.svg";
-import BXuWFZbOxb from "/public/openmoji/1F32B.svg";
-import amslaaGQOG from "/public/openmoji/1F32C.svg";
-import lmFPTUzZnQ from "/public/openmoji/1F32D.svg";
-import sihZjaSDAL from "/public/openmoji/1F32E.svg";
-import anqJtTKgHX from "/public/openmoji/1F32F.svg";
-import jdpahgkRIZ from "/public/openmoji/1F330.svg";
-import YZJZCsMLfd from "/public/openmoji/1F331.svg";
-import AtYKGnkLDQ from "/public/openmoji/1F332.svg";
-import pnhdsAqVfg from "/public/openmoji/1F333.svg";
-import qkFQyLhRBR from "/public/openmoji/1F334.svg";
-import ibfcrZVZDh from "/public/openmoji/1F335.svg";
-import MoNEQjlpjU from "/public/openmoji/1F336.svg";
-import wuOnzOwZCo from "/public/openmoji/1F337.svg";
-import epBJArIeMp from "/public/openmoji/1F338.svg";
-import JzyPQypUVy from "/public/openmoji/1F339.svg";
-import xEXFJSGMfs from "/public/openmoji/1F33A.svg";
-import kmtSjVdTDW from "/public/openmoji/1F33B.svg";
-import HSBHzwhCNl from "/public/openmoji/1F33C.svg";
-import bWJNfWuNRl from "/public/openmoji/1F33D.svg";
-import AMKubXgtsJ from "/public/openmoji/1F33E.svg";
-import JiBpwviFXM from "/public/openmoji/1F33F.svg";
-import SjvtxWbveo from "/public/openmoji/1F340.svg";
-import EXQtgfqXdI from "/public/openmoji/1F341.svg";
-import kVvfyyeYRO from "/public/openmoji/1F342.svg";
-import MThLMXzhkc from "/public/openmoji/1F343.svg";
-import AQkgIGQGMg from "/public/openmoji/1F344.svg";
-import SahYAsvjuU from "/public/openmoji/1F345.svg";
-import KqqKNzTwLV from "/public/openmoji/1F346.svg";
-import RwDJrUBrFP from "/public/openmoji/1F347.svg";
-import zlPrHWbopK from "/public/openmoji/1F348.svg";
-import BMzorOdCeN from "/public/openmoji/1F349.svg";
-import iSRrfRTpBN from "/public/openmoji/1F34A.svg";
-import XkzxfGkqob from "/public/openmoji/1F34B.svg";
-import AwfZQoHnhB from "/public/openmoji/1F34C.svg";
-import sOkwxINyja from "/public/openmoji/1F34D.svg";
-import ZmxUjTypRz from "/public/openmoji/1F34E.svg";
-import FhSWyGbolv from "/public/openmoji/1F34F.svg";
-import dHUOPEuhbI from "/public/openmoji/1F350.svg";
-import MelMJLcCUp from "/public/openmoji/1F351.svg";
-import AQDTZEldBY from "/public/openmoji/1F352.svg";
-import MtDiNjDCwP from "/public/openmoji/1F353.svg";
-import ralZSGzoyd from "/public/openmoji/1F354.svg";
-import ORBGKqPBFZ from "/public/openmoji/1F355.svg";
-import epibjZpdgm from "/public/openmoji/1F356.svg";
-import kNRFXZMQum from "/public/openmoji/1F357.svg";
-import ghHeuNuYqH from "/public/openmoji/1F358.svg";
-import EAZMSwEWfN from "/public/openmoji/1F359.svg";
-import UrNtWQdVFh from "/public/openmoji/1F35A.svg";
-import oSHnugPUDw from "/public/openmoji/1F35B.svg";
-import SXcRETBVjk from "/public/openmoji/1F35C.svg";
-import eZeIZaNItY from "/public/openmoji/1F35D.svg";
-import jKQYVrbMPL from "/public/openmoji/1F35E.svg";
-import qQQvssOyBO from "/public/openmoji/1F35F.svg";
-import NmGaqLVFyP from "/public/openmoji/1F360.svg";
-import ecnZXOUuya from "/public/openmoji/1F361.svg";
-import zYHsXrCIBM from "/public/openmoji/1F362.svg";
-import uaOaKmzfgX from "/public/openmoji/1F363.svg";
-import SbSMWgIHiQ from "/public/openmoji/1F364.svg";
-import HaytjybPgj from "/public/openmoji/1F365.svg";
-import hasSkaqOZP from "/public/openmoji/1F366.svg";
-import vVKbnfHMNL from "/public/openmoji/1F367.svg";
-import UHupVtxSBv from "/public/openmoji/1F368.svg";
-import aXJheHTRtx from "/public/openmoji/1F369.svg";
-import uXlIgjKMwG from "/public/openmoji/1F36A.svg";
-import IXNJDUrObQ from "/public/openmoji/1F36B.svg";
-import uBLUCHUgzn from "/public/openmoji/1F36C.svg";
-import UIyayQyGwh from "/public/openmoji/1F36D.svg";
-import BJyeALzYYn from "/public/openmoji/1F36E.svg";
-import uCRRyBXluL from "/public/openmoji/1F36F.svg";
-import dwYdVDWLaK from "/public/openmoji/1F370.svg";
-import zcvVDDPnnj from "/public/openmoji/1F371.svg";
-import pfSAZFxKLX from "/public/openmoji/1F372.svg";
-import VuNfagaAAb from "/public/openmoji/1F373.svg";
-import RhDdlLlTRx from "/public/openmoji/1F374.svg";
-import YMXhleRKam from "/public/openmoji/1F375.svg";
-import gzeSrxjpNN from "/public/openmoji/1F376.svg";
-import aWJuebKbMR from "/public/openmoji/1F377.svg";
-import qeWioNSATF from "/public/openmoji/1F378.svg";
-import qIgYlfLNQU from "/public/openmoji/1F379.svg";
-import GbDREfOCKA from "/public/openmoji/1F37A.svg";
-import EjJXkNDlaQ from "/public/openmoji/1F37B.svg";
-import xIMMRsqwas from "/public/openmoji/1F37C.svg";
-import HqlxXgbjKS from "/public/openmoji/1F37D.svg";
-import DRCTQWjqlN from "/public/openmoji/1F37E.svg";
-import PPrXhmcQxG from "/public/openmoji/1F37F.svg";
-import kJlObnAZLP from "/public/openmoji/1F380.svg";
-import IGpkudQePv from "/public/openmoji/1F381.svg";
-import kmpVPaqxOP from "/public/openmoji/1F382.svg";
-import efakwVJLvJ from "/public/openmoji/1F383.svg";
-import PjKddDjvEj from "/public/openmoji/1F384.svg";
-import msBMdBSWgd from "/public/openmoji/1F385-1F3FB.svg";
-import ZTrtLlUVyn from "/public/openmoji/1F385-1F3FC.svg";
-import PXuTHajHnB from "/public/openmoji/1F385-1F3FD.svg";
-import LkWiwcITer from "/public/openmoji/1F385-1F3FE.svg";
-import qRxaHvDESJ from "/public/openmoji/1F385-1F3FF.svg";
-import ArmjpGNFqf from "/public/openmoji/1F385.svg";
-import UwIKGPgHXU from "/public/openmoji/1F386.svg";
-import MFGVkIfpLN from "/public/openmoji/1F387.svg";
-import HHqSURkFEJ from "/public/openmoji/1F388.svg";
-import gfqnwoWjyY from "/public/openmoji/1F389.svg";
-import QMDqrJnRDL from "/public/openmoji/1F38A.svg";
-import McgTFqETUU from "/public/openmoji/1F38B.svg";
-import AmxdIvlFYk from "/public/openmoji/1F38C.svg";
-import mVquBdloBD from "/public/openmoji/1F38D.svg";
-import RXQvkLuUlc from "/public/openmoji/1F38E.svg";
-import vjBHGYXBhy from "/public/openmoji/1F38F.svg";
-import UbJFGyHFkP from "/public/openmoji/1F390.svg";
-import VJIbGaEwMs from "/public/openmoji/1F391.svg";
-import HconeMtvdJ from "/public/openmoji/1F392.svg";
-import ueVNbtzZFk from "/public/openmoji/1F393.svg";
-import PTZMcOOnGu from "/public/openmoji/1F396.svg";
-import EKQAWfPxiG from "/public/openmoji/1F397.svg";
-import TzVdalYRMN from "/public/openmoji/1F399.svg";
-import ajAajfdVoI from "/public/openmoji/1F39A.svg";
-import vXdMriauIM from "/public/openmoji/1F39B.svg";
-import sBVtGiQkZx from "/public/openmoji/1F39E.svg";
-import KeuWVOWMEE from "/public/openmoji/1F39F.svg";
-import SLoTHCqDGj from "/public/openmoji/1F3A0.svg";
-import oENtnkWVTz from "/public/openmoji/1F3A1.svg";
-import QZzIyRIldD from "/public/openmoji/1F3A2.svg";
-import zfjNrbAwOO from "/public/openmoji/1F3A3.svg";
-import JBCaiwNHrO from "/public/openmoji/1F3A4.svg";
-import sYFRuJfZmW from "/public/openmoji/1F3A5.svg";
-import mumgWUbOdK from "/public/openmoji/1F3A6.svg";
-import DWLYWqXEvi from "/public/openmoji/1F3A7.svg";
-import ekyUoWktOy from "/public/openmoji/1F3A8.svg";
-import SrwdpnPfJy from "/public/openmoji/1F3A9.svg";
-import rIcCUKcNuA from "/public/openmoji/1F3AA.svg";
-import XBzBsjlXBV from "/public/openmoji/1F3AB.svg";
-import goRJeiyoEc from "/public/openmoji/1F3AC.svg";
-import bUYFZJLhdo from "/public/openmoji/1F3AD.svg";
-import BrthppAiCy from "/public/openmoji/1F3AE.svg";
-import zquPmUyNHG from "/public/openmoji/1F3AF.svg";
-import XYPEuxAPXt from "/public/openmoji/1F3B0.svg";
-import QzeuXrxoSM from "/public/openmoji/1F3B1.svg";
-import WHEOLwgMtn from "/public/openmoji/1F3B2.svg";
-import gFCdqzjMEr from "/public/openmoji/1F3B3.svg";
-import arOxMKWZBv from "/public/openmoji/1F3B4.svg";
-import qUIWhIaZmj from "/public/openmoji/1F3B5.svg";
-import XNseNxWNxe from "/public/openmoji/1F3B6.svg";
-import qCHgSVaOFg from "/public/openmoji/1F3B7.svg";
-import JGybdmabJZ from "/public/openmoji/1F3B8.svg";
-import aVxTBVvdPp from "/public/openmoji/1F3B9.svg";
-import uhLtghblYb from "/public/openmoji/1F3BA.svg";
-import zfPbUoOZPg from "/public/openmoji/1F3BB.svg";
-import lzBreqVMiB from "/public/openmoji/1F3BC.svg";
-import kOhZAMpoMz from "/public/openmoji/1F3BD.svg";
-import xZGNsqVraz from "/public/openmoji/1F3BE.svg";
-import hQWdcNaCwn from "/public/openmoji/1F3BF.svg";
-import PSxByKHEwS from "/public/openmoji/1F3C0.svg";
-import BibcJQbwQP from "/public/openmoji/1F3C1.svg";
-import UUeCqZUOkT from "/public/openmoji/1F3C2-1F3FB.svg";
-import XIMXkHrSYv from "/public/openmoji/1F3C2-1F3FC.svg";
-import mBEpWnqMLL from "/public/openmoji/1F3C2-1F3FD.svg";
-import DmmpjXMSwY from "/public/openmoji/1F3C2-1F3FE.svg";
-import qDMtRrRQhm from "/public/openmoji/1F3C2-1F3FF.svg";
-import eUWWxJimgX from "/public/openmoji/1F3C2.svg";
-import NpUwjjPWYn from "/public/openmoji/1F3C3-1F3FB-200D-2640-FE0F.svg";
-import ZhRraFPPyY from "/public/openmoji/1F3C3-1F3FB-200D-2642-FE0F.svg";
-import tHaGlkQmzk from "/public/openmoji/1F3C3-1F3FB.svg";
-import TSptoWCLSW from "/public/openmoji/1F3C3-1F3FC-200D-2640-FE0F.svg";
-import MzQPzTevqZ from "/public/openmoji/1F3C3-1F3FC-200D-2642-FE0F.svg";
-import zqcheskpQR from "/public/openmoji/1F3C3-1F3FC.svg";
-import sxVqAcGZan from "/public/openmoji/1F3C3-1F3FD-200D-2640-FE0F.svg";
-import MkOcrAbche from "/public/openmoji/1F3C3-1F3FD-200D-2642-FE0F.svg";
-import FDdNvlyBLo from "/public/openmoji/1F3C3-1F3FD.svg";
-import sdzDnHXyBG from "/public/openmoji/1F3C3-1F3FE-200D-2640-FE0F.svg";
-import zzvenLCdTT from "/public/openmoji/1F3C3-1F3FE-200D-2642-FE0F.svg";
-import NxwBGRVlaB from "/public/openmoji/1F3C3-1F3FE.svg";
-import uoyMQdcKrF from "/public/openmoji/1F3C3-1F3FF-200D-2640-FE0F.svg";
-import OqWHLjXEvs from "/public/openmoji/1F3C3-1F3FF-200D-2642-FE0F.svg";
-import IviVbZdyps from "/public/openmoji/1F3C3-1F3FF.svg";
-import BumJjjFcKN from "/public/openmoji/1F3C3-200D-2640-FE0F.svg";
-import ozOEYHBAjb from "/public/openmoji/1F3C3-200D-2642-FE0F.svg";
-import jJnnxwRPar from "/public/openmoji/1F3C3.svg";
-import fLKKxkZlqk from "/public/openmoji/1F3C4-1F3FB-200D-2640-FE0F.svg";
-import xAlqaEUDPe from "/public/openmoji/1F3C4-1F3FB-200D-2642-FE0F.svg";
-import ylWkqhOJXI from "/public/openmoji/1F3C4-1F3FB.svg";
-import IsklGqThjF from "/public/openmoji/1F3C4-1F3FC-200D-2640-FE0F.svg";
-import pjvPxaFOyc from "/public/openmoji/1F3C4-1F3FC-200D-2642-FE0F.svg";
-import tfJmACqiwq from "/public/openmoji/1F3C4-1F3FC.svg";
-import UdqnMJgtCw from "/public/openmoji/1F3C4-1F3FD-200D-2640-FE0F.svg";
-import BxoVtOseUI from "/public/openmoji/1F3C4-1F3FD-200D-2642-FE0F.svg";
-import ZgoOFYmrxh from "/public/openmoji/1F3C4-1F3FD.svg";
-import glsjgweFID from "/public/openmoji/1F3C4-1F3FE-200D-2640-FE0F.svg";
-import fmgpRbeVxy from "/public/openmoji/1F3C4-1F3FE-200D-2642-FE0F.svg";
-import BUJAyYNjJi from "/public/openmoji/1F3C4-1F3FE.svg";
-import tRylnmvIGB from "/public/openmoji/1F3C4-1F3FF-200D-2640-FE0F.svg";
-import uhmQlavYll from "/public/openmoji/1F3C4-1F3FF-200D-2642-FE0F.svg";
-import zdfxoYWudw from "/public/openmoji/1F3C4-1F3FF.svg";
-import lgnoltYslK from "/public/openmoji/1F3C4-200D-2640-FE0F.svg";
-import tUIystosTt from "/public/openmoji/1F3C4-200D-2642-FE0F.svg";
-import eZfoOnrttA from "/public/openmoji/1F3C4.svg";
-import ofYCgVfHRL from "/public/openmoji/1F3C5.svg";
-import eCkiNLkQKh from "/public/openmoji/1F3C6.svg";
-import WXKVmmdDHJ from "/public/openmoji/1F3C7-1F3FB.svg";
-import jprGKeyrbo from "/public/openmoji/1F3C7-1F3FC.svg";
-import QEHDWVBjrA from "/public/openmoji/1F3C7-1F3FD.svg";
-import pdmXQMAszH from "/public/openmoji/1F3C7-1F3FE.svg";
-import yfwJuIsAUG from "/public/openmoji/1F3C7-1F3FF.svg";
-import iYMwHWjdek from "/public/openmoji/1F3C7.svg";
-import FSeNPoYMSe from "/public/openmoji/1F3C8.svg";
-import BzSEIFYORY from "/public/openmoji/1F3C9.svg";
-import wQgFmNKjbi from "/public/openmoji/1F3CA-1F3FB-200D-2640-FE0F.svg";
-import SYsmChxnve from "/public/openmoji/1F3CA-1F3FB-200D-2642-FE0F.svg";
-import XHAgGudaqC from "/public/openmoji/1F3CA-1F3FB.svg";
-import IMSovsMPJc from "/public/openmoji/1F3CA-1F3FC-200D-2640-FE0F.svg";
-import pLoHMjDsKY from "/public/openmoji/1F3CA-1F3FC-200D-2642-FE0F.svg";
-import VqaJWAtYGT from "/public/openmoji/1F3CA-1F3FC.svg";
-import DyOTWcxjBs from "/public/openmoji/1F3CA-1F3FD-200D-2640-FE0F.svg";
-import ZcoWCVDFND from "/public/openmoji/1F3CA-1F3FD-200D-2642-FE0F.svg";
-import aAcPgBWwVi from "/public/openmoji/1F3CA-1F3FD.svg";
-import SulahxAZhZ from "/public/openmoji/1F3CA-1F3FE-200D-2640-FE0F.svg";
-import poDxFeuYnT from "/public/openmoji/1F3CA-1F3FE-200D-2642-FE0F.svg";
-import OYHuDByPSA from "/public/openmoji/1F3CA-1F3FE.svg";
-import pYtTsOprIx from "/public/openmoji/1F3CA-1F3FF-200D-2640-FE0F.svg";
-import AJhsrQKJzx from "/public/openmoji/1F3CA-1F3FF-200D-2642-FE0F.svg";
-import OcGqvZUTLS from "/public/openmoji/1F3CA-1F3FF.svg";
-import pebZqtnvNn from "/public/openmoji/1F3CA-200D-2640-FE0F.svg";
-import CGcOOCIvSY from "/public/openmoji/1F3CA-200D-2642-FE0F.svg";
-import fYrROHtTeT from "/public/openmoji/1F3CA.svg";
-import ITUzLrQPPP from "/public/openmoji/1F3CB-1F3FB-200D-2640-FE0F.svg";
-import mjcmFdsEHR from "/public/openmoji/1F3CB-1F3FB-200D-2642-FE0F.svg";
-import HiRZpeJmXF from "/public/openmoji/1F3CB-1F3FB.svg";
-import IOiFzOqAMz from "/public/openmoji/1F3CB-1F3FC-200D-2640-FE0F.svg";
-import yFWBPLnpLA from "/public/openmoji/1F3CB-1F3FC-200D-2642-FE0F.svg";
-import CFiLxFuMFk from "/public/openmoji/1F3CB-1F3FC.svg";
-import tjmAlSzTqY from "/public/openmoji/1F3CB-1F3FD-200D-2640-FE0F.svg";
-import hFntGDFBpO from "/public/openmoji/1F3CB-1F3FD-200D-2642-FE0F.svg";
-import rDmfHGVFTu from "/public/openmoji/1F3CB-1F3FD.svg";
-import qQjTVdTrgF from "/public/openmoji/1F3CB-1F3FE-200D-2640-FE0F.svg";
-import kyYFgDeGmi from "/public/openmoji/1F3CB-1F3FE-200D-2642-FE0F.svg";
-import pCytkPxJqr from "/public/openmoji/1F3CB-1F3FE.svg";
-import isszQuwSpF from "/public/openmoji/1F3CB-1F3FF-200D-2640-FE0F.svg";
-import ipUDAgaIlc from "/public/openmoji/1F3CB-1F3FF-200D-2642-FE0F.svg";
-import fkWBOQOOvc from "/public/openmoji/1F3CB-1F3FF.svg";
-import TBVDoYIdIx from "/public/openmoji/1F3CB-FE0F-200D-2640-FE0F.svg";
-import nrbZdZVJvz from "/public/openmoji/1F3CB-FE0F-200D-2642-FE0F.svg";
-import jldJvpgRHo from "/public/openmoji/1F3CB.svg";
-import bSnksnBUxm from "/public/openmoji/1F3CC-1F3FB-200D-2640-FE0F.svg";
-import HGEqDVuSig from "/public/openmoji/1F3CC-1F3FB-200D-2642-FE0F.svg";
-import SVsCBCFpTC from "/public/openmoji/1F3CC-1F3FB.svg";
-import OAZJANBpZE from "/public/openmoji/1F3CC-1F3FC-200D-2640-FE0F.svg";
-import tPneMJdmtC from "/public/openmoji/1F3CC-1F3FC-200D-2642-FE0F.svg";
-import bsCVyxRJUD from "/public/openmoji/1F3CC-1F3FC.svg";
-import MxDGtyaevD from "/public/openmoji/1F3CC-1F3FD-200D-2640-FE0F.svg";
-import cQRHYlYSqR from "/public/openmoji/1F3CC-1F3FD-200D-2642-FE0F.svg";
-import nsvIdbBLHB from "/public/openmoji/1F3CC-1F3FD.svg";
-import MGRoslzevw from "/public/openmoji/1F3CC-1F3FE-200D-2640-FE0F.svg";
-import YxniMCphbC from "/public/openmoji/1F3CC-1F3FE-200D-2642-FE0F.svg";
-import jZVekbEpWD from "/public/openmoji/1F3CC-1F3FE.svg";
-import GUBHOuOogE from "/public/openmoji/1F3CC-1F3FF-200D-2640-FE0F.svg";
-import QspTNoFUjR from "/public/openmoji/1F3CC-1F3FF-200D-2642-FE0F.svg";
-import GziaEdwrLT from "/public/openmoji/1F3CC-1F3FF.svg";
-import ljkdyULYSz from "/public/openmoji/1F3CC-FE0F-200D-2640-FE0F.svg";
-import nYUmUnalDt from "/public/openmoji/1F3CC-FE0F-200D-2642-FE0F.svg";
-import HUxvNUOBSB from "/public/openmoji/1F3CC.svg";
-import aumNTSstNL from "/public/openmoji/1F3CD.svg";
-import qiSDyJRxVK from "/public/openmoji/1F3CE.svg";
-import ibZpjAwMBI from "/public/openmoji/1F3CF.svg";
-import QELodkwAGr from "/public/openmoji/1F3D0.svg";
-import SNhuWGCyXP from "/public/openmoji/1F3D1.svg";
-import IRGufXOqwD from "/public/openmoji/1F3D2.svg";
-import xjZyhzvRrS from "/public/openmoji/1F3D3.svg";
-import uNTdNJicxh from "/public/openmoji/1F3D4.svg";
-import bJcKOfXKYl from "/public/openmoji/1F3D5.svg";
-import rwLfIudWtf from "/public/openmoji/1F3D6.svg";
-import FjlZYppBvI from "/public/openmoji/1F3D7.svg";
-import dIxZCesaAl from "/public/openmoji/1F3D8.svg";
-import JcctJXFiTZ from "/public/openmoji/1F3D9.svg";
-import DoExJEVXvM from "/public/openmoji/1F3DA.svg";
-import VIGhAJzPDH from "/public/openmoji/1F3DB.svg";
-import HPfeQdLIar from "/public/openmoji/1F3DC.svg";
-import loyrBKNbZG from "/public/openmoji/1F3DD.svg";
-import bayRciipJK from "/public/openmoji/1F3DE.svg";
-import VQZOJSoxnj from "/public/openmoji/1F3DF.svg";
-import YrJIDKDaMA from "/public/openmoji/1F3E0.svg";
-import RuyXvVjJfI from "/public/openmoji/1F3E1.svg";
-import ladBecHmqn from "/public/openmoji/1F3E2.svg";
-import JWRDRkSpki from "/public/openmoji/1F3E3.svg";
-import fxQPrbywJR from "/public/openmoji/1F3E4.svg";
-import FnUeqaWtwr from "/public/openmoji/1F3E5.svg";
-import PPlHWqSuPN from "/public/openmoji/1F3E6.svg";
-import oGPVuYZJdc from "/public/openmoji/1F3E7.svg";
-import kfZatbyQoI from "/public/openmoji/1F3E8.svg";
-import lHboNmyfze from "/public/openmoji/1F3E9.svg";
-import oVwkAtzWkz from "/public/openmoji/1F3EA.svg";
-import OeDnGGgEGg from "/public/openmoji/1F3EB.svg";
-import ebhbfNRuRA from "/public/openmoji/1F3EC.svg";
-import aSleiMDclz from "/public/openmoji/1F3ED.svg";
-import FFgfPtUTCD from "/public/openmoji/1F3EE.svg";
-import ipFQEkaJMu from "/public/openmoji/1F3EF.svg";
-import zLjqpHpvTd from "/public/openmoji/1F3F0.svg";
-import eQrlRtOtDb from "/public/openmoji/1F3F3-1F7E6-1F7E9-1F7E8.svg";
-import BYzRcjhLEX from "/public/openmoji/1F3F3-FE0F-200D-1F308.svg";
-import nhArlAUdMI from "/public/openmoji/1F3F3-FE0F-200D-1F4CC-200D-2699-FE0F.svg";
-import SqvpClFpQc from "/public/openmoji/1F3F3-FE0F-200D-1F7E5.svg";
-import CvXwxVQHdd from "/public/openmoji/1F3F3-FE0F-200D-1F7E6-200D-1F30C.svg";
-import DXIwFMCXzT from "/public/openmoji/1F3F3-FE0F-200D-1F7E6.svg";
-import JRKTelPhxi from "/public/openmoji/1F3F3-FE0F-200D-1F7E7.svg";
-import NuYaTRPHcO from "/public/openmoji/1F3F3-FE0F-200D-1F7E8.svg";
-import kcNzwkbtXv from "/public/openmoji/1F3F3-FE0F-200D-1F7E9-200D-2B50-200D-1F7E9.svg";
-import RTiHzsuCLC from "/public/openmoji/1F3F3-FE0F-200D-1F7E9.svg";
-import cdHtBKNPuz from "/public/openmoji/1F3F3-FE0F-200D-1F7EA.svg";
-import GvsBCNvqmr from "/public/openmoji/1F3F3-FE0F-200D-1F7EB.svg";
-import IPyTvzHcjo from "/public/openmoji/1F3F3-FE0F-200D-26A7-FE0F.svg";
-import yqlNJnHpUU from "/public/openmoji/1F3F3-FE0F.svg";
-import ngdTUjEPvU from "/public/openmoji/1F3F3.svg";
-import fzkjTKcPyG from "/public/openmoji/1F3F4-200D-2620-FE0F.svg";
-import ndcSucuGoh from "/public/openmoji/1F3F4-E0063-E0061-E0071-E0063-E007F.svg";
-import wGXCLDnQBV from "/public/openmoji/1F3F4-E0064-E0065-E0062-E0065-E007F.svg";
-import jnDklflxIz from "/public/openmoji/1F3F4-E0064-E0065-E0062-E0079-E007F.svg";
-import HPbumLdVEN from "/public/openmoji/1F3F4-E0065-E0073-E0061-E0072-E007F.svg";
-import KDEBbkUZcr from "/public/openmoji/1F3F4-E0065-E0073-E0061-E0073-E007F.svg";
-import NuSyisHWJK from "/public/openmoji/1F3F4-E0065-E0073-E0063-E0074-E007F.svg";
-import bDiMPuZufQ from "/public/openmoji/1F3F4-E0065-E0073-E0069-E0062-E007F.svg";
-import HLlRlcoLAk from "/public/openmoji/1F3F4-E0065-E0073-E006D-E0063-E007F.svg";
-import iboeSTEUfx from "/public/openmoji/1F3F4-E0065-E0073-E0070-E0076-E007F.svg";
-import dABMdVNdgM from "/public/openmoji/1F3F4-E0065-E0073-E0076-E0063-E007F.svg";
-import HuEsDyVonG from "/public/openmoji/1F3F4-E0066-E0072-E0062-E0072-E0065-E007F.svg";
-import qTGrXNvzuD from "/public/openmoji/1F3F4-E0067-E0062-E0065-E006E-E0067-E007F.svg";
-import GMwiRryUzU from "/public/openmoji/1F3F4-E0067-E0062-E0073-E0063-E0074-E007F.svg";
-import FwHJiGAhtN from "/public/openmoji/1F3F4-E0067-E0062-E0077-E006C-E0073-E007F.svg";
-import akOBCyssXs from "/public/openmoji/1F3F4-E0075-E0073-E0063-E0061-E007F.svg";
-import VwUpGfOFYH from "/public/openmoji/1F3F4-E0075-E0073-E0074-E0078-E007F.svg";
-import cVFLOxZCvT from "/public/openmoji/1F3F4-FE0F-200D-1F170-FE0F.svg";
-import TWVanPzRDF from "/public/openmoji/1F3F4.svg";
-import IDNSiqrQfy from "/public/openmoji/1F3F5.svg";
-import wLdplguJaq from "/public/openmoji/1F3F7.svg";
-import biylnCnzsH from "/public/openmoji/1F3F8.svg";
-import azEdtCTXXF from "/public/openmoji/1F3F9.svg";
-import rthfEtoUqD from "/public/openmoji/1F3FA.svg";
-import wfSFtFqjIX from "/public/openmoji/1F3FB.svg";
-import djXxERjhYJ from "/public/openmoji/1F3FC.svg";
-import IJBJWFpsty from "/public/openmoji/1F3FD.svg";
-import hRokrpVyfn from "/public/openmoji/1F3FE.svg";
-import tvOXrnOBop from "/public/openmoji/1F3FF.svg";
-import snMxyinJtP from "/public/openmoji/1F400.svg";
-import plDiJLFvAr from "/public/openmoji/1F401.svg";
-import KIWZYxBYYG from "/public/openmoji/1F402.svg";
-import uEUqtvULUd from "/public/openmoji/1F403.svg";
-import wZSjVaWzDA from "/public/openmoji/1F404.svg";
-import PMQdoptwmi from "/public/openmoji/1F405.svg";
-import vPHJEDLCVf from "/public/openmoji/1F406.svg";
-import uGUgIWpQug from "/public/openmoji/1F407.svg";
-import bcEsAdCuVm from "/public/openmoji/1F408-200D-2B1B.svg";
-import uUsarYPwtm from "/public/openmoji/1F408.svg";
-import OQgnFBQigb from "/public/openmoji/1F409.svg";
-import IwucUsVINV from "/public/openmoji/1F40A.svg";
-import wfKVDrHJRr from "/public/openmoji/1F40B.svg";
-import GQKicWurwL from "/public/openmoji/1F40C.svg";
-import BPMUugxGff from "/public/openmoji/1F40D.svg";
-import nqsbMHkPuc from "/public/openmoji/1F40E.svg";
-import sWvApYFbrx from "/public/openmoji/1F40F.svg";
-import EuDflDwCdI from "/public/openmoji/1F410.svg";
-import HpXcKcAGZk from "/public/openmoji/1F411.svg";
-import xnrLRHVwra from "/public/openmoji/1F412.svg";
-import kJPFczrEAm from "/public/openmoji/1F413.svg";
-import kUgiJFNcXW from "/public/openmoji/1F414.svg";
-import mRJlxaHUba from "/public/openmoji/1F415-200D-1F9BA.svg";
-import LBYtUwamTA from "/public/openmoji/1F415.svg";
-import GklGcCaOeY from "/public/openmoji/1F416.svg";
-import cgxyKIZhtL from "/public/openmoji/1F417.svg";
-import ELKxuUTTMF from "/public/openmoji/1F418.svg";
-import dolkitJBDt from "/public/openmoji/1F419.svg";
-import PlqTBCtMHX from "/public/openmoji/1F41A.svg";
-import jHZeGhvMpi from "/public/openmoji/1F41B.svg";
-import fTFXeGXKFw from "/public/openmoji/1F41C.svg";
-import efVNGDdItd from "/public/openmoji/1F41D.svg";
-import AbcindNphq from "/public/openmoji/1F41E.svg";
-import eaBjelSnjo from "/public/openmoji/1F41F.svg";
-import iURpUFNxgb from "/public/openmoji/1F420.svg";
-import OqeTXOhawY from "/public/openmoji/1F421.svg";
-import DeZMQeBVVf from "/public/openmoji/1F422.svg";
-import ZvQICizLfY from "/public/openmoji/1F423.svg";
-import YkWzjJdaBD from "/public/openmoji/1F424.svg";
-import oraNchYLMI from "/public/openmoji/1F425.svg";
-import uDiwaAUopF from "/public/openmoji/1F426-200D-2B1B.svg";
-import GzyCJMSMkN from "/public/openmoji/1F426.svg";
-import wmAmuzhIKC from "/public/openmoji/1F427.svg";
-import BBiEYOABem from "/public/openmoji/1F428.svg";
-import rdvQnmhZOa from "/public/openmoji/1F429.svg";
-import qbHeVhqtUc from "/public/openmoji/1F42A.svg";
-import OomgslbRpW from "/public/openmoji/1F42B.svg";
-import UGFjvQrjKb from "/public/openmoji/1F42C.svg";
-import JlGmTwkqMD from "/public/openmoji/1F42D.svg";
-import ScccFWVbMp from "/public/openmoji/1F42E.svg";
-import NlyDTPuENu from "/public/openmoji/1F42F.svg";
-import DGizwqUpRF from "/public/openmoji/1F430.svg";
-import GFQBlrazcK from "/public/openmoji/1F431-200D-1F4BB.svg";
-import YavpBqBYKL from "/public/openmoji/1F431.svg";
-import jlCDexdvvh from "/public/openmoji/1F432.svg";
-import kDjOlECjQo from "/public/openmoji/1F433.svg";
-import NTmhaWLtSX from "/public/openmoji/1F434.svg";
-import rMyTTnFkVg from "/public/openmoji/1F435.svg";
-import fPkMAWohKg from "/public/openmoji/1F436.svg";
-import HavDMZWzrf from "/public/openmoji/1F437.svg";
-import zMZbJxtxMx from "/public/openmoji/1F438.svg";
-import KGLrJUoDSM from "/public/openmoji/1F439.svg";
-import bqjyeySHKr from "/public/openmoji/1F43A.svg";
-import OFhhBjxlnD from "/public/openmoji/1F43B-200D-2744-FE0F.svg";
-import WXRUoWTWpZ from "/public/openmoji/1F43B.svg";
-import SdknuGVjZq from "/public/openmoji/1F43C.svg";
-import bDPaMkSixD from "/public/openmoji/1F43D.svg";
-import qWiSwqldsh from "/public/openmoji/1F43E.svg";
-import MBIxjuuySt from "/public/openmoji/1F43F.svg";
-import PQgQKBYsUl from "/public/openmoji/1F440.svg";
-import kTnCOwyQJc from "/public/openmoji/1F441-FE0F-200D-1F5E8-FE0F.svg";
-import RJhiTYZISW from "/public/openmoji/1F441.svg";
-import IGPDFtsPpI from "/public/openmoji/1F442-1F3FB.svg";
-import VmpHeWpspx from "/public/openmoji/1F442-1F3FC.svg";
-import YERTcOxXGm from "/public/openmoji/1F442-1F3FD.svg";
-import WolKzNlZvB from "/public/openmoji/1F442-1F3FE.svg";
-import LUyWJnNAQO from "/public/openmoji/1F442-1F3FF.svg";
-import geKzzmWEnV from "/public/openmoji/1F442.svg";
-import nMRizDCdLv from "/public/openmoji/1F443-1F3FB.svg";
-import CzicBidGdM from "/public/openmoji/1F443-1F3FC.svg";
-import cgleRMxCmF from "/public/openmoji/1F443-1F3FD.svg";
-import SyVDjxvPit from "/public/openmoji/1F443-1F3FE.svg";
-import vpcQDmKFRH from "/public/openmoji/1F443-1F3FF.svg";
-import sYfNfgHviU from "/public/openmoji/1F443.svg";
-import mYkFshQYwn from "/public/openmoji/1F444.svg";
-import YrvAteDvIr from "/public/openmoji/1F445.svg";
-import rycbnoYYRO from "/public/openmoji/1F446-1F3FB.svg";
-import zhZZEiFXOR from "/public/openmoji/1F446-1F3FC.svg";
-import vhqpiEZZZS from "/public/openmoji/1F446-1F3FD.svg";
-import RQZbBAkRUR from "/public/openmoji/1F446-1F3FE.svg";
-import OEwCNUDZPI from "/public/openmoji/1F446-1F3FF.svg";
-import WKqepDGERM from "/public/openmoji/1F446.svg";
-import ymPvqftqwB from "/public/openmoji/1F447-1F3FB.svg";
-import MYAGOPVSGO from "/public/openmoji/1F447-1F3FC.svg";
-import qCGYzkgwVR from "/public/openmoji/1F447-1F3FD.svg";
-import pDiJkZKwdi from "/public/openmoji/1F447-1F3FE.svg";
-import GvjkruNcwr from "/public/openmoji/1F447-1F3FF.svg";
-import EOlDOXBbCT from "/public/openmoji/1F447.svg";
-import vhdnddLeSC from "/public/openmoji/1F448-1F3FB.svg";
-import TWlydoJCAA from "/public/openmoji/1F448-1F3FC.svg";
-import dHsvhKwWVP from "/public/openmoji/1F448-1F3FD.svg";
-import AXsDYLlrpN from "/public/openmoji/1F448-1F3FE.svg";
-import SnpVLqUiOR from "/public/openmoji/1F448-1F3FF.svg";
-import XPTPaCbnvy from "/public/openmoji/1F448.svg";
-import xVGpgXlxMh from "/public/openmoji/1F449-1F3FB.svg";
-import HCiWtWSiiG from "/public/openmoji/1F449-1F3FC.svg";
-import ffZGoOXssG from "/public/openmoji/1F449-1F3FD.svg";
-import CvYfrxYiqi from "/public/openmoji/1F449-1F3FE.svg";
-import YNKiBwdSvV from "/public/openmoji/1F449-1F3FF.svg";
-import AoIgzshifT from "/public/openmoji/1F449.svg";
-import zgKjGfuaYV from "/public/openmoji/1F44A-1F3FB.svg";
-import lwktlmXNoe from "/public/openmoji/1F44A-1F3FC.svg";
-import BxhKURXquO from "/public/openmoji/1F44A-1F3FD.svg";
-import HFmzmNFzxx from "/public/openmoji/1F44A-1F3FE.svg";
-import OptYovChoR from "/public/openmoji/1F44A-1F3FF.svg";
-import YcICZSKyPN from "/public/openmoji/1F44A.svg";
-import jnQDdreWWD from "/public/openmoji/1F44B-1F3FB.svg";
-import fVkFAIeXFC from "/public/openmoji/1F44B-1F3FC.svg";
-import NQrhbiguMC from "/public/openmoji/1F44B-1F3FD.svg";
-import AQbqDEHBbT from "/public/openmoji/1F44B-1F3FE.svg";
-import sagWcAVZrX from "/public/openmoji/1F44B-1F3FF.svg";
-import nFgtGrCial from "/public/openmoji/1F44B.svg";
-import DEJNjbiEyC from "/public/openmoji/1F44C-1F3FB.svg";
-import qSnFSAFvKO from "/public/openmoji/1F44C-1F3FC.svg";
-import EOhpdZxdHA from "/public/openmoji/1F44C-1F3FD.svg";
-import fgCnDnmFqP from "/public/openmoji/1F44C-1F3FE.svg";
-import kOiNjihmjo from "/public/openmoji/1F44C-1F3FF.svg";
-import kwAMnDizJF from "/public/openmoji/1F44C.svg";
-import JSzxhdDfFa from "/public/openmoji/1F44D-1F3FB.svg";
-import VkFARlpmLp from "/public/openmoji/1F44D-1F3FC.svg";
-import bMhcQIuiem from "/public/openmoji/1F44D-1F3FD.svg";
-import qNAZAlLXPd from "/public/openmoji/1F44D-1F3FE.svg";
-import ypVRXcXapK from "/public/openmoji/1F44D-1F3FF.svg";
-import QNrvAaAjVm from "/public/openmoji/1F44D.svg";
-import oZFrCcEFct from "/public/openmoji/1F44E-1F3FB.svg";
-import HreHEuBvsu from "/public/openmoji/1F44E-1F3FC.svg";
-import GwdEbnDlLU from "/public/openmoji/1F44E-1F3FD.svg";
-import GcRPedqjbp from "/public/openmoji/1F44E-1F3FE.svg";
-import qJIvvTCaZf from "/public/openmoji/1F44E-1F3FF.svg";
-import cRqUwlAARg from "/public/openmoji/1F44E.svg";
-import RijJdtPDrg from "/public/openmoji/1F44F-1F3FB.svg";
-import wXnyemXkjs from "/public/openmoji/1F44F-1F3FC.svg";
-import iWrIdhVUOt from "/public/openmoji/1F44F-1F3FD.svg";
-import ZCvPrpKrLs from "/public/openmoji/1F44F-1F3FE.svg";
-import AmUlDEPQbf from "/public/openmoji/1F44F-1F3FF.svg";
-import frcKntktWR from "/public/openmoji/1F44F.svg";
-import MpeuybNIIp from "/public/openmoji/1F450-1F3FB.svg";
-import uhKPkIXdaG from "/public/openmoji/1F450-1F3FC.svg";
-import NdkWgjTYlT from "/public/openmoji/1F450-1F3FD.svg";
-import NflCxdqQZR from "/public/openmoji/1F450-1F3FE.svg";
-import lzAEFAvCgO from "/public/openmoji/1F450-1F3FF.svg";
-import mQsFuXwZpj from "/public/openmoji/1F450.svg";
-import cYDUfWSekE from "/public/openmoji/1F451.svg";
-import zyUeblOnFE from "/public/openmoji/1F452.svg";
-import hwWNvlgAhC from "/public/openmoji/1F453.svg";
-import ejCCbxvmXZ from "/public/openmoji/1F454.svg";
-import oqOzwuONAv from "/public/openmoji/1F455.svg";
-import UgsKmeWBBB from "/public/openmoji/1F456.svg";
-import WaCgdPbwLf from "/public/openmoji/1F457.svg";
-import iQsuIbJnuH from "/public/openmoji/1F458.svg";
-import dcauIuBSth from "/public/openmoji/1F459.svg";
-import UIGYmKMrrZ from "/public/openmoji/1F45A.svg";
-import pKnUuvyobX from "/public/openmoji/1F45B.svg";
-import cGShPAuVXw from "/public/openmoji/1F45C.svg";
-import OqnlrVzYPf from "/public/openmoji/1F45D.svg";
-import yihlRusFwS from "/public/openmoji/1F45E.svg";
-import OcwdDLgPvO from "/public/openmoji/1F45F.svg";
-import FlgESeGHKy from "/public/openmoji/1F460.svg";
-import pgsHmsvpcV from "/public/openmoji/1F461.svg";
-import IdJNzpFNdJ from "/public/openmoji/1F462.svg";
-import BjhmhtLema from "/public/openmoji/1F463.svg";
-import toRZqUUKfy from "/public/openmoji/1F464.svg";
-import yhHLbcriek from "/public/openmoji/1F465.svg";
-import ESoHqRkOVx from "/public/openmoji/1F466-1F3FB.svg";
-import yAgjgyDnFb from "/public/openmoji/1F466-1F3FC.svg";
-import qZXywvoMkT from "/public/openmoji/1F466-1F3FD.svg";
-import TDJjBgEfZS from "/public/openmoji/1F466-1F3FE.svg";
-import HeNHxZiVCT from "/public/openmoji/1F466-1F3FF.svg";
-import IgXlziubYb from "/public/openmoji/1F466.svg";
-import nEIdPHnmBo from "/public/openmoji/1F467-1F3FB.svg";
-import CdANwVUigd from "/public/openmoji/1F467-1F3FC.svg";
-import iFzCLLRrLB from "/public/openmoji/1F467-1F3FD.svg";
-import mQgBRXfYur from "/public/openmoji/1F467-1F3FE.svg";
-import EShpPCPDrH from "/public/openmoji/1F467-1F3FF.svg";
-import dWHmoqaYnu from "/public/openmoji/1F467.svg";
-import nSBMLupynT from "/public/openmoji/1F468-1F3FB-200D-1F33E.svg";
-import LAlgjlcDjH from "/public/openmoji/1F468-1F3FB-200D-1F373.svg";
-import OoysKEESej from "/public/openmoji/1F468-1F3FB-200D-1F37C.svg";
-import ZaCBgvNBeF from "/public/openmoji/1F468-1F3FB-200D-1F393.svg";
-import lcwkiDoIHc from "/public/openmoji/1F468-1F3FB-200D-1F3A4.svg";
-import StBjJlCwLU from "/public/openmoji/1F468-1F3FB-200D-1F3A8.svg";
-import LIlnDokHLX from "/public/openmoji/1F468-1F3FB-200D-1F3EB.svg";
-import hcGmTdGgLF from "/public/openmoji/1F468-1F3FB-200D-1F3ED.svg";
-import uBsqADphNf from "/public/openmoji/1F468-1F3FB-200D-1F4BB.svg";
-import JqunZzKMuO from "/public/openmoji/1F468-1F3FB-200D-1F4BC.svg";
-import TobwBurEtg from "/public/openmoji/1F468-1F3FB-200D-1F527.svg";
-import QfexiukbCO from "/public/openmoji/1F468-1F3FB-200D-1F52C.svg";
-import uSqqLElVrk from "/public/openmoji/1F468-1F3FB-200D-1F680.svg";
-import SdOMVWgGLS from "/public/openmoji/1F468-1F3FB-200D-1F692.svg";
-import dcFNpAqqHK from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC.svg";
-import XnpBJjtJHl from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD.svg";
-import FYSklOgqao from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE.svg";
-import nEKbFRUoFc from "/public/openmoji/1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF.svg";
-import uZLiukROGz from "/public/openmoji/1F468-1F3FB-200D-1F9AF.svg";
-import oiDkpiDQIj from "/public/openmoji/1F468-1F3FB-200D-1F9B0.svg";
-import myzYFGpdfP from "/public/openmoji/1F468-1F3FB-200D-1F9B1.svg";
-import TurkJRtKEm from "/public/openmoji/1F468-1F3FB-200D-1F9B2.svg";
-import zIjVohvFbt from "/public/openmoji/1F468-1F3FB-200D-1F9B3.svg";
-import WYsAcaztNP from "/public/openmoji/1F468-1F3FB-200D-1F9BC.svg";
-import dNvCbZbxnu from "/public/openmoji/1F468-1F3FB-200D-1F9BD.svg";
-import hyhqUSFLoP from "/public/openmoji/1F468-1F3FB-200D-2695-FE0F.svg";
-import qemMwpyVmi from "/public/openmoji/1F468-1F3FB-200D-2696-FE0F.svg";
-import gCvJExQAiK from "/public/openmoji/1F468-1F3FB-200D-2708-FE0F.svg";
-import lAXvLehqrD from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import lmVqmiePys from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import sSMjUvHURK from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import vZuPXDmblr from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import KDpqHtxTKA from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import fGEeRsUBkH from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import TTmgTHmKHS from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import FGsENNTSJw from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import VFaiDTCUuC from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import nMnhPUYXaj from "/public/openmoji/1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import QYUesmSHtL from "/public/openmoji/1F468-1F3FB.svg";
-import brKYPezzUr from "/public/openmoji/1F468-1F3FC-200D-1F33E.svg";
-import wPutXAqgqm from "/public/openmoji/1F468-1F3FC-200D-1F373.svg";
-import MfQTcYwwdH from "/public/openmoji/1F468-1F3FC-200D-1F37C.svg";
-import JUDnQBaIbp from "/public/openmoji/1F468-1F3FC-200D-1F393.svg";
-import usfznMOJGj from "/public/openmoji/1F468-1F3FC-200D-1F3A4.svg";
-import lXePyLORPT from "/public/openmoji/1F468-1F3FC-200D-1F3A8.svg";
-import FbyaXZRVSL from "/public/openmoji/1F468-1F3FC-200D-1F3EB.svg";
-import zKYABaebCN from "/public/openmoji/1F468-1F3FC-200D-1F3ED.svg";
-import SEzIJqZbJF from "/public/openmoji/1F468-1F3FC-200D-1F4BB.svg";
-import YxPZATwjZC from "/public/openmoji/1F468-1F3FC-200D-1F4BC.svg";
-import lmjHQJznde from "/public/openmoji/1F468-1F3FC-200D-1F527.svg";
-import tXhomctRTb from "/public/openmoji/1F468-1F3FC-200D-1F52C.svg";
-import tAXszQJqgI from "/public/openmoji/1F468-1F3FC-200D-1F680.svg";
-import ihqJhPNMxR from "/public/openmoji/1F468-1F3FC-200D-1F692.svg";
-import ovUPIHtYZp from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB.svg";
-import PfnGJfcajo from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD.svg";
-import drxWAvsVlu from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE.svg";
-import GEIvLHKiOY from "/public/openmoji/1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF.svg";
-import ckDkkjgAAT from "/public/openmoji/1F468-1F3FC-200D-1F9AF.svg";
-import TjEyJfWYtk from "/public/openmoji/1F468-1F3FC-200D-1F9B0.svg";
-import uzRwKRskNV from "/public/openmoji/1F468-1F3FC-200D-1F9B1.svg";
-import CEkzxkMzzE from "/public/openmoji/1F468-1F3FC-200D-1F9B2.svg";
-import SRSXOiCzdP from "/public/openmoji/1F468-1F3FC-200D-1F9B3.svg";
-import sFYWxFjmSm from "/public/openmoji/1F468-1F3FC-200D-1F9BC.svg";
-import oEToLgMVBp from "/public/openmoji/1F468-1F3FC-200D-1F9BD.svg";
-import UHYdygeTFb from "/public/openmoji/1F468-1F3FC-200D-2695-FE0F.svg";
-import OoKEGEdilR from "/public/openmoji/1F468-1F3FC-200D-2696-FE0F.svg";
-import tODwsLQIlR from "/public/openmoji/1F468-1F3FC-200D-2708-FE0F.svg";
-import hkpNicgZKl from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import NjEHmilqxt from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import UEmcmAvIQD from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import oqcRkwvJEI from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import NdrpurksyX from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import aLmBhdhKFC from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import vtKOfAAVZx from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import eYTHaoOohQ from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import vCjYtGMYVY from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import sVPLZDpMdj from "/public/openmoji/1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import KrLIpwwKQV from "/public/openmoji/1F468-1F3FC.svg";
-import vQqMmgvgsh from "/public/openmoji/1F468-1F3FD-200D-1F33E.svg";
-import zCqMfvwaCJ from "/public/openmoji/1F468-1F3FD-200D-1F373.svg";
-import hghHYgEjXx from "/public/openmoji/1F468-1F3FD-200D-1F37C.svg";
-import sjfldqtLQS from "/public/openmoji/1F468-1F3FD-200D-1F393.svg";
-import brMmWyFITQ from "/public/openmoji/1F468-1F3FD-200D-1F3A4.svg";
-import McqjGBnlWP from "/public/openmoji/1F468-1F3FD-200D-1F3A8.svg";
-import JqSRWXnZFK from "/public/openmoji/1F468-1F3FD-200D-1F3EB.svg";
-import cSUdUGphZm from "/public/openmoji/1F468-1F3FD-200D-1F3ED.svg";
-import IDHiMEfgte from "/public/openmoji/1F468-1F3FD-200D-1F4BB.svg";
-import DFriyzNost from "/public/openmoji/1F468-1F3FD-200D-1F4BC.svg";
-import SBeQLmhwKu from "/public/openmoji/1F468-1F3FD-200D-1F527.svg";
-import wyUFkiDCWD from "/public/openmoji/1F468-1F3FD-200D-1F52C.svg";
-import vRVKdkvZSQ from "/public/openmoji/1F468-1F3FD-200D-1F680.svg";
-import FlrOFHSJAC from "/public/openmoji/1F468-1F3FD-200D-1F692.svg";
-import FiiOXfIfsP from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB.svg";
-import ZDaDCoIoHU from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC.svg";
-import dxjilQxjAJ from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE.svg";
-import nkIcyffNfT from "/public/openmoji/1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF.svg";
-import jmUGLdHNwc from "/public/openmoji/1F468-1F3FD-200D-1F9AF.svg";
-import vUSMvYoeLf from "/public/openmoji/1F468-1F3FD-200D-1F9B0.svg";
-import avpfWNIQPy from "/public/openmoji/1F468-1F3FD-200D-1F9B1.svg";
-import eAAOnakmqB from "/public/openmoji/1F468-1F3FD-200D-1F9B2.svg";
-import EuNHEXFBju from "/public/openmoji/1F468-1F3FD-200D-1F9B3.svg";
-import HyCiWyWOGn from "/public/openmoji/1F468-1F3FD-200D-1F9BC.svg";
-import gMwBebypPB from "/public/openmoji/1F468-1F3FD-200D-1F9BD.svg";
-import foMAYjHxLn from "/public/openmoji/1F468-1F3FD-200D-2695-FE0F.svg";
-import PuXrNewSWz from "/public/openmoji/1F468-1F3FD-200D-2696-FE0F.svg";
-import lDbjCPqRRM from "/public/openmoji/1F468-1F3FD-200D-2708-FE0F.svg";
-import DwyviPqGwU from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import XLYDgrllMd from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import WVRtaMDOYB from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import qEVGIndNnA from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import JInKbyoQax from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import aLEgLhLyoK from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import JpvFOiUXBd from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import lPdvdxjhXk from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import vQeNzFjHgz from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import ARnxDwPikF from "/public/openmoji/1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import cZspNvvBvK from "/public/openmoji/1F468-1F3FD.svg";
-import rvafULcTDf from "/public/openmoji/1F468-1F3FE-200D-1F33E.svg";
-import cHhZVtBXEi from "/public/openmoji/1F468-1F3FE-200D-1F373.svg";
-import VMQucqtmMm from "/public/openmoji/1F468-1F3FE-200D-1F37C.svg";
-import pcJcfVSaVT from "/public/openmoji/1F468-1F3FE-200D-1F393.svg";
-import ymJIMmNxPH from "/public/openmoji/1F468-1F3FE-200D-1F3A4.svg";
-import uenIHvtOzw from "/public/openmoji/1F468-1F3FE-200D-1F3A8.svg";
-import StoLSpYTuH from "/public/openmoji/1F468-1F3FE-200D-1F3EB.svg";
-import KIhXKFwPHe from "/public/openmoji/1F468-1F3FE-200D-1F3ED.svg";
-import QRQZaBigqp from "/public/openmoji/1F468-1F3FE-200D-1F4BB.svg";
-import aDecldtQtW from "/public/openmoji/1F468-1F3FE-200D-1F4BC.svg";
-import YxtvMJHpvN from "/public/openmoji/1F468-1F3FE-200D-1F527.svg";
-import EFkYjVAwnr from "/public/openmoji/1F468-1F3FE-200D-1F52C.svg";
-import xcgnVyirYC from "/public/openmoji/1F468-1F3FE-200D-1F680.svg";
-import LPtqAycpHh from "/public/openmoji/1F468-1F3FE-200D-1F692.svg";
-import VvniHhYWyU from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB.svg";
-import eDPweqWBGV from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC.svg";
-import CyLTGfufMp from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD.svg";
-import gFocWjsgpo from "/public/openmoji/1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF.svg";
-import IbzETVAJEV from "/public/openmoji/1F468-1F3FE-200D-1F9AF.svg";
-import icWthDImyj from "/public/openmoji/1F468-1F3FE-200D-1F9B0.svg";
-import QaDqfvKZXt from "/public/openmoji/1F468-1F3FE-200D-1F9B1.svg";
-import aFygwPOAGh from "/public/openmoji/1F468-1F3FE-200D-1F9B2.svg";
-import GfHFBtDVhU from "/public/openmoji/1F468-1F3FE-200D-1F9B3.svg";
-import GCMOEephhA from "/public/openmoji/1F468-1F3FE-200D-1F9BC.svg";
-import wMsKtxjPhe from "/public/openmoji/1F468-1F3FE-200D-1F9BD.svg";
-import qABoDRCUje from "/public/openmoji/1F468-1F3FE-200D-2695-FE0F.svg";
-import aNZlIhKKQM from "/public/openmoji/1F468-1F3FE-200D-2696-FE0F.svg";
-import hzkfVlEhrQ from "/public/openmoji/1F468-1F3FE-200D-2708-FE0F.svg";
-import xmaVqqqulL from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import mBGpNfdpTD from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import PtLcFHMyVN from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import TzIhLMSrSs from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import qfABKsbMMb from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import lgFDsRCwdb from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import DjUCaUHImu from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import FNYGxAaTBf from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import jDvKjOJGEY from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import PQERQgVhzJ from "/public/openmoji/1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import HjMhALXSeh from "/public/openmoji/1F468-1F3FE.svg";
-import LavYsYTJYP from "/public/openmoji/1F468-1F3FF-200D-1F33E.svg";
-import CKSuyPDlbj from "/public/openmoji/1F468-1F3FF-200D-1F373.svg";
-import wojqnAHmYI from "/public/openmoji/1F468-1F3FF-200D-1F37C.svg";
-import vARrdMgkFF from "/public/openmoji/1F468-1F3FF-200D-1F393.svg";
-import BaKduIjIEO from "/public/openmoji/1F468-1F3FF-200D-1F3A4.svg";
-import sHElQLuVto from "/public/openmoji/1F468-1F3FF-200D-1F3A8.svg";
-import DCNzLPGLro from "/public/openmoji/1F468-1F3FF-200D-1F3EB.svg";
-import odGXtiPWGB from "/public/openmoji/1F468-1F3FF-200D-1F3ED.svg";
-import kObdGbrnLF from "/public/openmoji/1F468-1F3FF-200D-1F4BB.svg";
-import qNAtCXtvYW from "/public/openmoji/1F468-1F3FF-200D-1F4BC.svg";
-import UosCsEPIsb from "/public/openmoji/1F468-1F3FF-200D-1F527.svg";
-import scShzdTEbD from "/public/openmoji/1F468-1F3FF-200D-1F52C.svg";
-import FqXRNoHBKS from "/public/openmoji/1F468-1F3FF-200D-1F680.svg";
-import GIHhmmbrmg from "/public/openmoji/1F468-1F3FF-200D-1F692.svg";
-import HGcVHjfGQp from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB.svg";
-import GzGScuaYTl from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC.svg";
-import MlMuWQmFPL from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD.svg";
-import XwZEqHFxZt from "/public/openmoji/1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE.svg";
-import bGldrDTGHQ from "/public/openmoji/1F468-1F3FF-200D-1F9AF.svg";
-import EFyTHmMUcr from "/public/openmoji/1F468-1F3FF-200D-1F9B0.svg";
-import azNQmFUZPz from "/public/openmoji/1F468-1F3FF-200D-1F9B1.svg";
-import FCeBxScsRR from "/public/openmoji/1F468-1F3FF-200D-1F9B2.svg";
-import qqsXgAOXSq from "/public/openmoji/1F468-1F3FF-200D-1F9B3.svg";
-import suwDXiWnot from "/public/openmoji/1F468-1F3FF-200D-1F9BC.svg";
-import pvNJdOKAVv from "/public/openmoji/1F468-1F3FF-200D-1F9BD.svg";
-import HWtWdSMbwM from "/public/openmoji/1F468-1F3FF-200D-2695-FE0F.svg";
-import kzuJaCahRt from "/public/openmoji/1F468-1F3FF-200D-2696-FE0F.svg";
-import wpBBmfadLo from "/public/openmoji/1F468-1F3FF-200D-2708-FE0F.svg";
-import ocOVwHkgRk from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import UuPoWbvEyC from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import rQBaEzSCiR from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import kCXjrYSikO from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import hadIiQfMYX from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import YpkBFXShJu from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import LMEWIOXojP from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import PDClyqnyEr from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import kaycqGKtiF from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import LGNRpoRfwV from "/public/openmoji/1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import rhJVfQKUvX from "/public/openmoji/1F468-1F3FF.svg";
-import qNYurwlvam from "/public/openmoji/1F468-200D-1F33E.svg";
-import PGcTknLAiG from "/public/openmoji/1F468-200D-1F373.svg";
-import EfQUcoyFhq from "/public/openmoji/1F468-200D-1F37C.svg";
-import ykdZTmOLfG from "/public/openmoji/1F468-200D-1F393.svg";
-import hqAvAOxfgA from "/public/openmoji/1F468-200D-1F3A4.svg";
-import eHSWOgkQbq from "/public/openmoji/1F468-200D-1F3A8.svg";
-import OYwImIbXAF from "/public/openmoji/1F468-200D-1F3EB.svg";
-import kApdnvBIEu from "/public/openmoji/1F468-200D-1F3ED.svg";
-import QQUvnTGfSG from "/public/openmoji/1F468-200D-1F466-200D-1F466.svg";
-import TBeBuAgvlY from "/public/openmoji/1F468-200D-1F466.svg";
-import mUtVjzUDxe from "/public/openmoji/1F468-200D-1F467-200D-1F466.svg";
-import akfZqeaIKd from "/public/openmoji/1F468-200D-1F467-200D-1F467.svg";
-import UgawmBBAhK from "/public/openmoji/1F468-200D-1F467.svg";
-import MgSpnlKqna from "/public/openmoji/1F468-200D-1F468-200D-1F466-200D-1F466.svg";
-import bIJCtaPAFR from "/public/openmoji/1F468-200D-1F468-200D-1F466.svg";
-import vRjxiyCHTR from "/public/openmoji/1F468-200D-1F468-200D-1F467-200D-1F466.svg";
-import pYcYyRygPE from "/public/openmoji/1F468-200D-1F468-200D-1F467-200D-1F467.svg";
-import FznVjzEpJK from "/public/openmoji/1F468-200D-1F468-200D-1F467.svg";
-import xcOKtwoUao from "/public/openmoji/1F468-200D-1F469-200D-1F466-200D-1F466.svg";
-import PvxUjfkzgI from "/public/openmoji/1F468-200D-1F469-200D-1F466.svg";
-import ZAmXfOiRDz from "/public/openmoji/1F468-200D-1F469-200D-1F467-200D-1F466.svg";
-import HXeKLIInZf from "/public/openmoji/1F468-200D-1F469-200D-1F467-200D-1F467.svg";
-import qzHaDYAJYy from "/public/openmoji/1F468-200D-1F469-200D-1F467.svg";
-import ifXBdfLaPw from "/public/openmoji/1F468-200D-1F4BB.svg";
-import GMrjpzFjeT from "/public/openmoji/1F468-200D-1F4BC.svg";
-import htGjLRXXra from "/public/openmoji/1F468-200D-1F527.svg";
-import MQKpUwpfBR from "/public/openmoji/1F468-200D-1F52C.svg";
-import HjpMtFwoWX from "/public/openmoji/1F468-200D-1F680.svg";
-import yPWzcZLjUB from "/public/openmoji/1F468-200D-1F692.svg";
-import qKmXcmLFdp from "/public/openmoji/1F468-200D-1F9AF.svg";
-import UDyBjAYvpT from "/public/openmoji/1F468-200D-1F9B0.svg";
-import iiAnPdmCes from "/public/openmoji/1F468-200D-1F9B1.svg";
-import qBBMZxpaFY from "/public/openmoji/1F468-200D-1F9B2.svg";
-import EFTKQXQKKZ from "/public/openmoji/1F468-200D-1F9B3.svg";
-import zYRqjTUmwm from "/public/openmoji/1F468-200D-1F9BC.svg";
-import pTrrkxmKcb from "/public/openmoji/1F468-200D-1F9BD.svg";
-import OrGDawNFAb from "/public/openmoji/1F468-200D-1FAA9.svg";
-import zedsjlAALa from "/public/openmoji/1F468-200D-2695-FE0F.svg";
-import BprHRFSesg from "/public/openmoji/1F468-200D-2696-FE0F.svg";
-import fjBfNNPmLV from "/public/openmoji/1F468-200D-2708-FE0F.svg";
-import rLqgTukGue from "/public/openmoji/1F468-200D-2764-FE0F-200D-1F468.svg";
-import nGLQhueMME from "/public/openmoji/1F468-200D-2764-FE0F-200D-1F48B-200D-1F468.svg";
-import WlqcITFXqa from "/public/openmoji/1F468.svg";
-import JjsNbWnEOF from "/public/openmoji/1F469-1F3FB-200D-1F33E.svg";
-import lYZyyUwkZx from "/public/openmoji/1F469-1F3FB-200D-1F373.svg";
-import ZDotEgxoDW from "/public/openmoji/1F469-1F3FB-200D-1F37C.svg";
-import GexspKDVsv from "/public/openmoji/1F469-1F3FB-200D-1F393.svg";
-import hSLcgPLYCD from "/public/openmoji/1F469-1F3FB-200D-1F3A4.svg";
-import LaxcMyVOZB from "/public/openmoji/1F469-1F3FB-200D-1F3A8.svg";
-import qjfWSOPMbL from "/public/openmoji/1F469-1F3FB-200D-1F3EB.svg";
-import emmGodFkxS from "/public/openmoji/1F469-1F3FB-200D-1F3ED.svg";
-import hKCDQqjpNL from "/public/openmoji/1F469-1F3FB-200D-1F4BB.svg";
-import HEFlHeuIAQ from "/public/openmoji/1F469-1F3FB-200D-1F4BC.svg";
-import SMnqoymsbT from "/public/openmoji/1F469-1F3FB-200D-1F527.svg";
-import dNuQeknpZT from "/public/openmoji/1F469-1F3FB-200D-1F52C.svg";
-import vAQlNKtcDz from "/public/openmoji/1F469-1F3FB-200D-1F680.svg";
-import EfYWCNjJBR from "/public/openmoji/1F469-1F3FB-200D-1F692.svg";
-import fKlBvsPKBI from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC.svg";
-import LcakgZfkpL from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD.svg";
-import uZWYiaIxuv from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE.svg";
-import MepfYtIlyG from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F468-1F3FF.svg";
-import WBGRljyjTM from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC.svg";
-import BmglQCJmFJ from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD.svg";
-import frSgAaZdna from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE.svg";
-import kLvqcTBJzJ from "/public/openmoji/1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF.svg";
-import FNoKnoHYvk from "/public/openmoji/1F469-1F3FB-200D-1F9AF.svg";
-import DEAMAfZRrT from "/public/openmoji/1F469-1F3FB-200D-1F9B0.svg";
-import YJOpvGMpRw from "/public/openmoji/1F469-1F3FB-200D-1F9B1.svg";
-import hSUSfxTQZn from "/public/openmoji/1F469-1F3FB-200D-1F9B2.svg";
-import LhFsjMXwGU from "/public/openmoji/1F469-1F3FB-200D-1F9B3.svg";
-import AfHOxVtqQT from "/public/openmoji/1F469-1F3FB-200D-1F9BC.svg";
-import yPWEMwFZkT from "/public/openmoji/1F469-1F3FB-200D-1F9BD.svg";
-import GNdvgyCVoc from "/public/openmoji/1F469-1F3FB-200D-2695-FE0F.svg";
-import SYCGzwLQSq from "/public/openmoji/1F469-1F3FB-200D-2696-FE0F.svg";
-import LEGxQZxDMR from "/public/openmoji/1F469-1F3FB-200D-2708-FE0F.svg";
-import AhSfhpOyQO from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import woJXjDHsKy from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import olSJeStopr from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import gBanUHleSm from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import NUHTfCuDqT from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import KFuckzdmVg from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FB.svg";
-import MebvupmNSn from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FC.svg";
-import vBWVMdFGLI from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FD.svg";
-import xkwUXkclwA from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FE.svg";
-import uFQagWRBdf from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FF.svg";
-import vvTqGiXmfZ from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import BaIkgBHTIs from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import GTcJfRXORU from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import oTZHqDTBVU from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import QdMmPVqYOh from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import vQIvHtMgrq from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
-import UnrGBRShMa from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
-import GfcwRLHRqN from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
-import exxomXjNCu from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
-import khxKGIqnyd from "/public/openmoji/1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
-import mOAwvtmClI from "/public/openmoji/1F469-1F3FB.svg";
-import xeTPezRoXM from "/public/openmoji/1F469-1F3FC-200D-1F33E.svg";
-import hmWPsfzBBj from "/public/openmoji/1F469-1F3FC-200D-1F373.svg";
-import kwfimisbsQ from "/public/openmoji/1F469-1F3FC-200D-1F37C.svg";
-import XwFvaKMNRM from "/public/openmoji/1F469-1F3FC-200D-1F393.svg";
-import ZNdWvXQNpz from "/public/openmoji/1F469-1F3FC-200D-1F3A4.svg";
-import KgPnVUGKOf from "/public/openmoji/1F469-1F3FC-200D-1F3A8.svg";
-import SaXEoatIHw from "/public/openmoji/1F469-1F3FC-200D-1F3EB.svg";
-import PDfcnkTgxs from "/public/openmoji/1F469-1F3FC-200D-1F3ED.svg";
-import UifhVfertF from "/public/openmoji/1F469-1F3FC-200D-1F4BB.svg";
-import IyrOLPkvKq from "/public/openmoji/1F469-1F3FC-200D-1F4BC.svg";
-import GytvNYpIEG from "/public/openmoji/1F469-1F3FC-200D-1F527.svg";
-import tsTxezCGeH from "/public/openmoji/1F469-1F3FC-200D-1F52C.svg";
-import YCcZCipSUd from "/public/openmoji/1F469-1F3FC-200D-1F680.svg";
-import TUJQDvTTmO from "/public/openmoji/1F469-1F3FC-200D-1F692.svg";
-import ySdsBOsJyV from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB.svg";
-import YLouPqUmpx from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD.svg";
-import eVQuLHHjSQ from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE.svg";
-import TxDvQOVOZN from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF.svg";
-import traKkufLWN from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB.svg";
-import GsykQPrBdN from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD.svg";
-import nmJdNdgRgR from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE.svg";
-import XoAyXlACoD from "/public/openmoji/1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF.svg";
-import IwHbXIJBpw from "/public/openmoji/1F469-1F3FC-200D-1F9AF.svg";
-import tdoVbcHxLS from "/public/openmoji/1F469-1F3FC-200D-1F9B0.svg";
-import GLSYqChRkj from "/public/openmoji/1F469-1F3FC-200D-1F9B1.svg";
-import mHpAQQUkHQ from "/public/openmoji/1F469-1F3FC-200D-1F9B2.svg";
-import MguQrjyPzO from "/public/openmoji/1F469-1F3FC-200D-1F9B3.svg";
-import hbGqDVfqQE from "/public/openmoji/1F469-1F3FC-200D-1F9BC.svg";
-import oTrYrzAmpQ from "/public/openmoji/1F469-1F3FC-200D-1F9BD.svg";
-import nKRkBtFYtk from "/public/openmoji/1F469-1F3FC-200D-2695-FE0F.svg";
-import pUgwiCqPSC from "/public/openmoji/1F469-1F3FC-200D-2696-FE0F.svg";
-import nXDYTplyxR from "/public/openmoji/1F469-1F3FC-200D-2708-FE0F.svg";
-import nLgLwzBuuk from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import bGpbQyUaZx from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import heHegSTeHb from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import vvPLikIrzC from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import UThhOOeadj from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import pOAJlcLUWk from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FB.svg";
-import XvmVqloyHt from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FC.svg";
-import nYVMFxAlvz from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FD.svg";
-import ullHwJywBG from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FE.svg";
-import zXGejyYfkx from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FF.svg";
-import RMmBGjjWFM from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import skbLRefszV from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import ylynMWlqyP from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import YuxkfsBnse from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import gMchkjvJIf from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import BqvMdGBIdU from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
-import cByQMwIryB from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
-import uAGPePDgwS from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
-import zqjepUPkyD from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
-import yOSYXuBDcX from "/public/openmoji/1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
-import zFCeHJQKiA from "/public/openmoji/1F469-1F3FC.svg";
-import RgPoZewrKU from "/public/openmoji/1F469-1F3FD-200D-1F33E.svg";
-import mbaMFBfUjE from "/public/openmoji/1F469-1F3FD-200D-1F373.svg";
-import JaDdwqSThA from "/public/openmoji/1F469-1F3FD-200D-1F37C.svg";
-import BQhLvfGAez from "/public/openmoji/1F469-1F3FD-200D-1F393.svg";
-import sNAuPQpAuF from "/public/openmoji/1F469-1F3FD-200D-1F3A4.svg";
-import zdIjaHvCwC from "/public/openmoji/1F469-1F3FD-200D-1F3A8.svg";
-import GdVhLCoPMA from "/public/openmoji/1F469-1F3FD-200D-1F3EB.svg";
-import JaFmDQNMPD from "/public/openmoji/1F469-1F3FD-200D-1F3ED.svg";
-import wtZARVILFk from "/public/openmoji/1F469-1F3FD-200D-1F4BB.svg";
-import hlahdQQjXW from "/public/openmoji/1F469-1F3FD-200D-1F4BC.svg";
-import GNDZAapShd from "/public/openmoji/1F469-1F3FD-200D-1F527.svg";
-import SuQbVLnPdD from "/public/openmoji/1F469-1F3FD-200D-1F52C.svg";
-import VViwDKDLdq from "/public/openmoji/1F469-1F3FD-200D-1F680.svg";
-import SnWnvughfk from "/public/openmoji/1F469-1F3FD-200D-1F692.svg";
-import vfVEMnhIUZ from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB.svg";
-import lOHsJwNHmw from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC.svg";
-import WpKlQiJbCd from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE.svg";
-import GnSrYorkgG from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF.svg";
-import iWaFASqcSq from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB.svg";
-import wFMVLRqJDF from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC.svg";
-import AacRrwOTft from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE.svg";
-import nfKQbAGEVA from "/public/openmoji/1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF.svg";
-import dDCDuvfhXj from "/public/openmoji/1F469-1F3FD-200D-1F9AF.svg";
-import jmOsJLyysp from "/public/openmoji/1F469-1F3FD-200D-1F9B0.svg";
-import fYoUABfLyi from "/public/openmoji/1F469-1F3FD-200D-1F9B1.svg";
-import muHFQubKTe from "/public/openmoji/1F469-1F3FD-200D-1F9B2.svg";
-import RePUjiRWoC from "/public/openmoji/1F469-1F3FD-200D-1F9B3.svg";
-import VDkYlyGUFD from "/public/openmoji/1F469-1F3FD-200D-1F9BC.svg";
-import bSvwSuTerY from "/public/openmoji/1F469-1F3FD-200D-1F9BD.svg";
-import uLVvtvRJCC from "/public/openmoji/1F469-1F3FD-200D-2695-FE0F.svg";
-import vRpYggIhaK from "/public/openmoji/1F469-1F3FD-200D-2696-FE0F.svg";
-import WJzOzhAzAC from "/public/openmoji/1F469-1F3FD-200D-2708-FE0F.svg";
-import anvrftFMRy from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import eDGKjzwsEX from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import DZYAKmWuAN from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import KVOCrbzsjc from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import ZiJzQlPAYC from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import fmvCuImIdZ from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FB.svg";
-import YnPsjacNDW from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FC.svg";
-import XpJsFBJVkg from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FD.svg";
-import tHUvvVBvve from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FE.svg";
-import XjBddJJXuk from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FF.svg";
-import lTMTsBZrIb from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import eowzRVSdxH from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import hsoLgmKhOI from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import gGHDJfzUzk from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import dPkCQJWMHe from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import HgsQhMfFxM from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
-import yyLVqhsmXA from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
-import qXJIGpMmet from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
-import lUgcWvEvjR from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
-import QnDECNflWZ from "/public/openmoji/1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
-import zaNPdtOrMy from "/public/openmoji/1F469-1F3FD.svg";
-import UElhrFyNvJ from "/public/openmoji/1F469-1F3FE-200D-1F33E.svg";
-import wjzUEysCux from "/public/openmoji/1F469-1F3FE-200D-1F373.svg";
-import sFefSocmEu from "/public/openmoji/1F469-1F3FE-200D-1F37C.svg";
-import AVHQMcEmJq from "/public/openmoji/1F469-1F3FE-200D-1F393.svg";
-import LeoUptFGzf from "/public/openmoji/1F469-1F3FE-200D-1F3A4.svg";
-import ZcWlVuBlLv from "/public/openmoji/1F469-1F3FE-200D-1F3A8.svg";
-import SXGHuokhbt from "/public/openmoji/1F469-1F3FE-200D-1F3EB.svg";
-import FrtmgAZWrh from "/public/openmoji/1F469-1F3FE-200D-1F3ED.svg";
-import bSNBuGPbIx from "/public/openmoji/1F469-1F3FE-200D-1F4BB.svg";
-import OpAjnEfPoQ from "/public/openmoji/1F469-1F3FE-200D-1F4BC.svg";
-import LnSGMOBPfh from "/public/openmoji/1F469-1F3FE-200D-1F527.svg";
-import YYPeZeNANG from "/public/openmoji/1F469-1F3FE-200D-1F52C.svg";
-import VbbCnuvQZf from "/public/openmoji/1F469-1F3FE-200D-1F680.svg";
-import JyzKnzlUhN from "/public/openmoji/1F469-1F3FE-200D-1F692.svg";
-import VGTHgYvOdy from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB.svg";
-import SKpunFjUJQ from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC.svg";
-import PAgziuADAS from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD.svg";
-import JPLuwexTqU from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF.svg";
-import ZsQMDriKLw from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB.svg";
-import MINZUrXzeT from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC.svg";
-import SGKdJTmgKZ from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD.svg";
-import OTidRbILOy from "/public/openmoji/1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF.svg";
-import OLPZwkbbNG from "/public/openmoji/1F469-1F3FE-200D-1F9AF.svg";
-import nvXMpchoyF from "/public/openmoji/1F469-1F3FE-200D-1F9B0.svg";
-import yXgJhwZpse from "/public/openmoji/1F469-1F3FE-200D-1F9B1.svg";
-import JLhzirSnRW from "/public/openmoji/1F469-1F3FE-200D-1F9B2.svg";
-import XTqaaawMZz from "/public/openmoji/1F469-1F3FE-200D-1F9B3.svg";
-import PNFCkypkkz from "/public/openmoji/1F469-1F3FE-200D-1F9BC.svg";
-import aqLnGiGxOl from "/public/openmoji/1F469-1F3FE-200D-1F9BD.svg";
-import OddwIQIaIF from "/public/openmoji/1F469-1F3FE-200D-2695-FE0F.svg";
-import WVMtWssfyU from "/public/openmoji/1F469-1F3FE-200D-2696-FE0F.svg";
-import XpZolYOJWL from "/public/openmoji/1F469-1F3FE-200D-2708-FE0F.svg";
-import lcmwIXuxYW from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import eWaVruSueC from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import CDLjrilmzz from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import WesrxuUHEA from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import TNlfBvbics from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import dSoGfbOYKI from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FB.svg";
-import XbRUADEDMp from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FC.svg";
-import ZhticYbNpI from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FD.svg";
-import nYRlrDeodq from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FE.svg";
-import cKpcaLFhnT from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FF.svg";
-import kTtBWOItAi from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import lmNqncYgwm from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import VrnZwLtEQQ from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import UBHtKRjxFC from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import JayFbYmnhU from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import jngXONuDDV from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
-import sWMtmJaVUO from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
-import MxCAzNwfGh from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
-import ykEwfXGfNr from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
-import HPrmvzZYNA from "/public/openmoji/1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
-import stNIZbUKre from "/public/openmoji/1F469-1F3FE.svg";
-import WIFHhzoXuF from "/public/openmoji/1F469-1F3FF-200D-1F33E.svg";
-import zeYsRRvOfL from "/public/openmoji/1F469-1F3FF-200D-1F373.svg";
-import WamOhxgrZo from "/public/openmoji/1F469-1F3FF-200D-1F37C.svg";
-import fDDqFCOKWp from "/public/openmoji/1F469-1F3FF-200D-1F393.svg";
-import ZvRgFBWIka from "/public/openmoji/1F469-1F3FF-200D-1F3A4.svg";
-import kLTnIirgHr from "/public/openmoji/1F469-1F3FF-200D-1F3A8.svg";
-import jMdQBwxqax from "/public/openmoji/1F469-1F3FF-200D-1F3EB.svg";
-import cjAgLXbOUh from "/public/openmoji/1F469-1F3FF-200D-1F3ED.svg";
-import aijjIbLHlF from "/public/openmoji/1F469-1F3FF-200D-1F4BB.svg";
-import UaceFKSRPw from "/public/openmoji/1F469-1F3FF-200D-1F4BC.svg";
-import fJYNSvkiBn from "/public/openmoji/1F469-1F3FF-200D-1F527.svg";
-import wgCXbTkTwQ from "/public/openmoji/1F469-1F3FF-200D-1F52C.svg";
-import gKcNKsJCLN from "/public/openmoji/1F469-1F3FF-200D-1F680.svg";
-import iBVihHqonL from "/public/openmoji/1F469-1F3FF-200D-1F692.svg";
-import ZkZYWvVccq from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB.svg";
-import gYHjOBTVAb from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC.svg";
-import bUAzjgfBqr from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD.svg";
-import bUwnzfsaMA from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE.svg";
-import cxvgozoXGN from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB.svg";
-import qAjhzqJXiX from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC.svg";
-import yKjUuFzCCw from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD.svg";
-import NZGCmbUXeC from "/public/openmoji/1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE.svg";
-import AwSZDIwEYx from "/public/openmoji/1F469-1F3FF-200D-1F9AF.svg";
-import cITmADBley from "/public/openmoji/1F469-1F3FF-200D-1F9B0.svg";
-import oFlpOvakGo from "/public/openmoji/1F469-1F3FF-200D-1F9B1.svg";
-import etqGBkTJKh from "/public/openmoji/1F469-1F3FF-200D-1F9B2.svg";
-import RSyHSPMZAC from "/public/openmoji/1F469-1F3FF-200D-1F9B3.svg";
-import DreshrSjMJ from "/public/openmoji/1F469-1F3FF-200D-1F9BC.svg";
-import TgJxlCBYzV from "/public/openmoji/1F469-1F3FF-200D-1F9BD.svg";
-import sHCiVpAlKQ from "/public/openmoji/1F469-1F3FF-200D-2695-FE0F.svg";
-import mDnGwgwSWp from "/public/openmoji/1F469-1F3FF-200D-2696-FE0F.svg";
-import QccXHukdNi from "/public/openmoji/1F469-1F3FF-200D-2708-FE0F.svg";
-import DoIWtFdNdK from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB.svg";
-import PGxksOXFjP from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC.svg";
-import txvseRaNhu from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD.svg";
-import VdzXxrXKTL from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE.svg";
-import ZGvllScqEA from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF.svg";
-import fVOFCaTBXE from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FB.svg";
-import eDLRMxbopj from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FC.svg";
-import eqXhnISMmO from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FD.svg";
-import IzgsBfphgK from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FE.svg";
-import sGgTZSoYte from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FF.svg";
-import UIFBuzCqWr from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB.svg";
-import aSpLLEbTTs from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC.svg";
-import qUgulZLyBf from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD.svg";
-import GKCpouMiza from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE.svg";
-import DuprwqqDJd from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF.svg";
-import ZYppjpdXuZ from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB.svg";
-import XWBTUSfVMz from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC.svg";
-import MgBgiidxtt from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD.svg";
-import fHRFrwEHEi from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE.svg";
-import cVcUvJCeMd from "/public/openmoji/1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF.svg";
-import mNELwdgnDe from "/public/openmoji/1F469-1F3FF.svg";
-import wIzcHYfRnD from "/public/openmoji/1F469-200D-1F33E.svg";
-import LVWyvONsnq from "/public/openmoji/1F469-200D-1F373.svg";
-import ynUmLIbZvv from "/public/openmoji/1F469-200D-1F37C.svg";
-import PfqbFoofgw from "/public/openmoji/1F469-200D-1F393.svg";
-import DAGjkRhENS from "/public/openmoji/1F469-200D-1F3A4.svg";
-import HXZDXjeSNP from "/public/openmoji/1F469-200D-1F3A8.svg";
-import qoYZTVoxUJ from "/public/openmoji/1F469-200D-1F3EB.svg";
-import GoPJCvFdmK from "/public/openmoji/1F469-200D-1F3ED.svg";
-import CIQDlMSLBm from "/public/openmoji/1F469-200D-1F466-200D-1F466.svg";
-import ZqBNVynCJn from "/public/openmoji/1F469-200D-1F466.svg";
-import cbnTwPxMMg from "/public/openmoji/1F469-200D-1F467-200D-1F466.svg";
-import psCrWrQFLo from "/public/openmoji/1F469-200D-1F467-200D-1F467.svg";
-import dhUHKnzXwn from "/public/openmoji/1F469-200D-1F467.svg";
-import DWbzWFSufP from "/public/openmoji/1F469-200D-1F469-200D-1F466-200D-1F466.svg";
-import gAahXrdUfY from "/public/openmoji/1F469-200D-1F469-200D-1F466.svg";
-import MWmGOqxrXr from "/public/openmoji/1F469-200D-1F469-200D-1F467-200D-1F466.svg";
-import zbZNnJtaGF from "/public/openmoji/1F469-200D-1F469-200D-1F467-200D-1F467.svg";
-import UZtgTFUPwt from "/public/openmoji/1F469-200D-1F469-200D-1F467.svg";
-import THeTZhvXMH from "/public/openmoji/1F469-200D-1F4BB.svg";
-import EmEhaDFUgv from "/public/openmoji/1F469-200D-1F4BC.svg";
-import owwnIUDryy from "/public/openmoji/1F469-200D-1F527.svg";
-import gpkISeSERS from "/public/openmoji/1F469-200D-1F52C.svg";
-import ltsylAmFcT from "/public/openmoji/1F469-200D-1F680.svg";
-import PttkaUYgop from "/public/openmoji/1F469-200D-1F692.svg";
-import JUMGeSygzU from "/public/openmoji/1F469-200D-1F9AF.svg";
-import zMZFkVGgXY from "/public/openmoji/1F469-200D-1F9B0.svg";
-import bdmyQHpLYM from "/public/openmoji/1F469-200D-1F9B1.svg";
-import DdevgXUgVH from "/public/openmoji/1F469-200D-1F9B2.svg";
-import bUShveKPAZ from "/public/openmoji/1F469-200D-1F9B3.svg";
-import BsPtFZZrlb from "/public/openmoji/1F469-200D-1F9BC.svg";
-import SkhOesJDxO from "/public/openmoji/1F469-200D-1F9BD.svg";
-import CstiBsUwiH from "/public/openmoji/1F469-200D-1FAA9.svg";
-import KOlInCHOIm from "/public/openmoji/1F469-200D-2695-FE0F.svg";
-import DcCbXTqOMj from "/public/openmoji/1F469-200D-2696-FE0F.svg";
-import xKTRlfvbCY from "/public/openmoji/1F469-200D-2708-FE0F.svg";
-import rnhDWPhBgn from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F468.svg";
-import gEnyTwXDcy from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F469.svg";
-import BXUARlNYSk from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F48B-200D-1F468.svg";
-import XBmQWGqASr from "/public/openmoji/1F469-200D-2764-FE0F-200D-1F48B-200D-1F469.svg";
-import ROfSYTJrkV from "/public/openmoji/1F469.svg";
-import liWicHEUel from "/public/openmoji/1F46A.svg";
-import dEfAtartOL from "/public/openmoji/1F46B-1F3FB.svg";
-import mxJOwDrKMb from "/public/openmoji/1F46B-1F3FC.svg";
-import fdxfGnapez from "/public/openmoji/1F46B-1F3FD.svg";
-import KEBsWmWePG from "/public/openmoji/1F46B-1F3FE.svg";
-import EKslycxcJb from "/public/openmoji/1F46B-1F3FF.svg";
-import etZycRrgrT from "/public/openmoji/1F46B.svg";
-import xMKgXbIjJu from "/public/openmoji/1F46C-1F3FB.svg";
-import RdroajJevi from "/public/openmoji/1F46C-1F3FC.svg";
-import oBjXoYqEBL from "/public/openmoji/1F46C-1F3FD.svg";
-import ytaZbNqqlS from "/public/openmoji/1F46C-1F3FE.svg";
-import FQcelfWPbL from "/public/openmoji/1F46C-1F3FF.svg";
-import qcUmsyDEFo from "/public/openmoji/1F46C.svg";
-import DUtNKYvrDB from "/public/openmoji/1F46D-1F3FB.svg";
-import WFhcyyVnVP from "/public/openmoji/1F46D-1F3FC.svg";
-import fgyeOqDxvH from "/public/openmoji/1F46D-1F3FD.svg";
-import AmmvzzrzLP from "/public/openmoji/1F46D-1F3FE.svg";
-import ctlmRnqlFA from "/public/openmoji/1F46D-1F3FF.svg";
-import LMMSJIgpKP from "/public/openmoji/1F46D.svg";
-import iLNiQRGsvi from "/public/openmoji/1F46E-1F3FB-200D-2640-FE0F.svg";
-import GOZzqbKjFf from "/public/openmoji/1F46E-1F3FB-200D-2642-FE0F.svg";
-import rlysxWayUg from "/public/openmoji/1F46E-1F3FB.svg";
-import MBqXNbSfhD from "/public/openmoji/1F46E-1F3FC-200D-2640-FE0F.svg";
-import zqxtmRQttD from "/public/openmoji/1F46E-1F3FC-200D-2642-FE0F.svg";
-import aLbHfOVEVd from "/public/openmoji/1F46E-1F3FC.svg";
-import LyAXpQzjIb from "/public/openmoji/1F46E-1F3FD-200D-2640-FE0F.svg";
-import xygugGqXxM from "/public/openmoji/1F46E-1F3FD-200D-2642-FE0F.svg";
-import yvaxXPIEhG from "/public/openmoji/1F46E-1F3FD.svg";
-import VMPIUUUaij from "/public/openmoji/1F46E-1F3FE-200D-2640-FE0F.svg";
-import adoicTTGwZ from "/public/openmoji/1F46E-1F3FE-200D-2642-FE0F.svg";
-import JRXzzzpibu from "/public/openmoji/1F46E-1F3FE.svg";
-import YBYeFUharo from "/public/openmoji/1F46E-1F3FF-200D-2640-FE0F.svg";
-import fDPAyeYHkj from "/public/openmoji/1F46E-1F3FF-200D-2642-FE0F.svg";
-import fogavljGtg from "/public/openmoji/1F46E-1F3FF.svg";
-import yYywAGcJXg from "/public/openmoji/1F46E-200D-2640-FE0F.svg";
-import SqzEqeWudq from "/public/openmoji/1F46E-200D-2642-FE0F.svg";
-import rlLuVbTAJB from "/public/openmoji/1F46E.svg";
-import iObXxuwigb from "/public/openmoji/1F46F-200D-2640-FE0F.svg";
-import sUheqpGSmF from "/public/openmoji/1F46F-200D-2642-FE0F.svg";
-import UKIVfoZGjF from "/public/openmoji/1F46F.svg";
-import BoVCSrWdEb from "/public/openmoji/1F470-1F3FB-200D-2640-FE0F.svg";
-import hzCHXuVmYu from "/public/openmoji/1F470-1F3FB-200D-2642-FE0F.svg";
-import EHdZnEzsVT from "/public/openmoji/1F470-1F3FB.svg";
-import rsrhZrjXpw from "/public/openmoji/1F470-1F3FC-200D-2640-FE0F.svg";
-import LwfNiplCTz from "/public/openmoji/1F470-1F3FC-200D-2642-FE0F.svg";
-import MGuOVauTpo from "/public/openmoji/1F470-1F3FC.svg";
-import kTuNxQSZSI from "/public/openmoji/1F470-1F3FD-200D-2640-FE0F.svg";
-import NWWrlVFVUk from "/public/openmoji/1F470-1F3FD-200D-2642-FE0F.svg";
-import SvKFHXcziO from "/public/openmoji/1F470-1F3FD.svg";
-import pUQofwqRaL from "/public/openmoji/1F470-1F3FE-200D-2640-FE0F.svg";
-import dClVSRzDQD from "/public/openmoji/1F470-1F3FE-200D-2642-FE0F.svg";
-import PDuzDIjxXc from "/public/openmoji/1F470-1F3FE.svg";
-import YgZfZAEwVU from "/public/openmoji/1F470-1F3FF-200D-2640-FE0F.svg";
-import gxbKPNIJlt from "/public/openmoji/1F470-1F3FF-200D-2642-FE0F.svg";
-import pzraCkhQkb from "/public/openmoji/1F470-1F3FF.svg";
-import BkaJbRqdUc from "/public/openmoji/1F470-200D-2640-FE0F.svg";
-import WKpsTNPMUj from "/public/openmoji/1F470-200D-2642-FE0F.svg";
-import LoWFXnQZzD from "/public/openmoji/1F470.svg";
-import uCxugwYxmY from "/public/openmoji/1F471-1F3FB-200D-2640-FE0F.svg";
-import EzmmFubWOo from "/public/openmoji/1F471-1F3FB-200D-2642-FE0F.svg";
-import FALldZcSoj from "/public/openmoji/1F471-1F3FB.svg";
-import TGeqnKNKTH from "/public/openmoji/1F471-1F3FC-200D-2640-FE0F.svg";
-import XMGfUPlGNJ from "/public/openmoji/1F471-1F3FC-200D-2642-FE0F.svg";
-import yYMgfHAhTG from "/public/openmoji/1F471-1F3FC.svg";
-import wTlvbuQpGX from "/public/openmoji/1F471-1F3FD-200D-2640-FE0F.svg";
-import SebfINKCpr from "/public/openmoji/1F471-1F3FD-200D-2642-FE0F.svg";
-import JTfSTKdIMk from "/public/openmoji/1F471-1F3FD.svg";
-import WKYRAYosOK from "/public/openmoji/1F471-1F3FE-200D-2640-FE0F.svg";
-import niIblxMQrf from "/public/openmoji/1F471-1F3FE-200D-2642-FE0F.svg";
-import ELikRvvsxR from "/public/openmoji/1F471-1F3FE.svg";
-import tquAgCQpUb from "/public/openmoji/1F471-1F3FF-200D-2640-FE0F.svg";
-import angvsIVlAO from "/public/openmoji/1F471-1F3FF-200D-2642-FE0F.svg";
-import hzShiMEZTT from "/public/openmoji/1F471-1F3FF.svg";
-import OcSIOPwKqd from "/public/openmoji/1F471-200D-2640-FE0F.svg";
-import ZcGrqbrXfh from "/public/openmoji/1F471-200D-2642-FE0F.svg";
-import PDphfKivsd from "/public/openmoji/1F471.svg";
-import IevzTPWBbc from "/public/openmoji/1F472-1F3FB.svg";
-import IkcdbgGFHp from "/public/openmoji/1F472-1F3FC.svg";
-import FMeFCxkuPW from "/public/openmoji/1F472-1F3FD.svg";
-import uFfdTiVztC from "/public/openmoji/1F472-1F3FE.svg";
-import KlrQsYgBtS from "/public/openmoji/1F472-1F3FF.svg";
-import vwDMkwbHOg from "/public/openmoji/1F472.svg";
-import fbdPvmBfhR from "/public/openmoji/1F473-1F3FB-200D-2640-FE0F.svg";
-import ZTkMsBRGWi from "/public/openmoji/1F473-1F3FB-200D-2642-FE0F.svg";
-import aXJaxuiGHY from "/public/openmoji/1F473-1F3FB.svg";
-import hqCGdFapBn from "/public/openmoji/1F473-1F3FC-200D-2640-FE0F.svg";
-import EYksiGSCpm from "/public/openmoji/1F473-1F3FC-200D-2642-FE0F.svg";
-import eViDXOSOpb from "/public/openmoji/1F473-1F3FC.svg";
-import ctTcOnVmZy from "/public/openmoji/1F473-1F3FD-200D-2640-FE0F.svg";
-import XxOUClmFuv from "/public/openmoji/1F473-1F3FD-200D-2642-FE0F.svg";
-import ChKMoKixlI from "/public/openmoji/1F473-1F3FD.svg";
-import iVGJNFMCad from "/public/openmoji/1F473-1F3FE-200D-2640-FE0F.svg";
-import rZZKJNJFwR from "/public/openmoji/1F473-1F3FE-200D-2642-FE0F.svg";
-import mopFbYdMIg from "/public/openmoji/1F473-1F3FE.svg";
-import fXkGiQYcpA from "/public/openmoji/1F473-1F3FF-200D-2640-FE0F.svg";
-import OcxuzjRHxq from "/public/openmoji/1F473-1F3FF-200D-2642-FE0F.svg";
-import uFhvawYGJi from "/public/openmoji/1F473-1F3FF.svg";
-import sDFMjipxfo from "/public/openmoji/1F473-200D-2640-FE0F.svg";
-import kltBmWkjiA from "/public/openmoji/1F473-200D-2642-FE0F.svg";
-import zwcExQEJlr from "/public/openmoji/1F473.svg";
-import EdXyJMObOH from "/public/openmoji/1F474-1F3FB.svg";
-import rrDEvPosDO from "/public/openmoji/1F474-1F3FC.svg";
-import xPiXiadgTk from "/public/openmoji/1F474-1F3FD.svg";
-import xcrgABAWlS from "/public/openmoji/1F474-1F3FE.svg";
-import jfZsecpBkX from "/public/openmoji/1F474-1F3FF.svg";
-import nCrhaILLVn from "/public/openmoji/1F474.svg";
-import GAsRFmvCZa from "/public/openmoji/1F475-1F3FB.svg";
-import ysbapOcOgm from "/public/openmoji/1F475-1F3FC.svg";
-import ZGdsmeBEeh from "/public/openmoji/1F475-1F3FD.svg";
-import iHqFfeMApR from "/public/openmoji/1F475-1F3FE.svg";
-import uGKZBqHqwI from "/public/openmoji/1F475-1F3FF.svg";
-import CdHosufkuD from "/public/openmoji/1F475.svg";
-import UstTYmKDkH from "/public/openmoji/1F476-1F3FB.svg";
-import LscmmqZIbg from "/public/openmoji/1F476-1F3FC.svg";
-import pMowfkOjWO from "/public/openmoji/1F476-1F3FD.svg";
-import naUYkwrjHQ from "/public/openmoji/1F476-1F3FE.svg";
-import jlacpncEOf from "/public/openmoji/1F476-1F3FF.svg";
-import YqRRlnkTxD from "/public/openmoji/1F476.svg";
-import VgvDcuyGox from "/public/openmoji/1F477-1F3FB-200D-2640-FE0F.svg";
-import pLRDqqcGyc from "/public/openmoji/1F477-1F3FB-200D-2642-FE0F.svg";
-import WzJQOmQKcl from "/public/openmoji/1F477-1F3FB.svg";
-import VdlzpjCvby from "/public/openmoji/1F477-1F3FC-200D-2640-FE0F.svg";
-import PhikbMlwKD from "/public/openmoji/1F477-1F3FC-200D-2642-FE0F.svg";
-import XIDOqGuDOn from "/public/openmoji/1F477-1F3FC.svg";
-import TyyOGlaYAC from "/public/openmoji/1F477-1F3FD-200D-2640-FE0F.svg";
-import meyluJfLNR from "/public/openmoji/1F477-1F3FD-200D-2642-FE0F.svg";
-import UPWelpmFAK from "/public/openmoji/1F477-1F3FD.svg";
-import wtmcoWLELn from "/public/openmoji/1F477-1F3FE-200D-2640-FE0F.svg";
-import WLePKHLNJW from "/public/openmoji/1F477-1F3FE-200D-2642-FE0F.svg";
-import UhyRNzUnAM from "/public/openmoji/1F477-1F3FE.svg";
-import BKtyyaswZA from "/public/openmoji/1F477-1F3FF-200D-2640-FE0F.svg";
-import bWTDcjfEAM from "/public/openmoji/1F477-1F3FF-200D-2642-FE0F.svg";
-import TjyOzmqfZF from "/public/openmoji/1F477-1F3FF.svg";
-import kokaoDRJvo from "/public/openmoji/1F477-200D-2640-FE0F.svg";
-import jArkTCWYHS from "/public/openmoji/1F477-200D-2642-FE0F.svg";
-import ePNtpbzqis from "/public/openmoji/1F477.svg";
-import McMZEFBbwg from "/public/openmoji/1F478-1F3FB.svg";
-import tBfmbvnoPG from "/public/openmoji/1F478-1F3FC.svg";
-import lWKPckOPpY from "/public/openmoji/1F478-1F3FD.svg";
-import ocHvdZWoOD from "/public/openmoji/1F478-1F3FE.svg";
-import ZdutIiIypl from "/public/openmoji/1F478-1F3FF.svg";
-import ZhMkSbWlTK from "/public/openmoji/1F478.svg";
-import toUwfnBTyv from "/public/openmoji/1F479.svg";
-import WDqxVIfWHx from "/public/openmoji/1F47A.svg";
-import OzazZLfqJA from "/public/openmoji/1F47B.svg";
-import OHmZsHannP from "/public/openmoji/1F47C-1F3FB.svg";
-import jTDqBrShTE from "/public/openmoji/1F47C-1F3FC.svg";
-import GsvVswdzsl from "/public/openmoji/1F47C-1F3FD.svg";
-import yuoGiOHnvm from "/public/openmoji/1F47C-1F3FE.svg";
-import aeSdxLUSSE from "/public/openmoji/1F47C-1F3FF.svg";
-import FxZymBYHMK from "/public/openmoji/1F47C.svg";
-import nTzJsybvWc from "/public/openmoji/1F47D.svg";
-import XLqiunFEBd from "/public/openmoji/1F47E.svg";
-import dGueBnAkse from "/public/openmoji/1F47F.svg";
-import MisTXrQJvf from "/public/openmoji/1F480.svg";
-import GDDVvRmHzW from "/public/openmoji/1F481-1F3FB-200D-2640-FE0F.svg";
-import NOuBMCcDsq from "/public/openmoji/1F481-1F3FB-200D-2642-FE0F.svg";
-import IfqPrTzlVx from "/public/openmoji/1F481-1F3FB.svg";
-import DnXniBnLNA from "/public/openmoji/1F481-1F3FC-200D-2640-FE0F.svg";
-import OkewGEWBlU from "/public/openmoji/1F481-1F3FC-200D-2642-FE0F.svg";
-import dhnFBRkfgK from "/public/openmoji/1F481-1F3FC.svg";
-import uYdYksPGlT from "/public/openmoji/1F481-1F3FD-200D-2640-FE0F.svg";
-import oTajqfiMQd from "/public/openmoji/1F481-1F3FD-200D-2642-FE0F.svg";
-import yxKOGCwqJS from "/public/openmoji/1F481-1F3FD.svg";
-import ipDjAiAiSU from "/public/openmoji/1F481-1F3FE-200D-2640-FE0F.svg";
-import qtPoZfAeIU from "/public/openmoji/1F481-1F3FE-200D-2642-FE0F.svg";
-import aHrEExYDMR from "/public/openmoji/1F481-1F3FE.svg";
-import IVpxxpGSJE from "/public/openmoji/1F481-1F3FF-200D-2640-FE0F.svg";
-import VzgSBTQbeq from "/public/openmoji/1F481-1F3FF-200D-2642-FE0F.svg";
-import EloktcBsUL from "/public/openmoji/1F481-1F3FF.svg";
-import uoEsSMRVex from "/public/openmoji/1F481-200D-2640-FE0F.svg";
-import HVWXuYEMrC from "/public/openmoji/1F481-200D-2642-FE0F.svg";
-import LnCGWUcXoE from "/public/openmoji/1F481.svg";
-import FVjyugWqgR from "/public/openmoji/1F482-1F3FB-200D-2640-FE0F.svg";
-import oJRVcISRCz from "/public/openmoji/1F482-1F3FB-200D-2642-FE0F.svg";
-import gtkRJfsPJX from "/public/openmoji/1F482-1F3FB.svg";
-import bxziJcBtAl from "/public/openmoji/1F482-1F3FC-200D-2640-FE0F.svg";
-import wYBJWSbcOL from "/public/openmoji/1F482-1F3FC-200D-2642-FE0F.svg";
-import HweSqufOKa from "/public/openmoji/1F482-1F3FC.svg";
-import hyiWGfkojH from "/public/openmoji/1F482-1F3FD-200D-2640-FE0F.svg";
-import pnxwIXPVay from "/public/openmoji/1F482-1F3FD-200D-2642-FE0F.svg";
-import sgtzByFRnj from "/public/openmoji/1F482-1F3FD.svg";
-import KNNLCUcaYZ from "/public/openmoji/1F482-1F3FE-200D-2640-FE0F.svg";
-import qHqeVwVZkw from "/public/openmoji/1F482-1F3FE-200D-2642-FE0F.svg";
-import VhhhSZTBJS from "/public/openmoji/1F482-1F3FE.svg";
-import AMNqZhiaio from "/public/openmoji/1F482-1F3FF-200D-2640-FE0F.svg";
-import kNuMLEUbIq from "/public/openmoji/1F482-1F3FF-200D-2642-FE0F.svg";
-import JUWsmFPCBB from "/public/openmoji/1F482-1F3FF.svg";
-import vQHwDosFcw from "/public/openmoji/1F482-200D-2640-FE0F.svg";
-import HcFbNzwSUV from "/public/openmoji/1F482-200D-2642-FE0F.svg";
-import TKlEryJkKw from "/public/openmoji/1F482.svg";
-import IPLHvitGZd from "/public/openmoji/1F483-1F3FB.svg";
-import LdJFBQjZdg from "/public/openmoji/1F483-1F3FC.svg";
-import lXtqRxZdaZ from "/public/openmoji/1F483-1F3FD.svg";
-import RjvsFlauby from "/public/openmoji/1F483-1F3FE.svg";
-import vMUlObChvf from "/public/openmoji/1F483-1F3FF.svg";
-import AltmpKanYM from "/public/openmoji/1F483.svg";
-import EpFfTzmbRK from "/public/openmoji/1F484.svg";
-import KVZZMgKSfY from "/public/openmoji/1F485-1F3FB.svg";
-import IiIXdIqKBT from "/public/openmoji/1F485-1F3FC.svg";
-import iiVYeuwqrH from "/public/openmoji/1F485-1F3FD.svg";
-import DNiUujlGIv from "/public/openmoji/1F485-1F3FE.svg";
-import RqsZbOxNtS from "/public/openmoji/1F485-1F3FF.svg";
-import gbJCQOCIim from "/public/openmoji/1F485.svg";
-import rBPCmBgKGO from "/public/openmoji/1F486-1F3FB-200D-2640-FE0F.svg";
-import yyNkObIxvP from "/public/openmoji/1F486-1F3FB-200D-2642-FE0F.svg";
-import JqVCDnoagE from "/public/openmoji/1F486-1F3FB.svg";
-import ziImWdjraz from "/public/openmoji/1F486-1F3FC-200D-2640-FE0F.svg";
-import QDuqYeCzgy from "/public/openmoji/1F486-1F3FC-200D-2642-FE0F.svg";
-import hQbBNKLLBK from "/public/openmoji/1F486-1F3FC.svg";
-import QHEcCPrLnS from "/public/openmoji/1F486-1F3FD-200D-2640-FE0F.svg";
-import GCmJoRwtDY from "/public/openmoji/1F486-1F3FD-200D-2642-FE0F.svg";
-import UlhrlWcAmm from "/public/openmoji/1F486-1F3FD.svg";
-import calbnjbckF from "/public/openmoji/1F486-1F3FE-200D-2640-FE0F.svg";
-import YQjRddXfCN from "/public/openmoji/1F486-1F3FE-200D-2642-FE0F.svg";
-import vIRqeKCWil from "/public/openmoji/1F486-1F3FE.svg";
-import QzbohBmQwZ from "/public/openmoji/1F486-1F3FF-200D-2640-FE0F.svg";
-import pDApStFpIh from "/public/openmoji/1F486-1F3FF-200D-2642-FE0F.svg";
-import OPeWiEBUCO from "/public/openmoji/1F486-1F3FF.svg";
-import qyvUlYgDLk from "/public/openmoji/1F486-200D-2640-FE0F.svg";
-import vXtqJEMpNp from "/public/openmoji/1F486-200D-2642-FE0F.svg";
-import yrwBOpVnka from "/public/openmoji/1F486.svg";
-import HznkiMjqlU from "/public/openmoji/1F487-1F3FB-200D-2640-FE0F.svg";
-import ZSDUZDGfJg from "/public/openmoji/1F487-1F3FB-200D-2642-FE0F.svg";
-import gketzlpWOD from "/public/openmoji/1F487-1F3FB.svg";
-import rQTKYBFOlc from "/public/openmoji/1F487-1F3FC-200D-2640-FE0F.svg";
-import mhqtEqgwLh from "/public/openmoji/1F487-1F3FC-200D-2642-FE0F.svg";
-import pWAiPVIDLk from "/public/openmoji/1F487-1F3FC.svg";
-import yovcWtDdRb from "/public/openmoji/1F487-1F3FD-200D-2640-FE0F.svg";
-import cSANioGquD from "/public/openmoji/1F487-1F3FD-200D-2642-FE0F.svg";
-import vokqfVYPDT from "/public/openmoji/1F487-1F3FD.svg";
-import oNKdEDbnKq from "/public/openmoji/1F487-1F3FE-200D-2640-FE0F.svg";
-import LvlwviSfqA from "/public/openmoji/1F487-1F3FE-200D-2642-FE0F.svg";
-import NXpYaMcRgh from "/public/openmoji/1F487-1F3FE.svg";
-import EfecDhGdZL from "/public/openmoji/1F487-1F3FF-200D-2640-FE0F.svg";
-import UCJBdqzsOk from "/public/openmoji/1F487-1F3FF-200D-2642-FE0F.svg";
-import wUXEWFXhVt from "/public/openmoji/1F487-1F3FF.svg";
-import CIToHZmduv from "/public/openmoji/1F487-200D-2640-FE0F.svg";
-import xXuxNnVatK from "/public/openmoji/1F487-200D-2642-FE0F.svg";
-import qtcLSsngOv from "/public/openmoji/1F487.svg";
-import FaCKcNZICi from "/public/openmoji/1F488.svg";
-import mFdUpOOeRG from "/public/openmoji/1F489.svg";
-import pwzcxikfPv from "/public/openmoji/1F48A.svg";
-import cFXRitSVPy from "/public/openmoji/1F48B.svg";
-import EhcBBFPvmV from "/public/openmoji/1F48C.svg";
-import fAfmYmaPZJ from "/public/openmoji/1F48D.svg";
-import ISOgqgikBx from "/public/openmoji/1F48E.svg";
-import tIyyPMwTnT from "/public/openmoji/1F48F-1F3FB.svg";
-import kKFluAMrao from "/public/openmoji/1F48F-1F3FC.svg";
-import ahBOqMSEdF from "/public/openmoji/1F48F-1F3FD.svg";
-import CwtMPbwJdi from "/public/openmoji/1F48F-1F3FE.svg";
-import PZzVVGQtwV from "/public/openmoji/1F48F-1F3FF.svg";
-import EaMVwhxmzi from "/public/openmoji/1F48F.svg";
-import VpWIzxdJTw from "/public/openmoji/1F490.svg";
-import EYHUwkzdny from "/public/openmoji/1F491-1F3FB.svg";
-import YJlQddinCH from "/public/openmoji/1F491-1F3FC.svg";
-import ufvgPPDPbT from "/public/openmoji/1F491-1F3FD.svg";
-import lCqIZoEOJW from "/public/openmoji/1F491-1F3FE.svg";
-import pSRdnaTzbL from "/public/openmoji/1F491-1F3FF.svg";
-import ytRKxRggII from "/public/openmoji/1F491.svg";
-import WzUvrESYzA from "/public/openmoji/1F492.svg";
-import XHFlqHjZYC from "/public/openmoji/1F493.svg";
-import ZPAQuCJJfN from "/public/openmoji/1F494.svg";
-import vZYpDXmWKJ from "/public/openmoji/1F495.svg";
-import kfNYnlTvvP from "/public/openmoji/1F496.svg";
-import shepFxOWiM from "/public/openmoji/1F497.svg";
-import gMNfYBUJDH from "/public/openmoji/1F498.svg";
-import LzfCekvDTI from "/public/openmoji/1F499.svg";
-import sehXOXeiBT from "/public/openmoji/1F49A.svg";
-import kiOJdXbTdM from "/public/openmoji/1F49B.svg";
-import jUQPzZRNxo from "/public/openmoji/1F49C.svg";
-import QCiQSwFJjq from "/public/openmoji/1F49D.svg";
-import PSQFpkogWD from "/public/openmoji/1F49E.svg";
-import GdClFkLsRP from "/public/openmoji/1F49F.svg";
-import HYQRbctHWC from "/public/openmoji/1F4A0.svg";
-import XcigktrleJ from "/public/openmoji/1F4A1.svg";
-import HPPcwpyXXB from "/public/openmoji/1F4A2.svg";
-import sHdVCDtZVX from "/public/openmoji/1F4A3.svg";
-import qIuFuxtsRU from "/public/openmoji/1F4A4.svg";
-import nCfWZczYvH from "/public/openmoji/1F4A5.svg";
-import mtcWTleEAQ from "/public/openmoji/1F4A6.svg";
-import NyNaSzHAIs from "/public/openmoji/1F4A7.svg";
-import pjNkFaWNkG from "/public/openmoji/1F4A8.svg";
-import tDCHedBiHQ from "/public/openmoji/1F4A9.svg";
-import bRdjOqOxlC from "/public/openmoji/1F4AA-1F3FB.svg";
-import srbnSbPhYE from "/public/openmoji/1F4AA-1F3FC.svg";
-import zqOoaxBvTx from "/public/openmoji/1F4AA-1F3FD.svg";
-import CPitcvHuTc from "/public/openmoji/1F4AA-1F3FE.svg";
-import oiuvKkBkRr from "/public/openmoji/1F4AA-1F3FF.svg";
-import afuwKetjuU from "/public/openmoji/1F4AA.svg";
-import DudwRvRQCW from "/public/openmoji/1F4AB.svg";
-import AhbZruwrMr from "/public/openmoji/1F4AC.svg";
-import cjgBsUsqzr from "/public/openmoji/1F4AD.svg";
-import ShDXxBXvoT from "/public/openmoji/1F4AE.svg";
-import fsJPenyNUC from "/public/openmoji/1F4AF.svg";
-import FeHixeNcOy from "/public/openmoji/1F4B0.svg";
-import TBMPwqosPu from "/public/openmoji/1F4B1.svg";
-import ZvGeLSTUMJ from "/public/openmoji/1F4B2.svg";
-import tKrNOBNgTH from "/public/openmoji/1F4B3.svg";
-import KTnoFZvDDE from "/public/openmoji/1F4B4.svg";
-import ncbdLeqPoL from "/public/openmoji/1F4B5.svg";
-import dGHDUpFQTM from "/public/openmoji/1F4B6.svg";
-import owCYHqNzvY from "/public/openmoji/1F4B7.svg";
-import vcqNHAxsFH from "/public/openmoji/1F4B8.svg";
-import sSsuESSFfG from "/public/openmoji/1F4B9.svg";
-import mhsMwyTAkT from "/public/openmoji/1F4BA.svg";
-import QeFUWbiPcZ from "/public/openmoji/1F4BB.svg";
-import CLwgeMWOqh from "/public/openmoji/1F4BC.svg";
-import FfCdNRVLxT from "/public/openmoji/1F4BD.svg";
-import EZbiRkbKiD from "/public/openmoji/1F4BE.svg";
-import cwJMNbixUN from "/public/openmoji/1F4BF.svg";
-import KCQdRYrBji from "/public/openmoji/1F4C0.svg";
-import LaBQadjwKk from "/public/openmoji/1F4C1.svg";
-import gvoAHvOLKX from "/public/openmoji/1F4C2.svg";
-import GuFSrjWuMD from "/public/openmoji/1F4C3.svg";
-import wUjBvUTnfs from "/public/openmoji/1F4C4.svg";
-import MaLlzMksdk from "/public/openmoji/1F4C5.svg";
-import dFYJUpTnRv from "/public/openmoji/1F4C6.svg";
-import tumloKBpLm from "/public/openmoji/1F4C7.svg";
-import XGwtgkoiiZ from "/public/openmoji/1F4C8.svg";
-import kkeqwXIHcb from "/public/openmoji/1F4C9.svg";
-import yYSuMnMDDL from "/public/openmoji/1F4CA.svg";
-import jefAdugGTQ from "/public/openmoji/1F4CB.svg";
-import CjhFWpUuNF from "/public/openmoji/1F4CC.svg";
-import aRCsgwCHyK from "/public/openmoji/1F4CD.svg";
-import PecEbfbTGc from "/public/openmoji/1F4CE.svg";
-import ltwHlsWEMQ from "/public/openmoji/1F4CF.svg";
-import TlezyTElmn from "/public/openmoji/1F4D0.svg";
-import hphEyxUqlM from "/public/openmoji/1F4D1.svg";
-import oeNoGKMGIb from "/public/openmoji/1F4D2.svg";
-import YFMHXqYVzj from "/public/openmoji/1F4D3.svg";
-import TPRhRkmIjL from "/public/openmoji/1F4D4.svg";
-import xKqGigbtrq from "/public/openmoji/1F4D5.svg";
-import vJScIuFTGi from "/public/openmoji/1F4D6.svg";
-import aZWVveSQhI from "/public/openmoji/1F4D7.svg";
-import oKgPymwRpX from "/public/openmoji/1F4D8.svg";
-import EbFtCDXeVD from "/public/openmoji/1F4D9.svg";
-import GrXxWOTaaV from "/public/openmoji/1F4DA.svg";
-import HTuLmzHjJe from "/public/openmoji/1F4DB.svg";
-import eQuhFuAazz from "/public/openmoji/1F4DC.svg";
-import ncCmmEuEVC from "/public/openmoji/1F4DD.svg";
-import pNaZVePhpn from "/public/openmoji/1F4DE.svg";
-import xXLlIgMIyx from "/public/openmoji/1F4DF.svg";
-import TCzrIRSenn from "/public/openmoji/1F4E0.svg";
-import mZbvKSmEkR from "/public/openmoji/1F4E1.svg";
-import czhpAPAXnL from "/public/openmoji/1F4E2.svg";
-import LeudKnHPus from "/public/openmoji/1F4E3.svg";
-import jKniCUYfla from "/public/openmoji/1F4E4.svg";
-import dWAsEdAAHp from "/public/openmoji/1F4E5.svg";
-import zGHRnzPRKt from "/public/openmoji/1F4E6.svg";
-import XKbJKUiLNH from "/public/openmoji/1F4E7.svg";
-import ePgBEiDVYJ from "/public/openmoji/1F4E8.svg";
-import dDtNyBoCii from "/public/openmoji/1F4E9.svg";
-import eWijtzkYmk from "/public/openmoji/1F4EA.svg";
-import HuuFvWbSXM from "/public/openmoji/1F4EB.svg";
-import RBaMIyiEGb from "/public/openmoji/1F4EC.svg";
-import CGBHWUitdo from "/public/openmoji/1F4ED.svg";
-import KUSjVIYjoe from "/public/openmoji/1F4EE.svg";
-import eLJOCzhmeo from "/public/openmoji/1F4EF.svg";
-import PEttwMizdD from "/public/openmoji/1F4F0.svg";
-import iDarSbFTgz from "/public/openmoji/1F4F1.svg";
-import VwnqVkCXZw from "/public/openmoji/1F4F2.svg";
-import TEfOpjRiCX from "/public/openmoji/1F4F3.svg";
-import JsaietyIVO from "/public/openmoji/1F4F4.svg";
-import PZXCUzQjCv from "/public/openmoji/1F4F5.svg";
-import SeCPbqEQWM from "/public/openmoji/1F4F6.svg";
-import kFWJqgifyr from "/public/openmoji/1F4F7.svg";
-import xgCxHSpifi from "/public/openmoji/1F4F8.svg";
-import fUjIGZUGGs from "/public/openmoji/1F4F9.svg";
-import jDUGbPfEJe from "/public/openmoji/1F4FA.svg";
-import UXFcmFqYxi from "/public/openmoji/1F4FB.svg";
-import KrUUTQsScv from "/public/openmoji/1F4FC.svg";
-import DjIHOVsunw from "/public/openmoji/1F4FD.svg";
-import qhpNxdKniN from "/public/openmoji/1F4FF.svg";
-import GOUiXQHzRp from "/public/openmoji/1F500.svg";
-import QIiTYfGqNX from "/public/openmoji/1F501.svg";
-import RndTNfRVJc from "/public/openmoji/1F502.svg";
-import OlEmyjoCvR from "/public/openmoji/1F503.svg";
-import LEawXdqUhJ from "/public/openmoji/1F504.svg";
-import hQewAeGnfU from "/public/openmoji/1F505.svg";
-import HnztEvcVvN from "/public/openmoji/1F506.svg";
-import LuWmmEqrDZ from "/public/openmoji/1F507.svg";
-import IJTufzhzKd from "/public/openmoji/1F508.svg";
-import iFLJHQfmBQ from "/public/openmoji/1F509.svg";
-import EoZgDKBIZM from "/public/openmoji/1F50A.svg";
-import bkkUUVlKRi from "/public/openmoji/1F50B.svg";
-import jnFxIpdIZU from "/public/openmoji/1F50C.svg";
-import aYYmMDpAsa from "/public/openmoji/1F50D.svg";
-import aOATsIZhbZ from "/public/openmoji/1F50E.svg";
-import nmipGnOibd from "/public/openmoji/1F50F.svg";
-import WvPEPodcdv from "/public/openmoji/1F510.svg";
-import OhVXHWJvBG from "/public/openmoji/1F511.svg";
-import GPjmsiLbgY from "/public/openmoji/1F512.svg";
-import JtORlAHAJm from "/public/openmoji/1F513.svg";
-import VPPxokkkZp from "/public/openmoji/1F514.svg";
-import NfOBaFcCIU from "/public/openmoji/1F515.svg";
-import yOePBljgGD from "/public/openmoji/1F516.svg";
-import XgFLUdisbc from "/public/openmoji/1F517.svg";
-import ahblXNzqRr from "/public/openmoji/1F518.svg";
-import uSiUuBvblD from "/public/openmoji/1F519.svg";
-import cxxTGfrZdv from "/public/openmoji/1F51A.svg";
-import kunvABXXeR from "/public/openmoji/1F51B.svg";
-import VsVjOpCuyB from "/public/openmoji/1F51C.svg";
-import yasVoPztWP from "/public/openmoji/1F51D.svg";
-import wilSHExUjN from "/public/openmoji/1F51E.svg";
-import hdXFRnaRNP from "/public/openmoji/1F51F.svg";
-import zhjLMwAYhj from "/public/openmoji/1F520.svg";
-import wwiyhDXdNu from "/public/openmoji/1F521.svg";
-import PeUzTuZpDE from "/public/openmoji/1F522.svg";
-import PiobMYWMHU from "/public/openmoji/1F523.svg";
-import yCuVKawltk from "/public/openmoji/1F524.svg";
-import dUMLClrvpL from "/public/openmoji/1F525.svg";
-import yyVuQWmDVo from "/public/openmoji/1F526.svg";
-import umMXzlXcDp from "/public/openmoji/1F527.svg";
-import IsVrHohMlk from "/public/openmoji/1F528.svg";
-import UmYqlLfpMH from "/public/openmoji/1F529.svg";
-import VEMDjQbXDt from "/public/openmoji/1F52A.svg";
-import JwNQCTGEZX from "/public/openmoji/1F52B.svg";
-import BsVYjgrrDh from "/public/openmoji/1F52C.svg";
-import FmLebFeIDb from "/public/openmoji/1F52D.svg";
-import GuhMitnrXg from "/public/openmoji/1F52E.svg";
-import PoiQAMBGdq from "/public/openmoji/1F52F.svg";
-import NOtQUkifwk from "/public/openmoji/1F530.svg";
-import LqwFXOEZpc from "/public/openmoji/1F531.svg";
-import ZMiNMgxApw from "/public/openmoji/1F532.svg";
-import NCbDZHOHFU from "/public/openmoji/1F533.svg";
-import bgSZWDMnvD from "/public/openmoji/1F534.svg";
-import aleBNBsxxN from "/public/openmoji/1F535.svg";
-import VCYKAjzEXv from "/public/openmoji/1F536.svg";
-import ngEBOcUDor from "/public/openmoji/1F537.svg";
-import TZAbOFKuxi from "/public/openmoji/1F538.svg";
-import QSNsXpeRFe from "/public/openmoji/1F539.svg";
-import RuCWWLJZQK from "/public/openmoji/1F53A.svg";
-import gKqSLcdyjw from "/public/openmoji/1F53B.svg";
-import GenXWbcHPk from "/public/openmoji/1F53C.svg";
-import wdDsXgCJDx from "/public/openmoji/1F53D.svg";
-import UnksbpQbwP from "/public/openmoji/1F549.svg";
-import OaAsxzVjDF from "/public/openmoji/1F54A.svg";
-import eTikHrhiyK from "/public/openmoji/1F54B.svg";
-import rCxDItMpqg from "/public/openmoji/1F54C.svg";
-import fVuzQlerGT from "/public/openmoji/1F54D.svg";
-import tjQEqQzhkr from "/public/openmoji/1F54E.svg";
-import mqrBuaKiMh from "/public/openmoji/1F550.svg";
-import uLczsKzdbT from "/public/openmoji/1F551.svg";
-import rhpIXEHKBW from "/public/openmoji/1F552.svg";
-import BmwkTqHOpV from "/public/openmoji/1F553.svg";
-import DVneMjTuxx from "/public/openmoji/1F554.svg";
-import fSBAfyLkXW from "/public/openmoji/1F555.svg";
-import VeyMwrjVJA from "/public/openmoji/1F556.svg";
-import YuicGWpiPo from "/public/openmoji/1F557.svg";
-import WvcbAEAwhA from "/public/openmoji/1F558.svg";
-import QHaMPGXCMA from "/public/openmoji/1F559.svg";
-import MIDKasMxUw from "/public/openmoji/1F55A.svg";
-import DgyBASvUCr from "/public/openmoji/1F55B.svg";
-import kjHJsSGtwh from "/public/openmoji/1F55C.svg";
-import VKuGYhHazj from "/public/openmoji/1F55D.svg";
-import ENOqEnWQeL from "/public/openmoji/1F55E.svg";
-import XFPNjzRPcf from "/public/openmoji/1F55F.svg";
-import hObolyGIvk from "/public/openmoji/1F560.svg";
-import xLpjXaoHUF from "/public/openmoji/1F561.svg";
-import NVFcqBlqsy from "/public/openmoji/1F562.svg";
-import rFvNaIhPRo from "/public/openmoji/1F563.svg";
-import fpGzMhsOYr from "/public/openmoji/1F564.svg";
-import AlBJMSJbCr from "/public/openmoji/1F565.svg";
-import jeKPqhTJEQ from "/public/openmoji/1F566.svg";
-import CvDAhXjbjs from "/public/openmoji/1F567.svg";
-import aCJkfAXYPL from "/public/openmoji/1F56F.svg";
-import gifvmRqnel from "/public/openmoji/1F570.svg";
-import eOIopzoIVT from "/public/openmoji/1F573.svg";
-import qXNtMPCdKj from "/public/openmoji/1F574-1F3FB.svg";
-import sonbkJDZkP from "/public/openmoji/1F574-1F3FC.svg";
-import NKVagnfcKJ from "/public/openmoji/1F574-1F3FD.svg";
-import SGPeOyPNVc from "/public/openmoji/1F574-1F3FE.svg";
-import MLyEXOHysP from "/public/openmoji/1F574-1F3FF.svg";
-import WOAbHRhjSD from "/public/openmoji/1F574.svg";
-import fGaKLiUNEc from "/public/openmoji/1F575-1F3FB-200D-2640-FE0F.svg";
-import IaQgbcuEgs from "/public/openmoji/1F575-1F3FB-200D-2642-FE0F.svg";
-import ieDJMlWBdr from "/public/openmoji/1F575-1F3FB.svg";
-import vCNHMOObbK from "/public/openmoji/1F575-1F3FC-200D-2640-FE0F.svg";
-import YOjnGWduqK from "/public/openmoji/1F575-1F3FC-200D-2642-FE0F.svg";
-import zfKIoGPVMU from "/public/openmoji/1F575-1F3FC.svg";
-import EKyoLXguMu from "/public/openmoji/1F575-1F3FD-200D-2640-FE0F.svg";
-import zqyWOhJgYn from "/public/openmoji/1F575-1F3FD-200D-2642-FE0F.svg";
-import OBLZpxBVJZ from "/public/openmoji/1F575-1F3FD.svg";
-import evTkDgDREe from "/public/openmoji/1F575-1F3FE-200D-2640-FE0F.svg";
-import rnqZROMBzD from "/public/openmoji/1F575-1F3FE-200D-2642-FE0F.svg";
-import HwNnpVGwIc from "/public/openmoji/1F575-1F3FE.svg";
-import IaktFHsiZk from "/public/openmoji/1F575-1F3FF-200D-2640-FE0F.svg";
-import nukFsIpVZI from "/public/openmoji/1F575-1F3FF-200D-2642-FE0F.svg";
-import NpbtwtXcDx from "/public/openmoji/1F575-1F3FF.svg";
-import vLRwmjANdQ from "/public/openmoji/1F575-FE0F-200D-2640-FE0F.svg";
-import aKItoaOlWn from "/public/openmoji/1F575-FE0F-200D-2642-FE0F.svg";
-import EaQkDiqdnv from "/public/openmoji/1F575.svg";
-import QdeVqiZbPR from "/public/openmoji/1F576.svg";
-import CadRhpVgOD from "/public/openmoji/1F577.svg";
-import dLKvHItwZe from "/public/openmoji/1F578.svg";
-import wpQlZnEjJS from "/public/openmoji/1F579.svg";
-import zHzNiIMnwa from "/public/openmoji/1F57A-1F3FB.svg";
-import VFtFOegTMA from "/public/openmoji/1F57A-1F3FC.svg";
-import paCjDlAQcl from "/public/openmoji/1F57A-1F3FD.svg";
-import cJbIzQvqPT from "/public/openmoji/1F57A-1F3FE.svg";
-import KcnplzGaoo from "/public/openmoji/1F57A-1F3FF.svg";
-import EttpiurMWS from "/public/openmoji/1F57A.svg";
-import xzJzdXxbGm from "/public/openmoji/1F587.svg";
-import gnLWOdtvnd from "/public/openmoji/1F58A.svg";
-import GhnXRvglen from "/public/openmoji/1F58B.svg";
-import dAtFqwylAA from "/public/openmoji/1F58C.svg";
-import KayOOqpmDH from "/public/openmoji/1F58D.svg";
-import lgSovKevMH from "/public/openmoji/1F590-1F3FB.svg";
-import bEgWrcyHaK from "/public/openmoji/1F590-1F3FC.svg";
-import ZEiKDymcrA from "/public/openmoji/1F590-1F3FD.svg";
-import rhwargxfsK from "/public/openmoji/1F590-1F3FE.svg";
-import FJCwOamgbr from "/public/openmoji/1F590-1F3FF.svg";
-import AfNcAHAfHx from "/public/openmoji/1F590.svg";
-import JsEjHnYcOK from "/public/openmoji/1F595-1F3FB.svg";
-import RcaqiMzqkg from "/public/openmoji/1F595-1F3FC.svg";
-import dAPZWiBqLx from "/public/openmoji/1F595-1F3FD.svg";
-import ghcQeUSPTS from "/public/openmoji/1F595-1F3FE.svg";
-import tYmcfQBTiT from "/public/openmoji/1F595-1F3FF.svg";
-import pOBREjNqse from "/public/openmoji/1F595.svg";
-import xdJYrRWnrK from "/public/openmoji/1F596-1F3FB.svg";
-import TnCSNqkXDp from "/public/openmoji/1F596-1F3FC.svg";
-import VSnDcGGmWh from "/public/openmoji/1F596-1F3FD.svg";
-import FanAugURCw from "/public/openmoji/1F596-1F3FE.svg";
-import MqBoTmYvck from "/public/openmoji/1F596-1F3FF.svg";
-import QoZuyxUUdc from "/public/openmoji/1F596.svg";
-import DTZDsRhDzj from "/public/openmoji/1F5A4.svg";
-import vdNlHWntgA from "/public/openmoji/1F5A5.svg";
-import uzBezxHYpd from "/public/openmoji/1F5A8.svg";
-import onsDfUztNc from "/public/openmoji/1F5B1.svg";
-import GmhFddggyx from "/public/openmoji/1F5B2.svg";
-import SeuXKXCzmG from "/public/openmoji/1F5BC.svg";
-import MbjGWvcvaF from "/public/openmoji/1F5C2.svg";
-import DuksoWNMkE from "/public/openmoji/1F5C3.svg";
-import YDeebPCicZ from "/public/openmoji/1F5C4.svg";
-import gghsneEgXZ from "/public/openmoji/1F5D1.svg";
-import fiYPvzHqxF from "/public/openmoji/1F5D2.svg";
-import GgkNzOLRCX from "/public/openmoji/1F5D3.svg";
-import TBgiqhrDRF from "/public/openmoji/1F5DC.svg";
-import yjbAlczaEh from "/public/openmoji/1F5DD.svg";
-import UztlQJUfzh from "/public/openmoji/1F5DE.svg";
-import nJiDUXiNWP from "/public/openmoji/1F5E1.svg";
-import IMQiyJaLKp from "/public/openmoji/1F5E3.svg";
-import KrcIxYhrXi from "/public/openmoji/1F5E8.svg";
-import TRQMsMLztp from "/public/openmoji/1F5EF.svg";
-import BVaXNVGcgY from "/public/openmoji/1F5F3.svg";
-import wnwgcJPYJN from "/public/openmoji/1F5FA.svg";
-import MefyGaLaGT from "/public/openmoji/1F5FB.svg";
-import pcJLYcNtEl from "/public/openmoji/1F5FC.svg";
-import fallXZUzIC from "/public/openmoji/1F5FD.svg";
-import tiOeLpKOri from "/public/openmoji/1F5FE.svg";
-import CArAPaTPuo from "/public/openmoji/1F5FF.svg";
-import CxAwWPVBhD from "/public/openmoji/1F600.svg";
-import qrXcSDFJMG from "/public/openmoji/1F601.svg";
-import pVEeUoCAMG from "/public/openmoji/1F602.svg";
-import TjwzyZLdJa from "/public/openmoji/1F603.svg";
-import DSsHRmDvxD from "/public/openmoji/1F604.svg";
-import ZYUdLDsLej from "/public/openmoji/1F605.svg";
-import JWDkFKxMLA from "/public/openmoji/1F606.svg";
-import LGZNYbpuLb from "/public/openmoji/1F607.svg";
-import qRdKrYbNNT from "/public/openmoji/1F608.svg";
-import wslIydaQOu from "/public/openmoji/1F609.svg";
-import BdBhblGsPP from "/public/openmoji/1F60A.svg";
-import hQJxNAJHfs from "/public/openmoji/1F60B.svg";
-import saoMCVbFkG from "/public/openmoji/1F60C.svg";
-import sZTDDVWmGB from "/public/openmoji/1F60D.svg";
-import WfwpKvHVOp from "/public/openmoji/1F60E.svg";
-import fCHTLhDiuR from "/public/openmoji/1F60F.svg";
-import HVlRDUIRGo from "/public/openmoji/1F610.svg";
-import zUpyNqYWyQ from "/public/openmoji/1F611.svg";
-import IZiPvMEDHR from "/public/openmoji/1F612.svg";
-import rOyFLdxJkf from "/public/openmoji/1F613.svg";
-import edhAGkShwn from "/public/openmoji/1F614.svg";
-import bOywVKocWD from "/public/openmoji/1F615.svg";
-import ZkKIuvjFBB from "/public/openmoji/1F616.svg";
-import RCFhfzVjRB from "/public/openmoji/1F617.svg";
-import JkHgEkkTQV from "/public/openmoji/1F618.svg";
-import KKEGQdGMmX from "/public/openmoji/1F619.svg";
-import EmxUgMvkVq from "/public/openmoji/1F61A.svg";
-import vfHhojzewV from "/public/openmoji/1F61B.svg";
-import HWdgTqEHhD from "/public/openmoji/1F61C.svg";
-import cLIoBWbwEJ from "/public/openmoji/1F61D.svg";
-import AcGPnwBgoT from "/public/openmoji/1F61E.svg";
-import nNdemHUbTi from "/public/openmoji/1F61F.svg";
-import PmlEcfeZpv from "/public/openmoji/1F620.svg";
-import uORfqHETko from "/public/openmoji/1F621.svg";
-import dLfWjbmTid from "/public/openmoji/1F622.svg";
-import CwqGpniICw from "/public/openmoji/1F623.svg";
-import gEAwiPlqEu from "/public/openmoji/1F624.svg";
-import ZgTkWLIUGv from "/public/openmoji/1F625.svg";
-import KVaOzJtfbY from "/public/openmoji/1F626.svg";
-import QdfEVubrub from "/public/openmoji/1F627.svg";
-import cwZcQTAxJg from "/public/openmoji/1F628.svg";
-import PYVBWMMrWh from "/public/openmoji/1F629.svg";
-import BBVcNHdick from "/public/openmoji/1F62A.svg";
-import LWVlDLLSUV from "/public/openmoji/1F62B.svg";
-import uhhJRfIBIO from "/public/openmoji/1F62C.svg";
-import gtyCtTZTGm from "/public/openmoji/1F62D.svg";
-import oudmNmkBph from "/public/openmoji/1F62E-200D-1F4A8.svg";
-import jfqrZVRiWS from "/public/openmoji/1F62E.svg";
-import wSFXsEWCoD from "/public/openmoji/1F62F.svg";
-import lacdjgnCvu from "/public/openmoji/1F630.svg";
-import JtPsKBreYQ from "/public/openmoji/1F631.svg";
-import dbyOnZbAKK from "/public/openmoji/1F632.svg";
-import icWuIDAtOX from "/public/openmoji/1F633.svg";
-import vRocIEDTtz from "/public/openmoji/1F634.svg";
-import KWGqNbwcyK from "/public/openmoji/1F635-200D-1F4AB.svg";
-import HWWDZpZRaB from "/public/openmoji/1F635.svg";
-import HwzNCJRclV from "/public/openmoji/1F636-200D-1F32B-FE0F.svg";
-import GJKyHpxWjE from "/public/openmoji/1F636.svg";
-import aQafctAinE from "/public/openmoji/1F637.svg";
-import bpAIdkFvBG from "/public/openmoji/1F638.svg";
-import WKvvhadVAy from "/public/openmoji/1F639.svg";
-import nyMHmIXlDG from "/public/openmoji/1F63A.svg";
-import yAEQHbBYNi from "/public/openmoji/1F63B.svg";
-import pxkUJxQyUQ from "/public/openmoji/1F63C.svg";
-import hOIsndZrTp from "/public/openmoji/1F63D.svg";
-import JtrpwJRvjv from "/public/openmoji/1F63E.svg";
-import uBjZiImejH from "/public/openmoji/1F63F.svg";
-import kEMNfKPWqD from "/public/openmoji/1F640.svg";
-import iJPXgISZCS from "/public/openmoji/1F641.svg";
-import fttAQsbDyK from "/public/openmoji/1F642.svg";
-import ohXkpobDFt from "/public/openmoji/1F643.svg";
-import MbUjFPSIyG from "/public/openmoji/1F644.svg";
-import zHILExdTfJ from "/public/openmoji/1F645-1F3FB-200D-2640-FE0F.svg";
-import QFsZCQukKI from "/public/openmoji/1F645-1F3FB-200D-2642-FE0F.svg";
-import zTCiZVpsur from "/public/openmoji/1F645-1F3FB.svg";
-import ZFtzGxiohd from "/public/openmoji/1F645-1F3FC-200D-2640-FE0F.svg";
-import ZFKRTsPTmH from "/public/openmoji/1F645-1F3FC-200D-2642-FE0F.svg";
-import WPutDdEhVj from "/public/openmoji/1F645-1F3FC.svg";
-import dGaoIMSxPf from "/public/openmoji/1F645-1F3FD-200D-2640-FE0F.svg";
-import FMiXrTVjaC from "/public/openmoji/1F645-1F3FD-200D-2642-FE0F.svg";
-import lPPMqdSdrr from "/public/openmoji/1F645-1F3FD.svg";
-import EnUeeodojZ from "/public/openmoji/1F645-1F3FE-200D-2640-FE0F.svg";
-import ieYTyUcMsd from "/public/openmoji/1F645-1F3FE-200D-2642-FE0F.svg";
-import gccJfWUdFl from "/public/openmoji/1F645-1F3FE.svg";
-import swEmVXRRXR from "/public/openmoji/1F645-1F3FF-200D-2640-FE0F.svg";
-import NFtdHvLfmO from "/public/openmoji/1F645-1F3FF-200D-2642-FE0F.svg";
-import ffOyzDtgHD from "/public/openmoji/1F645-1F3FF.svg";
-import FCawFYBxkn from "/public/openmoji/1F645-200D-2640-FE0F.svg";
-import hCzwsKrOOb from "/public/openmoji/1F645-200D-2642-FE0F.svg";
-import eoOWGWGKgZ from "/public/openmoji/1F645.svg";
-import evWseuRnFZ from "/public/openmoji/1F646-1F3FB-200D-2640-FE0F.svg";
-import GJFskkCiOp from "/public/openmoji/1F646-1F3FB-200D-2642-FE0F.svg";
-import bJYVnJSwcp from "/public/openmoji/1F646-1F3FB.svg";
-import aGPhDjoKqD from "/public/openmoji/1F646-1F3FC-200D-2640-FE0F.svg";
-import NguIzTTvRk from "/public/openmoji/1F646-1F3FC-200D-2642-FE0F.svg";
-import DNYiIMmEEK from "/public/openmoji/1F646-1F3FC.svg";
-import AiSxaRXWlk from "/public/openmoji/1F646-1F3FD-200D-2640-FE0F.svg";
-import gxRrvkiBOO from "/public/openmoji/1F646-1F3FD-200D-2642-FE0F.svg";
-import FEEtFjBNzp from "/public/openmoji/1F646-1F3FD.svg";
-import mJXclGyDWG from "/public/openmoji/1F646-1F3FE-200D-2640-FE0F.svg";
-import RUWNHcbbkC from "/public/openmoji/1F646-1F3FE-200D-2642-FE0F.svg";
-import wjhnHMvwJt from "/public/openmoji/1F646-1F3FE.svg";
-import NWkorZPGFc from "/public/openmoji/1F646-1F3FF-200D-2640-FE0F.svg";
-import PYTrxynoep from "/public/openmoji/1F646-1F3FF-200D-2642-FE0F.svg";
-import TncnBGPNOD from "/public/openmoji/1F646-1F3FF.svg";
-import RCcRkuhKLX from "/public/openmoji/1F646-200D-2640-FE0F.svg";
-import mJYcHBdxUG from "/public/openmoji/1F646-200D-2642-FE0F.svg";
-import VYitTQgMgu from "/public/openmoji/1F646.svg";
-import bMrqagJobC from "/public/openmoji/1F647-1F3FB-200D-2640-FE0F.svg";
-import irBEymGBGb from "/public/openmoji/1F647-1F3FB-200D-2642-FE0F.svg";
-import HEDOopfZwc from "/public/openmoji/1F647-1F3FB.svg";
-import XSthYxrJhq from "/public/openmoji/1F647-1F3FC-200D-2640-FE0F.svg";
-import UWFmuEDgSQ from "/public/openmoji/1F647-1F3FC-200D-2642-FE0F.svg";
-import zZAtmUZfSg from "/public/openmoji/1F647-1F3FC.svg";
-import wuGyqmLMzR from "/public/openmoji/1F647-1F3FD-200D-2640-FE0F.svg";
-import MMspHTLGDn from "/public/openmoji/1F647-1F3FD-200D-2642-FE0F.svg";
-import pYnjqDdPoi from "/public/openmoji/1F647-1F3FD.svg";
-import MIRcAVotan from "/public/openmoji/1F647-1F3FE-200D-2640-FE0F.svg";
-import KYpzpQeQHW from "/public/openmoji/1F647-1F3FE-200D-2642-FE0F.svg";
-import IrCRxCuHhb from "/public/openmoji/1F647-1F3FE.svg";
-import sTWVoxzHDN from "/public/openmoji/1F647-1F3FF-200D-2640-FE0F.svg";
-import voEKZTmlfa from "/public/openmoji/1F647-1F3FF-200D-2642-FE0F.svg";
-import XghCtGTJhO from "/public/openmoji/1F647-1F3FF.svg";
-import pOOXbawfLT from "/public/openmoji/1F647-200D-2640-FE0F.svg";
-import mHNwZVNDrH from "/public/openmoji/1F647-200D-2642-FE0F.svg";
-import JnDHuCRmDi from "/public/openmoji/1F647.svg";
-import ptVQlYtyfh from "/public/openmoji/1F648.svg";
-import kHugPCbMIC from "/public/openmoji/1F649.svg";
-import ZEICPJLVQA from "/public/openmoji/1F64A.svg";
-import UlyPHrrWCY from "/public/openmoji/1F64B-1F3FB-200D-2640-FE0F.svg";
-import WjaoQtOOHK from "/public/openmoji/1F64B-1F3FB-200D-2642-FE0F.svg";
-import mCLPjOXoJg from "/public/openmoji/1F64B-1F3FB.svg";
-import CgKuJbhjwX from "/public/openmoji/1F64B-1F3FC-200D-2640-FE0F.svg";
-import VxYXAwXigu from "/public/openmoji/1F64B-1F3FC-200D-2642-FE0F.svg";
-import PpbXHJnHhe from "/public/openmoji/1F64B-1F3FC.svg";
-import cPsueekOBq from "/public/openmoji/1F64B-1F3FD-200D-2640-FE0F.svg";
-import VidhDumGrE from "/public/openmoji/1F64B-1F3FD-200D-2642-FE0F.svg";
-import pJaZiQQhcO from "/public/openmoji/1F64B-1F3FD.svg";
-import TipoZdBsVu from "/public/openmoji/1F64B-1F3FE-200D-2640-FE0F.svg";
-import EIzulNuzZp from "/public/openmoji/1F64B-1F3FE-200D-2642-FE0F.svg";
-import xnRonnfrga from "/public/openmoji/1F64B-1F3FE.svg";
-import dnqloNaRFe from "/public/openmoji/1F64B-1F3FF-200D-2640-FE0F.svg";
-import zcwfKqzVGS from "/public/openmoji/1F64B-1F3FF-200D-2642-FE0F.svg";
-import GhATCYwRzO from "/public/openmoji/1F64B-1F3FF.svg";
-import dXWYxxEKgb from "/public/openmoji/1F64B-200D-2640-FE0F.svg";
-import BiUkLyXzUm from "/public/openmoji/1F64B-200D-2642-FE0F.svg";
-import sMCRULVKrw from "/public/openmoji/1F64B.svg";
-import FDQTchBoYB from "/public/openmoji/1F64C-1F3FB.svg";
-import HfOMwqGcOF from "/public/openmoji/1F64C-1F3FC.svg";
-import JVKlXHIQBP from "/public/openmoji/1F64C-1F3FD.svg";
-import ePvTMcnBKO from "/public/openmoji/1F64C-1F3FE.svg";
-import AvtlfLDlJv from "/public/openmoji/1F64C-1F3FF.svg";
-import VPNtbkHojk from "/public/openmoji/1F64C.svg";
-import xsHKNcPNXP from "/public/openmoji/1F64D-1F3FB-200D-2640-FE0F.svg";
-import EyaUTbszCc from "/public/openmoji/1F64D-1F3FB-200D-2642-FE0F.svg";
-import AbteGXoIgu from "/public/openmoji/1F64D-1F3FB.svg";
-import bNqePbBKTR from "/public/openmoji/1F64D-1F3FC-200D-2640-FE0F.svg";
-import SQtxLWKoRz from "/public/openmoji/1F64D-1F3FC-200D-2642-FE0F.svg";
-import rXGfqlvaMN from "/public/openmoji/1F64D-1F3FC.svg";
-import tdoZNPgUpZ from "/public/openmoji/1F64D-1F3FD-200D-2640-FE0F.svg";
-import ivfrHKpqhN from "/public/openmoji/1F64D-1F3FD-200D-2642-FE0F.svg";
-import MDuqikKfYp from "/public/openmoji/1F64D-1F3FD.svg";
-import wSGbElraMY from "/public/openmoji/1F64D-1F3FE-200D-2640-FE0F.svg";
-import jfKWLeOHOX from "/public/openmoji/1F64D-1F3FE-200D-2642-FE0F.svg";
-import BzaZBmpRMN from "/public/openmoji/1F64D-1F3FE.svg";
-import CoNIsBZdkm from "/public/openmoji/1F64D-1F3FF-200D-2640-FE0F.svg";
-import jPQFsumrWR from "/public/openmoji/1F64D-1F3FF-200D-2642-FE0F.svg";
-import wvzVlZXxAp from "/public/openmoji/1F64D-1F3FF.svg";
-import YxdZmAdIbZ from "/public/openmoji/1F64D-200D-2640-FE0F.svg";
-import dTrpZXRWmq from "/public/openmoji/1F64D-200D-2642-FE0F.svg";
-import jZiVotKlGT from "/public/openmoji/1F64D.svg";
-import oTPAoHKZEH from "/public/openmoji/1F64E-1F3FB-200D-2640-FE0F.svg";
-import AycUzFkXLY from "/public/openmoji/1F64E-1F3FB-200D-2642-FE0F.svg";
-import XNsQarZfqE from "/public/openmoji/1F64E-1F3FB.svg";
-import AKVGuyeZZh from "/public/openmoji/1F64E-1F3FC-200D-2640-FE0F.svg";
-import enzfEwnfvd from "/public/openmoji/1F64E-1F3FC-200D-2642-FE0F.svg";
-import SaoluHENvU from "/public/openmoji/1F64E-1F3FC.svg";
-import ZwzEiBLSfN from "/public/openmoji/1F64E-1F3FD-200D-2640-FE0F.svg";
-import kFmiabsGib from "/public/openmoji/1F64E-1F3FD-200D-2642-FE0F.svg";
-import mwkBjvQLyx from "/public/openmoji/1F64E-1F3FD.svg";
-import ojjPWSQyCV from "/public/openmoji/1F64E-1F3FE-200D-2640-FE0F.svg";
-import RBGVvTJXRm from "/public/openmoji/1F64E-1F3FE-200D-2642-FE0F.svg";
-import jozzGZObUK from "/public/openmoji/1F64E-1F3FE.svg";
-import DWKFlKsnlm from "/public/openmoji/1F64E-1F3FF-200D-2640-FE0F.svg";
-import oASylAkaCU from "/public/openmoji/1F64E-1F3FF-200D-2642-FE0F.svg";
-import uUbqvVaxLA from "/public/openmoji/1F64E-1F3FF.svg";
-import mSIZMHEGKm from "/public/openmoji/1F64E-200D-2640-FE0F.svg";
-import WXzxkqWDeN from "/public/openmoji/1F64E-200D-2642-FE0F.svg";
-import WoLVlMcxth from "/public/openmoji/1F64E.svg";
-import kcjdeJtaQo from "/public/openmoji/1F64F-1F3FB.svg";
-import KPDZtGKbZR from "/public/openmoji/1F64F-1F3FC.svg";
-import TXBncgtDhS from "/public/openmoji/1F64F-1F3FD.svg";
-import xeDChTfToz from "/public/openmoji/1F64F-1F3FE.svg";
-import LQCVKTHXtp from "/public/openmoji/1F64F-1F3FF.svg";
-import RSffFWbGuN from "/public/openmoji/1F64F.svg";
-import nFEgRdpirS from "/public/openmoji/1F680.svg";
-import vbDOAiqPtZ from "/public/openmoji/1F681.svg";
-import jeCVfSUOHt from "/public/openmoji/1F682.svg";
-import etXKFAHgMP from "/public/openmoji/1F683.svg";
-import UTFeMmsDUR from "/public/openmoji/1F684.svg";
-import zSBfpoWbEX from "/public/openmoji/1F685.svg";
-import PWGiHzmtPR from "/public/openmoji/1F686.svg";
-import tKNndzhZyP from "/public/openmoji/1F687.svg";
-import aNaxnnoAlo from "/public/openmoji/1F688.svg";
-import hDoQSNwgnm from "/public/openmoji/1F689.svg";
-import TelYcpxckG from "/public/openmoji/1F68A.svg";
-import ESopZvQZUF from "/public/openmoji/1F68B.svg";
-import bZgDDiVKID from "/public/openmoji/1F68C.svg";
-import KVJbuzWOhR from "/public/openmoji/1F68D.svg";
-import vmtliZAvbB from "/public/openmoji/1F68E.svg";
-import niMadqvGWa from "/public/openmoji/1F68F.svg";
-import EvPUNBoIVH from "/public/openmoji/1F690.svg";
-import yocbfQJOtc from "/public/openmoji/1F691.svg";
-import imKgeMfVMS from "/public/openmoji/1F692.svg";
-import TwNZDwkPlZ from "/public/openmoji/1F693.svg";
-import MewpKkoGuI from "/public/openmoji/1F694.svg";
-import fkhTloqgOV from "/public/openmoji/1F695.svg";
-import ZkXnLeDBNY from "/public/openmoji/1F696.svg";
-import rrlQiZnGZL from "/public/openmoji/1F697.svg";
-import taTrzgOhnx from "/public/openmoji/1F698.svg";
-import bWGZzWFraN from "/public/openmoji/1F699.svg";
-import zjreRIoDat from "/public/openmoji/1F69A.svg";
-import ktHPtdFgtL from "/public/openmoji/1F69B.svg";
-import PWXMaTWdcO from "/public/openmoji/1F69C.svg";
-import zQrAUSZfTW from "/public/openmoji/1F69D.svg";
-import nVSpPhXSJB from "/public/openmoji/1F69E.svg";
-import fEbWeMWTlr from "/public/openmoji/1F69F.svg";
-import GXIzxuerXm from "/public/openmoji/1F6A0.svg";
-import eKIpyTzpOy from "/public/openmoji/1F6A1.svg";
-import VoxKUoYgBG from "/public/openmoji/1F6A2.svg";
-import LhIuBvAOQq from "/public/openmoji/1F6A3-1F3FB-200D-2640-FE0F.svg";
-import pIaZPikJgG from "/public/openmoji/1F6A3-1F3FB-200D-2642-FE0F.svg";
-import EJYhGBFnYa from "/public/openmoji/1F6A3-1F3FB.svg";
-import GVKutETEHC from "/public/openmoji/1F6A3-1F3FC-200D-2640-FE0F.svg";
-import fIIKnXaSOI from "/public/openmoji/1F6A3-1F3FC-200D-2642-FE0F.svg";
-import mFnAGNZvQn from "/public/openmoji/1F6A3-1F3FC.svg";
-import WBYnmJpWGI from "/public/openmoji/1F6A3-1F3FD-200D-2640-FE0F.svg";
-import QBQbPeidjd from "/public/openmoji/1F6A3-1F3FD-200D-2642-FE0F.svg";
-import CObRIBnnOh from "/public/openmoji/1F6A3-1F3FD.svg";
-import GLLWjtGoqd from "/public/openmoji/1F6A3-1F3FE-200D-2640-FE0F.svg";
-import JwnlFaCHOR from "/public/openmoji/1F6A3-1F3FE-200D-2642-FE0F.svg";
-import lsfqeJfJsO from "/public/openmoji/1F6A3-1F3FE.svg";
-import DKkXkvvmec from "/public/openmoji/1F6A3-1F3FF-200D-2640-FE0F.svg";
-import bcJJeAgDtY from "/public/openmoji/1F6A3-1F3FF-200D-2642-FE0F.svg";
-import YubEvIUPjM from "/public/openmoji/1F6A3-1F3FF.svg";
-import rOSTDeYivA from "/public/openmoji/1F6A3-200D-2640-FE0F.svg";
-import hqZmxpGwXn from "/public/openmoji/1F6A3-200D-2642-FE0F.svg";
-import HTMwNFPqJV from "/public/openmoji/1F6A3.svg";
-import XGvtxAdGva from "/public/openmoji/1F6A4.svg";
-import ZjCkrkeJkl from "/public/openmoji/1F6A5.svg";
-import dpyIElEiCg from "/public/openmoji/1F6A6.svg";
-import BWjqzWNjdE from "/public/openmoji/1F6A7.svg";
-import AOjHygfOVF from "/public/openmoji/1F6A8.svg";
-import lwghrmNZcD from "/public/openmoji/1F6A9.svg";
-import eCblCXjBFH from "/public/openmoji/1F6AA.svg";
-import SCwALMZUae from "/public/openmoji/1F6AB.svg";
-import hFuDcDgJcB from "/public/openmoji/1F6AC.svg";
-import wJBZLnpnbL from "/public/openmoji/1F6AD.svg";
-import QuTwyNdJnO from "/public/openmoji/1F6AE.svg";
-import aizvNRRYNP from "/public/openmoji/1F6AF.svg";
-import ixUVeRdIFX from "/public/openmoji/1F6B0.svg";
-import iNHoJBQFDE from "/public/openmoji/1F6B1.svg";
-import MeStmkRNZU from "/public/openmoji/1F6B2.svg";
-import dPVuaxSVDt from "/public/openmoji/1F6B3.svg";
-import hXYaoADgqr from "/public/openmoji/1F6B4-1F3FB-200D-2640-FE0F.svg";
-import yTJyEiBNkA from "/public/openmoji/1F6B4-1F3FB-200D-2642-FE0F.svg";
-import DFboqhHjWE from "/public/openmoji/1F6B4-1F3FB.svg";
-import WaglGqPgUa from "/public/openmoji/1F6B4-1F3FC-200D-2640-FE0F.svg";
-import GYtkiRfoYl from "/public/openmoji/1F6B4-1F3FC-200D-2642-FE0F.svg";
-import HgHYdAeKkG from "/public/openmoji/1F6B4-1F3FC.svg";
-import twBLkpekYN from "/public/openmoji/1F6B4-1F3FD-200D-2640-FE0F.svg";
-import sJEkwNgKmR from "/public/openmoji/1F6B4-1F3FD-200D-2642-FE0F.svg";
-import BzAcDdLPEI from "/public/openmoji/1F6B4-1F3FD.svg";
-import LHlKEzMvif from "/public/openmoji/1F6B4-1F3FE-200D-2640-FE0F.svg";
-import SoyzfGyMsc from "/public/openmoji/1F6B4-1F3FE-200D-2642-FE0F.svg";
-import SuvVXksnUC from "/public/openmoji/1F6B4-1F3FE.svg";
-import JMxfjYdWyH from "/public/openmoji/1F6B4-1F3FF-200D-2640-FE0F.svg";
-import IPrAUfiuMo from "/public/openmoji/1F6B4-1F3FF-200D-2642-FE0F.svg";
-import EVhhGAIPBG from "/public/openmoji/1F6B4-1F3FF.svg";
-import gafiYSmxuz from "/public/openmoji/1F6B4-200D-2640-FE0F.svg";
-import eczDLQxaZn from "/public/openmoji/1F6B4-200D-2642-FE0F.svg";
-import cWvYbaoVPW from "/public/openmoji/1F6B4.svg";
-import aOmrhAwwNO from "/public/openmoji/1F6B5-1F3FB-200D-2640-FE0F.svg";
-import HbSGLqZwpi from "/public/openmoji/1F6B5-1F3FB-200D-2642-FE0F.svg";
-import yNnjFpHNJM from "/public/openmoji/1F6B5-1F3FB.svg";
-import NwChuLeXRm from "/public/openmoji/1F6B5-1F3FC-200D-2640-FE0F.svg";
-import TGXPmphhCu from "/public/openmoji/1F6B5-1F3FC-200D-2642-FE0F.svg";
-import MwuGSPpkes from "/public/openmoji/1F6B5-1F3FC.svg";
-import iWUxYfetVw from "/public/openmoji/1F6B5-1F3FD-200D-2640-FE0F.svg";
-import qAmkOivHIG from "/public/openmoji/1F6B5-1F3FD-200D-2642-FE0F.svg";
-import sCGeWOROfZ from "/public/openmoji/1F6B5-1F3FD.svg";
-import qChlwnbOsb from "/public/openmoji/1F6B5-1F3FE-200D-2640-FE0F.svg";
-import bZHOhIqIoD from "/public/openmoji/1F6B5-1F3FE-200D-2642-FE0F.svg";
-import duuBpbXphJ from "/public/openmoji/1F6B5-1F3FE.svg";
-import PosdAcjOjU from "/public/openmoji/1F6B5-1F3FF-200D-2640-FE0F.svg";
-import XtaUwjPUly from "/public/openmoji/1F6B5-1F3FF-200D-2642-FE0F.svg";
-import eIaiKLdpXP from "/public/openmoji/1F6B5-1F3FF.svg";
-import ErgcVnsrGx from "/public/openmoji/1F6B5-200D-2640-FE0F.svg";
-import xvpImeyvfm from "/public/openmoji/1F6B5-200D-2642-FE0F.svg";
-import VCmxlTcAli from "/public/openmoji/1F6B5.svg";
-import xjZxvCuqIa from "/public/openmoji/1F6B6-1F3FB-200D-2640-FE0F.svg";
-import JHfsZVzNqb from "/public/openmoji/1F6B6-1F3FB-200D-2642-FE0F.svg";
-import JdDhsQKKKf from "/public/openmoji/1F6B6-1F3FB.svg";
-import WDkbFRVpBX from "/public/openmoji/1F6B6-1F3FC-200D-2640-FE0F.svg";
-import jitNLKOOhg from "/public/openmoji/1F6B6-1F3FC-200D-2642-FE0F.svg";
-import ZuBwXRRucJ from "/public/openmoji/1F6B6-1F3FC.svg";
-import lKcdgZfhJW from "/public/openmoji/1F6B6-1F3FD-200D-2640-FE0F.svg";
-import FHPhYVAcqt from "/public/openmoji/1F6B6-1F3FD-200D-2642-FE0F.svg";
-import vuayFNxcBN from "/public/openmoji/1F6B6-1F3FD.svg";
-import fBsYKsdvqz from "/public/openmoji/1F6B6-1F3FE-200D-2640-FE0F.svg";
-import NbiDpRzFry from "/public/openmoji/1F6B6-1F3FE-200D-2642-FE0F.svg";
-import rypFtUbZez from "/public/openmoji/1F6B6-1F3FE.svg";
-import FTGQouUurB from "/public/openmoji/1F6B6-1F3FF-200D-2640-FE0F.svg";
-import EqhUevSFJm from "/public/openmoji/1F6B6-1F3FF-200D-2642-FE0F.svg";
-import PpuRtFSSNp from "/public/openmoji/1F6B6-1F3FF.svg";
-import XcygDzEzTL from "/public/openmoji/1F6B6-200D-2640-FE0F.svg";
-import pyhhijMPgF from "/public/openmoji/1F6B6-200D-2642-FE0F.svg";
-import BgpmYCHxuI from "/public/openmoji/1F6B6.svg";
-import drRnmlEYvz from "/public/openmoji/1F6B7.svg";
-import FWEiNxFfHm from "/public/openmoji/1F6B8.svg";
-import zyRWLluaRP from "/public/openmoji/1F6B9.svg";
-import tJoAvbEiPa from "/public/openmoji/1F6BA.svg";
-import VztZETAEeG from "/public/openmoji/1F6BB.svg";
-import eeILGpqImT from "/public/openmoji/1F6BC.svg";
-import BLrXBgtQCv from "/public/openmoji/1F6BD.svg";
-import dveEXPLRbN from "/public/openmoji/1F6BE.svg";
-import SCGAuStuSR from "/public/openmoji/1F6BF.svg";
-import NWDKJkxzPB from "/public/openmoji/1F6C0-1F3FB.svg";
-import DHXAevqwcX from "/public/openmoji/1F6C0-1F3FC.svg";
-import yizbDHBvQJ from "/public/openmoji/1F6C0-1F3FD.svg";
-import dTwdUpQKAV from "/public/openmoji/1F6C0-1F3FE.svg";
-import gCxNGSUrFr from "/public/openmoji/1F6C0-1F3FF.svg";
-import OlwOJDdhfR from "/public/openmoji/1F6C0.svg";
-import QeoeyyejFc from "/public/openmoji/1F6C1.svg";
-import qlfJbgdhfV from "/public/openmoji/1F6C2.svg";
-import rKsOGZYcKa from "/public/openmoji/1F6C3.svg";
-import ItdwNMHrLO from "/public/openmoji/1F6C4.svg";
-import pdPPpYJISr from "/public/openmoji/1F6C5.svg";
-import fniUyouNCT from "/public/openmoji/1F6CB.svg";
-import ihfOzowhmD from "/public/openmoji/1F6CC-1F3FB.svg";
-import nfXbKhFSHu from "/public/openmoji/1F6CC-1F3FC.svg";
-import BcKamRrBjo from "/public/openmoji/1F6CC-1F3FD.svg";
-import UOdnmDvHuB from "/public/openmoji/1F6CC-1F3FE.svg";
-import CVecHCPvDx from "/public/openmoji/1F6CC-1F3FF.svg";
-import RlpDNCymTM from "/public/openmoji/1F6CC.svg";
-import aJaIdeQOeF from "/public/openmoji/1F6CD.svg";
-import kHpnzVebqo from "/public/openmoji/1F6CE.svg";
-import eEkMTxprQK from "/public/openmoji/1F6CF.svg";
-import JnuVKNUrup from "/public/openmoji/1F6D0.svg";
-import AYwdfttFVm from "/public/openmoji/1F6D1.svg";
-import PihxArVQbL from "/public/openmoji/1F6D2.svg";
-import eyeuHWwbGe from "/public/openmoji/1F6D5.svg";
-import ezmhfnqEHN from "/public/openmoji/1F6D6.svg";
-import OcDZZfWXiF from "/public/openmoji/1F6D7.svg";
-import zjSYWyNzck from "/public/openmoji/1F6DC.svg";
-import QogLVMHnzN from "/public/openmoji/1F6DD.svg";
-import kOKDMNjMUg from "/public/openmoji/1F6DE.svg";
-import vFetvPSBrE from "/public/openmoji/1F6DF.svg";
-import NUbWWDOkXD from "/public/openmoji/1F6E0.svg";
-import eOLqCCAeco from "/public/openmoji/1F6E1.svg";
-import SVuKFNSswh from "/public/openmoji/1F6E2.svg";
-import mwYlITpfwM from "/public/openmoji/1F6E3.svg";
-import iFgWGYiYoG from "/public/openmoji/1F6E4.svg";
-import BmFuibJuRa from "/public/openmoji/1F6E5.svg";
-import mTlDxcwSie from "/public/openmoji/1F6E9.svg";
-import uMJtuwtqgF from "/public/openmoji/1F6EB.svg";
-import XYVYMqhaAO from "/public/openmoji/1F6EC.svg";
-import udDEGtNGmB from "/public/openmoji/1F6F0.svg";
-import CctXxlBzau from "/public/openmoji/1F6F3.svg";
-import DurJfTMxkO from "/public/openmoji/1F6F4.svg";
-import scJNqWRTrN from "/public/openmoji/1F6F5.svg";
-import guCBaRWJdn from "/public/openmoji/1F6F6.svg";
-import peWquEQaha from "/public/openmoji/1F6F7.svg";
-import bOzGHrBvHD from "/public/openmoji/1F6F8.svg";
-import yVTsenFffH from "/public/openmoji/1F6F9.svg";
-import ltkKdNXjVz from "/public/openmoji/1F6FA.svg";
-import dLzHhiILKx from "/public/openmoji/1F6FB.svg";
-import gVZlDnZLNb from "/public/openmoji/1F6FC.svg";
-import qgfeBiqgNx from "/public/openmoji/1F7E0.svg";
-import pOlXOFwhBT from "/public/openmoji/1F7E1.svg";
-import xudZNIrCvq from "/public/openmoji/1F7E2.svg";
-import hwyWqwzwgl from "/public/openmoji/1F7E3.svg";
-import vCZRidhLBs from "/public/openmoji/1F7E4.svg";
-import nyVQGEIjje from "/public/openmoji/1F7E5.svg";
-import LUSpiKgzeK from "/public/openmoji/1F7E6.svg";
-import kQGBtuyPHf from "/public/openmoji/1F7E7.svg";
-import IFfYSUfGSy from "/public/openmoji/1F7E8.svg";
-import mNYoJrhdvB from "/public/openmoji/1F7E9.svg";
-import sIxHTEVzdy from "/public/openmoji/1F7EA.svg";
-import arrUmRlDqg from "/public/openmoji/1F7EB.svg";
-import CggtQrROMJ from "/public/openmoji/1F7F0.svg";
-import YtFhsHEhQP from "/public/openmoji/1F90C-1F3FB.svg";
-import YsMnSMwtFg from "/public/openmoji/1F90C-1F3FC.svg";
-import EuswoywnkD from "/public/openmoji/1F90C-1F3FD.svg";
-import HKObONvzxR from "/public/openmoji/1F90C-1F3FE.svg";
-import KMdIVsscgz from "/public/openmoji/1F90C-1F3FF.svg";
-import bCmJMdiyBw from "/public/openmoji/1F90C.svg";
-import ztqzzqsaEB from "/public/openmoji/1F90D.svg";
-import FshZajIMWG from "/public/openmoji/1F90E.svg";
-import NcYnIFEUXY from "/public/openmoji/1F90F-1F3FB.svg";
-import NTeAfmKldp from "/public/openmoji/1F90F-1F3FC.svg";
-import zElhijsLtR from "/public/openmoji/1F90F-1F3FD.svg";
-import KmYHNpnoRw from "/public/openmoji/1F90F-1F3FE.svg";
-import wCofFzfvvk from "/public/openmoji/1F90F-1F3FF.svg";
-import nDhZBNlKBZ from "/public/openmoji/1F90F.svg";
-import ORnUsPSfBV from "/public/openmoji/1F910.svg";
-import CeSmysvTsC from "/public/openmoji/1F911.svg";
-import frRfUzsrzU from "/public/openmoji/1F912.svg";
-import LoYZATeteg from "/public/openmoji/1F913.svg";
-import QXztHoZfBR from "/public/openmoji/1F914.svg";
-import hzSoHMSYqS from "/public/openmoji/1F915.svg";
-import PLaKXkXYuO from "/public/openmoji/1F916.svg";
-import jIGJPndjQt from "/public/openmoji/1F917.svg";
-import tsWbCqxJkh from "/public/openmoji/1F918-1F3FB.svg";
-import SvxjRFbqjh from "/public/openmoji/1F918-1F3FC.svg";
-import VaTaeOSZYW from "/public/openmoji/1F918-1F3FD.svg";
-import zwIJVYuVEr from "/public/openmoji/1F918-1F3FE.svg";
-import PqATtRLmeI from "/public/openmoji/1F918-1F3FF.svg";
-import QcaRCIoPHa from "/public/openmoji/1F918.svg";
-import UFeMuWyBSI from "/public/openmoji/1F919-1F3FB.svg";
-import FGwxFbCVDa from "/public/openmoji/1F919-1F3FC.svg";
-import ThKWkGRbTW from "/public/openmoji/1F919-1F3FD.svg";
-import LgSyIvzdQA from "/public/openmoji/1F919-1F3FE.svg";
-import tlIDyBldce from "/public/openmoji/1F919-1F3FF.svg";
-import tpBVNCpyIL from "/public/openmoji/1F919.svg";
-import JZnkblPwxj from "/public/openmoji/1F91A-1F3FB.svg";
-import YyYxYYCUJt from "/public/openmoji/1F91A-1F3FC.svg";
-import mCcwsQGkyD from "/public/openmoji/1F91A-1F3FD.svg";
-import urtIWQbwGE from "/public/openmoji/1F91A-1F3FE.svg";
-import cMSeuNmdUW from "/public/openmoji/1F91A-1F3FF.svg";
-import aghEqrBAIu from "/public/openmoji/1F91A.svg";
-import jLcWwKvdpP from "/public/openmoji/1F91B-1F3FB.svg";
-import biLMVAOcdG from "/public/openmoji/1F91B-1F3FC.svg";
-import DuimTGbjIj from "/public/openmoji/1F91B-1F3FD.svg";
-import OzEkFcArwo from "/public/openmoji/1F91B-1F3FE.svg";
-import WOzlMbrPik from "/public/openmoji/1F91B-1F3FF.svg";
-import lPolNmiNNN from "/public/openmoji/1F91B.svg";
-import wqIfvsdNvr from "/public/openmoji/1F91C-1F3FB.svg";
-import unrmbAWJke from "/public/openmoji/1F91C-1F3FC.svg";
-import UWOSVgWDNz from "/public/openmoji/1F91C-1F3FD.svg";
-import ODpDQFESog from "/public/openmoji/1F91C-1F3FE.svg";
-import uQwhZNqeUN from "/public/openmoji/1F91C-1F3FF.svg";
-import srgmsscqby from "/public/openmoji/1F91C.svg";
-import KLuXuPIhLy from "/public/openmoji/1F91D-1F3FB.svg";
-import KFDiygKNje from "/public/openmoji/1F91D-1F3FC.svg";
-import mpAyUwjQBm from "/public/openmoji/1F91D-1F3FD.svg";
-import mxNLiLBTcS from "/public/openmoji/1F91D-1F3FE.svg";
-import zXTxiQGFZx from "/public/openmoji/1F91D-1F3FF.svg";
-import lLEyOqnyQB from "/public/openmoji/1F91D.svg";
-import ZsLRuQaugO from "/public/openmoji/1F91E-1F3FB.svg";
-import nBHmPFoKCg from "/public/openmoji/1F91E-1F3FC.svg";
-import jWzjGHCFQt from "/public/openmoji/1F91E-1F3FD.svg";
-import gBIauZHlow from "/public/openmoji/1F91E-1F3FE.svg";
-import yZmxwkTUcD from "/public/openmoji/1F91E-1F3FF.svg";
-import tJpokefLPc from "/public/openmoji/1F91E.svg";
-import AMpCHQhmVN from "/public/openmoji/1F91F-1F3FB.svg";
-import aDLLCadzeG from "/public/openmoji/1F91F-1F3FC.svg";
-import OCimHGNlVH from "/public/openmoji/1F91F-1F3FD.svg";
-import DmEKPWSEdp from "/public/openmoji/1F91F-1F3FE.svg";
-import MbHTEuwZZL from "/public/openmoji/1F91F-1F3FF.svg";
-import jnRmDKzuxx from "/public/openmoji/1F91F.svg";
-import OnFtSoOlXo from "/public/openmoji/1F920.svg";
-import txIKrdegzz from "/public/openmoji/1F921.svg";
-import zefswlXfrP from "/public/openmoji/1F922.svg";
-import CdVGHXLhOB from "/public/openmoji/1F923.svg";
-import UKBornAHhW from "/public/openmoji/1F924.svg";
-import JPjJSjVCIx from "/public/openmoji/1F925.svg";
-import QyFFKAVnho from "/public/openmoji/1F926-1F3FB-200D-2640-FE0F.svg";
-import scEUepXDFc from "/public/openmoji/1F926-1F3FB-200D-2642-FE0F.svg";
-import WtMXseQHhD from "/public/openmoji/1F926-1F3FB.svg";
-import RUdDLdGkjB from "/public/openmoji/1F926-1F3FC-200D-2640-FE0F.svg";
-import aOWkTcKHHa from "/public/openmoji/1F926-1F3FC-200D-2642-FE0F.svg";
-import VShtAdYGdz from "/public/openmoji/1F926-1F3FC.svg";
-import MszegFIFaf from "/public/openmoji/1F926-1F3FD-200D-2640-FE0F.svg";
-import AmTLadjHtF from "/public/openmoji/1F926-1F3FD-200D-2642-FE0F.svg";
-import aSDHcvzVgk from "/public/openmoji/1F926-1F3FD.svg";
-import XNpEPdROjl from "/public/openmoji/1F926-1F3FE-200D-2640-FE0F.svg";
-import nhSHwfPCMp from "/public/openmoji/1F926-1F3FE-200D-2642-FE0F.svg";
-import kuPcyotxUQ from "/public/openmoji/1F926-1F3FE.svg";
-import wCyqsMLnyu from "/public/openmoji/1F926-1F3FF-200D-2640-FE0F.svg";
-import zCPsjlKuTC from "/public/openmoji/1F926-1F3FF-200D-2642-FE0F.svg";
-import gmLxcVWfaS from "/public/openmoji/1F926-1F3FF.svg";
-import fQNzxaYqcy from "/public/openmoji/1F926-200D-2640-FE0F.svg";
-import TbdZgWSfDX from "/public/openmoji/1F926-200D-2642-FE0F.svg";
-import QigIaPzBvB from "/public/openmoji/1F926.svg";
-import lIgLrZslxz from "/public/openmoji/1F927.svg";
-import ThiTENdnmm from "/public/openmoji/1F928.svg";
-import moRbjsLcyl from "/public/openmoji/1F929.svg";
-import gLFqhLGWtP from "/public/openmoji/1F92A.svg";
-import PpwSzfXRMP from "/public/openmoji/1F92B.svg";
-import hbNNgKemvi from "/public/openmoji/1F92C.svg";
-import WSmCUryCjj from "/public/openmoji/1F92D.svg";
-import cckRcyTNde from "/public/openmoji/1F92E.svg";
-import lZtyPojxyE from "/public/openmoji/1F92F.svg";
-import KQhwWkMhwO from "/public/openmoji/1F930-1F3FB.svg";
-import SDCnWrpUTA from "/public/openmoji/1F930-1F3FC.svg";
-import xnvJvFQPVE from "/public/openmoji/1F930-1F3FD.svg";
-import FaFJFwmpdE from "/public/openmoji/1F930-1F3FE.svg";
-import CMljKRctJj from "/public/openmoji/1F930-1F3FF.svg";
-import lRoeuIhWnM from "/public/openmoji/1F930.svg";
-import enwQXSziHO from "/public/openmoji/1F931-1F3FB.svg";
-import OlvyzHaXxp from "/public/openmoji/1F931-1F3FC.svg";
-import fHTYRrDdns from "/public/openmoji/1F931-1F3FD.svg";
-import TpqsPzyPyR from "/public/openmoji/1F931-1F3FE.svg";
-import gMVhHBdjsN from "/public/openmoji/1F931-1F3FF.svg";
-import WChRRqiNbT from "/public/openmoji/1F931.svg";
-import gCyFCqiMoR from "/public/openmoji/1F932-1F3FB.svg";
-import VZlAquuIIE from "/public/openmoji/1F932-1F3FC.svg";
-import DOqfRXgLxF from "/public/openmoji/1F932-1F3FD.svg";
-import VAskgTeWUi from "/public/openmoji/1F932-1F3FE.svg";
-import BGDipRCuIY from "/public/openmoji/1F932-1F3FF.svg";
-import PuTFTWuHsC from "/public/openmoji/1F932.svg";
-import EapfiAZNnW from "/public/openmoji/1F933-1F3FB.svg";
-import ezlNxNVffX from "/public/openmoji/1F933-1F3FC.svg";
-import gbtptskeeM from "/public/openmoji/1F933-1F3FD.svg";
-import IEyfpVDhEx from "/public/openmoji/1F933-1F3FE.svg";
-import AHAjefZxol from "/public/openmoji/1F933-1F3FF.svg";
-import UAAGmNqoxk from "/public/openmoji/1F933.svg";
-import IwbncTQbwE from "/public/openmoji/1F934-1F3FB.svg";
-import ZfjdlqfzKk from "/public/openmoji/1F934-1F3FC.svg";
-import zEaoQfdsty from "/public/openmoji/1F934-1F3FD.svg";
-import qUeRZoVrkz from "/public/openmoji/1F934-1F3FE.svg";
-import FQCDWERBBT from "/public/openmoji/1F934-1F3FF.svg";
-import RAnTpMoAoC from "/public/openmoji/1F934.svg";
-import DhBglRBmoc from "/public/openmoji/1F935-1F3FB-200D-2640-FE0F.svg";
-import LKxQqAEdZB from "/public/openmoji/1F935-1F3FB-200D-2642-FE0F.svg";
-import fyBmWJJcAG from "/public/openmoji/1F935-1F3FB.svg";
-import KWqoGIliea from "/public/openmoji/1F935-1F3FC-200D-2640-FE0F.svg";
-import foKysuUaiS from "/public/openmoji/1F935-1F3FC-200D-2642-FE0F.svg";
-import qddbvqMNbS from "/public/openmoji/1F935-1F3FC.svg";
-import oeNERKaSBN from "/public/openmoji/1F935-1F3FD-200D-2640-FE0F.svg";
-import bZMdeedYlw from "/public/openmoji/1F935-1F3FD-200D-2642-FE0F.svg";
-import etyNHWvPpL from "/public/openmoji/1F935-1F3FD.svg";
-import xAbczeaBNU from "/public/openmoji/1F935-1F3FE-200D-2640-FE0F.svg";
-import WqKRfyhrDv from "/public/openmoji/1F935-1F3FE-200D-2642-FE0F.svg";
-import TiUglBUrwd from "/public/openmoji/1F935-1F3FE.svg";
-import hYYsTWwspN from "/public/openmoji/1F935-1F3FF-200D-2640-FE0F.svg";
-import WBUGaBqGkA from "/public/openmoji/1F935-1F3FF-200D-2642-FE0F.svg";
-import lClYuQENLa from "/public/openmoji/1F935-1F3FF.svg";
-import wTLahcjtEF from "/public/openmoji/1F935-200D-2640-FE0F.svg";
-import FJQcHWZLjS from "/public/openmoji/1F935-200D-2642-FE0F.svg";
-import POaIJujrWT from "/public/openmoji/1F935.svg";
-import NcSSzYnjeI from "/public/openmoji/1F936-1F3FB.svg";
-import tAaAeatITM from "/public/openmoji/1F936-1F3FC.svg";
-import WBJVjDPdpL from "/public/openmoji/1F936-1F3FD.svg";
-import BznfIBUvQe from "/public/openmoji/1F936-1F3FE.svg";
-import lljuwrIDdz from "/public/openmoji/1F936-1F3FF.svg";
-import bCZnhZCxsJ from "/public/openmoji/1F936.svg";
-import sgYzyUPhen from "/public/openmoji/1F937-1F3FB-200D-2640-FE0F.svg";
-import kgxcUNOalX from "/public/openmoji/1F937-1F3FB-200D-2642-FE0F.svg";
-import atHwQcnGap from "/public/openmoji/1F937-1F3FB.svg";
-import YbKHLsKMuX from "/public/openmoji/1F937-1F3FC-200D-2640-FE0F.svg";
-import CvXfbozfJD from "/public/openmoji/1F937-1F3FC-200D-2642-FE0F.svg";
-import TpqNqERtSb from "/public/openmoji/1F937-1F3FC.svg";
-import unoqeRleUG from "/public/openmoji/1F937-1F3FD-200D-2640-FE0F.svg";
-import xmEjTnyzTD from "/public/openmoji/1F937-1F3FD-200D-2642-FE0F.svg";
-import mkxMccWZpv from "/public/openmoji/1F937-1F3FD.svg";
-import FwykfRxNeg from "/public/openmoji/1F937-1F3FE-200D-2640-FE0F.svg";
-import avfPRHtOTk from "/public/openmoji/1F937-1F3FE-200D-2642-FE0F.svg";
-import dBWBiUauZP from "/public/openmoji/1F937-1F3FE.svg";
-import msLQAnfReh from "/public/openmoji/1F937-1F3FF-200D-2640-FE0F.svg";
-import bXazgHncIe from "/public/openmoji/1F937-1F3FF-200D-2642-FE0F.svg";
-import LOTSjXQpzX from "/public/openmoji/1F937-1F3FF.svg";
-import YNpkQRvGXx from "/public/openmoji/1F937-200D-2640-FE0F.svg";
-import xIywcwycRU from "/public/openmoji/1F937-200D-2642-FE0F.svg";
-import WjYDLcDDik from "/public/openmoji/1F937.svg";
-import cLNfATLPHJ from "/public/openmoji/1F938-1F3FB-200D-2640-FE0F.svg";
-import xxrJEYsivI from "/public/openmoji/1F938-1F3FB-200D-2642-FE0F.svg";
-import xiiPlwLGwm from "/public/openmoji/1F938-1F3FB.svg";
-import fFoHDImIra from "/public/openmoji/1F938-1F3FC-200D-2640-FE0F.svg";
-import woPqvfnICc from "/public/openmoji/1F938-1F3FC-200D-2642-FE0F.svg";
-import wJneuetMnw from "/public/openmoji/1F938-1F3FC.svg";
-import GJFaccGzVg from "/public/openmoji/1F938-1F3FD-200D-2640-FE0F.svg";
-import tNPTLzLDZw from "/public/openmoji/1F938-1F3FD-200D-2642-FE0F.svg";
-import lpYNAoMXkY from "/public/openmoji/1F938-1F3FD.svg";
-import OldJakQUTk from "/public/openmoji/1F938-1F3FE-200D-2640-FE0F.svg";
-import JsuzhBhthp from "/public/openmoji/1F938-1F3FE-200D-2642-FE0F.svg";
-import sOyNbqivNy from "/public/openmoji/1F938-1F3FE.svg";
-import WBjIUGaTai from "/public/openmoji/1F938-1F3FF-200D-2640-FE0F.svg";
-import pQOJzBJtyE from "/public/openmoji/1F938-1F3FF-200D-2642-FE0F.svg";
-import IWdaTuKtlL from "/public/openmoji/1F938-1F3FF.svg";
-import SdGFBFSANT from "/public/openmoji/1F938-200D-2640-FE0F.svg";
-import ANncrfSmxA from "/public/openmoji/1F938-200D-2642-FE0F.svg";
-import FbchAEJhDX from "/public/openmoji/1F938.svg";
-import XZILYWmDaB from "/public/openmoji/1F939-1F3FB-200D-2640-FE0F.svg";
-import BIvhKdxcGv from "/public/openmoji/1F939-1F3FB-200D-2642-FE0F.svg";
-import zfaCEABrFS from "/public/openmoji/1F939-1F3FB.svg";
-import YWLABnuehk from "/public/openmoji/1F939-1F3FC-200D-2640-FE0F.svg";
-import XQevABnpVi from "/public/openmoji/1F939-1F3FC-200D-2642-FE0F.svg";
-import ErYpdgGWzw from "/public/openmoji/1F939-1F3FC.svg";
-import KmveerqmCa from "/public/openmoji/1F939-1F3FD-200D-2640-FE0F.svg";
-import WVNXVpoIYU from "/public/openmoji/1F939-1F3FD-200D-2642-FE0F.svg";
-import jAAtUfAHaJ from "/public/openmoji/1F939-1F3FD.svg";
-import BgHjyBKYLQ from "/public/openmoji/1F939-1F3FE-200D-2640-FE0F.svg";
-import pZuuRpDZZs from "/public/openmoji/1F939-1F3FE-200D-2642-FE0F.svg";
-import TrsajNHpvq from "/public/openmoji/1F939-1F3FE.svg";
-import KoEILEdscA from "/public/openmoji/1F939-1F3FF-200D-2640-FE0F.svg";
-import mlvTXdoOrw from "/public/openmoji/1F939-1F3FF-200D-2642-FE0F.svg";
-import kJIZbxBstU from "/public/openmoji/1F939-1F3FF.svg";
-import IFVGLrwxFf from "/public/openmoji/1F939-200D-2640-FE0F.svg";
-import dOrAHHQiLZ from "/public/openmoji/1F939-200D-2642-FE0F.svg";
-import TaMbSiwUGx from "/public/openmoji/1F939.svg";
-import kNJxpakWJh from "/public/openmoji/1F93A.svg";
-import JKSIvYTcLk from "/public/openmoji/1F93C-200D-2640-FE0F.svg";
-import EXHhgWJAVS from "/public/openmoji/1F93C-200D-2642-FE0F.svg";
-import fCcBJdnYtY from "/public/openmoji/1F93C.svg";
-import gLCyUhikDN from "/public/openmoji/1F93D-1F3FB-200D-2640-FE0F.svg";
-import GaVDYhlifn from "/public/openmoji/1F93D-1F3FB-200D-2642-FE0F.svg";
-import wmdmPUvzut from "/public/openmoji/1F93D-1F3FB.svg";
-import jPEqBBzgsV from "/public/openmoji/1F93D-1F3FC-200D-2640-FE0F.svg";
-import bwWKeLElLh from "/public/openmoji/1F93D-1F3FC-200D-2642-FE0F.svg";
-import lElJxpNlSE from "/public/openmoji/1F93D-1F3FC.svg";
-import DxkxVzTBBm from "/public/openmoji/1F93D-1F3FD-200D-2640-FE0F.svg";
-import udzkEMFbrR from "/public/openmoji/1F93D-1F3FD-200D-2642-FE0F.svg";
-import orDqfFfaFp from "/public/openmoji/1F93D-1F3FD.svg";
-import EfIvDFlRFZ from "/public/openmoji/1F93D-1F3FE-200D-2640-FE0F.svg";
-import CBMdGMtdPQ from "/public/openmoji/1F93D-1F3FE-200D-2642-FE0F.svg";
-import hkgrvITIHm from "/public/openmoji/1F93D-1F3FE.svg";
-import RPFpXkmBqG from "/public/openmoji/1F93D-1F3FF-200D-2640-FE0F.svg";
-import OhsPezZQVI from "/public/openmoji/1F93D-1F3FF-200D-2642-FE0F.svg";
-import wEFLMOqflV from "/public/openmoji/1F93D-1F3FF.svg";
-import gkjIjTpLys from "/public/openmoji/1F93D-200D-2640-FE0F.svg";
-import tBwtJCFZGy from "/public/openmoji/1F93D-200D-2642-FE0F.svg";
-import UmbljvpGCJ from "/public/openmoji/1F93D.svg";
-import LqjBMCHLje from "/public/openmoji/1F93E-1F3FB-200D-2640-FE0F.svg";
-import HUrIuyjxJm from "/public/openmoji/1F93E-1F3FB-200D-2642-FE0F.svg";
-import FbRrYvHuCx from "/public/openmoji/1F93E-1F3FB.svg";
-import oyKUzZUARQ from "/public/openmoji/1F93E-1F3FC-200D-2640-FE0F.svg";
-import UaslNugeqA from "/public/openmoji/1F93E-1F3FC-200D-2642-FE0F.svg";
-import bgYZxQvFaG from "/public/openmoji/1F93E-1F3FC.svg";
-import QENDvUozfd from "/public/openmoji/1F93E-1F3FD-200D-2640-FE0F.svg";
-import iwttDNvwZX from "/public/openmoji/1F93E-1F3FD-200D-2642-FE0F.svg";
-import TXmuRfRkNa from "/public/openmoji/1F93E-1F3FD.svg";
-import VyumbSvail from "/public/openmoji/1F93E-1F3FE-200D-2640-FE0F.svg";
-import xhtVggLDVy from "/public/openmoji/1F93E-1F3FE-200D-2642-FE0F.svg";
-import iaZDuemJAU from "/public/openmoji/1F93E-1F3FE.svg";
-import wnanPkxmcg from "/public/openmoji/1F93E-1F3FF-200D-2640-FE0F.svg";
-import PlEQFifWtg from "/public/openmoji/1F93E-1F3FF-200D-2642-FE0F.svg";
-import qINXJOqKHK from "/public/openmoji/1F93E-1F3FF.svg";
-import ixfAuoOixj from "/public/openmoji/1F93E-200D-2640-FE0F.svg";
-import hNwlVFEMfw from "/public/openmoji/1F93E-200D-2642-FE0F.svg";
-import SsUvfSqUmk from "/public/openmoji/1F93E.svg";
-import tiLiHIHIas from "/public/openmoji/1F93F.svg";
-import eqOcBdaNhQ from "/public/openmoji/1F940.svg";
-import GTGDfYoiIS from "/public/openmoji/1F941.svg";
-import MjridDYNwV from "/public/openmoji/1F942.svg";
-import qUVjByqBrW from "/public/openmoji/1F943.svg";
-import TCiXjcDhit from "/public/openmoji/1F944.svg";
-import QHlgKXsBpq from "/public/openmoji/1F945.svg";
-import pXIOfFWomT from "/public/openmoji/1F947.svg";
-import EAWndRFYMS from "/public/openmoji/1F948.svg";
-import tOxZNkPTEE from "/public/openmoji/1F949.svg";
-import gLPtYMcfjI from "/public/openmoji/1F94A.svg";
-import fbXmPMqTJJ from "/public/openmoji/1F94B.svg";
-import RGjjMteRPK from "/public/openmoji/1F94C.svg";
-import fNRhWAuLaC from "/public/openmoji/1F94D.svg";
-import qFQpYryuWq from "/public/openmoji/1F94E.svg";
-import vGjmXksmoS from "/public/openmoji/1F94F.svg";
-import NhfnEpDJYH from "/public/openmoji/1F950.svg";
-import NwvpeXowKs from "/public/openmoji/1F951.svg";
-import vkKVUxZKeK from "/public/openmoji/1F952.svg";
-import icdKkHlslR from "/public/openmoji/1F953.svg";
-import eSUWlFgUPt from "/public/openmoji/1F954.svg";
-import uiLnHizGHi from "/public/openmoji/1F955.svg";
-import VNSfRojnMA from "/public/openmoji/1F956.svg";
-import KAthffiTpe from "/public/openmoji/1F957.svg";
-import VTkZcIqree from "/public/openmoji/1F958.svg";
-import GWQnCLrmOV from "/public/openmoji/1F959.svg";
-import BNYeCTlIHy from "/public/openmoji/1F95A.svg";
-import UKcaiqSstP from "/public/openmoji/1F95B.svg";
-import pznhBbggex from "/public/openmoji/1F95C.svg";
-import QTSgAqbqMZ from "/public/openmoji/1F95D.svg";
-import YoZWWksIuB from "/public/openmoji/1F95E.svg";
-import KnHVAtqIKs from "/public/openmoji/1F95F.svg";
-import nALaynIERp from "/public/openmoji/1F960.svg";
-import eeiLwmdjhY from "/public/openmoji/1F961.svg";
-import LlAojOBXqx from "/public/openmoji/1F962.svg";
-import ZayVpwELjM from "/public/openmoji/1F963.svg";
-import lNadenZBpL from "/public/openmoji/1F964.svg";
-import qETfkPHCUQ from "/public/openmoji/1F965.svg";
-import birGKDpqLn from "/public/openmoji/1F966.svg";
-import aoCRHcLeMl from "/public/openmoji/1F967.svg";
-import yPznQsEOTB from "/public/openmoji/1F968.svg";
-import FUWfjutSBD from "/public/openmoji/1F969.svg";
-import TzSbMFCPgr from "/public/openmoji/1F96A.svg";
-import JWqUtkvxkc from "/public/openmoji/1F96B.svg";
-import WqvvRzzlWw from "/public/openmoji/1F96C.svg";
-import WzmzPvXqBV from "/public/openmoji/1F96D.svg";
-import UVQRMWtFHT from "/public/openmoji/1F96E.svg";
-import dnXKQGPyjz from "/public/openmoji/1F96F.svg";
-import ivzzHxejrX from "/public/openmoji/1F970.svg";
-import GdzBAGpdjf from "/public/openmoji/1F971.svg";
-import AcetWsNcCR from "/public/openmoji/1F972.svg";
-import xPSjVpixHP from "/public/openmoji/1F973.svg";
-import VyRQLvQClD from "/public/openmoji/1F974.svg";
-import PIQRpUVpwI from "/public/openmoji/1F975.svg";
-import IWIbyrakCu from "/public/openmoji/1F976.svg";
-import FMikMbGgRc from "/public/openmoji/1F977-1F3FB.svg";
-import abzDPlgtYb from "/public/openmoji/1F977-1F3FC.svg";
-import thLeEaqxLb from "/public/openmoji/1F977-1F3FD.svg";
-import tjRrmoXjRH from "/public/openmoji/1F977-1F3FE.svg";
-import epIrjGRFWK from "/public/openmoji/1F977-1F3FF.svg";
-import AuzCXBWlFG from "/public/openmoji/1F977.svg";
-import ttwiEuGacb from "/public/openmoji/1F978.svg";
-import UajPIIptDE from "/public/openmoji/1F979.svg";
-import FFiEOruMmH from "/public/openmoji/1F97A.svg";
-import hWWqswrAri from "/public/openmoji/1F97B.svg";
-import CFOckqnhNT from "/public/openmoji/1F97C.svg";
-import jZNJvyrMoR from "/public/openmoji/1F97D.svg";
-import kHLcdMPurC from "/public/openmoji/1F97E.svg";
-import qJMirhYpwo from "/public/openmoji/1F97F.svg";
-import WeIzsgYPVh from "/public/openmoji/1F980.svg";
-import UOpjtyJbZc from "/public/openmoji/1F981.svg";
-import VfJEOfwxAk from "/public/openmoji/1F982.svg";
-import khxdwjrcBv from "/public/openmoji/1F983.svg";
-import GuUtxnnuDY from "/public/openmoji/1F984.svg";
-import XprniWdUYY from "/public/openmoji/1F985.svg";
-import XiDyuUtZzG from "/public/openmoji/1F986.svg";
-import NsYIGzJEFL from "/public/openmoji/1F987.svg";
-import gWhtFeZtja from "/public/openmoji/1F988.svg";
-import OBXaNNQfYF from "/public/openmoji/1F989.svg";
-import eleWZflNNN from "/public/openmoji/1F98A.svg";
-import WemniBSsKR from "/public/openmoji/1F98B.svg";
-import QGSjtLIFkR from "/public/openmoji/1F98C.svg";
-import GekMKcyuDs from "/public/openmoji/1F98D.svg";
-import ibnoMJPRuf from "/public/openmoji/1F98E.svg";
-import uXuosnMFhB from "/public/openmoji/1F98F.svg";
-import iffTyYlsAY from "/public/openmoji/1F990.svg";
-import jqPWrrpEQa from "/public/openmoji/1F991.svg";
-import lzGQqdOrwq from "/public/openmoji/1F992.svg";
-import cNMDkMNPRY from "/public/openmoji/1F993.svg";
-import AfJUdfCAup from "/public/openmoji/1F994.svg";
-import rMaFqpeeXd from "/public/openmoji/1F995.svg";
-import enjjnESrgz from "/public/openmoji/1F996.svg";
-import OqxacVKAmZ from "/public/openmoji/1F997.svg";
-import epPfcANYGa from "/public/openmoji/1F998.svg";
-import HhCpMhPFSO from "/public/openmoji/1F999.svg";
-import UCYNLhrbAJ from "/public/openmoji/1F99A.svg";
-import fEIvqGHvCa from "/public/openmoji/1F99B.svg";
-import fHRHglChvs from "/public/openmoji/1F99C.svg";
-import MakkfsnmlC from "/public/openmoji/1F99D.svg";
-import TELORAutnN from "/public/openmoji/1F99E.svg";
-import WszLvADjhp from "/public/openmoji/1F99F.svg";
-import dBWlLCZXze from "/public/openmoji/1F9A0.svg";
-import spmHwmqoIE from "/public/openmoji/1F9A1.svg";
-import SYBwilebTC from "/public/openmoji/1F9A2.svg";
-import uuKcwguzSN from "/public/openmoji/1F9A3.svg";
-import ISKLfWMweb from "/public/openmoji/1F9A4.svg";
-import jMUDwVtfqW from "/public/openmoji/1F9A5.svg";
-import gVHtjpsgcP from "/public/openmoji/1F9A6.svg";
-import EoDCfZSLGx from "/public/openmoji/1F9A7.svg";
-import aqCtnkAyei from "/public/openmoji/1F9A8.svg";
-import ybsjGgobYl from "/public/openmoji/1F9A9.svg";
-import jcTOlDXxki from "/public/openmoji/1F9AA.svg";
-import rMlxxMfESn from "/public/openmoji/1F9AB.svg";
-import qKOZQWgLuG from "/public/openmoji/1F9AC.svg";
-import ltSlzgXCxq from "/public/openmoji/1F9AD.svg";
-import jPAtFrSIZI from "/public/openmoji/1F9AE.svg";
-import SyefYdtUiS from "/public/openmoji/1F9AF.svg";
-import EighvSAnyI from "/public/openmoji/1F9B0.svg";
-import OpqJnyCqay from "/public/openmoji/1F9B1.svg";
-import vwtlpuzFIU from "/public/openmoji/1F9B2.svg";
-import eYBsZwExBc from "/public/openmoji/1F9B3.svg";
-import zZToCjCRjq from "/public/openmoji/1F9B4.svg";
-import xGKJBlYQYp from "/public/openmoji/1F9B5-1F3FB.svg";
-import IjkGvteuAC from "/public/openmoji/1F9B5-1F3FC.svg";
-import rrulDYghpq from "/public/openmoji/1F9B5-1F3FD.svg";
-import RGBPgUxZvX from "/public/openmoji/1F9B5-1F3FE.svg";
-import olEyARTNgX from "/public/openmoji/1F9B5-1F3FF.svg";
-import XOaUlkpRbM from "/public/openmoji/1F9B5.svg";
-import zGlxZbyneo from "/public/openmoji/1F9B6-1F3FB.svg";
-import iOcLMsUdRR from "/public/openmoji/1F9B6-1F3FC.svg";
-import ZHdagzXkZT from "/public/openmoji/1F9B6-1F3FD.svg";
-import GybbkIICOF from "/public/openmoji/1F9B6-1F3FE.svg";
-import EyxkRNRaoW from "/public/openmoji/1F9B6-1F3FF.svg";
-import FaIdUPDTAD from "/public/openmoji/1F9B6.svg";
-import tJpWyysLtA from "/public/openmoji/1F9B7.svg";
-import bqtVZPlsCn from "/public/openmoji/1F9B8-1F3FB-200D-2640-FE0F.svg";
-import BXYLiNFehR from "/public/openmoji/1F9B8-1F3FB-200D-2642-FE0F.svg";
-import IqgSFqODAh from "/public/openmoji/1F9B8-1F3FB.svg";
-import UHTFwmnksV from "/public/openmoji/1F9B8-1F3FC-200D-2640-FE0F.svg";
-import UAnyjFfSZA from "/public/openmoji/1F9B8-1F3FC-200D-2642-FE0F.svg";
-import zAAyymJiYi from "/public/openmoji/1F9B8-1F3FC.svg";
-import HtkRqrhabN from "/public/openmoji/1F9B8-1F3FD-200D-2640-FE0F.svg";
-import XcGUpOoUAZ from "/public/openmoji/1F9B8-1F3FD-200D-2642-FE0F.svg";
-import YxQuEqQcvL from "/public/openmoji/1F9B8-1F3FD.svg";
-import IZZRwqBTQu from "/public/openmoji/1F9B8-1F3FE-200D-2640-FE0F.svg";
-import tXEVnPMSro from "/public/openmoji/1F9B8-1F3FE-200D-2642-FE0F.svg";
-import GdzLSULkPm from "/public/openmoji/1F9B8-1F3FE.svg";
-import VxXKxCjFIc from "/public/openmoji/1F9B8-1F3FF-200D-2640-FE0F.svg";
-import RHkZsxcjzK from "/public/openmoji/1F9B8-1F3FF-200D-2642-FE0F.svg";
-import WbRJTyawQx from "/public/openmoji/1F9B8-1F3FF.svg";
-import NDPkwOYXss from "/public/openmoji/1F9B8-200D-2640-FE0F.svg";
-import djNEXvdyvR from "/public/openmoji/1F9B8-200D-2642-FE0F.svg";
-import lIYTDevMEA from "/public/openmoji/1F9B8.svg";
-import lbiAUHQdTv from "/public/openmoji/1F9B9-1F3FB-200D-2640-FE0F.svg";
-import SIjsuNmiiH from "/public/openmoji/1F9B9-1F3FB-200D-2642-FE0F.svg";
-import pIYVUNSsWy from "/public/openmoji/1F9B9-1F3FB.svg";
-import bgoXekmAqQ from "/public/openmoji/1F9B9-1F3FC-200D-2640-FE0F.svg";
-import uJEdAZyHnK from "/public/openmoji/1F9B9-1F3FC-200D-2642-FE0F.svg";
-import rmzFpJQXkQ from "/public/openmoji/1F9B9-1F3FC.svg";
-import IDzbrVvcJs from "/public/openmoji/1F9B9-1F3FD-200D-2640-FE0F.svg";
-import uIpUsuKzae from "/public/openmoji/1F9B9-1F3FD-200D-2642-FE0F.svg";
-import YkdXtKbjVf from "/public/openmoji/1F9B9-1F3FD.svg";
-import TpjkWnVoba from "/public/openmoji/1F9B9-1F3FE-200D-2640-FE0F.svg";
-import SycZsXTjMb from "/public/openmoji/1F9B9-1F3FE-200D-2642-FE0F.svg";
-import PkZGfPEESY from "/public/openmoji/1F9B9-1F3FE.svg";
-import ODhrIQBIfM from "/public/openmoji/1F9B9-1F3FF-200D-2640-FE0F.svg";
-import iEdDwyTMEv from "/public/openmoji/1F9B9-1F3FF-200D-2642-FE0F.svg";
-import PDxxzHcsNu from "/public/openmoji/1F9B9-1F3FF.svg";
-import TdFgInkLIH from "/public/openmoji/1F9B9-200D-2640-FE0F.svg";
-import HeFCKQSCDq from "/public/openmoji/1F9B9-200D-2642-FE0F.svg";
-import oOUkdTgdXk from "/public/openmoji/1F9B9.svg";
-import mbQOiCixET from "/public/openmoji/1F9BA.svg";
-import ROQhFKGgIv from "/public/openmoji/1F9BB-1F3FB.svg";
-import gJgMRUsLZt from "/public/openmoji/1F9BB-1F3FC.svg";
-import UuWBcwMEpn from "/public/openmoji/1F9BB-1F3FD.svg";
-import AtjIcnSUio from "/public/openmoji/1F9BB-1F3FE.svg";
-import FINwEBnYbr from "/public/openmoji/1F9BB-1F3FF.svg";
-import ZvvRKNoBJl from "/public/openmoji/1F9BB.svg";
-import uPPpbfhlzo from "/public/openmoji/1F9BC.svg";
-import VttWvhQhAS from "/public/openmoji/1F9BD.svg";
-import dcWakrvPgL from "/public/openmoji/1F9BE.svg";
-import QcTjxSSRkM from "/public/openmoji/1F9BF.svg";
-import xYVxasWIxx from "/public/openmoji/1F9C0.svg";
-import fLxfjpYeMe from "/public/openmoji/1F9C1.svg";
-import NskuzaPwJf from "/public/openmoji/1F9C2.svg";
-import VTbcxOCJBY from "/public/openmoji/1F9C3.svg";
-import XrsoYvZNUF from "/public/openmoji/1F9C4.svg";
-import NXrGBjFZAi from "/public/openmoji/1F9C5.svg";
-import sGkeUXkCkl from "/public/openmoji/1F9C6.svg";
-import ERLVlpwtxU from "/public/openmoji/1F9C7.svg";
-import vOQLrMshaF from "/public/openmoji/1F9C8.svg";
-import lZirtFaFKx from "/public/openmoji/1F9C9.svg";
-import jgfwolrqsg from "/public/openmoji/1F9CA.svg";
-import mTQojRuJvf from "/public/openmoji/1F9CB.svg";
-import hegNXmBcJc from "/public/openmoji/1F9CC.svg";
-import OkfOxiWRDS from "/public/openmoji/1F9CD-1F3FB-200D-2640-FE0F.svg";
-import XPvJqabCCo from "/public/openmoji/1F9CD-1F3FB-200D-2642-FE0F.svg";
-import dBbzplHtPF from "/public/openmoji/1F9CD-1F3FB.svg";
-import JpjCmbtnCP from "/public/openmoji/1F9CD-1F3FC-200D-2640-FE0F.svg";
-import FRLIolBDhB from "/public/openmoji/1F9CD-1F3FC-200D-2642-FE0F.svg";
-import MBRDmjmRQC from "/public/openmoji/1F9CD-1F3FC.svg";
-import eEfofITlpA from "/public/openmoji/1F9CD-1F3FD-200D-2640-FE0F.svg";
-import qXSTswTcJJ from "/public/openmoji/1F9CD-1F3FD-200D-2642-FE0F.svg";
-import tMmWPqbxQs from "/public/openmoji/1F9CD-1F3FD.svg";
-import zKGuduqnnj from "/public/openmoji/1F9CD-1F3FE-200D-2640-FE0F.svg";
-import ESoWTExrTZ from "/public/openmoji/1F9CD-1F3FE-200D-2642-FE0F.svg";
-import SOpKCEPLsR from "/public/openmoji/1F9CD-1F3FE.svg";
-import eRjsJYHXXU from "/public/openmoji/1F9CD-1F3FF-200D-2640-FE0F.svg";
-import vsEvSLsncl from "/public/openmoji/1F9CD-1F3FF-200D-2642-FE0F.svg";
-import PiqHClREiQ from "/public/openmoji/1F9CD-1F3FF.svg";
-import GuUKjTnuNl from "/public/openmoji/1F9CD-200D-2640-FE0F.svg";
-import wNaNuGjJda from "/public/openmoji/1F9CD-200D-2642-FE0F.svg";
-import bODeckVgbC from "/public/openmoji/1F9CD.svg";
-import WjAxwnhATB from "/public/openmoji/1F9CE-1F3FB-200D-2640-FE0F.svg";
-import yvyRTDOSMd from "/public/openmoji/1F9CE-1F3FB-200D-2642-FE0F.svg";
-import HLlIxgNALg from "/public/openmoji/1F9CE-1F3FB.svg";
-import YeOsueXRRK from "/public/openmoji/1F9CE-1F3FC-200D-2640-FE0F.svg";
-import UTggWbDAqy from "/public/openmoji/1F9CE-1F3FC-200D-2642-FE0F.svg";
-import yCEvIuAmMO from "/public/openmoji/1F9CE-1F3FC.svg";
-import VZgAfhiUJW from "/public/openmoji/1F9CE-1F3FD-200D-2640-FE0F.svg";
-import lJLHuKSQSB from "/public/openmoji/1F9CE-1F3FD-200D-2642-FE0F.svg";
-import xqXtLkBbhF from "/public/openmoji/1F9CE-1F3FD.svg";
-import IjuxUZbjWj from "/public/openmoji/1F9CE-1F3FE-200D-2640-FE0F.svg";
-import ixVvjzaBbl from "/public/openmoji/1F9CE-1F3FE-200D-2642-FE0F.svg";
-import ReLhLskgEr from "/public/openmoji/1F9CE-1F3FE.svg";
-import oSJbtzyorE from "/public/openmoji/1F9CE-1F3FF-200D-2640-FE0F.svg";
-import oIEvXtzuds from "/public/openmoji/1F9CE-1F3FF-200D-2642-FE0F.svg";
-import ygxVYzAtVu from "/public/openmoji/1F9CE-1F3FF.svg";
-import cdpWQiTkDu from "/public/openmoji/1F9CE-200D-2640-FE0F.svg";
-import egnLGriddk from "/public/openmoji/1F9CE-200D-2642-FE0F.svg";
-import eEwzzFKlvM from "/public/openmoji/1F9CE.svg";
-import ovWVTSxiOo from "/public/openmoji/1F9CF-1F3FB-200D-2640-FE0F.svg";
-import KQfWjWKiGo from "/public/openmoji/1F9CF-1F3FB-200D-2642-FE0F.svg";
-import jfHnxvbrQi from "/public/openmoji/1F9CF-1F3FB.svg";
-import DklFhNyBar from "/public/openmoji/1F9CF-1F3FC-200D-2640-FE0F.svg";
-import NJVziEWsWe from "/public/openmoji/1F9CF-1F3FC-200D-2642-FE0F.svg";
-import dGrIetarxm from "/public/openmoji/1F9CF-1F3FC.svg";
-import yqGnBHxMUJ from "/public/openmoji/1F9CF-1F3FD-200D-2640-FE0F.svg";
-import rUSxWIOkfE from "/public/openmoji/1F9CF-1F3FD-200D-2642-FE0F.svg";
-import ASKtzfBcdY from "/public/openmoji/1F9CF-1F3FD.svg";
-import kdBLwcoFJT from "/public/openmoji/1F9CF-1F3FE-200D-2640-FE0F.svg";
-import AZbKQNYIqX from "/public/openmoji/1F9CF-1F3FE-200D-2642-FE0F.svg";
-import LAodtGwPkN from "/public/openmoji/1F9CF-1F3FE.svg";
-import aKhZRZFqiC from "/public/openmoji/1F9CF-1F3FF-200D-2640-FE0F.svg";
-import feZqNAsvTZ from "/public/openmoji/1F9CF-1F3FF-200D-2642-FE0F.svg";
-import NbtiGywwLs from "/public/openmoji/1F9CF-1F3FF.svg";
-import SmMQJTtygV from "/public/openmoji/1F9CF-200D-2640-FE0F.svg";
-import eegnbylROE from "/public/openmoji/1F9CF-200D-2642-FE0F.svg";
-import UaBXncgNwO from "/public/openmoji/1F9CF.svg";
-import vwsLzcsYSn from "/public/openmoji/1F9D0.svg";
-import khIsuaHzDS from "/public/openmoji/1F9D1-1F3FB-200D-1F33E.svg";
-import oWQkPVHKtq from "/public/openmoji/1F9D1-1F3FB-200D-1F373.svg";
-import YGKnShLRZy from "/public/openmoji/1F9D1-1F3FB-200D-1F37C.svg";
-import TiihDFpOVV from "/public/openmoji/1F9D1-1F3FB-200D-1F384.svg";
-import qWlCLsBxbq from "/public/openmoji/1F9D1-1F3FB-200D-1F393.svg";
-import yvnOgTLIWg from "/public/openmoji/1F9D1-1F3FB-200D-1F3A4.svg";
-import BesNgLxyfD from "/public/openmoji/1F9D1-1F3FB-200D-1F3A8.svg";
-import OYwfXjVoBc from "/public/openmoji/1F9D1-1F3FB-200D-1F3EB.svg";
-import IgbqkafjWL from "/public/openmoji/1F9D1-1F3FB-200D-1F3ED.svg";
-import SSwnVuZCTM from "/public/openmoji/1F9D1-1F3FB-200D-1F4BB.svg";
-import FgfYwGgRLB from "/public/openmoji/1F9D1-1F3FB-200D-1F4BC.svg";
-import LaDtGdkYgX from "/public/openmoji/1F9D1-1F3FB-200D-1F527.svg";
-import eJFPaypISh from "/public/openmoji/1F9D1-1F3FB-200D-1F52C.svg";
-import wdGNfNZBiS from "/public/openmoji/1F9D1-1F3FB-200D-1F680.svg";
-import tqPjZXIRQJ from "/public/openmoji/1F9D1-1F3FB-200D-1F692.svg";
-import NjwLcYWCuN from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB.svg";
-import zpHTQlLeVd from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC.svg";
-import zYoNdvuVUK from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD.svg";
-import qESZaVIkLa from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE.svg";
-import cpItGCUPCK from "/public/openmoji/1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF.svg";
-import sEkSRjooYd from "/public/openmoji/1F9D1-1F3FB-200D-1F9AF.svg";
-import OOqOCTBvpm from "/public/openmoji/1F9D1-1F3FB-200D-1F9B0.svg";
-import uFhyMEyaHl from "/public/openmoji/1F9D1-1F3FB-200D-1F9B1.svg";
-import XTTrzgciDv from "/public/openmoji/1F9D1-1F3FB-200D-1F9B2.svg";
-import AhUbPVKhda from "/public/openmoji/1F9D1-1F3FB-200D-1F9B3.svg";
-import yBnGQyruYK from "/public/openmoji/1F9D1-1F3FB-200D-1F9BC.svg";
-import VOAYUAvxjo from "/public/openmoji/1F9D1-1F3FB-200D-1F9BD.svg";
-import BgKguZPncc from "/public/openmoji/1F9D1-1F3FB-200D-2695-FE0F.svg";
-import EBjQTYQPyH from "/public/openmoji/1F9D1-1F3FB-200D-2696-FE0F.svg";
-import qsCtuSnQvk from "/public/openmoji/1F9D1-1F3FB-200D-2708-FE0F.svg";
-import XcnCuErkFS from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
-import eLAZkTraKj from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
-import TqDIUJyKjb from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
-import KHzTRczMtG from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
-import fGmPgSpQkk from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
-import PbVobDSMFJ from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
-import mLNEaRsNUL from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
-import SMbomBSgQA from "/public/openmoji/1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
-import gGcVTWxCmn from "/public/openmoji/1F9D1-1F3FB.svg";
-import zyPHDmxwBS from "/public/openmoji/1F9D1-1F3FC-200D-1F33E.svg";
-import jpBgwwdlgf from "/public/openmoji/1F9D1-1F3FC-200D-1F373.svg";
-import rGacoMonri from "/public/openmoji/1F9D1-1F3FC-200D-1F37C.svg";
-import AhtTrxIzjV from "/public/openmoji/1F9D1-1F3FC-200D-1F384.svg";
-import LEdkAEpGjn from "/public/openmoji/1F9D1-1F3FC-200D-1F393.svg";
-import KJolWLVoYN from "/public/openmoji/1F9D1-1F3FC-200D-1F3A4.svg";
-import SxFNDYQoZq from "/public/openmoji/1F9D1-1F3FC-200D-1F3A8.svg";
-import wsttnmmLUE from "/public/openmoji/1F9D1-1F3FC-200D-1F3EB.svg";
-import BzkecYhSof from "/public/openmoji/1F9D1-1F3FC-200D-1F3ED.svg";
-import HrRRtuXhbR from "/public/openmoji/1F9D1-1F3FC-200D-1F4BB.svg";
-import VZbxSlDNYp from "/public/openmoji/1F9D1-1F3FC-200D-1F4BC.svg";
-import tTGYYdQHyL from "/public/openmoji/1F9D1-1F3FC-200D-1F527.svg";
-import LwEcSsAuHi from "/public/openmoji/1F9D1-1F3FC-200D-1F52C.svg";
-import ggxlZOatEe from "/public/openmoji/1F9D1-1F3FC-200D-1F680.svg";
-import gyXKjplctd from "/public/openmoji/1F9D1-1F3FC-200D-1F692.svg";
-import FNDaFWNixA from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB.svg";
-import tlFtvxoToN from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC.svg";
-import HoCnfmOEqq from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD.svg";
-import GVxogFxskx from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE.svg";
-import uSWmzfCRAv from "/public/openmoji/1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF.svg";
-import veCeWrCmSE from "/public/openmoji/1F9D1-1F3FC-200D-1F9AF.svg";
-import HxZRJxOznq from "/public/openmoji/1F9D1-1F3FC-200D-1F9B0.svg";
-import qLPyiXveXg from "/public/openmoji/1F9D1-1F3FC-200D-1F9B1.svg";
-import esBtDvvajT from "/public/openmoji/1F9D1-1F3FC-200D-1F9B2.svg";
-import HlDSDXzPqp from "/public/openmoji/1F9D1-1F3FC-200D-1F9B3.svg";
-import vwDbVnnqDD from "/public/openmoji/1F9D1-1F3FC-200D-1F9BC.svg";
-import veWDuDJlvb from "/public/openmoji/1F9D1-1F3FC-200D-1F9BD.svg";
-import DsuoubtwmS from "/public/openmoji/1F9D1-1F3FC-200D-2695-FE0F.svg";
-import QQoidUzFLX from "/public/openmoji/1F9D1-1F3FC-200D-2696-FE0F.svg";
-import XehfEagbhe from "/public/openmoji/1F9D1-1F3FC-200D-2708-FE0F.svg";
-import kZoKXdUdWX from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
-import pmSCriDrKx from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
-import AfHQSfAjWF from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
-import iWUEFCJaul from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
-import pAODNnansf from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
-import CXIRgmoDie from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
-import NghFhwHekf from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
-import GbjUOvOsqr from "/public/openmoji/1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
-import bUoOovKiiU from "/public/openmoji/1F9D1-1F3FC.svg";
-import vvAMDQyDFH from "/public/openmoji/1F9D1-1F3FD-200D-1F33E.svg";
-import ykVCFOAoyz from "/public/openmoji/1F9D1-1F3FD-200D-1F373.svg";
-import idydZMqYwl from "/public/openmoji/1F9D1-1F3FD-200D-1F37C.svg";
-import tePEflNoKP from "/public/openmoji/1F9D1-1F3FD-200D-1F384.svg";
-import oHJPtDpuUD from "/public/openmoji/1F9D1-1F3FD-200D-1F393.svg";
-import bfLZdmLtAg from "/public/openmoji/1F9D1-1F3FD-200D-1F3A4.svg";
-import DbNAWhXmse from "/public/openmoji/1F9D1-1F3FD-200D-1F3A8.svg";
-import HJlCfuBUWq from "/public/openmoji/1F9D1-1F3FD-200D-1F3EB.svg";
-import hMkMGyBcqf from "/public/openmoji/1F9D1-1F3FD-200D-1F3ED.svg";
-import PSoEQSYVpB from "/public/openmoji/1F9D1-1F3FD-200D-1F4BB.svg";
-import vfGpVKNXEK from "/public/openmoji/1F9D1-1F3FD-200D-1F4BC.svg";
-import QvSTaEFXRj from "/public/openmoji/1F9D1-1F3FD-200D-1F527.svg";
-import rTAvGasGpp from "/public/openmoji/1F9D1-1F3FD-200D-1F52C.svg";
-import VurEUNwadz from "/public/openmoji/1F9D1-1F3FD-200D-1F680.svg";
-import NbbwqBXNUP from "/public/openmoji/1F9D1-1F3FD-200D-1F692.svg";
-import DpDeJZWqBH from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB.svg";
-import pjradwvxFr from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC.svg";
-import MvoBtoTDxt from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD.svg";
-import swWjtlQnXj from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE.svg";
-import oREbprOWLL from "/public/openmoji/1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF.svg";
-import xoIqFdYGCG from "/public/openmoji/1F9D1-1F3FD-200D-1F9AF.svg";
-import ArHpLNyYce from "/public/openmoji/1F9D1-1F3FD-200D-1F9B0.svg";
-import QkUjfeTEbe from "/public/openmoji/1F9D1-1F3FD-200D-1F9B1.svg";
-import UFRGuFWsQr from "/public/openmoji/1F9D1-1F3FD-200D-1F9B2.svg";
-import apmxUeFoyf from "/public/openmoji/1F9D1-1F3FD-200D-1F9B3.svg";
-import LZxWjswMGN from "/public/openmoji/1F9D1-1F3FD-200D-1F9BC.svg";
-import NKoczOpEAc from "/public/openmoji/1F9D1-1F3FD-200D-1F9BD.svg";
-import UNPckHXMeb from "/public/openmoji/1F9D1-1F3FD-200D-2695-FE0F.svg";
-import oSvjfCHUpl from "/public/openmoji/1F9D1-1F3FD-200D-2696-FE0F.svg";
-import NRotfkjKcp from "/public/openmoji/1F9D1-1F3FD-200D-2708-FE0F.svg";
-import RZcMJyzzHo from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
-import fpQKPbryWJ from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
-import uYYqqvHkWO from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
-import tfwcRNfspb from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
-import RvSIHucwmI from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
-import OtkUtdoIJY from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
-import jaMNxzZrUm from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
-import ApygJxWRxV from "/public/openmoji/1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
-import BqdXnCHqCx from "/public/openmoji/1F9D1-1F3FD.svg";
-import PGdadbcsim from "/public/openmoji/1F9D1-1F3FE-200D-1F33E.svg";
-import yiovBbGFbN from "/public/openmoji/1F9D1-1F3FE-200D-1F373.svg";
-import enHoozbJzl from "/public/openmoji/1F9D1-1F3FE-200D-1F37C.svg";
-import KOiIkKwqTS from "/public/openmoji/1F9D1-1F3FE-200D-1F384.svg";
-import lOFmpyMMeE from "/public/openmoji/1F9D1-1F3FE-200D-1F393.svg";
-import zQDpoZoQuY from "/public/openmoji/1F9D1-1F3FE-200D-1F3A4.svg";
-import aggJKulufp from "/public/openmoji/1F9D1-1F3FE-200D-1F3A8.svg";
-import SelEBvrbdP from "/public/openmoji/1F9D1-1F3FE-200D-1F3EB.svg";
-import MdqWviucpn from "/public/openmoji/1F9D1-1F3FE-200D-1F3ED.svg";
-import txqtCitiBh from "/public/openmoji/1F9D1-1F3FE-200D-1F4BB.svg";
-import ROQSnswHei from "/public/openmoji/1F9D1-1F3FE-200D-1F4BC.svg";
-import YFMTHXFgKZ from "/public/openmoji/1F9D1-1F3FE-200D-1F527.svg";
-import gYvapSKXNc from "/public/openmoji/1F9D1-1F3FE-200D-1F52C.svg";
-import lPpNimwEIR from "/public/openmoji/1F9D1-1F3FE-200D-1F680.svg";
-import yASmiOdJmj from "/public/openmoji/1F9D1-1F3FE-200D-1F692.svg";
-import WOsOyGZcLp from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB.svg";
-import HFIOmtkoFI from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC.svg";
-import HUqximQHez from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD.svg";
-import sjxIfaoaAY from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE.svg";
-import wVSQXWYKMe from "/public/openmoji/1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF.svg";
-import POvJdIXTrt from "/public/openmoji/1F9D1-1F3FE-200D-1F9AF.svg";
-import OQLDkewadz from "/public/openmoji/1F9D1-1F3FE-200D-1F9B0.svg";
-import UOZNBcRTCj from "/public/openmoji/1F9D1-1F3FE-200D-1F9B1.svg";
-import HKivMpfOrC from "/public/openmoji/1F9D1-1F3FE-200D-1F9B2.svg";
-import dfYsJnEDEn from "/public/openmoji/1F9D1-1F3FE-200D-1F9B3.svg";
-import iqvvHtlIMu from "/public/openmoji/1F9D1-1F3FE-200D-1F9BC.svg";
-import bxPHznZsss from "/public/openmoji/1F9D1-1F3FE-200D-1F9BD.svg";
-import ccSvIKWAub from "/public/openmoji/1F9D1-1F3FE-200D-2695-FE0F.svg";
-import emFlqNKoRY from "/public/openmoji/1F9D1-1F3FE-200D-2696-FE0F.svg";
-import HbBbSYNjnt from "/public/openmoji/1F9D1-1F3FE-200D-2708-FE0F.svg";
-import XoAFkodCTl from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
-import tQBbSxkigk from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
-import REWReetWjC from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
-import TxQLEsIzRZ from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF.svg";
-import fcoADoQtlH from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
-import pOtwzKUrBK from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
-import DZtEbYyPjr from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
-import GSBjQIXGPA from "/public/openmoji/1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FF.svg";
-import EGWSNJSlKy from "/public/openmoji/1F9D1-1F3FE.svg";
-import ylRlTuHcoW from "/public/openmoji/1F9D1-1F3FF-200D-1F33E.svg";
-import TWHaFNXpWv from "/public/openmoji/1F9D1-1F3FF-200D-1F373.svg";
-import GzVmNsLsbF from "/public/openmoji/1F9D1-1F3FF-200D-1F37C.svg";
-import HffQumzVPi from "/public/openmoji/1F9D1-1F3FF-200D-1F384.svg";
-import cRKAWumGbr from "/public/openmoji/1F9D1-1F3FF-200D-1F393.svg";
-import hobLlqTEgL from "/public/openmoji/1F9D1-1F3FF-200D-1F3A4.svg";
-import fYjoETdaQS from "/public/openmoji/1F9D1-1F3FF-200D-1F3A8.svg";
-import xrbxUSkvZc from "/public/openmoji/1F9D1-1F3FF-200D-1F3EB.svg";
-import hDVcisztiG from "/public/openmoji/1F9D1-1F3FF-200D-1F3ED.svg";
-import aDBvOvytHv from "/public/openmoji/1F9D1-1F3FF-200D-1F4BB.svg";
-import LkbYCZZHbW from "/public/openmoji/1F9D1-1F3FF-200D-1F4BC.svg";
-import BnaOXTpvEH from "/public/openmoji/1F9D1-1F3FF-200D-1F527.svg";
-import uRkBWqGPsW from "/public/openmoji/1F9D1-1F3FF-200D-1F52C.svg";
-import zEnlEQbKlQ from "/public/openmoji/1F9D1-1F3FF-200D-1F680.svg";
-import WMJXnOafVW from "/public/openmoji/1F9D1-1F3FF-200D-1F692.svg";
-import nhlGmzyDWl from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB.svg";
-import PwUOMOgrxo from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC.svg";
-import remToRTyjy from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD.svg";
-import HARJeodPUG from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE.svg";
-import kIJFJxkXtl from "/public/openmoji/1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF.svg";
-import rbYEIqFRBk from "/public/openmoji/1F9D1-1F3FF-200D-1F9AF.svg";
-import zaZnVpSDbo from "/public/openmoji/1F9D1-1F3FF-200D-1F9B0.svg";
-import zCUpPGgKun from "/public/openmoji/1F9D1-1F3FF-200D-1F9B1.svg";
-import deBsmAgCyR from "/public/openmoji/1F9D1-1F3FF-200D-1F9B2.svg";
-import biTjFrQQGa from "/public/openmoji/1F9D1-1F3FF-200D-1F9B3.svg";
-import ylnUSWkGcL from "/public/openmoji/1F9D1-1F3FF-200D-1F9BC.svg";
-import iWVBsArJDf from "/public/openmoji/1F9D1-1F3FF-200D-1F9BD.svg";
-import fISeEDCCDS from "/public/openmoji/1F9D1-1F3FF-200D-2695-FE0F.svg";
-import GkmPNBRDtm from "/public/openmoji/1F9D1-1F3FF-200D-2696-FE0F.svg";
-import ISzJWimkPz from "/public/openmoji/1F9D1-1F3FF-200D-2708-FE0F.svg";
-import gqAstpLEcP from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB.svg";
-import dfqzpChYwY from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC.svg";
-import YWqzyazunD from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD.svg";
-import pycCjmDxxS from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE.svg";
-import hKvZJhrroC from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FB.svg";
-import pcLVrbQomo from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FC.svg";
-import wJHmHQJrEV from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FD.svg";
-import ysjrGXSOrp from "/public/openmoji/1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FE.svg";
-import OPbviSgKyQ from "/public/openmoji/1F9D1-1F3FF.svg";
-import JCWqyUUhFf from "/public/openmoji/1F9D1-200D-1F33E.svg";
-import IsXlIQCrba from "/public/openmoji/1F9D1-200D-1F373.svg";
-import oKUCxPNERC from "/public/openmoji/1F9D1-200D-1F37C.svg";
-import yrUatTWHGC from "/public/openmoji/1F9D1-200D-1F384.svg";
-import qNdIDSIKMU from "/public/openmoji/1F9D1-200D-1F393.svg";
-import MHZndZoxih from "/public/openmoji/1F9D1-200D-1F3A4.svg";
-import qzCaVaHRFj from "/public/openmoji/1F9D1-200D-1F3A8.svg";
-import dshAcpfvGy from "/public/openmoji/1F9D1-200D-1F3EB.svg";
-import TESBIgimBy from "/public/openmoji/1F9D1-200D-1F3ED.svg";
-import OCMyjrxPhC from "/public/openmoji/1F9D1-200D-1F4BB.svg";
-import vBOgddYJPP from "/public/openmoji/1F9D1-200D-1F4BC.svg";
-import HibqlzBWcD from "/public/openmoji/1F9D1-200D-1F527.svg";
-import xpBBRrybud from "/public/openmoji/1F9D1-200D-1F52C.svg";
-import JzUIvccvrA from "/public/openmoji/1F9D1-200D-1F680.svg";
-import qxwHlyAClI from "/public/openmoji/1F9D1-200D-1F692.svg";
-import GkpYtmwcPZ from "/public/openmoji/1F9D1-200D-1F91D-200D-1F9D1.svg";
-import oLlfWBlwVQ from "/public/openmoji/1F9D1-200D-1F9AF.svg";
-import iPDKbrmSkb from "/public/openmoji/1F9D1-200D-1F9B0.svg";
-import SldLtogilc from "/public/openmoji/1F9D1-200D-1F9B1.svg";
-import ackYwUmOUb from "/public/openmoji/1F9D1-200D-1F9B2.svg";
-import ANpMPMATBo from "/public/openmoji/1F9D1-200D-1F9B3.svg";
-import AqmobxlhDJ from "/public/openmoji/1F9D1-200D-1F9BC.svg";
-import GhAPRHOvdD from "/public/openmoji/1F9D1-200D-1F9BD.svg";
-import xMKmkGFVye from "/public/openmoji/1F9D1-200D-1FAA9.svg";
-import RQWHjHvsxI from "/public/openmoji/1F9D1-200D-2695-FE0F.svg";
-import NLuWTfGhSL from "/public/openmoji/1F9D1-200D-2696-FE0F.svg";
-import MAzQxuGxzN from "/public/openmoji/1F9D1-200D-2708-FE0F.svg";
-import ZwXylalYqQ from "/public/openmoji/1F9D1.svg";
-import DboFQdwoGf from "/public/openmoji/1F9D2-1F3FB.svg";
-import XyzadnWgEq from "/public/openmoji/1F9D2-1F3FC.svg";
-import PFgLcmJTOa from "/public/openmoji/1F9D2-1F3FD.svg";
-import edZIpXnLhh from "/public/openmoji/1F9D2-1F3FE.svg";
-import DrHzgATbDC from "/public/openmoji/1F9D2-1F3FF.svg";
-import tzIklswQbZ from "/public/openmoji/1F9D2.svg";
-import icNBrSQbTx from "/public/openmoji/1F9D3-1F3FB.svg";
-import VcClrpqily from "/public/openmoji/1F9D3-1F3FC.svg";
-import iLKRtEnzvy from "/public/openmoji/1F9D3-1F3FD.svg";
-import PAywLFlwsY from "/public/openmoji/1F9D3-1F3FE.svg";
-import GkYvKmnGbn from "/public/openmoji/1F9D3-1F3FF.svg";
-import FDLnzPYOgi from "/public/openmoji/1F9D3.svg";
-import InpyedUuFP from "/public/openmoji/1F9D4-1F3FB-200D-2640-FE0F.svg";
-import WOkwHLGaPU from "/public/openmoji/1F9D4-1F3FB-200D-2642-FE0F.svg";
-import RGIIIpOiFz from "/public/openmoji/1F9D4-1F3FB.svg";
-import EHeObTKKOD from "/public/openmoji/1F9D4-1F3FC-200D-2640-FE0F.svg";
-import CEbskpJaVY from "/public/openmoji/1F9D4-1F3FC-200D-2642-FE0F.svg";
-import cgAnWvgUQH from "/public/openmoji/1F9D4-1F3FC.svg";
-import njGPBPfanm from "/public/openmoji/1F9D4-1F3FD-200D-2640-FE0F.svg";
-import goONddicuU from "/public/openmoji/1F9D4-1F3FD-200D-2642-FE0F.svg";
-import roSHGNbkOg from "/public/openmoji/1F9D4-1F3FD.svg";
-import cHRGrGgPkl from "/public/openmoji/1F9D4-1F3FE-200D-2640-FE0F.svg";
-import KQNTUcPWod from "/public/openmoji/1F9D4-1F3FE-200D-2642-FE0F.svg";
-import SYxgpuNqBt from "/public/openmoji/1F9D4-1F3FE.svg";
-import cMFggsbpGr from "/public/openmoji/1F9D4-1F3FF-200D-2640-FE0F.svg";
-import YTRdCvTEPJ from "/public/openmoji/1F9D4-1F3FF-200D-2642-FE0F.svg";
-import uJFbBTsZpx from "/public/openmoji/1F9D4-1F3FF.svg";
-import zpEHnlYexf from "/public/openmoji/1F9D4-200D-2640-FE0F.svg";
-import QgYzamJvoa from "/public/openmoji/1F9D4-200D-2642-FE0F.svg";
-import jBvvlggwte from "/public/openmoji/1F9D4.svg";
-import nItoBCwryX from "/public/openmoji/1F9D5-1F3FB.svg";
-import iXioBZPdDv from "/public/openmoji/1F9D5-1F3FC.svg";
-import NTMGPKfLAp from "/public/openmoji/1F9D5-1F3FD.svg";
-import WozhLbktGD from "/public/openmoji/1F9D5-1F3FE.svg";
-import tLIhiAlTGY from "/public/openmoji/1F9D5-1F3FF.svg";
-import pFcccGuXAi from "/public/openmoji/1F9D5.svg";
-import GWARijGVPi from "/public/openmoji/1F9D6-1F3FB-200D-2640-FE0F.svg";
-import fsgmtVNXic from "/public/openmoji/1F9D6-1F3FB-200D-2642-FE0F.svg";
-import clYUzoWJMr from "/public/openmoji/1F9D6-1F3FB.svg";
-import aVjzxUVdib from "/public/openmoji/1F9D6-1F3FC-200D-2640-FE0F.svg";
-import pakcKQQmjg from "/public/openmoji/1F9D6-1F3FC-200D-2642-FE0F.svg";
-import aFooxzocjs from "/public/openmoji/1F9D6-1F3FC.svg";
-import RfyEOKOijG from "/public/openmoji/1F9D6-1F3FD-200D-2640-FE0F.svg";
-import SZwzPqXtPT from "/public/openmoji/1F9D6-1F3FD-200D-2642-FE0F.svg";
-import eMyxxfqJoK from "/public/openmoji/1F9D6-1F3FD.svg";
-import boKfoJYhVq from "/public/openmoji/1F9D6-1F3FE-200D-2640-FE0F.svg";
-import MZuuTyqYAa from "/public/openmoji/1F9D6-1F3FE-200D-2642-FE0F.svg";
-import SnMOhcyMQn from "/public/openmoji/1F9D6-1F3FE.svg";
-import vPWNbcEhIk from "/public/openmoji/1F9D6-1F3FF-200D-2640-FE0F.svg";
-import bZeRowmiIK from "/public/openmoji/1F9D6-1F3FF-200D-2642-FE0F.svg";
-import GpUhReNjRT from "/public/openmoji/1F9D6-1F3FF.svg";
-import ydRFMppXnX from "/public/openmoji/1F9D6-200D-2640-FE0F.svg";
-import sZRBisMdzA from "/public/openmoji/1F9D6-200D-2642-FE0F.svg";
-import IYJhMgVhyl from "/public/openmoji/1F9D6.svg";
-import EkUaTgRQRG from "/public/openmoji/1F9D7-1F3FB-200D-2640-FE0F.svg";
-import PstKCiYsNk from "/public/openmoji/1F9D7-1F3FB-200D-2642-FE0F.svg";
-import TtVQcFiNQC from "/public/openmoji/1F9D7-1F3FB.svg";
-import jUzTuZkOvw from "/public/openmoji/1F9D7-1F3FC-200D-2640-FE0F.svg";
-import ayifFNBCRk from "/public/openmoji/1F9D7-1F3FC-200D-2642-FE0F.svg";
-import PuEwTJijNw from "/public/openmoji/1F9D7-1F3FC.svg";
-import SSYFEfBfge from "/public/openmoji/1F9D7-1F3FD-200D-2640-FE0F.svg";
-import wQrMerFYGm from "/public/openmoji/1F9D7-1F3FD-200D-2642-FE0F.svg";
-import iwNVfsQyYW from "/public/openmoji/1F9D7-1F3FD.svg";
-import nISoDpmXbN from "/public/openmoji/1F9D7-1F3FE-200D-2640-FE0F.svg";
-import ESnfTqtBAq from "/public/openmoji/1F9D7-1F3FE-200D-2642-FE0F.svg";
-import boeTOZQjGO from "/public/openmoji/1F9D7-1F3FE.svg";
-import TAWcdhVdEQ from "/public/openmoji/1F9D7-1F3FF-200D-2640-FE0F.svg";
-import SomlWbsCQc from "/public/openmoji/1F9D7-1F3FF-200D-2642-FE0F.svg";
-import XnwwrPJxze from "/public/openmoji/1F9D7-1F3FF.svg";
-import dKaAZrDRnL from "/public/openmoji/1F9D7-200D-2640-FE0F.svg";
-import RiZpPOBkOP from "/public/openmoji/1F9D7-200D-2642-FE0F.svg";
-import qnXiTxnxPX from "/public/openmoji/1F9D7.svg";
-import oiSGqpojgd from "/public/openmoji/1F9D8-1F3FB-200D-2640-FE0F.svg";
-import APcTiqRwGf from "/public/openmoji/1F9D8-1F3FB-200D-2642-FE0F.svg";
-import FGaAUJlanB from "/public/openmoji/1F9D8-1F3FB.svg";
-import JrZWVWpkML from "/public/openmoji/1F9D8-1F3FC-200D-2640-FE0F.svg";
-import pFjdgYXNyU from "/public/openmoji/1F9D8-1F3FC-200D-2642-FE0F.svg";
-import llXxAPPYno from "/public/openmoji/1F9D8-1F3FC.svg";
-import cReWaQGKbB from "/public/openmoji/1F9D8-1F3FD-200D-2640-FE0F.svg";
-import lLHPVqqdYc from "/public/openmoji/1F9D8-1F3FD-200D-2642-FE0F.svg";
-import xYJbUHcUOr from "/public/openmoji/1F9D8-1F3FD.svg";
-import DcPLpPImdS from "/public/openmoji/1F9D8-1F3FE-200D-2640-FE0F.svg";
-import WopMTEktbj from "/public/openmoji/1F9D8-1F3FE-200D-2642-FE0F.svg";
-import ixJWFkSMNN from "/public/openmoji/1F9D8-1F3FE.svg";
-import WKTenEIywP from "/public/openmoji/1F9D8-1F3FF-200D-2640-FE0F.svg";
-import aHEHuChWfj from "/public/openmoji/1F9D8-1F3FF-200D-2642-FE0F.svg";
-import RSgFnyOUuz from "/public/openmoji/1F9D8-1F3FF.svg";
-import fvpDbzqbfG from "/public/openmoji/1F9D8-200D-2640-FE0F.svg";
-import RBHrxrSNOK from "/public/openmoji/1F9D8-200D-2642-FE0F.svg";
-import SYiXJiJkzk from "/public/openmoji/1F9D8.svg";
-import IdyHUdvYXb from "/public/openmoji/1F9D9-1F3FB-200D-2640-FE0F.svg";
-import lMKmKUMneQ from "/public/openmoji/1F9D9-1F3FB-200D-2642-FE0F.svg";
-import qHaOPdWalT from "/public/openmoji/1F9D9-1F3FB.svg";
-import mnTEmcbGzH from "/public/openmoji/1F9D9-1F3FC-200D-2640-FE0F.svg";
-import wWVHpssjLe from "/public/openmoji/1F9D9-1F3FC-200D-2642-FE0F.svg";
-import hPEHjklamm from "/public/openmoji/1F9D9-1F3FC.svg";
-import eFbGYZyjXg from "/public/openmoji/1F9D9-1F3FD-200D-2640-FE0F.svg";
-import pgddzHTEOA from "/public/openmoji/1F9D9-1F3FD-200D-2642-FE0F.svg";
-import ZFxOOaSLRN from "/public/openmoji/1F9D9-1F3FD.svg";
-import XgmVhVQSgu from "/public/openmoji/1F9D9-1F3FE-200D-2640-FE0F.svg";
-import nahrObHFtH from "/public/openmoji/1F9D9-1F3FE-200D-2642-FE0F.svg";
-import wVHGTtutve from "/public/openmoji/1F9D9-1F3FE.svg";
-import eJSUGSDOSI from "/public/openmoji/1F9D9-1F3FF-200D-2640-FE0F.svg";
-import KxQzQbYJrj from "/public/openmoji/1F9D9-1F3FF-200D-2642-FE0F.svg";
-import idNSAaejwE from "/public/openmoji/1F9D9-1F3FF.svg";
-import ebDsbHaFng from "/public/openmoji/1F9D9-200D-2640-FE0F.svg";
-import QjVlVmfTFH from "/public/openmoji/1F9D9-200D-2642-FE0F.svg";
-import tximIzvspz from "/public/openmoji/1F9D9.svg";
-import gjZgUYAapG from "/public/openmoji/1F9DA-1F3FB-200D-2640-FE0F.svg";
-import OTnqTZQcAA from "/public/openmoji/1F9DA-1F3FB-200D-2642-FE0F.svg";
-import iDqekNmaym from "/public/openmoji/1F9DA-1F3FB.svg";
-import hWNYOisdSK from "/public/openmoji/1F9DA-1F3FC-200D-2640-FE0F.svg";
-import KuZqZoVLgM from "/public/openmoji/1F9DA-1F3FC-200D-2642-FE0F.svg";
-import OYajJzqFUc from "/public/openmoji/1F9DA-1F3FC.svg";
-import fGHshuiTMk from "/public/openmoji/1F9DA-1F3FD-200D-2640-FE0F.svg";
-import wHcixYIuIH from "/public/openmoji/1F9DA-1F3FD-200D-2642-FE0F.svg";
-import qtMbjUxPnH from "/public/openmoji/1F9DA-1F3FD.svg";
-import aXGUgJXUWT from "/public/openmoji/1F9DA-1F3FE-200D-2640-FE0F.svg";
-import QXZlmDZBbD from "/public/openmoji/1F9DA-1F3FE-200D-2642-FE0F.svg";
-import vPLQOvvtoN from "/public/openmoji/1F9DA-1F3FE.svg";
-import emZXSEPirG from "/public/openmoji/1F9DA-1F3FF-200D-2640-FE0F.svg";
-import sPdukSqWaY from "/public/openmoji/1F9DA-1F3FF-200D-2642-FE0F.svg";
-import koaVjiDhjM from "/public/openmoji/1F9DA-1F3FF.svg";
-import TRgIypZUvN from "/public/openmoji/1F9DA-200D-2640-FE0F.svg";
-import JEQNFhunEr from "/public/openmoji/1F9DA-200D-2642-FE0F.svg";
-import nBUGUYqcDm from "/public/openmoji/1F9DA.svg";
-import ehtOukSGJL from "/public/openmoji/1F9DB-1F3FB-200D-2640-FE0F.svg";
-import bMBUEczDAz from "/public/openmoji/1F9DB-1F3FB-200D-2642-FE0F.svg";
-import hCfuXbPvis from "/public/openmoji/1F9DB-1F3FB.svg";
-import ATYwLZYYTA from "/public/openmoji/1F9DB-1F3FC-200D-2640-FE0F.svg";
-import tyftTskJMU from "/public/openmoji/1F9DB-1F3FC-200D-2642-FE0F.svg";
-import saojKFhAeW from "/public/openmoji/1F9DB-1F3FC.svg";
-import KfcxaqsBiN from "/public/openmoji/1F9DB-1F3FD-200D-2640-FE0F.svg";
-import pPXqtEWqFV from "/public/openmoji/1F9DB-1F3FD-200D-2642-FE0F.svg";
-import VEYglVbLQc from "/public/openmoji/1F9DB-1F3FD.svg";
-import PYQYbzeocK from "/public/openmoji/1F9DB-1F3FE-200D-2640-FE0F.svg";
-import SaKauwKzzD from "/public/openmoji/1F9DB-1F3FE-200D-2642-FE0F.svg";
-import kPYLKQKrOr from "/public/openmoji/1F9DB-1F3FE.svg";
-import HqOIbPWeVC from "/public/openmoji/1F9DB-1F3FF-200D-2640-FE0F.svg";
-import IZWXGFcZoG from "/public/openmoji/1F9DB-1F3FF-200D-2642-FE0F.svg";
-import qeYAotldAq from "/public/openmoji/1F9DB-1F3FF.svg";
-import EqtBKVsDys from "/public/openmoji/1F9DB-200D-2640-FE0F.svg";
-import YpuIkIuPFy from "/public/openmoji/1F9DB-200D-2642-FE0F.svg";
-import jXJeWLniJj from "/public/openmoji/1F9DB.svg";
-import bhacvmvCKY from "/public/openmoji/1F9DC-1F3FB-200D-2640-FE0F.svg";
-import VxffbEippU from "/public/openmoji/1F9DC-1F3FB-200D-2642-FE0F.svg";
-import PYOOkhjUdv from "/public/openmoji/1F9DC-1F3FB.svg";
-import XIaheCKMdC from "/public/openmoji/1F9DC-1F3FC-200D-2640-FE0F.svg";
-import muEBHxjbsR from "/public/openmoji/1F9DC-1F3FC-200D-2642-FE0F.svg";
-import loNmGQMHqD from "/public/openmoji/1F9DC-1F3FC.svg";
-import SUkMMZmNPs from "/public/openmoji/1F9DC-1F3FD-200D-2640-FE0F.svg";
-import mRrrOeqTwu from "/public/openmoji/1F9DC-1F3FD-200D-2642-FE0F.svg";
-import qnYQOEyaDS from "/public/openmoji/1F9DC-1F3FD.svg";
-import UKgOfKOWBL from "/public/openmoji/1F9DC-1F3FE-200D-2640-FE0F.svg";
-import cwaqAxNqeN from "/public/openmoji/1F9DC-1F3FE-200D-2642-FE0F.svg";
-import FKxZidDmis from "/public/openmoji/1F9DC-1F3FE.svg";
-import KQOHVLjuoR from "/public/openmoji/1F9DC-1F3FF-200D-2640-FE0F.svg";
-import suehMSzlHn from "/public/openmoji/1F9DC-1F3FF-200D-2642-FE0F.svg";
-import YtVhsRcXSf from "/public/openmoji/1F9DC-1F3FF.svg";
-import bHApQeIYHU from "/public/openmoji/1F9DC-200D-2640-FE0F.svg";
-import uHgpnvQhtH from "/public/openmoji/1F9DC-200D-2642-FE0F.svg";
-import dDSAaPtXEZ from "/public/openmoji/1F9DC.svg";
-import HNqXhcLAHN from "/public/openmoji/1F9DD-1F3FB-200D-2640-FE0F.svg";
-import TioffbbUcO from "/public/openmoji/1F9DD-1F3FB-200D-2642-FE0F.svg";
-import JiiErfnVhM from "/public/openmoji/1F9DD-1F3FB.svg";
-import vkvqbJOifw from "/public/openmoji/1F9DD-1F3FC-200D-2640-FE0F.svg";
-import NuGbjOwayV from "/public/openmoji/1F9DD-1F3FC-200D-2642-FE0F.svg";
-import VbaOEyhnqd from "/public/openmoji/1F9DD-1F3FC.svg";
-import jrSjkRxRmZ from "/public/openmoji/1F9DD-1F3FD-200D-2640-FE0F.svg";
-import fdOOxxktPl from "/public/openmoji/1F9DD-1F3FD-200D-2642-FE0F.svg";
-import WXWNQmcSLb from "/public/openmoji/1F9DD-1F3FD.svg";
-import NKhjWNcIJS from "/public/openmoji/1F9DD-1F3FE-200D-2640-FE0F.svg";
-import YeOYSzjcdB from "/public/openmoji/1F9DD-1F3FE-200D-2642-FE0F.svg";
-import NlrgtPmOQu from "/public/openmoji/1F9DD-1F3FE.svg";
-import ZjoLTbAOSb from "/public/openmoji/1F9DD-1F3FF-200D-2640-FE0F.svg";
-import IHtAsJgzeF from "/public/openmoji/1F9DD-1F3FF-200D-2642-FE0F.svg";
-import dSguTEPgCD from "/public/openmoji/1F9DD-1F3FF.svg";
-import uxjvfuWgGC from "/public/openmoji/1F9DD-200D-2640-FE0F.svg";
-import EZYRYvcBeH from "/public/openmoji/1F9DD-200D-2642-FE0F.svg";
-import cWZitYJuwf from "/public/openmoji/1F9DD.svg";
-import FweWnUVMZD from "/public/openmoji/1F9DE-200D-2640-FE0F.svg";
-import WOLTULSzXo from "/public/openmoji/1F9DE-200D-2642-FE0F.svg";
-import PjakDfaQyz from "/public/openmoji/1F9DE.svg";
-import qCBlhqQchm from "/public/openmoji/1F9DF-200D-2640-FE0F.svg";
-import koiMDjyMXX from "/public/openmoji/1F9DF-200D-2642-FE0F.svg";
-import JbQeVLjHUZ from "/public/openmoji/1F9DF.svg";
-import fFrtYXCaAg from "/public/openmoji/1F9E0.svg";
-import xZQtKFUNGx from "/public/openmoji/1F9E1.svg";
-import limeUeJIyi from "/public/openmoji/1F9E2.svg";
-import CgSjHvUZHz from "/public/openmoji/1F9E3.svg";
-import FwqcrqVXRA from "/public/openmoji/1F9E4.svg";
-import qQnDrrPPda from "/public/openmoji/1F9E5.svg";
-import QymGfBnEKq from "/public/openmoji/1F9E6.svg";
-import oitMlKXeKQ from "/public/openmoji/1F9E7.svg";
-import pDAZlubXKu from "/public/openmoji/1F9E8.svg";
-import juZQxQEPZe from "/public/openmoji/1F9E9.svg";
-import KkbiedsEyr from "/public/openmoji/1F9EA.svg";
-import gVOfokpVaR from "/public/openmoji/1F9EB.svg";
-import FgXewtFzts from "/public/openmoji/1F9EC.svg";
-import BkciGEvqwR from "/public/openmoji/1F9ED.svg";
-import QybRFgGTcM from "/public/openmoji/1F9EE.svg";
-import YNSOZiTTSo from "/public/openmoji/1F9EF.svg";
-import GDHIUhEnPx from "/public/openmoji/1F9F0.svg";
-import JdaWNcPJQH from "/public/openmoji/1F9F1.svg";
-import RIpjdLcvcO from "/public/openmoji/1F9F2.svg";
-import xEwuxCUctC from "/public/openmoji/1F9F3.svg";
-import cWjNuOiWiK from "/public/openmoji/1F9F4.svg";
-import EQlWBxRFda from "/public/openmoji/1F9F5.svg";
-import mSCnPbKCPN from "/public/openmoji/1F9F6.svg";
-import EZekrMwwuh from "/public/openmoji/1F9F7.svg";
-import AtWLliJWuu from "/public/openmoji/1F9F8.svg";
-import TRCtPCCzvE from "/public/openmoji/1F9F9.svg";
-import GrfokvIecH from "/public/openmoji/1F9FA.svg";
-import PlqQqKOluR from "/public/openmoji/1F9FB.svg";
-import GPsSIKveEK from "/public/openmoji/1F9FC.svg";
-import pYoiCPoowB from "/public/openmoji/1F9FD.svg";
-import KpKIrLmRSS from "/public/openmoji/1F9FE.svg";
-import gPzurVBZQz from "/public/openmoji/1F9FF.svg";
-import XcxDGQvHUb from "/public/openmoji/1FA70.svg";
-import xQYewYfGzu from "/public/openmoji/1FA71.svg";
-import OGNEgPHVtK from "/public/openmoji/1FA72.svg";
-import MKNOJKRlVu from "/public/openmoji/1FA73.svg";
-import YiChipnezB from "/public/openmoji/1FA74.svg";
-import mwzUrJGFIa from "/public/openmoji/1FA75.svg";
-import neANDdaSMh from "/public/openmoji/1FA76.svg";
-import EQGWCxWiFt from "/public/openmoji/1FA77.svg";
-import ZRFNVzHezM from "/public/openmoji/1FA78.svg";
-import vgFUhXNqVr from "/public/openmoji/1FA79.svg";
-import ZXajAieupO from "/public/openmoji/1FA7A.svg";
-import gKvhsTwvSi from "/public/openmoji/1FA7B.svg";
-import SIIKjlKRPQ from "/public/openmoji/1FA7C.svg";
-import dGlsWzEMOK from "/public/openmoji/1FA80.svg";
-import svizKLRkzM from "/public/openmoji/1FA81.svg";
-import KxeKodYesT from "/public/openmoji/1FA82.svg";
-import nhRCiPyphd from "/public/openmoji/1FA83.svg";
-import wEtfkdMIHQ from "/public/openmoji/1FA84.svg";
-import CzGsZtIWaB from "/public/openmoji/1FA85.svg";
-import UlwlHwPuNt from "/public/openmoji/1FA86.svg";
-import xPYzthdZgi from "/public/openmoji/1FA87.svg";
-import aGaWAmKPRt from "/public/openmoji/1FA88.svg";
-import mYMjTMvmxs from "/public/openmoji/1FA90.svg";
-import nnyyJNDmHb from "/public/openmoji/1FA91.svg";
-import ZrzKbQeHEU from "/public/openmoji/1FA92.svg";
-import qOIQJtkAoP from "/public/openmoji/1FA93.svg";
-import dxrnVmkOvt from "/public/openmoji/1FA94.svg";
-import ifBIxXyQzu from "/public/openmoji/1FA95.svg";
-import gSnEptvtna from "/public/openmoji/1FA96.svg";
-import atroxsxSfN from "/public/openmoji/1FA97.svg";
-import QvGGNwVmCb from "/public/openmoji/1FA98.svg";
-import xBkRnmITHo from "/public/openmoji/1FA99.svg";
-import xzVrUPvfuC from "/public/openmoji/1FA9A.svg";
-import eODLoRqWeD from "/public/openmoji/1FA9B.svg";
-import kNryDxKIMV from "/public/openmoji/1FA9C.svg";
-import deROgTQhug from "/public/openmoji/1FA9D.svg";
-import jFfOHgHXpI from "/public/openmoji/1FA9E.svg";
-import yMszYYpQuq from "/public/openmoji/1FA9F.svg";
-import OwwcgOhVAt from "/public/openmoji/1FAA0.svg";
-import bQlxPvcoDz from "/public/openmoji/1FAA1.svg";
-import hqGgzVHPgX from "/public/openmoji/1FAA2.svg";
-import wELcGOhVdK from "/public/openmoji/1FAA3.svg";
-import OZwMfevLzN from "/public/openmoji/1FAA4.svg";
-import kpzygopzPb from "/public/openmoji/1FAA5.svg";
-import IunAqDYueh from "/public/openmoji/1FAA6.svg";
-import cUWIYKdBaS from "/public/openmoji/1FAA7.svg";
-import PStHkuZVEo from "/public/openmoji/1FAA8.svg";
-import IYDIPWzgWY from "/public/openmoji/1FAA9.svg";
-import QwWFgnoFPI from "/public/openmoji/1FAAA.svg";
-import aEUyqEzSQV from "/public/openmoji/1FAAB.svg";
-import ECQXJkrxhh from "/public/openmoji/1FAAC.svg";
-import agPsYUzJUu from "/public/openmoji/1FAAD.svg";
-import CGCtOkBCxv from "/public/openmoji/1FAAE.svg";
-import OlbnKZSTKz from "/public/openmoji/1FAAF.svg";
-import VWpYdnQyxe from "/public/openmoji/1FAB0.svg";
-import dmZyAmApVg from "/public/openmoji/1FAB1.svg";
-import lOmnrLgnTY from "/public/openmoji/1FAB2.svg";
-import ERhPtXHrXE from "/public/openmoji/1FAB3.svg";
-import hrTvwbYuRz from "/public/openmoji/1FAB4.svg";
-import FLJeDKkATF from "/public/openmoji/1FAB5.svg";
-import DBhnjJJQJR from "/public/openmoji/1FAB6.svg";
-import WRfusEabpA from "/public/openmoji/1FAB7.svg";
-import NFWjwyOilH from "/public/openmoji/1FAB8.svg";
-import LOVJaOJKQo from "/public/openmoji/1FAB9.svg";
-import SIOTYTfAIK from "/public/openmoji/1FABA.svg";
-import PtdeFSNrgp from "/public/openmoji/1FABB.svg";
-import gyIEoBwVjO from "/public/openmoji/1FABC.svg";
-import kxWfSobZuI from "/public/openmoji/1FABD.svg";
-import zNMDEJZDDi from "/public/openmoji/1FABF.svg";
-import CEdLNdkjhY from "/public/openmoji/1FAC0.svg";
-import oSfRrxWcYU from "/public/openmoji/1FAC1.svg";
-import EnCCLBiKyb from "/public/openmoji/1FAC2.svg";
-import KJbWOdhJoT from "/public/openmoji/1FAC3-1F3FB.svg";
-import PZxOEXUVSd from "/public/openmoji/1FAC3-1F3FC.svg";
-import HUaiMqVMbZ from "/public/openmoji/1FAC3-1F3FD.svg";
-import CtFhDCFscv from "/public/openmoji/1FAC3-1F3FE.svg";
-import EmhkuppZMi from "/public/openmoji/1FAC3-1F3FF.svg";
-import MBvTdVLmCn from "/public/openmoji/1FAC3.svg";
-import RdiyaZkCJL from "/public/openmoji/1FAC4-1F3FB.svg";
-import NXNZyxoMCN from "/public/openmoji/1FAC4-1F3FC.svg";
-import GxIDrqYRTf from "/public/openmoji/1FAC4-1F3FD.svg";
-import BfYMclwGqK from "/public/openmoji/1FAC4-1F3FE.svg";
-import OmWZEtemsN from "/public/openmoji/1FAC4-1F3FF.svg";
-import mqTBQBbKaj from "/public/openmoji/1FAC4.svg";
-import yIDeYxkisk from "/public/openmoji/1FAC5-1F3FB.svg";
-import ruMaYZAdga from "/public/openmoji/1FAC5-1F3FC.svg";
-import iaRGnLQaeH from "/public/openmoji/1FAC5-1F3FD.svg";
-import CXyJPXrFNI from "/public/openmoji/1FAC5-1F3FE.svg";
-import uwxGQvFOeR from "/public/openmoji/1FAC5-1F3FF.svg";
-import RROswprAmZ from "/public/openmoji/1FAC5.svg";
-import SqCRerwmGj from "/public/openmoji/1FACE.svg";
-import XXGVyPxppy from "/public/openmoji/1FACF.svg";
-import sbugOccQsD from "/public/openmoji/1FAD0.svg";
-import GdRLCACSMv from "/public/openmoji/1FAD1.svg";
-import toEySbBhrf from "/public/openmoji/1FAD2.svg";
-import LypPAffRnQ from "/public/openmoji/1FAD3.svg";
-import GoZZQtwUco from "/public/openmoji/1FAD4.svg";
-import SoWJEcZshE from "/public/openmoji/1FAD5.svg";
-import BsVyLiZNzT from "/public/openmoji/1FAD6.svg";
-import lGUhRRQJNC from "/public/openmoji/1FAD7.svg";
-import rReKMRjOJP from "/public/openmoji/1FAD8.svg";
-import LmAuoFuIzY from "/public/openmoji/1FAD9-200D-1F7E5.svg";
-import ntKcNZOGeF from "/public/openmoji/1FAD9-200D-1F7E6.svg";
-import jvjVCiSdbO from "/public/openmoji/1FAD9-200D-1F7E7.svg";
-import zWGFButVwN from "/public/openmoji/1FAD9-200D-1F7E8.svg";
-import nwSDouyPkV from "/public/openmoji/1FAD9-200D-1F7E9.svg";
-import CIkBYuInbf from "/public/openmoji/1FAD9-200D-1F7EA.svg";
-import lAPCoEwPeE from "/public/openmoji/1FAD9-200D-1F7EB.svg";
-import JkwmnmHmIG from "/public/openmoji/1FAD9.svg";
-import FSNTNYvWHT from "/public/openmoji/1FADA.svg";
-import CCbweKdTcU from "/public/openmoji/1FADB.svg";
-import CSxHbzGZlk from "/public/openmoji/1FAE0.svg";
-import JCWfGmxHnR from "/public/openmoji/1FAE1.svg";
-import AwazCnTeYo from "/public/openmoji/1FAE2.svg";
-import PXAIHFvWRK from "/public/openmoji/1FAE3.svg";
-import CCBDvLcRoD from "/public/openmoji/1FAE4.svg";
-import aacRuPoXGW from "/public/openmoji/1FAE5.svg";
-import wGOEhqqELb from "/public/openmoji/1FAE6.svg";
-import kkxClEFdkf from "/public/openmoji/1FAE7.svg";
-import lYiivGRowa from "/public/openmoji/1FAE8.svg";
-import jrhQLqpyfv from "/public/openmoji/1FAF0-1F3FB.svg";
-import ttxZArwtbc from "/public/openmoji/1FAF0-1F3FC.svg";
-import ridUIMqjCU from "/public/openmoji/1FAF0-1F3FD.svg";
-import nOkNKCsney from "/public/openmoji/1FAF0-1F3FE.svg";
-import iZhRartxOr from "/public/openmoji/1FAF0-1F3FF.svg";
-import CLuBLvSguR from "/public/openmoji/1FAF0.svg";
-import gGVwZxICSh from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FC.svg";
-import lrDCdDfqga from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FD.svg";
-import bSXtuEFOVK from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FE.svg";
-import lyRXWQSrBQ from "/public/openmoji/1FAF1-1F3FB-200D-1FAF2-1F3FF.svg";
-import nTClBOIRYK from "/public/openmoji/1FAF1-1F3FB.svg";
-import RSxlZyufnT from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FB.svg";
-import MqRNGqBWKw from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FD.svg";
-import BcuLKKwxkG from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FE.svg";
-import jjluxBxwMz from "/public/openmoji/1FAF1-1F3FC-200D-1FAF2-1F3FF.svg";
-import fwzoHJlsHK from "/public/openmoji/1FAF1-1F3FC.svg";
-import OqKQtOfwbo from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FB.svg";
-import MrGCeTTSsz from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FC.svg";
-import SDVIWxXJvS from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FE.svg";
-import sPNNoFrVFe from "/public/openmoji/1FAF1-1F3FD-200D-1FAF2-1F3FF.svg";
-import qkkygJJlAi from "/public/openmoji/1FAF1-1F3FD.svg";
-import DqhcEDueEG from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FB.svg";
-import AekNFCwzbK from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FC.svg";
-import pbZMeOBQJY from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FD.svg";
-import CRKWfSkebe from "/public/openmoji/1FAF1-1F3FE-200D-1FAF2-1F3FF.svg";
-import MClqIbZCmr from "/public/openmoji/1FAF1-1F3FE.svg";
-import ZtAQdAnsTF from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FB.svg";
-import llKYUTevqO from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FC.svg";
-import hhTheWpHLS from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FD.svg";
-import xZLhjYRgem from "/public/openmoji/1FAF1-1F3FF-200D-1FAF2-1F3FE.svg";
-import cGjLHgIUgS from "/public/openmoji/1FAF1-1F3FF.svg";
-import OKCkrNkJEk from "/public/openmoji/1FAF1.svg";
-import jValglNUNn from "/public/openmoji/1FAF2-1F3FB.svg";
-import xGnVJmTLvO from "/public/openmoji/1FAF2-1F3FC.svg";
-import agAojKraFK from "/public/openmoji/1FAF2-1F3FD.svg";
-import TXPsNIZRVI from "/public/openmoji/1FAF2-1F3FE.svg";
-import VeYBlVbfat from "/public/openmoji/1FAF2-1F3FF.svg";
-import pNRVdCnkTR from "/public/openmoji/1FAF2.svg";
-import rQiMsTYWVE from "/public/openmoji/1FAF3-1F3FB.svg";
-import PxoqbdSdZr from "/public/openmoji/1FAF3-1F3FC.svg";
-import oUOuqeJTQD from "/public/openmoji/1FAF3-1F3FD.svg";
-import efDDKVuzJK from "/public/openmoji/1FAF3-1F3FE.svg";
-import gXvGDAlTKC from "/public/openmoji/1FAF3-1F3FF.svg";
-import PCEdneeisi from "/public/openmoji/1FAF3.svg";
-import NWijhtzxqM from "/public/openmoji/1FAF4-1F3FB.svg";
-import ddSPgpkMyf from "/public/openmoji/1FAF4-1F3FC.svg";
-import tuyFMrSTSi from "/public/openmoji/1FAF4-1F3FD.svg";
-import LRiwzIorAo from "/public/openmoji/1FAF4-1F3FE.svg";
-import DuUJDyaJvX from "/public/openmoji/1FAF4-1F3FF.svg";
-import wRJQdcSigJ from "/public/openmoji/1FAF4.svg";
-import wACZIsNiwg from "/public/openmoji/1FAF5-1F3FB.svg";
-import cHtQfVHVdb from "/public/openmoji/1FAF5-1F3FC.svg";
-import ewVrTKgvhb from "/public/openmoji/1FAF5-1F3FD.svg";
-import rLiEiORZQC from "/public/openmoji/1FAF5-1F3FE.svg";
-import dWzQOkDDOt from "/public/openmoji/1FAF5-1F3FF.svg";
-import SdKWHlDBSI from "/public/openmoji/1FAF5.svg";
-import FPlXiUpvnm from "/public/openmoji/1FAF6-1F3FB.svg";
-import iUIjBKMJkV from "/public/openmoji/1FAF6-1F3FC.svg";
-import itruYJMlnC from "/public/openmoji/1FAF6-1F3FD.svg";
-import uyNKuHcIuX from "/public/openmoji/1FAF6-1F3FE.svg";
-import BhvrsJWgPo from "/public/openmoji/1FAF6-1F3FF.svg";
-import axlIvMxZNx from "/public/openmoji/1FAF6.svg";
-import HsscaSQvZh from "/public/openmoji/1FAF7-1F3FB.svg";
-import bNpnQrMPhV from "/public/openmoji/1FAF7-1F3FC.svg";
-import mkUfEcwBNe from "/public/openmoji/1FAF7-1F3FD.svg";
-import ermnxlxWrR from "/public/openmoji/1FAF7-1F3FE.svg";
-import YYaxcDTfss from "/public/openmoji/1FAF7-1F3FF.svg";
-import mHXRmuQfIE from "/public/openmoji/1FAF7.svg";
-import RfQAsgTmet from "/public/openmoji/1FAF8-1F3FB.svg";
-import SIcQsgwjxZ from "/public/openmoji/1FAF8-1F3FC.svg";
-import SOHlQrehVl from "/public/openmoji/1FAF8-1F3FD.svg";
-import mqdoMBElCw from "/public/openmoji/1FAF8-1F3FE.svg";
-import qjoKbdXFbT from "/public/openmoji/1FAF8-1F3FF.svg";
-import vHYobeXYPY from "/public/openmoji/1FAF8.svg";
-import SmDheCVFco from "/public/openmoji/1FBC5.svg";
-import cWrNoURvul from "/public/openmoji/1FBC6-200D-1F457.svg";
-import tTZWMsYUPQ from "/public/openmoji/1FBC6.svg";
-import JLXAlrkFVb from "/public/openmoji/1FBC7-200D-1F457.svg";
-import EPubucuEql from "/public/openmoji/1FBC7.svg";
-import txhBNFfuNo from "/public/openmoji/1FBC8-200D-1F457.svg";
-import AlbeOxgfJN from "/public/openmoji/1FBC8.svg";
-import fmdnGVHRFG from "/public/openmoji/1FBC9.svg";
-import LsTqaErSXY from "/public/openmoji/203C.svg";
-import druWzXAhbn from "/public/openmoji/2049.svg";
-import lFlqopHflu from "/public/openmoji/2117.svg";
-import OfQxxQZQmh from "/public/openmoji/2120.svg";
-import PhNsMOgMEY from "/public/openmoji/2122.svg";
-import fRhFUBfKWs from "/public/openmoji/2139.svg";
-import jazpxLiQrh from "/public/openmoji/2194.svg";
-import aZvRyshKxp from "/public/openmoji/2195.svg";
-import KoZXlcHCti from "/public/openmoji/2196.svg";
-import IiLmlGhttr from "/public/openmoji/2197.svg";
-import sSUFEWRMoM from "/public/openmoji/2198.svg";
-import QpTlguneVj from "/public/openmoji/2199.svg";
-import ngWGDPxdjP from "/public/openmoji/21A9.svg";
-import HnTxQkVdfV from "/public/openmoji/21AA.svg";
-import jDVioxhiUn from "/public/openmoji/229C.svg";
-import cysBNWQEGT from "/public/openmoji/231A.svg";
-import QqaRNLizIC from "/public/openmoji/231B.svg";
-import EmCKhAbrAM from "/public/openmoji/2328.svg";
-import xXbKNDkwsC from "/public/openmoji/23CF.svg";
-import XXRsPUwjKI from "/public/openmoji/23E9.svg";
-import WCwppbLuqH from "/public/openmoji/23EA.svg";
-import KnvMTVVSnw from "/public/openmoji/23EB.svg";
-import qffXIuPIsf from "/public/openmoji/23EC.svg";
-import ErYbrrriyt from "/public/openmoji/23ED.svg";
-import UMUBgfEuho from "/public/openmoji/23EE.svg";
-import dawPYomVWR from "/public/openmoji/23EF.svg";
-import IQgVjbMlCm from "/public/openmoji/23F0.svg";
-import xcxhrYfJsN from "/public/openmoji/23F1.svg";
-import vLmeCAoybl from "/public/openmoji/23F2.svg";
-import wvtMVXuEiD from "/public/openmoji/23F3.svg";
-import CREXXlprMM from "/public/openmoji/23F8.svg";
-import hoefYHtcMU from "/public/openmoji/23F9.svg";
-import OlHBJYhHul from "/public/openmoji/23FA.svg";
-import FMMFizPkqP from "/public/openmoji/23FB.svg";
-import uOJEvheiwq from "/public/openmoji/23FC.svg";
-import LiiSXwDmmX from "/public/openmoji/23FD.svg";
-import EriUCstGDu from "/public/openmoji/23FE.svg";
-import GavcqljykT from "/public/openmoji/24C2.svg";
-import CcGRNaCzAR from "/public/openmoji/25A1.svg";
-import kEtkyxdXse from "/public/openmoji/25AA.svg";
-import CDmFZHpiGu from "/public/openmoji/25AB.svg";
-import JthUseFfhB from "/public/openmoji/25AC.svg";
-import GsTNSDxtzF from "/public/openmoji/25AD.svg";
-import PRJqBoGGEp from "/public/openmoji/25AE.svg";
-import FeUzlCYKed from "/public/openmoji/25B6.svg";
-import ujtwmrRwdJ from "/public/openmoji/25C0.svg";
-import nJdbzUPXWW from "/public/openmoji/25C9-FE0F-200D-1F534-200D-25AE-FE0F.svg";
-import SVemTbNkMS from "/public/openmoji/25C9-FE0F-200D-1F534.svg";
-import bbDgibuAgK from "/public/openmoji/25C9.svg";
-import TvorFAhQRt from "/public/openmoji/25D0.svg";
-import ZMfXKUnWIq from "/public/openmoji/25D1.svg";
-import mGGamGQQfb from "/public/openmoji/25E7.svg";
-import zfBNLKrRtS from "/public/openmoji/25E8.svg";
-import tSJlwwtykc from "/public/openmoji/25E9.svg";
-import sKOyuqLvjo from "/public/openmoji/25EA.svg";
-import dxuNFWClVP from "/public/openmoji/25ED.svg";
-import oyUknhdWsX from "/public/openmoji/25EE.svg";
-import tfKxRUcKxa from "/public/openmoji/25FB.svg";
-import WLAVAsYtad from "/public/openmoji/25FC.svg";
-import dCuvHjeMfy from "/public/openmoji/25FD.svg";
-import FBVihhfLfS from "/public/openmoji/25FE.svg";
-import FnIiLklJZO from "/public/openmoji/2600.svg";
-import DgjUzDxQya from "/public/openmoji/2601.svg";
-import uigwjbBIMx from "/public/openmoji/2602.svg";
-import iQdjdfSwPZ from "/public/openmoji/2603.svg";
-import gUvKgsCWVC from "/public/openmoji/2604.svg";
-import DNkhhUahZo from "/public/openmoji/2605.svg";
-import yAYgixrnFZ from "/public/openmoji/260E.svg";
-import ZfBlezSSuq from "/public/openmoji/2611.svg";
-import LrQijKMzuo from "/public/openmoji/2614.svg";
-import rCIhQytxOg from "/public/openmoji/2615.svg";
-import cGzPoGIqDM from "/public/openmoji/2618.svg";
-import XLhBIHnXZL from "/public/openmoji/261D-1F3FB.svg";
-import wYkmcbPYLT from "/public/openmoji/261D-1F3FC.svg";
-import UlSvPgJBKx from "/public/openmoji/261D-1F3FD.svg";
-import euxMdWnQxG from "/public/openmoji/261D-1F3FE.svg";
-import kNBoaSRyzq from "/public/openmoji/261D-1F3FF.svg";
-import pddZwXlWcx from "/public/openmoji/261D.svg";
-import pbuUNRDpEc from "/public/openmoji/2620.svg";
-import QQSapYylZI from "/public/openmoji/2622.svg";
-import fjuRZZdkIH from "/public/openmoji/2623.svg";
-import cITIAZYPTt from "/public/openmoji/2626.svg";
-import slSbsdQmfI from "/public/openmoji/262A.svg";
-import IHRrVEuuds from "/public/openmoji/262E.svg";
-import ZQqcqUDhoU from "/public/openmoji/262F.svg";
-import PdPHsfxokq from "/public/openmoji/2638.svg";
-import ZLbIczLDMy from "/public/openmoji/2639.svg";
-import cNIxdtMVWI from "/public/openmoji/263A.svg";
-import kBoVfHRnrV from "/public/openmoji/2640.svg";
-import IRusfIkXSd from "/public/openmoji/2642.svg";
-import jRwuqBITem from "/public/openmoji/2648.svg";
-import QgHjDMLRSY from "/public/openmoji/2649.svg";
-import UQWkRdGNOV from "/public/openmoji/264A.svg";
-import lfGZyWQjId from "/public/openmoji/264B.svg";
-import UxeaQXdDfc from "/public/openmoji/264C.svg";
-import upmefmISZO from "/public/openmoji/264D.svg";
-import FSqZmPnGYr from "/public/openmoji/264E.svg";
-import YzJFYiiXwg from "/public/openmoji/264F.svg";
-import VACFnrkmlI from "/public/openmoji/2650.svg";
-import FzJywAYsCD from "/public/openmoji/2651.svg";
-import wnfmatURBE from "/public/openmoji/2652.svg";
-import EUYdDcykCb from "/public/openmoji/2653.svg";
-import DzJqHdgjNT from "/public/openmoji/265F.svg";
-import QntojsYHOM from "/public/openmoji/2660.svg";
-import bvvueaPNau from "/public/openmoji/2663.svg";
-import RSMHeoMLoN from "/public/openmoji/2665.svg";
-import EcGSFtBNNr from "/public/openmoji/2666.svg";
-import GHoBKDSdaJ from "/public/openmoji/2668.svg";
-import lShRUZuSvG from "/public/openmoji/267B.svg";
-import JZpjIAvTCf from "/public/openmoji/267E.svg";
-import FVCtmoVxep from "/public/openmoji/267F.svg";
-import nZEWJpyTAi from "/public/openmoji/2691-FE0F-200D-1F7E5.svg";
-import yRaerzeCwy from "/public/openmoji/2691-FE0F-200D-1F7E6.svg";
-import jZweeeGWpS from "/public/openmoji/2691-FE0F-200D-1F7E7.svg";
-import MFhglyNxJN from "/public/openmoji/2691-FE0F-200D-1F7E8.svg";
-import tMAlAAucTS from "/public/openmoji/2691-FE0F-200D-1F7E9-200D-2605-FE0F.svg";
-import mAozEcqXTP from "/public/openmoji/2691-FE0F-200D-1F7E9.svg";
-import jSHthJnsWT from "/public/openmoji/2691-FE0F-200D-1F7EA.svg";
-import XkaJkrtYZW from "/public/openmoji/2691-FE0F-200D-1F7EB.svg";
-import xHeYsyHfNV from "/public/openmoji/2692.svg";
-import fkTzIDyuwx from "/public/openmoji/2693.svg";
-import GkLyfRyZMD from "/public/openmoji/2694.svg";
-import ihNoFgPByL from "/public/openmoji/2695.svg";
-import pYPBHHIXAh from "/public/openmoji/2696.svg";
-import QqQHBTUaJa from "/public/openmoji/2697.svg";
-import buNwPujEsK from "/public/openmoji/2699.svg";
-import IfNlYmsVHZ from "/public/openmoji/269B.svg";
-import LvyECddXAU from "/public/openmoji/269C.svg";
-import uGAPTTpvYX from "/public/openmoji/26A0.svg";
-import UDixmRvgTA from "/public/openmoji/26A1.svg";
-import VGKPUvFMYx from "/public/openmoji/26A7.svg";
-import qOKQuNsHEF from "/public/openmoji/26AA.svg";
-import qkmJsqNwPx from "/public/openmoji/26AB.svg";
-import SAiMrbyvFv from "/public/openmoji/26B0.svg";
-import ylDhhocCxQ from "/public/openmoji/26B1.svg";
-import elbzqxcjZX from "/public/openmoji/26BD.svg";
-import LvzZfzctcD from "/public/openmoji/26BE.svg";
-import yxWhFiUkFS from "/public/openmoji/26C4.svg";
-import wPmSIykWrS from "/public/openmoji/26C5.svg";
-import gxdtmDIqzC from "/public/openmoji/26C8.svg";
-import AeSUOTlztV from "/public/openmoji/26CE.svg";
-import UbfWdZjPEe from "/public/openmoji/26CF.svg";
-import XViWpHeedj from "/public/openmoji/26D1.svg";
-import sQEYClcWBr from "/public/openmoji/26D3.svg";
-import BTIEiHcUDl from "/public/openmoji/26D4.svg";
-import sQDtLaqXVl from "/public/openmoji/26E9.svg";
-import NPAxaPYpha from "/public/openmoji/26EA.svg";
-import nTFGTruuaY from "/public/openmoji/26F0.svg";
-import vwbxYvvead from "/public/openmoji/26F1.svg";
-import iZtNajcixm from "/public/openmoji/26F2.svg";
-import RjYCYrrQha from "/public/openmoji/26F3.svg";
-import NgGYrpiRpV from "/public/openmoji/26F4.svg";
-import dVixNRZNza from "/public/openmoji/26F5.svg";
-import XaPLvpQoqq from "/public/openmoji/26F7.svg";
-import BwZEQdKnIS from "/public/openmoji/26F8.svg";
-import BJqitbqMTh from "/public/openmoji/26F9-1F3FB-200D-2640-FE0F.svg";
-import uJcHnlZDZQ from "/public/openmoji/26F9-1F3FB-200D-2642-FE0F.svg";
-import oGvzctoPxk from "/public/openmoji/26F9-1F3FB.svg";
-import gPNHekxXJE from "/public/openmoji/26F9-1F3FC-200D-2640-FE0F.svg";
-import ccCsElsjmH from "/public/openmoji/26F9-1F3FC-200D-2642-FE0F.svg";
-import rGjkySmYdj from "/public/openmoji/26F9-1F3FC.svg";
-import QWbdLQpfxa from "/public/openmoji/26F9-1F3FD-200D-2640-FE0F.svg";
-import XNNkENumtn from "/public/openmoji/26F9-1F3FD-200D-2642-FE0F.svg";
-import nEXMpVCikJ from "/public/openmoji/26F9-1F3FD.svg";
-import VlWrgrhtNm from "/public/openmoji/26F9-1F3FE-200D-2640-FE0F.svg";
-import wcOidVRqny from "/public/openmoji/26F9-1F3FE-200D-2642-FE0F.svg";
-import jHRehnGiMi from "/public/openmoji/26F9-1F3FE.svg";
-import FHqCzblwhC from "/public/openmoji/26F9-1F3FF-200D-2640-FE0F.svg";
-import bUEEjFkNFj from "/public/openmoji/26F9-1F3FF-200D-2642-FE0F.svg";
-import MjujwpPVfU from "/public/openmoji/26F9-1F3FF.svg";
-import nUBMplecxp from "/public/openmoji/26F9-FE0F-200D-2640-FE0F.svg";
-import pGYUmFpnws from "/public/openmoji/26F9-FE0F-200D-2642-FE0F.svg";
-import tkPXDriPVb from "/public/openmoji/26F9.svg";
-import jVUTQhyGWR from "/public/openmoji/26FA.svg";
-import stfrJcqoNg from "/public/openmoji/26FD.svg";
-import gdKnebpTeJ from "/public/openmoji/2702.svg";
-import bWAjSItrNZ from "/public/openmoji/2705.svg";
-import QEXFRKLJJr from "/public/openmoji/2708.svg";
-import hNUFbovISZ from "/public/openmoji/2709.svg";
-import KnZjtsyrjL from "/public/openmoji/270A-1F3FB.svg";
-import MwFsusaUmQ from "/public/openmoji/270A-1F3FC.svg";
-import IeFWLglzOL from "/public/openmoji/270A-1F3FD.svg";
-import CJydYoDfkK from "/public/openmoji/270A-1F3FE.svg";
-import LkrBEvylEQ from "/public/openmoji/270A-1F3FF.svg";
-import jLYAfxcqzX from "/public/openmoji/270A.svg";
-import gkMoogFwKI from "/public/openmoji/270B-1F3FB.svg";
-import dcIhDFwIyF from "/public/openmoji/270B-1F3FC.svg";
-import asYozjNFXp from "/public/openmoji/270B-1F3FD.svg";
-import QVkzdWpqae from "/public/openmoji/270B-1F3FE.svg";
-import FPPcJaiFaw from "/public/openmoji/270B-1F3FF.svg";
-import xxTLjCVBWg from "/public/openmoji/270B.svg";
-import jUTEXwpmtt from "/public/openmoji/270C-1F3FB.svg";
-import pVxIniNbkx from "/public/openmoji/270C-1F3FC.svg";
-import YzKqSsNcWc from "/public/openmoji/270C-1F3FD.svg";
-import xDWOrJZFuo from "/public/openmoji/270C-1F3FE.svg";
-import eTEGRELGqK from "/public/openmoji/270C-1F3FF.svg";
-import OsbZvaKDyo from "/public/openmoji/270C.svg";
-import untezWqseb from "/public/openmoji/270D-1F3FB.svg";
-import vlLSQouFst from "/public/openmoji/270D-1F3FC.svg";
-import XheJXWRVWU from "/public/openmoji/270D-1F3FD.svg";
-import NoYUlJFBTJ from "/public/openmoji/270D-1F3FE.svg";
-import GXRjEcoYIn from "/public/openmoji/270D-1F3FF.svg";
-import LkEgyPyrZV from "/public/openmoji/270D.svg";
-import VNYuApMpHE from "/public/openmoji/270F.svg";
-import CZMaCHsAyH from "/public/openmoji/2712.svg";
-import QXPUBHDORA from "/public/openmoji/2714.svg";
-import uzQLCdlDuG from "/public/openmoji/2716.svg";
-import KLNNMycPCb from "/public/openmoji/271D.svg";
-import GtcHhzEDOD from "/public/openmoji/2721.svg";
-import QSGbsXwJRJ from "/public/openmoji/2728.svg";
-import WlzwinuPtp from "/public/openmoji/2733.svg";
-import YOFfLxxbta from "/public/openmoji/2734.svg";
-import ONNzQGYGwu from "/public/openmoji/2744.svg";
-import xLsjGMyspF from "/public/openmoji/2747.svg";
-import ctlwnKcgcF from "/public/openmoji/274C.svg";
-import zITRWqnUno from "/public/openmoji/274E.svg";
-import MffKkJvcjl from "/public/openmoji/2753.svg";
-import sLtYJqoYyP from "/public/openmoji/2754.svg";
-import WilhajqVkp from "/public/openmoji/2755.svg";
-import hTYFOEVaSi from "/public/openmoji/2757.svg";
-import kNxyxOLCwH from "/public/openmoji/2763.svg";
-import ypPYsKOuOE from "/public/openmoji/2764-FE0F-200D-1F525.svg";
-import QaibyTaVnB from "/public/openmoji/2764-FE0F-200D-1FA79.svg";
-import UaFylpeWpB from "/public/openmoji/2764.svg";
-import YLXKVclylH from "/public/openmoji/2795.svg";
-import mFYHPtGwgu from "/public/openmoji/2796.svg";
-import tAJSVfUHjz from "/public/openmoji/2797.svg";
-import tserKbbaGr from "/public/openmoji/27A1.svg";
-import plioQQsyDl from "/public/openmoji/27B0.svg";
-import TJWBPxTaTZ from "/public/openmoji/27BF.svg";
-import ywzXJYkzDL from "/public/openmoji/2934.svg";
-import FumEHbFpQT from "/public/openmoji/2935.svg";
-import EUfTpcclZE from "/public/openmoji/2B05.svg";
-import asvIooETrI from "/public/openmoji/2B06.svg";
-import YeBsUcYKMo from "/public/openmoji/2B07.svg";
-import MjVFmCqAVq from "/public/openmoji/2B0C.svg";
-import XHsiOnmFao from "/public/openmoji/2B0D.svg";
-import WcSvjAewdU from "/public/openmoji/2B1B.svg";
-import SAxMsMBKda from "/public/openmoji/2B1C.svg";
-import WTjdBEVbhA from "/public/openmoji/2B1F.svg";
-import hNiVKvEHZO from "/public/openmoji/2B20.svg";
-import XolVcfqfUP from "/public/openmoji/2B21-FE0F-200D-1F308.svg";
-import nKnzWkjTZv from "/public/openmoji/2B21-FE0F-200D-1F7E5.svg";
-import QvexYtrkBZ from "/public/openmoji/2B21-FE0F-200D-1F7E6.svg";
-import GlzxyMvlaN from "/public/openmoji/2B21-FE0F-200D-1F7E7.svg";
-import DacZTtkQIe from "/public/openmoji/2B21-FE0F-200D-1F7E8.svg";
-import tzbzNfDBOf from "/public/openmoji/2B21-FE0F-200D-1F7E9.svg";
-import eGhseCFqlf from "/public/openmoji/2B21-FE0F-200D-1F7EA.svg";
-import EeJsYFmFic from "/public/openmoji/2B21-FE0F-200D-1F7EB.svg";
-import HOFxdDIgfG from "/public/openmoji/2B21.svg";
-import EvFBLvrsWo from "/public/openmoji/2B22.svg";
-import DvIQfpeaPh from "/public/openmoji/2B23.svg";
-import rRDPMydpld from "/public/openmoji/2B24.svg";
-import nMxdznykdz from "/public/openmoji/2B2E.svg";
-import faEkTJTEPD from "/public/openmoji/2B2F.svg";
-import orcfpyGfSC from "/public/openmoji/2B50.svg";
-import csPxuBvIei from "/public/openmoji/2B55.svg";
-import GfZPriqFAR from "/public/openmoji/2B58.svg";
-import HXsvlZNmWP from "/public/openmoji/2B8F.svg";
-import kpDyaOXXSt from "/public/openmoji/2BBA.svg";
-import mSdBpGDlZg from "/public/openmoji/2BBB.svg";
-import favOZVNYjX from "/public/openmoji/2BBC.svg";
-import DnmZkdqMHd from "/public/openmoji/2BC3.svg";
-import dgLtinSCUW from "/public/openmoji/2BC4.svg";
-import GFgapMnBBb from "/public/openmoji/2BEA.svg";
-import tphJvGsQNY from "/public/openmoji/2BEB.svg";
-import XhTkSLCufG from "/public/openmoji/3030.svg";
-import nnUsUXvsQe from "/public/openmoji/303D.svg";
-import kZkNrpauOH from "/public/openmoji/3297.svg";
-import tnmsWZarvv from "/public/openmoji/3299.svg";
-import RFYTMuMWGI from "/public/openmoji/E000.svg";
-import mHHhDdNhJT from "/public/openmoji/E001.svg";
-import zvvQzQtcdp from "/public/openmoji/E002.svg";
-import yGXsdCecBp from "/public/openmoji/E003.svg";
-import ZctnGXjgPt from "/public/openmoji/E004.svg";
-import IibnrEUZWv from "/public/openmoji/E005.svg";
-import RQjicgjpSw from "/public/openmoji/E006.svg";
-import GjAzJvMfkf from "/public/openmoji/E007.svg";
-import HwdrHpbZHd from "/public/openmoji/E008.svg";
-import XpxHZIhGiA from "/public/openmoji/E009.svg";
-import JQkFRtaoCB from "/public/openmoji/E010.svg";
-import NpXqTXRKUk from "/public/openmoji/E011.svg";
-import wZEYIzhbBd from "/public/openmoji/E040.svg";
-import qpNHajpAqg from "/public/openmoji/E041.svg";
-import rmxyIciPmL from "/public/openmoji/E042.svg";
-import gLqkFsMXyj from "/public/openmoji/E043.svg";
-import YhzyCIewzz from "/public/openmoji/E044.svg";
-import ygKQtAwGLs from "/public/openmoji/E045.svg";
-import eTIvWxamyj from "/public/openmoji/E046.svg";
-import zwfFZtmWMb from "/public/openmoji/E047.svg";
-import JthYmniYQs from "/public/openmoji/E048.svg";
-import cSCbBKbteG from "/public/openmoji/E049.svg";
-import WcwwCkCkcy from "/public/openmoji/E04A.svg";
-import AAAIVaZxlK from "/public/openmoji/E04B.svg";
-import fUWwwVUcBl from "/public/openmoji/E050.svg";
-import QpPrsKSxiu from "/public/openmoji/E051.svg";
-import vzPclhgkwI from "/public/openmoji/E052.svg";
-import wXcIHdwyow from "/public/openmoji/E053.svg";
-import mosHYnCDKJ from "/public/openmoji/E054.svg";
-import zxypaWvONn from "/public/openmoji/E055.svg";
-import YgwdnpVvpD from "/public/openmoji/E056.svg";
-import nGexEYlLHb from "/public/openmoji/E057.svg";
-import uehRsnKAKZ from "/public/openmoji/E058.svg";
-import TzyMKCBejj from "/public/openmoji/E059.svg";
-import FgwTfwrEfx from "/public/openmoji/E05A.svg";
-import HXTUrDnQpv from "/public/openmoji/E05B.svg";
-import mbXOGSoFVU from "/public/openmoji/E05C.svg";
-import EFSKXMPWDz from "/public/openmoji/E05D.svg";
-import uyGVERMWtF from "/public/openmoji/E05E.svg";
-import XGSfFWldzI from "/public/openmoji/E05F.svg";
-import GucwmvpGRj from "/public/openmoji/E060.svg";
-import QUZGOZpxhw from "/public/openmoji/E061.svg";
-import uiPMnnxlqQ from "/public/openmoji/E062.svg";
-import kssMDBWWZp from "/public/openmoji/E063.svg";
-import hhkaPrPwvi from "/public/openmoji/E064.svg";
-import YFgpJhKoMf from "/public/openmoji/E065.svg";
-import EvnzESYJSA from "/public/openmoji/E066.svg";
-import gYnULsybaM from "/public/openmoji/E067.svg";
-import YsgKaHzjcW from "/public/openmoji/E068.svg";
-import AhSJUwnzkt from "/public/openmoji/E069.svg";
-import IzIshlLtvd from "/public/openmoji/E06A.svg";
-import pGTktSuvqP from "/public/openmoji/E06B.svg";
-import DhvtqSqnYL from "/public/openmoji/E06C.svg";
-import XYgVZCSxqC from "/public/openmoji/E06D.svg";
-import zNMIsPOMML from "/public/openmoji/E080.svg";
-import IwOtQTmwTY from "/public/openmoji/E081.svg";
-import fmQWxQNsEI from "/public/openmoji/E082.svg";
-import YpWulqgiHW from "/public/openmoji/E083.svg";
-import apgYMcEiZs from "/public/openmoji/E084.svg";
-import oISHqBtKFB from "/public/openmoji/E085.svg";
-import aTYmYVkbqx from "/public/openmoji/E086.svg";
-import JQrEiaIxRT from "/public/openmoji/E087.svg";
-import mVKLOWIPus from "/public/openmoji/E088.svg";
-import gAmksnhGLf from "/public/openmoji/E089.svg";
-import jVCVrobiuw from "/public/openmoji/E08A.svg";
-import RKrUYLekyv from "/public/openmoji/E08B.svg";
-import qjCocFUtJH from "/public/openmoji/E08C.svg";
-import SHOUCkkHVQ from "/public/openmoji/E08D.svg";
-import TSsIWMZfaW from "/public/openmoji/E08E.svg";
-import YosthEuPEj from "/public/openmoji/E08F.svg";
-import YQJjLHNHnm from "/public/openmoji/E090.svg";
-import TVNbWuwMvK from "/public/openmoji/E091.svg";
-import yGHJSKXemu from "/public/openmoji/E092.svg";
-import kRPwczodKJ from "/public/openmoji/E093.svg";
-import ySKXQCSqsz from "/public/openmoji/E094.svg";
-import miJzRBDRqi from "/public/openmoji/E095.svg";
-import PvsKBJCYEO from "/public/openmoji/E096.svg";
-import WEceDyqVxo from "/public/openmoji/E097.svg";
-import zmCtCvvcdG from "/public/openmoji/E098.svg";
-import hRDDEhQSEh from "/public/openmoji/E099.svg";
-import VZsVfWorBb from "/public/openmoji/E09A.svg";
-import ORYMqKjoLz from "/public/openmoji/E09B.svg";
-import GvvqjRdexO from "/public/openmoji/E09C.svg";
-import zXujqgvvuu from "/public/openmoji/E09D.svg";
-import NbOhwvHDvy from "/public/openmoji/E09E.svg";
-import TuyIdRtgtt from "/public/openmoji/E09F.svg";
-import wYOLYrhVFI from "/public/openmoji/E0A0.svg";
-import RjxRYwIVUS from "/public/openmoji/E0A1.svg";
-import vpqCdTPgnU from "/public/openmoji/E0A2.svg";
-import UhdYzSVaoh from "/public/openmoji/E0A3.svg";
-import tqPEiBefKr from "/public/openmoji/E0A4.svg";
-import bQSrxyXSKm from "/public/openmoji/E0A5.svg";
-import sGYeVCUkYI from "/public/openmoji/E0A6.svg";
-import FwOjepQIIl from "/public/openmoji/E0A7.svg";
-import ATyzGEdRJB from "/public/openmoji/E0A8.svg";
-import cJmNLNHJZm from "/public/openmoji/E0A9.svg";
-import egjTVQWHGg from "/public/openmoji/E0AA.svg";
-import bpIGAMyAEM from "/public/openmoji/E0AB.svg";
-import JEACimnrjq from "/public/openmoji/E0AC-200D-2640-FE0F.svg";
-import QIOCHyOGav from "/public/openmoji/E0AC-200D-2642-FE0F.svg";
-import xlDliOQZGd from "/public/openmoji/E0AC.svg";
-import fDgzNSIwmE from "/public/openmoji/E0AD-200D-2640-FE0F.svg";
-import HLNOrjbiYD from "/public/openmoji/E0AD-200D-2642-FE0F.svg";
-import KSyYDDDMWp from "/public/openmoji/E0AD.svg";
-import FGMVsrLSjl from "/public/openmoji/E0AE.svg";
-import zQOqWTctSs from "/public/openmoji/E0AF.svg";
-import LPsBBHogiN from "/public/openmoji/E0B0.svg";
-import ilbxCzPGRJ from "/public/openmoji/E0B1.svg";
-import mGcwqQcsTs from "/public/openmoji/E0B2.svg";
-import RDoUgthdun from "/public/openmoji/E0B3.svg";
-import xuhYxHkXSF from "/public/openmoji/E0B4.svg";
-import bBCEDjjeLn from "/public/openmoji/E0C0.svg";
-import mbZuBuQqGb from "/public/openmoji/E0C1.svg";
-import HYuMzxFnQS from "/public/openmoji/E0C2.svg";
-import OhRviCzgyN from "/public/openmoji/E0C3.svg";
-import ALdIoCKVbT from "/public/openmoji/E0C4.svg";
-import rHTReUxaqY from "/public/openmoji/E0C5.svg";
-import gWFrtwBjqn from "/public/openmoji/E0C6.svg";
-import HVbhyzRjNl from "/public/openmoji/E0C7.svg";
-import tRctIOQcIt from "/public/openmoji/E0C8.svg";
-import TsJUebGCPs from "/public/openmoji/E0C9.svg";
-import sIgalTJbeu from "/public/openmoji/E0CA.svg";
-import jDTXYYXMAx from "/public/openmoji/E0CB.svg";
-import PzZazkRoCm from "/public/openmoji/E0CC.svg";
-import XZUlyiSpYC from "/public/openmoji/E0FF.svg";
-import bMNtamCHHC from "/public/openmoji/E100.svg";
-import oHBpdQwrgP from "/public/openmoji/E101.svg";
-import UqsPIiQzVy from "/public/openmoji/E102.svg";
-import xCniKvixXX from "/public/openmoji/E103.svg";
-import evdHoXrvHQ from "/public/openmoji/E104.svg";
-import SWFQZCEvYI from "/public/openmoji/E105.svg";
-import lIPrSSoEny from "/public/openmoji/E106.svg";
-import rHjWdTpGcf from "/public/openmoji/E107.svg";
-import WVrEITTnji from "/public/openmoji/E108.svg";
-import QZYyweTomw from "/public/openmoji/E109.svg";
-import otSAIbNuSK from "/public/openmoji/E10A.svg";
-import ecGwlTRmUC from "/public/openmoji/E10B.svg";
-import YTieRMMLXq from "/public/openmoji/E10C.svg";
-import ScUlQogRYt from "/public/openmoji/E10D.svg";
-import uWyBfojBBo from "/public/openmoji/E140.svg";
-import tirSBYZrie from "/public/openmoji/E141.svg";
-import yDWYmTcIPa from "/public/openmoji/E142.svg";
-import wXYJLAvvWG from "/public/openmoji/E143.svg";
-import zKzyJWDkwK from "/public/openmoji/E144.svg";
-import HoHOFuHYra from "/public/openmoji/E145.svg";
-import jxNuhuxsAL from "/public/openmoji/E146.svg";
-import FDihjkUiJX from "/public/openmoji/E147.svg";
-import PyIjqmHwZj from "/public/openmoji/E148.svg";
-import IicrfteArN from "/public/openmoji/E149.svg";
-import NyJCcHTcpl from "/public/openmoji/E14A.svg";
-import ALUijinpUL from "/public/openmoji/E150.svg";
-import ofEOEOFDSP from "/public/openmoji/E151.svg";
-import spAQmEVkgU from "/public/openmoji/E152.svg";
-import vFpZNicFjF from "/public/openmoji/E153.svg";
-import qyVqprGaWS from "/public/openmoji/E154.svg";
-import cSkCxgkJGY from "/public/openmoji/E155.svg";
-import kmnNFXVjMX from "/public/openmoji/E156.svg";
-import tizjeZCGtK from "/public/openmoji/E157.svg";
-import iLRkGxRSdw from "/public/openmoji/E181.svg";
-import gGhOXEVdvI from "/public/openmoji/E182.svg";
-import dDVzFyyzhH from "/public/openmoji/E183.svg";
-import xFfunAQKDd from "/public/openmoji/E184.svg";
-import ctTcnayFHl from "/public/openmoji/E185.svg";
-import MFuNGwuSuC from "/public/openmoji/E186.svg";
-import ljElKwTJrj from "/public/openmoji/E187.svg";
-import kuordztOby from "/public/openmoji/E188.svg";
-import JnCfMWIGVX from "/public/openmoji/E189.svg";
-import hOfPPASIpK from "/public/openmoji/E1C0.svg";
-import HHReVmxrpU from "/public/openmoji/E1C1.svg";
-import SwjHEdlxNg from "/public/openmoji/E1C2.svg";
-import vxPEesLLGj from "/public/openmoji/E1C3.svg";
-import KmtdWGNGaH from "/public/openmoji/E1C4.svg";
-import UeXnNLmcLc from "/public/openmoji/E1C6.svg";
-import tjzozqecVb from "/public/openmoji/E1C7.svg";
-import HbOMXIijDd from "/public/openmoji/E1C8.svg";
-import DEeclPeLFq from "/public/openmoji/E1C9.svg";
-import kqDPggkcRj from "/public/openmoji/E1CA.svg";
-import XoXVlQitSQ from "/public/openmoji/E1CB.svg";
-import CftbKGdPXT from "/public/openmoji/E1CC.svg";
-import fjHVddIQYA from "/public/openmoji/E1CD.svg";
-import uQrFJfEBNG from "/public/openmoji/E1CE.svg";
-import ppYcrCwgFi from "/public/openmoji/E1CF.svg";
-import pgXFyeQXYZ from "/public/openmoji/E1D0.svg";
-import eJLHCeOXBX from "/public/openmoji/E1D1.svg";
-import muokGlmVSu from "/public/openmoji/E1D2.svg";
-import LdsfynFISk from "/public/openmoji/E1D3.svg";
-import RWQmfOnBqG from "/public/openmoji/E1D4.svg";
-import MUmWDkExjR from "/public/openmoji/E1D5.svg";
-import DjZtMpsoWZ from "/public/openmoji/E1D6.svg";
-import WDdDShKstd from "/public/openmoji/E1D7.svg";
-import BmipqGdLTQ from "/public/openmoji/E1D8.svg";
-import hsLkqMSbSW from "/public/openmoji/E1D9.svg";
-import UVumONUcjA from "/public/openmoji/E200.svg";
-import oufsVyxfio from "/public/openmoji/E201.svg";
-import zFthQAGgwh from "/public/openmoji/E202.svg";
-import sBVQnPuhqi from "/public/openmoji/E203.svg";
-import PfcilUlaDY from "/public/openmoji/E204.svg";
-import npxnCkZiww from "/public/openmoji/E205.svg";
-import GjcSnthcFC from "/public/openmoji/E206.svg";
-import hHtTTuQMEt from "/public/openmoji/E207.svg";
-import CFwqEfyYAc from "/public/openmoji/E208.svg";
-import cbRHawtkeX from "/public/openmoji/E209.svg";
-import xQWrpIopKB from "/public/openmoji/E20A.svg";
-import nWFcMSVwhH from "/public/openmoji/E20B.svg";
-import jjtlAIuluh from "/public/openmoji/E20C.svg";
-import NCOvfcrYFt from "/public/openmoji/E20D.svg";
-import EUFsPFPwCQ from "/public/openmoji/E20E.svg";
-import kQiNBOGXOb from "/public/openmoji/E20F.svg";
-import TcFXtkIRmz from "/public/openmoji/E210.svg";
-import jhHiWrawXC from "/public/openmoji/E211.svg";
-import EIjNLPGbdP from "/public/openmoji/E212.svg";
-import ZBbunCSMmB from "/public/openmoji/E213.svg";
-import cEHwyGjODu from "/public/openmoji/E214.svg";
-import LjhvIgzSSY from "/public/openmoji/E215.svg";
-import lnFfYrUPka from "/public/openmoji/E216.svg";
-import PcsavzBpHF from "/public/openmoji/E240.svg";
-import XyjnSzmgAE from "/public/openmoji/E241.svg";
-import xVJmQDwwHY from "/public/openmoji/E242.svg";
-import QDoQxLynZX from "/public/openmoji/E243.svg";
-import QKZGfYdmVp from "/public/openmoji/E244.svg";
-import cyOBVyPmPe from "/public/openmoji/E245.svg";
-import kYTaVFQckv from "/public/openmoji/E246.svg";
-import FfEicHqlSb from "/public/openmoji/E247.svg";
-import gOBFNMZnKq from "/public/openmoji/E248.svg";
-import sahVbpVVGy from "/public/openmoji/E249.svg";
-import ZIBKJkZDzF from "/public/openmoji/E24A.svg";
-import uqdFpDpvbX from "/public/openmoji/E24B.svg";
-import CFUsTlOrWR from "/public/openmoji/E24C.svg";
-import bBJXVIcvzP from "/public/openmoji/E24D.svg";
-import gXjJRjJpOg from "/public/openmoji/E24E.svg";
-import VrrNFYpoYG from "/public/openmoji/E24F.svg";
-import teoHIGKwfW from "/public/openmoji/E250.svg";
-import HpEsMXlFTa from "/public/openmoji/E251.svg";
-import pLBvCxwByL from "/public/openmoji/E252.svg";
-import LpeOkjxcwT from "/public/openmoji/E253.svg";
-import IaacJhadjb from "/public/openmoji/E254.svg";
-import XBplNYgXkY from "/public/openmoji/E255.svg";
-import DMBjeWMkRV from "/public/openmoji/E256.svg";
-import XLGkmYUcaO from "/public/openmoji/E257.svg";
-import gcMcmugXDN from "/public/openmoji/E258.svg";
-import ftADryOMsz from "/public/openmoji/E259.svg";
-import jYOljPnUVD from "/public/openmoji/E25A.svg";
-import AlGatQeyIO from "/public/openmoji/E25B.svg";
-import vntzrlMusr from "/public/openmoji/E25C.svg";
-import vHurbuqYuT from "/public/openmoji/E25D.svg";
-import GApbjooqhY from "/public/openmoji/E25E.svg";
-import olFRseZdfP from "/public/openmoji/E25F.svg";
-import mzrSANkgoU from "/public/openmoji/E260.svg";
-import lSaFfpgXYy from "/public/openmoji/E261.svg";
-import fjoVFALzGE from "/public/openmoji/E262.svg";
-import zYToeTEQKS from "/public/openmoji/E263.svg";
-import fscecdGgdn from "/public/openmoji/E264.svg";
-import uOODRnnBOU from "/public/openmoji/E265.svg";
-import UNwdusupAc from "/public/openmoji/E266.svg";
-import gaHHVcjWBI from "/public/openmoji/E267.svg";
-import JRJeGhnkNS from "/public/openmoji/E268.svg";
-import mAjxqGwyMg from "/public/openmoji/E269.svg";
-import bGwLXQjHex from "/public/openmoji/E280.svg";
-import zmqBeyqpXu from "/public/openmoji/E281.svg";
-import fAXDXNYRPx from "/public/openmoji/E282.svg";
-import CZrXkPDvNF from "/public/openmoji/E283.svg";
-import ktuOltyCSL from "/public/openmoji/E2C0.svg";
-import FPtKRxKSoQ from "/public/openmoji/E2C1.svg";
-import FNqmeIiPLw from "/public/openmoji/E2C2.svg";
-import AechduEEmT from "/public/openmoji/E2C3.svg";
-import BEhvbcjDLI from "/public/openmoji/E2C4.svg";
-import HmRNpmnxmq from "/public/openmoji/E2C6.svg";
-import rEDMuskSQw from "/public/openmoji/E2C7.svg";
-import spfeaWoYgc from "/public/openmoji/E2C8.svg";
-import YWsTzJoDss from "/public/openmoji/E2C9.svg";
-import vJwGJrHPZK from "/public/openmoji/E2CA.svg";
-import nNbQLeivSM from "/public/openmoji/E2CB.svg";
-import drzBlKlxHI from "/public/openmoji/E2CC.svg";
-import IwySqZiwGf from "/public/openmoji/E2CD.svg";
-import PadVDhTqav from "/public/openmoji/E2CE.svg";
-import cWiGbcjNkh from "/public/openmoji/E2CF.svg";
-import byUiQpLtUt from "/public/openmoji/E2D0.svg";
-import QoUBxAHvsW from "/public/openmoji/E2D1.svg";
-import nQvufOwqVt from "/public/openmoji/E2D2.svg";
-import qUuTdbgJwb from "/public/openmoji/E2D3.svg";
-import KAnFRUuYfg from "/public/openmoji/E2D4.svg";
-import nFdLWsSPZu from "/public/openmoji/E2D5.svg";
-import kEtZnKDJhp from "/public/openmoji/E2D6.svg";
-import vdaSlYgKLZ from "/public/openmoji/E2D7.svg";
-import KPAtjqecxa from "/public/openmoji/E2D8.svg";
-import jOKzhDohcK from "/public/openmoji/E2D9.svg";
-import XwtQRsMOpI from "/public/openmoji/E2DA.svg";
-import MKlOjuqkmZ from "/public/openmoji/E300.svg";
-import EeiEeEjHWy from "/public/openmoji/E301.svg";
-import jpnWAeRVIm from "/public/openmoji/E302.svg";
-import dmSKFPFVoj from "/public/openmoji/E303.svg";
-import KGchjaQOBQ from "/public/openmoji/E305.svg";
-import BaFTiOzyyW from "/public/openmoji/E306.svg";
-import gNeswHDXcI from "/public/openmoji/E307.svg";
-import ioHPiryuPZ from "/public/openmoji/E308.svg";
-import dTpblWLzar from "/public/openmoji/E309.svg";
-import rLNEckfWMA from "/public/openmoji/E30A.svg";
-import zyXayUAPJv from "/public/openmoji/E30B.svg";
-import lHXGzOGLym from "/public/openmoji/E30C.svg";
-import LEWkEfCZYb from "/public/openmoji/E30D.svg";
-import UEyFmgFlDx from "/public/openmoji/E30E.svg";
-import wbqXdyDbVK from "/public/openmoji/E30F.svg";
-import UQQOQMEbAK from "/public/openmoji/E312.svg";
-import oLyvOGkRbz from "/public/openmoji/E313.svg";
-import NCzmFUZtWU from "/public/openmoji/E314.svg";
-import VDpHNPTDBl from "/public/openmoji/E315.svg";
-import OfsVmomuZY from "/public/openmoji/E316.svg";
-import xgsBWMvixP from "/public/openmoji/E318.svg";
-import CHiqEwMKXx from "/public/openmoji/E319.svg";
-import VvogqckruU from "/public/openmoji/E31A.svg";
-import zjAQjibWFj from "/public/openmoji/E31B.svg";
-import dtJgsMiFpB from "/public/openmoji/E31C.svg";
-import NepTCqdDtW from "/public/openmoji/E31D.svg";
-import GEUVyifxsF from "/public/openmoji/E31E.svg";
-import DJDHKgKUfa from "/public/openmoji/E31F.svg";
-import EZMkcHkkrt from "/public/openmoji/E320.svg";
-import EBSYvdEjlM from "/public/openmoji/E321.svg";
-import QoheNSyMoM from "/public/openmoji/E322.svg";
-import HJtbAQIrTJ from "/public/openmoji/E324.svg";
-import xwsgEFNEqO from "/public/openmoji/E325.svg";
-import BNgDOLnegk from "/public/openmoji/E326.svg";
-import jdVLCJCnff from "/public/openmoji/E327.svg";
-import dvxRDArkcl from "/public/openmoji/E328.svg";
-import viRRshkWRS from "/public/openmoji/E329.svg";
-import MIyeIvtuIH from "/public/openmoji/E32B.svg";
-import wWNIytaaCx from "/public/openmoji/E340.svg";
-import ZqOFvPsiPq from "/public/openmoji/E341.svg";
-import NwxIFrKDfc from "/public/openmoji/E342.svg";
-import fDCEOcDpUD from "/public/openmoji/E343.svg";
-import kaAnAaBaXP from "/public/openmoji/E344.svg";
-import FPeRbotwof from "/public/openmoji/E345.svg";
-import CghBZWqrOT from "/public/openmoji/E346.svg";
-import EZlQHIiVXR from "/public/openmoji/E347.svg";
-import MFQEAFEfhF from "/public/openmoji/E348.svg";
-import zXXQnqOwOw from "/public/openmoji/E380.svg";
-import gYThLlQpLc from "/public/openmoji/E381.svg";
-import BOHxuNeYmH from "/public/openmoji/F000.svg";
-import xpDilbcvFF from "/public/openmoji/F77A.svg";
-import pRGXJnkmzz from "/public/openmoji/F8FF.svg";

@@ -29,7 +29,7 @@ export default async function MapSelect({ }: map_type) {
 
   const { data: { user } } = await supabase.auth.getUser()
  
-  let header = "Here are some examples ☀"
+  let header = "Here are some examples of Memory Maps ☀"
 
   let userMaplist = examples as map_db[]
   if (user) {
@@ -43,13 +43,6 @@ export default async function MapSelect({ }: map_type) {
     userMaplist = (mapList && mapList.length > 0) ? mapList : examples
 
     header ="Here are your Memory Maps 💖"
-  }
-
-  const favOnPress = (id: string, current: boolean) => async () => {
-    const { data } = await supabase
-      .from('maps')
-      .update({ favorite: !current })
-      .eq("id", id)
   }
 
   const settingIconSize = 50

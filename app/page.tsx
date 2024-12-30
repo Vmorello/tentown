@@ -23,7 +23,7 @@ export default function Index() {
             <Link href="/new/map"
               className="relative flex flex-col bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 rounded-lg p-6 hover:border-foreground gap-2">
               <h3 className="font-bold text-3xl text-center mt-2  min-h-[40px] lg:min-h-[60px]">
-                Make New Memory Map
+                Make New Map
               </h3>
             </Link>
 

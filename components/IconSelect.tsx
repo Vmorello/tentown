@@ -15,16 +15,16 @@ export function CardSelect({
     setCurrentItem, setPinStep,
     currentItem, pageRepList, }: select_class
 ) {
-
+    
     const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
         console.log(emojiData)
         setCurrentItem(emojiData.emoji)
         setPinStep(nextPinStep)
     }
 
-    const onSelectChange =(event: React.ChangeEvent<HTMLSelectElement> ) => {
+    const onSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         setCurrentItem(event.target.value)
-        setPinStep(nextPinStep) 
+        setPinStep(nextPinStep)
     }
 
     const listItems = pageRepList.map((element: string) => {
@@ -36,7 +36,7 @@ export function CardSelect({
         <select onChange={onSelectChange} defaultValue={currentItem}>
             {listItems}
         </select>
-        <EmojiPicker onEmojiClick={onEmojiChange} />
+        <EmojiPicker  onEmojiClick={onEmojiChange} />
 
     </div>
     )
