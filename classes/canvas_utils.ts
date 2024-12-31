@@ -67,16 +67,7 @@ export class CanvasControl implements CanvasUtilBase {
     if (currentItem === noSelectionString) {
       this.removeHover()
     } else {
-      try {
-        this.setHover(currentItem)
-      } catch (err) {
-        try{
-          this.setHover(currentItem.split("-")[0])
-        }catch{
-          console.error(currentItem)
-        }
-        
-      }
+      this.setHover(currentItem)
     }
   }
 

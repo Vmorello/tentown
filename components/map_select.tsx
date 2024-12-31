@@ -3,8 +3,6 @@ import { cookies } from 'next/headers'
 
 import Link from 'next/link'
 
-import { get_image } from '@/classes/icons_utils';
-
 interface map_type { }
 
 interface map_db {

@@ -10,7 +10,7 @@ import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
 import { CardSelect } from './IconSelect'
 import { Debug } from './debug_'
-import { get_icon_list, getRadius, getSize } from '@/classes/icons_utils'
+import { get_icon_list, getSize } from '@/classes/icons_utils'
 import { bgBlueHex, noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
@@ -104,7 +104,7 @@ export function GotPage(props: repPage) {
 
   const addRep = (x: number, y: number) => {
     //next to be replaced
-    const radius = getRadius(currentItem)
+    const radius = 0
 
     const size = getSize(currentItem)
 
