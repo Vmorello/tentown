@@ -148,16 +148,18 @@ export function GotPage(props: repPage) {
         item["y"] < yCanvas
     })
 
-    if (infoOnLocation.length > 0) {
+    
+    if (pinStep=="place" && currentItem != noSelectionString) {
+      addRep(xCanvas, yCanvas)
+      setCurrentItem(noSelectionString)
+      setPinStep("button")
+    }
+    else if (infoOnLocation.length > 0) {
       setDiary({
         x: xCanvas,
         y: yCanvas,
         infoOnLocation: infoOnLocation
       })
-    }
-    else if (currentItem != noSelectionString) {
-      addRep(xCanvas, yCanvas)
-      setCurrentItem(noSelectionString)
     }
 
     console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. The info at this location found is ${infoOnLocation}`)//offset set at x:${offsetX} y:${offsetY}.
