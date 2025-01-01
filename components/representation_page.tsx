@@ -19,7 +19,7 @@ import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './BackgroundSelect';
-import { fileUpload } from '@/classes/saveServerUtil';
+//import { fileUpload } from '@/classes/saveServerUtil';
 
 interface repPage {
   icons: representation[]
