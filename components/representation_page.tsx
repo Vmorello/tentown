@@ -148,8 +148,8 @@ export function GotPage(props: repPage) {
         item["y"] < yCanvas
     })
 
-    
-    if (pinStep=="place" && currentItem != noSelectionString) {
+
+    if (pinStep == "place" && currentItem != noSelectionString) {
       addRep(xCanvas, yCanvas)
       setCurrentItem(noSelectionString)
       setPinStep("button")
@@ -415,9 +415,9 @@ export function GotPage(props: repPage) {
 
         <Aligner canvasWidth={dimention.width + sideWidth}>
           {props.savable &&
-            <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold"  style={{ backgroundColor: padBlueHex }}>
-              <div className='bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500 px-6 py-3 my-3 mx-5 rounded-lg'>
-                {props.loaded ? <LoadedOptions updateButt={updateButt} />
+            <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold" style={{ backgroundColor: padBlueHex }}>
+              <div className='flex bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 px-6 py-3 my-3 mx-5 rounded-lg'>
+                {props.loaded ? <LoadedOptions  updateButt={updateButt} />
                   : <button onClick={saveButt}> Save This Map / Lock Background</button>}
               </div>
             </div>}
@@ -430,7 +430,7 @@ export function GotPage(props: repPage) {
 
                 {props.showCreative &&
                   <>
-                    {pinStep == "button" && <button className="bg-gradient-to-br from-amber-200 via-pink-300 to-indigo-500
+                    {pinStep == "button" && <button className="bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500
                         px-6 py-3 my-3 mx-5 rounded-lg  shadow-xl hover:scale-105 transform transition-all duration-200 font-bold"
                       onClick={() => setPinStep("selection")}>
                       + Add a Memory Pin
