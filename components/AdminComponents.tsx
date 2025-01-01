@@ -59,7 +59,7 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
   })
 
 
-  return <div key={`creatorRepOps${item.id}`} className="relative" >
+  return <div key={`creatorRepOps${item.id}`} className="relative text-gray-900" >
 
     <div>
       <hr className={"h-2 bg-gray-500"} />

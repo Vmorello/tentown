@@ -18,7 +18,8 @@ import Aligner from './wrappers/aligner';
 import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
-import { BackgroundCard, CenteredBackground, LoadedOptions } from './BackgroundSelect';
+import { BackgroundCard, CenteredBackground } from './BackgroundSelect';
+import { fileUpload } from '@/classes/saveServerUtil';
 
 interface repPage {
   icons: representation[]
@@ -416,9 +417,9 @@ export function GotPage(props: repPage) {
         <Aligner canvasWidth={dimention.width + sideWidth}>
           {props.savable &&
             <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold" style={{ backgroundColor: padBlueHex }}>
-              <div className='flex bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 px-6 py-3 my-3 mx-5 rounded-lg'>
-                {props.loaded ? <LoadedOptions  updateButt={updateButt} />
-                  : <button onClick={saveButt}> Save This Map / Lock Background</button>}
+              <div className='flex bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 my-3 mx-5 rounded-lg'>
+                {props.loaded ? <button className='flex-1' onClick={updateButt}>Update</button>
+                  : <button className='flex-1' onClick={saveButt}> Save This Map / Lock Background</button>}
               </div>
             </div>}
 

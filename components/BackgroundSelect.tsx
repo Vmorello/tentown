@@ -17,9 +17,6 @@ export function CenteredBackground({ backgroundButt, bgList, location }: centere
         <BackgroundCard backgroundButt={backgroundButt} bgList={bgList} />
     </div>
 }
-export function LoadedOptions({ updateButt: updateButt }: { updateButt: () => void }) {
-    return <button onClick={updateButt}>Update</button>
-}
 
 export function BackgroundCard({ backgroundButt, bgList }: background_function) {
     // FOR PAST AND FUTURE USE
