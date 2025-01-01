@@ -59,20 +59,13 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
   })
 
 
-  return <div key={`creatorRepOps${item.id}`} className="relative" style={{ zIndex: 10}}>
-    <input value={item.visible_name}
-      onChange={inputEleRepChange({ setRepInfo: setRepInfo.title, repId: item.id })}
-      id={`journalRepTitle${item.id}`} />
+  return <div key={`creatorRepOps${item.id}`} className="relative" >
 
     <div>
       <hr className={"h-2 bg-gray-500"} />
       <ListTextData entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
       <button onClick={buttEleRepChange({ setRepInfo: buttActions.newText, repId: item.id })}>New Box to Write In</button>
     </div>
-
-{/* 
-    <hr className={"h-2 bg-gray-500"} />
-    <AddPhoto userImages={userStorageImages} photoAdded={buttEleRepChange({ setRepInfo: buttActions.photoAdded, repId: item.id })} /> */}
 
     <hr className={"h-2 bg-gray-500"} />
     <label>
@@ -168,22 +161,5 @@ export function AddLink(props: {
   </>
 }
 
-// export function AddPhoto(props: {
-//   userImages: string[],
-//   photoAdded: () => void,
-// }) {
-//   const linkOptions = props.userImages.map((storageNames: string) => {
-//     return <option value={storageNames} key={storageNames}>{storageNames.split('/')[1]}</option>
-//   });
-
-//   return <>
-//     <button onClick={props.photoAdded}>📷 Add Photo 📷</button>
-//     <div>
-//       <select id="photoSelect">
-//         {linkOptions}
-//       </select>
-//     </div>
-//   </>
-// }
 
 

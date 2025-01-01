@@ -11,3 +11,5 @@ export const maxWidth = 1300
 export const startingWidth = 1108 
 export const startingHeight = 560
 export const sideWidth = 355
+
+export const settingIconSize = 40
