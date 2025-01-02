@@ -19,6 +19,7 @@ import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './BackgroundSelect';
+import EmojiPicker from 'emoji-picker-react';
 //import { fileUpload } from '@/classes/saveServerUtil';
 
 interface repPage {
@@ -477,6 +478,9 @@ export function GotPage(props: repPage) {
 
         </Aligner>
       </MapBanner>
+      <div hidden={true}>
+       <EmojiPicker ></EmojiPicker>
+      </div>
     </div>
   )
 }
