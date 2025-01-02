@@ -23,9 +23,9 @@ export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedI
     }, [item])
 
 
-    if (setFocusedIndex ) {
+    if (setFocusedIndex) {
 
-        return <div className="movingPhoto absolute bg-white p-4 pb-16 shadow-lg rounded-lg"
+        return <div className="movingPhoto absolute bg-white p-4 pb-16 shadow-lg rounded-lg  text-gray-600"
             style={{
                 top: `${-136 - (10 * photoIndex!)}px`,
                 left: `${-16 + (150 * photoIndex!)}px`,
@@ -43,27 +43,27 @@ export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedI
 
             <div className={"text-right"} ><button onClick={closeFunc}>Close - X</button></div>
             <DisplayImageCanvas storagePath={item.image_storage![photoIndex!]} size={"mid"} />
-            <div className="absolute py-4 left-0 right-0 text-center text-sm text-gray-600 font-semibold">
+            <div className="absolute py-4 left-0 right-0 text-center text-sm font-semibold">
                 {item.data[photoIndex!]}
             </div>
         </div>
     }
 
     if(previewFile){
-        return  <div className="movingPhoto absolute bg-white p-4 pb-16 shadow-lg rounded-lg"
+        return  <div className="movingPhoto absolute bg-white p-4 pb-16 shadow-lg rounded-lg text-red-900"
         style={{
             top: `${item.y}px`,
             left: `${item.x}px`,
             zIndex: zIndex
         }}>
 
-        <div className='text-red-900'>Preview, Save below</div>
+        <div >Preview, Save below</div>
         <div className={"text-right"} ><button onClick={closeFunc}>Close - X</button></div>
         <DisplayImageCanvas previewfile={previewFile} size={"mid"} className={canvasClassName}/>
         <div className=" py-4 text-sm text-gray-600 font-semibold">
             {item.data[0]}
         </div>
-        <button className=' text-red-900' onClick={()=>{savePreviewButt!()}}>Add photo to Memory</button>
+        <button onClick={()=>{savePreviewButt!()}}>Add photo to Memory</button>
     </div>
 
     }
