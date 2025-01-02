@@ -416,11 +416,11 @@ export function GotPage(props: repPage) {
 
         <Aligner canvasWidth={dimention.width + sideWidth}>
           {props.savable &&
-            <div className=" bg-indigo-400 rounded-t-xl p-1 font-bold" style={{ backgroundColor: padBlueHex }}>
+            <div className=" bg-indigo-400 rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
 
-              {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 my-3 mx-5 rounded-lg' >
+              {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' >
                 Update</button>
-                : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 my-3 mx-5 rounded-lg'>
+                : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
                   Save This Map / Lock Background</button>}
 
             </div>}
