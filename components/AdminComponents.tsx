@@ -64,7 +64,7 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
     <div>
       <hr className={"h-2 bg-gray-500"} />
       <ListTextData entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
-      <button onClick={buttEleRepChange({ setRepInfo: buttActions.newText, repId: item.id })}>New Box to Write In</button>
+      <button onClick={buttEleRepChange({ setRepInfo: buttActions.newText, repId: item.id })}>Add photo notation or more info</button>
     </div>
 
     <hr className={"h-2 bg-gray-500"} />

@@ -63,7 +63,7 @@ export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedI
         <div className=" py-4 text-sm text-gray-600 font-semibold">
             {item.data[0]}
         </div>
-        <button onClick={()=>{savePreviewButt!()}}>Add photo to Memory</button>
+        <button className=' text-red-900' onClick={()=>{savePreviewButt!()}}>Add photo to Memory</button>
     </div>
 
     }
