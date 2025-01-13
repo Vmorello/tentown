@@ -230,12 +230,8 @@ export function GotPage(props: repPage) {
 
     console.log(data, error)
 
-    const reader = new FileReader();
-    reader.readAsText(data!);
-    reader.onloadend = () => {
-      // console.log(reader.result)
-      updateBackgroundAndsSizeWithBase64(reader.result as string)
-    };
+
+    updateBackgroundAndSize(data!)
 
   }
 
@@ -309,10 +305,14 @@ export function GotPage(props: repPage) {
 
       const storagePath = `${user!.id}/${mapName}`
 
+      const res: Response = await fetch(ref.current!.toDataURL("image/jpeg", saveQuality));
+      const blob: Blob = await res.blob();
+      const file = new File([blob], storagePath, { type: 'image/jpeg' })
+
       const { data: storageData, error: storageError } = await supabase
         .storage
         .from('MapCollection')
-        .upload(storagePath, ref.current!.toDataURL("image/jpeg", saveQuality), {
+        .upload(storagePath, file, {
           upsert: true,
           contentType: "image/jpeg"
         })
