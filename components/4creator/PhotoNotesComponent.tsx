@@ -46,7 +46,7 @@ export function PhotoNotesComponent({ item, setCurrentRepInfo, setPreview }: Pho
 
 
 function ListTextData(props: {
-    entries: Array<string>, repID: string,
+    entries: string[], repID: string,
     CatagoryOnChange: (repID: string, indexOfPara: number) => (event: React.ChangeEvent<HTMLTextAreaElement>) => void
 }) {
     return <>

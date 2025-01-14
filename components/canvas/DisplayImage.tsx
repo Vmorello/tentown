@@ -40,26 +40,21 @@ export function DisplayImageCanvas({ storagePath, previewfile, size, className, 
 
         // console.log(data, error)
 
-        const reader = new FileReader();
-        reader.readAsText(data!);
-        reader.onloadend = () => {
-            console.log(reader.result)
-            updateBackgroundAndsSizeWithBase64(reader.result as string)
-        };
+        updateBackgroundAndSize(data!)
 
     }
-    const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
+    // const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
 
-        var image = new Image();
-        image.src = base64image;
+    //     var image = new Image();
+    //     image.src = base64image;
 
-        image.addEventListener("load", () => {
-            // console.log(`loaded image${image}`)
-            setBackground(image)
-            setDimentionWithSize(image, size)
-        })
-        image.src = base64image;
-    }
+    //     image.addEventListener("load", () => {
+    //         // console.log(`loaded image${image}`)
+    //         setBackground(image)
+    //         setDimentionWithSize(image, size)
+    //     })
+    //     image.src = base64image;
+    // }
 
     const updateBackgroundAndSize = (backgroundImage: Blob) => {
         const imageURL = URL.createObjectURL(backgroundImage)

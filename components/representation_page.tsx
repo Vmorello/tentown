@@ -124,6 +124,7 @@ export function GotPage(props: repPage) {
       hidden: false,
       height: size.h,
       width: size.w,
+      image_storage: []
     })
     setCurrentRepInfo(info_copy)
   }
@@ -235,22 +236,6 @@ export function GotPage(props: repPage) {
 
   }
 
-  const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
-
-    const image = new Image();
-
-    image.addEventListener("load", () => {
-      console.log(`loaded image${image}`)
-      setBackgroundSource("Storage")
-      setBackground(image)
-
-      setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
-
-    })
-    image.src = base64image;
-
-  }
-
   const updateBackgroundAndSize = (backgroundImage: Blob) => {
     const imageURL = URL.createObjectURL(backgroundImage)
     // console.log(imageURL)
@@ -272,6 +257,26 @@ export function GotPage(props: repPage) {
   }
 
   //================ Saving =======================
+  const saveImage = async (canvasElement: HTMLCanvasElement, storagePath: string,) => {
+    const res: Response = await fetch(canvasElement.toDataURL("image/jpeg", saveQuality));
+    const blob: Blob = await res.blob();
+    const file = new File([blob], storagePath, { type: 'image/jpeg' })
+
+    const { data: storageData, error: storageError } = await supabase
+      .storage
+      .from('MapCollection')
+      .upload(storagePath, file, {
+        upsert: true,
+        contentType: "image/jpeg"
+      })
+    if (storageError) {
+      console.error("we couldnt save the file image")
+      return
+    }
+
+  }
+
+
   const saveButt = async () => {
 
     const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
@@ -306,21 +311,8 @@ export function GotPage(props: repPage) {
 
       const storagePath = `${user!.id}/${mapName}`
 
-      const res: Response = await fetch(ref.current!.toDataURL("image/jpeg", saveQuality));
-      const blob: Blob = await res.blob();
-      const file = new File([blob], storagePath, { type: 'image/jpeg' })
 
-      const { data: storageData, error: storageError } = await supabase
-        .storage
-        .from('MapCollection')
-        .upload(storagePath, file, {
-          upsert: true,
-          contentType: "image/jpeg"
-        })
-      if (storageError) {
-        console.error("we couldnt save the file image")
-        return
-      }
+      await saveImage(ref.current!, storagePath)
 
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
@@ -347,27 +339,16 @@ export function GotPage(props: repPage) {
 
       const { data: { user } } = await supabase.auth.getUser()
 
-      const uuid = `${user!.id}/${uuidv4()}`
+      const imagePath = `${user!.id}/${uuidv4()}`
 
-      const { data, error } = await supabase
-        .storage
-        .from('MapCollection')
-        .upload(uuid, (document.getElementsByClassName("previewCanvas")[0] as HTMLCanvasElement).toDataURL("image/jpeg", saveQuality), {
-          upsert: true,
-          contentType: "image/jpeg",
-        })
-      console.log({ data, error })
-      if (error) {
-        console.error("Failed saving preview image")
-        return
-      }
+      await saveImage((document.getElementsByClassName("previewCanvas")[0] as HTMLCanvasElement), imagePath)
 
       const infoCopy = currentRepInfo.slice()
       const listIndex = infoCopy.findIndex(indexOf => preview.item.id === indexOf.id)
 
       infoCopy[listIndex].image_storage ?
-        infoCopy[listIndex].image_storage!.push(uuid)
-        : infoCopy[listIndex].image_storage = [uuid]
+        infoCopy[listIndex].image_storage!.push(imagePath)
+        : infoCopy[listIndex].image_storage = [imagePath]
       setCurrentRepInfo(infoCopy)
 
 
@@ -483,3 +464,5 @@ export function GotPage(props: repPage) {
     </div>
   )
 }
+
+
