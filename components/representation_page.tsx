@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
-import { CardSelect } from './IconSelect'
+import { CardSelect } from './4creator/IconSelect'
 import { Debug } from './debug_'
 import { get_icon_list, getSize } from '@/classes/icons_utils'
 import { bgBlueHex, noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
@@ -18,7 +18,7 @@ import Aligner from './wrappers/aligner';
 import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
-import { BackgroundCard, CenteredBackground } from './BackgroundSelect';
+import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 //import { fileUpload } from '@/classes/saveServerUtil';
 

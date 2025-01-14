@@ -1,5 +1,5 @@
-import { representation } from "./representation_page"
-import { actionableType } from "./DiaryComponents"
+import { representation } from "../representation_page"
+import { actionableType } from "../DiaryComponents"
 
 
 interface repChangeType {

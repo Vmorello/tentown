@@ -1,8 +1,8 @@
 import { get_image } from "@/classes/icons_utils"
 import { representation } from "./representation_page"
 import { useState } from "react"
-import { AdminOptions } from "./AdminComponents"
-import { EditNameIconComponent } from "./EditNameIconComponent"
+import { AdminOptions } from "./4creator/AdminComponents"
+import { EditNameIconComponent } from "./4creator/EditNameIconComponent"
 import { settingIconSize } from "@/classes/constants"
 
 export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userStorageImages, userMaps, removeRep, setCurrentRepInfo }: {

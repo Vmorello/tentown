@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 
 
 import { representation } from "./representation_page"
-import { AdminOptions, TranferWithLink } from "./AdminComponents";
+import { TranferWithLink } from "./4creator/AdminComponents";
 import { PhotoOverlay } from "./PhotoOverlay";
 
 interface dairyType {

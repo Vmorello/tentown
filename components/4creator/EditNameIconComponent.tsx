@@ -3,7 +3,7 @@
 import { settingIconSize } from "@/classes/constants"
 import { get_image } from "@/classes/icons_utils"
 import React, { useState } from "react"
-import { representation } from "./representation_page"
+import { representation } from "../representation_page"
 import EmojiPicker, { EmojiClickData } from "emoji-picker-react"
 
 export function EditNameIconComponent({ id, name, icon, setCurrentRepInfo }: {
