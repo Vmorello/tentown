@@ -4,6 +4,7 @@ import { useState } from "react"
 import { AdminOptions } from "./4creator/AdminComponents"
 import { EditNameIconComponent } from "./4creator/EditNameIconComponent"
 import { settingIconSize } from "@/classes/constants"
+import { PhotoNotesComponent } from "./4creator/PhotoNotesComponent"
 
 export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userStorageImages, userMaps, removeRep, setCurrentRepInfo }: {
   memoryList: representation[]
@@ -48,17 +49,7 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
         </div>
         {(showCreative && (index === openedIndex)) && <div>
           <EditNameIconComponent id={rep.id} name={rep.visible_name} icon={rep.icon} setCurrentRepInfo={setCurrentRepInfo}/>
-          <div> Add new Photo:</div>
-          <div className="relative w-full max-w-md h-52 border-2 border-dotted border-gray-400 rounded-lg  bg-gray-100  flex justify-center items-center cursor-pointer">
-            <input type="file" id={`image_input_${rep.id}`} className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-              onChange={(event) => {
-                if (event.target.files === null) { return }
-                setPreview({ item: rep, file: event.target.files[0] })
-              }} />
-            <label htmlFor={`image_input_${rep.id}`} className="text-gray-500 text-lg pointer-events-none">
-              Drag image here or Click to select
-            </label>
-          </div>
+          <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview}/>
           <AdminOptions item={rep} userStorageImages={userStorageImages} userMaps={userMaps} removeRep={removeRep} currentRepInfo={memoryList} setCurrentRepInfo={setCurrentRepInfo} />
         </div>}
       </div>

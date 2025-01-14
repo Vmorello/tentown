@@ -115,7 +115,7 @@ export function GotPage(props: repPage) {
       icon: currentItem,
       x: x - size.w / 2,
       y: y - size.h / 2,
-      data: [],
+      data: [""],
       id: uuidv4(),
       visible_name: currentItem,
       radius: radius,

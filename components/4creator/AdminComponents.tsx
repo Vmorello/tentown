@@ -51,22 +51,9 @@ export function AdminOptions({ item, userStorageImages, userMaps, removeRep, cur
     }
 
 
-  const textChange = (repID: string, indexOfPara: number) => ((event: React.ChangeEvent<HTMLTextAreaElement>) => {
-    const info_copy = currentRepInfo.slice()
-    const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
-    info_copy[listIndex]["data"][indexOfPara] = event.target.value
-    setCurrentRepInfo(info_copy)
-  })
-
-
   return <div key={`creatorRepOps${item.id}`} className="relative text-gray-900" >
 
-    <div>
-      <hr className={"h-2 bg-gray-500"} />
-      <ListTextData entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
-      <button onClick={buttEleRepChange({ setRepInfo: buttActions.newText, repId: item.id })}>Add photo notation or more info</button>
-    </div>
-
+   
     <hr className={"h-2 bg-gray-500"} />
     <label>
       x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.x, repId: item.id })} />
@@ -121,20 +108,6 @@ const buttActions: repButtChangeType = {
 }
 
 
-export function ListTextData(props: {
-  entries: Array<string>, repID: string,
-  CatagoryOnChange: (repID: string, indexOfPara: number) => (event: React.ChangeEvent<HTMLTextAreaElement>) => void
-}) {
-  return <>
-    {props.entries.map((entry, index: number) => {
-      return <div key={`rep${props.repID}_div${index}`}>
-        <textarea cols={35} rows={5} value={entry}
-          onChange={props.CatagoryOnChange(props.repID, index)} />
-      </div>
-    })}
-  </>
-
-}
 
 export function TranferWithLink(props: { mapTranfer: () => void }) {
   return (<button onClick={props.mapTranfer}>
