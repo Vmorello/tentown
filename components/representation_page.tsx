@@ -77,7 +77,7 @@ export function GotPage(props: repPage) {
 
   const [pinStep, setPinStep] = useState("button" as "button" | "selection" | "place" | "describe")
 
-  // const [activeTab, setActiveTab] = useState(0);
+  const [loadEmoji, setLoadEmoji] = useState(false);
 
   const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
 
@@ -266,6 +266,7 @@ export function GotPage(props: repPage) {
         setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
       }
       URL.revokeObjectURL(imageURL)
+      setLoadEmoji(true)
     })
     tempImage.src = imageURL
   }
@@ -478,9 +479,7 @@ export function GotPage(props: repPage) {
 
         </Aligner>
       </MapBanner>
-      <div hidden={true}>
-       <EmojiPicker ></EmojiPicker>
-      </div>
+      {loadEmoji && <div hidden={true}><EmojiPicker /></div>}
     </div>
   )
 }
