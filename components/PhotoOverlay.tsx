@@ -57,13 +57,14 @@ export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedI
             zIndex: zIndex
         }}>
 
-        <div >Preview, Save below</div>
+        <div className='text-lg'>Preview</div>
         <div className={"text-right"} ><button onClick={closeFunc}>Close - X</button></div>
+        <button onClick={()=>{savePreviewButt!()}}>Save photo to Memory</button>
         <DisplayImageCanvas previewfile={previewFile} size={"mid"} className={canvasClassName}/>
         <div className=" py-4 text-sm text-gray-600 font-semibold">
             {item.data[0]}
         </div>
-        <button onClick={()=>{savePreviewButt!()}}>Add photo to Memory</button>
+        
     </div>
 
     }

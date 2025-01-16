@@ -34,7 +34,7 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
 
 
   const linkOptions = memoryList.map((rep: representation, index: number) => {
-    console.log(rep.icon)
+    // console.log(rep.icon)
     if (!rep.hidden || showCreative) {
       return <div className=" border-b last:border-b-0">
         <div className="flex items-center space-x-3 p-3" onClick={() => {
