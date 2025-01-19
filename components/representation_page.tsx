@@ -49,7 +49,7 @@ export type representation = {
   hidden: boolean
   width: number
   height: number
-  image_storage?: string[]
+  image_storage: string[]
 }
 
 const iconList = get_icon_list()
