@@ -11,7 +11,7 @@ import { Diary } from './DiaryComponents'
 import { CardSelect } from './4creator/IconSelect'
 import { Debug } from './debug_'
 import { get_icon_list, getSize } from '@/classes/icons_utils'
-import { bgBlueHex, noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
+import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import Aligner from './wrappers/aligner';
@@ -20,12 +20,11 @@ import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
-//import { fileUpload } from '@/classes/saveServerUtil';
 
 interface repPage {
   icons: representation[]
   showCreative: boolean
-  mapLocationToLoad?: string
+  mapLocationToLoad: string
   loaded: boolean
   mapId?: string
   userMaps: { id: any; name: any; }[]
@@ -50,6 +49,7 @@ export type representation = {
   width: number
   height: number
   image_storage: string[]
+  order: number
 }
 
 const iconList = get_icon_list()
@@ -80,6 +80,8 @@ export function GotPage(props: repPage) {
   const [loadEmoji, setLoadEmoji] = useState(false);
 
   const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
+
+  const [openedIndex, setOpenedIndex] = useState(undefined as number | undefined);
 
 
   useEffect(() => {
@@ -124,7 +126,8 @@ export function GotPage(props: repPage) {
       hidden: false,
       height: size.h,
       width: size.w,
-      image_storage: []
+      image_storage: [],
+      order: currentRepInfo.length 
     })
     setCurrentRepInfo(info_copy)
   }
@@ -158,6 +161,8 @@ export function GotPage(props: repPage) {
       setPinStep("button")
     }
     else if (infoOnLocation.length > 0) {
+      setOpenedIndex(infoOnLocation[0].order)
+
       setDiary({
         x: xCanvas,
         y: yCanvas,
@@ -385,7 +390,6 @@ export function GotPage(props: repPage) {
     updateIcons()
   }
 
-  const tabs = props.showCreative ? ["See Memories", "Add a Pin",] : ["See Memories"]
   //==================================================================
 
   return (
@@ -429,7 +433,8 @@ export function GotPage(props: repPage) {
                   </>}
 
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
-                  setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} />
+                  setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} 
+                  openIndex={openedIndex}/>
 
                 {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
               </div>
@@ -445,6 +450,7 @@ export function GotPage(props: repPage) {
 
               {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
+              {/* this can probably go to dairy */}
               {preview && <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />}
 
               <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} />

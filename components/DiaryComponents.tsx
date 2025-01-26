@@ -11,7 +11,6 @@ import { PhotoOverlay } from "./PhotoOverlay";
 interface dairyType {
   diaryInfo: { x: number, y: number, infoOnLocation: representation[] },
   updateButt: () => void,
-
   resetDiary: () => void
 }
 
@@ -21,7 +20,7 @@ export interface actionableType {
 }
 
 
-export function Diary({ diaryInfo,updateButt, resetDiary,}: dairyType) {
+export function Diary({ diaryInfo, updateButt, resetDiary, }: dairyType) {
 
   const router = useRouter()
 
@@ -63,23 +62,23 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
   const [focusedIndex, setFocusedIndex] = useState(0)
 
   return <>
-    {item.image_storage ? <>
+    {item.image_storage && <>
       {item.image_storage.map((image, index) => {
         // the images that can slide in
         return <PhotoOverlay item={item} zIndex={focusedIndex === index ? 9 : 8 - index} photoIndex={index} setFocusedIndex={setFocusedIndex} closeFunc={resetDiary} />
       })}
-    </> : <></>}
+    </>}
 
     <div className="relative" style={{ zIndex: 21 }}>
       {/* had to seperate these 2 as the Not path would take some of the  */}
-      {!item.image_storage || item.image_storage.length === 0 ? <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
+      {(!item.image_storage || item.image_storage.length === 0) && <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
         {item.visible_name}
-        {item.data[0] ? <div className=" font-semibold">{item.data[0]}</div> : <></>}
-      </div> : <></>}
+        {item.data[0] && <div className=" font-semibold">{item.data[0]}</div>}
+      </div>}
 
-      {item.link ? <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
+      {item.link && <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
         <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
-      </div> : <></>}
+      </div>}
     </div>
   </>
 

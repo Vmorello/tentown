@@ -1,44 +1,42 @@
 import { get_image } from "@/classes/icons_utils"
 import { representation } from "./representation_page"
-import { useState } from "react"
+// import { useState } from "react"
 import { AdminOptions } from "./4creator/AdminComponents"
 import { EditNameIconComponent } from "./4creator/EditNameIconComponent"
 import { settingIconSize } from "@/classes/constants"
 import { PhotoNotesComponent } from "./4creator/PhotoNotesComponent"
 
-export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userStorageImages, userMaps, removeRep, setCurrentRepInfo }: {
+export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userStorageImages, userMaps, removeRep, setCurrentRepInfo, openIndex }: {
   memoryList: representation[]
   showCreative: boolean
   actingCanvasClick: (x: number, y: number) => void
   setPreview: React.Dispatch<React.SetStateAction<{
-    item: representation;
-    file: File;
+    item: representation
+    file: File
   } | undefined>>
-
   userStorageImages: string[],
   userMaps: { id: string, name: string }[],
   removeRep: (id: string) => () => void,
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
+  openIndex? : number
 },
 ) {
 
-  const [openedIndex, setOpenedIndex] = useState(undefined as number | undefined);
-
-  const onClick = (index: number) => {
-    if (index === openedIndex) {
-      setOpenedIndex(undefined)
-    } else {
-      setOpenedIndex(index)
-    }
-  }
+  // const onClick = (index: number) => {
+  //   if (index === openIndex) {
+  //     setOpenedIndex(undefined)
+  //   } else {
+  //     setOpenedIndex(index)
+  //   }
+  // }
 
 
-  const linkOptions = memoryList.map((rep: representation, index: number) => {
+  const linkOptions = memoryList.map((rep: representation) => {
     // console.log(rep.icon)
     if (!rep.hidden || showCreative) {
       return <div className=" border-b last:border-b-0">
         <div className="flex items-center space-x-3 p-3" onClick={() => {
-          onClick(index)
+          // onClick(rep.order)
           actingCanvasClick(rep.x + rep.width / 2, rep.y + rep.height / 2)
         }}>
           <div className="w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
@@ -47,9 +45,9 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
           </div>
           <div className="text-center">{rep.visible_name}</div>
         </div>
-        {(showCreative && (index === openedIndex)) && <div>
-          <EditNameIconComponent id={rep.id} name={rep.visible_name} icon={rep.icon} setCurrentRepInfo={setCurrentRepInfo}/>
-          <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview}/>
+        {(showCreative && (rep.order === openIndex)) && <div>
+          <EditNameIconComponent id={rep.id} name={rep.visible_name} icon={rep.icon} setCurrentRepInfo={setCurrentRepInfo} />
+          <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
           <AdminOptions item={rep} userStorageImages={userStorageImages} userMaps={userMaps} removeRep={removeRep} currentRepInfo={memoryList} setCurrentRepInfo={setCurrentRepInfo} />
         </div>}
       </div>

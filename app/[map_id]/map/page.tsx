@@ -45,6 +45,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     .from('icons')
     .select()
     .eq("map_id", params.map_id)
+    .order("order")
 
 
 
