@@ -11,7 +11,7 @@ interface select_class {
 
 const nextPinStep = "place"
 
-export function CardSelect({
+export function EmojiSelect({
     setCurrentItem, setPinStep,
     currentItem, pageRepList, }: select_class
 ) {

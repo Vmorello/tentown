@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
-import { CardSelect } from './4creator/IconSelect'
+import { EmojiSelect } from './4creator/IconSelect'
 import { Debug } from './debug_'
 import { get_icon_list, getSize } from '@/classes/icons_utils'
 import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
@@ -135,15 +135,11 @@ export function GotPage(props: repPage) {
 
 
   //This weird typing lets me use this function somewhere where I would use a click event as well
-  const CanvasPressed = (canvasX: number, canvasY: number) => {
-    canvasOnclickSwitch(canvasX, canvasY)
-    canvasUtil?.addClickEffect(canvasX, canvasY)
-  }
-
-  const canvasOnclickSwitch = (xCanvas: number, yCanvas: number) => {
+  const CanvasPressed = (xCanvas: number, yCanvas: number) => {
     resetDiary()
 
     setPreview(undefined)
+    setOpenedIndex(undefined)
 
     const infoOnLocation = currentRepInfo.filter((item) => {
       if (item.hidden && !props.showCreative) return
@@ -171,6 +167,7 @@ export function GotPage(props: repPage) {
     }
 
     console.log(`clicked at x:${xCanvas} y:${yCanvas} in the canvas. The info at this location found is ${infoOnLocation}`)//offset set at x:${offsetX} y:${offsetY}.
+    canvasUtil?.addClickEffect(xCanvas, yCanvas)
   }
 
   const removeRep = (id: string) => () => {
@@ -396,40 +393,36 @@ export function GotPage(props: repPage) {
     <div>
 
       {!props.savable && props.showCreative ?
-        <div className="bg-indigo-400 text-center p-3 mb-2">
+        <div className="bg-indigo-400 text-center p-3 mb-2 ">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
-
         <Aligner canvasWidth={dimention.width + sideWidth}>
+
+          {/* Save/Update button, this needs to be automatic*/}
           {props.savable &&
             <div className=" bg-indigo-400 rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
-
               {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' >
                 Update</button>
                 : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
                   Save This Map / Lock Background</button>}
-
             </div>}
 
-          <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
+          <div className="flex flex-col-reverse lg:flex-row space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
-            <div style={{ maxHeight: dimention.height, overflowY: "auto" }}>
-              <div className="flex flex-col bg-indigo-400 rounded-xl" style={{ width: sideWidth, minHeight: startingHeight }}>
-
-
+            {/* This is the Sidebar/ Underbar */}
+            <div  className="overflow-auto " style={{ maxHeight: dimention.height}}>
+              <div className="flex flex-col bg-indigo-400 rounded-xl lg:w-96 lg:min-h-96" >
                 {props.showCreative &&
                   <>
                     {pinStep == "button" && <button className="bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500
                         px-6 py-3 my-3 mx-5 rounded-lg  shadow-xl hover:scale-105 transform transition-all duration-200 font-bold"
                       onClick={() => setPinStep("selection")}>
-                      + Add a Memory Pin
+                      +    Add a Memory Pin
                     </button>}
-
                     {(pinStep == "place" || pinStep == "selection") &&
-                      <CardSelect setCurrentItem={setCurrentItem} setPinStep={setPinStep}
+                      <EmojiSelect setCurrentItem={setCurrentItem} setPinStep={setPinStep}
                         currentItem={currentItem} pageRepList={iconList} />}
-
                   </>}
 
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
@@ -439,29 +432,26 @@ export function GotPage(props: repPage) {
                 {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
               </div>
             </div>
+            
 
+
+            {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
               <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
-
-
-
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
+
+              <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
 
               {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
               {/* this can probably go to dairy */}
               {preview && <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />}
-
               <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} />
-
-              <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
             </div>
 
 
           </div>
-
-
           {/* <Debug info={String(dimention.width)}  /> */}
 
         </Aligner>
