@@ -25,7 +25,7 @@ export default async function RootLayout({ children, }: { children: React.ReactN
       <body className="bg-background text-neutral-100" style={{ backgroundColor: bgBlueHex }}>
         <main> 
           <nav className="w-full flex justify-center" >
-            <div className="relative w-full  flex  p-3 text-sm ">
+            <div className="relative w-full  flex justify-between  p-3 text-sm ">
               <Link href="/">
                 <img src={logo.src} height={100}  />
               </Link>

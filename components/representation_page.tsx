@@ -14,7 +14,6 @@ import { get_icon_list, getSize } from '@/classes/icons_utils'
 import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
-import Aligner from './wrappers/aligner';
 import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
@@ -397,7 +396,7 @@ export function GotPage(props: repPage) {
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
-        <Aligner canvasWidth={dimention.width + sideWidth}>
+        <div className="flex flex-col items-start lg:items-center" >
 
           {/* Save/Update button, this needs to be automatic*/}
           {props.savable &&
@@ -454,7 +453,7 @@ export function GotPage(props: repPage) {
           </div>
           {/* <Debug info={String(dimention.width)}  /> */}
 
-        </Aligner>
+        </div>
       </MapBanner>
       {loadEmoji && <div hidden={true}><EmojiPicker /></div>}
     </div>
