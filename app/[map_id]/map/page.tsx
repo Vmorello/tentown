@@ -1,13 +1,12 @@
 import React from 'react';
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
+import { createClient } from '@/utils/supabase/server'
 import { FileObject } from '@supabase/storage-js'
-import { cookies } from 'next/headers'
 
 import { v4 as uuidv4 } from 'uuid';
 
 
 import { GotPage } from '@/components/representation_page'
-import { startingWidth, startingHeight } from '@/classes/constants';
+import { startingWidth, startingHeight } from '@/utils/constants';
 
 interface map_db {
   id: any
@@ -17,7 +16,7 @@ interface map_db {
 
 export default async function MapPage({ params }: { params: { map_id: string } }) {
 
-  const supabase = createServerComponentClient({ cookies })
+  const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
 
 

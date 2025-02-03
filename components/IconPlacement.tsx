@@ -1,4 +1,4 @@
-import { get_image, } from '@/classes/icons_utils';
+import { get_image, } from '@/utils/icons_utils';
 import { representation } from '@/components/representation_page';
 
 

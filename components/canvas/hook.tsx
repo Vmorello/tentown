@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { CanvasControl } from '@/classes/canvas_utils';
+import { CanvasControl } from '@/utils/canvas_utils';
 
 export default function useCanvas(upperRef?: React.RefObject<HTMLCanvasElement>, upperCanvaUtil?: CanvasControl) {
   

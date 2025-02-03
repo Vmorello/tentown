@@ -1,11 +1,11 @@
 import './globals.css'
-import LogoutButton from '@/components/LogoutButton'
 import Link from 'next/link'
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
-import { bgBlueHex } from '@/classes/constants'
+import { createClient } from '@/utils/supabase/server'
+import { bgBlueHex } from '@/utils/constants'
 
 import logo from "/public/logoName.svg";
+import { signout } from './login/actions';
+// import { AuthProvider } from '@/components/AuthContext'
 
 export const metadata = {
   title: 'Memory Map 💚',
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default async function RootLayout({ children, }: { children: React.ReactNode }) {
 
-  const supabase = createServerComponentClient({ cookies })
+  const supabase = await createClient()
 
   const {
     data: { user },
@@ -22,34 +22,40 @@ export default async function RootLayout({ children, }: { children: React.ReactN
 
   return (
     <html lang="en">
-      <body className="bg-background text-neutral-100" style={{ backgroundColor: bgBlueHex }}>
-        <main> 
+      <body className="bg-background text-neutral-100 " style={{ backgroundColor: bgBlueHex }}>
+        {/* <AuthProvider> */}
+        <main>
           <nav className="w-full flex justify-center" >
             <div className="relative w-full  flex justify-between  p-3 text-sm ">
               <Link href="/">
-                <img src={logo.src} height={100}  />
+                <img src={logo.src} height={100} />
               </Link>
               {user ? (
                 <div className="justify-end mx-8 flex items-center gap-4">
                   Hey, {user.email}!
-                  <LogoutButton />
+                  <form >
+                    <button formAction={signout} className="py-2 px-4 rounded-md no-underline bg-slate-900 hover:bg-slate-700">
+                      Logout
+                    </button>
+                  </form>
                 </div>
               ) : (
                 <div className="py-2 px-4 justify-end mx-8 flex items-center gap-4">
-                <Link
-                  href="/login"
-                  className="font-bold py-8 px-32 justify-end flex items-center gap-4 max-h-9 rounded-md bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 "
-                >
-                  Login
-                </Link>
+                  <Link
+                    href="/login"
+                    className="font-bold py-8 px-32 justify-end flex items-center gap-4 max-h-9 rounded-md bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 "
+                  >
+                    Login
+                  </Link>
                 </div>
               )}
             </div>
           </nav>
 
           {children}
-          
+
         </main>
+        {/* </AuthProvider> */}
       </body>
     </html>
   )

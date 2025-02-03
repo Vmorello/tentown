@@ -1,5 +1,4 @@
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
+import { createClient } from '@/utils/supabase/server'
 
 import Link from 'next/link'
 
@@ -23,7 +22,7 @@ const examples = [
 
 export default async function MapSelect({ }: map_type) {
 
-  const supabase = createServerComponentClient({ cookies })
+  const supabase = await createClient()
 
   const { data: { user } } = await supabase.auth.getUser()
  

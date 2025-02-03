@@ -1,9 +1,9 @@
 'use client';
 
 
-import React, { useState, useEffect, Children } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation'
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { createClient } from '@/utils/supabase/client'
 
 
 
@@ -24,7 +24,7 @@ export default function MapBanner({ id, name, children, fav, setMapName:setMapNa
     const [mapName, setMapName] = useState(name)
 
 
-    const [supabase] = useState(createClientComponentClient())
+    const [supabase] = useState(createClient())
 
     useEffect(() =>{
         console.log("test")

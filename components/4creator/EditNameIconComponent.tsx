@@ -1,7 +1,7 @@
 'use client'
 
-import { settingIconSize } from "@/classes/constants"
-import { get_image } from "@/classes/icons_utils"
+import { settingIconSize } from "@/utils/constants"
+import { get_image } from "@/utils/icons_utils"
 import React, { useState } from "react"
 import { representation } from "../representation_page"
 import EmojiPicker, { EmojiClickData } from "emoji-picker-react"

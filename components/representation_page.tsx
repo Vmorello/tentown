@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { createClient } from '@/utils/supabase/client';
 import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
@@ -9,13 +9,13 @@ import { v4 as uuidv4 } from 'uuid';
 import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
 import { Debug } from './debug_'
-import { get_icon_list, getSize } from '@/classes/icons_utils'
-import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
+import { get_icon_list, getSize } from '@/utils/icons_utils'
+import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/utils/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
-import { setDimentionWithSize } from '@/classes/canvas_utils'
+import { setDimentionWithSize } from '@/utils/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
@@ -74,7 +74,7 @@ export function GotPage(props: repPage) {
   });
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
   const [backgroundSource, setBackgroundSource] = useState("Storage" as "Storage" | "File")
-  const [supabase] = useState(createClientComponentClient())
+  const [supabase] = useState(createClient())
   const [deletedIcons, setDeletedIcons] = useState([] as string[]);
 
   const [pinStep, setPinStep] = useState("button" as "button" | "selection" | "place" | "describe")

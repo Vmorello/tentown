@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
-
+import { createClient } from '@/utils/supabase/client';
 import useCanvas from "./hook";
-import { CanvasControl } from "@/classes/canvas_utils";
+// import { CanvasControl } from "@/utils/canvas_utils";
 
 interface ImageDisplayType {
     storagePath?: string
@@ -20,7 +19,7 @@ const longSide = {
 
 export function DisplayImageCanvas({ storagePath, previewfile, size, className, onClickInput }: ImageDisplayType) {
 
-    const [supabase] = useState(createClientComponentClient())
+    const [supabase] = useState(createClient())
 
     const { ref, canvasUtil } = useCanvas();
 

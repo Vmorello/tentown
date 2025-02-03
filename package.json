@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
-    "@supabase/auth-helpers-nextjs": "latest",
-    "@supabase/supabase-js": "latest",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.48.1",
     "emoji-picker-react": "^4.12.0",
     "eslint-config-next": "^14.2.4",
     "gsap": "^3.12.5",
