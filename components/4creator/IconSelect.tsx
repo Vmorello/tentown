@@ -5,17 +5,18 @@ import EmojiPicker, { EmojiClickData } from 'emoji-picker-react';
 interface select_class {
     setCurrentItem: React.Dispatch<React.SetStateAction<string>>
     setPinStep: React.Dispatch<React.SetStateAction<any>>
-    currentItem: string
-    pageRepList: string[]
+    // currentItem: string
+    // pageRepList: string[]
 }
 
 const nextPinStep = "place"
 
 export function EmojiSelect({
     setCurrentItem, setPinStep,
-    currentItem, pageRepList, }: select_class
+    // currentItem, pageRepList, 
+}: select_class
 ) {
-    
+
     const onEmojiChange = (emojiData: EmojiClickData, event: MouseEvent) => {
         console.log(emojiData)
         setCurrentItem(emojiData.unified.toUpperCase())
@@ -27,16 +28,15 @@ export function EmojiSelect({
         setPinStep(nextPinStep)
     }
 
-    const listItems = pageRepList.map((element: string) => {
-        return <option className={"text-2xl"} value={element} key={element}>{element}</option>
-    });
+    // const listItems = pageRepList.map((element: string) => {
+    //     return <option className={"text-2xl"} value={element} key={element}>{element}</option>
+    // });
 
-    // console.log(`loaded is ${loaded}`)
     return (<div>
-        <select onChange={onSelectChange} defaultValue={currentItem}>
+        {/* <select onChange={onSelectChange} defaultValue={currentItem}>
             {listItems}
-        </select>
-        <EmojiPicker  onEmojiClick={onEmojiChange} />
+        </select> */}
+        <EmojiPicker onEmojiClick={onEmojiChange} />
 
     </div>
     )

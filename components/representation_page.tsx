@@ -8,7 +8,6 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
-import { EmojiSelect } from './4creator/IconSelect'
 import { Debug } from './debug_'
 import { get_icon_list, getSize } from '@/classes/icons_utils'
 import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/classes/constants"
@@ -19,6 +18,10 @@ import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/classes/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
+import PinButton from './PinButton';
+// import { EditNameIconComponent } from './4creator/EditNameIconComponent';
+// import { PhotoNotesComponent } from './4creator/PhotoNotesComponent';
+// import { AdminOptions } from './4creator/AdminComponents';
 
 interface repPage {
   icons: representation[]
@@ -396,7 +399,7 @@ export function GotPage(props: repPage) {
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
-        <div className="flex flex-col items-start lg:items-center" >
+        <div className="flex flex-col  items-start lg:items-center" >
 
           {/* Save/Update button, this needs to be automatic*/}
           {props.savable &&
@@ -407,23 +410,13 @@ export function GotPage(props: repPage) {
                   Save This Map / Lock Background</button>}
             </div>}
 
-          <div className="flex flex-col-reverse lg:flex-row space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
+          <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
 
             {/* This is the Sidebar/ Underbar */}
-            <div  className="overflow-auto " style={{ maxHeight: dimention.height}}>
+            <div  className="overflow-y-auto relative" style={{ maxHeight: dimention.height}}>
               <div className="flex flex-col bg-indigo-400 rounded-xl lg:w-96 lg:min-h-96" >
-                {props.showCreative &&
-                  <>
-                    {pinStep == "button" && <button className="bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500
-                        px-6 py-3 my-3 mx-5 rounded-lg  shadow-xl hover:scale-105 transform transition-all duration-200 font-bold"
-                      onClick={() => setPinStep("selection")}>
-                      +    Add a Memory Pin
-                    </button>}
-                    {(pinStep == "place" || pinStep == "selection") &&
-                      <EmojiSelect setCurrentItem={setCurrentItem} setPinStep={setPinStep}
-                        currentItem={currentItem} pageRepList={iconList} />}
-                  </>}
-
+                {props.showCreative && <PinButton pinStep={pinStep} setPinStep={setPinStep} setCurrentItem={setCurrentItem} /> }
+                
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
                   setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} 
                   openIndex={openedIndex}/>
@@ -431,9 +424,15 @@ export function GotPage(props: repPage) {
                 {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
               </div>
             </div>
+
+            {/* {(props.showCreative && (openedIndex != undefined)) && <div className='absolute left-10'>
+              <EditNameIconComponent id={rep.id} name={rep.visible_name} icon={rep.icon} setCurrentRepInfo={setCurrentRepInfo} />
+              <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
+              <AdminOptions item={rep} userStorageImages={props.storageList} userMaps={props.userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
+            </div>} */}
             
 
-
+            
             {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
               <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
