@@ -4,7 +4,7 @@ import { createClient } from '@/utils/supabase/server'
 import { bgBlueHex } from '@/utils/constants'
 
 import logo from "/public/logoName.svg";
-import { signout } from './login/actions';
+import { signout } from './auth/actions';
 // import { AuthProvider } from '@/components/AuthContext'
 
 export const metadata = {
@@ -17,7 +17,7 @@ export default async function RootLayout({ children, }: { children: React.ReactN
   const supabase = await createClient()
 
   const {
-    data: { user },
+    data: { user }, error
   } = await supabase.auth.getUser()
 
   return (
@@ -42,7 +42,7 @@ export default async function RootLayout({ children, }: { children: React.ReactN
               ) : (
                 <div className="py-2 px-4 justify-end mx-8 flex items-center gap-4">
                   <Link
-                    href="/login"
+                    href="/auth"
                     className="font-bold py-8 px-32 justify-end flex items-center gap-4 max-h-9 rounded-md bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 "
                   >
                     Login

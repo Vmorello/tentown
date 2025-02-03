@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Messages from './messages'
 import { Suspense } from 'react'
 import { login, signup } from './actions'
