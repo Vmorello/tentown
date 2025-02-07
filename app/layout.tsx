@@ -31,7 +31,7 @@ export default async function RootLayout({ children, }: { children: React.ReactN
                 <img src={logo.src} height={100} />
               </Link>
               {user ? (
-                <div className="justify-end mx-8 flex items-center gap-4">
+                <div className="justify-end flex items-center gap-4">
                   Hey, {user.email}!
                   <form >
                     <button formAction={signout} className="py-2 px-4 rounded-md no-underline bg-slate-900 hover:bg-slate-700">

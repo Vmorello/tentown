@@ -129,7 +129,7 @@ export function GotPage(props: repPage) {
       height: size.h,
       width: size.w,
       image_storage: [],
-      order: currentRepInfo.length 
+      order: currentRepInfo.length
     })
     setCurrentRepInfo(info_copy)
   }
@@ -392,64 +392,65 @@ export function GotPage(props: repPage) {
   //==================================================================
 
   return (
-    <div>
+    <div className='origin-top-left scale-50 lg:scale-100 overflow-x-scroll  min-w-max '>
 
       {!props.savable && props.showCreative ?
         <div className="bg-indigo-400 text-center p-3 mb-2 ">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
-        <div className="flex flex-col  items-start lg:items-center overflow-x-scroll " >
+        <div className=''>
+          <div className="flex flex-col items-start lg:items-center    " >
 
-          {/* Save/Update button, this needs to be automatic*/}
-          {props.savable &&
-            <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
-              {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' >
-                Update</button>
-                : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
-                  Save This Map / Lock Background</button>}
-            </div>}
+            {/* Save/Update button, this needs to be automatic*/}
+            {props.savable &&
+              <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
+                {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' >
+                  Update</button>
+                  : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
+                    Save This Map / Lock Background</button>}
+              </div>}
 
-          <div className="flex space-x-5 p-5 rounded-xl origin-top-left scale-50 lg:scale-100" style={{ backgroundColor: padBlueHex }}>
+            <div className="flex space-x-5 p-5 rounded-xl " style={{ backgroundColor: padBlueHex }}>
 
-            {/* This is the Sidebar/ Underbar */}
-            <div  className="overflow-y-auto relative" style={{ maxHeight: dimention.height}}>
-              <div className="flex flex-col bg-indigo-400 rounded-xl lg:w-96 lg:min-h-96" >
-                {props.showCreative && <PinButton pinStep={pinStep} setPinStep={setPinStep} setCurrentItem={setCurrentItem} /> }
-                
-                <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
-                  setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList} 
-                  openIndex={openedIndex}/>
+              {/* This is the Sidebar/ Underbar */}
+              <div className="overflow-y-auto relative" style={{ maxHeight: dimention.height }}>
+                <div className="flex flex-col bg-indigo-400 rounded-xl lg:w-96 lg:min-h-96" >
+                  {props.showCreative && <PinButton pinStep={pinStep} setPinStep={setPinStep} setCurrentItem={setCurrentItem} />}
 
-                {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
+                  <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
+                    setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList}
+                    openIndex={openedIndex} />
+
+                  {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
+                </div>
               </div>
-            </div>
-            {/* {(props.showCreative && (openedIndex != undefined)) && <div className='lg:hidden'>
+              {/* {(props.showCreative && (openedIndex != undefined)) && <div className='lg:hidden'>
                       <EditNameIconComponent rep={rep} setCurrentRepInfo={setCurrentRepInfo} />
                       <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
                       <AdminOptions item={rep} userStorageImages={props.storageList} userMaps={props.userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
                     </div>} */}
 
-            
-            {/* This is the Map */}
-            <div className='relative bg-indigo-400 rounded-xl  '>
-              <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
-                width={dimention.width} height={dimention.height} className="rounded-xl" />
-              {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
-              <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
+              {/* This is the Map */}
+              <div className='relative bg-indigo-400 rounded-xl  '>
+                <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
+                  width={dimention.width} height={dimention.height} className="rounded-xl" />
+                {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
-              {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
+                <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
 
-              {/* this can probably go to dairy */}
-              {preview && <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />}
-              <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} />
+                {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
+
+                {/* this can probably go to dairy */}
+                {preview && <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />}
+                <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} />
+              </div>
+
+
             </div>
-
-
+            {/* <Debug info={String(dimention.width)}  /> */}
           </div>
-          {/* <Debug info={String(dimention.width)}  /> */}
-
         </div>
       </MapBanner>
       {loadEmoji && <div hidden={true}><EmojiPicker /></div>}
