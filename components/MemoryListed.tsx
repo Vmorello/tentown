@@ -31,16 +31,16 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
           actingCanvasClick(rep.x + rep.width / 2, rep.y + rep.height / 2)
         }}>
           <div className="hidden lg:block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
-          <div className="bg-gray-100 border-gray-400 shadow-md  rounded-full p-2 lg:mx-2 flex items-center justify-center">
+          <div className="bg-gray-100 border-gray-400 shadow-md rounded-full p-2 lg:mx-2 flex items-center justify-center">
             <img src={get_image(rep.icon)} alt='settings' height={settingIconSize} width={settingIconSize} className="rounded-full max-w-none" />
           </div>
           <div className="hidden lg:block text-center">{rep.visible_name}</div>
         </div>
         {(showCreative && (rep.order === openIndex)) && <div>
-              <EditNameIconComponent id={rep.id} name={rep.visible_name} icon={rep.icon} setCurrentRepInfo={setCurrentRepInfo} />
-              <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
-              <AdminOptions item={rep} userStorageImages={userStorageImages} userMaps={userMaps} removeRep={removeRep} currentRepInfo={memoryList} setCurrentRepInfo={setCurrentRepInfo} />
-            </div>}
+          <EditNameIconComponent rep={rep} setCurrentRepInfo={setCurrentRepInfo} />
+          <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
+          <AdminOptions item={rep} userStorageImages={userStorageImages} userMaps={userMaps} removeRep={removeRep} currentRepInfo={memoryList} setCurrentRepInfo={setCurrentRepInfo} />
+        </div>}
       </div>
     }
   })

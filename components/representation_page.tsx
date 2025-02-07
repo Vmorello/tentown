@@ -399,18 +399,18 @@ export function GotPage(props: repPage) {
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
-        <div className="flex flex-col  items-start lg:items-center" >
+        <div className="flex flex-col  items-start lg:items-center overflow-x-scroll " >
 
           {/* Save/Update button, this needs to be automatic*/}
           {props.savable &&
-            <div className=" bg-indigo-400 rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
+            <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
               {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' >
                 Update</button>
                 : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
                   Save This Map / Lock Background</button>}
             </div>}
 
-          <div className="flex space-x-5 p-5 rounded-xl" style={{ backgroundColor: padBlueHex }}>
+          <div className="flex space-x-5 p-5 rounded-xl origin-top-left scale-50 lg:scale-100" style={{ backgroundColor: padBlueHex }}>
 
             {/* This is the Sidebar/ Underbar */}
             <div  className="overflow-y-auto relative" style={{ maxHeight: dimention.height}}>
@@ -424,17 +424,15 @@ export function GotPage(props: repPage) {
                 {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
               </div>
             </div>
-
-            {/* {(props.showCreative && (openedIndex != undefined)) && <div className='absolute left-10'>
-              <EditNameIconComponent id={rep.id} name={rep.visible_name} icon={rep.icon} setCurrentRepInfo={setCurrentRepInfo} />
-              <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
-              <AdminOptions item={rep} userStorageImages={props.storageList} userMaps={props.userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
-            </div>} */}
-            
+            {/* {(props.showCreative && (openedIndex != undefined)) && <div className='lg:hidden'>
+                      <EditNameIconComponent rep={rep} setCurrentRepInfo={setCurrentRepInfo} />
+                      <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
+                      <AdminOptions item={rep} userStorageImages={props.storageList} userMaps={props.userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
+                    </div>} */}
 
             
             {/* This is the Map */}
-            <div className='relative bg-indigo-400 rounded-xl'>
+            <div className='relative bg-indigo-400 rounded-xl  '>
               <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
