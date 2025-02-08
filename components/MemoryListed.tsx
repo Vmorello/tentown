@@ -1,6 +1,6 @@
 import { get_image } from "@/utils/icons_utils"
 import { representation } from "./representation_page"
-import { CreatorEditPanel } from "./4creator/creatorEditPanel"
+import { CreatorEditPanel } from "./4creator/CreatorEditPanel"
 import { settingIconSize } from "@/utils/constants"
 
 export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userMaps, removeRep, setCurrentRepInfo, openIndex }: {

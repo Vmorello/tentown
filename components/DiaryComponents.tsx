@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'
 import { representation } from "./representation_page"
 import { TranferWithLink } from "./4creator/AdminComponents";
 import { PhotoOverlay } from "./PhotoOverlay";
-import { CreatorEditPanel } from "./4creator/creatorEditPanel";
+import { CreatorEditPanel } from "./4creator/CreatorEditPanel";
 import { padBlueHex } from "@/utils/constants";
 
 interface dairyType {

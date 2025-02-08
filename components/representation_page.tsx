@@ -19,9 +19,6 @@ import { setDimentionWithSize } from '@/utils/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
-// import { EditNameIconComponent } from './4creator/EditNameIconComponent';
-// import { PhotoNotesComponent } from './4creator/PhotoNotesComponent';
-// import { AdminOptions } from './4creator/AdminComponents';
 
 interface repPage {
   icons: representation[]
