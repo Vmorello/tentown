@@ -30,7 +30,7 @@ interface repPage {
   loaded: boolean
   mapId?: string
   userMaps: { id: any; name: any; }[]
-  storageList: string[]
+  templates: string[]
   height: number
   width: number
   savable: boolean
@@ -392,14 +392,14 @@ export function GotPage(props: repPage) {
   //==================================================================
 
   return (
-    <div className='origin-top-left scale-50 lg:scale-100 overflow-x-scroll  min-w-max '>
+    <div className='origin-top-left scale-50 md:scale-75 lg:scale-100 overflow-x-scroll  min-w-max '>
 
       {!props.savable && props.showCreative ?
         <div className="bg-indigo-400 text-center p-3 mb-2 ">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
-        <div className="flex flex-col items-start lg:items-center    " >
+        <div className="flex flex-col items-center " >
 
           {/* Save/Update button, this needs to be automatic*/}
           {props.savable &&
@@ -418,17 +418,12 @@ export function GotPage(props: repPage) {
                 {props.showCreative && <PinButton pinStep={pinStep} setPinStep={setPinStep} setCurrentItem={setCurrentItem} />}
 
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
-                  setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep} userStorageImages={props.storageList}
+                  setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep}
                   openIndex={openedIndex} />
 
-                {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.storageList} backgroundButt={backgroundButt} />}
+                {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.templates} backgroundButt={backgroundButt} />}
               </div>
             </div>
-            {/* {(props.showCreative && (openedIndex != undefined)) && <div className='lg:hidden'>
-                      <EditNameIconComponent rep={rep} setCurrentRepInfo={setCurrentRepInfo} />
-                      <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
-                      <AdminOptions item={rep} userStorageImages={props.storageList} userMaps={props.userMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
-                    </div>} */}
 
 
             {/* This is the Map */}
@@ -439,11 +434,12 @@ export function GotPage(props: repPage) {
 
               <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
 
-              {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.storageList} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
+              {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.templates} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
               {/* this can probably go to dairy */}
               {preview && <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />}
-              <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} />
+              <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+            setPreview={setPreview} removeRep={removeRep} linkableMaps={props.userMaps}/>
             </div>
 
           </div>

@@ -91,7 +91,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
   if (currentMapData && icons) {
     return (
-      <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} storageList={fullListNames} savable={user ? true : false}
+      <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} templates={fullListNames} savable={user ? true : false}
         mapLocationToLoad={mapLocationToLoad} icons={icons} loaded={true} userMaps={mapList} 
         width={currentMapData[0].width} height={currentMapData[0].height} name={currentMapData[0].name} fav={currentMapData[0].favorite}/>
     )
@@ -101,7 +101,7 @@ export default async function MapPage({ params }: { params: { map_id: string } }
 
   return (
     <GotPage mapId={undefined} showCreative={true} mapLocationToLoad={mapLocationToLoad} icons={[]} loaded={false} savable={user ? true : false}
-    userMaps={mapList} storageList={fullListNames} width={startingWidth} height={startingHeight} name={newMapName} fav={false}/>
+    userMaps={mapList} templates={fullListNames} width={startingWidth} height={startingHeight} name={newMapName} fav={false}/>
   )
 
 

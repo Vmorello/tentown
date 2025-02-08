@@ -1,12 +1,9 @@
 import { get_image } from "@/utils/icons_utils"
 import { representation } from "./representation_page"
-// import { useState } from "react"
-import { AdminOptions } from "./4creator/AdminComponents"
-import { EditNameIconComponent } from "./4creator/EditNameIconComponent"
+import { CreatorEditPanel } from "./4creator/creatorEditPanel"
 import { settingIconSize } from "@/utils/constants"
-import { PhotoNotesComponent } from "./4creator/PhotoNotesComponent"
 
-export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userStorageImages, userMaps, removeRep, setCurrentRepInfo, openIndex }: {
+export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userMaps, removeRep, setCurrentRepInfo, openIndex }: {
   memoryList: representation[]
   showCreative: boolean
   actingCanvasClick: (x: number, y: number) => void
@@ -14,7 +11,6 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
     item: representation
     file: File
   } | undefined>>
-  userStorageImages: string[],
   userMaps: { id: string, name: string }[],
   removeRep: (id: string) => () => void,
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
@@ -30,16 +26,15 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
         <div className="flex items-center p-1.5 lg:p-3" onClick={() => {
           actingCanvasClick(rep.x + rep.width / 2, rep.y + rep.height / 2)
         }}>
-          <div className="hidden lg:block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800"></div>
+          <div className="hidden lg:block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-gray-800" />
           <div className="bg-gray-100 border-gray-400 shadow-md rounded-full p-2 lg:mx-2 flex items-center justify-center">
             <img src={get_image(rep.icon)} alt='settings' height={settingIconSize} width={settingIconSize} className="rounded-full max-w-none" />
           </div>
           <div className="hidden lg:block text-center">{rep.visible_name}</div>
         </div>
-        {(showCreative && (rep.order === openIndex)) && <div>
-          <EditNameIconComponent rep={rep} setCurrentRepInfo={setCurrentRepInfo} />
-          <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
-          <AdminOptions item={rep} userStorageImages={userStorageImages} userMaps={userMaps} removeRep={removeRep} currentRepInfo={memoryList} setCurrentRepInfo={setCurrentRepInfo} />
+        {(showCreative && (rep.order === openIndex)) && <div className="hidden lg:block">
+          <CreatorEditPanel rep={rep} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={memoryList}
+            setPreview={setPreview} removeRep={removeRep} linkableMaps={userMaps} />
         </div>}
       </div>
     }

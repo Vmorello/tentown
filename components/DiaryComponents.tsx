@@ -7,11 +7,26 @@ import { useRouter } from 'next/navigation'
 import { representation } from "./representation_page"
 import { TranferWithLink } from "./4creator/AdminComponents";
 import { PhotoOverlay } from "./PhotoOverlay";
+import { CreatorEditPanel } from "./4creator/creatorEditPanel";
+import { padBlueHex } from "@/utils/constants";
 
 interface dairyType {
   diaryInfo: { x: number, y: number, infoOnLocation: representation[] },
   updateButt: () => void,
-  resetDiary: () => void
+  resetDiary: () => void,
+  showCreative: boolean,
+  setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
+  setPreview: React.Dispatch<React.SetStateAction<{
+    item: representation;
+    file: File;
+  } | undefined>>
+  linkableMaps: {
+    id: string;
+    name: string;
+  }[]
+  removeRep: (id: string) => () => void
+  currentRepInfo: representation[]
+
 }
 
 export interface actionableType {
@@ -20,7 +35,7 @@ export interface actionableType {
 }
 
 
-export function Diary({ diaryInfo, updateButt, resetDiary, }: dairyType) {
+export function Diary({ diaryInfo, updateButt, resetDiary, showCreative, setCurrentRepInfo, setPreview, linkableMaps, removeRep, currentRepInfo }: dairyType) {
 
   const router = useRouter()
 
@@ -37,7 +52,8 @@ export function Diary({ diaryInfo, updateButt, resetDiary, }: dairyType) {
     console.log(item)
 
     return (<>
-      <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} />
+      <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} showCreative={showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+        setPreview={setPreview} removeRep={removeRep} linkableMaps={linkableMaps} />
     </>)
   })
 
@@ -53,10 +69,23 @@ export function Diary({ diaryInfo, updateButt, resetDiary, }: dairyType) {
 }
 
 
-function DisplayPieces({ item, mapTranfer, resetDiary }: {
+function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentRepInfo, setPreview, linkableMaps, removeRep, currentRepInfo }: {
   item: representation
   mapTranfer: (id: string) => () => void
   resetDiary: () => void
+  showCreative: boolean
+  setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
+  setPreview: React.Dispatch<React.SetStateAction<{
+    item: representation;
+    file: File;
+  } | undefined>>
+  linkableMaps: {
+    id: string;
+    name: string;
+  }[]
+  removeRep: (id: string) => () => void
+  currentRepInfo: representation[]
+
 }) {
 
   const [focusedIndex, setFocusedIndex] = useState(0)
@@ -79,6 +108,10 @@ function DisplayPieces({ item, mapTranfer, resetDiary }: {
       {item.link && <div className="relative max-w-56 bg-fuchsia-500 text-center py-1">
         <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
       </div>}
+      <div className="lg:hidden bg-indigo-400 absolute -left-48 rounded-xl" style={{ zIndex: 31 }}>
+        {showCreative && <CreatorEditPanel rep={item} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+          setPreview={setPreview} removeRep={removeRep} linkableMaps={linkableMaps} />}
+      </div>
     </div>
   </>
 

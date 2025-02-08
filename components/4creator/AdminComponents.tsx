@@ -18,9 +18,8 @@ interface repButtChangeType {
 }
 
 
-export function AdminOptions({ item, userStorageImages, userMaps, removeRep, currentRepInfo, setCurrentRepInfo }: {
+export function AdminOptions({ item,  userMaps, removeRep, currentRepInfo, setCurrentRepInfo }: {
   item: representation,
-  userStorageImages: string[],
   userMaps: { id: string, name: string }[],
   removeRep: (id: string) => () => void,
   currentRepInfo: representation[],
