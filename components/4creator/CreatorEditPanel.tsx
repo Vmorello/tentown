@@ -4,13 +4,10 @@ import { EditNameIconComponent } from "./EditNameIconComponent";
 import { PhotoNotesComponent } from "./PhotoNotesComponent";
 
 
-export function CreatorEditPanel({ rep, setCurrentRepInfo, setPreview, linkableMaps, removeRep, currentRepInfo }: {
+export function CreatorEditPanel({ rep, setCurrentRepInfo,linkableMaps, removeRep, currentRepInfo }: {
     rep: representation
     setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
-    setPreview: React.Dispatch<React.SetStateAction<{
-        item: representation;
-        file: File;
-    } | undefined>>
+   
     linkableMaps: {
         id: string;
         name: string;
@@ -21,7 +18,7 @@ export function CreatorEditPanel({ rep, setCurrentRepInfo, setPreview, linkableM
 ) {
     return <>
             <EditNameIconComponent rep={rep} setCurrentRepInfo={setCurrentRepInfo} />
-            <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} setPreview={setPreview} />
+            <PhotoNotesComponent item={rep} setCurrentRepInfo={setCurrentRepInfo} />
             <AdminOptions item={rep} userMaps={linkableMaps} removeRep={removeRep} currentRepInfo={currentRepInfo} setCurrentRepInfo={setCurrentRepInfo} />
     </>
 

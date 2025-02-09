@@ -16,10 +16,6 @@ interface dairyType {
   resetDiary: () => void,
   showCreative: boolean,
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
-  setPreview: React.Dispatch<React.SetStateAction<{
-    item: representation;
-    file: File;
-  } | undefined>>
   linkableMaps: {
     id: string;
     name: string;
@@ -35,7 +31,7 @@ export interface actionableType {
 }
 
 
-export function Diary({ diaryInfo, updateButt, resetDiary, showCreative, setCurrentRepInfo, setPreview, linkableMaps, removeRep, currentRepInfo }: dairyType) {
+export function Diary({ diaryInfo, updateButt, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep, currentRepInfo }: dairyType) {
 
   const router = useRouter()
 
@@ -53,7 +49,7 @@ export function Diary({ diaryInfo, updateButt, resetDiary, showCreative, setCurr
 
     return (<>
       <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} showCreative={showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
-        setPreview={setPreview} removeRep={removeRep} linkableMaps={linkableMaps} />
+         removeRep={removeRep} linkableMaps={linkableMaps} />
     </>)
   })
 
@@ -69,16 +65,12 @@ export function Diary({ diaryInfo, updateButt, resetDiary, showCreative, setCurr
 }
 
 
-function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentRepInfo, setPreview, linkableMaps, removeRep, currentRepInfo }: {
+function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep, currentRepInfo }: {
   item: representation
   mapTranfer: (id: string) => () => void
   resetDiary: () => void
   showCreative: boolean
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
-  setPreview: React.Dispatch<React.SetStateAction<{
-    item: representation;
-    file: File;
-  } | undefined>>
   linkableMaps: {
     id: string;
     name: string;
@@ -110,7 +102,7 @@ function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentR
       </div>}
       <div className="lg:hidden bg-indigo-400 absolute -left-48 rounded-xl" style={{ zIndex: 31 }}>
         {showCreative && <CreatorEditPanel rep={item} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
-          setPreview={setPreview} removeRep={removeRep} linkableMaps={linkableMaps} />}
+          removeRep={removeRep} linkableMaps={linkableMaps} />}
       </div>
     </div>
   </>

@@ -83,6 +83,7 @@ export class CanvasControl implements CanvasUtilBase {
         new LoadedFileVisibleItem(background, width!, height!)
       )
     }
+    this.paintBackground()
   }
 
   setPaintBackground(background: LoadedFileVisibleItem) {

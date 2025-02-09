@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import { createClient } from '@/utils/supabase/client';
 import useCanvas from "./hook";
-// import { CanvasControl } from "@/utils/canvas_utils";
+import { setDimentionWithSize } from "@/utils/canvas_utils";
 
 interface ImageDisplayType {
     storagePath?: string
-    previewfile?: File
     size?: "sm" | "mid"
     className?: string
     onClickInput?: (canvasX: number, canvasY: number) => void
@@ -17,7 +16,7 @@ const longSide = {
 };
 
 
-export function DisplayImageCanvas({ storagePath, previewfile, size, className, onClickInput }: ImageDisplayType) {
+export function DisplayImageCanvas({ storagePath,  size, className, onClickInput }: ImageDisplayType) {
 
     const [supabase] = useState(createClient())
 
@@ -27,7 +26,7 @@ export function DisplayImageCanvas({ storagePath, previewfile, size, className, 
     const [dimention, setDimention] = useState({ "height": 200, "width": 200 })
 
     const getMapFileFromStorage = async (storageName: string) => {
-        console.log(`trying to get ${storageName}`)
+        // console.log(`trying to get ${storageName}`)
         if (!storageName) {
             return
         }
@@ -42,18 +41,6 @@ export function DisplayImageCanvas({ storagePath, previewfile, size, className, 
         updateBackgroundAndSize(data!)
 
     }
-    // const updateBackgroundAndsSizeWithBase64 = (base64image: string) => {
-
-    //     var image = new Image();
-    //     image.src = base64image;
-
-    //     image.addEventListener("load", () => {
-    //         // console.log(`loaded image${image}`)
-    //         setBackground(image)
-    //         setDimentionWithSize(image, size)
-    //     })
-    //     image.src = base64image;
-    // }
 
     const updateBackgroundAndSize = (backgroundImage: Blob) => {
         const imageURL = URL.createObjectURL(backgroundImage)
@@ -61,25 +48,14 @@ export function DisplayImageCanvas({ storagePath, previewfile, size, className, 
         const tempImage = new Image();
 
         tempImage.addEventListener("load", () => {
-            console.log(`loading image${tempImage}`)
+            // console.log(`loading image${tempImage}`)
+
             setBackground(tempImage)
-            setDimentionWithSize(tempImage, size)
+            setDimentionWithSize(tempImage,setDimention, longSide.mid)
+
             URL.revokeObjectURL(imageURL)
         })
         tempImage.src = imageURL
-    }
-
-    const setDimentionWithSize = (image: HTMLImageElement, size?: "sm" | "mid",) => {
-        if (size) {
-            if (image.naturalHeight > image.naturalWidth) {
-                setDimention({ "height": longSide[size], "width": image.naturalWidth * longSide[size] / image.naturalHeight })
-            } else {
-                setDimention({ "height": longSide[size] * image.naturalHeight / image.naturalWidth, "width": longSide[size] })
-            }
-        } else {
-            setDimention({ "height": image.naturalHeight, "width": image.naturalWidth })
-        }
-
     }
 
     useEffect(() => {
@@ -89,19 +65,13 @@ export function DisplayImageCanvas({ storagePath, previewfile, size, className, 
     }, [storagePath]);
 
 
-    useEffect(() => {
-        if (previewfile) {
-            updateBackgroundAndSize(previewfile)
-        }
-    }, [previewfile]);
-
 
     useEffect(() => {
-        console.log("use effect on background")
-        console.log(background)
+        // console.log("use effect on background")
+        // console.log(background)
         if (background === undefined) { return }
         canvasUtil!.setBackground(background, dimention.width, dimention.height)
-        console.log("set background")
+        // console.log("set background")
     }, [background])
 
 

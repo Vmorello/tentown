@@ -13,12 +13,12 @@ import { get_icon_list, getSize } from '@/utils/icons_utils'
 import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight } from "@/utils/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
-import { PhotoOverlay } from './PhotoOverlay';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/utils/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
+import { saveCanvasImage } from '@/utils/supabase/utils';
 
 interface repPage {
   icons: representation[]
@@ -78,8 +78,6 @@ export function GotPage(props: repPage) {
 
   const [loadEmoji, setLoadEmoji] = useState(false);
 
-  const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
-
   const [openedIndex, setOpenedIndex] = useState(undefined as number | undefined);
 
 
@@ -137,7 +135,6 @@ export function GotPage(props: repPage) {
   const CanvasPressed = (xCanvas: number, yCanvas: number) => {
     resetDiary()
 
-    setPreview(undefined)
     setOpenedIndex(undefined)
 
     const infoOnLocation = currentRepInfo.filter((item) => {
@@ -258,25 +255,6 @@ export function GotPage(props: repPage) {
   }
 
   //================ Saving =======================
-  const saveImage = async (canvasElement: HTMLCanvasElement, storagePath: string,) => {
-    const res: Response = await fetch(canvasElement.toDataURL("image/jpeg", saveQuality));
-    const blob: Blob = await res.blob();
-    const file = new File([blob], storagePath, { type: 'image/jpeg' })
-
-    const { data: storageData, error: storageError } = await supabase
-      .storage
-      .from('MapCollection')
-      .upload(storagePath, file, {
-        upsert: true,
-        contentType: "image/jpeg"
-      })
-    if (storageError) {
-      console.error("we couldnt save the file image")
-      return
-    }
-
-  }
-
 
   const saveButt = async () => {
 
@@ -313,7 +291,7 @@ export function GotPage(props: repPage) {
       const storagePath = `${user!.id}/${mapName}`
 
 
-      await saveImage(ref.current!, storagePath)
+      await saveCanvasImage(supabase, ref.current!, storagePath)
 
       const { data: mapSave, error: mapError } = await supabase
         .from('maps')
@@ -330,40 +308,6 @@ export function GotPage(props: repPage) {
 
     updateButt()
     router.push(`/${mapSaveresult}/map`)
-  }
-
-
-  const savePreviewButt = (preview: { item: representation, file: File }) => () => {
-
-
-    const pushPreview = async () => {
-
-      const { data: { user } } = await supabase.auth.getUser()
-
-      const imagePath = `${user!.id}/${uuidv4()}`
-
-      await saveImage((document.getElementsByClassName("previewCanvas")[0] as HTMLCanvasElement), imagePath)
-
-      const infoCopy = currentRepInfo.slice()
-      const listIndex = infoCopy.findIndex(indexOf => preview.item.id === indexOf.id)
-
-      infoCopy[listIndex].image_storage ?
-        infoCopy[listIndex].image_storage!.push(imagePath)
-        : infoCopy[listIndex].image_storage = [imagePath]
-      setCurrentRepInfo(infoCopy)
-
-
-      // console.log(user)
-      const { data: iconSave, error: iconError } = await supabase
-        .from('icons')
-        .upsert(infoCopy[listIndex])
-        .eq('id', preview.item.id)
-
-
-      setPreview(undefined)
-
-    }
-    pushPreview()
   }
 
 
@@ -414,7 +358,7 @@ export function GotPage(props: repPage) {
               <div className="flex flex-col bg-indigo-400 rounded-xl lg:w-96 lg:min-h-96" >
                 {props.showCreative && <PinButton pinStep={pinStep} setPinStep={setPinStep} setCurrentItem={setCurrentItem} />}
 
-                <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} setPreview={setPreview}
+                <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed} 
                   setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep}
                   openIndex={openedIndex} />
 
@@ -424,7 +368,7 @@ export function GotPage(props: repPage) {
 
 
             {/* This is the Map */}
-            <div className='relative bg-indigo-400 rounded-xl  '>
+            <div className='relative bg-indigo-400 rounded-xl'>
               <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
@@ -433,10 +377,8 @@ export function GotPage(props: repPage) {
 
               {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.templates} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
-              {/* this can probably go to dairy */}
-              {preview && <PhotoOverlay item={preview.item} previewFile={preview.file} savePreviewButt={savePreviewButt(preview)} zIndex={25} closeFunc={() => { setPreview(undefined) }} canvasClassName='previewCanvas' />}
               <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
-            setPreview={setPreview} removeRep={removeRep} linkableMaps={props.userMaps}/>
+                 removeRep={removeRep} linkableMaps={props.userMaps} />
             </div>
 
           </div>

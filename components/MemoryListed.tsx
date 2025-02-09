@@ -3,14 +3,10 @@ import { representation } from "./representation_page"
 import { CreatorEditPanel } from "./4creator/CreatorEditPanel"
 import { settingIconSize } from "@/utils/constants"
 
-export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setPreview, userMaps, removeRep, setCurrentRepInfo, openIndex }: {
+export function MemoryListed({ memoryList, showCreative, actingCanvasClick,  userMaps, removeRep, setCurrentRepInfo, openIndex }: {
   memoryList: representation[]
   showCreative: boolean
   actingCanvasClick: (x: number, y: number) => void
-  setPreview: React.Dispatch<React.SetStateAction<{
-    item: representation
-    file: File
-  } | undefined>>
   userMaps: { id: string, name: string }[],
   removeRep: (id: string) => () => void,
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
@@ -34,7 +30,7 @@ export function MemoryListed({ memoryList, showCreative, actingCanvasClick, setP
         </div>
         {(showCreative && (rep.order === openIndex)) && <div className="hidden lg:block">
           <CreatorEditPanel rep={rep} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={memoryList}
-            setPreview={setPreview} removeRep={removeRep} linkableMaps={userMaps} />
+            removeRep={removeRep} linkableMaps={userMaps} />
         </div>}
       </div>
     }

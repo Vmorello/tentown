@@ -1,17 +1,19 @@
+import { useState } from "react";
+import { SavingFileImage } from "../canvas/SavingFileImage";
 import { representation } from "../representation_page"
 
 
 interface PhotoNotesInter {
     item: representation
     setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
-    setPreview: React.Dispatch<React.SetStateAction<{
-        item: representation;
-        file: File;
-    } | undefined>>
 }
 
 
-export function PhotoNotesComponent({ item, setCurrentRepInfo, setPreview }: PhotoNotesInter) {
+export function PhotoNotesComponent({ item, setCurrentRepInfo }: PhotoNotesInter) {
+
+    
+  const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
+
 
     const textChange = (repID: string, indexOfPara: number) => ((event: React.ChangeEvent<HTMLTextAreaElement>) => {
         setCurrentRepInfo((repInfo) => {
@@ -34,6 +36,9 @@ export function PhotoNotesComponent({ item, setCurrentRepInfo, setPreview }: Pho
             <label htmlFor={`image_input_${item.id}`} className="text-gray-500 text-lg pointer-events-none">
                 Drag image here or Click to select
             </label>
+        </div>
+        <div className="hidden">
+            <SavingFileImage preview={preview} setPreview={setPreview} size={"mid"} setCurrentRepInfo={setCurrentRepInfo} />
         </div>
         <PhotosListed photoStorageLocation={item.image_storage} repID={item.id} setCurrentRepInfo={setCurrentRepInfo} />
         <div className="text-center m-2 text-gray-900" >
@@ -85,3 +90,5 @@ function ListTextData(props: {
     </>
 
 }
+
+
