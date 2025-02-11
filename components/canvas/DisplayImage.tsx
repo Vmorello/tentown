@@ -4,10 +4,8 @@ import useCanvas from "./hook";
 import { setDimentionWithSize } from "@/utils/canvas_utils";
 
 interface ImageDisplayType {
-    storagePath?: string
-    size?: "sm" | "mid"
-    className?: string
-    onClickInput?: (canvasX: number, canvasY: number) => void
+    storagePath: string
+    size: "sm" | "mid"
 }
 
 const longSide = {
@@ -16,7 +14,7 @@ const longSide = {
 };
 
 
-export function DisplayImageCanvas({ storagePath,  size, className, onClickInput }: ImageDisplayType) {
+export function DisplayImageCanvas({ storagePath,  size }: ImageDisplayType) {
 
     const [supabase] = useState(createClient())
 
@@ -59,9 +57,7 @@ export function DisplayImageCanvas({ storagePath,  size, className, onClickInput
     }
 
     useEffect(() => {
-        if (storagePath) {
-            getMapFileFromStorage(storagePath)
-        }
+        getMapFileFromStorage(storagePath)
     }, [storagePath]);
 
 
@@ -75,13 +71,10 @@ export function DisplayImageCanvas({ storagePath,  size, className, onClickInput
     }, [background])
 
 
-    const onClick = onClickInput ? (xCanvas: number, yCanvas: number) => {
-        canvasUtil?.addClickEffect(xCanvas, yCanvas)
-        onClickInput(xCanvas, yCanvas)
-    } : (xCanvas: number, yCanvas: number) => {canvasUtil?.addClickEffect(xCanvas, yCanvas)}
+    const onClick = (xCanvas: number, yCanvas: number) => {canvasUtil?.addClickEffect(xCanvas, yCanvas)}
 
 
-    return <canvas ref={ref} width={dimention.width} height={dimention.height} className={className} onClick={(event) => onClick(event.nativeEvent.offsetX, event.nativeEvent.offsetY)} />
+    return <canvas ref={ref} width={dimention.width} height={dimention.height} onClick={(event) => onClick(event.nativeEvent.offsetX, event.nativeEvent.offsetY)} />
 
 }
 

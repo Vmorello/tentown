@@ -4,17 +4,14 @@ import { useGSAP } from "@gsap/react";
 import { DisplayImageCanvas } from "./canvas/DisplayImage"
 import { representation } from "./representation_page"
 
-export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedIndex, canvasClassName }: {//previewFile, savePreviewButt, 
+export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedIndex }: {
     item: representation,
     zIndex:number
     closeFunc: () => void,
-    canvasClassName?: string,
 
     photoIndex?: number,
     setFocusedIndex?: React.Dispatch<React.SetStateAction<number>>,
-    
-    // previewFile?: File
-    // savePreviewButt?:() => void
+
 }) {
 
     useGSAP(() => {
@@ -49,23 +46,4 @@ export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedI
         </div>
     }
 
-    // if(previewFile){
-    //     return  <div className="movingPhoto absolute bg-white p-4 pb-16 shadow-lg rounded-lg text-red-900"
-    //     style={{
-    //         top: `${item.y}px`,
-    //         left: `${item.x}px`,
-    //         zIndex: zIndex
-    //     }}>
-
-    //     <div className='text-lg'>Preview</div>
-    //     <div className={"text-right"} ><button onClick={closeFunc}>Close - X</button></div>
-    //     <button onClick={()=>{savePreviewButt!()}}>Save photo to Memory</button>
-    //     <DisplayImageCanvas previewfile={previewFile} size={"mid"} className={canvasClassName}/>
-    //     <div className=" py-4 text-sm text-gray-600 font-semibold">
-    //         {item.data[0]}
-    //     </div>
-        
-    // </div>
-
-    // }
 }
