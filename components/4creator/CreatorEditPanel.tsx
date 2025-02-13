@@ -1,4 +1,4 @@
-import { representation } from "../representation_page"
+import { representation } from '@/utils/types';
 import { AdminOptions } from "./AdminComponents";
 import { EditNameIconComponent } from "./EditNameIconComponent";
 import { PhotoNotesComponent } from "./PhotoNotesComponent";

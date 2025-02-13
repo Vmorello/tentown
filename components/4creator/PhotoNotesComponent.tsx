@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { SavingFileImage } from "../canvas/SavingFileImage";
-import { representation } from "../representation_page"
+import { representation } from '@/utils/types';
 
 
 interface PhotoNotesInter {

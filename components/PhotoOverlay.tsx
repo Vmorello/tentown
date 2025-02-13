@@ -2,7 +2,7 @@ import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 
 import { DisplayImageCanvas } from "./canvas/DisplayImage"
-import { representation } from "./representation_page"
+import { representation } from '@/utils/types';
 
 export function PhotoOverlay({ item, zIndex, closeFunc,  photoIndex, setFocusedIndex }: {
     item: representation,

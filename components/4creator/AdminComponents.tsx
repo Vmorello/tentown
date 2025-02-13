@@ -1,4 +1,4 @@
-import { representation } from "../representation_page"
+import { representation } from '@/utils/types';
 import { actionableType } from "../DiaryComponents"
 
 

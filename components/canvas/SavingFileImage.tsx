@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { createClient } from '@/utils/supabase/client';
 import useCanvas from "./hook";
 import { v4 as uuidv4 } from 'uuid';
-import { representation } from "../representation_page";
+import { representation } from '@/utils/types';
 import { saveCanvasImage } from "@/utils/supabase/utils";
 import { setDimentionWithSize } from "@/utils/canvas_utils";
 

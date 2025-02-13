@@ -19,6 +19,7 @@ import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect'
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
 import { saveCanvasImage } from '@/utils/supabase/utils';
+import { representation } from '@/utils/types';
 
 interface repPage {
   icons: representation[]
@@ -35,21 +36,7 @@ interface repPage {
   fav: boolean
 }
 
-export type representation = {
-  icon: string
-  x: number, y: number
-  data: string[]
-  id: string
-  visible_name: string
-  radius: number
-  link: string | null
-  map_id: string
-  hidden: boolean
-  width: number
-  height: number
-  image_storage: string[]
-  order: number
-}
+
 
 const iconList = get_icon_list()
 

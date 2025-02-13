@@ -1,5 +1,5 @@
 import { get_image, } from '@/utils/icons_utils';
-import { representation } from '@/components/representation_page';
+import { representation } from '@/utils/types';
 
 
 export function IconPlacement(props: {

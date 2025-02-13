@@ -3,8 +3,7 @@
 import React, { useState } from "react"
 import { useRouter } from 'next/navigation'
 
-
-import { representation } from "./representation_page"
+import { representation } from '@/utils/types';
 import { TranferWithLink } from "./4creator/AdminComponents";
 import { PhotoOverlay } from "./PhotoOverlay";
 import { CreatorEditPanel } from "./4creator/CreatorEditPanel";
