@@ -5,7 +5,7 @@ import { FileObject } from '@supabase/storage-js'
 import { v4 as uuidv4 } from 'uuid';
 
 
-import { GotPage } from '@/components/representation_page'
+import { GotPage } from '@/components/_mainpage_Map'
 import { startingWidth, startingHeight } from '@/utils/constants';
 
 interface map_db {

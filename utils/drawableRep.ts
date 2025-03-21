@@ -49,7 +49,7 @@ export class SrcImageVisibleItem implements DrawableItem {
 }
 
 
-export class LoadedFileVisibleItem {
+export class LoadedFileVisibleItem implements DrawableItem {
   x: number
   y: number
   pic?: HTMLImageElement
@@ -70,5 +70,41 @@ export class LoadedFileVisibleItem {
 
   draw(ctx: CanvasRenderingContext2D) {
     ctx.drawImage(this.pic!, this.x, this.y, this.width, this.height)
+  }
+}
+
+export class FilteredCanvas implements DrawableItem {
+  x: number
+  y: number
+  pic: ImageData
+
+
+  constructor(image: ImageData, bitwise?:number, x: number = 0, y: number = 0) {
+
+    const filteredImage = image;
+    // Loop through each pixel
+    for (let i = 0; i < filteredImage.data.length; i += 4) {
+      const r = filteredImage.data[i];
+      const g = filteredImage.data[i + 1];
+      const b = filteredImage.data[i + 2];
+
+      // Calculate the average for greyscale
+      const grey = r * 0.3 + g * 0.59 + b * 0.11;
+
+      // Set each channel to the grey value
+      filteredImage.data[i] = filteredImage.data[i + 1] = filteredImage.data[i + 2] = grey;
+    }
+
+    // this.ctx.putImageData(imageData, 0, 0);
+    this.pic = filteredImage
+
+    this.x = x
+    this.y = y
+  }
+
+
+
+  draw(ctx: CanvasRenderingContext2D) {
+    ctx.putImageData(this.pic , this.x, this.y);
   }
 }

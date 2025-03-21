@@ -2,21 +2,15 @@ import { useEffect, useState } from "react";
 import { createClient } from '@/utils/supabase/client';
 import useCanvas from "./hook";
 import { v4 as uuidv4 } from 'uuid';
-import { representation } from '@/utils/types';
+import { preview, representation } from '@/utils/types';
 import { saveCanvasImage } from "@/utils/supabase/utils";
 import { setDimentionWithSize } from "@/utils/canvas_utils";
 
 interface ImageDisplayType {
     size: "sm" | "mid"
     setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
-    setPreview: React.Dispatch<React.SetStateAction<{
-        item: representation;
-        file: File;
-    } | undefined>>
-    preview: {
-        item: representation;
-        file: File;
-    }| undefined
+    setPreview: React.Dispatch<React.SetStateAction<preview | undefined>>
+    preview: preview | undefined
 }
 
 const longSide = {
@@ -25,7 +19,8 @@ const longSide = {
 };
 
 
-export function SavingFileImage({  size, setCurrentRepInfo, preview, setPreview }: ImageDisplayType) {
+
+export function SavingFileImage({ size, setCurrentRepInfo, preview, setPreview }: ImageDisplayType) {
 
     const [supabase] = useState(createClient())
 
@@ -62,7 +57,7 @@ export function SavingFileImage({  size, setCurrentRepInfo, preview, setPreview 
             console.log(`loading image${tempImage}`)
 
             setBackground(tempImage)
-            setDimentionWithSize( tempImage,setDimention, longSide.mid)
+            setDimentionWithSize(tempImage, setDimention, longSide.mid)
 
             URL.revokeObjectURL(imageURL)
         })
@@ -72,7 +67,7 @@ export function SavingFileImage({  size, setCurrentRepInfo, preview, setPreview 
 
     const pushPreview = async () => {
 
-        console.log("Started saving resizingCanvas")    
+        console.log("Started saving resizingCanvas")
 
         const { data: { user } } = await supabase.auth.getUser()
 
@@ -87,8 +82,7 @@ export function SavingFileImage({  size, setCurrentRepInfo, preview, setPreview 
             const info_copy = repInfo.slice()
             const listIndex = info_copy.findIndex(indexOf => preview!.item.id === indexOf.id)
 
-            
-            info_copy[listIndex]= newItem
+            info_copy[listIndex] = newItem
 
             return info_copy
         })
@@ -100,9 +94,10 @@ export function SavingFileImage({  size, setCurrentRepInfo, preview, setPreview 
             .upsert(newItem)
             .eq('id', preview!.item.id)
 
-        console.log("finsihed saving resizingCanvas")    
+        console.log("finsihed saving resizingCanvas")
 
         setPreview(undefined)
+        // ----- save
 
     }
 

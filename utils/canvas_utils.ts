@@ -1,5 +1,5 @@
 import { getSize } from "./icons_utils"
-import { SrcImageVisibleItem, LoadedFileVisibleItem } from "./drawableRep"
+import { SrcImageVisibleItem, LoadedFileVisibleItem, FilteredCanvas } from "./drawableRep"
 
 import { noSelectionString } from "./constants"
 import { ClickedEffect } from "./Effects"
@@ -62,7 +62,7 @@ export class CanvasControl implements CanvasUtilBase {
   setup(background: HTMLImageElement, height:number,width:number,  currentItem = noSelectionString) {
     console.log("setting-up bg / hover")
     //console.log(background)
-    this.setBackground(background, width, height)
+    this.setBackground(background, width, height, 0)
 
     if (currentItem === noSelectionString) {
       this.removeHover()
@@ -73,21 +73,24 @@ export class CanvasControl implements CanvasUtilBase {
 
 
 
-  setBackground(background?: HTMLImageElement, width?: number, height?: number) {
+  setBackground(background?: HTMLImageElement, width?: number, height?: number, filter?:number) {
     console.log("setting up background")
     this.clear()
     if (background === undefined) {
       this.paintBackground = this.clear
     } else {
-      this.paintBackground = this.setPaintBackground(
-        new LoadedFileVisibleItem(background, width!, height!)
-      )
+      this.setPaintBackground(new LoadedFileVisibleItem(background, width!, height!))
+      if(filter){
+        this.updateBackgroundWithFilter()
+      }
+
     }
-    this.paintBackground()
+    
   }
 
-  setPaintBackground(background: LoadedFileVisibleItem) {
-    return () => background.draw(this.ctx)
+  setPaintBackground(background: DrawableItem) {
+    background.draw(this.ctx)
+    this.paintBackground = () => background.draw(this.ctx)
   }
 
   setHover(currentIcon: string) {
@@ -99,14 +102,21 @@ export class CanvasControl implements CanvasUtilBase {
     this.hoverVisable = false
   }
 
+  updateBackgroundWithFilter() {
+    const imageData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
+
+    this.setPaintBackground(new FilteredCanvas(imageData, 0b1010))
+
+  }
+
+
   animate() {
     return () => {
       this.animationFrame = requestAnimationFrame(this.animate())
 
-      // console.log(this)
-      // console.log(this.paintBackground)
       this.paintBackground!()
 
+      // this.convertToGreyscale()
 
       for (let i = 0; i < this.effects.length; i++) {
         this.effects[i].draw(this.ctx)

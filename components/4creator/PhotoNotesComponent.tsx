@@ -15,6 +15,7 @@ export function PhotoNotesComponent({ item, setCurrentRepInfo }: PhotoNotesInter
   const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
 
 
+
     const textChange = (repID: string, indexOfPara: number) => ((event: React.ChangeEvent<HTMLTextAreaElement>) => {
         setCurrentRepInfo((repInfo) => {
             const info_copy = repInfo.slice()

@@ -13,3 +13,8 @@ export type representation = {
   image_storage: string[]
   order: number
 }
+
+export type preview= {
+  item: representation;
+  file: File;
+}

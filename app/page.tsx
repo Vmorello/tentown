@@ -1,5 +1,5 @@
 import { version } from '@/utils/constants'
-import MapSelect from '@/components/map_select'
+import MapSelect from '@/components/MapSelect'
 import Link from 'next/link'
 
 

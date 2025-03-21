@@ -13,3 +13,5 @@ export const startingHeight = 560
 export const sideWidth = 355
 
 export const settingIconSize = 40
+
+export const filterDivision = 2
