@@ -11,7 +11,6 @@ import { padBlueHex } from "@/utils/constants";
 
 interface dairyType {
   diaryInfo: { x: number, y: number, infoOnLocation: representation[] },
-  updateButt: () => void,
   resetDiary: () => void,
   showCreative: boolean,
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
@@ -30,12 +29,11 @@ export interface actionableType {
 }
 
 
-export function Diary({ diaryInfo, updateButt, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep, currentRepInfo }: dairyType) {
+export function Diary({ diaryInfo, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep, currentRepInfo }: dairyType) {
 
   const router = useRouter()
 
   const mapTranfer = (link: string) => () => {
-    updateButt()
     router.push(`/${link}/map`)
   }
 

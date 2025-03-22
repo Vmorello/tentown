@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SavingFileImage } from "../canvas/SavingFileImage";
 import { representation } from '@/utils/types';
+import { updateOneIconDB } from "@/utils/supabase/utils";
 
 
 interface PhotoNotesInter {
@@ -21,6 +22,8 @@ export function PhotoNotesComponent({ item, setCurrentRepInfo }: PhotoNotesInter
             const info_copy = repInfo.slice()
             const listIndex = info_copy.findIndex(indexOf => repID === indexOf.id)
             info_copy[listIndex]["data"][indexOfPara] = event.target.value
+            updateOneIconDB(info_copy[listIndex])
+            //-- debounce
             return info_copy
         })
     })
@@ -63,7 +66,7 @@ function PhotosListed({ photoStorageLocation, repID, setCurrentRepInfo }: {
                         console.log(`removing photo ${index} for rep ${repID}`)
                         console.log(`this shouldnt happen twice`)
                         info_copy[listIndex]["image_storage"] = info_copy[listIndex]["image_storage"].filter(item => item !== entry);
-                        // info_copy[listIndex]["image_storage"].splice(index, 1)
+                        updateOneIconDB(info_copy[listIndex])
                         return info_copy
                     })
                 }}>❌</button>

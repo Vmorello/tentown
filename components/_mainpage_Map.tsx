@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { createClient } from '@/utils/supabase/client';
 import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
@@ -18,7 +17,7 @@ import { setDimentionWithSize } from '@/utils/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
-import { saveCanvasImage } from '@/utils/supabase/utils';
+import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, newMapDB, getImageDB } from '@/utils/supabase/utils';
 import { representation } from '@/utils/types';
 
 interface repPage {
@@ -58,8 +57,6 @@ export function GotPage(props: repPage) {
   })
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
   const [backgroundSource, setBackgroundSource] = useState("Storage" as "Storage" | "File")
-  const [supabase] = useState(createClient())
-  const [deletedIcons, setDeletedIcons] = useState([] as string[])
 
   const [pinStep, setPinStep] = useState("button" as "button" | "selection" | "place" | "describe")
 
@@ -91,46 +88,6 @@ export function GotPage(props: repPage) {
   // console.log(`are you gonna see all the controls: ${props.showCreative}`)
 
   //================= Main Interaction with canvas with control card ==============
-
-  const addRep = (x: number, y: number) => {
-    //next to be replaced
-    const radius = 0
-
-    const size = getSize(currentItem)
-
-    const info_copy = currentRepInfo.slice()
-    info_copy.push({
-      icon: currentItem,
-      x: x - size.w / 2,
-      y: y - size.h / 2,
-      data: [""],
-      id: uuidv4(),
-      visible_name: currentItem,
-      radius: radius,
-      map_id: mapId,
-      link: null,
-      hidden: false,
-      height: size.h,
-      width: size.w,
-      image_storage: [],
-      order: currentRepInfo.length
-    })
-    setCurrentRepInfo(info_copy)
-  }
-
-
-  // const removeFilterAt = (xCanvas: number, yCanvas: number) => {
-  //   const yIndex = Math.floor((yCanvas / dimention.height) * filterDivision)
-  //   const xIndex = Math.floor((xCanvas / dimention.width) * filterDivision)
-
-  //   console.log(`x is ${xIndex} & y is ${yIndex}`)
-  //   setColorFilter((current)=> {
-  //     const newFilter  = current.slice()
-  //     newFilter[xIndex][yIndex] = false
-
-  //     return newFilter
-  //   })
-  // }
 
   const CanvasPressed = (xCanvas: number, yCanvas: number) => {
     resetDiary()
@@ -166,12 +123,40 @@ export function GotPage(props: repPage) {
     canvasUtil?.addClickEffect(xCanvas, yCanvas)
   }
 
+
+  const addRep = (x: number, y: number) => {
+    //next to be replaced
+    const radius = 0
+
+    const size = getSize(currentItem)
+
+    const info_copy = currentRepInfo.slice()
+    info_copy.push({
+      icon: currentItem,
+      x: x - size.w / 2,
+      y: y - size.h / 2,
+      data: [""],
+      id: uuidv4(),
+      visible_name: currentItem,
+      radius: radius,
+      map_id: mapId,
+      link: null,
+      hidden: false,
+      height: size.h,
+      width: size.w,
+      image_storage: [],
+      order: currentRepInfo.length
+    })
+    updateAllIconsDB(info_copy)
+    setCurrentRepInfo(info_copy)
+  }
+
   const removeRep = (id: string) => () => {
 
     let info_copy = currentRepInfo.slice()
 
     const notThisId = (listOut: Array<representation>, item: representation) => {
-      if (!(item["id"] === id)) {
+      if (!(item.id === id)) {
         listOut.push(item)
       }
       return listOut
@@ -179,10 +164,23 @@ export function GotPage(props: repPage) {
     info_copy = info_copy.reduce(notThisId, [])
     resetDiary()
     setCurrentRepInfo(info_copy)
-    const deletedIcons_copy = deletedIcons.slice()
-    deletedIcons_copy.push(id)
-    setDeletedIcons(deletedIcons_copy)
+    removeIconDB([id])
   }
+
+
+  // const removeFilterAt = (xCanvas: number, yCanvas: number) => {
+  //   const yIndex = Math.floor((yCanvas / dimention.height) * filterDivision)
+  //   const xIndex = Math.floor((xCanvas / dimention.width) * filterDivision)
+
+  //   console.log(`x is ${xIndex} & y is ${yIndex}`)
+  //   setColorFilter((current)=> {
+  //     const newFilter  = current.slice()
+  //     newFilter[xIndex][yIndex] = false
+
+  //     return newFilter
+  //   })
+  // }
+
 
   //================ Diary functions =======================
 
@@ -222,14 +220,8 @@ export function GotPage(props: repPage) {
     if (!storageName) {
       return
     }
-    const { data, error } = await supabase
-      .storage
-      .from('public/MapCollection')
-      .download(storageName)
-
+    const { data, error } = await getImageDB(storageName)
     console.log(data, error)
-
-
     updateBackgroundAndSize(data!)
 
   }
@@ -257,78 +249,29 @@ export function GotPage(props: repPage) {
   //================ Saving =======================
 
   const saveButt = async () => {
-
-    const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
     console.log("Starting saving ")
 
-    let mapSaveresult
-
+    const { data: { user } } = await getUser()
+    const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
+    
+    let backgroundName
     if (backgroundSource === "Storage") {
-
-      const backgroundName = bgStorageSelect.value // this is is with the user name, value has it 
-
-      const { data: { user } } = await supabase.auth.getUser()
-      // console.log(user)
-      const { data: mapSave, error: mapError } = await supabase
-        .from('maps')
-        .insert({
-          id: mapId, owner: user!.id, name: mapName,
-          storage_name: backgroundName, width: dimention.width, height: dimention.height
-        })
-        .select("id")
-
-      if (mapError) { console.log(mapError) }
-
-      mapSaveresult = mapSave![0].id
-
-
+      backgroundName = bgStorageSelect.value // this is with the user name, value has it 
     } else if (backgroundSource === "File") {
-      canvasUtil?.removeEffects()
-      canvasUtil?.removeHover()
-
-      const { data: { user } } = await supabase.auth.getUser()
-
-      const storagePath = `${user!.id}/${mapName}`
-
-
-      await saveCanvasImage(supabase, ref.current!, storagePath)
-
-      const { data: mapSave, error: mapError } = await supabase
-        .from('maps')
-        .insert({
-          id: mapId, owner: user!.id, name: mapName,
-          storage_name: storagePath, width: dimention.width, height: dimention.height
-        })
-        .select("id")
-
-      if (mapError) { console.log(mapError) }
-
-      mapSaveresult = mapSave![0].id
+      backgroundName = `${user!.id}/${mapName}`
+      await saveCanvasImage( ref.current!, backgroundName)
     }
 
-    updateButt()
+    canvasUtil?.removeEffects()
+    canvasUtil?.removeHover()
+
+    const mapSaveresult = newMapDB(mapId, user!.id, mapName, backgroundName!, dimention.width, dimention.height)
+    updateAllIconsDB(currentRepInfo)
     router.push(`/${mapSaveresult}/map`)
   }
 
 
-  const updateButt = () => {
-    const updateIcons = async () => {
-      const { data: iconSaved, error: iconError } = await supabase
-        .from('icons')
-        .upsert(currentRepInfo)
-
-      const { data: iconDeleted, error: iconDeleteError } = await supabase
-        .from('icons')
-        .delete()
-        .in("id", deletedIcons)
-
-      setDeletedIcons([])
-      console.log("I am done updating the DB")
-    }
-
-    console.log("I am about to update the DB icons")
-    updateIcons()
-  }
+  
 
   //==================================================================
 
@@ -345,8 +288,8 @@ export function GotPage(props: repPage) {
           {/* Save/Update button, this needs to be automatic*/}
           {props.savable &&
             <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
-              {props.loaded ? <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' >
-                Update</button>
+              {props.loaded ? <></>
+              // <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' > Update</button>
                 : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
                   Save This Map / Lock Background</button>}
             </div>}
@@ -377,7 +320,7 @@ export function GotPage(props: repPage) {
 
               {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.templates} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
 
-              <Diary diaryInfo={diary} resetDiary={resetDiary} updateButt={updateButt} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+              <Diary diaryInfo={diary} resetDiary={resetDiary} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
                 removeRep={removeRep} linkableMaps={props.userMaps} />
             </div>
 

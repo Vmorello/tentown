@@ -1,5 +1,6 @@
 import { representation } from '@/utils/types';
 import { actionableType } from "../DiaryComponents"
+import { updateOneIconDB } from '@/utils/supabase/utils';
 
 
 interface repChangeType {
@@ -35,6 +36,7 @@ export function AdminOptions({ item,  userMaps, removeRep, currentRepInfo, setCu
 
     actionable.setRepInfo(infoCopy, listIndex, event.target.value)
 
+    updateOneIconDB(infoCopy[listIndex])
     setCurrentRepInfo(infoCopy)
   })
 
@@ -46,6 +48,7 @@ export function AdminOptions({ item,  userMaps, removeRep, currentRepInfo, setCu
 
       actionable.setRepInfo(infoCopy, listIndex)
 
+      updateOneIconDB(infoCopy[listIndex])
       setCurrentRepInfo(infoCopy)
     }
 

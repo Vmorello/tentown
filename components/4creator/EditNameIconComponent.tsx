@@ -5,6 +5,7 @@ import { get_image } from "@/utils/icons_utils"
 import React, { useState } from "react"
 import { representation } from '@/utils/types';
 import EmojiPicker, { EmojiClickData } from "emoji-picker-react"
+import { updateOneIconDB } from "@/utils/supabase/utils";
 
 export function EditNameIconComponent({ rep, setCurrentRepInfo }: {
     rep: representation
@@ -29,6 +30,8 @@ export function EditNameIconComponent({ rep, setCurrentRepInfo }: {
                         const info_copy = repInfo.slice()
                         const listIndex = info_copy.findIndex(indexOf => rep.id === indexOf.id)
                         info_copy[listIndex].visible_name = event.target.value
+                        updateOneIconDB(info_copy[listIndex])
+                        //todo -- debounce
                         return info_copy
                     })} />
             </div>
@@ -37,6 +40,7 @@ export function EditNameIconComponent({ rep, setCurrentRepInfo }: {
             const info_copy = repInfo.slice()
             const listIndex = info_copy.findIndex(indexOf => rep.id === indexOf.id)
             info_copy[listIndex].icon = emojiData.unified.toUpperCase()
+            updateOneIconDB(info_copy[listIndex])
             setOpenIconBox(false)
             return info_copy
         })}} />}

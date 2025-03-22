@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { createClient } from '@/utils/supabase/client';
 import useCanvas from "./hook";
 import { v4 as uuidv4 } from 'uuid';
 import { preview, representation } from '@/utils/types';
-import { saveCanvasImage } from "@/utils/supabase/utils";
+import { getUser, saveCanvasImage, updateOneIconDB } from "@/utils/supabase/utils";
 import { setDimentionWithSize } from "@/utils/canvas_utils";
 
 interface ImageDisplayType {
@@ -21,8 +20,6 @@ const longSide = {
 
 
 export function SavingFileImage({ size, setCurrentRepInfo, preview, setPreview }: ImageDisplayType) {
-
-    const [supabase] = useState(createClient())
 
     const { ref, canvasUtil } = useCanvas();
 
@@ -69,11 +66,11 @@ export function SavingFileImage({ size, setCurrentRepInfo, preview, setPreview }
 
         console.log("Started saving resizingCanvas")
 
-        const { data: { user } } = await supabase.auth.getUser()
+        const { data: { user } } = await getUser()
 
         const imagePath = `${user!.id}/${uuidv4()}`
 
-        await saveCanvasImage(supabase, ref.current!, imagePath)
+        await saveCanvasImage(ref.current!, imagePath)
 
         const newItem = preview!.item
         newItem.image_storage.push(imagePath)
@@ -87,12 +84,7 @@ export function SavingFileImage({ size, setCurrentRepInfo, preview, setPreview }
             return info_copy
         })
 
-
-        // console.log(user)
-        const { data: iconSave, error: iconError } = await supabase
-            .from('icons')
-            .upsert(newItem)
-            .eq('id', preview!.item.id)
+        updateOneIconDB(newItem)
 
         console.log("finsihed saving resizingCanvas")
 
