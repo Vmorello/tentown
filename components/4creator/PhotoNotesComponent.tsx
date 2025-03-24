@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { SavingFileImage } from "../canvas/SavingFileImage";
-import { representation } from '@/utils/types';
+import { preview, representation } from '@/utils/types';
 import { updateOneIconDB } from "@/utils/supabase/utils";
 
 
@@ -12,10 +12,7 @@ interface PhotoNotesInter {
 
 export function PhotoNotesComponent({ item, setCurrentRepInfo }: PhotoNotesInter) {
 
-    
-  const [preview, setPreview] = useState(undefined as { item: representation, file: File } | undefined)
-
-
+    const [preview, setPreview] = useState(undefined as preview | undefined)
 
     const textChange = (repID: string, indexOfPara: number) => ((event: React.ChangeEvent<HTMLTextAreaElement>) => {
         setCurrentRepInfo((repInfo) => {
@@ -46,7 +43,13 @@ export function PhotoNotesComponent({ item, setCurrentRepInfo }: PhotoNotesInter
         </div>
         <PhotosListed photoStorageLocation={item.image_storage} repID={item.id} setCurrentRepInfo={setCurrentRepInfo} />
         <div className="text-center m-2 text-gray-900" >
-            <ListTextData entries={item.data} repID={item.id} CatagoryOnChange={textChange} />
+            {item.data.map((entry, index: number) => {
+                return <div key={`repText_${index}_${item.id}`}>
+                    <textarea cols={35} rows={5} value={entry}
+                        onChange={textChange(item.id, index)}
+                        onBlur={() => updateOneIconDB(item)} />
+                </div>
+            })}
         </div>
     </>
 }
@@ -66,7 +69,6 @@ function PhotosListed({ photoStorageLocation, repID, setCurrentRepInfo }: {
                         console.log(`removing photo ${index} for rep ${repID}`)
                         console.log(`this shouldnt happen twice`)
                         info_copy[listIndex]["image_storage"] = info_copy[listIndex]["image_storage"].filter(item => item !== entry);
-                        updateOneIconDB(info_copy[listIndex])
                         return info_copy
                     })
                 }}>❌</button>
@@ -74,23 +76,6 @@ function PhotosListed({ photoStorageLocation, repID, setCurrentRepInfo }: {
         })}
 
 
-    </>
-
-}
-
-
-function ListTextData(props: {
-    entries: string[], repID: string,
-    CatagoryOnChange: (repID: string, indexOfPara: number) => (event: React.ChangeEvent<HTMLTextAreaElement>) => void
-}) {
-    return <>
-
-        {props.entries.map((entry, index: number) => {
-            return <div key={`repText_${index}_${props.repID}`}>
-                <textarea cols={35} rows={5} value={entry}
-                    onChange={props.CatagoryOnChange(props.repID, index)} />
-            </div>
-        })}
     </>
 
 }

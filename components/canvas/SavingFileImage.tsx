@@ -89,8 +89,6 @@ export function SavingFileImage({ size, setCurrentRepInfo, preview, setPreview }
         console.log("finsihed saving resizingCanvas")
 
         setPreview(undefined)
-        // ----- save
-
     }
 
 

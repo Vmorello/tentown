@@ -30,10 +30,8 @@ export function EditNameIconComponent({ rep, setCurrentRepInfo }: {
                         const info_copy = repInfo.slice()
                         const listIndex = info_copy.findIndex(indexOf => rep.id === indexOf.id)
                         info_copy[listIndex].visible_name = event.target.value
-                        updateOneIconDB(info_copy[listIndex])
-                        //todo -- debounce
                         return info_copy
-                    })} />
+                    })} onBlur={()=>updateOneIconDB(rep)} />
             </div>
         </div>
         {openIconBox && <EmojiPicker onEmojiClick={(emojiData: EmojiClickData)=> {setCurrentRepInfo((repInfo) => {
