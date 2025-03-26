@@ -19,6 +19,7 @@ export function EditNameIconComponent({ rep, setCurrentRepInfo }: {
 
 
     return <>
+    <div className="relative after:content-[''] after:block after:w-[70%] after:h-[1px] after:bg-gray-500 after:absolute after:left-1/2 after:-translate-x-1/2"></div>
         <div className="flex flex-row items-center space-x-3 p-3" >
             <div onClick={() => setOpenIconBox(!openIconBox)}
                 className="bg-gray-100  border-gray-400 shadow-md  rounded-full p-2 flex items-center justify-center">

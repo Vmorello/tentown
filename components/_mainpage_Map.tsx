@@ -89,12 +89,16 @@ export function GotPage(props: repPage) {
 
   //================= Main Interaction with canvas with control card ==============
 
-  const CanvasPressed = (xCanvas: number, yCanvas: number) => {
-    resetDiary()
+  const canvasPressed = (xCanvas: number, yCanvas: number) => {
+   
 
-    // removeFilterAt(xCanvas, yCanvas)
+    if (pinStep == "place" && currentItem != noSelectionString) {
+      addRep(xCanvas, yCanvas)
+      setCurrentItem(noSelectionString)
+      setPinStep("button")
+    }
 
-    const infoOnLocation = currentRepInfo.filter((item) => {
+    const infoOnLocation =  currentRepInfo.filter((item) => {
       if (item.hidden && !props.showCreative) return
       // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
       return item["x"] + (item.width) > xCanvas &&
@@ -103,13 +107,14 @@ export function GotPage(props: repPage) {
         item["y"] < yCanvas
     })
 
+    openDiary(infoOnLocation, xCanvas, yCanvas)
+  }
 
-    if (pinStep == "place" && currentItem != noSelectionString) {
-      addRep(xCanvas, yCanvas)
-      setCurrentItem(noSelectionString)
-      setPinStep("button")
-    }
-    else if (infoOnLocation.length > 0) {
+  const openDiary = ( infoOnLocation:representation[],xCanvas: number, yCanvas: number) => {
+
+    resetDiary()
+   
+    if (infoOnLocation.length > 0) {
       setOpenedIndex(infoOnLocation[0].order)
 
       setDiary({
@@ -253,13 +258,13 @@ export function GotPage(props: repPage) {
 
     const { data: { user } } = await getUser()
     const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
-    
+
     let backgroundName
     if (backgroundSource === "Storage") {
       backgroundName = bgStorageSelect.value // this is with the user name, value has it 
     } else if (backgroundSource === "File") {
       backgroundName = `${user!.id}/${mapName}`
-      await saveCanvasImage( ref.current!, backgroundName)
+      await saveCanvasImage(ref.current!, backgroundName)
     }
 
     canvasUtil?.removeEffects()
@@ -271,7 +276,7 @@ export function GotPage(props: repPage) {
   }
 
 
-  
+
 
   //==================================================================
 
@@ -286,13 +291,14 @@ export function GotPage(props: repPage) {
         <div className="flex flex-col items-center " >
 
           {/* Save/Update button, this needs to be automatic*/}
-          {props.savable &&
-            <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
+          {props.savable && <>
               {props.loaded ? <></>
-              // <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' > Update</button>
-                : <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
-                  Save This Map / Lock Background</button>}
-            </div>}
+                // <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' > Update</button>
+                : <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
+                  <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
+                    Save This Map / Lock Background</button>
+                </div>}
+              </>}
 
           <div className="flex space-x-5 p-5 rounded-xl " style={{ backgroundColor: padBlueHex }}>
 
@@ -301,9 +307,9 @@ export function GotPage(props: repPage) {
               <div className="flex flex-col bg-indigo-400 rounded-xl lg:w-96 lg:min-h-96" >
                 {props.showCreative && <PinButton pinStep={pinStep} setPinStep={setPinStep} setCurrentItem={setCurrentItem} />}
 
-                <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} actingCanvasClick={CanvasPressed}
+                <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} openDiaryClick={openDiary}
                   setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep}
-                  openIndex={openedIndex} />
+                  openIndex={openedIndex} setOpenIndex={setOpenedIndex}/>
 
                 {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.templates} backgroundButt={backgroundButt} />}
               </div>
@@ -312,7 +318,7 @@ export function GotPage(props: repPage) {
 
             {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
-              <canvas ref={ref} onClick={(event) => { CanvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
+              <canvas ref={ref} onClick={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 

@@ -19,11 +19,10 @@ interface repButtChangeType {
 }
 
 
-export function AdminOptions({ item,  userMaps, removeRep, currentRepInfo, setCurrentRepInfo }: {
+export function AdminOptions({ item,  userMaps, removeRep, setCurrentRepInfo }: {
   item: representation,
   userMaps: { id: string, name: string }[],
   removeRep: (id: string) => () => void,
-  currentRepInfo: representation[],
   setCurrentRepInfo: React.Dispatch<React.SetStateAction<representation[]>>
 }) {
 
@@ -31,26 +30,22 @@ export function AdminOptions({ item,  userMaps, removeRep, currentRepInfo, setCu
 
   const inputEleRepChange = (actionable: actionableType) =>
   ((event: React.ChangeEvent<HTMLInputElement>) => {
-    const infoCopy = currentRepInfo.slice()
-    const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
-
-    actionable.setRepInfo(infoCopy, listIndex, event.target.value)
-
-    updateOneIconDB(infoCopy[listIndex])
-    setCurrentRepInfo(infoCopy)
+    setCurrentRepInfo((repInfo) => {
+      const infoCopy = repInfo.slice()
+      const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
+      actionable.setRepInfo(infoCopy, listIndex, event.target.value)
+      return infoCopy})
   })
 
 
   const buttEleRepChange = (actionable: actionableType) =>
     () => {
-      const infoCopy = currentRepInfo.slice()
-      const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
-
-      actionable.setRepInfo(infoCopy, listIndex)
-
-      updateOneIconDB(infoCopy[listIndex])
-      setCurrentRepInfo(infoCopy)
-    }
+      setCurrentRepInfo((repInfo) => {
+        const infoCopy = repInfo.slice()
+        const listIndex = infoCopy.findIndex(indexOf => actionable.repId === indexOf.id)
+        actionable.setRepInfo(infoCopy, listIndex)
+        return infoCopy})
+      }
 
 
   return <div key={`creatorRepOps${item.id}`} className="relative text-gray-900" >
