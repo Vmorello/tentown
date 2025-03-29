@@ -287,7 +287,7 @@ export function GotPage(props: repPage) {
     canvasUtil?.removeEffects()
     canvasUtil?.removeHover()
 
-    upsertMapDB(mapId, user!.id, titleInput.value, backgroundName, dimention.width, dimention.height, false)
+    upsertMapDB(mapId, user!.id, titleInput.value, backgroundName, dimention.width, dimention.height, favoriteCheckbox.checked)
   }
 
 
@@ -302,16 +302,6 @@ export function GotPage(props: repPage) {
         </div> : <></>}
       <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName} showCreative={props.showCreative}>
         <div className="flex flex-col items-center " >
-
-          {/* Save/Update button, this needs to be automatic
-          {props.savable && <>
-            {props.loaded ? <></>
-              // <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' > Update</button>
-              : <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
-                <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
-                  Save This Map / Lock Background</button>
-              </div>}
-          </>} */}
 
           <div className="flex space-x-5 p-5 rounded-xl " style={{ backgroundColor: padBlueHex }}>
 
