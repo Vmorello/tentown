@@ -14,7 +14,7 @@ import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
 import MapBanner from './MapBanner';
 import { setDimentionWithSize } from '@/utils/canvas_utils'
-import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
+import { BackgroundCard, CenteredBackground, MiniTopRightBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
 import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, upsertMapDB, getImageDB, updateMapbackground } from '@/utils/supabase/utils';
@@ -338,8 +338,7 @@ export function GotPage(props: repPage) {
 
               {props.showCreative && <>
                 {(background == undefined) ? <CenteredBackground backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} /> :
-                  // <img src={get_image("mapIcon")!} alt={"change background"} height={30} width={30} className="absolute top-2 right-2" onClick={backgroundButt("File")} />
-                  <></>}
+                  <MiniTopRightBackground backgroundButt={backgroundButt}/>}
               </>}
 
               <Diary diaryInfo={diary} resetDiary={resetDiary} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}

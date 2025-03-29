@@ -1,3 +1,5 @@
+import { get_image } from "@/utils/icons_utils"
+
 interface centeredBackground extends background_function {
     location: { x: number, y: number }
 }
@@ -6,8 +8,6 @@ interface background_function {
     backgroundButt: (type:  "File") => () => void
     // bgList: string[]
 }
-
-
 
 export function CenteredBackground({ backgroundButt,  location }: centeredBackground) {
     return <div className="absolute" style={{
@@ -40,5 +40,18 @@ export function BackgroundCard({ backgroundButt }: background_function) {
           </div>
 
     </div>
+}
 
+export function MiniTopRightBackground({ backgroundButt }: background_function) {
+    return <div className="absolute" style={{
+        top: `2px`,
+        right: `2px`,
+    }}>
+        <div className="relative">
+            <input type="file" id={`bgFileSelect`} className="absolute inset-0 w-full h-full opacity-0 cursor-pointer" onChange={backgroundButt("File")} />
+            <label htmlFor={`bgFileSelect`} className="text-lg pointer-events-none p-6">
+                <img src={get_image("mapIcon")!} alt={"change background"} height={30} width={30} onClick={backgroundButt("File")} />
+            </label>
+          </div>
+    </div>
 }
