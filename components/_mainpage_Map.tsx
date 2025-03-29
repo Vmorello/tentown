@@ -341,7 +341,7 @@ export function GotPage(props: repPage) {
                   <MiniTopRightBackground backgroundButt={backgroundButt}/>}
               </>}
 
-              <Diary diaryInfo={diary} resetDiary={resetDiary} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+              <Diary diaryInfo={diary} resetDiary={resetDiary} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo}
                 removeRep={removeRep} linkableMaps={props.userMaps} />
             </div>
 

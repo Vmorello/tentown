@@ -19,7 +19,6 @@ interface dairyType {
     name: string;
   }[]
   removeRep: (id: string) => () => void
-  currentRepInfo: representation[]
 
 }
 
@@ -29,7 +28,7 @@ export interface actionableType {
 }
 
 
-export function Diary({ diaryInfo, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep, currentRepInfo }: dairyType) {
+export function Diary({ diaryInfo, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep }: dairyType) {
 
   const router = useRouter()
 
@@ -45,7 +44,7 @@ export function Diary({ diaryInfo, resetDiary, showCreative, setCurrentRepInfo, 
     console.log(item)
 
     return (<>
-      <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} showCreative={showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+      <DisplayPieces item={item} mapTranfer={mapTranfer} resetDiary={resetDiary} showCreative={showCreative} setCurrentRepInfo={setCurrentRepInfo}
          removeRep={removeRep} linkableMaps={linkableMaps} />
     </>)
   })
@@ -62,7 +61,7 @@ export function Diary({ diaryInfo, resetDiary, showCreative, setCurrentRepInfo, 
 }
 
 
-function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep, currentRepInfo }: {
+function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentRepInfo, linkableMaps, removeRep }: {
   item: representation
   mapTranfer: (id: string) => () => void
   resetDiary: () => void
@@ -73,7 +72,6 @@ function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentR
     name: string;
   }[]
   removeRep: (id: string) => () => void
-  currentRepInfo: representation[]
 
 }) {
 
@@ -98,7 +96,7 @@ function DisplayPieces({ item, mapTranfer, resetDiary, showCreative, setCurrentR
         <TranferWithLink mapTranfer={mapTranfer(item.link!)} />
       </div>}
       <div className="lg:hidden bg-indigo-400 absolute -left-48 rounded-xl" style={{ zIndex: 31 }}>
-        {showCreative && <CreatorEditPanel rep={item} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
+        {showCreative && <CreatorEditPanel rep={item} setCurrentRepInfo={setCurrentRepInfo} 
           removeRep={removeRep} linkableMaps={linkableMaps} />}
       </div>
     </div>
