@@ -3,22 +3,22 @@ interface centeredBackground extends background_function {
 }
 
 interface background_function {
-    backgroundButt: (type: "Storage" | "File") => () => void
-    bgList: string[]
+    backgroundButt: (type:  "File") => () => void
+    // bgList: string[]
 }
 
 
 
-export function CenteredBackground({ backgroundButt, bgList, location }: centeredBackground) {
+export function CenteredBackground({ backgroundButt,  location }: centeredBackground) {
     return <div className="absolute" style={{
         top: `${location.y-94}px`,
         left: `${location.x-150}px`,
     }}>
-        <BackgroundCard backgroundButt={backgroundButt} bgList={bgList} />
+        <BackgroundCard backgroundButt={backgroundButt}/>
     </div>
 }
 
-export function BackgroundCard({ backgroundButt, bgList }: background_function) {
+export function BackgroundCard({ backgroundButt }: background_function) {
     // FOR PAST AND FUTURE USE
     // console.log(bgList)
     // if (bgList === undefined) {

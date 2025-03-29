@@ -40,7 +40,7 @@ export function FortunesWheel(props: {}) {
 
         <SingleWheelRing tag={"inner"} image={inner} icon={inner_icon} position={"60%"} speed={.3} timing={Math.random() * 6} />
 
-        <NextImage src={frame_top} alt={"broke"} height={frame_top.height} width={frame_top.width} style={{ position: "absolute" }} />
+        <NextImage src={frame_top} alt={"broke"} height={frame_top.height} width={frame_top.width} style={{ position: "absolute",top:"0px"  }} />
 
         <NextImage src={frame_mid} alt={"broke"} height={frame_mid.height} width={frame_mid.width} style={{ position: "absolute", top: "5px", }} />
 

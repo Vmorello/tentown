@@ -58,11 +58,11 @@ export async function updateOneIconDB(newItem: representation) {
         .eq('id', newItem.id)
 }
 
-export async function newMapDB(id: string, owner: string, name: string, storage_name: string, width: number, height: number) {
+export async function upsertMapDB(id: string, owner: string, name: string,  storage_name: string|undefined,  width: number, height: number, fav:boolean,) {
     const { data: mapSave, error: mapError } = await supabase
         .from('maps')
-        .insert({
-            id: id, owner: owner, name: name,
+        .upsert({
+            id: id, owner: owner, name: name,favorite: fav,
             storage_name: storage_name, width: width, height: height
         })
         .select("id")
@@ -71,6 +71,27 @@ export async function newMapDB(id: string, owner: string, name: string, storage_
 
     return mapSave![0].id
 }
+export async function deleteMap(id: string)  {
+    const { data, error } = await supabase
+        .from('maps')
+        .delete()
+        .eq("id", id)
+}
+
+export async function updateMapBanner(id: string, mapName: string, favorite: boolean, ) {
+    const { data, error } = await supabase
+        .from('maps')
+        .update({ name:mapName, favorite:favorite})
+        .eq("id", id)
+}
+
+export async function updateMapbackground(id: string, storage_name: string|undefined ) {
+    const { data, error } = await supabase
+        .from('maps')
+        .update({ storage_name:storage_name})
+        .eq("id", id)
+}
+
 
 export async function getImageDB(storageName: string) {
     return supabase

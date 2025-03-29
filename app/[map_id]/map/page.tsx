@@ -2,7 +2,7 @@ import React from 'react';
 import { createClient } from '@/utils/supabase/server'
 import { FileObject } from '@supabase/storage-js'
 
-import { v4 as uuidv4 } from 'uuid';
+
 
 
 import { GotPage } from '@/components/_mainpage_Map'
@@ -25,7 +25,16 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     .select("name, storage_name, owner, width, height, favorite")
     .eq("id", params.map_id)
 
+  const mapLocationToLoad = (currentMapData && currentMapData.length > 0) ? currentMapData[0].storage_name : undefined
 
+  const { data: icons } = await supabase
+    .from('icons')
+    .select()
+    .eq("map_id", params.map_id)
+    .order("order")
+
+
+  //For Linking between maps
   let mapList = [] as map_db[]
   if (user) {
     const { data: userMapList } = await supabase
@@ -36,72 +45,38 @@ export default async function MapPage({ params }: { params: { map_id: string } }
     mapList = (userMapList) ? userMapList : []
   }
 
+  // //just for the 
+  // let userStorageList = [] as FileObject[]
+  // if (user) {
+  //   const { data: userStorageListRaw } = await supabase
+  //     .storage
+  //     .from('MapCollection')
+  //     .list(user?.id)
+
+  //   userStorageListRaw?.forEach(map => { map.name = `${user?.id}/${map.name}` })
+
+  //   userStorageList = userStorageListRaw!
+
+  // }
+
+  //   const fullListNames = userStorageList
+  //     .filter(map => { return (!map.name.endsWith('.emptyFolderPlaceholder')) })
+  //     .map(map => { return map.name })
 
 
-
-
-  const { data: icons } = await supabase
-    .from('icons')
-    .select()
-    .eq("map_id", params.map_id)
-    .order("order")
-
-
-
-
-  const { data: sharedStorageListRaw } = await supabase
-    .storage
-    .from('MapCollection')
-    .list('shared')
-  sharedStorageListRaw?.forEach(map => { map.name = `shared/${map.name}` })
-
-  console.log(sharedStorageListRaw)
-
-
-  let userStorageList = [] as FileObject[]
-  if (user) {
-    const { data: userStorageListRaw } = await supabase
-      .storage
-      .from('MapCollection')
-      .list(user?.id)
-
-    userStorageListRaw?.forEach(map => { map.name = `${user?.id}/${map.name}` })
-
-    userStorageList = userStorageListRaw!
-
-  }
-
-  let fullListNames
-  let mapLocationToLoad
-  if (sharedStorageListRaw === null) {
-    fullListNames = ["no data /offline?"]
-  } else {
-
-    const fullList = userStorageList
-      .concat(sharedStorageListRaw!)
-      // .concat(demoStorageList)
-      .filter(map => { return (!map.name.endsWith('.emptyFolderPlaceholder')) })
-
-    fullListNames = fullList.map(map => { return map.name })
-
-    mapLocationToLoad = currentMapData ? currentMapData[0].storage_name : undefined
-  }
-
-
-
-  if (currentMapData && icons) {
+  if (currentMapData && currentMapData.length > 0 && icons) {
     return (
-      <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} templates={fullListNames} savable={user ? true : false}
-        mapLocationToLoad={mapLocationToLoad} icons={icons} loaded={true} userMaps={mapList} 
-        width={currentMapData[0].width} height={currentMapData[0].height} name={currentMapData[0].name} fav={currentMapData[0].favorite}/>
+      <GotPage mapId={params.map_id} showCreative={user?.id === currentMapData![0].owner} //templates={fullListNames} 
+        mapLocationToLoad={mapLocationToLoad} icons={icons} loaded={true} userMaps={mapList} loggedIn={user?.id !== undefined}
+        width={currentMapData[0].width} height={currentMapData[0].height} name={currentMapData[0].name} fav={currentMapData[0].favorite} />
     )
   }
-  
-  const newMapName =  user ? `${user?.email?.split("@")[0]}-${uuidv4().split('-')[0]}` : "Demo Map 4 Fun"
+
+  const newMapName = user ? `${user?.email?.split("@")[0]}-${params.map_id.split('-')[0]}` : "Demo Map 4 Fun"
 
   return (
-    <GotPage mapId={undefined} showCreative={true} mapLocationToLoad={mapLocationToLoad} icons={[]} loaded={false} savable={user ? true : false}
-    userMaps={mapList} templates={fullListNames} width={startingWidth} height={startingHeight} name={newMapName} fav={false}/>
+    <GotPage mapId={params.map_id} showCreative={true} mapLocationToLoad={mapLocationToLoad} icons={[]} loaded={false} loggedIn={user?.id !== undefined}
+      userMaps={mapList} width={startingWidth} height={startingHeight} name={newMapName} fav={false} /> // templates={fullListNames} 
   )
 
 

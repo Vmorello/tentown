@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { IconPlacement } from '@/components/IconPlacement'
 import { Diary } from './DiaryComponents'
 import { Debug } from './debug_'
-import { get_icon_list, getSize } from '@/utils/icons_utils'
+import { get_icon_list, get_image, getSize } from '@/utils/icons_utils'
 import { noSelectionString, padBlueHex, saveQuality, maxWidth, sideWidth, startingHeight, filterDivision } from "@/utils/constants"
 import { MemoryListed } from './MemoryListed';
 import useCanvas from './canvas/hook';
@@ -17,20 +17,20 @@ import { setDimentionWithSize } from '@/utils/canvas_utils'
 import { BackgroundCard, CenteredBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
-import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, newMapDB, getImageDB } from '@/utils/supabase/utils';
+import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, upsertMapDB, getImageDB, updateMapbackground } from '@/utils/supabase/utils';
 import { representation } from '@/utils/types';
 
 interface repPage {
   icons: representation[]
   showCreative: boolean
-  mapLocationToLoad: string
+  mapLocationToLoad?: string
   loaded: boolean
-  mapId?: string
+  mapId: string
   userMaps: { id: any; name: any; }[]
-  templates: string[]
+  //templates: string[] --- This would be nice in future
   height: number
   width: number
-  savable: boolean
+  loggedIn: boolean
   name: string
   fav: boolean
 }
@@ -43,9 +43,10 @@ export function GotPage(props: repPage) {
 
   const { ref, canvasUtil } = useCanvas()
 
-  const [mapId] = useState(props.mapId ? props.mapId : uuidv4())
-
+  const [mapId] = useState(props.mapId)
   const [mapName, setMapName] = useState(props.name)
+
+  const [savedYet, setSavedYet] = useState((props.icons.length > 0 || props.mapLocationToLoad) ? true : false)
 
   const [currentRepInfo, setCurrentRepInfo] = useState(props.icons)
   const [dimention, setDimention] = useState({ "height": props.height, "width": props.width })
@@ -56,7 +57,7 @@ export function GotPage(props: repPage) {
     infoOnLocation: [] as representation[],
   })
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
-  const [backgroundSource, setBackgroundSource] = useState("Storage" as "Storage" | "File")
+  // const [backgroundSource, setBackgroundSource] = useState("None" as "Storage" | "File" | "None")
 
   const [pinStep, setPinStep] = useState("button" as "button" | "selection" | "place" | "describe")
 
@@ -90,15 +91,19 @@ export function GotPage(props: repPage) {
   //================= Main Interaction with canvas with control card ==============
 
   const canvasPressed = (xCanvas: number, yCanvas: number) => {
-   
+
 
     if (pinStep == "place" && currentItem != noSelectionString) {
+      if (!savedYet) {
+        saveMap(undefined)
+        setSavedYet(true)
+      }
       addRep(xCanvas, yCanvas)
       setCurrentItem(noSelectionString)
       setPinStep("button")
     }
 
-    const infoOnLocation =  currentRepInfo.filter((item) => {
+    const infoOnLocation = currentRepInfo.filter((item) => {
       if (item.hidden && !props.showCreative) return
       // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
       return item["x"] + (item.width) > xCanvas &&
@@ -110,10 +115,10 @@ export function GotPage(props: repPage) {
     openDiary(infoOnLocation, xCanvas, yCanvas)
   }
 
-  const openDiary = ( infoOnLocation:representation[],xCanvas: number, yCanvas: number) => {
+  const openDiary = (infoOnLocation: representation[], xCanvas: number, yCanvas: number) => {
 
     resetDiary()
-   
+
     if (infoOnLocation.length > 0) {
       setOpenedIndex(infoOnLocation[0].order)
 
@@ -203,42 +208,44 @@ export function GotPage(props: repPage) {
 
   //================ background =======================
 
-  const backgroundButt = (type: "Storage" | "File") => () => {
+  const backgroundButt = (type: "File") => () => {
     const inputFileObject = document.getElementById(`bg${type}Select`) as HTMLInputElement;
 
     console.log("setting the background")
-    if (type === "Storage") {
-      if (inputFileObject.value === null) {
-        return
-      }
-      getMapFileFromStorage(inputFileObject.value)
-    } else {
-      console.log("setting the background with a file")
-      if (inputFileObject.files === null) {
-        return
-      }
-      updateBackgroundAndSize(inputFileObject.files[0])
+    // if (type === "Storage") {
+    //   if (inputFileObject.value === null) {
+    //     return
+    //   }
+    //   getMapFileFromStorage(inputFileObject.value)
+    // } else {
+    console.log("setting the background with a file")
+    if (inputFileObject.files === null) {
+      return
     }
+    updateBackgroundAndSize(inputFileObject.files[0], "File")
+    // }
   }
 
   const getMapFileFromStorage = async (storageName?: string) => {
     if (!storageName) {
       return
     }
+  
     const { data, error } = await getImageDB(storageName)
     console.log(data, error)
-    updateBackgroundAndSize(data!)
+    setSavedYet(true)
+    updateBackgroundAndSize(data!, "Storage")
 
   }
 
-  const updateBackgroundAndSize = (backgroundImage: Blob) => {
+  const updateBackgroundAndSize = (backgroundImage: Blob, origin: "Storage" | "File") => {
     const imageURL = URL.createObjectURL(backgroundImage)
     // console.log(imageURL)
     const tempImage = new Image();
 
     tempImage.addEventListener("load", () => {
       console.log(`loading image${tempImage}`)
-      setBackgroundSource("File")
+      // setBackgroundSource(origin)
       setBackground(tempImage)
       if (tempImage.naturalWidth > maxWidth) {
         setDimentionWithSize(tempImage, setDimention, maxWidth)
@@ -246,6 +253,11 @@ export function GotPage(props: repPage) {
         setDimention({ "height": tempImage.naturalHeight, "width": tempImage.naturalWidth })
       }
       URL.revokeObjectURL(imageURL)
+
+      if (origin === "File") {
+          saveMap("File")
+          setSavedYet(true)
+      }
       setLoadEmoji(true)
     })
     tempImage.src = imageURL
@@ -253,29 +265,30 @@ export function GotPage(props: repPage) {
 
   //================ Saving =======================
 
-  const saveButt = async () => {
-    console.log("Starting saving ")
+  const saveMap = async (mapOrigin: "Storage" | "File" |undefined ) => {
+    console.log(`Starting saving with a ${mapOrigin}`)
 
     const { data: { user } } = await getUser()
-    const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
+    // const bgStorageSelect = document.getElementById(`bgStorageSelect`) as HTMLInputElement;
 
-    let backgroundName
-    if (backgroundSource === "Storage") {
-      backgroundName = bgStorageSelect.value // this is with the user name, value has it 
-    } else if (backgroundSource === "File") {
-      backgroundName = `${user!.id}/${mapName}`
-      await saveCanvasImage(ref.current!, backgroundName)
+    let titleInput = document.getElementById("titleInput") as HTMLInputElement
+
+    let favoriteCheckbox = document.getElementById("favoriteCheck") as HTMLInputElement
+
+    let backgroundName = undefined
+    // if (backgroundSource === "Storage") {
+    //   backgroundName = bgStorageSelect.value // this is with the user name, value has it 
+    // } else 
+    if (mapOrigin === "File") {
+        backgroundName = `${user!.id}/${uuidv4()}`
+        await saveCanvasImage(ref.current!, backgroundName)
     }
 
     canvasUtil?.removeEffects()
     canvasUtil?.removeHover()
 
-    const mapSaveresult = newMapDB(mapId, user!.id, mapName, backgroundName!, dimention.width, dimention.height)
-    updateAllIconsDB(currentRepInfo)
-    router.push(`/${mapSaveresult}/map`)
+    upsertMapDB(mapId, user!.id, titleInput.value, backgroundName, dimention.width, dimention.height, false)
   }
-
-
 
 
   //==================================================================
@@ -283,22 +296,22 @@ export function GotPage(props: repPage) {
   return (
     <div className='origin-top-left scale-50 md:scale-75 lg:scale-100 overflow-x-scroll  min-w-max '>
 
-      {!props.savable && props.showCreative ?
+      {!props.loggedIn && props.showCreative ?
         <div className="bg-indigo-400 text-center p-3 mb-2 ">
           This will not be saved, it is only a demo. Please log-in/register above to save!
         </div> : <></>}
-      <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName}>
+      <MapBanner id={props.mapId} name={mapName} fav={props.fav} setMapName={setMapName} showCreative={props.showCreative}>
         <div className="flex flex-col items-center " >
 
-          {/* Save/Update button, this needs to be automatic*/}
+          {/* Save/Update button, this needs to be automatic
           {props.savable && <>
-              {props.loaded ? <></>
-                // <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' > Update</button>
-                : <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
-                  <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
-                    Save This Map / Lock Background</button>
-                </div>}
-              </>}
+            {props.loaded ? <></>
+              // <button onClick={updateButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg' > Update</button>
+              : <div className="rounded-t-xl p-3 font-bold" style={{ backgroundColor: padBlueHex }}>
+                <button onClick={saveButt} className='bg-gradient-to-br from-amber-300 via-pink-400 to-indigo-500 py-3 px-5 rounded-lg'>
+                  Save This Map / Lock Background</button>
+              </div>}
+          </>} */}
 
           <div className="flex space-x-5 p-5 rounded-xl " style={{ backgroundColor: padBlueHex }}>
 
@@ -309,9 +322,8 @@ export function GotPage(props: repPage) {
 
                 <MemoryListed memoryList={currentRepInfo} showCreative={props.showCreative} openDiaryClick={openDiary}
                   setCurrentRepInfo={setCurrentRepInfo} userMaps={props.userMaps} removeRep={removeRep}
-                  openIndex={openedIndex} setOpenIndex={setOpenedIndex}/>
+                  openIndex={openedIndex} setOpenIndex={setOpenedIndex} />
 
-                {(!props.loaded && background != undefined) && <BackgroundCard bgList={props.templates} backgroundButt={backgroundButt} />}
               </div>
             </div>
 
@@ -324,7 +336,11 @@ export function GotPage(props: repPage) {
 
               <IconPlacement repList={currentRepInfo} showCreative={props.showCreative} focusedReps={diary.infoOnLocation} />
 
-              {(!props.loaded && background == undefined) && <CenteredBackground bgList={props.templates} backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} />}
+              {props.showCreative && <>
+                {(background == undefined) ? <CenteredBackground backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} /> :
+                  // <img src={get_image("mapIcon")!} alt={"change background"} height={30} width={30} className="absolute top-2 right-2" onClick={backgroundButt("File")} />
+                  <></>}
+              </>}
 
               <Diary diaryInfo={diary} resetDiary={resetDiary} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo} currentRepInfo={currentRepInfo}
                 removeRep={removeRep} linkableMaps={props.userMaps} />

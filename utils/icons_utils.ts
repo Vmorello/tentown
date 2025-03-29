@@ -41,6 +41,9 @@ const iconStore: { [key: string]: any } = {
 
   logo: logo,
   supabaselogo: supabaselogo,
+  mapIcon: mapIcon,
+
+
   //icons
   alter: alter,
   camp: camp,
@@ -8689,23 +8692,10 @@ import _2BEB from "/public/openmoji/2BEB.svg";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import logo from "/public/logo.svg"
 import supabaselogo from "/public/common/supabaselogo.svg"
 
+import mapIcon from "/public/common/map_icon.svg";
 import cover from "/public/common/black_cover.webp";
 import icon_frame from "/public/common/icon_frame.webp";
 
