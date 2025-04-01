@@ -17,7 +17,7 @@ import { setDimentionWithSize } from '@/utils/canvas_utils'
 import { BackgroundCard, CenteredBackground, MiniTopRightBackground } from './4creator/BackgroundSelect';
 import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
-import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, upsertMapDB, getImageDB, updateMapbackground } from '@/utils/supabase/utils';
+import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, upsertMapDB, getImageDB, updateMapbackground, updateOneIconDB } from '@/utils/supabase/utils';
 import { representation } from '@/utils/types';
 import { SrcImageVisibleItem } from '@/utils/drawableRep';
 
@@ -60,6 +60,8 @@ export function GotPage(props: repPage) {
   const [background, setBackground] = useState(undefined as HTMLImageElement | undefined)
   // const [backgroundSource, setBackgroundSource] = useState("None" as "Storage" | "File" | "None")
 
+  const [holding, setHolding] = useState(undefined as { rep: representation, visibleItem: SrcImageVisibleItem } | undefined)
+
   const [pinStep, setPinStep] = useState("button" as "button" | "selection" | "place" | "describe")
 
   const [loadEmoji, setLoadEmoji] = useState(false)
@@ -72,8 +74,6 @@ export function GotPage(props: repPage) {
   useEffect(() => {
     console.log("trying to get map file from storage")
     getMapFileFromStorage(props.mapLocationToLoad)
-
-    window.scrollTo(0, 0);
   }, []);
 
   // useEffect(() => {
@@ -115,6 +115,18 @@ export function GotPage(props: repPage) {
       addRep(xCanvas, yCanvas)
       setCurrentItem(noSelectionString)
       setPinStep("button")
+    }else if (holding) {
+      canvasUtil?.removeHover()
+      holding.rep.x = xCanvas - holding.rep.width / 2
+      holding.rep.y = yCanvas - holding.rep.height / 2
+      updateOneIconDB(holding.rep)
+      
+      setCurrentRepInfo(currentRepInfo => {
+        const newRepInfo = currentRepInfo.slice()
+        newRepInfo[holding.rep.order] = holding.rep
+        return newRepInfo
+      })
+
     }
 
     const infoOnLocation = currentRepInfo.filter((item) => {
@@ -193,6 +205,26 @@ export function GotPage(props: repPage) {
   }
 
 
+  const canvasPressed = (xCanvas: number, yCanvas: number) => {
+
+    // console.log(`pressed at x:${xCanvas} y:${yCanvas} in the canvas. The info at this location found is ${infoOnLocation}`)//offset set at x:${offsetX} y:${offsetY}.
+    const infoOnLocation = currentRepInfo.filter((item) => {
+      if (item.hidden && !props.showCreative) return
+      // console.log(`${item.icon} is checking with x:${item.x}+-${item.width}  y:${item.y}+-${item.height} vs the click x:${selectX} y:${selectY} `);
+      return item["x"] + (item.width) > xCanvas &&
+        item["x"] < xCanvas &&
+        item["y"] + (item.height) > yCanvas &&
+        item["y"] < yCanvas
+    })
+    if (infoOnLocation.length == 0) {
+      setHolding(undefined)
+      return
+    }
+    setHolding({ rep: infoOnLocation[0], visibleItem: new SrcImageVisibleItem(infoOnLocation[0].icon, xCanvas, yCanvas) })
+    canvasUtil?.setHover(infoOnLocation[0].icon)
+  }
+
+
   // const removeFilterAt = (xCanvas: number, yCanvas: number) => {
   //   const yIndex = Math.floor((yCanvas / dimention.height) * filterDivision)
   //   const xIndex = Math.floor((xCanvas / dimention.width) * filterDivision)
@@ -245,7 +277,7 @@ export function GotPage(props: repPage) {
     if (!storageName) {
       return
     }
-  
+
     const { data, error } = await getImageDB(storageName)
     console.log(data, error)
     setSavedYet(true)
@@ -270,8 +302,8 @@ export function GotPage(props: repPage) {
       URL.revokeObjectURL(imageURL)
 
       if (origin === "File") {
-          saveMap("File")
-          setSavedYet(true)
+        saveMap("File")
+        setSavedYet(true)
       }
       setLoadEmoji(true)
     })
@@ -280,7 +312,7 @@ export function GotPage(props: repPage) {
 
   //================ Saving =======================
 
-  const saveMap = async (mapOrigin: "Storage" | "File" |undefined ) => {
+  const saveMap = async (mapOrigin: "Storage" | "File" | undefined) => {
     console.log(`Starting saving with a ${mapOrigin}`)
 
     const { data: { user } } = await getUser()
@@ -295,8 +327,8 @@ export function GotPage(props: repPage) {
     //   backgroundName = bgStorageSelect.value // this is with the user name, value has it 
     // } else 
     if (mapOrigin === "File") {
-        backgroundName = `${user!.id}/${uuidv4()}`
-        await saveCanvasImage(ref.current!, backgroundName)
+      backgroundName = `${user!.id}/${uuidv4()}`
+      await saveCanvasImage(ref.current!, backgroundName)
     }
 
     canvasUtil?.removeEffects()
@@ -335,8 +367,8 @@ export function GotPage(props: repPage) {
 
             {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
-              <canvas ref={ref} 
-                onMouseDown={() => { }}
+              <canvas ref={ref}
+                onMouseDown={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 onMouseUp={(event) => { canvasReleased(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
@@ -345,7 +377,7 @@ export function GotPage(props: repPage) {
 
               {props.showCreative && <>
                 {(background == undefined) ? <CenteredBackground backgroundButt={backgroundButt} location={{ x: dimention.width / 2, y: dimention.height / 2 }} /> :
-                  <MiniTopRightBackground backgroundButt={backgroundButt}/>}
+                  <MiniTopRightBackground backgroundButt={backgroundButt} />}
               </>}
 
               <Diary diaryInfo={diary} resetDiary={resetDiary} showCreative={props.showCreative} setCurrentRepInfo={setCurrentRepInfo}
