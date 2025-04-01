@@ -4,8 +4,8 @@ import { updateOneIconDB } from '@/utils/supabase/utils';
 
 
 interface repChangeType {
-  x: (infoCopy: representation[], listIndex: number, value: any,) => void,
-  y: (infoCopy: representation[], listIndex: number, value: any,) => void,
+  // x: (infoCopy: representation[], listIndex: number, value: any,) => void,
+  // y: (infoCopy: representation[], listIndex: number, value: any,) => void,
   height: (infoCopy: representation[], listIndex: number, value: any,) => void,
   width: (infoCopy: representation[], listIndex: number, value: any,) => void,
   title: (infoCopy: representation[], listIndex: number, value: any) => void,
@@ -51,13 +51,13 @@ export function AdminOptions({ item,  userMaps, removeRep, setCurrentRepInfo }: 
   return <div key={`creatorRepOps${item.id}`} className="relative text-gray-900" >
 
    
-    <hr className={"h-2 bg-gray-500"} />
+    {/* <hr className={"h-2 bg-gray-500"} />
     <label>
       x: <input type="number" value={item.x} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.x, repId: item.id })} />
     </label>
     <label className="px-4">
       y: <input type="number" value={item.y} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.y, repId: item.id })} />
-    </label>
+    </label> */}
     <hr className={"h-2 bg-gray-500"} />
     <label>
       Size - ~WIP~: <input type="number" value={item.width} className={"w-12"} onChange={inputEleRepChange({ setRepInfo: setRepInfo.size, repId: item.id })} />
@@ -84,8 +84,8 @@ export function AdminOptions({ item,  userMaps, removeRep, setCurrentRepInfo }: 
 
 
 const setRepInfo: repChangeType = {
-  x: (infoCopy, listIndex, value) => { infoCopy[listIndex].x = Number(value) },
-  y: (infoCopy, listIndex, value) => { infoCopy[listIndex].y = Number(value) },
+  // x: (infoCopy, listIndex, value) => { infoCopy[listIndex].x = Number(value) },
+  // y: (infoCopy, listIndex, value) => { infoCopy[listIndex].y = Number(value) },
   title: (infoCopy, listIndex, value) => { infoCopy[listIndex].visible_name = value },
   height: (infoCopy, listIndex, value) => { infoCopy[listIndex].height = Number(value) },
   width: (infoCopy, listIndex, value) => { infoCopy[listIndex].width = Number(value) },

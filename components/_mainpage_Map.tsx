@@ -123,7 +123,8 @@ export function GotPage(props: repPage) {
 
       setCurrentRepInfo(currentRepInfo => {
         const newRepInfo = currentRepInfo.slice()
-        newRepInfo[holding.rep.order] = holding.rep
+        const listIndex = newRepInfo.findIndex(indexOf => holding.rep.id === indexOf.id)
+        newRepInfo[listIndex] = holding.rep
         return newRepInfo
       })
 
@@ -181,7 +182,7 @@ export function GotPage(props: repPage) {
       height: size.h,
       width: size.w,
       image_storage: [],
-      order: currentRepInfo.length
+      order: currentRepInfo.length // this is broken 
     })
     updateAllIconsDB(info_copy)
     setCurrentRepInfo(info_copy)
@@ -369,7 +370,7 @@ export function GotPage(props: repPage) {
             <div className='relative bg-indigo-400 rounded-xl'>
               <canvas ref={ref}
                 onMouseDown={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
-                onTouchStart={(event) => {  event.preventDefault(); canvasPressed(event.touches[0].clientX, event.touches[0].clientY) }}
+                // onTouchStart={(event) => {  event.preventDefault(); canvasPressed(event.touches[0].clientX, event.touches[0].clientY) }}
                 onMouseUp={(event) => { canvasReleased(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
