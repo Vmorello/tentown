@@ -17,9 +17,6 @@ export interface DrawableItem {
 }
 
 
-
-
-
 export class CanvasControl implements CanvasUtilBase {
   canvas: HTMLCanvasElement
   ctx: CanvasRenderingContext2D
@@ -29,6 +26,7 @@ export class CanvasControl implements CanvasUtilBase {
   hoverOnPointerMove: (event: MouseEvent) => void
   paintBackground?: () => void
 
+  drawables = [] as DrawableItem[]
   effects = [] as DrawableItem[]
 
 
@@ -71,7 +69,13 @@ export class CanvasControl implements CanvasUtilBase {
     }
   }
 
+  addDrawable(drawable: DrawableItem) {
+    this.drawables.push(drawable) 
+  }
 
+  removeDrawable(drawable: DrawableItem) {
+    this.drawables.splice(this.drawables.indexOf(drawable), 1)
+  }
 
   setBackground(background?: HTMLImageElement, width?: number, height?: number, filter?:number) {
     console.log("setting up background")
@@ -117,6 +121,10 @@ export class CanvasControl implements CanvasUtilBase {
       this.paintBackground!()
 
       // this.convertToGreyscale()
+
+      // for (let i = 0; i < this.drawables.length; i++) {
+      //   this.drawables[i].draw(this.ctx)
+      // }
 
       for (let i = 0; i < this.effects.length; i++) {
         this.effects[i].draw(this.ctx)

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, TouchEventHandler } from 'react';
 import { useRouter } from 'next/navigation';
 
 import { v4 as uuidv4 } from 'uuid';
@@ -19,6 +19,7 @@ import EmojiPicker from 'emoji-picker-react';
 import PinButton from './PinButton';
 import { saveCanvasImage, updateAllIconsDB, removeIconDB, getUser, upsertMapDB, getImageDB, updateMapbackground } from '@/utils/supabase/utils';
 import { representation } from '@/utils/types';
+import { SrcImageVisibleItem } from '@/utils/drawableRep';
 
 interface repPage {
   icons: representation[]
@@ -72,6 +73,13 @@ export function GotPage(props: repPage) {
     console.log("trying to get map file from storage")
     getMapFileFromStorage(props.mapLocationToLoad)
   }, []);
+
+  // useEffect(() => {
+  //   if (canvasUtil === undefined) { return } // Makes this safe to do canvas-util operations
+  //   for (let i = 0; i < currentRepInfo.length; i++) {
+  //     canvasUtil.addDrawable(new SrcImageVisibleItem(currentRepInfo[i].icon, currentRepInfo[i].x, currentRepInfo[i].y))
+  //   }
+  // }, [canvasUtil]);
 
 
   useEffect(() => {
@@ -159,6 +167,7 @@ export function GotPage(props: repPage) {
     })
     updateAllIconsDB(info_copy)
     setCurrentRepInfo(info_copy)
+    canvasUtil?.addDrawable(new SrcImageVisibleItem(currentItem, x - size.w / 2, y - size.h / 2))
   }
 
   const removeRep = (id: string) => () => {
@@ -320,7 +329,9 @@ export function GotPage(props: repPage) {
 
             {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
-              <canvas ref={ref} onClick={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
+              <canvas ref={ref}  
+                  onMouseUp={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }} 
+                  onTouchEnd={(event) => { canvasPressed(event.nativeEvent.changedTouches[0].clientX, event.nativeEvent.changedTouches[0].clientY) }} 
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
