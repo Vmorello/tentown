@@ -115,7 +115,7 @@ export function GotPage(props: repPage) {
       addRep(xCanvas, yCanvas)
       setCurrentItem(noSelectionString)
       setPinStep("button")
-    }else if (holding) {
+    } else if (holding) {
       canvasUtil?.removeHover()
       holding.rep.x = xCanvas - holding.rep.width / 2
       holding.rep.y = yCanvas - holding.rep.height / 2
@@ -369,7 +369,7 @@ export function GotPage(props: repPage) {
             <div className='relative bg-indigo-400 rounded-xl'>
               <canvas ref={ref}
                 onMouseDown={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
-                onTouchStart={(event) => { canvasPressed(event.touches[0].clientX, event.touches[0].clientY) }}
+                onTouchStart={(event) => {  event.preventDefault(); canvasPressed(event.touches[0].clientX, event.touches[0].clientY) }}
                 onMouseUp={(event) => { canvasReleased(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
