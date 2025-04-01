@@ -98,6 +98,10 @@ export function GotPage(props: repPage) {
 
   //================= Main Interaction with canvas with control card ==============
 
+  const canvasReleaseEvent = (event: React.MouseEvent<HTMLCanvasElement, MouseEvent>) =>{
+    return canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY)
+  }
+
   const canvasPressed = (xCanvas: number, yCanvas: number) => {
 
 
@@ -329,9 +333,7 @@ export function GotPage(props: repPage) {
 
             {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
-              <canvas ref={ref}  
-                  onMouseUp={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }} 
-                  onTouchEnd={(event) => { canvasPressed(event.nativeEvent.changedTouches[0].clientX, event.nativeEvent.changedTouches[0].clientY) }} 
+              <canvas ref={ref} onMouseUp={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
