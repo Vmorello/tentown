@@ -72,6 +72,8 @@ export function GotPage(props: repPage) {
   useEffect(() => {
     console.log("trying to get map file from storage")
     getMapFileFromStorage(props.mapLocationToLoad)
+
+    window.scrollTo(0, 0);
   }, []);
 
   // useEffect(() => {
@@ -98,11 +100,11 @@ export function GotPage(props: repPage) {
 
   //================= Main Interaction with canvas with control card ==============
 
-  const canvasReleaseEvent = (event: React.MouseEvent<HTMLCanvasElement, MouseEvent>) =>{
-    return canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY)
-  }
+  // const canvasReleaseEvent = (event: React.MouseEvent<HTMLCanvasElement, MouseEvent>) =>{
+  //   return canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY)
+  // }
 
-  const canvasPressed = (xCanvas: number, yCanvas: number) => {
+  const canvasReleased = (xCanvas: number, yCanvas: number) => {
 
 
     if (pinStep == "place" && currentItem != noSelectionString) {
@@ -333,7 +335,9 @@ export function GotPage(props: repPage) {
 
             {/* This is the Map */}
             <div className='relative bg-indigo-400 rounded-xl'>
-              <canvas ref={ref} onMouseUp={(event) => { canvasPressed(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
+              <canvas ref={ref} 
+                onMouseDown={() => { }}
+                onMouseUp={(event) => { canvasReleased(event.nativeEvent.offsetX, event.nativeEvent.offsetY) }}
                 width={dimention.width} height={dimention.height} className="rounded-xl" />
               {pinStep == "place" && <div className='absolute top-4 left-5 -rotate-2 opacity-75 text-6xl pointer-events-none'> Place the icon down here!</div>}
 
